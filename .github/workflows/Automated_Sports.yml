@@ -25,7 +25,7 @@ jobs:
           git config --global user.name "ireentv"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Fetch, Merge Playlists, Filter Old Credits and Update
+      - name: Fetch, Merge Playlists, Deduplicate and Update
         run: |
           git pull origin main --rebase
           
@@ -39,8 +39,14 @@ jobs:
           tz = pytz.timezone('Asia/Kolkata')
           current_time = datetime.now(tz).strftime('%I:%M %p %d-%m-%Y')
 
-          # ফিল্টার করার জন্য নিষিদ্ধ শব্দের তালিকা
+          # ফিল্টার করার নিষিদ্ধ ট্যাগ ও নাম
           bad_words = ["hady", "sohanur", "livesportsplay", "sportlive18", "sayan", "drmlive", "#playlist:", "#last_update:", "#telegram:", "#owner:", "#live_count:"]
+
+          blocked_keys = {
+              "owner", "telegram", "website", "developer", "version", 
+              "playlist_name", "playlist", "last_update", "live_count", 
+              "admin", "channel_count", "channels_amount"
+          }
 
           def fetch_url(url):
               try:
@@ -60,11 +66,10 @@ jobs:
           willow_m3u_url = "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u"
           sonyliv_m3u_url = "https://raw.githubusercontent.com/sportlive18/Sonyliv-Playlist-Autoupdate/refs/heads/main/sonyliv.m3u"
 
-          willow_m3u_raw = fetch_url(willow_m3u_url)
-          sonyliv_m3u_raw = fetch_url(sonyliv_m3u_url)
-
           def filter_m3u(content):
               cleaned = []
+              if not content:
+                  return cleaned
               for line in content.splitlines():
                   l = line.strip()
                   if not l or l.startswith("#EXTM3U") or l.startswith("# Playlist Name:") or l.startswith("# Owner:"):
@@ -74,15 +79,13 @@ jobs:
                   cleaned.append(line)
               return cleaned
 
-          willow_m3u_lines = filter_m3u(willow_m3u_raw)
-          sonyliv_m3u_lines = filter_m3u(sonyliv_m3u_raw)
+          willow_m3u_lines = filter_m3u(fetch_url(willow_m3u_url))
+          sonyliv_m3u_lines = filter_m3u(fetch_url(sonyliv_m3u_url))
 
-          # চ্যানেল কাউন্ট বের করা
           willow_count = sum(1 for line in willow_m3u_lines if line.strip().startswith("#EXTINF"))
           sonyliv_count = sum(1 for line in sonyliv_m3u_lines if line.strip().startswith("#EXTINF"))
-          total_count = willow_count + sonyliv_count
+          total_m3u_count = willow_count + sonyliv_count
 
-          # কম্বাইন্ড M3U ফাইল তৈরি
           combined_m3u = [
               "#EXTM3U",
               "# Playlist Name: Willow & SonyLIV Live Events",
@@ -91,73 +94,99 @@ jobs:
               "# Website: https://anamul.pages.dev",
               "# Developer: IreenTechnology",
               "# Version: 2.0",
-              f"# Channels Amount: {total_count} (Willow: {willow_count}, SonyLIV: {sonyliv_count})",
+              f"# Channels Amount: {total_m3u_count}",
               f"# Last Update: {current_time}",
               ""
           ]
           combined_m3u.extend(willow_m3u_lines)
-          combined_m3u.append("")  # সেপারেটর
+          combined_m3u.append("")
           combined_m3u.extend(sonyliv_m3u_lines)
 
           with open("willow.m3u", "w", encoding="utf-8") as f:
               f.write("\n".join(combined_m3u).strip() + "\n")
 
           # =============================================================
-          # ২. JSON ডেটা ফেচ, ফিল্টারিং ও মার্জিং (Willow + SonyLIV)
+          # ২. JSON ডেটা ফেচ, নিখুঁত মার্জ ও ডুপ্লিকেট রিমুভ
           # =============================================================
           willow_json_url = "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.json"
           sonyliv_json_url = "https://raw.githubusercontent.com/sportlive18/Sonyliv-Playlist-Autoupdate/refs/heads/main/sonyliv.json"
 
-          willow_json_raw = fetch_url(willow_json_url)
-          sonyliv_json_raw = fetch_url(sonyliv_json_url)
-
-          def extract_events(raw_json):
+          def extract_events_list(raw_json):
               if not raw_json:
                   return []
               try:
                   data = json.loads(raw_json)
+                  events = []
                   if isinstance(data, list):
-                      return [item for item in data if not contains_bad_credit(item)]
+                      for item in data:
+                          if not contains_bad_credit(item):
+                              events.append(item)
                   elif isinstance(data, dict):
-                      events = []
                       for k, v in data.items():
-                          if k.lower() in ["owner", "telegram", "website", "developer", "version", "playlist_name", "last_update"]:
+                          if k.lower() in blocked_keys or contains_bad_credit(k):
                               continue
                           if isinstance(v, list):
-                              events.extend([item for item in v if not contains_bad_credit(item)])
-                      return events
-              except Exception:
+                              for item in v:
+                                  if not contains_bad_credit(item):
+                                      events.append(item)
+                          elif isinstance(v, dict) and not contains_bad_credit(v):
+                              events.append(v)
+                  return events
+              except Exception as e:
+                  print(f"JSON Parse Error: {e}")
                   return []
-              return []
 
-          willow_events = extract_events(willow_json_raw)
-          sonyliv_events = extract_events(sonyliv_json_raw)
+          willow_events = extract_events_list(fetch_url(willow_json_url))
+          sonyliv_events = extract_events_list(fetch_url(sonyliv_json_url))
 
-          meta = {
+          # ডুপ্লিকেট চ্যানেল বাদ দিয়ে একক লিস্ট তৈরি (Deduplication)
+          unique_events = []
+          seen_identifiers = set()
+
+          for event in (willow_events + sonyliv_events):
+              identifier = None
+              if isinstance(event, dict):
+                  # Stream URL, link, id অথবা name দিয়ে চেক করা
+                  identifier = (
+                      event.get("url") or 
+                      event.get("stream_url") or 
+                      event.get("link") or 
+                      event.get("id") or 
+                      event.get("name") or 
+                      event.get("title")
+                  )
+              if not identifier:
+                  identifier = json.dumps(event, sort_keys=True)
+
+              if identifier not in seen_identifiers:
+                  seen_identifiers.add(identifier)
+                  unique_events.append(event)
+
+          final_json = {
               "playlist_name": "Willow & SonyLIV Live Events",
               "owner": "MD ANAMUL HOQUE",
               "telegram": "https://t.me/ireentv",
               "website": "https://anamul.pages.dev",
               "developer": "IreenTechnology",
               "version": "2.0",
-              "channels_amount": total_count,
+              "channels_amount": len(unique_events),
               "last_update": current_time,
-              "willow_events": willow_events,
-              "sonyliv_events": sonyliv_events,
-              "all_events": willow_events + sonyliv_events
+              "events": unique_events
           }
 
           with open("willow.json", "w", encoding="utf-8") as f:
-              json.dump(meta, f, indent=2, ensure_ascii=False)
+              json.dump(final_json, f, indent=2, ensure_ascii=False)
 
           # =============================================================
-          # ৩. আলাদা আলাদা দুটি টেক্সট লগ ফাইল তৈরি
+          # ৩. আলাদা আলাদা দুটি টেক্সট লগ ফাইল
           # =============================================================
           with open("willow.txt", "a", encoding="utf-8") as f:
               f.write(f"🚀 Willow Synced | IST: {current_time} | Channels: {willow_count}\n")
 
           with open("sonyliv.txt", "a", encoding="utf-8") as f:
               f.write(f"🚀 SonyLIV Synced | IST: {current_time} | Channels: {sonyliv_count}\n")
+
+          print(f"Total Unique Channels in JSON: {len(unique_events)}")
 
           EOF
 
@@ -166,7 +195,7 @@ jobs:
           export TZ="Asia/Kolkata"
           git add willow.json willow.m3u willow.txt sonyliv.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Sports Database Updated (Willow + SonyLIV) ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git commit -m "Sports Database Updated (Fixed Duplicate) ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
           else
             echo "No changes to commit"
