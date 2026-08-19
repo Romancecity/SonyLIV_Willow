@@ -61,10 +61,10 @@ jobs:
               return any(bad.lower() in s for bad in bad_words)
 
           # =============================================================
-          # ১. M3U ডেটা ফেচ ও ফিল্টারিং (Willow + SonyLIV)
+          # ১. M3U ডেটা ফেচ ও ফিল্টারিং (Willow + primesport)
           # =============================================================
           willow_m3u_url = "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u"
-          sonyliv_m3u_url = "https://raw.githubusercontent.com/sportlive18/Sonyliv-Playlist-Autoupdate/refs/heads/main/sonyliv.m3u"
+          primesport_m3u_url = "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.m3u"
 
           def filter_m3u(content):
               cleaned = []
@@ -80,15 +80,15 @@ jobs:
               return cleaned
 
           willow_m3u_lines = filter_m3u(fetch_url(willow_m3u_url))
-          sonyliv_m3u_lines = filter_m3u(fetch_url(sonyliv_m3u_url))
+          primesport_m3u_lines = filter_m3u(fetch_url(primesport_m3u_url))
 
           willow_count = sum(1 for line in willow_m3u_lines if line.strip().startswith("#EXTINF"))
-          sonyliv_count = sum(1 for line in sonyliv_m3u_lines if line.strip().startswith("#EXTINF"))
-          total_m3u_count = willow_count + sonyliv_count
+          primesport_count = sum(1 for line in sonyliv_m3u_lines if line.strip().startswith("#EXTINF"))
+          total_m3u_count = willow_count + primesport_count
 
           combined_m3u = [
               "#EXTM3U",
-              "# Playlist Name: Willow & SonyLIV Live Events",
+              "# Playlist Name: Willow & primesport Live Events",
               "# Owner: MD ANAMUL HOQUE",
               "# Telegram: https://t.me/ireentv",
               "# Website: https://anamul.pages.dev",
@@ -100,7 +100,7 @@ jobs:
           ]
           combined_m3u.extend(willow_m3u_lines)
           combined_m3u.append("")
-          combined_m3u.extend(sonyliv_m3u_lines)
+          combined_m3u.extend(primesport_m3u_lines)
 
           with open("willow.m3u", "w", encoding="utf-8") as f:
               f.write("\n".join(combined_m3u).strip() + "\n")
@@ -109,7 +109,7 @@ jobs:
           # ২. JSON ডেটা ফেচ, নিখুঁত মার্জ ও ডুপ্লিকেট রিমুভ
           # =============================================================
           willow_json_url = "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.json"
-          sonyliv_json_url = "https://raw.githubusercontent.com/sportlive18/Sonyliv-Playlist-Autoupdate/refs/heads/main/sonyliv.json"
+          primesport_json_url = "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.json"
 
           def extract_events_list(raw_json):
               if not raw_json:
@@ -137,13 +137,13 @@ jobs:
                   return []
 
           willow_events = extract_events_list(fetch_url(willow_json_url))
-          sonyliv_events = extract_events_list(fetch_url(sonyliv_json_url))
+          primesport_events = extract_events_list(fetch_url(primesport_json_url))
 
           # ডুপ্লিকেট চ্যানেল বাদ দিয়ে একক লিস্ট তৈরি (Deduplication)
           unique_events = []
           seen_identifiers = set()
 
-          for event in (willow_events + sonyliv_events):
+          for event in (willow_events + primesport_events):
               identifier = None
               if isinstance(event, dict):
                   # Stream URL, link, id অথবা name দিয়ে চেক করা
@@ -163,7 +163,7 @@ jobs:
                   unique_events.append(event)
 
           final_json = {
-              "playlist_name": "Willow & SonyLIV Live Events",
+              "playlist_name": "Willow & primesport Live Events",
               "owner": "MD ANAMUL HOQUE",
               "telegram": "https://t.me/ireentv",
               "website": "https://anamul.pages.dev",
@@ -183,8 +183,8 @@ jobs:
           with open("willow.txt", "a", encoding="utf-8") as f:
               f.write(f"🚀 Willow Synced | IST: {current_time} | Channels: {willow_count}\n")
 
-          with open("sonyliv.txt", "a", encoding="utf-8") as f:
-              f.write(f"🚀 SonyLIV Synced | IST: {current_time} | Channels: {sonyliv_count}\n")
+          with open("primesport.txt", "a", encoding="utf-8") as f:
+              f.write(f"🚀 primesport Synced | IST: {current_time} | Channels: {primesport_count}\n")
 
           print(f"Total Unique Channels in JSON: {len(unique_events)}")
 
@@ -193,7 +193,7 @@ jobs:
       - name: Commit and Push
         run: |
           export TZ="Asia/Kolkata"
-          git add willow.json willow.m3u willow.txt sonyliv.txt
+          git add willow.json willow.m3u willow.txt primesport.txt
           if ! git diff --cached --quiet; then
             git commit -m "Sports Database Updated (Fixed Duplicate) ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
