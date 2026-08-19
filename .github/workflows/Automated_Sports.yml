@@ -1,4 +1,4 @@
-name: Automated Sports Playlist & JSON Updater
+name: Automated Willow & PrimeVideo JSON Updater
 
 on:
   schedule:
@@ -25,7 +25,7 @@ jobs:
           git config --global user.name "ireentv"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Fetch, Merge Playlists, Deduplicate and Update
+      - name: Fetch, Filter Old Credits, and Apply New Details
         run: |
           git pull origin main --rebase
           
@@ -39,8 +39,75 @@ jobs:
           tz = pytz.timezone('Asia/Kolkata')
           current_time = datetime.now(tz).strftime('%I:%M %p %d-%m-%Y')
 
-          # ফিল্টার করার নিষিদ্ধ ট্যাগ ও নাম
-          bad_words = ["hady", "sohanur", "livesportsplay", "sportlive18", "sayan", "drmlive", "#playlist:", "#last_update:", "#telegram:", "#owner:", "#live_count:"]
+          headers = {'User-Agent': 'Mozilla/5.0'}
+
+          def fetch_url(url):
+              req = urllib.request.Request(url, headers=headers)
+              return urllib.request.urlopen(req).read().decode('utf-8')
+
+          # -------------------------------------------------------------
+          # ১. M3U প্লেলিস্ট ফিল্টারিং ও কম্বাইন করা
+          # -------------------------------------------------------------
+          m3u_urls = [
+              "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u",
+              "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.m3u"
+          ]
+
+          cleaned_m3u_lines = []
+          source_counts = []
+
+          for url in m3u_urls:
+              try:
+                  content = fetch_url(url)
+                  source_channel_count = 0
+                  for line in content.splitlines():
+                      l = line.strip()
+                      # পুরনো ওনার সংক্রান্ত ট্যাগ বাদ দেওয়া
+                      if any(bad.lower() in l.lower() for bad in ["hady", "sohanur", "livesportsplay", "#playlist:", "#last_update:", "#telegram:", "#owner:", "#live_count:"]):
+                          continue
+                      if l.startswith("#EXTM3U") or l.startswith("# Playlist Name:") or l.startswith("# Owner:"):
+                          continue
+                      if l != "":
+                          cleaned_m3u_lines.append(line)
+                          if l.startswith("#EXTINF"):
+                              source_channel_count += 1
+                  source_counts.append(source_channel_count)
+              except Exception as e:
+                  print(f"Error fetching {url}: {e}")
+                  source_counts.append(0)
+
+          # মোট চ্যানেল সংখ্যা গণনা
+          total_channel_count = sum(1 for line in cleaned_m3u_lines if line.strip().startswith("#EXTINF"))
+
+          # নতুন M3U প্লেলিস্ট তৈরি
+          new_m3u = [
+              "#EXTM3U",
+              "# Playlist Name: Willow & Prime Cricket Event Info",
+              "# Owner: MD ANAMUL HOQUE",
+              "# Telegram: https://t.me/ireentv",
+              "# Website: https://anamul.pages.dev",
+              "# Developer: IreenTechnology",
+              "# Version: 1.0",
+              f"# Channels Amount: {total_channel_count}",
+              f"# Last Update: {current_time}",
+              ""
+          ]
+          new_m3u.extend(cleaned_m3u_lines)
+
+          with open("willow.m3u", "w", encoding="utf-8") as f:
+              f.write("\n".join(new_m3u).strip() + "\n")
+
+          # -------------------------------------------------------------
+          # ২. JSON প্লেলিস্ট ফিল্টারিং ও কম্বাইন করা
+          # -------------------------------------------------------------
+          json_urls = [
+              "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.json",
+              "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.json"
+          ]
+
+          def contains_old_credit(obj):
+              s = json.dumps(obj).lower()
+              return any(bad in s for bad in ["hady", "sohanur", "livesportsplay"])
 
           blocked_keys = {
               "owner", "telegram", "website", "developer", "version", 
@@ -48,154 +115,76 @@ jobs:
               "admin", "channel_count", "channels_amount"
           }
 
-          def fetch_url(url):
+          combined_events = []
+          combined_dict = {}
+
+          for url in json_urls:
               try:
-                  req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-                  return urllib.request.urlopen(req, timeout=15).read().decode('utf-8')
-              except Exception as e:
-                  print(f"Error fetching {url}: {e}")
-                  return ""
+                  raw = fetch_url(url)
+                  data = json.loads(raw)
 
-          def contains_bad_credit(obj):
-              s = json.dumps(obj).lower() if not isinstance(obj, str) else obj.lower()
-              return any(bad.lower() in s for bad in bad_words)
-
-          # =============================================================
-          # ১. M3U ডেটা ফেচ ও ফিল্টারিং (Willow + primesport)
-          # =============================================================
-          willow_m3u_url = "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u"
-          primesport_m3u_url = "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.m3u"
-
-          def filter_m3u(content):
-              cleaned = []
-              if not content:
-                  return cleaned
-              for line in content.splitlines():
-                  l = line.strip()
-                  if not l or l.startswith("#EXTM3U") or l.startswith("# Playlist Name:") or l.startswith("# Owner:"):
-                      continue
-                  if any(bad.lower() in l.lower() for bad in bad_words):
-                      continue
-                  cleaned.append(line)
-              return cleaned
-
-          willow_m3u_lines = filter_m3u(fetch_url(willow_m3u_url))
-          primesport_m3u_lines = filter_m3u(fetch_url(primesport_m3u_url))
-
-          willow_count = sum(1 for line in willow_m3u_lines if line.strip().startswith("#EXTINF"))
-          primesport_count = sum(1 for line in sonyliv_m3u_lines if line.strip().startswith("#EXTINF"))
-          total_m3u_count = willow_count + primesport_count
-
-          combined_m3u = [
-              "#EXTM3U",
-              "# Playlist Name: Willow & primesport Live Events",
-              "# Owner: MD ANAMUL HOQUE",
-              "# Telegram: https://t.me/ireentv",
-              "# Website: https://anamul.pages.dev",
-              "# Developer: IreenTechnology",
-              "# Version: 2.0",
-              f"# Channels Amount: {total_m3u_count}",
-              f"# Last Update: {current_time}",
-              ""
-          ]
-          combined_m3u.extend(willow_m3u_lines)
-          combined_m3u.append("")
-          combined_m3u.extend(primesport_m3u_lines)
-
-          with open("willow.m3u", "w", encoding="utf-8") as f:
-              f.write("\n".join(combined_m3u).strip() + "\n")
-
-          # =============================================================
-          # ২. JSON ডেটা ফেচ, নিখুঁত মার্জ ও ডুপ্লিকেট রিমুভ
-          # =============================================================
-          willow_json_url = "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.json"
-          primesport_json_url = "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.json"
-
-          def extract_events_list(raw_json):
-              if not raw_json:
-                  return []
-              try:
-                  data = json.loads(raw_json)
-                  events = []
-                  if isinstance(data, list):
-                      for item in data:
-                          if not contains_bad_credit(item):
-                              events.append(item)
-                  elif isinstance(data, dict):
+                  if isinstance(data, dict):
                       for k, v in data.items():
-                          if k.lower() in blocked_keys or contains_bad_credit(k):
+                          if k.lower() in blocked_keys or contains_old_credit(k) or contains_old_credit(v):
                               continue
                           if isinstance(v, list):
-                              for item in v:
-                                  if not contains_bad_credit(item):
-                                      events.append(item)
-                          elif isinstance(v, dict) and not contains_bad_credit(v):
-                              events.append(v)
-                  return events
+                              cleaned_list = [item for item in v if not contains_old_credit(item)]
+                              if k in combined_dict:
+                                  combined_dict[k].extend(cleaned_list)
+                              else:
+                                  combined_dict[k] = cleaned_list
+                          else:
+                              combined_dict[k] = v
+
+                  elif isinstance(data, list):
+                      cleaned_list = [item for item in data if not contains_old_credit(item)]
+                      combined_events.extend(cleaned_list)
               except Exception as e:
-                  print(f"JSON Parse Error: {e}")
-                  return []
+                  print(f"Error fetching JSON {url}: {e}")
 
-          willow_events = extract_events_list(fetch_url(willow_json_url))
-          primesport_events = extract_events_list(fetch_url(primesport_json_url))
-
-          # ডুপ্লিকেট চ্যানেল বাদ দিয়ে একক লিস্ট তৈরি (Deduplication)
-          unique_events = []
-          seen_identifiers = set()
-
-          for event in (willow_events + primesport_events):
-              identifier = None
-              if isinstance(event, dict):
-                  # Stream URL, link, id অথবা name দিয়ে চেক করা
-                  identifier = (
-                      event.get("url") or 
-                      event.get("stream_url") or 
-                      event.get("link") or 
-                      event.get("id") or 
-                      event.get("name") or 
-                      event.get("title")
-                  )
-              if not identifier:
-                  identifier = json.dumps(event, sort_keys=True)
-
-              if identifier not in seen_identifiers:
-                  seen_identifiers.add(identifier)
-                  unique_events.append(event)
-
-          final_json = {
-              "playlist_name": "Willow & primesport Live Events",
+          meta = {
+              "playlist_name": "Willow & Prime Cricket Event Info",
               "owner": "MD ANAMUL HOQUE",
               "telegram": "https://t.me/ireentv",
               "website": "https://anamul.pages.dev",
               "developer": "IreenTechnology",
-              "version": "2.0",
-              "channels_amount": len(unique_events),
-              "last_update": current_time,
-              "events": unique_events
+              "version": "1.0",
+              "channels_amount": total_channel_count,
+              "last_update": current_time
           }
 
+          final_json = {**meta}
+          if combined_dict:
+              final_json.update(combined_dict)
+          if combined_events:
+              if "events" in final_json:
+                  final_json["events"].extend(combined_events)
+              else:
+                  final_json["events"] = combined_events
+
+          # willow.json ফাইলে সেভ করা
           with open("willow.json", "w", encoding="utf-8") as f:
               json.dump(final_json, f, indent=2, ensure_ascii=False)
 
-          # =============================================================
-          # ৩. আলাদা আলাদা দুটি টেক্সট লগ ফাইল
-          # =============================================================
+          # -------------------------------------------------------------
+          # ৩. আলাদা আলাদা টেক্সট লগ ফাইল আপডেট করা
+          # -------------------------------------------------------------
+          # ১ম প্লেলিস্টের জন্য willow.txt
           with open("willow.txt", "a", encoding="utf-8") as f:
-              f.write(f"🚀 Willow Synced | IST: {current_time} | Channels: {willow_count}\n")
+              f.write(f"🚀 Willow Synced | IST: {current_time} | Channels: {source_counts[0]}\n")
 
-          with open("primesport.txt", "a", encoding="utf-8") as f:
-              f.write(f"🚀 primesport Synced | IST: {current_time} | Channels: {primesport_count}\n")
-
-          print(f"Total Unique Channels in JSON: {len(unique_events)}")
+          # ২য় প্লেলিস্টের জন্য primevideo.txt
+          with open("primevideo.txt", "a", encoding="utf-8") as f:
+              f.write(f"🚀 PrimeVideo Synced | IST: {current_time} | Channels: {source_counts[1]}\n")
 
           EOF
 
       - name: Commit and Push
         run: |
           export TZ="Asia/Kolkata"
-          git add willow.json willow.m3u willow.txt primesport.txt
+          git add willow.json willow.m3u willow.txt primevideo.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Sports Database Updated (Fixed Duplicate) ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git commit -m "Willow & PrimeVideo Database Updated ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
           else
             echo "No changes to commit"
