@@ -5,10 +5,10 @@
   "website": "https://anamul.pages.dev",
   "developer": "IreenTechnology",
   "version": "1.0",
-  "channels_amount": 4,
-  "last_update": "04:19 AM 21-08-2026",
+  "channels_amount": 5,
+  "last_update": "04:49 AM 21-08-2026",
   "Stats": {
-    "LiveCount": 6,
+    "LiveCount": 4,
     "UpcomingCount": 0
   },
   "Matches": [
@@ -16,20 +16,33 @@
       "match_id": "B0HB6V5WQK",
       "title": "Caribbean Premier League 2026 - 12th Match - Antigua And Barbuda Falcons vs St Kitts And Nevis Patriots",
       "synopsis": "Caribbean Premier League 2026 - 12th Match - Antigua And Barbuda Falcons vs St Kitts And Nevis Patriots",
-      "status": "UPCOMING",
-      "time": "Live at 5 AM BDT",
-      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.d74f3eaa-08a1-4ccf-a4d4-1321edfe27db/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
+      "status": "LIVE",
+      "time": "4:30 AM BDT",
+      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.d74f3eaa-08a1-4ccf-a4d4-1321edfe27db/3/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HB6V5WQK?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_1",
       "is_free": false,
-      "stream_url_alpha": "",
-      "drm_key": ""
+      "stream_url_alpha": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wpcqh5sqtu/out/v1/14f0ec73c32f45bd80fc18df1cc56f9b/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wpcqh5sqtu/out/v1/14f0ec73c32f45bd80fc18df1cc56f9b/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/wpcqh5sqtu/out/v1/14f0ec73c32f45bd80fc18df1cc56f9b/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/wpcqh5sqtu/out/v1/14f0ec73c32f45bd80fc18df1cc56f9b/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/wpcqh5sqtu/out/v1/14f0ec73c32f45bd80fc18df1cc56f9b/cenc.mpd"
+      },
+      "stream_url_bravo": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/qatxsyxdow/out/v1/d81e0d7c0c9e4749b03d70235e38306b/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/qatxsyxdow/out/v1/d81e0d7c0c9e4749b03d70235e38306b/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/qatxsyxdow/out/v1/d81e0d7c0c9e4749b03d70235e38306b/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/qatxsyxdow/out/v1/d81e0d7c0c9e4749b03d70235e38306b/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/qatxsyxdow/out/v1/d81e0d7c0c9e4749b03d70235e38306b/cenc.mpd"
+      },
+      "drm_key": "801687d4b86a4df1854437ae7b891915:c46c0c435a4eabecc232d2b3fb580950"
     },
     {
       "match_id": "B0H891V7C3",
       "title": "Top End T20 Series 2026 - 1st Match - Victoria vs Hobart Hurricanes",
       "synopsis": "Top End T20 Series 2026 - 1st Match - Victoria vs Hobart Hurricanes",
       "status": "UPCOMING",
-      "time": "Live at 6:30 AM BDT",
+      "time": "Live at 6 AM BDT",
       "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.c689b42e-92d1-42e3-bf94-4248fe6af479/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0H891V7C3?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_2",
       "is_free": false,
@@ -258,7 +271,7 @@
       "synopsis": "Club Olimpia vs. CR Vasco da Gama",
       "status": "LIVE",
       "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.8e68cad8-67d5-4b5f-8fc7-a14b4058d05c/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.8e68cad8-67d5-4b5f-8fc7-a14b4058d05c/6/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HBQSFQ6M",
       "is_free": false,
       "stream_url": {
@@ -268,23 +281,6 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd"
       },
       "drm_key": "fa5e8db5359fc7d1f15207d5de2a3ac4:78a6c0a41972dfdba2145ae0ad4bd681"
-    },
-    {
-      "match_id": "B0HFJC3B58",
-      "title": "TOURCAST  from BMW Championship Round 1-Round 1",
-      "synopsis": "TOURCAST  from BMW Championship Round 1-Round 1",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.e5fe7c7f-12bf-4124-aff3-f3a2531f69e5/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HFJC3B58",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x4krgolcxs/out/v1/747627063afd488fb91e534d92869d45/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x4krgolcxs/out/v1/747627063afd488fb91e534d92869d45/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/x4krgolcxs/out/v1/747627063afd488fb91e534d92869d45/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/x4krgolcxs/out/v1/747627063afd488fb91e534d92869d45/cenc.mpd"
-      },
-      "drm_key": "8c8753a34518b7d3093885f956e7afd9:8a4a2f1accb3ac0f42ad1c1502ee833e"
     },
     {
       "match_id": "B0HCY1W5BC",
@@ -304,6 +300,23 @@
       "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
     },
     {
+      "match_id": "B0HFJC3B58",
+      "title": "TOURCAST  from BMW Championship Round 1-Round 1",
+      "synopsis": "TOURCAST  from BMW Championship Round 1-Round 1",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.e5fe7c7f-12bf-4124-aff3-f3a2531f69e5/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HFJC3B58",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x4krgolcxs/out/v1/747627063afd488fb91e534d92869d45/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x4krgolcxs/out/v1/747627063afd488fb91e534d92869d45/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/x4krgolcxs/out/v1/747627063afd488fb91e534d92869d45/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/x4krgolcxs/out/v1/747627063afd488fb91e534d92869d45/cenc.mpd"
+      },
+      "drm_key": "8c8753a34518b7d3093885f956e7afd9:8a4a2f1accb3ac0f42ad1c1502ee833e"
+    },
+    {
       "match_id": "B0HFGGQWNL",
       "title": "Quebec City - Early Rounds",
       "synopsis": "Quebec City - Early Rounds",
@@ -319,34 +332,6 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd"
       },
       "drm_key": "59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a"
-    },
-    {
-      "match_id": "B0HCY67LRZ",
-      "title": "Aug 20 - PTT East Lansing",
-      "synopsis": "Aug 20 - PTT East Lansing",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.76d8432e-5896-452d-9ed9-2e1de5768e9e/5/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HCY67LRZ",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://a84live-pv-ta-amazon.akamaized.net/$T$2D3RhEOhAQWhBFgkYWY3NDZlZjAtYzM0OC00MGM1LWFjN2UtYTVhZWIzNjhiNjA0WJCnAWpwcmltZXZpZGVvBBpqms96Bhpqhwj6A2Zha2FtYWkCeClzc2lkOmE0Njk2OGEyLTkyZTAtNGY2My1iYTQxLWJhYjk4YWFmOGM0NxkBOKEFoQJ4My92aXRyb2ludjd2L291dC92MS8wZGYyYjA1ZTdmZWM0MzgyOTBkZmM0MGFhODM1NTg0NBkBPIFiVVNYIEwc43MjEZrs7vqPOdP4dSdkw3u2SVUYCvtRl1meqvhB/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/vitroinv7v/out/v1/0df2b05e7fec438290dfc40aa8355844/33155006-74ac-47f8-a395-e6726eeb489f-cenc.mpd"
-      },
-      "drm_key": "93fd66fedf4e7cc89d9650fa3bdc86cf:9703c715f56ad9d6614bc7e7bf3009f6"
-    },
-    {
-      "match_id": "B0HF54N3HT",
-      "title": "Aug 20 - PTT Nashville",
-      "synopsis": "Aug 20 - PTT Nashville",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.8f058d3c-a95f-4f2d-b488-6ab7b30a2d95/8/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HF54N3HT",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://live-pv-ta.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWJCnAWpwcmltZXZpZGVvBBpqmvKfBhpqhywfA2ZmYXN0bHkCeClzc2lkOjMzNjA2NWZmLTBlYjItNDNhMC1hY2VlLTVkMzlhOTg1ZDYyMBkBOKEFoQJ4My9wdGtmOWZjY3VkL291dC92MS80ODdlZjlkNjUxODI0MDUwYTlkNzgxYzk5YTU1OTBhYRkBPIFiVVNYIBhAWqI0VYALQfMQ1FpsTMUg1NyWJxJjjXAtpb1Dhz3z/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/ptkf9fccud/out/v1/487ef9d651824050a9d781c99a5590aa/227f1594-72e6-435f-b83b-13c21c95a3db-cenc.mpd"
-      },
-      "drm_key": "fe4e9db0fc6a46660de0ae32a6c4cf9f:cc970b602b9ccd67ea7c482f780fadbb"
     }
   ]
 }
