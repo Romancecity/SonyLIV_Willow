@@ -1,4 +1,4 @@
-name: Automated Willow & PrimeVideo JSON Updater
+name: Automated Willow, PrimeVideo & Tapmad JSON Updater
 
 on:
   schedule:
@@ -50,7 +50,8 @@ jobs:
           # -------------------------------------------------------------
           m3u_urls = [
               "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u",
-              "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.m3u"
+              "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.m3u",
+              "https://raw.githubusercontent.com/srhady/tapmad-bd/refs/heads/main/tapmad_bd.m3u"
           ]
 
           cleaned_m3u_lines = []
@@ -82,7 +83,7 @@ jobs:
           # নতুন M3U প্লেলিস্ট তৈরি
           new_m3u = [
               "#EXTM3U",
-              "# Playlist Name: Willow & Prime Cricket Event Info",
+              "# Playlist Name: Willow, Prime & Tapmad Sports Event Info",
               "# Owner: MD ANAMUL HOQUE",
               "# Telegram: https://t.me/ireentv",
               "# Website: https://anamul.pages.dev",
@@ -102,7 +103,8 @@ jobs:
           # -------------------------------------------------------------
           json_urls = [
               "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.json",
-              "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.json"
+              "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.json",
+              "https://raw.githubusercontent.com/srhady/tapmad-bd/refs/heads/main/tapmad_bd.json"
           ]
 
           def contains_old_credit(obj):
@@ -143,7 +145,7 @@ jobs:
                   print(f"Error fetching JSON {url}: {e}")
 
           meta = {
-              "playlist_name": "Willow & Prime Cricket Event Info",
+              "playlist_name": "Willow, Prime & Tapmad Sports Event Info",
               "owner": "MD ANAMUL HOQUE",
               "telegram": "https://t.me/ireentv",
               "website": "https://anamul.pages.dev",
@@ -169,22 +171,27 @@ jobs:
           # -------------------------------------------------------------
           # ৩. আলাদা আলাদা টেক্সট লগ ফাইল আপডেট করা
           # -------------------------------------------------------------
-          # ১ম প্লেলিস্টের জন্য willow.txt
+          # ১ম প্লেলিস্ট (Willow)
           with open("willow.txt", "a", encoding="utf-8") as f:
               f.write(f"🚀 Willow Synced | IST: {current_time} | Channels: {source_counts[0]}\n")
 
-          # ২য় প্লেলিস্টের জন্য primevideo.txt
+          # ২য় প্লেলিস্ট (PrimeVideo)
           with open("primevideo.txt", "a", encoding="utf-8") as f:
               f.write(f"🚀 PrimeVideo Synced | IST: {current_time} | Channels: {source_counts[1]}\n")
+
+          # ৩য় প্লেলিস্ট (Tapmad)
+          if len(source_counts) > 2:
+              with open("tapmad.txt", "a", encoding="utf-8") as f:
+                  f.write(f"🚀 Tapmad Synced | IST: {current_time} | Channels: {source_counts[2]}\n")
 
           EOF
 
       - name: Commit and Push
         run: |
           export TZ="Asia/Kolkata"
-          git add willow.json willow.m3u willow.txt primevideo.txt
+          git add willow.json willow.m3u willow.txt primevideo.txt tapmad.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Willow & PrimeVideo Database Updated ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git commit -m "Willow, Prime & Tapmad Database Updated ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
           else
             echo "No changes to commit"
