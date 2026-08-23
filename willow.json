@@ -5,10 +5,10 @@
   "website": "https://anamul.pages.dev",
   "developer": "IreenTechnology",
   "version": "1.0",
-  "channels_amount": 2,
-  "last_update": "04:02 AM 24-08-2026",
+  "channels_amount": 4,
+  "last_update": "04:25 AM 24-08-2026",
   "Stats": {
-    "LiveCount": 2,
+    "LiveCount": 3,
     "UpcomingCount": 0
   },
   "Matches": [
@@ -16,13 +16,26 @@
       "match_id": "B0HC2X52PB",
       "title": "Caribbean Premier League 2026 - 15th Match - Antigua And Barbuda Falcons vs Guyana Amazon Warriors",
       "synopsis": "Caribbean Premier League 2026 - 15th Match - Antigua And Barbuda Falcons vs Guyana Amazon Warriors",
-      "status": "UPCOMING",
-      "time": "Live at 5 AM BDT",
-      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.2705bafd-99dc-47ab-a21f-c023a94a55c9/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
+      "status": "LIVE",
+      "time": "4:15 AM BDT",
+      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.2705bafd-99dc-47ab-a21f-c023a94a55c9/3/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HC2X52PB?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_1",
       "is_free": false,
-      "stream_url_alpha": "",
-      "drm_key": ""
+      "stream_url_alpha": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/jt0bwlnvii/out/v1/f9d82fbbbb1441398d2e8d719f8f6a13/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/jt0bwlnvii/out/v1/f9d82fbbbb1441398d2e8d719f8f6a13/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/jt0bwlnvii/out/v1/f9d82fbbbb1441398d2e8d719f8f6a13/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/jt0bwlnvii/out/v1/f9d82fbbbb1441398d2e8d719f8f6a13/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/jt0bwlnvii/out/v1/f9d82fbbbb1441398d2e8d719f8f6a13/cenc.mpd"
+      },
+      "stream_url_bravo": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/skog2xk9tx/out/v1/bcab6fad7d2347a59a933873ee0ac8b8/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/skog2xk9tx/out/v1/bcab6fad7d2347a59a933873ee0ac8b8/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/skog2xk9tx/out/v1/bcab6fad7d2347a59a933873ee0ac8b8/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/skog2xk9tx/out/v1/bcab6fad7d2347a59a933873ee0ac8b8/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/skog2xk9tx/out/v1/bcab6fad7d2347a59a933873ee0ac8b8/cenc.mpd"
+      },
+      "drm_key": "a2a76d0c7cd3e2d7c37febbe71fdb36a:4e983959b490b7470b71e2ce796be323"
     },
     {
       "match_id": "B0HBQD6TGZ",
@@ -285,6 +298,23 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/nl9acyq8n3/out/v1/5dc4b6dd4c094ccb8c3c92e03e87cda7/cenc.mpd"
       },
       "drm_key": "6670dbc6eb97a1c7fc6395d952fb00b7:72a3574c534811db5a4804695a184221"
+    },
+    {
+      "match_id": "B0HF1KWPS7",
+      "title": "Tennis Today Live-Winston-Salem-ATP & Monterrey-WTA Early Rounds",
+      "synopsis": "Tennis Today Live-Winston-Salem-ATP & Monterrey-WTA Early Rounds",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.81b3744d-1928-48ef-b824-16bdb3e7a3ca/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HF1KWPS7",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd"
+      },
+      "drm_key": "59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a"
     }
   ]
 }
