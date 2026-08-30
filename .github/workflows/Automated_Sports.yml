@@ -51,7 +51,8 @@ jobs:
           m3u_urls = [
               "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u",
               "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.m3u",
-              "https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.m3u"
+              "https://raw.githubusercontent.com/srhady/axsports/refs/heads/main/playlist.m3u",
+              "https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.m3u""
           ]
 
           cleaned_m3u_lines = []
@@ -104,7 +105,8 @@ jobs:
           json_urls = [
               "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.json",
               "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.json",
-              "https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.json"
+              "https://raw.githubusercontent.com/srhady/axsports/refs/heads/main/live_sports.json",
+              "https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.json""
           ]
 
           def contains_old_credit(obj):
