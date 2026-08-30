@@ -1,4 +1,4 @@
-name: Automated Willow & PrimeVideo JSON Updater
+name: Automated Willow, PrimeVideo & Sports Data JSON Updater
 
 on:
   schedule:
@@ -45,6 +45,9 @@ jobs:
               req = urllib.request.Request(url, headers=headers)
               return urllib.request.urlopen(req).read().decode('utf-8')
 
+          # ফিল্টার করার জন্য কি-ওয়ার্ড তালিকা
+          bad_keywords = ["hady", "sohanur", "livesportsplay", "monirul", "#playlist:", "#last_update:", "#telegram:", "#owner:", "#live_count:"]
+
           # -------------------------------------------------------------
           # ১. M3U প্লেলিস্ট ফিল্টারিং ও কম্বাইন করা
           # -------------------------------------------------------------
@@ -64,7 +67,7 @@ jobs:
                   for line in content.splitlines():
                       l = line.strip()
                       # পুরনো ওনার সংক্রান্ত ট্যাগ বাদ দেওয়া
-                      if any(bad.lower() in l.lower() for bad in ["hady", "sohanur", "livesportsplay", "#playlist:", "#last_update:", "#telegram:", "#owner:", "#live_count:"]):
+                      if any(bad.lower() in l.lower() for bad in bad_keywords):
                           continue
                       if l.startswith("#EXTM3U") or l.startswith("# Playlist Name:") or l.startswith("# Owner:"):
                           continue
@@ -109,7 +112,7 @@ jobs:
 
           def contains_old_credit(obj):
               s = json.dumps(obj).lower()
-              return any(bad in s for bad in ["hady", "sohanur", "livesportsplay"])
+              return any(bad.lower() in s for bad in ["hady", "sohanur", "livesportsplay", "monirul"])
 
           blocked_keys = {
               "owner", "telegram", "website", "developer", "version", 
@@ -179,14 +182,18 @@ jobs:
           with open("primevideo.txt", "a", encoding="utf-8") as f:
               f.write(f"🚀 PrimeVideo Synced | IST: {current_time} | Channels: {source_counts[1]}\n")
 
+          # ৩য় প্লেলিস্টের জন্য sports_data.txt
+          with open("sports_data.txt", "a", encoding="utf-8") as f:
+              f.write(f"🚀 Sports Data Synced | IST: {current_time} | Channels: {source_counts[2]}\n")
+
           EOF
 
       - name: Commit and Push
         run: |
           export TZ="Asia/Kolkata"
-          git add willow.json willow.m3u willow.txt primevideo.txt
+          git add willow.json willow.m3u willow.txt primevideo.txt sports_data.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Willow & PrimeVideo Database Updated ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git commit -m "Willow, PrimeVideo & Sports Data Database Updated ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
           else
             echo "No changes to commit"
