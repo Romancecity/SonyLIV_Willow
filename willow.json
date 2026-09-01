@@ -5,10 +5,10 @@
   "website": "https://anamul.pages.dev",
   "developer": "IreenTechnology",
   "version": "1.0",
-  "channels_amount": 20,
-  "last_update": "10:30 AM 01-09-2026",
+  "channels_amount": 0,
+  "last_update": "03:30 PM 01-09-2026",
   "Stats": {
-    "LiveCount": 0,
+    "LiveCount": 1,
     "UpcomingCount": 0
   },
   "Matches": [
@@ -251,11 +251,25 @@
       "is_free": false,
       "stream_url_alpha": "",
       "drm_key": ""
+    },
+    {
+      "match_id": "B0H3H6CJ7M",
+      "title": "Sep 1 - PTT Frankfurt",
+      "synopsis": "Sep 1 - PTT Frankfurt",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.2deeaf04-8ef7-4ccd-8481-646aaf034235/4/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0H3H6CJ7M",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/b09weob82b/out/v1/5d2f0a807eee4008b89120b1704ec1e1/42947e63-6a14-405c-8ff3-eedbe86fc566-cenc.mpd"
+      },
+      "drm_key": "08ba5cf40c6a9491e2ab84818c43409a:856b724f1987791886f2a94ef796e2e0"
     }
   ],
   "name": "Live and Upcoming Sports Data",
   "telegram_channel": "https://t.me/sm_iptv_bd",
-  "last_update_time": "11:00:36 AM 01-09-2026",
+  "last_update_time": "03:00:40 PM 01-09-2026",
   "total_matches": 150,
   "live_match": 69,
   "matches": [
@@ -326,102 +340,6 @@
         {
           "channel_name": "Tennis ATP Winston-Salem",
           "stream_url": "http://193.47.62.41/hls/QTTT.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-        }
-      ]
-    },
-    {
-      "status": "LIVE",
-      "Category": "Basketball",
-      "event_name": "Mexico Vs Brazil",
-      "eventInfo": {
-        "teamA": "Mexico",
-        "teamB": "Brazil",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/36224/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/6126/image",
-        "eventName": "FIBA World Cup Qualification, Americas",
-        "event_logo": "http://api.sofascore.com/api/v1/unique-tournament/10461/image/dark",
-        "startTime": "01/09/2026 08:10:00 AM"
-      },
-      "streams": [
-        {
-          "channel_name": "DAZN",
-          "stream_url": "https://live.ftlcbx.com/live/73311892_de50276866ae0d869b75b4d21321d460_1080p.m3u8?auth_key=1788242914-0-0-7e380fa7b68fa96924c7e7300a0c4857"
-        },
-        {
-          "channel_name": "QUALITY (USE VPN)",
-          "stream_url": "http://193.47.62.41/hls/EEEEQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-        },
-        {
-          "channel_name": "HD QUALITY 1",
-          "stream_url": ""
-        },
-        {
-          "channel_name": "SD TV LIVE ",
-          "stream_url": ""
-        }
-      ]
-    },
-    {
-      "status": "LIVE",
-      "Category": "Boxing",
-      "event_name": "WWE RAW Vs WWE RAW",
-      "eventInfo": {
-        "teamA": "WWE RAW",
-        "teamB": "WWE RAW",
-        "teamAFlag": "https://i.ibb.co/Hmg2K3Q/20260310-201809.png",
-        "teamBFlag": "https://i.ibb.co/Hmg2K3Q/20260310-201809.png",
-        "eventName": "Monday Night RAW",
-        "event_logo": "https://i.ibb.co/4R6j8XK0/WWE-Logo-svg.png",
-        "startTime": "01/09/2026 06:00:00 AM"
-      },
-      "streams": [
-        {
-          "channel_name": "HD QUALITY WWE",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/54800/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
-        },
-        {
-          "channel_name": "XTREME FHD 2 ",
-          "stream_url": ""
-        },
-        {
-          "channel_name": "HD QUALITY 2",
-          "stream_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/1.m3u8"
-        },
-        {
-          "channel_name": "WWE HD",
-          "stream_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/2.m3u8"
-        },
-        {
-          "channel_name": "WWE SD",
-          "stream_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/3.m3u8"
-        },
-        {
-          "channel_name": "QUALITY (USE VPN)",
-          "stream_url": "http://193.47.62.55/hls/DHHHH.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-        },
-        {
-          "channel_name": "FHD SERVER",
-          "stream_url": ""
-        },
-        {
-          "channel_name": "RAW 1",
-          "stream_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/6.m3u8"
-        },
-        {
-          "channel_name": "RAW 2",
-          "stream_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8"
-        },
-        {
-          "channel_name": "RAW 3",
-          "stream_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8"
-        },
-        {
-          "channel_name": "NETFLIX HD",
-          "stream_url": ""
-        },
-        {
-          "channel_name": "NETFLIX SD",
-          "stream_url": ""
         }
       ]
     },
@@ -4179,6 +4097,70 @@
     },
     {
       "status": "LIVE",
+      "Category": "Boxing",
+      "event_name": "WWE RAW Vs WWE RAW",
+      "eventInfo": {
+        "teamA": "WWE RAW",
+        "teamB": "WWE RAW",
+        "teamAFlag": "https://i.ibb.co/Hmg2K3Q/20260310-201809.png",
+        "teamBFlag": "https://i.ibb.co/Hmg2K3Q/20260310-201809.png",
+        "eventName": "Monday Night RAW",
+        "event_logo": "https://i.ibb.co/4R6j8XK0/WWE-Logo-svg.png",
+        "startTime": "01/09/2026 06:00:00 AM"
+      },
+      "streams": [
+        {
+          "channel_name": "HD QUALITY WWE",
+          "stream_url": "https://chatgpt.hereisman.net/playlist/54800/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
+        },
+        {
+          "channel_name": "XTREME FHD 2 ",
+          "stream_url": ""
+        },
+        {
+          "channel_name": "HD QUALITY 2",
+          "stream_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/1.m3u8"
+        },
+        {
+          "channel_name": "WWE HD",
+          "stream_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/2.m3u8"
+        },
+        {
+          "channel_name": "WWE SD",
+          "stream_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/3.m3u8"
+        },
+        {
+          "channel_name": "QUALITY (USE VPN)",
+          "stream_url": "http://193.47.62.55/hls/DHHHH.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+        },
+        {
+          "channel_name": "FHD SERVER",
+          "stream_url": ""
+        },
+        {
+          "channel_name": "RAW 1",
+          "stream_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/6.m3u8"
+        },
+        {
+          "channel_name": "RAW 2",
+          "stream_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8"
+        },
+        {
+          "channel_name": "RAW 3",
+          "stream_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8"
+        },
+        {
+          "channel_name": "NETFLIX HD",
+          "stream_url": ""
+        },
+        {
+          "channel_name": "NETFLIX SD",
+          "stream_url": ""
+        }
+      ]
+    },
+    {
+      "status": "LIVE",
       "Category": "Football",
       "event_name": "Boston Legacy FC Vs Angel City FC",
       "eventInfo": {
@@ -4542,6 +4524,38 @@
         },
         {
           "channel_name": "SD MLB ",
+          "stream_url": ""
+        }
+      ]
+    },
+    {
+      "status": "LIVE",
+      "Category": "Basketball",
+      "event_name": "Mexico Vs Brazil",
+      "eventInfo": {
+        "teamA": "Mexico",
+        "teamB": "Brazil",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/36224/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/6126/image",
+        "eventName": "FIBA World Cup Qualification, Americas",
+        "event_logo": "http://api.sofascore.com/api/v1/unique-tournament/10461/image/dark",
+        "startTime": "01/09/2026 08:10:00 AM"
+      },
+      "streams": [
+        {
+          "channel_name": "DAZN",
+          "stream_url": "https://live.ftlcbx.com/live/73311892_de50276866ae0d869b75b4d21321d460_1080p.m3u8?auth_key=1788242914-0-0-7e380fa7b68fa96924c7e7300a0c4857"
+        },
+        {
+          "channel_name": "QUALITY (USE VPN)",
+          "stream_url": "http://193.47.62.41/hls/EEEEQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+        },
+        {
+          "channel_name": "HD QUALITY 1",
+          "stream_url": ""
+        },
+        {
+          "channel_name": "SD TV LIVE ",
           "stream_url": ""
         }
       ]
