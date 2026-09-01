@@ -1,184 +1,148 @@
-steps:
-  - name: Checkout repository
-    uses: actions/checkout@v4
-    with:
-      fetch-depth: 0
+name: Automated Sports Data JSON Updater
 
-  - name: Configure Git User
-    run: |
-      git config --global user.name "ireentv"
-      git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
-  - name: Fetch, Filter Old Credits, and Apply New Details
-    run: |
-      git pull origin main --rebase
-      
-      python3 - << 'EOF'
-      import urllib.request
-      import json
-      from datetime import datetime
-      import pytz
+jobs:
+  update-file:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
-      # সময় নির্ধারণ (Asia/Kolkata)
-      tz = pytz.timezone('Asia/Kolkata')
-      current_time = datetime.now(tz).strftime('%I:%M %p %d-%m-%Y')
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      headers = {'User-Agent': 'Mozilla/5.0'}
+      - name: Configure Git User
+        run: |
+          git config --global user.name "ireentv"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      def fetch_url(url):
-          req = urllib.request.Request(url, headers=headers)
-          return urllib.request.urlopen(req).read().decode('utf-8')
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
 
-      # ফিল্টার করার জন্য কি-ওয়ার্ড তালিকা
-      bad_keywords = ["hady", "sohanur", "livesportsplay", "monirul", "#playlist:", "#last_update:", "#telegram:", "#owner:", "#live_count:"]
+      - name: Install dependencies
+        run: |
+          pip install pytz
 
-      # -------------------------------------------------------------
-      # ১. M3U প্লেলিস্ট ফিল্টারিং ও কম্বাইন করা
-      # -------------------------------------------------------------
-      m3u_urls = [
-          "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u",
-          "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.m3u",
-          "https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.m3u"
-      ]
+      - name: Fetch, Filter Old Credits, and Apply New Details
+        env:
+          JSON_PLAYLIST_URLS: ${{ secrets.JSON_PLAYLIST_URLS }}
+        run: |
+          git pull origin main --rebase
+          python -c '
+          import os
+          import urllib.request
+          import json
+          from datetime import datetime
+          import pytz
 
-      cleaned_m3u_lines = []
-      source_counts = []
+          tz = pytz.timezone("Asia/Kolkata")
+          current_time = datetime.now(tz).strftime("%I:%M %p %d-%m-%Y")
 
-      for url in m3u_urls:
-          try:
-              content = fetch_url(url)
-              source_channel_count = 0
-              for line in content.splitlines():
-                  l = line.strip()
-                  # পুরনো ওনার সংক্রান্ত ট্যাগ বাদ দেওয়া
-                  if any(bad.lower() in l.lower() for bad in bad_keywords):
-                      continue
-                  if l.startswith("#EXTM3U") or l.startswith("# Playlist Name:") or l.startswith("# Owner:"):
-                      continue
-                  if l != "":
-                      cleaned_m3u_lines.append(line)
-                      if l.startswith("#EXTINF"):
-                          source_channel_count += 1
-              source_counts.append(source_channel_count)
-          except Exception as e:
-              print(f"Error fetching {url}: {e}")
-              source_counts.append(0)
+          headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
-      # মোট চ্যানেল সংখ্যা গণনা
-      total_channel_count = sum(1 for line in cleaned_m3u_lines if line.strip().startswith("#EXTINF"))
+          raw_urls = os.environ.get("JSON_PLAYLIST_URLS", "")
+          json_urls = [u.strip() for u in raw_urls.splitlines() if u.strip() and not u.strip().startswith("#")]
 
-      # নতুন M3U প্লেলিস্ট তৈরি
-      new_m3u = [
-          "#EXTM3U",
-          "# Playlist Name: Willow & Prime Cricket Event Info",
-          "# Owner: MD ANAMUL HOQUE",
-          "# Telegram: https://t.me/ireentv",
-          "# Website: https://anamul.pages.dev",
-          "# Developer: IreenTechnology",
-          "# Version: 1.0",
-          f"# Channels Amount: {total_channel_count}",
-          f"# Last Update: {current_time}",
-          ""
-      ]
-      new_m3u.extend(cleaned_m3u_lines)
+          def fetch_url(url):
+              req = urllib.request.Request(url, headers=headers)
+              with urllib.request.urlopen(req, timeout=20) as response:
+                  return response.read().decode("utf-8")
 
-      with open("willow.m3u", "w", encoding="utf-8") as f:
-          f.write("\n".join(new_m3u).strip() + "\n")
+          bad_keywords = [
+              "hady", "sohanur", "livesportsplay", "monirul", 
+              "telegram", "t.me", "owner", "admin", "developer",
+              "facebook", "whatsapp", "credit", "author", "website", "contact"
+          ]
 
-      # -------------------------------------------------------------
-      # ২. JSON প্লেলিস্ট ফিল্টারিং ও কম্বাইন করা
-      # -------------------------------------------------------------
-      json_urls = [
-          "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.json",
-          "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.json",
-          "https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.json"
-      ]
+          blocked_keys = {
+              "owner", "telegram", "website", "developer", "version", 
+              "playlist_name", "playlist", "last_update", "live_count", 
+              "admin", "channel_count", "channels_amount", "credits",
+              "notice", "contact", "author", "message"
+          }
 
-      def contains_old_credit(obj):
-          s = json.dumps(obj).lower()
-          return any(bad.lower() in s for bad in ["hady", "sohanur", "livesportsplay", "monirul"])
+          def contains_bad_info(val):
+              s = json.dumps(val, ensure_ascii=False).lower()
+              return any(bad in s for bad in bad_keywords)
 
-      blocked_keys = {
-          "owner", "telegram", "website", "developer", "version", 
-          "playlist_name", "playlist", "last_update", "live_count", 
-          "admin", "channel_count", "channels_amount"
-      }
+          combined_events = []
+          combined_dict = {}
 
-      combined_events = []
-      combined_dict = {}
+          for url in json_urls:
+              try:
+                  raw_data = fetch_url(url)
+                  data = json.loads(raw_data)
 
-      for url in json_urls:
-          try:
-              raw = fetch_url(url)
-              data = json.loads(raw)
-
-              if isinstance(data, dict):
-                  for k, v in data.items():
-                      if k.lower() in blocked_keys or contains_old_credit(k) or contains_old_credit(v):
-                          continue
-                      if isinstance(v, list):
-                          cleaned_list = [item for item in v if not contains_old_credit(item)]
-                          if k in combined_dict:
-                              combined_dict[k].extend(cleaned_list)
+                  if isinstance(data, dict):
+                      for k, v in data.items():
+                          if k.lower() in blocked_keys or contains_bad_info(k):
+                              continue
+                          if isinstance(v, list):
+                              cleaned_items = [item for item in v if not contains_bad_info(item)]
+                              if k in combined_dict:
+                                  combined_dict[k].extend(cleaned_items)
+                              else:
+                                  combined_dict[k] = cleaned_items
+                          elif isinstance(v, dict):
+                              if not contains_bad_info(v):
+                                  combined_dict[k] = v
                           else:
-                              combined_dict[k] = cleaned_list
-                      else:
-                          combined_dict[k] = v
+                              if not contains_bad_info(v):
+                                  combined_dict[k] = v
 
-              elif isinstance(data, list):
-                  cleaned_list = [item for item in data if not contains_old_credit(item)]
-                  combined_events.extend(cleaned_list)
-          except Exception as e:
-              print(f"Error fetching JSON {url}: {e}")
+                  elif isinstance(data, list):
+                      cleaned_items = [item for item in data if not contains_bad_info(item)]
+                      combined_events.extend(cleaned_items)
+              except Exception as e:
+                  print(f"Error fetching data: {e}")
 
-      meta = {
-          "playlist_name": "Willow & Prime Cricket Event Info",
-          "owner": "MD ANAMUL HOQUE",
-          "telegram": "https://t.me/ireentv",
-          "website": "https://anamul.pages.dev",
-          "developer": "IreenTechnology",
-          "version": "1.0",
-          "channels_amount": total_channel_count,
-          "last_update": current_time
-      }
+          total_count = len(combined_events)
+          for v in combined_dict.values():
+              if isinstance(v, list):
+                  total_count += len(v)
 
-      final_json = {**meta}
-      if combined_dict:
-          final_json.update(combined_dict)
-      if combined_events:
-          if "events" in final_json:
-              final_json["events"].extend(combined_events)
-          else:
-              final_json["events"] = combined_events
+          meta = {
+              "playlist_name": "Willow & Prime Cricket Event Info",
+              "owner": "MD ANAMUL HOQUE",
+              "telegram": "https://t.me/ireentv",
+              "website": "https://anamul.pages.dev",
+              "developer": "IreenTechnology",
+              "version": "1.0",
+              "channels_amount": total_count,
+              "last_update": current_time
+          }
 
-      # willow.json ফাইলে সেভ করা
-      with open("willow.json", "w", encoding="utf-8") as f:
-          json.dump(final_json, f, indent=2, ensure_ascii=False)
+          final_json = {**meta}
+          if combined_dict:
+              final_json.update(combined_dict)
+          if combined_events:
+              if "events" in final_json:
+                  final_json["events"].extend(combined_events)
+              else:
+                  final_json["events"] = combined_events
 
-      # -------------------------------------------------------------
-      # ৩. আলাদা আলাদা টেক্সট লগ ফাইল আপডেট করা
-      # -------------------------------------------------------------
-      # ১ম প্লেলিস্টের জন্য willow.txt
-      with open("willow.txt", "a", encoding="utf-8") as f:
-          f.write(f"🚀 Willow Synced | IST: {current_time} | Channels: {source_counts[0]}\n")
+          with open("willow.json", "w", encoding="utf-8") as f:
+              json.dump(final_json, f, indent=2, ensure_ascii=False)
+          '
 
-      # ২য় প্লেলিস্টের জন্য primevideo.txt
-      with open("primevideo.txt", "a", encoding="utf-8") as f:
-          f.write(f"🚀 PrimeVideo Synced | IST: {current_time} | Channels: {source_counts[1]}\n")
-
-      # ৩য় প্লেলিস্টের জন্য sports_data.txt
-      with open("sports_data.txt", "a", encoding="utf-8") as f:
-          f.write(f"🚀 Sports Data Synced | IST: {current_time} | Channels: {source_counts[2]}\n")
-
-      EOF
-
-  - name: Commit and Push
-    run: |
-      export TZ="Asia/Kolkata"
-      git add willow.json willow.m3u willow.txt primevideo.txt sports_data.txt
-      if ! git diff --cached --quiet; then
-        git commit -m "Willow, PrimeVideo & Sports Data Database Updated ✅ [$(date +'%d-%m-%Y %H:%M')]"
-        git push origin main
-      else
-        echo "No changes to commit"
-      fi
+      - name: Commit and Push
+        run: |
+          export TZ="Asia/Kolkata"
+          git add willow.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Willow & Sports Data Updated ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi
