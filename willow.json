@@ -5,10 +5,10 @@
   "website": "https://anamul.pages.dev",
   "developer": "IreenTechnology",
   "version": "1.0",
-  "channels_amount": 2,
-  "last_update": "02:28 AM 02-09-2026",
+  "channels_amount": 156,
+  "last_update": "02:51 AM 02-09-2026",
   "Stats": {
-    "LiveCount": 4,
+    "LiveCount": 5,
     "UpcomingCount": 0
   },
   "Matches": [
@@ -270,6 +270,23 @@
       "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
     },
     {
+      "match_id": "B0HFJXZY1S",
+      "title": "2026 Presidents Cup Captains' Selection Show",
+      "synopsis": "2026 Presidents Cup Captains' Selection Show",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.b3099afa-3ebe-4ec2-a404-9d172ed7afce/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HFJXZY1S",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x4krgolcxs/out/v1/747627063afd488fb91e534d92869d45/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x4krgolcxs/out/v1/747627063afd488fb91e534d92869d45/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/x4krgolcxs/out/v1/747627063afd488fb91e534d92869d45/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/x4krgolcxs/out/v1/747627063afd488fb91e534d92869d45/cenc.mpd"
+      },
+      "drm_key": "8c8753a34518b7d3093885f956e7afd9:8a4a2f1accb3ac0f42ad1c1502ee833e"
+    },
+    {
       "match_id": "B0HFYQXHVF",
       "title": "PPA Tour: Cary-Round of 64",
       "synopsis": "PPA Tour: Cary-Round of 64",
@@ -316,11 +333,55 @@
     }
   ],
   "name": "Live and Upcoming Sports Data",
-  "telegram_channel": "https://t.me/sm_iptv_bd",
-  "last_update_time": "02:00:46 AM 02-09-2026",
+  "last_update_time": "03:00:39 AM 02-09-2026",
   "total_matches": 137,
-  "live_match": 37,
+  "live_match": 38,
   "matches": [
+    {
+      "status": "LIVE",
+      "Category": "Other",
+      "event_name": "GOLF EVENTO Vs GOLF EVENTO",
+      "eventInfo": {
+        "teamA": "GOLF EVENTO",
+        "teamB": "GOLF EVENTO",
+        "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsn5BK10q6F7RDnUoMF18c1HXCsm0WNNhAH_T3iee9Q&s",
+        "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsn5BK10q6F7RDnUoMF18c1HXCsm0WNNhAH_T3iee9Q&s",
+        "eventName": "GOLF EVENTO",
+        "event_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsn5BK10q6F7RDnUoMF18c1HXCsm0WNNhAH_T3iee9Q&s",
+        "startTime": "02/09/2026 03:00:00 AM"
+      },
+      "streams": [
+        {
+          "channel_name": "SKY GLLF FHD",
+          "stream_url": "https://bl.rutube.ru/livestream/a7a17d6b994f02a80aebd69435266b58/index.m3u8?s=OD427JJqDb7a7g-aJV-kNw&e=2075285629&scheme=https|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0"
+        },
+        {
+          "channel_name": "SKY GOLF",
+          "stream_url": "https://tmaxapp.site/8wirwjs76erftg/skysportsgolf.m3u8"
+        },
+        {
+          "channel_name": "SKY1 NZ HD",
+          "stream_url": "https://tmaxapp.site/8wirwjs76erftg/skysport1nz615866.m3u8"
+        },
+        {
+          "channel_name": "Golf Husqvarna British Masters",
+          "stream_url": "http://193.47.62.42/hls/FTTTAC.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+        },
+        {
+          "channel_name": "SKY MAIN EVENT HD",
+          "stream_url": "https://tmaxapp.site/8wirwjs76erftg/skysportsmainevent.m3u8"
+        },
+        {
+          "channel_name": "TSN3 SPORTS FHD",
+          "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "drm_key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
+        },
+        {
+          "channel_name": "SKY3 NZ HD ",
+          "stream_url": "https://tmaxapp.site/8wirwjs76erftg/skysport3nz7X8xg5fv5.m3u8"
+        }
+      ]
+    },
     {
       "status": "LIVE",
       "Category": "Football",
@@ -469,31 +530,6 @@
         {
           "channel_name": "Tennis10 US Open (USE VPN)",
           "stream_url": "http://193.47.62.41/hls/FHHH.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-        }
-      ]
-    },
-    {
-      "status": "LIVE",
-      "Category": "Football",
-      "event_name": "FC Rostov Vs CSKA Moscow",
-      "eventInfo": {
-        "teamA": "FC Rostov",
-        "teamB": "CSKA Moscow",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2326/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2325/image",
-        "eventName": "Russian Cup",
-        "event_logo": "http://api.sofascore.com/api/v1/unique-tournament/91/image/dark",
-        "startTime": "02/09/2026 01:05:00 AM"
-      },
-      "streams": [
-        {
-          "channel_name": "D SPORTS + FHD",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
-          "drm_key": "83f81c4cc1443991543de4e22eea7586:ddfd7ca653d6f35543d8edb3c688e20f"
-        },
-        {
-          "channel_name": "LOW QUALITY (USE VPN)",
-          "stream_url": "http://193.47.62.41/hls/AAAEQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
         }
       ]
     },
@@ -697,67 +733,6 @@
     {
       "status": "LIVE",
       "Category": "Football",
-      "event_name": "Preston North End Vs Bristol City",
-      "eventInfo": {
-        "teamA": "Preston North End",
-        "teamB": "Bristol City",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/21/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/58/image",
-        "eventName": "Championship",
-        "event_logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-        "startTime": "02/09/2026 12:45:00 AM"
-      },
-      "streams": [
-        {
-          "channel_name": "SKY SPORTS+ HD",
-          "stream_url": "https://messi.damitv.st/live-hls/channel/efl-championship/2026-09-01/pne-brc/playlist.m3u8?tk=CCVSA1WmZ27vQ3z7ybCOjg&e=1788329722|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0"
-        },
-        {
-          "channel_name": "HD QUALITY ",
-          "stream_url": "https://live.ftlcbx.com/live/vrqwni4j8p2f4qn_0cd1bc9781041ce5f55ae1c875192921_1080p.m3u8?auth_key=1788302710-0-0-1c46fb1ea840ffb54a0f6cd963ea39f9"
-        },
-        {
-          "channel_name": "Sky Sports+",
-          "stream_url": "https://tmaxapp.site/sky95sdfas/sky4.m3u8"
-        },
-        {
-          "channel_name": "SD SERVER",
-          "stream_url": "https://messi.damitv.st/live-sd/streamed/admin/ppv-preston-north-end-vs-bristol-city/2/playlist.m3u8?tk=VrY5aSlgKNOOcIXKSdTVIg&e=1788327641|Referer=https://ondemand.st"
-        },
-        {
-          "channel_name": "SKY MAIN EVENT HD",
-          "stream_url": "https://tmaxapp.site/8wirwjs76erftg/skysportsmainevent.m3u8"
-        },
-        {
-          "channel_name": "SKY FOOTBALL HD",
-          "stream_url": "https://tmaxapp.site/8wirwjs76erftg/skysportsfootball.m3u8"
-        },
-        {
-          "channel_name": "XTREME+ FHD",
-          "stream_url": ""
-        },
-        {
-          "channel_name": "LOW QUALITY (USE VPN)",
-          "stream_url": "http://193.47.62.49/hls/QIIIQQQQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-        },
-        {
-          "channel_name": "CBS SPORTS - FHD",
-          "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
-          "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-        },
-        {
-          "channel_name": "CBS SPORTS - HD",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/55439/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
-        },
-        {
-          "channel_name": "SKY SPORTS+ HD",
-          "stream_url": "https://messi.damitv.st/live-hls/channel/efl-championship/2026-09-01/pne-brc/playlist.m3u8?tk=CCVSA1WmZ27vQ3z7ybCOjg&e=1788329722|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0"
-        }
-      ]
-    },
-    {
-      "status": "LIVE",
-      "Category": "Football",
       "event_name": "Swansea City Vs Watford",
       "eventInfo": {
         "teamA": "Swansea City",
@@ -792,138 +767,6 @@
         {
           "channel_name": "XTREME+ FHD",
           "stream_url": ""
-        }
-      ]
-    },
-    {
-      "status": "LIVE",
-      "Category": "Football",
-      "event_name": "Portsmouth Vs Derby County",
-      "eventInfo": {
-        "teamA": "Portsmouth",
-        "teamB": "Derby County",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/27/image",
-        "eventName": "Championship",
-        "event_logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-        "startTime": "02/09/2026 12:45:00 AM"
-      },
-      "streams": [
-        {
-          "channel_name": "HD QUALITY TV ",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/55635/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
-        },
-        {
-          "channel_name": "Sky Sports+",
-          "stream_url": "https://tmaxapp.site/sky95sdfas/sky3.m3u8"
-        },
-        {
-          "channel_name": "HD SERVER",
-          "stream_url": "https://messi.damitv.st/live-hls/channel/efl-championship/2026-09-01/por-der/playlist.m3u8?tk=VrY5aSlgKNOOcIXKSdTVIg&e=1788327641|Referer=https://ondemand.st"
-        },
-        {
-          "channel_name": "SD SERVER",
-          "stream_url": "https://messi.damitv.st/live-sd/streamed/admin/ppv-portsmouth-vs-derby-county/2/playlist.m3u8?tk=VrY5aSlgKNOOcIXKSdTVIg&e=1788327641|Referer=https://ondemand.st"
-        },
-        {
-          "channel_name": "LOW QUALITY (USE VPN)",
-          "stream_url": "http://193.47.62.57/hls/CIIIQQQQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-        },
-        {
-          "channel_name": "XTREME+ FHD",
-          "stream_url": ""
-        }
-      ]
-    },
-    {
-      "status": "LIVE",
-      "Category": "Football",
-      "event_name": "Lincoln City Vs Blackburn Rovers",
-      "eventInfo": {
-        "teamA": "Lincoln City",
-        "teamB": "Blackburn Rovers",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/92/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/46/image",
-        "eventName": "Championship",
-        "event_logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-        "startTime": "02/09/2026 12:45:00 AM"
-      },
-      "streams": [
-        {
-          "channel_name": "HD SERVER",
-          "stream_url": "https://messi.damitv.st/live-hls/channel/efl-championship/2026-09-01/lcn-blk/playlist.m3u8?tk=pi0PfM-ghTcCBZULYFKTow&e=1788327640|Referer=https://ondemand.st"
-        },
-        {
-          "channel_name": "SD SERVER",
-          "stream_url": "https://messi.damitv.st/live-sd/streamed/admin/ppv-lincoln-city-vs-blackburn-rovers/2/playlist.m3u8?tk=pi0PfM-ghTcCBZULYFKTow&e=1788327640|Referer=https://ondemand.st"
-        },
-        {
-          "channel_name": "LOW QUALITY (USE VPN)",
-          "stream_url": "http://193.47.62.45/hls/BIIIQQQQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-        },
-        {
-          "channel_name": "XTREME+ FHD",
-          "stream_url": ""
-        },
-        {
-          "channel_name": "SKY SPORTS+ HD",
-          "stream_url": "https://messi.damitv.st/live-hls/channel/efl-championship/2026-09-01/lcn-blk/playlist.m3u8?tk=c-kSMJ38aUBkbaSNVDWOFg&e=1788329718|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0"
-        },
-        {
-          "channel_name": "HD QUALITY ",
-          "stream_url": "https://live3.ftlcbx.com/live/72339746_d764eac4416477a79d9f0611a672db78_1080p.m3u8?auth_key=1788303058-0-0-428e59dbc5dc8c4de50cf9ecd13634cc"
-        }
-      ]
-    },
-    {
-      "status": "LIVE",
-      "Category": "Football",
-      "event_name": "Sheffield United Vs Bolton Wanderers",
-      "eventInfo": {
-        "teamA": "Sheffield United",
-        "teamB": "Bolton Wanderers",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/15/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/5/image",
-        "eventName": "Championship",
-        "event_logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-        "startTime": "02/09/2026 12:45:00 AM"
-      },
-      "streams": [
-        {
-          "channel_name": "SKY SPORTS+ HD",
-          "stream_url": "https://messi.damitv.st/live-hls/channel/efl-championship/2026-09-01/shu-bol/playlist.m3u8?tk=lxz66I5GDTw-odZ5rjtA0A&e=1788329724|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0"
-        },
-        {
-          "channel_name": "HD QUALITY ",
-          "stream_url": "https://live4.ftlcbx.com/live/72339752_cac3918cb6a4c7bc0dfa6c10dd145dcd_1080p.m3u8?auth_key=1788303058-0-0-2439e14555a88f09a348c4663fe7cc4e"
-        },
-        {
-          "channel_name": "HD QUALITY TV ",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/55633/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
-        },
-        {
-          "channel_name": "Sky Sports+",
-          "stream_url": "https://tmaxapp.site/sky95sdfas/sky5.m3u8"
-        },
-        {
-          "channel_name": "SD SERVER",
-          "stream_url": "https://messi.damitv.st/live-sd/streamed/admin/ppv-sheffield-united-vs-bolton-wanderers/2/playlist.m3u8?tk=bPJu9UNLnIWsDvI3rqhYTw&e=1788327642|Referer=https://ondemand.st"
-        },
-        {
-          "channel_name": "HD SERVER",
-          "stream_url": "https://messi.damitv.st/live-hls/channel/efl-championship/2026-09-01/shu-bol/playlist.m3u8?tk=bPJu9UNLnIWsDvI3rqhYTw&e=1788327642|Referer=https://ondemand.st"
-        },
-        {
-          "channel_name": "LOW QUALITY (USE VPN)",
-          "stream_url": "http://193.47.62.55/hls/SIIIQQQQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-        },
-        {
-          "channel_name": "XTREME+ FHD",
-          "stream_url": ""
-        },
-        {
-          "channel_name": "SKY SPORTS+ HD",
-          "stream_url": "https://messi.damitv.st/live-hls/channel/efl-championship/2026-09-01/shu-bol/playlist.m3u8?tk=lxz66I5GDTw-odZ5rjtA0A&e=1788329724|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0"
         }
       ]
     },
@@ -1391,175 +1234,6 @@
     {
       "status": "LIVE",
       "Category": "Football",
-      "event_name": "West Ham United Vs Wolverhampton",
-      "eventInfo": {
-        "teamA": "West Ham United",
-        "teamB": "Wolverhampton",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/37/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3/image",
-        "eventName": "Championship",
-        "event_logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-        "startTime": "02/09/2026 12:40:00 AM"
-      },
-      "streams": [
-        {
-          "channel_name": "PARAMOUNT+ FHD ",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/jbqj5uxbgz/out/v1/cb85d91021974ce292d50bb48a226842/f454ca6c-4bea-4550-89ae-70efbacb2eae-cenc.mpd?aws_sessionId=b805eb68-6576-453b-8d9a-10386c02b3e3",
-          "drm_key": "a087ba21686f83e2576f77cb2a1030df:359df30b6354e5e3f5f5c61961a43afa"
-        },
-        {
-          "channel_name": "CBS SPORTS FHD",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-        },
-        {
-          "channel_name": "HD QUALITY TV ",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/55636/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
-        },
-        {
-          "channel_name": "PARAMOUNT+ HD",
-          "stream_url": "https://netanjahu.hls.st/t/a6bc810260a939b0cc6cd62d47978f38/index.m3u8|referer=https://iplayer.is/"
-        },
-        {
-          "channel_name": "HD QUALITY ",
-          "stream_url": "https://live2.ftlcbx.com/live/72339758_59dac7407416616a9124d873ae1a2ffa_1080p.m3u8?auth_key=1788302709-0-0-2e8c0c9faafe195ed840dd03fbbe4897"
-        },
-        {
-          "channel_name": "SD SERVER",
-          "stream_url": "https://messi.damitv.st/live-sd/streamed/admin/ppv-west-ham-united-vs-wolverhampton-wanderers/2/playlist.m3u8?tk=haMvdkaDiq_bWmOwm2JkfA&e=1788327643|Referer=https://ondemand.st"
-        },
-        {
-          "channel_name": "HD SERVER",
-          "stream_url": "https://messi.damitv.st/live-hls/channel/efl-championship/2026-09-01/whu-wol/playlist.m3u8?tk=haMvdkaDiq_bWmOwm2JkfA&e=1788327643|Referer=https://ondemand.st"
-        },
-        {
-          "channel_name": "PARAMOUNT+ SD",
-          "stream_url": ""
-        },
-        {
-          "channel_name": "LOW QUALITY (USE VPN)",
-          "stream_url": "http://193.47.62.57/hls/CIIIQQQQQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-        },
-        {
-          "channel_name": "XTREME+ FHD",
-          "stream_url": ""
-        }
-      ]
-    },
-    {
-      "status": "LIVE",
-      "Category": "Football",
-      "event_name": "Hamburg-Eimsbütteler Ballspiel Club 1911 Vs Borussia Dortmund",
-      "eventInfo": {
-        "teamA": "Hamburg-Eimsbütteler Ballspiel Club 1911",
-        "teamB": "Borussia Dortmund",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/291525/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2673/image",
-        "eventName": "DFB Pokal",
-        "event_logo": "http://api.sofascore.com/api/v1/unique-tournament/217/image/dark",
-        "startTime": "02/09/2026 12:35:00 AM"
-      },
-      "streams": [
-        {
-          "channel_name": "ELEVEN SPORTS HD",
-          "stream_url": "https://netanjahu.hls.st/t/2d314ad2141fc50ce679b5bb60c7f369/index.m3u8|referer=https://iplayer.is/"
-        },
-        {
-          "channel_name": "ARENA PREMIUM HD",
-          "stream_url": "https://netanjahu.hls.st/t/c7f5dedf42b28ac90367619ab88dcc25/index.m3u8|referer=https://iplayer.is/"
-        },
-        {
-          "channel_name": "ZIGGO SPORTS HD",
-          "stream_url": "https://netanjahu.hls.st/t/e04434cf7af78ed83bb92104f5c2b0a4/index.m3u8|referer=https://iplayer.is/"
-        },
-        {
-          "channel_name": "AD1 SPORTS FHD",
-          "stream_url": "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv/abudhabi_sports_1/abudhabi_sports_1_dash_enc/index.mpd",
-          "drm_key": "e78769d87a41e15036a4fb8bfdf1371e:37be0375dc9fe544c3c6de6a105f7c0a"
-        },
-        {
-          "channel_name": "TVP SPORT HD",
-          "stream_url": "https://netanjahu.hls.st/t/a738b2b2a28ec66f19deb4d5252414ea/index.m3u8|referer=https://iplayer.is/"
-        },
-        {
-          "channel_name": "beIN SPORTS HD",
-          "stream_url": "https://netanjahu.hls.st/t/e049c5765642f1366dc17e76fc3e56af/index.m3u8|referer=https://iplayer.is/"
-        },
-        {
-          "channel_name": "CCTV SPORTS HD ",
-          "stream_url": "https://www.rtmpcdn.com/live/b15ecdf7-b75e-41a5-b469-eb394deb3ced.m3u8"
-        },
-        {
-          "channel_name": "HD STREAMING ",
-          "stream_url": "https://edgestream2.pro/hls/ueyeztrazb4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-        },
-        {
-          "channel_name": "SD SERVER+",
-          "stream_url": "https://messi.damitv.st/live-sd/streamed/admin/ppv-hebc-hamburg-vs-borussia-dortmund/2/playlist.m3u8?tk=pi0PfM-ghTcCBZULYFKTow&e=1788327640|Referer=https://ondemand.st"
-        },
-        {
-          "channel_name": "LOW QUALITY (USE VPN)",
-          "stream_url": "http://193.47.62.41/hls/kiiiqqqq.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-        },
-        {
-          "channel_name": "XTREME+ FHD",
-          "stream_url": ""
-        },
-        {
-          "channel_name": "DFB HD",
-          "stream_url": ""
-        },
-        {
-          "channel_name": "GO3 SPORT HD",
-          "stream_url": ""
-        },
-        {
-          "channel_name": "SKY TOP EVENT FHD",
-          "stream_url": ""
-        }
-      ]
-    },
-    {
-      "status": "LIVE",
-      "Category": "Football",
-      "event_name": "Al-Hilal Vs Al-Ahli",
-      "eventInfo": {
-        "teamA": "Al-Hilal",
-        "teamB": "Al-Ahli",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/21895/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/34469/image",
-        "eventName": "Saudi Pro League",
-        "event_logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
-        "startTime": "02/09/2026 12:00:00 AM"
-      },
-      "streams": [
-        {
-          "channel_name": "FOX2 SPORTS FHD ",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-          "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-        },
-        {
-          "channel_name": "FOX DEPORTES FHD",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-          "drm_key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
-        },
-        {
-          "channel_name": "DAZN1 DE HD",
-          "stream_url": "https://tmaxapp.site/8wirwjs76erftg/dazn1de.m3u8"
-        },
-        {
-          "channel_name": "HD QUALITY TV ",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/55603/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
-        },
-        {
-          "channel_name": "LOW QUALITY (USE VPN)",
-          "stream_url": "http://193.47.62.41/hls/kiii.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-        }
-      ]
-    },
-    {
-      "status": "LIVE",
-      "Category": "Football",
       "event_name": "Transfers Deadline Day Vs Transfers Deadline Day",
       "eventInfo": {
         "teamA": "Transfers Deadline Day",
@@ -1583,51 +1257,6 @@
     },
     {
       "status": "LIVE",
-      "Category": "Other",
-      "event_name": "GOLF EVENTO Vs GOLF EVENTO",
-      "eventInfo": {
-        "teamA": "GOLF EVENTO",
-        "teamB": "GOLF EVENTO",
-        "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsn5BK10q6F7RDnUoMF18c1HXCsm0WNNhAH_T3iee9Q&s",
-        "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsn5BK10q6F7RDnUoMF18c1HXCsm0WNNhAH_T3iee9Q&s",
-        "eventName": "GOLF EVENTO",
-        "event_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsn5BK10q6F7RDnUoMF18c1HXCsm0WNNhAH_T3iee9Q&s",
-        "startTime": "02/09/2026 03:00:00 AM"
-      },
-      "streams": [
-        {
-          "channel_name": "SKY GLLF FHD",
-          "stream_url": "https://bl.rutube.ru/livestream/a7a17d6b994f02a80aebd69435266b58/index.m3u8?s=OD427JJqDb7a7g-aJV-kNw&e=2075285629&scheme=https|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0"
-        },
-        {
-          "channel_name": "SKY GOLF",
-          "stream_url": "https://tmaxapp.site/8wirwjs76erftg/skysportsgolf.m3u8"
-        },
-        {
-          "channel_name": "SKY1 NZ HD",
-          "stream_url": "https://tmaxapp.site/8wirwjs76erftg/skysport1nz615866.m3u8"
-        },
-        {
-          "channel_name": "Golf Husqvarna British Masters",
-          "stream_url": "http://193.47.62.42/hls/FTTTAC.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-        },
-        {
-          "channel_name": "SKY MAIN EVENT HD",
-          "stream_url": "https://tmaxapp.site/8wirwjs76erftg/skysportsmainevent.m3u8"
-        },
-        {
-          "channel_name": "TSN3 SPORTS FHD",
-          "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "drm_key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
-        },
-        {
-          "channel_name": "SKY3 NZ HD ",
-          "stream_url": "https://tmaxapp.site/8wirwjs76erftg/skysport3nz7X8xg5fv5.m3u8"
-        }
-      ]
-    },
-    {
-      "status": "UPCOMING",
       "Category": "Football",
       "event_name": "CS 2 de Mayo Vs Sportivo Luqueño",
       "eventInfo": {
@@ -1647,7 +1276,7 @@
       ]
     },
     {
-      "status": "UPCOMING",
+      "status": "LIVE",
       "Category": "Football",
       "event_name": "Delfín Vs Técnico Universitario",
       "eventInfo": {
@@ -1671,7 +1300,7 @@
       ]
     },
     {
-      "status": "UPCOMING",
+      "status": "LIVE",
       "Category": "Football",
       "event_name": "FC Supra Du Quebec Vs Forge FC",
       "eventInfo": {
@@ -3274,7 +2903,12 @@
         "event_logo": "http://api.sofascore.com/api/v1/unique-tournament/13783/image/dark",
         "startTime": "03/09/2026 07:00:00 AM"
       },
-      "streams": []
+      "streams": [
+        {
+          "channel_name": "STREAM TV + HD",
+          "stream_url": "https://edgestream2.pro/hls/.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+        }
+      ]
     },
     {
       "status": "UPCOMING",
@@ -3309,7 +2943,24 @@
         "event_logo": "https://i.ibb.co/RkFszNyM/20260313-082317.png",
         "startTime": "04/09/2026 06:00:00 AM"
       },
-      "streams": []
+      "streams": [
+        {
+          "channel_name": "LOW QUALITY (USE VPN)",
+          "stream_url": "http://193.47.62.55/hls/ZCCC.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+        },
+        {
+          "channel_name": "XTREME+ FHD",
+          "stream_url": ""
+        },
+        {
+          "channel_name": "HD QUALITY 1 ",
+          "stream_url": ""
+        },
+        {
+          "channel_name": "SD QUALITY",
+          "stream_url": ""
+        }
+      ]
     },
     {
       "status": "UPCOMING",
@@ -4251,6 +3902,44 @@
     {
       "status": "ENDED",
       "Category": "Football",
+      "event_name": "Al-Hilal Vs Al-Ahli",
+      "eventInfo": {
+        "teamA": "Al-Hilal",
+        "teamB": "Al-Ahli",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/21895/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/34469/image",
+        "eventName": "Saudi Pro League",
+        "event_logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
+        "startTime": "02/09/2026 12:00:00 AM"
+      },
+      "streams": [
+        {
+          "channel_name": "FOX2 SPORTS FHD ",
+          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+          "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+        },
+        {
+          "channel_name": "FOX DEPORTES FHD",
+          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+          "drm_key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
+        },
+        {
+          "channel_name": "DAZN1 DE HD",
+          "stream_url": "https://tmaxapp.site/8wirwjs76erftg/dazn1de.m3u8"
+        },
+        {
+          "channel_name": "HD QUALITY TV ",
+          "stream_url": "https://chatgpt.hereisman.net/playlist/55603/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
+        },
+        {
+          "channel_name": "LOW QUALITY (USE VPN)",
+          "stream_url": "http://193.47.62.41/hls/kiii.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+        }
+      ]
+    },
+    {
+      "status": "ENDED",
+      "Category": "Football",
       "event_name": "Wolfsberger AC Vs LASK",
       "eventInfo": {
         "teamA": "Wolfsberger AC",
@@ -4293,6 +3982,31 @@
         {
           "channel_name": "LOW QUALITY (USE VPN)",
           "stream_url": "http://193.47.62.41/hls/VTTT.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+        }
+      ]
+    },
+    {
+      "status": "ENDED",
+      "Category": "Football",
+      "event_name": "FC Rostov Vs CSKA Moscow",
+      "eventInfo": {
+        "teamA": "FC Rostov",
+        "teamB": "CSKA Moscow",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2326/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2325/image",
+        "eventName": "Russian Cup",
+        "event_logo": "http://api.sofascore.com/api/v1/unique-tournament/91/image/dark",
+        "startTime": "02/09/2026 01:05:00 AM"
+      },
+      "streams": [
+        {
+          "channel_name": "D SPORTS + FHD",
+          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
+          "drm_key": "83f81c4cc1443991543de4e22eea7586:ddfd7ca653d6f35543d8edb3c688e20f"
+        },
+        {
+          "channel_name": "LOW QUALITY (USE VPN)",
+          "stream_url": "http://193.47.62.41/hls/AAAEQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
         }
       ]
     },
