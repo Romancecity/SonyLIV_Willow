@@ -6,8 +6,8 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "channels_amount": 91,
-  "live_count": 3,
-  "last_update": "11:12 AM 02-09-2026",
+  "live_count": 5,
+  "last_update": "03:23 PM 02-09-2026",
   "Stats": {
     "LiveCount": 1,
     "UpcomingCount": 0
@@ -17,13 +17,22 @@
       "match_id": "B0HFZRHJ9L",
       "title": "European T20 Premier League 2026 - 10th Match - Dublin Guardians vs Rotterdam Dockers",
       "synopsis": "European T20 Premier League 2026 - 10th Match - Dublin Guardians vs Rotterdam Dockers",
-      "status": "UPCOMING",
-      "time": "Live at 3:30 PM BDT",
-      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.8050f764-a5cf-464d-bb17-07f90e762462/1/BOXART-16X9/en-US._UR1920,1080_.jpeg",
+      "status": "LIVE",
+      "time": "3 PM BDT",
+      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.8050f764-a5cf-464d-bb17-07f90e762462/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HFZRHJ9L?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_1",
       "is_free": false,
-      "stream_url_alpha": "",
-      "drm_key": ""
+      "stream_url_alpha": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/1ylx5xgker/out/v1/d2e04639c946424a931b32475bfd637a/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/1ylx5xgker/out/v1/d2e04639c946424a931b32475bfd637a/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/1ylx5xgker/out/v1/d2e04639c946424a931b32475bfd637a/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/1ylx5xgker/out/v1/d2e04639c946424a931b32475bfd637a/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/1ylx5xgker/out/v1/d2e04639c946424a931b32475bfd637a/cenc.mpd"
+      },
+      "stream_url_bravo": {
+        "Original Server": "https://emt-fastly.live.pv-cdn.net/IAD/ee1c2e0bc16f4bdbba57d24b21b5320a/v1/dash/746463508834/willowtvus_live_amzn1_dv_live_csid_5123bbdf-4b03-4b16-bbd7-fd0529491021_us-east-1_iad_dash_h264_none_stereo/live/clients/dash/enc/pwfpzfznbg/out/v1/69a17e6dbb5044a0b038ffc1c124edfe/cenc.mpd?aws.sessionId=4fa5f448-fde6-456f-b1f4-26e76bffee46"
+      },
+      "drm_key": "2d4fd63a677fb3fb2cec81aba6893bc3:86afdab67b583024b92f7f58b1295fc6"
     },
     {
       "match_id": "B0HG5V474X",
@@ -254,25 +263,59 @@
       "drm_key": ""
     },
     {
-      "match_id": "B0HGJDZ4VV",
-      "title": "Sep 1 - PTT Waco",
-      "synopsis": "Sep 1 - PTT Waco",
+      "match_id": "B0HDV1JVGP",
+      "title": "Sep 2 - PTT Frankfurt",
+      "synopsis": "Sep 2 - PTT Frankfurt",
       "status": "LIVE",
       "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.54269eae-3ed6-4382-ad6f-18f558ce3eba/8/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HGJDZ4VV",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.91d10583-b18d-44dd-81ad-9a0bfd5d725a/5/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HDV1JVGP",
       "is_free": false,
       "stream_url": {
-        "Original Server": "https://a112live-pv-ta-enf-amazon.akamaized.net/$T$2D3RhEOhAQWhBFgkYWY3NDZlZjAtYzM0OC00MGM1LWFjN2UtYTVhZWIzNjhiNjA0WImmAWpwcmltZXZpZGVvBBpqqtmyBhpqlxMyA2Zha2FtYWkCeClzc2lkOmZkNDk4Njc5LThhYTUtNGVhMy1hN2MyLTYxMDNjODA4YTA1YRkBOKEFoQJ4My9rbGZma2pmbGhtL291dC92MS83NTM5N2E3NThhZjk0OGRmYjRmOTBhOWE0ODdhYjA1OVgg80DnO8BvUWG63Em8s_sfvcbwNQfrX0SJ2YHfWDDhpnM/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/klffkjflhm/out/v1/75397a758af948dfb4f90a9a487ab059/7f3e64f0-519a-4f2c-bd21-62b813759cca-cenc.mpd"
+        "Original Server": "https://ABIAGFAAAAAAAAAMNTCLBNZWID5OY.ta-enf.bia-cf.live.pv-cdn.net/$T$2D3RhEOhAQWhBFgkYzQ1OWU1YmItZDgxMS00NGM2LTgwYzQtNTNkZDc3NTIwODk5WI2mAWpwcmltZXZpZGVvBBpqq5CDBhpql8oDA2pjbG91ZGZyb250Angpc3NpZDo0YWU2NmQyZS03YjcyLTRkMmEtYTExYS1iNzU1YTVkOWEyNmQZATihBaECeDMvbzB3dnpzdmtieC9vdXQvdjEvZTZjZDM0ODFlYTIwNDFjODg2NDZjZjdmZDNmOWMzOThYIHuU7CBHnh2dMeRUGr4UjWZH8t4U6S9AUUMo1JIjEdn4/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/o0wvzsvkbx/out/v1/e6cd3481ea2041c88646cf7fd3f9c398/2328d62d-3c1f-4903-8dea-95e268cabe66-cenc.mpd"
       },
-      "drm_key": "5584a416c9f9744547a68eaed0ec92ed:ddb13add4266b7c39abbe95fbbda4889"
+      "drm_key": "68f9515addf198735c32efbf6f90b058:ae0711c0da8fb20cf4e750fbd2686f9c"
     }
   ],
   "name": "Live and Upcoming Sports Data",
-  "last_update_time": "11:00:37 AM 02-09-2026",
+  "last_update_time": "03:00:37 PM 02-09-2026",
   "total_matches": 70,
-  "live_match": 2,
+  "live_match": 3,
   "matches": [
+    {
+      "status": "LIVE",
+      "Category": "Cricket",
+      "event_name": "EUROPEAN T20 Vs Premier League",
+      "eventInfo": {
+        "teamA": "EUROPEAN T20",
+        "teamB": "Premier League",
+        "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQujBtPOgUpOHILwHzxdBP5T8Q4sgCfxOGrHdlJCHp2Rfd4Ep2UFJLSLbRP&s=10",
+        "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQujBtPOgUpOHILwHzxdBP5T8Q4sgCfxOGrHdlJCHp2Rfd4Ep2UFJLSLbRP&s=10",
+        "eventName": "EUROPEAN T20 Premier League",
+        "event_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQujBtPOgUpOHILwHzxdBP5T8Q4sgCfxOGrHdlJCHp2Rfd4Ep2UFJLSLbRP&s=10",
+        "startTime": "02/09/2026 03:00:00 PM"
+      },
+      "streams": [
+        {
+          "channel_name": "TNT2 SPORTS HD",
+          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+        },
+        {
+          "channel_name": "Willow Cricbuzz - HD",
+          "stream_url": "http://tvsen5.aynascope.net/willowhd/index.m3u8"
+        },
+        {
+          "channel_name": "WILLOW SPORTS",
+          "stream_url": "https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+          "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+        },
+        {
+          "channel_name": "FOX CRICKET HD",
+          "stream_url": "https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/nwp/809389.m3u8"
+        }
+      ]
+    },
     {
       "status": "LIVE",
       "Category": "Other",
@@ -373,72 +416,6 @@
     },
     {
       "status": "LIVE",
-      "Category": "Baseball",
-      "event_name": "Los Angeles Dodgers Vs St. Louis Cardinals",
-      "eventInfo": {
-        "teamA": "Los Angeles Dodgers",
-        "teamB": "St. Louis Cardinals",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3638/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3632/image",
-        "eventName": "MLB",
-        "event_logo": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-        "startTime": "02/09/2026 08:10:00 AM"
-      },
-      "streams": [
-        {
-          "channel_name": "HD QUALITY ",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/55669/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
-        },
-        {
-          "channel_name": "STREAM TV + HD",
-          "stream_url": "https://edgestream2.pro/hls/hfzljfahzcax29.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-        },
-        {
-          "channel_name": "LOW QUALITY (USE VPN)",
-          "stream_url": "http://193.47.62.41/hls/GGGAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-        },
-        {
-          "channel_name": "XTREME+ FHD",
-          "stream_url": ""
-        }
-      ]
-    },
-    {
-      "status": "UPCOMING",
-      "Category": "Cricket",
-      "event_name": "EUROPEAN T20 Vs Premier League",
-      "eventInfo": {
-        "teamA": "EUROPEAN T20",
-        "teamB": "Premier League",
-        "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQujBtPOgUpOHILwHzxdBP5T8Q4sgCfxOGrHdlJCHp2Rfd4Ep2UFJLSLbRP&s=10",
-        "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQujBtPOgUpOHILwHzxdBP5T8Q4sgCfxOGrHdlJCHp2Rfd4Ep2UFJLSLbRP&s=10",
-        "eventName": "EUROPEAN T20 Premier League",
-        "event_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQujBtPOgUpOHILwHzxdBP5T8Q4sgCfxOGrHdlJCHp2Rfd4Ep2UFJLSLbRP&s=10",
-        "startTime": "02/09/2026 03:00:00 PM"
-      },
-      "streams": [
-        {
-          "channel_name": "TNT2 SPORTS HD",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-        },
-        {
-          "channel_name": "Willow Cricbuzz - HD",
-          "stream_url": "http://tvsen5.aynascope.net/willowhd/index.m3u8"
-        },
-        {
-          "channel_name": "WILLOW SPORTS",
-          "stream_url": "https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-          "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-        },
-        {
-          "channel_name": "FOX CRICKET HD",
-          "stream_url": "https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/nwp/809389.m3u8"
-        }
-      ]
-    },
-    {
-      "status": "UPCOMING",
       "Category": "Other",
       "event_name": "Cycling Vs Cycling",
       "eventInfo": {
@@ -966,8 +943,12 @@
       },
       "streams": [
         {
-          "channel_name": "STREAM TV + HD",
-          "stream_url": "https://edgestream2.pro/hls/.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+          "channel_name": "Real Madrid TV Spain",
+          "stream_url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8"
+        },
+        {
+          "channel_name": "RM TV ",
+          "stream_url": "https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/master.m3u8"
         }
       ]
     },
@@ -1049,6 +1030,10 @@
           "channel_name": "PREMIERE2 SPORTS FHD",
           "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
           "drm_key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
+        },
+        {
+          "channel_name": "Abu Dhabi Sports 1",
+          "stream_url": "h"
         }
       ]
     },
@@ -2234,6 +2219,38 @@
         {
           "channel_name": "LOW QUALITY (USE VPN)",
           "stream_url": "http://193.47.62.55/hls/SIII.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+        }
+      ]
+    },
+    {
+      "status": "ENDED",
+      "Category": "Baseball",
+      "event_name": "Los Angeles Dodgers Vs St. Louis Cardinals",
+      "eventInfo": {
+        "teamA": "Los Angeles Dodgers",
+        "teamB": "St. Louis Cardinals",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3638/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3632/image",
+        "eventName": "MLB",
+        "event_logo": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+        "startTime": "02/09/2026 08:10:00 AM"
+      },
+      "streams": [
+        {
+          "channel_name": "HD QUALITY ",
+          "stream_url": "https://chatgpt.hereisman.net/playlist/55669/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
+        },
+        {
+          "channel_name": "STREAM TV + HD",
+          "stream_url": "https://edgestream2.pro/hls/hfzljfahzcax29.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+        },
+        {
+          "channel_name": "LOW QUALITY (USE VPN)",
+          "stream_url": "http://193.47.62.41/hls/GGGAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+        },
+        {
+          "channel_name": "XTREME+ FHD",
+          "stream_url": ""
         }
       ]
     }
