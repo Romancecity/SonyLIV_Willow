@@ -48,90 +48,105 @@ jobs:
           from datetime import datetime
           import pytz
 
-          # সময় নির্ধারণ (Asia/Kolkata)
           tz = pytz.timezone("Asia/Kolkata")
           current_time = datetime.now(tz).strftime("%I:%M %p %d-%m-%Y")
 
-          headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+          headers = {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+          }
 
-          # GitHub Secrets থেকে লিংক নেওয়া
           raw_urls = os.environ.get("JSON_PLAYLIST_URLS", "")
           lines = [u.strip() for u in raw_urls.splitlines() if u.strip() and not u.strip().startswith("#")]
 
           def fetch_url(url):
               req = urllib.request.Request(url, headers=headers)
-              with urllib.request.urlopen(req, timeout=20) as response:
+              with urllib.request.urlopen(req, timeout=25) as response:
                   return response.read().decode("utf-8")
 
-          # বাদ দেওয়ার মতো শব্দ ও ক্রেডিট তালিকা
-          bad_keywords = [
-              "hady", "sohanur", "livesportsplay", "monirul", 
-              "telegram", "t.me", "owner", "admin", "developer",
-              "facebook", "whatsapp", "credit", "author", "website", "contact"
+          # স্প্যাম ও অপ্রয়োজনীয় নোটিশ ফিল্টার
+          spam_titles = [
+              "join telegram", "join our telegram", "t.me/", "subscribe", 
+              "developer info", "credit", "contact admin"
           ]
 
-          blocked_keys = {
-              "owner", "telegram", "website", "developer", "version", 
-              "playlist_name", "playlist", "last_update", "live_count", 
-              "admin", "channel_count", "channels_amount", "credits",
-              "notice", "contact", "author", "message"
-          }
-
-          def contains_bad_info(val):
-              s = json.dumps(val, ensure_ascii=False).lower()
-              return any(bad in s for bad in bad_keywords)
-
-          def is_sonyliv_item(item):
-              """সোনি লিভ ডেটা কিনা তা শনাক্ত করার লজিক"""
+          def is_spam_item(item):
               if not isinstance(item, dict):
                   return False
-              return ("multiple_audio_links" in item) or ("video_info" in item and "stream_info" in item)
+              title = str(item.get("title", "") or item.get("name", "")).lower()
+              return any(spam in title for spam in spam_titles)
+
+          def is_sonyliv_item(item):
+              """সোনি লিভ ডেটা কিনা শনাক্ত করা"""
+              if not isinstance(item, dict):
+                  return False
+              return ("multiple_audio_links" in item) or ("video_info" in item and "stream_info" in item) or ("contentId" in item and "image_cdn" in item)
+
+          def extract_sonyliv_streams(item):
+              """Sony LIV এর Playback_videoURL ও dai_asset_key থেকে স্ট্রিম বের করা"""
+              servers = {}
+              server_idx = 1
+              
+              # ১. multiple_audio_links থেকে অডিও ভিত্তিক সার্ভার বের করা
+              audio_links = item.get("multiple_audio_links", [])
+              if isinstance(audio_links, list):
+                  for audio in audio_links:
+                      if not isinstance(audio, dict):
+                          continue
+                      lang = audio.get("language") or audio.get("lang_code") or f"Server {server_idx}"
+                      data_obj = audio.get("data", {})
+                      
+                      # প্রধান ভিডিও লিঙ্ক
+                      stream_url = data_obj.get("Playback_videoURL")
+                      
+                      # যদি Playback_videoURL না থাকে তবে auto_streams থেকে লিঙ্ক নেওয়া
+                      if not stream_url and "auto_streams" in data_obj:
+                          auto_str = str(data_obj.get("auto_streams", ""))
+                          m = re.findall(r'https?://[^\s\n\r]+', auto_str)
+                          if m:
+                              stream_url = m[0]
+                      
+                      if not stream_url:
+                          stream_url = data_obj.get("trailer_url")
+
+                      if stream_url and str(stream_url).startswith("http"):
+                          server_name = f"Server {server_idx} ({lang})" if lang else f"Server {server_idx}"
+                          servers[server_name] = stream_url.strip()
+                          server_idx += 1
+
+              # ২. dai_asset_key চেক করা
+              stream_info = item.get("stream_info", {})
+              if isinstance(stream_info, dict):
+                  dai = stream_info.get("dai_asset_key")
+                  if dai and str(dai).startswith("http"):
+                      if not servers:
+                          servers["Server 1 (DAI)"] = dai.strip()
+                      else:
+                          servers[f"Server {server_idx} (DAI)"] = dai.strip()
+                          server_idx += 1
+              
+              return servers
 
           def transform_sonyliv_item(item):
-              """সোনি লিভ ডেটাকে আপনার কাস্টম ফরম্যাটে রূপান্তর করার ফাংশন"""
-              if not isinstance(item, dict):
-                  return item
-
+              """Sony LIV আইটেমকে কাঙ্ক্ষিত ফরম্যাটে রূপান্তর"""
               v_info = item.get("video_info", {})
               img_cdn = item.get("image_cdn", {})
               air_dates = item.get("air_dates", {})
               stream_info = item.get("stream_info", {})
               
-              # Title ও Synopsis নির্ধারণ
               title = v_info.get("episodeTitle") or v_info.get("title", "")
               synopsis = v_info.get("longDescription") or v_info.get("shortDescription") or title
               
-              # Cover Image নির্ধারণ
               cover_image = (
                   img_cdn.get("landscape_thumb") or 
                   img_cdn.get("thumbnail") or 
                   img_cdn.get("portrait_thumb") or ""
               )
               
-              # Match URL নির্ধারণ
-              match_url = stream_info.get("dai_asset_key") or f"https://www.sonyliv.com/custom-live/{item.get('contentId', '')}"
-              
-              # মাল্টি-অডিও থেকে সার্ভার লিস্ট তৈরি
-              stream_url_alpha = {}
-              audio_links = item.get("multiple_audio_links", [])
-              server_count = 1
+              match_url = stream_info.get("dai_asset_key")
+              if not match_url or not str(match_url).startswith("http"):
+                  match_url = f"https://www.sonyliv.com/custom-live/{item.get('contentId', '')}"
 
-              if isinstance(audio_links, list) and len(audio_links) > 0:
-                  for audio in audio_links:
-                      lang = audio.get("language", "")
-                      data_obj = audio.get("data", {})
-                      playback_url = data_obj.get("Playback_videoURL")
-                      
-                      if playback_url:
-                          server_name = f"Server {server_count} ({lang})" if lang else f"Server {server_count}"
-                          stream_url_alpha[server_name] = playback_url
-                          server_count += 1
-              
-              # কোনো কারণে অডিও লিঙ্ক না থাকলে ডিফল্ট dai_asset_key নেওয়া
-              if not stream_url_alpha:
-                  dai_key = stream_info.get("dai_asset_key")
-                  if dai_key and dai_key != "unavailable":
-                      stream_url_alpha["Server 1"] = dai_key
+              stream_urls = extract_sonyliv_streams(item)
 
               return {
                   "match_id": str(item.get("contentId", "")),
@@ -142,43 +157,30 @@ jobs:
                   "cover_image": cover_image,
                   "match_url": match_url,
                   "is_free": False,
-                  "stream_url_alpha": stream_url_alpha
+                  "stream_url_alpha": stream_urls
               }
 
-          def process_items(item_list):
-              """আইটেম প্রসেসিং এবং সোনি লিভ হলে কনভার্ট করা"""
-              processed = []
-              for it in item_list:
-                  if contains_bad_info(it):
-                      continue
-                  if is_sonyliv_item(it):
-                      processed.append(transform_sonyliv_item(it))
-                  else:
-                      processed.append(it)
-              return processed
+          def process_single_item(item):
+              if is_spam_item(item):
+                  return None
+              if is_sonyliv_item(item):
+                  return transform_sonyliv_item(item)
+              return item
 
           def is_live_event(item):
-              """লাইভ চ্যানেল শনাক্ত করার লজিক"""
               if not isinstance(item, dict):
                   return False
               for k in ["is_live", "live", "isLive", "islive"]:
                   if k in item:
                       val = item[k]
-                      if isinstance(val, bool) and val is True:
-                          return True
-                      if isinstance(val, (int, float)) and val == 1:
-                          return True
-                      if isinstance(val, str) and val.strip().lower() in ["true", "1", "live", "yes"]:
+                      if val in [True, 1, "true", "1", "live", "yes", "True"]:
                           return True
               for k in ["status", "event_status", "match_status", "badge", "state"]:
-                  if k in item:
-                      val = item[k]
-                      if isinstance(val, str) and "live" in val.strip().lower():
-                          return True
+                  if k in item and isinstance(item[k], str) and "live" in item[k].lower():
+                      return True
               return False
 
-          def get_playlist_name_and_filename(url_line):
-              """ইউআরএল থেকে ফাইলের নাম ও ডিসপ্লে নাম তৈরি"""
+          def get_playlist_info(url_line):
               if "|" in url_line:
                   name, url = url_line.split("|", 1)
                   name = name.strip()
@@ -189,81 +191,83 @@ jobs:
               url_lower = url.lower()
               if "willow" in url_lower or "live_sports" in url_lower:
                   return "Willow", "willow.txt", url
-              elif "primevideo" in url_lower:
+              elif "prime" in url_lower:
                   return "PrimeVideo", "primevideo.txt", url
-              elif "sports_data" in url_lower:
-                  return "Sports Data", "sports_data.txt", url
               elif "sony" in url_lower:
                   return "Sony LIV", "sonyliv.txt", url
+              elif "sports_data" in url_lower:
+                  return "Sports Data", "sports_data.txt", url
               else:
                   base = os.path.splitext(os.path.basename(url.split("?")[0]))[0]
                   clean_name = re.sub(r'[^a-zA-Z0-9_-]', '_', base) if base else "playlist"
                   return clean_name.replace("_", " ").title(), f"{clean_name.lower()}.txt", url
 
-          combined_events = []
-          combined_dict = {}
+          all_collected_events = []
 
           for line in lines:
-              name, txt_filename, url = get_playlist_name_and_filename(line)
-              source_items = []
+              name, txt_filename, url = get_playlist_info(line)
+              current_source_items = []
               
               try:
                   raw_data = fetch_url(url)
                   data = json.loads(raw_data)
 
-                  if isinstance(data, dict):
-                      for k, v in data.items():
-                          if k.lower() in blocked_keys or contains_bad_info(k):
-                              continue
-                          if isinstance(v, list):
-                              cleaned_items = process_items(v)
-                              source_items.extend(cleaned_items)
-                              if k in combined_dict:
-                                  combined_dict[k].extend(cleaned_items)
-                              else:
-                                  combined_dict[k] = cleaned_items
-                          elif isinstance(v, dict):
-                              if not contains_bad_info(v):
-                                  if is_sonyliv_item(v):
-                                      transformed = transform_sonyliv_item(v)
-                                      combined_dict[k] = transformed
-                                      source_items.append(transformed)
-                                  else:
-                                      combined_dict[k] = v
-                          else:
-                              if not contains_bad_info(v):
-                                  combined_dict[k] = v
+                  # ১. ডেটা যদি লিস্ট (Array) হয়
+                  if isinstance(data, list):
+                      for it in data:
+                          p = process_single_item(it)
+                          if p:
+                              current_source_items.append(p)
 
-                  elif isinstance(data, list):
-                      cleaned_items = process_items(data)
-                      source_items.extend(cleaned_items)
-                      combined_events.extend(cleaned_items)
+                  # ২. ডেটা যদি ডিকশনারি (Object) হয়
+                  elif isinstance(data, dict):
+                      found_items = False
+                      # সাধারণ কীগুলো খোঁজা
+                      for list_key in ["events", "matches", "data", "channels", "items", "result", "streams"]:
+                          if list_key in data and isinstance(data[list_key], list):
+                              for it in data[list_key]:
+                                  p = process_single_item(it)
+                                  if p:
+                                      current_source_items.append(p)
+                              found_items = True
+                      
+                      # যদি নির্দিষ্ট কোনো কী না মিলে তবে ডিকশনারির ভেতরের সব লিস্ট চেক করা
+                      if not found_items:
+                          for k, v in data.items():
+                              if k.lower() in ["owner", "telegram", "credit", "notice", "admin", "website"]:
+                                  continue
+                              if isinstance(v, list):
+                                  for it in v:
+                                      p = process_single_item(it)
+                                      if p:
+                                          current_source_items.append(p)
+                              elif isinstance(v, dict):
+                                  p = process_single_item(v)
+                                  if p:
+                                      current_source_items.append(p)
 
-                  # কাউন্ট
-                  src_total = len(source_items)
-                  src_live = sum(1 for it in source_items if is_live_event(it))
+                  # সংগৃহীত ইভেন্টগুলো মূল তালিকায় যোগ করা
+                  all_collected_events.extend(current_source_items)
 
-                  # .txt লগ তৈরি
+                  # কাউন্ট ও লগ তৈরি
+                  src_total = len(current_source_items)
+                  src_live = sum(1 for it in current_source_items if is_live_event(it))
+
                   log_line = f"🚀 {name} Synced | IST: {current_time} | Channels: {src_total} | Live: {src_live}\n"
                   with open(txt_filename, "w", encoding="utf-8") as f:
                       f.write(log_line)
 
-                  print(f"Created: {txt_filename} -> Channels: {src_total}, Live: {src_live}")
+                  print(f"Success: {name} -> Total: {src_total}, Live: {src_live}")
 
               except Exception as e:
                   print(f"Error fetching {name} ({url}): {e}")
 
-          # সামগ্রিক মেটাডাটা ও কাউন্ট
-          all_items = list(combined_events)
-          for v in combined_dict.values():
-              if isinstance(v, list):
-                  all_items.extend(v)
+          # ফাইনাল মেটাডাটা ও মূল JSON তৈরি
+          total_count = len(all_collected_events)
+          live_count = sum(1 for item in all_collected_events if is_live_event(item))
 
-          total_count = len(all_items)
-          live_count = sum(1 for item in all_items if is_live_event(item))
-
-          meta = {
-              "playlist_name": "Willow & Prime Cricket Event Info",
+          final_json = {
+              "playlist_name": "All Sports & Cricket Event Info",
               "owner": "MD ANAMUL HOQUE",
               "telegram": "https://t.me/ireentv",
               "website": "https://anamul.pages.dev",
@@ -271,21 +275,14 @@ jobs:
               "version": "1.0",
               "channels_amount": total_count,
               "live_count": live_count,
-              "last_update": current_time
+              "last_update": current_time,
+              "events": all_collected_events
           }
-
-          final_json = {**meta}
-          if combined_dict:
-              final_json.update(combined_dict)
-          if combined_events:
-              if "events" in final_json:
-                  final_json["events"].extend(combined_events)
-              else:
-                  final_json["events"] = combined_events
 
           with open("willow.json", "w", encoding="utf-8") as f:
               json.dump(final_json, f, indent=2, ensure_ascii=False)
 
+          print(f"Total Combined Events: {total_count} across all playlists.")
           EOF
 
           python3 update_playlist.py
@@ -296,7 +293,7 @@ jobs:
           export TZ="Asia/Kolkata"
           git add willow.json *.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Willow & All Playlists Updated ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git commit -m "All Playlists & Sony LIV Updated ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
           else
             echo "No changes to commit"
