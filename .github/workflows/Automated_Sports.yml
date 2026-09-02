@@ -81,6 +81,82 @@ jobs:
               s = json.dumps(val, ensure_ascii=False).lower()
               return any(bad in s for bad in bad_keywords)
 
+          def is_sonyliv_item(item):
+              """সোনি লিভ ডেটা কিনা তা শনাক্ত করার লজিক"""
+              if not isinstance(item, dict):
+                  return False
+              return ("multiple_audio_links" in item) or ("video_info" in item and "stream_info" in item)
+
+          def transform_sonyliv_item(item):
+              """সোনি লিভ ডেটাকে আপনার কাস্টম ফরম্যাটে রূপান্তর করার ফাংশন"""
+              if not isinstance(item, dict):
+                  return item
+
+              v_info = item.get("video_info", {})
+              img_cdn = item.get("image_cdn", {})
+              air_dates = item.get("air_dates", {})
+              stream_info = item.get("stream_info", {})
+              
+              # Title ও Synopsis নির্ধারণ
+              title = v_info.get("episodeTitle") or v_info.get("title", "")
+              synopsis = v_info.get("longDescription") or v_info.get("shortDescription") or title
+              
+              # Cover Image নির্ধারণ
+              cover_image = (
+                  img_cdn.get("landscape_thumb") or 
+                  img_cdn.get("thumbnail") or 
+                  img_cdn.get("portrait_thumb") or ""
+              )
+              
+              # Match URL নির্ধারণ
+              match_url = stream_info.get("dai_asset_key") or f"https://www.sonyliv.com/custom-live/{item.get('contentId', '')}"
+              
+              # মাল্টি-অডিও থেকে সার্ভার লিস্ট তৈরি
+              stream_url_alpha = {}
+              audio_links = item.get("multiple_audio_links", [])
+              server_count = 1
+
+              if isinstance(audio_links, list) and len(audio_links) > 0:
+                  for audio in audio_links:
+                      lang = audio.get("language", "")
+                      data_obj = audio.get("data", {})
+                      playback_url = data_obj.get("Playback_videoURL")
+                      
+                      if playback_url:
+                          server_name = f"Server {server_count} ({lang})" if lang else f"Server {server_count}"
+                          stream_url_alpha[server_name] = playback_url
+                          server_count += 1
+              
+              # কোনো কারণে অডিও লিঙ্ক না থাকলে ডিফল্ট dai_asset_key নেওয়া
+              if not stream_url_alpha:
+                  dai_key = stream_info.get("dai_asset_key")
+                  if dai_key and dai_key != "unavailable":
+                      stream_url_alpha["Server 1"] = dai_key
+
+              return {
+                  "match_id": str(item.get("contentId", "")),
+                  "title": title,
+                  "synopsis": synopsis,
+                  "status": "LIVE",
+                  "time": air_dates.get("originalAirDate", ""),
+                  "cover_image": cover_image,
+                  "match_url": match_url,
+                  "is_free": False,
+                  "stream_url_alpha": stream_url_alpha
+              }
+
+          def process_items(item_list):
+              """আইটেম প্রসেসিং এবং সোনি লিভ হলে কনভার্ট করা"""
+              processed = []
+              for it in item_list:
+                  if contains_bad_info(it):
+                      continue
+                  if is_sonyliv_item(it):
+                      processed.append(transform_sonyliv_item(it))
+                  else:
+                      processed.append(it)
+              return processed
+
           def is_live_event(item):
               """লাইভ চ্যানেল শনাক্ত করার লজিক"""
               if not isinstance(item, dict):
@@ -117,6 +193,8 @@ jobs:
                   return "PrimeVideo", "primevideo.txt", url
               elif "sports_data" in url_lower:
                   return "Sports Data", "sports_data.txt", url
+              elif "sony" in url_lower:
+                  return "Sony LIV", "sonyliv.txt", url
               else:
                   base = os.path.splitext(os.path.basename(url.split("?")[0]))[0]
                   clean_name = re.sub(r'[^a-zA-Z0-9_-]', '_', base) if base else "playlist"
@@ -138,7 +216,7 @@ jobs:
                           if k.lower() in blocked_keys or contains_bad_info(k):
                               continue
                           if isinstance(v, list):
-                              cleaned_items = [item for item in v if not contains_bad_info(item)]
+                              cleaned_items = process_items(v)
                               source_items.extend(cleaned_items)
                               if k in combined_dict:
                                   combined_dict[k].extend(cleaned_items)
@@ -146,21 +224,26 @@ jobs:
                                   combined_dict[k] = cleaned_items
                           elif isinstance(v, dict):
                               if not contains_bad_info(v):
-                                  combined_dict[k] = v
+                                  if is_sonyliv_item(v):
+                                      transformed = transform_sonyliv_item(v)
+                                      combined_dict[k] = transformed
+                                      source_items.append(transformed)
+                                  else:
+                                      combined_dict[k] = v
                           else:
                               if not contains_bad_info(v):
                                   combined_dict[k] = v
 
                   elif isinstance(data, list):
-                      cleaned_items = [item for item in data if not contains_bad_info(item)]
+                      cleaned_items = process_items(data)
                       source_items.extend(cleaned_items)
                       combined_events.extend(cleaned_items)
 
-                  # এই নির্দিষ্ট প্লেলিস্টের জন্য কাউন্ট
+                  # কাউন্ট
                   src_total = len(source_items)
                   src_live = sum(1 for it in source_items if is_live_event(it))
 
-                  # ওই প্লেলিস্টের জন্য আলাদা .txt ফাইলে লেখা
+                  # .txt লগ তৈরি
                   log_line = f"🚀 {name} Synced | IST: {current_time} | Channels: {src_total} | Live: {src_live}\n"
                   with open(txt_filename, "w", encoding="utf-8") as f:
                       f.write(log_line)
