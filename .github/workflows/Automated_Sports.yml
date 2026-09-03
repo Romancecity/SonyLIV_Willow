@@ -98,6 +98,18 @@ jobs:
               if not isinstance(item, dict):
                   return False
               
+              # DAI লিংক থাকলে সেটি নিশ্চিতভাবেই লাইভ
+              stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
+              dai = stream_info.get("dai_asset_key") or stream_info.get("dai_url") or item.get("dai_asset_key") or item.get("dai_url")
+              if dai and str(dai).startswith("http"):
+                  return True
+              
+              stream_obj = item.get("stream_url", {})
+              if isinstance(stream_obj, dict) and "Original Server" in stream_obj:
+                  if str(stream_obj["Original Server"]).startswith("http"):
+                      return True
+
+              # সাধারণ লাইভ ফ্ল্যাগ চেক
               for k in ["is_live", "live", "isLive", "islive", "is_stream_live"]:
                   if k in item:
                       val = item[k]
@@ -136,15 +148,16 @@ jobs:
 
               # শুধু DAI URL এক্সট্রাক্ট করা হচ্ছে (Original Server)
               stream_urls = extract_sonyliv_streams(item)
-              
               dai_url = stream_urls.get("Original Server")
+              
+              # DAI স্ট্রিম লিংক থাকলেই অটোমেটিক LIVE, না থাকলে UPCOMING
               if dai_url:
                   match_url = dai_url
+                  status = "LIVE"
               else:
                   content_id = item.get('contentId') or item.get('match_id', '')
                   match_url = f"https://www.sonyliv.com/custom-live/{content_id}" if content_id else ""
-
-              status = "LIVE" if is_live_event(item) else "UPCOMING"
+                  status = "LIVE" if is_live_event(item) else "UPCOMING"
 
               time_val = (
                   air_dates.get("originalAirDate") or 
