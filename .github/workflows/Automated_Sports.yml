@@ -69,7 +69,7 @@ jobs:
                   elif not line.startswith("#") and line.startswith("http"):
                       playlist.append({
                           "name": current_name or "Stream",
-                          "url": line.strip()
+                          "url": line.split("|")[0].strip()
                       })
                       current_name = None
               return playlist
@@ -79,13 +79,13 @@ jobs:
               try:
                   print("Fetching external Sony M3U streams...")
                   headers = {"User-Agent": "Mozilla/5.0"}
-                  res = requests.get(SONY_M3U_URL, headers=headers, timeout=20, verify=False)
+                  res = requests.get(SONY_M3U_URL, headers=headers, timeout=25, verify=False)
                   if res.status_code == 200:
                       items = parse_m3u(res.text)
-                      print(f"Successfully loaded {len(items)} channels from sony.m3u")
+                      print(f"✅ Successfully loaded {len(items)} channels from sony.m3u")
                       return items
               except Exception as e:
-                  print(f"Error fetching sony.m3u: {e}")
+                  print(f"⚠️ Error fetching sony.m3u: {e}")
               return []
 
           def fetch_data(url):
@@ -109,11 +109,47 @@ jobs:
                   return True
               return False
 
-          def find_matching_m3u_streams(item, m3u_streams):
-              """M3U থেকে অডিও ভাষা ও চ্যানেলের নামের সাথে মিল রেখে লিঙ্ক খোঁজা"""
-              matched = {}
+          def get_event_status(item):
+              """LIVE, UPCOMING বা SCHEDULED স্ট্যাটাস নির্ণয় করা"""
+              if not isinstance(item, dict):
+                  return "UPCOMING"
+              
+              for k in ["status", "event_status", "match_status", "badge", "state"]:
+                  if k in item and isinstance(item[k], str) and item[k].strip():
+                      st = item[k].strip().upper()
+                      if "LIVE" in st:
+                          return "LIVE"
+                      if any(u in st for u in ["UPCOMING", "FUTURE", "NOT_STARTED", "PRE", "SCHEDULED"]):
+                          return "UPCOMING"
+                      if any(c in st for c in ["COMPLETED", "FINISHED", "ENDED"]):
+                          return "COMPLETED"
+
+              for k in ["is_live", "live", "isLive", "islive"]:
+                  if k in item:
+                      val = item[k]
+                      if val in [True, 1, "true", "1", "live", "yes", "True"]:
+                          return "LIVE"
+
+              stream_info = item.get("stream_info", {})
+              if isinstance(stream_info, dict) and stream_info.get("dai_asset_key"):
+                  return "LIVE"
+
+              return "UPCOMING"
+
+          def extract_sonyliv_streams(item, m3u_streams):
+              servers = {}
+              server_idx = 1
+
+              # ১. শুধুমাত্র DAI লিঙ্কটি ডাইরেক্ট JSON সোর্স থেকে বসবে
+              stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
+              dai = stream_info.get("dai_asset_key") or item.get("dai_asset_key")
+              if dai and str(dai).startswith("http"):
+                  servers[f"Server {server_idx} (DAI)"] = str(dai).split("|")[0].strip()
+                  server_idx += 1
+
+              # ২. বাকি সব স্ট্রিম M3U প্লেলিস্ট থেকে রিপ্লেস হবে
               v_info = item.get("video_info", {}) if isinstance(item.get("video_info"), dict) else {}
-              title = (v_info.get("title") or item.get("title") or "").lower()
+              title = (v_info.get("episodeTitle") or v_info.get("title") or item.get("title") or "").lower()
 
               audio_langs = []
               audio_links = item.get("multiple_audio_links", [])
@@ -124,51 +160,39 @@ jobs:
                           if lang and lang.lower() not in [l.lower() for l in audio_langs]:
                               audio_langs.append(lang)
 
-              # ১. অডিও ল্যাঙ্গুয়েজ অনুযায়ী M3U তে খোঁজা
+              matched_m3u = {}
+
+              # অডিও ভাষা অনুযায়ী M3U তে স্ট্রিম রিপ্লেস করা
               for lang in audio_langs:
                   lang_lower = lang.lower()
                   for m in m3u_streams:
                       m_name = m["name"].lower()
                       if lang_lower in m_name:
-                          matched[f"Server ({lang})"] = m["url"]
+                          matched_m3u[f"Server ({lang})"] = m["url"]
                           break
 
-              # ২. চ্যানেল নাম অনুযায়ী M3U তে খোঁজা (যেমন: Ten 1, Ten 2, Six ইত্যাদি)
-              for ch in ["ten 1", "ten 2", "ten 3", "ten 4", "ten 5", "six", "yay", "max", "sab"]:
+              # চ্যানেলের নাম অনুযায়ী M3U তে স্ট্রিম রিপ্লেস করা
+              for ch in ["ten 1", "ten 2", "ten 3", "ten 4", "ten 5", "six", "yay", "max", "sab", "sports"]:
                   if ch in title:
                       for m in m3u_streams:
                           m_name = m["name"].lower()
                           if ch in m_name:
-                              label = f"Server ({m['name']})"
-                              if label not in matched:
-                                  matched[label] = m["url"]
+                              lbl = f"Server ({m['name']})"
+                              if lbl not in matched_m3u:
+                                  matched_m3u[lbl] = m["url"]
 
-              # ৩. টাইটেলের কি-ওয়ার্ড দিয়ে ম্যাচ করা
-              if not matched:
-                  words = [w for w in re.findall(r'[a-zA-Z0-9]+', title) if len(w) > 3 and w not in ["live", "match", "sony", "sports", "vs"]]
+              # কি-ওয়ার্ড ম্যাচিং
+              if not matched_m3u:
+                  words = [w for w in re.findall(r'[a-zA-Z0-9]+', title) if len(w) > 3 and w not in ["live", "match", "sony", "sports", "vs", "versus"]]
                   for m in m3u_streams:
                       m_name = m["name"].lower()
                       if any(w in m_name for w in words):
-                          matched[f"Server ({m['name']})"] = m["url"]
+                          matched_m3u[f"Server ({m['name']})"] = m["url"]
 
-              return matched
-
-          def extract_sonyliv_streams(item, m3u_streams):
-              servers = {}
-              server_idx = 1
-
-              # ১. শুধুমাত্র DAI লিঙ্কটি JSON সোর্স থেকে আসবে
-              stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
-              dai = stream_info.get("dai_asset_key") or item.get("dai_asset_key")
-              if dai and str(dai).startswith("http"):
-                  servers[f"Server {server_idx} (DAI)"] = str(dai).strip()
-                  server_idx += 1
-
-              # ২. বাকি সব স্ট্রিম লিঙ্ক আসবে M3U প্লেলিস্ট থেকে
-              m3u_matches = find_matching_m3u_streams(item, m3u_streams)
-              for label, stream_url in m3u_matches.items():
-                  clean_label = f"Server {server_idx} {label.replace('Server', '').strip()}"
-                  servers[clean_label] = stream_url.strip()
+              # M3U থেকে পাওয়া রিপ্লেসড স্ট্রিমগুলো অ্যাড করা
+              for lbl, url in matched_m3u.items():
+                  clean_name = f"Server {server_idx} {lbl.replace('Server', '').strip()}".strip()
+                  servers[clean_name] = url
                   server_idx += 1
 
               return servers
@@ -179,7 +203,7 @@ jobs:
               air_dates = item.get("air_dates", {}) if isinstance(item.get("air_dates"), dict) else {}
               stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
 
-              title = v_info.get("episodeTitle") or v_info.get("title") or item.get("title") or "Live Match"
+              title = v_info.get("episodeTitle") or v_info.get("title") or item.get("title") or "Match / Event"
               synopsis = v_info.get("longDescription") or v_info.get("shortDescription") or item.get("synopsis") or title
 
               cover_image = (
@@ -193,13 +217,15 @@ jobs:
               if not match_url or not str(match_url).startswith("http"):
                   match_url = f"https://www.sonyliv.com/custom-live/{item.get('contentId', '')}"
 
+              # লাইভ বা আপকামিং সব ইভেন্টের স্ট্যাটাস স্বয়ংক্রিয়ভাবে নেওয়া
+              status = get_event_status(item)
               stream_urls = extract_sonyliv_streams(item, m3u_streams)
 
               return {
                   "match_id": str(item.get("contentId") or item.get("match_id", "")),
                   "title": title,
                   "synopsis": synopsis,
-                  "status": "LIVE",
+                  "status": status,
                   "time": air_dates.get("originalAirDate") or item.get("time", ""),
                   "cover_image": cover_image,
                   "match_url": match_url,
@@ -228,19 +254,6 @@ jobs:
                   if not items and ("contentId" in data or "match_id" in data or "video_info" in data):
                       items.append(data)
               return items
-
-          def is_live_event(item):
-              if not isinstance(item, dict):
-                  return False
-              for k in ["is_live", "live", "isLive", "islive"]:
-                  if k in item:
-                      val = item[k]
-                      if val in [True, 1, "true", "1", "live", "yes", "True"]:
-                          return True
-              for k in ["status", "event_status", "match_status", "badge", "state"]:
-                  if k in item and isinstance(item[k], str) and "live" in item[k].lower():
-                      return True
-              return False
 
           def get_playlist_info(url_line):
               if "|" in url_line:
@@ -282,26 +295,29 @@ jobs:
                       if not isinstance(it, dict):
                           continue
                       if is_sonyliv_item(it):
+                          # লাইভ ও আপকামিং সব Sony LIV ইভেন্ট প্রসেস হবে
                           current_source_items.append(transform_sonyliv_item(it, sony_m3u_streams))
                       else:
+                          # অন্যান্য সোর্সের সব ইভেন্ট
                           current_source_items.append(it)
 
                   all_collected_events.extend(current_source_items)
 
                   src_total = len(current_source_items)
-                  src_live = sum(1 for it in current_source_items if is_live_event(it))
+                  src_live = sum(1 for it in current_source_items if get_event_status(it) == "LIVE")
+                  src_upcoming = src_total - src_live
 
-                  log_line = f"🚀 {name} Synced | IST: {current_time} | Channels: {src_total} | Live: {src_live}\n"
+                  log_line = f"🚀 {name} Synced | IST: {current_time} | Total: {src_total} | Live: {src_live} | Upcoming: {src_upcoming}\n"
                   with open(txt_filename, "w", encoding="utf-8") as f:
                       f.write(log_line)
 
-                  print(f"✅ Success: {name} -> Extracted: {src_total} items (Live: {src_live})")
+                  print(f"✅ Success: {name} -> Total: {src_total} (Live: {src_live}, Upcoming: {src_upcoming})")
 
               except Exception as e:
                   print(f"❌ Error fetching {name} ({url}): {e}")
 
           total_count = len(all_collected_events)
-          live_count = sum(1 for item in all_collected_events if is_live_event(item))
+          live_count = sum(1 for item in all_collected_events if get_event_status(item) == "LIVE")
 
           final_json = {
               "playlist_name": "All Sports & Cricket Event Info",
@@ -319,7 +335,7 @@ jobs:
           with open("willow.json", "w", encoding="utf-8") as f:
               json.dump(final_json, f, indent=2, ensure_ascii=False)
 
-          print(f"🎯 Finished! Total Combined Channels: {total_count}")
+          print(f"🎯 Finished! Total Combined Channels: {total_count} (Live: {live_count})")
           EOF
 
       - name: Commit and Push
