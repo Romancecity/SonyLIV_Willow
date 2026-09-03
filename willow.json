@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 24,
   "live_count": 4,
-  "last_update": "02:09 PM 03-09-2026",
+  "last_update": "02:21 PM 03-09-2026",
   "events": [
     {
       "match_id": "B0HGTKNGM6",
@@ -290,9 +290,19 @@
       "match_url": "https://dai.google.com/ssai/event/by07ZzrmTgerkPQ39CviUA/master.m3u8",
       "is_free": false,
       "stream_url_alpha": {
-        "Server 1 (Hindi)": "https://sonymtmnew.akamaized.net/hls/live/2094588/criclive0309/HIN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=9d97490711a6b674336df4f1a6132b42-1788417004223",
-        "Server 2 (Punjabi)": "https://sonymtmnew.akamaized.net/hls/live/2094588/criclive0309/PAN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=9d97490711a6b674336df4f1a6132b42-1788417004223",
-        "Server 3 (DAI)": "https://dai.google.com/ssai/event/by07ZzrmTgerkPQ39CviUA/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=9d97490711a6b674336df4f1a6132b42-1788417004223"
+        "Server 1 (Hindi)": "https://sonymtmnew.akamaized.net/hls/live/2094588/criclive0309/HIN/master.m3u8",
+        "Server 2 (Punjabi)": "https://sonymtmnew.akamaized.net/hls/live/2094588/criclive0309/PAN/master.m3u8",
+        "Server 3 (DAI)": "https://dai.google.com/ssai/event/by07ZzrmTgerkPQ39CviUA/master.m3u8"
+      },
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0",
+      "referer": "https://www.sonyliv.com/",
+      "origin": "https://www.sonyliv.com",
+      "x_playback_session_id": "9d97490711a6b674336df4f1a6132b42-1788417004223",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0",
+        "Referer": "https://www.sonyliv.com/",
+        "Origin": "https://www.sonyliv.com",
+        "x-playback-session-id": "9d97490711a6b674336df4f1a6132b42-1788417004223"
       }
     },
     {
@@ -305,8 +315,18 @@
       "match_url": "https://dai.google.com/ssai/event/ahLdkaRoSWavrsFLPU8THA/master.m3u8",
       "is_free": false,
       "stream_url_alpha": {
-        "Server 1 (English)": "https://sonymtmnew.akamaized.net/hls/live/2005444/criclive0309/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=9d97490711a6b674336df4f1a6132b42-1788417004223",
-        "Server 2 (DAI)": "https://dai.google.com/ssai/event/ahLdkaRoSWavrsFLPU8THA/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=9d97490711a6b674336df4f1a6132b42-1788417004223"
+        "Server 1 (English)": "https://sonymtmnew.akamaized.net/hls/live/2005444/criclive0309/ENG/master.m3u8",
+        "Server 2 (DAI)": "https://dai.google.com/ssai/event/ahLdkaRoSWavrsFLPU8THA/master.m3u8"
+      },
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0",
+      "referer": "https://www.sonyliv.com/",
+      "origin": "https://www.sonyliv.com",
+      "x_playback_session_id": "9d97490711a6b674336df4f1a6132b42-1788417004223",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0",
+        "Referer": "https://www.sonyliv.com/",
+        "Origin": "https://www.sonyliv.com",
+        "x-playback-session-id": "9d97490711a6b674336df4f1a6132b42-1788417004223"
       }
     }
   ]
