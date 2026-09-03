@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 24,
   "live_count": 4,
-  "last_update": "02:40 PM 03-09-2026",
+  "last_update": "02:42 PM 03-09-2026",
   "events": [
     {
       "match_id": "B0HGTKNGM6",
@@ -290,10 +290,9 @@
       "match_url": "https://dai.google.com/ssai/event/by07ZzrmTgerkPQ39CviUA/master.m3u8",
       "is_free": false,
       "stream_url_alpha": {
-        "Server 1 (DAI)": "https://dai.google.com/ssai/event/by07ZzrmTgerkPQ39CviUA/master.m3u8",
-        "Server 2 (HIN | Bathinda Royals vs Jalandhar Warriors - 3 Sep 2026)": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/criclive0309/HIN/master.m3u8",
-        "Server 3 (PAN | Bathinda Royals vs Jalandhar Warriors - 3 Sep 2026)": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/criclive0309/PAN/master.m3u8",
-        "Server 4 (ENG | Bangalore Blasters vs Rajasthan Rajvansh - 3 Sep 2026)": "https://sonymtmnew-akamaized.pages.dev/hls/live/2005444/criclive0309/ENG/master.m3u8"
+        "Server 1 (Hindi)": "https://sonymtmnew.akamaized.net/hls/live/2094588/criclive0309/HIN/master.m3u8",
+        "Server 2 (Punjabi)": "https://sonymtmnew.akamaized.net/hls/live/2094588/criclive0309/PAN/master.m3u8",
+        "Server 3 (DAI)": "https://dai.google.com/ssai/event/by07ZzrmTgerkPQ39CviUA/master.m3u8"
       }
     },
     {
@@ -306,10 +305,8 @@
       "match_url": "https://dai.google.com/ssai/event/ahLdkaRoSWavrsFLPU8THA/master.m3u8",
       "is_free": false,
       "stream_url_alpha": {
-        "Server 1 (DAI)": "https://dai.google.com/ssai/event/ahLdkaRoSWavrsFLPU8THA/master.m3u8",
-        "Server 2 (HIN | Bathinda Royals vs Jalandhar Warriors - 3 Sep 2026)": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/criclive0309/HIN/master.m3u8",
-        "Server 3 (PAN | Bathinda Royals vs Jalandhar Warriors - 3 Sep 2026)": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/criclive0309/PAN/master.m3u8",
-        "Server 4 (ENG | Bangalore Blasters vs Rajasthan Rajvansh - 3 Sep 2026)": "https://sonymtmnew-akamaized.pages.dev/hls/live/2005444/criclive0309/ENG/master.m3u8"
+        "Server 1 (English)": "https://sonymtmnew.akamaized.net/hls/live/2005444/criclive0309/ENG/master.m3u8",
+        "Server 2 (DAI)": "https://dai.google.com/ssai/event/ahLdkaRoSWavrsFLPU8THA/master.m3u8"
       }
     }
   ]
