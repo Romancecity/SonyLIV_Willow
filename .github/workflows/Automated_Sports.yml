@@ -2,10 +2,10 @@ name: Automated Sports Data JSON & All TXT Updater
 
 on:
   schedule:
-    - cron: '*/15 * * * *'   # ব্যাকআপ হিসেবে প্রতি ১৫ মিনিট চলবে
+    - cron: '*/15 * * * *'   # প্রতি ১৫ মিনিট পরপর চলবে
   workflow_dispatch:
   repository_dispatch:
-    types: [update-playlist] # 👈 রেন্ডার ওয়াচার বটের সংকেত রিসিভ করবে
+    types: [update-playlist]
 
 jobs:
   update-file:
@@ -38,11 +38,12 @@ jobs:
           JSON_PLAYLIST_URLS: ${{ secrets.JSON_PLAYLIST_URLS }}
         run: |
           git pull origin main --rebase
-
-          cat << 'EOF' > update_playlist.py
+          python3 - << 'EOF'
           import os
           import re
           import json
+          import uuid
+          import time
           import requests
           import urllib3
           from datetime import datetime
@@ -55,6 +56,21 @@ jobs:
 
           raw_urls = os.environ.get("JSON_PLAYLIST_URLS", "")
           lines = [u.strip() for u in raw_urls.splitlines() if u.strip() and not u.strip().startswith("#")]
+
+          def add_sonyliv_headers(url):
+              if not url or not isinstance(url, str) or not url.startswith("http"):
+                  return url
+              if "|" in url:
+                  return url
+              
+              session_id = f"{uuid.uuid4().hex}-{int(time.time() * 1000)}"
+              headers = (
+                  "User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0"
+                  "&Referer=https://www.sonyliv.com/"
+                  "&Origin=https://www.sonyliv.com"
+                  f"&x-playback-session-id={session_id}"
+              )
+              return f"{url.strip()}|{headers}"
 
           def fetch_data(url):
               headers = {
@@ -102,7 +118,7 @@ jobs:
 
                       if stream_url and str(stream_url).startswith("http"):
                           server_name = f"Server {server_idx} ({lang})" if lang else f"Server {server_idx}"
-                          servers[server_name] = str(stream_url).strip()
+                          servers[server_name] = add_sonyliv_headers(str(stream_url))
                           server_idx += 1
 
               stream_info = item.get("stream_info", {})
@@ -110,13 +126,13 @@ jobs:
                   dai = stream_info.get("dai_asset_key")
                   if dai and str(dai).startswith("http"):
                       label = f"Server {server_idx} (DAI)" if servers else "Server 1 (DAI)"
-                      servers[label] = str(dai).strip()
+                      servers[label] = add_sonyliv_headers(str(dai))
                       server_idx += 1
 
               if "Playback_videoURL" in item and str(item["Playback_videoURL"]).startswith("http"):
-                  servers[f"Server {server_idx}"] = str(item["Playback_videoURL"]).strip()
+                  servers[f"Server {server_idx}"] = add_sonyliv_headers(str(item["Playback_videoURL"]))
               if "dai_asset_key" in item and str(item["dai_asset_key"]).startswith("http") and "Server 1 (DAI)" not in servers:
-                  servers[f"Server {server_idx} (DAI)"] = str(item["dai_asset_key"]).strip()
+                  servers[f"Server {server_idx} (DAI)"] = add_sonyliv_headers(str(item["dai_asset_key"]))
 
               return servers
 
@@ -267,9 +283,6 @@ jobs:
 
           print(f"🎯 Finished! Total Combined Channels: {total_count}")
           EOF
-
-          python3 update_playlist.py
-          rm -f update_playlist.py
 
       - name: Commit and Push
         run: |
