@@ -42,8 +42,6 @@ jobs:
           import os
           import re
           import json
-          import uuid
-          import time
           import requests
           import urllib3
           from datetime import datetime
@@ -57,20 +55,16 @@ jobs:
           raw_urls = os.environ.get("JSON_PLAYLIST_URLS", "")
           lines = [u.strip() for u in raw_urls.splitlines() if u.strip() and not u.strip().startswith("#")]
 
+          # সোর্স প্লেলিস্টের হুবহু হেডার স্ট্রিং
+          SONY_EXACT_HEADERS = "User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=9d97490711a6b674336df4f1a6132b42-1788417004223"
+
           def add_sonyliv_headers(url):
+              """URL এর সাথে হুবহু Sony LIV হেডার যুক্ত করার ফাংশন"""
               if not url or not isinstance(url, str) or not url.startswith("http"):
                   return url
               if "|" in url:
-                  return url
-              
-              session_id = f"{uuid.uuid4().hex}-{int(time.time() * 1000)}"
-              headers = (
-                  "User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0"
-                  "&Referer=https://www.sonyliv.com/"
-                  "&Origin=https://www.sonyliv.com"
-                  f"&x-playback-session-id={session_id}"
-              )
-              return f"{url.strip()}|{headers}"
+                  return url.strip()
+              return f"{url.strip()}|{SONY_EXACT_HEADERS}"
 
           def fetch_data(url):
               headers = {
@@ -170,6 +164,17 @@ jobs:
                   "stream_url_alpha": stream_urls
               }
 
+          def process_raw_item_streams(item):
+              """অন্যান্য সোর্স থেকে আসা আইটেমের সোনি লিঙ্কগুলোতেও হেডার নিশ্চিত করা"""
+              if not isinstance(item, dict):
+                  return item
+              if "stream_url_alpha" in item and isinstance(item["stream_url_alpha"], dict):
+                  for s_name, s_url in item["stream_url_alpha"].items():
+                      if isinstance(s_url, str) and s_url.startswith("http"):
+                          if any(k in s_url.lower() for k in ["sony", "criclive", "pages.dev", "akamaized"]):
+                              item["stream_url_alpha"][s_name] = add_sonyliv_headers(s_url)
+              return item
+
           def extract_items_from_json(data):
               items = []
               if isinstance(data, list):
@@ -246,7 +251,7 @@ jobs:
                       if is_sonyliv_item(it):
                           current_source_items.append(transform_sonyliv_item(it))
                       else:
-                          current_source_items.append(it)
+                          current_source_items.append(process_raw_item_streams(it))
 
                   all_collected_events.extend(current_source_items)
 
