@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "developer": "IreenTechnology",
   "version": "1.0",
-  "channels_amount": 21,
-  "live_count": 1,
-  "last_update": "10:35 AM 03-09-2026",
+  "channels_amount": 24,
+  "live_count": 4,
+  "last_update": "01:40 PM 03-09-2026",
   "events": [
     {
       "match_id": "B0HGTKNGM6",
@@ -248,6 +248,52 @@
       "is_free": false,
       "stream_url_alpha": "",
       "drm_key": ""
+    },
+    {
+      "match_id": "B0HFV6GK9Q",
+      "title": "Taranaki v Auckland",
+      "synopsis": "Taranaki v Auckland",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.3e6a0372-f913-48f1-9193-f871284f0a03/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HFV6GK9Q",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/z1mmauev4g/out/v1/40b826b7f7d449559a5e4e3c2ac3fca2/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/z1mmauev4g/out/v1/40b826b7f7d449559a5e4e3c2ac3fca2/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/z1mmauev4g/out/v1/40b826b7f7d449559a5e4e3c2ac3fca2/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/z1mmauev4g/out/v1/40b826b7f7d449559a5e4e3c2ac3fca2/cenc.mpd"
+      },
+      "drm_key": "63a084a354d126bcd099c9eabf0cbb93:bd2b00bce574c33af46d0538937b3ac3"
+    },
+    {
+      "match_id": "B0GSRSGZQ2",
+      "title": "Sep 3 - PTT Frankfurt",
+      "synopsis": "Sep 3 - PTT Frankfurt",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.b423a1c6-34a4-4bd2-a884-91524f69ad2d/5/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0GSRSGZQ2",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://a26live-pv-ta-amazon.akamaized.net/$T$2D3RhEOhAQWhBFgkYWY3NDZlZjAtYzM0OC00MGM1LWFjN2UtYTVhZWIzNjhiNjA0WJCnAWpwcmltZXZpZGVvBBpqrOIrBhpqmRurA2Zha2FtYWkCeClzc2lkOjEyN2JmYjExLWY4ZWItNDNjMC05MjkzLWVlYTIxZTI1OWQ1YhkBOKEFoQJ4My95YWZoamxhMmswL291dC92MS8yOTRhYWY1YTRhY2E0ODQwOWFhZjUyZmE1MTIyM2JhZBkBPIFiVVNYII1AalElHBkbmYru_feQODlRhVALnR7bIfav6CGQltlk/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/yafhjla2k0/out/v1/294aaf5a4aca48409aaf52fa51223bad/f67b54b6-5fed-415a-90db-c51054d5f03e-cenc.mpd"
+      },
+      "drm_key": "6a5905b83c5993be480cb21d376007d9:18a3bb073fd1bf67c1edfbedbe8f79b8"
+    },
+    {
+      "match_id": "1090541268",
+      "title": "Bathinda Royals vs Jalandhar Warriors - 3 Sep 2026",
+      "synopsis": "Bathinda Royals take on Jalandhar Warriors in a thrilling Sher-E-Punjab T20 League encounter. Catch the LIVE action, only on Sony LIV.",
+      "status": "LIVE",
+      "time": "03 Sep 2026, 12:30 PM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023377/1788350606714870_PT20_Bathinda-Royals-vs-Jalandhar-Warriors_live_landscape_thumb.jpg",
+      "match_url": "https://dai.google.com/ssai/event/by07ZzrmTgerkPQ39CviUA/master.m3u8",
+      "is_free": false,
+      "stream_url_alpha": {
+        "Server 1 (Hindi)": "https://sonymtmnew.akamaized.net/hls/live/2094588/criclive0309/HIN/master.m3u8",
+        "Server 2 (Punjabi)": "https://sonymtmnew.akamaized.net/hls/live/2094588/criclive0309/PAN/master.m3u8",
+        "Server 3 (DAI)": "https://dai.google.com/ssai/event/by07ZzrmTgerkPQ39CviUA/master.m3u8"
+      }
     },
     {
       "match_id": "1090541267",
