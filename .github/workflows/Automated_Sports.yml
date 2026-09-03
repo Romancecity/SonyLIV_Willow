@@ -78,11 +78,10 @@ jobs:
               return False
 
           def extract_sonyliv_streams(item):
-              """শুধু মাত্র DAI স্ট্রিম URL সংগ্রহ করবে, মাল্টি-অডিও বা অন্যান্য লিংক বাদ দিবে"""
+              """শুধু মাত্র DAI স্ট্রিম URL সংগ্রহ করবে এবং কী হবে Original Server"""
               servers = {}
               stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
               
-              # DAI URL খুঁজে বের করা
               dai = (
                   stream_info.get("dai_asset_key") or 
                   stream_info.get("dai_url") or 
@@ -91,7 +90,7 @@ jobs:
               )
               
               if dai and str(dai).startswith("http"):
-                  servers["Server 1"] = str(dai).strip()
+                  servers["Original Server"] = str(dai).strip()
                   
               return servers
 
@@ -99,14 +98,12 @@ jobs:
               if not isinstance(item, dict):
                   return False
               
-              # রুট লেভেল স্ট্যাটাস চেক
               for k in ["is_live", "live", "isLive", "islive", "is_stream_live"]:
                   if k in item:
                       val = item[k]
                       if val in [True, 1, "true", "1", "live", "yes", "True", "LIVE"]:
                           return True
               
-              # ভিডিও ইনফো চেক
               v_info = item.get("video_info", {}) if isinstance(item.get("video_info"), dict) else {}
               for k in ["is_live", "live", "isLive", "islive", "broadcast_state"]:
                   if k in v_info:
@@ -114,7 +111,6 @@ jobs:
                       if val in [True, 1, "true", "1", "live", "yes", "True", "LIVE"]:
                           return True
 
-              # স্ট্যাটাস স্ট্রিং চেক
               for k in ["status", "event_status", "match_status", "badge", "state"]:
                   if k in item and isinstance(item[k], str) and "live" in item[k].lower():
                       return True
@@ -127,7 +123,6 @@ jobs:
               v_info = item.get("video_info", {}) if isinstance(item.get("video_info"), dict) else {}
               img_cdn = item.get("image_cdn", {}) if isinstance(item.get("image_cdn"), dict) else {}
               air_dates = item.get("air_dates", {}) if isinstance(item.get("air_dates"), dict) else {}
-              stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
 
               title = v_info.get("episodeTitle") or v_info.get("title") or item.get("title") or "Sports Match"
               synopsis = v_info.get("longDescription") or v_info.get("shortDescription") or item.get("synopsis") or title
@@ -139,17 +134,16 @@ jobs:
                   item.get("cover_image") or ""
               )
 
-              # শুধু DAI URL বের করা
+              # শুধু DAI URL এক্সট্রাক্ট করা হচ্ছে (Original Server)
               stream_urls = extract_sonyliv_streams(item)
               
-              dai_url = stream_urls.get("Server 1")
+              dai_url = stream_urls.get("Original Server")
               if dai_url:
                   match_url = dai_url
               else:
                   content_id = item.get('contentId') or item.get('match_id', '')
                   match_url = f"https://www.sonyliv.com/custom-live/{content_id}" if content_id else ""
 
-              # লাইভ নাকি আপকামিং নির্ধারণ
               status = "LIVE" if is_live_event(item) else "UPCOMING"
 
               time_val = (
@@ -168,11 +162,10 @@ jobs:
                   "cover_image": cover_image,
                   "match_url": match_url,
                   "is_free": False,
-                  "stream_url_alpha": stream_urls
+                  "stream_url": stream_urls
               }
 
           def extract_items_from_json(data):
-              """নেস্টেড JSON-এর যেকোনো স্থান থেকে লাইভ এবং আপকামিং সব ইভেন্ট বের করে আনবে"""
               items = []
 
               def walk(obj):
@@ -180,12 +173,11 @@ jobs:
                       for elem in obj:
                           walk(elem)
                   elif isinstance(obj, dict):
-                      # চেক করা হচ্ছে এটি একটি ম্যাচ/ইভেন্ট আইটেম কি না
                       is_match_item = False
                       if any(k in obj for k in ["contentId", "match_id", "eventId", "event_id"]) and \
-                         any(k in obj for k in ["video_info", "stream_info", "image_cdn", "air_dates", "stream_url_alpha", "multiple_audio_links", "title"]):
+                         any(k in obj for k in ["video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "multiple_audio_links", "title"]):
                           is_match_item = True
-                      elif "stream_url_alpha" in obj or "multiple_audio_links" in obj or "stream_info" in obj:
+                      elif "stream_url" in obj or "stream_url_alpha" in obj or "multiple_audio_links" in obj or "stream_info" in obj:
                           is_match_item = True
                       elif "title" in obj and any(k in obj for k in ["match_url", "status", "stream_url", "cover_image", "time", "start_time"]):
                           is_match_item = True
@@ -200,7 +192,6 @@ jobs:
 
               walk(data)
 
-              # ডুপ্লিকেট রিমুভ করা
               seen = set()
               unique_items = []
               for it in items:
