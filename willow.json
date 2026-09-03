@@ -5,21 +5,34 @@
   "website": "https://anamul.pages.dev",
   "developer": "IreenTechnology",
   "version": "1.0",
-  "channels_amount": 38,
-  "live_count": 4,
-  "last_update": "04:43 PM 03-09-2026",
+  "channels_amount": 39,
+  "live_count": 6,
+  "last_update": "05:04 PM 03-09-2026",
   "events": [
     {
       "match_id": "B0HGTKNGM6",
       "title": "Ireland Women tour of England 2026 - 2nd ODI - England Women vs Ireland Women",
       "synopsis": "Ireland Women tour of England 2026 - 2nd ODI - England Women vs Ireland Women",
-      "status": "UPCOMING",
-      "time": "Live at 5:25 PM BDT",
+      "status": "LIVE",
+      "time": "5:25 PM BDT",
       "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.9054e27f-88fb-49bf-a722-e8c7922e1ad9/4/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HGTKNGM6?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_1",
       "is_free": false,
-      "stream_url_alpha": "",
-      "drm_key": ""
+      "stream_url_alpha": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sgepjksrv8/out/v1/d4ec3fbb804e495b821b85bfe9eb4e10/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sgepjksrv8/out/v1/d4ec3fbb804e495b821b85bfe9eb4e10/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/sgepjksrv8/out/v1/d4ec3fbb804e495b821b85bfe9eb4e10/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/sgepjksrv8/out/v1/d4ec3fbb804e495b821b85bfe9eb4e10/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/sgepjksrv8/out/v1/d4ec3fbb804e495b821b85bfe9eb4e10/cenc.mpd"
+      },
+      "stream_url_bravo": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/nvroyhzlhq/out/v1/23e4fe9050f046c880be512968e823d3/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/nvroyhzlhq/out/v1/23e4fe9050f046c880be512968e823d3/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/nvroyhzlhq/out/v1/23e4fe9050f046c880be512968e823d3/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/nvroyhzlhq/out/v1/23e4fe9050f046c880be512968e823d3/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/nvroyhzlhq/out/v1/23e4fe9050f046c880be512968e823d3/cenc.mpd"
+      },
+      "drm_key": "004c07d225af5230505aa31027f31401:0fa40a08e1846cd63d72639e8e17ebdd"
     },
     {
       "match_id": "B0H387DGDY",
@@ -274,6 +287,19 @@
       "is_free": false,
       "stream_url": {
         "Original Server": "https://dai.google.com/ssai/event/by07ZzrmTgerkPQ39CviUA/master.m3u8"
+      }
+    },
+    {
+      "match_id": "1090541271",
+      "title": "2nd ODI - 3 Sep 2026",
+      "synopsis": "England Women face Ireland Women in the 2nd ODI of the series. With England leading 1-0, Ireland will look to level the series. Watch all the action live, only on Sony LIV.",
+      "status": "LIVE",
+      "time": "03 Sep 2026, 05:30 PM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023357/1788333179261860_ENGW_vs_IREW_2odi_landscape.jpg",
+      "match_url": "https://dai.google.com/ssai/event/MteJAW66RAWpiknIUUM7GQ/master.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://dai.google.com/ssai/event/MteJAW66RAWpiknIUUM7GQ/master.m3u8"
       }
     },
     {
