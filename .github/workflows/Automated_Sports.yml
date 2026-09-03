@@ -71,54 +71,57 @@ jobs:
                   return False
               if "multiple_audio_links" in item:
                   return True
-              if "video_info" in item and ("stream_info" in item or "image_cdn" in item):
+              if "video_info" in item and ("stream_info" in item or "image_cdn" in item or "air_dates" in item):
                   return True
-              if "contentId" in item and ("video_info" in item or "air_dates" in item):
+              if "contentId" in item and ("video_info" in item or "air_dates" in item or "stream_info" in item):
                   return True
               return False
 
           def extract_sonyliv_streams(item):
+              """শুধু মাত্র DAI স্ট্রিম URL সংগ্রহ করবে, মাল্টি-অডিও বা অন্যান্য লিংক বাদ দিবে"""
               servers = {}
-              server_idx = 1
+              stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
               
-              audio_links = item.get("multiple_audio_links", [])
-              if isinstance(audio_links, list):
-                  for audio in audio_links:
-                      if not isinstance(audio, dict):
-                          continue
-                      lang = audio.get("language") or audio.get("lang_code") or ""
-                      data_obj = audio.get("data", {}) if isinstance(audio.get("data"), dict) else {}
-                      
-                      stream_url = data_obj.get("Playback_videoURL")
-                      
-                      if not stream_url and "auto_streams" in data_obj:
-                          auto_str = str(data_obj.get("auto_streams", ""))
-                          m = re.findall(r'https?://[^\s\n\r"\'<>]+', auto_str)
-                          if m:
-                              stream_url = m[0]
-                      
-                      if not stream_url:
-                          stream_url = data_obj.get("trailer_url")
-
-                      if stream_url and str(stream_url).startswith("http"):
-                          server_name = f"Server {server_idx} ({lang})" if lang else f"Server {server_idx}"
-                          servers[server_name] = str(stream_url).strip()
-                          server_idx += 1
-
-              stream_info = item.get("stream_info", {})
-              if isinstance(stream_info, dict):
-                  dai = stream_info.get("dai_asset_key")
-                  if dai and str(dai).startswith("http"):
-                      label = f"Server {server_idx} (DAI)" if servers else "Server 1 (DAI)"
-                      servers[label] = str(dai).strip()
-                      server_idx += 1
-
-              if "Playback_videoURL" in item and str(item["Playback_videoURL"]).startswith("http"):
-                  servers[f"Server {server_idx}"] = str(item["Playback_videoURL"]).strip()
-              if "dai_asset_key" in item and str(item["dai_asset_key"]).startswith("http") and "Server 1 (DAI)" not in servers:
-                  servers[f"Server {server_idx} (DAI)"] = str(item["dai_asset_key"]).strip()
-
+              # DAI URL খুঁজে বের করা
+              dai = (
+                  stream_info.get("dai_asset_key") or 
+                  stream_info.get("dai_url") or 
+                  item.get("dai_asset_key") or 
+                  item.get("dai_url")
+              )
+              
+              if dai and str(dai).startswith("http"):
+                  servers["Server 1"] = str(dai).strip()
+                  
               return servers
+
+          def is_live_event(item):
+              if not isinstance(item, dict):
+                  return False
+              
+              # রুট লেভেল স্ট্যাটাস চেক
+              for k in ["is_live", "live", "isLive", "islive", "is_stream_live"]:
+                  if k in item:
+                      val = item[k]
+                      if val in [True, 1, "true", "1", "live", "yes", "True", "LIVE"]:
+                          return True
+              
+              # ভিডিও ইনফো চেক
+              v_info = item.get("video_info", {}) if isinstance(item.get("video_info"), dict) else {}
+              for k in ["is_live", "live", "isLive", "islive", "broadcast_state"]:
+                  if k in v_info:
+                      val = v_info[k]
+                      if val in [True, 1, "true", "1", "live", "yes", "True", "LIVE"]:
+                          return True
+
+              # স্ট্যাটাস স্ট্রিং চেক
+              for k in ["status", "event_status", "match_status", "badge", "state"]:
+                  if k in item and isinstance(item[k], str) and "live" in item[k].lower():
+                      return True
+                  if k in v_info and isinstance(v_info[k], str) and "live" in v_info[k].lower():
+                      return True
+              
+              return False
 
           def transform_sonyliv_item(item):
               v_info = item.get("video_info", {}) if isinstance(item.get("video_info"), dict) else {}
@@ -126,7 +129,7 @@ jobs:
               air_dates = item.get("air_dates", {}) if isinstance(item.get("air_dates"), dict) else {}
               stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
 
-              title = v_info.get("episodeTitle") or v_info.get("title") or item.get("title") or "Live Match"
+              title = v_info.get("episodeTitle") or v_info.get("title") or item.get("title") or "Sports Match"
               synopsis = v_info.get("longDescription") or v_info.get("shortDescription") or item.get("synopsis") or title
 
               cover_image = (
@@ -136,18 +139,32 @@ jobs:
                   item.get("cover_image") or ""
               )
 
-              match_url = stream_info.get("dai_asset_key") or item.get("match_url")
-              if not match_url or not str(match_url).startswith("http"):
-                  match_url = f"https://www.sonyliv.com/custom-live/{item.get('contentId', '')}"
-
+              # শুধু DAI URL বের করা
               stream_urls = extract_sonyliv_streams(item)
+              
+              dai_url = stream_urls.get("Server 1")
+              if dai_url:
+                  match_url = dai_url
+              else:
+                  content_id = item.get('contentId') or item.get('match_id', '')
+                  match_url = f"https://www.sonyliv.com/custom-live/{content_id}" if content_id else ""
+
+              # লাইভ নাকি আপকামিং নির্ধারণ
+              status = "LIVE" if is_live_event(item) else "UPCOMING"
+
+              time_val = (
+                  air_dates.get("originalAirDate") or 
+                  air_dates.get("start_date") or 
+                  item.get("time") or 
+                  item.get("start_time") or ""
+              )
 
               return {
                   "match_id": str(item.get("contentId") or item.get("match_id", "")),
                   "title": title,
                   "synopsis": synopsis,
-                  "status": "LIVE",
-                  "time": air_dates.get("originalAirDate") or item.get("time", ""),
+                  "status": status,
+                  "time": time_val,
                   "cover_image": cover_image,
                   "match_url": match_url,
                   "is_free": False,
@@ -155,39 +172,46 @@ jobs:
               }
 
           def extract_items_from_json(data):
+              """নেস্টেড JSON-এর যেকোনো স্থান থেকে লাইভ এবং আপকামিং সব ইভেন্ট বের করে আনবে"""
               items = []
-              if isinstance(data, list):
-                  items = data
-              elif isinstance(data, dict):
-                  for key in ["events", "matches", "data", "channels", "items", "streams", "result", "list"]:
-                      if key in data and isinstance(data[key], list):
-                          items.extend(data[key])
-                  
-                  if not items:
-                      for k, v in data.items():
-                          if k.lower() in ["owner", "telegram", "credit", "website", "admin", "notice"]:
-                              continue
-                          if isinstance(v, list) and len(v) > 0 and isinstance(v[0], dict):
-                              items.extend(v)
-                          elif isinstance(v, dict) and ("title" in v or "contentId" in v or "stream_url_alpha" in v):
-                              items.append(v)
 
-                  if not items and ("contentId" in data or "match_id" in data or "video_info" in data):
-                      items.append(data)
-              return items
+              def walk(obj):
+                  if isinstance(obj, list):
+                      for elem in obj:
+                          walk(elem)
+                  elif isinstance(obj, dict):
+                      # চেক করা হচ্ছে এটি একটি ম্যাচ/ইভেন্ট আইটেম কি না
+                      is_match_item = False
+                      if any(k in obj for k in ["contentId", "match_id", "eventId", "event_id"]) and \
+                         any(k in obj for k in ["video_info", "stream_info", "image_cdn", "air_dates", "stream_url_alpha", "multiple_audio_links", "title"]):
+                          is_match_item = True
+                      elif "stream_url_alpha" in obj or "multiple_audio_links" in obj or "stream_info" in obj:
+                          is_match_item = True
+                      elif "title" in obj and any(k in obj for k in ["match_url", "status", "stream_url", "cover_image", "time", "start_time"]):
+                          is_match_item = True
 
-          def is_live_event(item):
-              if not isinstance(item, dict):
-                  return False
-              for k in ["is_live", "live", "isLive", "islive"]:
-                  if k in item:
-                      val = item[k]
-                      if val in [True, 1, "true", "1", "live", "yes", "True"]:
-                          return True
-              for k in ["status", "event_status", "match_status", "badge", "state"]:
-                  if k in item and isinstance(item[k], str) and "live" in item[k].lower():
-                      return True
-              return False
+                      if is_match_item:
+                          items.append(obj)
+                      else:
+                          for k, v in obj.items():
+                              if k.lower() in ["owner", "telegram", "credit", "website", "admin", "notice"]:
+                                  continue
+                              walk(v)
+
+              walk(data)
+
+              # ডুপ্লিকেট রিমুভ করা
+              seen = set()
+              unique_items = []
+              for it in items:
+                  uid = it.get("contentId") or it.get("match_id") or it.get("eventId") or it.get("id") or it.get("title")
+                  if uid and uid not in seen:
+                      seen.add(uid)
+                      unique_items.append(it)
+                  elif not uid:
+                      unique_items.append(it)
+
+              return unique_items
 
           def get_playlist_info(url_line):
               if "|" in url_line:
@@ -265,7 +289,7 @@ jobs:
           with open("willow.json", "w", encoding="utf-8") as f:
               json.dump(final_json, f, indent=2, ensure_ascii=False)
 
-          print(f"🎯 Finished! Total Combined Channels: {total_count}")
+          print(f"🎯 Finished! Total Combined Channels: {total_count} (Live: {live_count})")
           EOF
 
           python3 update_playlist.py
