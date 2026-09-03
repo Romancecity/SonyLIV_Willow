@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "developer": "IreenTechnology",
   "version": "1.0",
-  "channels_amount": 42,
-  "live_count": 10,
-  "last_update": "07:34 PM 03-09-2026",
+  "channels_amount": 44,
+  "live_count": 13,
+  "last_update": "07:35 PM 03-09-2026",
   "events": [
     {
       "match_id": "B0HGTKNGM6",
@@ -63,13 +63,26 @@
       "match_id": "B0HGBBB1WB",
       "title": "Womens Asia Cup 2026 - 7th Match - India Women vs Hong Kong China Women",
       "synopsis": "Womens Asia Cup 2026 - 7th Match - India Women vs Hong Kong China Women",
-      "status": "UPCOMING",
-      "time": "Live at 8:30 PM BDT",
-      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.1e928a63-b7b0-4630-88e2-a2e8fb303961/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
+      "status": "LIVE",
+      "time": "7:55 PM BDT",
+      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.1e928a63-b7b0-4630-88e2-a2e8fb303961/3/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HGBBB1WB?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_3",
       "is_free": false,
-      "stream_url_alpha": "",
-      "drm_key": ""
+      "stream_url_alpha": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/245vlp0ugx/out/v1/186ea1d5c56d45a4bada3369a9289586/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/245vlp0ugx/out/v1/186ea1d5c56d45a4bada3369a9289586/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/245vlp0ugx/out/v1/186ea1d5c56d45a4bada3369a9289586/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/245vlp0ugx/out/v1/186ea1d5c56d45a4bada3369a9289586/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/245vlp0ugx/out/v1/186ea1d5c56d45a4bada3369a9289586/cenc.mpd"
+      },
+      "stream_url_bravo": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/l5iuhzuotm/out/v1/ec62d64c3f424b46aea18b8d2b82838b/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/l5iuhzuotm/out/v1/ec62d64c3f424b46aea18b8d2b82838b/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/l5iuhzuotm/out/v1/ec62d64c3f424b46aea18b8d2b82838b/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/l5iuhzuotm/out/v1/ec62d64c3f424b46aea18b8d2b82838b/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/l5iuhzuotm/out/v1/ec62d64c3f424b46aea18b8d2b82838b/cenc.mpd"
+      },
+      "drm_key": "c7190077c78e42f2a87b42cbdb898dbd:57ce4a26c1e0597de24481cd620c03d3"
     },
     {
       "match_id": "B0H1QQ1Z24",
@@ -308,6 +321,37 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd"
       },
       "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+    },
+    {
+      "match_id": "B0HFYJMXLP",
+      "title": "PPA Tour: Cary-Round of 16",
+      "synopsis": "PPA Tour: Cary-Round of 16",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.2a1f8dc1-dd6b-4664-8ccc-e51626f31333/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HFYJMXLP",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd"
+      },
+      "drm_key": "2be100252a42be3a17d29c93e28eaacc:07c5e72df3602e9652dd06d839776e72"
+    },
+    {
+      "match_id": "B0HFGD2DVC",
+      "title": "Sep 3 - PTT Miami",
+      "synopsis": "Sep 3 - PTT Miami",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.74583b4d-5ec9-4ba1-be36-307262835302/6/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HFGD2DVC",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://ABIO57LAAAAAAAAMPRLYB3F4A7OAY.ta.bia-cf.live.pv-cdn.net/$T$2D3RhEOhAQWhBFgkYzQ1OWU1YmItZDgxMS00NGM2LTgwYzQtNTNkZDc3NTIwODk5WJSnAWpwcmltZXZpZGVvBBpqrUR3BhpqmX33A2pjbG91ZGZyb250Angpc3NpZDo1NTkyZTZlMi05NGYxLTRhN2YtYmJhZC1kZjAxMzZkM2ZhZmIZATihBaECeDMva3I4cnRrN3hyYS9vdXQvdjEvYWNlZTdiNDUyZmQ0NDFmMWE2MTRkZTRjODNlNDlkMjAZATyBYlVTWCBx4I0RFYZeeGGpbYSaeJ5Jvpo-Wh9vvkUi9BDL4xQHig/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/kr8rtk7xra/out/v1/acee7b452fd441f1a614de4c83e49d20/54ae8c30-5a94-4f51-bdfa-c13ece70a809-cenc.mpd"
+      },
+      "drm_key": "eb6b2117317cf30330cd8159ee7abce8:ba8067ebd13f56764e31518225c1efe6"
     },
     {
       "match_id": "B0GSRSGZQ2",
