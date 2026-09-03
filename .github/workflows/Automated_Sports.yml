@@ -55,16 +55,23 @@ jobs:
           raw_urls = os.environ.get("JSON_PLAYLIST_URLS", "")
           lines = [u.strip() for u in raw_urls.splitlines() if u.strip() and not u.strip().startswith("#")]
 
-          # সোর্স প্লেলিস্টের হুবহু হেডার স্ট্রিং
-          SONY_EXACT_HEADERS = "User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=9d97490711a6b674336df4f1a6132b42-1788417004223"
+          SONY_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0"
+          SONY_REFERER = "https://www.sonyliv.com/"
+          SONY_ORIGIN = "https://www.sonyliv.com"
+          SONY_SESSION_ID = "9d97490711a6b674336df4f1a6132b42-1788417004223"
 
-          def add_sonyliv_headers(url):
-              """URL এর সাথে হুবহু Sony LIV হেডার যুক্ত করার ফাংশন"""
-              if not url or not isinstance(url, str) or not url.startswith("http"):
-                  return url
-              if "|" in url:
-                  return url.strip()
-              return f"{url.strip()}|{SONY_EXACT_HEADERS}"
+          SONY_HEADERS_DICT = {
+              "User-Agent": SONY_USER_AGENT,
+              "Referer": SONY_REFERER,
+              "Origin": SONY_ORIGIN,
+              "x-playback-session-id": SONY_SESSION_ID
+          }
+
+          def clean_url(url):
+              """URL থেকে আগের কোনো পাইপ (|) বা হেডার থাকলে তা মুছে শুধু ফ্রেশ লিঙ্ক রাখবে"""
+              if not url or not isinstance(url, str):
+                  return ""
+              return url.split("|")[0].strip()
 
           def fetch_data(url):
               headers = {
@@ -110,23 +117,29 @@ jobs:
                       if not stream_url:
                           stream_url = data_obj.get("trailer_url")
 
-                      if stream_url and str(stream_url).startswith("http"):
+                      stream_url = clean_url(stream_url)
+                      if stream_url and stream_url.startswith("http"):
                           server_name = f"Server {server_idx} ({lang})" if lang else f"Server {server_idx}"
-                          servers[server_name] = add_sonyliv_headers(str(stream_url))
+                          servers[server_name] = stream_url
                           server_idx += 1
 
               stream_info = item.get("stream_info", {})
               if isinstance(stream_info, dict):
-                  dai = stream_info.get("dai_asset_key")
-                  if dai and str(dai).startswith("http"):
+                  dai = clean_url(stream_info.get("dai_asset_key"))
+                  if dai and dai.startswith("http"):
                       label = f"Server {server_idx} (DAI)" if servers else "Server 1 (DAI)"
-                      servers[label] = add_sonyliv_headers(str(dai))
+                      servers[label] = dai
                       server_idx += 1
 
-              if "Playback_videoURL" in item and str(item["Playback_videoURL"]).startswith("http"):
-                  servers[f"Server {server_idx}"] = add_sonyliv_headers(str(item["Playback_videoURL"]))
-              if "dai_asset_key" in item and str(item["dai_asset_key"]).startswith("http") and "Server 1 (DAI)" not in servers:
-                  servers[f"Server {server_idx} (DAI)"] = add_sonyliv_headers(str(item["dai_asset_key"]))
+              if "Playback_videoURL" in item:
+                  p_url = clean_url(item["Playback_videoURL"])
+                  if p_url.startswith("http"):
+                      servers[f"Server {server_idx}"] = p_url
+
+              if "dai_asset_key" in item:
+                  d_url = clean_url(item["dai_asset_key"])
+                  if d_url.startswith("http") and "Server 1 (DAI)" not in servers:
+                      servers[f"Server {server_idx} (DAI)"] = d_url
 
               return servers
 
@@ -146,8 +159,8 @@ jobs:
                   item.get("cover_image") or ""
               )
 
-              match_url = stream_info.get("dai_asset_key") or item.get("match_url")
-              if not match_url or not str(match_url).startswith("http"):
+              match_url = clean_url(stream_info.get("dai_asset_key") or item.get("match_url"))
+              if not match_url or not match_url.startswith("http"):
                   match_url = f"https://www.sonyliv.com/custom-live/{item.get('contentId', '')}"
 
               stream_urls = extract_sonyliv_streams(item)
@@ -161,18 +174,34 @@ jobs:
                   "cover_image": cover_image,
                   "match_url": match_url,
                   "is_free": False,
-                  "stream_url_alpha": stream_urls
+                  "stream_url_alpha": stream_urls,
+                  "user_agent": SONY_USER_AGENT,
+                  "referer": SONY_REFERER,
+                  "origin": SONY_ORIGIN,
+                  "x_playback_session_id": SONY_SESSION_ID,
+                  "headers": SONY_HEADERS_DICT
               }
 
-          def process_raw_item_streams(item):
-              """অন্যান্য সোর্স থেকে আসা আইটেমের সোনি লিঙ্কগুলোতেও হেডার নিশ্চিত করা"""
+          def process_raw_item(item):
+              """অন্যান্য সোর্স থেকে আসা আইটেমের সোনি লিঙ্ক পরিষ্কার করা এবং হেডার আলাদা ফিল্ডে বসানো"""
               if not isinstance(item, dict):
                   return item
+
+              is_sony = False
               if "stream_url_alpha" in item and isinstance(item["stream_url_alpha"], dict):
                   for s_name, s_url in item["stream_url_alpha"].items():
-                      if isinstance(s_url, str) and s_url.startswith("http"):
+                      if isinstance(s_url, str):
                           if any(k in s_url.lower() for k in ["sony", "criclive", "pages.dev", "akamaized"]):
-                              item["stream_url_alpha"][s_name] = add_sonyliv_headers(s_url)
+                              is_sony = True
+                          item["stream_url_alpha"][s_name] = clean_url(s_url)
+
+              if is_sony:
+                  item["user_agent"] = SONY_USER_AGENT
+                  item["referer"] = SONY_REFERER
+                  item["origin"] = SONY_ORIGIN
+                  item["x_playback_session_id"] = SONY_SESSION_ID
+                  item["headers"] = SONY_HEADERS_DICT
+
               return item
 
           def extract_items_from_json(data):
@@ -251,7 +280,7 @@ jobs:
                       if is_sonyliv_item(it):
                           current_source_items.append(transform_sonyliv_item(it))
                       else:
-                          current_source_items.append(process_raw_item_streams(it))
+                          current_source_items.append(process_raw_item(it))
 
                   all_collected_events.extend(current_source_items)
 
