@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "developer": "IreenTechnology",
   "version": "1.0",
-  "channels_amount": 41,
-  "live_count": 7,
-  "last_update": "06:08 PM 05-09-2026",
+  "channels_amount": 42,
+  "live_count": 9,
+  "last_update": "06:37 PM 05-09-2026",
   "events": [
     {
       "match_id": "B0HFS2J83V",
@@ -15,7 +15,7 @@
       "synopsis": "European T20 Premier League 2026 - 14th Match - Rotterdam Dockers vs Edinburgh Castle Rockers",
       "status": "LIVE",
       "time": "3 PM BDT",
-      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.03206ec2-0f25-4d60-a207-8924fa010f88/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
+      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.03206ec2-0f25-4d60-a207-8924fa010f88/3/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HFS2J83V?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_1",
       "is_free": false,
       "stream_url_alpha": {
@@ -34,13 +34,26 @@
       "match_id": "B0HFRY1PGJ",
       "title": "European T20 Premier League 2026 - 15th Match - Dublin Guardians vs Amsterdam Flames",
       "synopsis": "European T20 Premier League 2026 - 15th Match - Dublin Guardians vs Amsterdam Flames",
-      "status": "UPCOMING",
-      "time": "Live at 7:15 PM BDT",
-      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.cf4dbf3f-d3e1-447b-833b-93a9031dc6fd/1/BOXART-16X9/en-US._UR1920,1080_.jpeg",
+      "status": "LIVE",
+      "time": "6:50 PM BDT",
+      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.cf4dbf3f-d3e1-447b-833b-93a9031dc6fd/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HFRY1PGJ?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_2",
       "is_free": false,
-      "stream_url_alpha": "",
-      "drm_key": ""
+      "stream_url_alpha": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/ub8aqevvss/out/v1/2766196ba194474b85344af46b0a8aa7/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/ub8aqevvss/out/v1/2766196ba194474b85344af46b0a8aa7/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/ub8aqevvss/out/v1/2766196ba194474b85344af46b0a8aa7/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ub8aqevvss/out/v1/2766196ba194474b85344af46b0a8aa7/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ub8aqevvss/out/v1/2766196ba194474b85344af46b0a8aa7/cenc.mpd"
+      },
+      "stream_url_bravo": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qxo2jociu4/out/v1/6180823d21684900a57e2fa120a6cc58/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qxo2jociu4/out/v1/6180823d21684900a57e2fa120a6cc58/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/qxo2jociu4/out/v1/6180823d21684900a57e2fa120a6cc58/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qxo2jociu4/out/v1/6180823d21684900a57e2fa120a6cc58/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qxo2jociu4/out/v1/6180823d21684900a57e2fa120a6cc58/cenc.mpd"
+      },
+      "drm_key": "1f0d01ac1817a13b581b0144822f4818:bb771380eea40f9a03988d3a95ad64e0"
     },
     {
       "match_id": "B0HGMMXZ7F",
@@ -274,6 +287,23 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd"
       },
       "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+    },
+    {
+      "match_id": "B0HG6YRTLG",
+      "title": "PPA Tour: Cary-Semifinals",
+      "synopsis": "PPA Tour: Cary-Semifinals",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.38559770-7695-44d9-ad5f-d82ca330193b/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HG6YRTLG",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/can8dnk7we/out/v1/d6c56496531749a6989b78ab18c67557/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/can8dnk7we/out/v1/d6c56496531749a6989b78ab18c67557/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/can8dnk7we/out/v1/d6c56496531749a6989b78ab18c67557/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/can8dnk7we/out/v1/d6c56496531749a6989b78ab18c67557/cenc.mpd"
+      },
+      "drm_key": "2be100252a42be3a17d29c93e28eaacc:07c5e72df3602e9652dd06d839776e72"
     },
     {
       "match_id": "B0HG78KDTG",
