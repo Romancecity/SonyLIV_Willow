@@ -66,7 +66,7 @@ jobs:
               clean_text = res.content.decode('utf-8-sig', errors='ignore').strip()
               return json.loads(clean_text)
 
-          # ================= SONY LIV HANDLERS =================
+          # ================= SONY LIV =================
           def is_sonyliv_item(item):
               if not isinstance(item, dict):
                   return False
@@ -140,22 +140,22 @@ jobs:
                   "stream_url": stream_urls
               }
 
-          # ================= BINGSTREAM HANDLERS =================
+          # ================= BINGSTREAM =================
           def is_bingstream_item(item):
               if not isinstance(item, dict):
                   return False
-              if any(k in item for k in ["video_url", "video URL", "videoUrl", "video_urls", "videoURLs"]):
+              if "link_live" in item:
+                  return True
+              if any(k in item for k in ["video_url", "video URL", "videoUrl", "videoURL", "cdn_domain", "localteam_name"]):
                   return True
               source_val = str(item.get("source", "") or item.get("provider", "") or item.get("type", "")).lower()
-              if "bing" in source_val:
-                  return True
-              return False
+              return "bing" in source_val
 
           def extract_bingstream_streams(item):
               servers = {}
               found_urls = []
 
-              # ১. Referer চেক করা
+              # ১. Referer এক্সট্রাক্ট করা
               referer = (
                   item.get("referer") or 
                   item.get("referrer") or 
@@ -167,52 +167,41 @@ jobs:
               if not referer and isinstance(item.get("headers"), dict):
                   referer = item["headers"].get("Referer") or item["headers"].get("referer")
 
-              # ২. video URL এর ফিল্ডগুলো সংগ্রহ করা
-              video_keys = ["video_url", "video URL", "videoUrl", "video_urls", "videoURLs", "stream_url", "streams", "links", "urls"]
+              # ২. link_live তালিকা থেকে URL খোঁজা
+              if "link_live" in item and isinstance(item["link_live"], list):
+                  for obj in item["link_live"]:
+                      if isinstance(obj, dict):
+                          # videoURL কে অগ্রাধিকার দেওয়া হচ্ছে, না থাকলে stream_link
+                          v_url = obj.get("videoURL") or obj.get("video_url") or obj.get("videoUrl") or obj.get("stream_link") or obj.get("url")
+                          if v_url and str(v_url).startswith("http"):
+                              found_urls.append(str(v_url).strip())
+                      elif isinstance(obj, str) and obj.startswith("http"):
+                          found_urls.append(obj.strip())
+
+              # ৩. অন্যান্য সাধারণ ভিডিও ইউআরএল ফিল্ড
+              video_keys = ["videoURL", "video_url", "video URL", "videoUrl", "video_urls", "stream_url", "streams", "links", "urls"]
               for key in video_keys:
                   if key in item and item[key]:
                       val = item[key]
                       if isinstance(val, str):
-                          val_str = val.strip()
-                          if val_str.startswith("[") and val_str.endswith("]"):
-                              try:
-                                  parsed = json.loads(val_str)
-                                  if isinstance(parsed, list):
-                                      val = parsed
-                              except Exception:
-                                  pass
-                          if isinstance(val, str):
-                              for p in re.split(r'[\r\n,]+', val_str):
-                                  p_clean = p.strip()
-                                  if p_clean.startswith("http"):
-                                      found_urls.append(p_clean)
-
-                      if isinstance(val, list):
+                          for p in re.split(r'[\r\n,]+', val.strip()):
+                              p_clean = p.strip()
+                              if p_clean.startswith("http"):
+                                  found_urls.append(p_clean)
+                      elif isinstance(val, list):
                           for elem in val:
                               if isinstance(elem, str) and elem.strip().startswith("http"):
                                   found_urls.append(elem.strip())
                               elif isinstance(elem, dict):
-                                  u = elem.get("url") or elem.get("link") or elem.get("stream_url") or elem.get("video_url")
-                                  r = elem.get("referer") or elem.get("referrer") or referer
+                                  u = elem.get("videoURL") or elem.get("video_url") or elem.get("url") or elem.get("link") or elem.get("stream_link")
                                   if u and str(u).startswith("http"):
-                                      u_str = str(u).strip()
-                                      if r and "|referer=" not in u_str.lower():
-                                          u_str = f"{u_str}|Referer={r}"
-                                      found_urls.append(u_str)
-
+                                      found_urls.append(str(u).strip())
                       elif isinstance(val, dict):
                           for _, s_url in val.items():
                               if isinstance(s_url, str) and s_url.strip().startswith("http"):
                                   found_urls.append(s_url.strip())
 
-              # server_1, server_2 ইত্যাদি আলাদা কী থাকলেও সংগ্রহ করা
-              for k in sorted(item.keys()):
-                  if re.match(r'^(server|link|stream|video)[_\s]?[0-9]+$', k, re.IGNORECASE):
-                      val = item[k]
-                      if isinstance(val, str) and val.strip().startswith("http"):
-                          found_urls.append(val.strip())
-
-              # ডুপ্লিকেট রিমুভ করা
+              # ডুপ্লিকেট ইউআরএল ফিল্টার করা
               seen_urls = []
               for u in found_urls:
                   if u not in seen_urls:
@@ -228,17 +217,35 @@ jobs:
               return servers
 
           def transform_bingstream_item(item):
-              title = item.get("title") or item.get("name") or item.get("event_name") or item.get("match_name") or "Sports Match"
-              synopsis = item.get("synopsis") or item.get("description") or item.get("longDescription") or item.get("shortDescription") or title
-              cover_image = item.get("cover_image") or item.get("thumbnail") or item.get("image") or item.get("poster") or item.get("logo") or item.get("banner") or ""
+              title = item.get("name") or item.get("title") or item.get("event_name") or item.get("match_name") or "Sports Match"
+              league = item.get("league_name", "")
+              synopsis = item.get("synopsis") or item.get("description") or (f"{league} - {title}" if league else title)
+              
+              cover_image = (
+                  item.get("cover_image") or 
+                  item.get("thumbnail") or 
+                  item.get("league_logo") or 
+                  item.get("localteam_logo") or 
+                  item.get("visitorteam_logo") or 
+                  item.get("image") or ""
+              )
               
               stream_urls = extract_bingstream_streams(item)
               first_url = next(iter(stream_urls.values())) if stream_urls else ""
               match_url = item.get("match_url") or first_url or ""
               
-              status = "LIVE" if (stream_urls or is_live_event(item)) else (item.get("status") or "UPCOMING")
-              match_id = str(item.get("match_id") or item.get("id") or item.get("contentId") or item.get("eventId") or item.get("event_id") or "")
-              time_val = item.get("time") or item.get("start_time") or item.get("date") or item.get("air_date") or ""
+              # লাইভ স্ট্যাটাস চেক
+              is_live = False
+              if item.get("is_playing") is True:
+                  is_live = True
+              elif stream_urls and not item.get("has_ended", False):
+                  is_live = True
+              elif is_live_event(item):
+                  is_live = True
+
+              status = "LIVE" if is_live else (item.get("status") or "UPCOMING")
+              match_id = str(item.get("id") or item.get("match_id") or item.get("contentId") or item.get("eventId") or "")
+              time_val = item.get("bd_time") or item.get("time") or item.get("start_time") or item.get("date") or ""
 
               return {
                   "match_id": match_id,
@@ -257,6 +264,11 @@ jobs:
               if not isinstance(item, dict):
                   return False
               
+              if item.get("is_playing") is True:
+                  return True
+              if item.get("has_ended") is True:
+                  return False
+
               stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
               dai = stream_info.get("dai_asset_key") or stream_info.get("dai_url") or item.get("dai_asset_key") or item.get("dai_url")
               if dai and str(dai).startswith("http"):
@@ -297,12 +309,13 @@ jobs:
                           walk(elem)
                   elif isinstance(obj, dict):
                       is_match_item = False
-                      if any(k in obj for k in ["contentId", "match_id", "eventId", "event_id", "id"]) and \
-                         any(k in obj for k in ["video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "multiple_audio_links", "title", "video_url", "video URL", "videoUrl"]):
+                      has_id = any(k in obj for k in ["contentId", "match_id", "eventId", "event_id", "id", "fixture_id"])
+                      has_media = any(k in obj for k in ["link_live", "video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "multiple_audio_links", "video_url", "video URL", "videoUrl", "videoURL"])
+                      has_sports = any(k in obj for k in ["localteam_name", "visitorteam_name", "league_name", "timelive", "is_playing"])
+
+                      if (has_id and (has_media or has_sports)) or has_media:
                           is_match_item = True
-                      elif any(k in obj for k in ["stream_url", "stream_url_alpha", "multiple_audio_links", "stream_info", "video_url", "video URL", "videoUrl", "video_urls"]):
-                          is_match_item = True
-                      elif "title" in obj and any(k in obj for k in ["match_url", "status", "stream_url", "cover_image", "time", "start_time", "video_url", "video URL", "videoUrl"]):
+                      elif any(k in obj for k in ["title", "name"]) and any(k in obj for k in ["match_url", "status", "stream_url", "cover_image", "time", "start_time", "bd_time", "link_live"]):
                           is_match_item = True
 
                       if is_match_item:
@@ -318,7 +331,7 @@ jobs:
               seen = set()
               unique_items = []
               for it in items:
-                  uid = it.get("contentId") or it.get("match_id") or it.get("eventId") or it.get("id") or it.get("title")
+                  uid = it.get("contentId") or it.get("match_id") or it.get("eventId") or it.get("id") or it.get("title") or it.get("name")
                   if uid and uid not in seen:
                       seen.add(uid)
                       unique_items.append(it)
