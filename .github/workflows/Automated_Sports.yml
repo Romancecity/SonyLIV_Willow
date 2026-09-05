@@ -151,10 +151,25 @@ jobs:
               return "bing" in source_val
 
           def extract_bingstream_streams(item):
-              """শুধুমাত্র videoURL গুলো সংগ্রহ করবে এবং Server 1, Server 2 হিসেবে তৈরি করবে"""
+              """ভিডিও লিঙ্ক এক্সট্রাক্ট করে শেষে User-Agent ও Referer যোগ করে Server 1, Server 2 হিসেবে তৈরি করবে"""
               servers = {}
               found_urls = []
 
+              # Referer ও User-Agent প্রস্তুত করা
+              referer_val = (
+                  item.get("referer") or 
+                  item.get("referrer") or 
+                  item.get("referer_url") or 
+                  item.get("referrer_url") or 
+                  "https://iframe.rumsport8.live/"
+              )
+              if referer_val and not referer_val.endswith("/"):
+                  referer_val += "/"
+
+              user_agent_val = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              suffix = f"|http-user-agent={user_agent_val}&http-referrer={referer_val}"
+
+              # link_live এর ভেতর থেকে শুধুমাত্র videoURL খোঁজা
               if "link_live" in item and isinstance(item["link_live"], list):
                   for obj in item["link_live"]:
                       if isinstance(obj, dict):
@@ -164,6 +179,7 @@ jobs:
                       elif isinstance(obj, str) and obj.startswith("http"):
                           found_urls.append(obj.strip())
 
+              # link_live না থাকলে রুট লেভেলের videoURL খোঁজা
               if not found_urls:
                   video_keys = ["videoURL", "video_url", "video URL", "videoUrl", "video_urls", "videoURLs"]
                   for key in video_keys:
@@ -183,14 +199,16 @@ jobs:
                                       if u and str(u).startswith("http"):
                                           found_urls.append(str(u).strip())
 
-              # ডুপ্লিকেট বাদ দিয়ে Server 1, Server 2 আকারে সাজানো
+              # ডুপ্লিকেট বাদ দেওয়া
               seen_urls = []
               for u in found_urls:
                   if u not in seen_urls:
                       seen_urls.append(u)
 
+              # প্রতিটি লিংকের শেষে User-Agent ও Referer যোগ করা
               for idx, u in enumerate(seen_urls, 1):
-                  servers[f"Server {idx}"] = u
+                  clean_u = u.split("|http-")[0] if "|http-" in u else u
+                  servers[f"Server {idx}"] = f"{clean_u}{suffix}"
 
               return servers
 
@@ -207,19 +225,6 @@ jobs:
                   item.get("visitorteam_logo") or 
                   item.get("image") or ""
               )
-
-              # Referer নেওয়া
-              referer_val = (
-                  item.get("referer") or 
-                  item.get("referrer") or 
-                  item.get("referer_url") or 
-                  item.get("referrer_url") or 
-                  "https://iframe.rumsport8.live/"
-              )
-              if referer_val and not referer_val.endswith("/"):
-                  referer_val += "/"
-
-              user_agent_val = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
               stream_urls = extract_bingstream_streams(item)
               first_url = next(iter(stream_urls.values())) if stream_urls else ""
@@ -246,9 +251,7 @@ jobs:
                   "cover_image": cover_image,
                   "match_url": match_url,
                   "is_free": False,
-                  "stream_url": stream_urls,
-                  "http-user-agent": user_agent_val,
-                  "http-referrer": referer_val
+                  "stream_url": stream_urls
               }
 
           # ================= COMMON UTILS =================
