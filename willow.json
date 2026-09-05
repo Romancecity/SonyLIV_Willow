@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "developer": "IreenTechnology",
   "version": "1.0",
-  "channels_amount": 43,
-  "live_count": 10,
-  "last_update": "06:45 PM 05-09-2026",
+  "channels_amount": 44,
+  "live_count": 11,
+  "last_update": "07:02 PM 05-09-2026",
   "events": [
     {
       "match_id": "B0HFS2J83V",
@@ -272,6 +272,23 @@
       "drm_key": ""
     },
     {
+      "match_id": "B0HG6HSQ7N",
+      "title": "Women's Skate Final",
+      "synopsis": "Women's Skate Final",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.915e1012-b0e4-4612-8f53-0e53848a6451/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HG6HSQ7N",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd"
+      },
+      "drm_key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
+    },
+    {
       "match_id": "B0HGD69C6G",
       "title": "Chelsea vs. Aston Villa",
       "synopsis": "Chelsea vs. Aston Villa",
@@ -462,17 +479,6 @@
       "stream_url": {}
     },
     {
-      "match_id": "1090539970",
-      "title": "Upcoming - Har Screen Par Cricket - Sony Ke Saath - Bad Boss",
-      "synopsis": "Catch all the action from Asia Cup Women's 2026, only on Sony LIV.",
-      "status": "UPCOMING",
-      "time": "",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022650/178730215594955_WAC26_INDvsPAK_promo_landscape_thumb.jpg",
-      "match_url": "https://www.sonyliv.com/custom-live/1090539970",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
       "match_id": "1090538916",
       "title": "Upcoming - India Tour of New Zealand ",
       "synopsis": "Tune in to catch all the action from India Tour of New Zealand, only on Sony LIV.",
@@ -546,6 +552,17 @@
       "time": "",
       "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023424/1788442201984189_ucl_barcelona_cs_feyenoord_landscape.jpg",
       "match_url": "https://www.sonyliv.com/custom-live/1090541419",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "1090541423",
+      "title": "Upcoming - Liverpool vs Atletico Madrid - UEFA Champions League 2026-27 ",
+      "synopsis": "Watch all the action from UEFA Champions League 2026-27, exclusively on Sony LIV.",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023519/178859220175574_UCL_26_Liverpool-vs-Atletico_promo_DDT_landscape_thumb.jpg",
+      "match_url": "https://www.sonyliv.com/custom-live/1090541423",
       "is_free": false,
       "stream_url": {}
     }
