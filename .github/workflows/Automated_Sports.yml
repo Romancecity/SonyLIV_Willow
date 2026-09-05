@@ -79,7 +79,6 @@ jobs:
               return False
 
           def extract_sonyliv_streams(item):
-              """শুধু মাত্র DAI স্ট্রিম URL সংগ্রহ করবে এবং কী হবে Original Server"""
               servers = {}
               stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
               
@@ -146,73 +145,52 @@ jobs:
                   return False
               if "link_live" in item:
                   return True
-              if any(k in item for k in ["video_url", "video URL", "videoUrl", "videoURL", "cdn_domain", "localteam_name"]):
+              if any(k in item for k in ["videoURL", "video_url", "video URL", "videoUrl", "cdn_domain", "localteam_name"]):
                   return True
               source_val = str(item.get("source", "") or item.get("provider", "") or item.get("type", "")).lower()
               return "bing" in source_val
 
           def extract_bingstream_streams(item):
+              """শুধুমাত্র videoURL গুলো সংগ্রহ করবে এবং Server 1, Server 2 হিসেবে তৈরি করবে"""
               servers = {}
               found_urls = []
 
-              # ১. Referer এক্সট্রাক্ট করা
-              referer = (
-                  item.get("referer") or 
-                  item.get("referrer") or 
-                  item.get("referer_url") or 
-                  item.get("referrer_url") or 
-                  item.get("Referer") or 
-                  item.get("ref")
-              )
-              if not referer and isinstance(item.get("headers"), dict):
-                  referer = item["headers"].get("Referer") or item["headers"].get("referer")
-
-              # ২. link_live তালিকা থেকে URL খোঁজা
+              # link_live এর ভেতর থেকে শুধুমাত্র videoURL খোঁজা
               if "link_live" in item and isinstance(item["link_live"], list):
                   for obj in item["link_live"]:
                       if isinstance(obj, dict):
-                          # videoURL কে অগ্রাধিকার দেওয়া হচ্ছে, না থাকলে stream_link
-                          v_url = obj.get("videoURL") or obj.get("video_url") or obj.get("videoUrl") or obj.get("stream_link") or obj.get("url")
+                          v_url = obj.get("videoURL") or obj.get("video_url") or obj.get("videoUrl") or obj.get("video URL")
                           if v_url and str(v_url).startswith("http"):
                               found_urls.append(str(v_url).strip())
                       elif isinstance(obj, str) and obj.startswith("http"):
                           found_urls.append(obj.strip())
 
-              # ৩. অন্যান্য সাধারণ ভিডিও ইউআরএল ফিল্ড
-              video_keys = ["videoURL", "video_url", "video URL", "videoUrl", "video_urls", "stream_url", "streams", "links", "urls"]
-              for key in video_keys:
-                  if key in item and item[key]:
-                      val = item[key]
-                      if isinstance(val, str):
-                          for p in re.split(r'[\r\n,]+', val.strip()):
-                              p_clean = p.strip()
-                              if p_clean.startswith("http"):
-                                  found_urls.append(p_clean)
-                      elif isinstance(val, list):
-                          for elem in val:
-                              if isinstance(elem, str) and elem.strip().startswith("http"):
-                                  found_urls.append(elem.strip())
-                              elif isinstance(elem, dict):
-                                  u = elem.get("videoURL") or elem.get("video_url") or elem.get("url") or elem.get("link") or elem.get("stream_link")
-                                  if u and str(u).startswith("http"):
-                                      found_urls.append(str(u).strip())
-                      elif isinstance(val, dict):
-                          for _, s_url in val.items():
-                              if isinstance(s_url, str) and s_url.strip().startswith("http"):
-                                  found_urls.append(s_url.strip())
+              # link_live না থাকলে রুট লেভেলের videoURL খোঁজা
+              if not found_urls:
+                  video_keys = ["videoURL", "video_url", "video URL", "videoUrl", "video_urls", "videoURLs"]
+                  for key in video_keys:
+                      if key in item and item[key]:
+                          val = item[key]
+                          if isinstance(val, str) and val.strip().startswith("http"):
+                              found_urls.append(val.strip())
+                          elif isinstance(val, list):
+                              for elem in val:
+                                  if isinstance(elem, str) and elem.strip().startswith("http"):
+                                      found_urls.append(elem.strip())
+                                  elif isinstance(elem, dict):
+                                      u = elem.get("videoURL") or elem.get("video_url") or elem.get("videoUrl")
+                                      if u and str(u).startswith("http"):
+                                          found_urls.append(str(u).strip())
 
-              # ডুপ্লিকেট ইউআরএল ফিল্টার করা
+              # ডুপ্লিকেট বাদ দেওয়া (সিরিয়াল ঠিক রেখে)
               seen_urls = []
               for u in found_urls:
                   if u not in seen_urls:
                       seen_urls.append(u)
 
-              # Server 1, Server 2 হিসেবে সাজানো এবং Referer যোগ করা
+              # Server 1, Server 2 আকারে সাজানো
               for idx, u in enumerate(seen_urls, 1):
-                  final_u = u
-                  if referer and "|referer=" not in final_u.lower():
-                      final_u = f"{final_u}|Referer={referer}"
-                  servers[f"Server {idx}"] = final_u
+                  servers[f"Server {idx}"] = u
 
               return servers
 
@@ -229,12 +207,25 @@ jobs:
                   item.get("visitorteam_logo") or 
                   item.get("image") or ""
               )
+
+              # রেফার আলাদা করে এক্সট্রাক্ট করা
+              referer = (
+                  item.get("referer") or 
+                  item.get("referrer") or 
+                  item.get("referer_url") or 
+                  item.get("referrer_url") or 
+                  item.get("Referer") or 
+                  item.get("ref") or ""
+              )
+              if not referer and isinstance(item.get("headers"), dict):
+                  referer = item["headers"].get("Referer") or item["headers"].get("referer") or ""
               
+              # স্ট্রিম ইউআরএল তৈরি
               stream_urls = extract_bingstream_streams(item)
               first_url = next(iter(stream_urls.values())) if stream_urls else ""
               match_url = item.get("match_url") or first_url or ""
               
-              # লাইভ স্ট্যাটাস চেক
+              # লাইভ স্ট্যাটাস
               is_live = False
               if item.get("is_playing") is True:
                   is_live = True
@@ -247,6 +238,7 @@ jobs:
               match_id = str(item.get("id") or item.get("match_id") or item.get("contentId") or item.get("eventId") or "")
               time_val = item.get("bd_time") or item.get("time") or item.get("start_time") or item.get("date") or ""
 
+              # Referer ফিল্ডটি stream_url এর ঠিক উপরে থাকবে
               return {
                   "match_id": match_id,
                   "title": title,
@@ -256,6 +248,7 @@ jobs:
                   "cover_image": cover_image,
                   "match_url": match_url,
                   "is_free": False,
+                  "referer": referer,
                   "stream_url": stream_urls
               }
 
