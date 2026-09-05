@@ -155,7 +155,6 @@ jobs:
               servers = {}
               found_urls = []
 
-              # link_live এর ভেতর থেকে শুধুমাত্র videoURL খোঁজা
               if "link_live" in item and isinstance(item["link_live"], list):
                   for obj in item["link_live"]:
                       if isinstance(obj, dict):
@@ -165,14 +164,16 @@ jobs:
                       elif isinstance(obj, str) and obj.startswith("http"):
                           found_urls.append(obj.strip())
 
-              # link_live না থাকলে রুট লেভেলের videoURL খোঁজা
               if not found_urls:
                   video_keys = ["videoURL", "video_url", "video URL", "videoUrl", "video_urls", "videoURLs"]
                   for key in video_keys:
                       if key in item and item[key]:
                           val = item[key]
-                          if isinstance(val, str) and val.strip().startswith("http"):
-                              found_urls.append(val.strip())
+                          if isinstance(val, str):
+                              for p in re.split(r'[\r\n,]+', val.strip()):
+                                  p_clean = p.strip()
+                                  if p_clean.startswith("http"):
+                                      found_urls.append(p_clean)
                           elif isinstance(val, list):
                               for elem in val:
                                   if isinstance(elem, str) and elem.strip().startswith("http"):
@@ -182,13 +183,12 @@ jobs:
                                       if u and str(u).startswith("http"):
                                           found_urls.append(str(u).strip())
 
-              # ডুপ্লিকেট বাদ দেওয়া (সিরিয়াল ঠিক রেখে)
+              # ডুপ্লিকেট বাদ দিয়ে Server 1, Server 2 আকারে সাজানো
               seen_urls = []
               for u in found_urls:
                   if u not in seen_urls:
                       seen_urls.append(u)
 
-              # Server 1, Server 2 আকারে সাজানো
               for idx, u in enumerate(seen_urls, 1):
                   servers[f"Server {idx}"] = u
 
@@ -208,24 +208,23 @@ jobs:
                   item.get("image") or ""
               )
 
-              # রেফার আলাদা করে এক্সট্রাক্ট করা
-              referer = (
+              # Referer নেওয়া
+              referer_val = (
                   item.get("referer") or 
                   item.get("referrer") or 
                   item.get("referer_url") or 
                   item.get("referrer_url") or 
-                  item.get("Referer") or 
-                  item.get("ref") or ""
+                  "https://iframe.rumsport8.live/"
               )
-              if not referer and isinstance(item.get("headers"), dict):
-                  referer = item["headers"].get("Referer") or item["headers"].get("referer") or ""
-              
-              # স্ট্রিম ইউআরএল তৈরি
+              if referer_val and not referer_val.endswith("/"):
+                  referer_val += "/"
+
+              user_agent_val = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
               stream_urls = extract_bingstream_streams(item)
               first_url = next(iter(stream_urls.values())) if stream_urls else ""
               match_url = item.get("match_url") or first_url or ""
               
-              # লাইভ স্ট্যাটাস
               is_live = False
               if item.get("is_playing") is True:
                   is_live = True
@@ -238,7 +237,6 @@ jobs:
               match_id = str(item.get("id") or item.get("match_id") or item.get("contentId") or item.get("eventId") or "")
               time_val = item.get("bd_time") or item.get("time") or item.get("start_time") or item.get("date") or ""
 
-              # Referer ফিল্ডটি stream_url এর ঠিক উপরে থাকবে
               return {
                   "match_id": match_id,
                   "title": title,
@@ -248,8 +246,9 @@ jobs:
                   "cover_image": cover_image,
                   "match_url": match_url,
                   "is_free": False,
-                  "referer": referer,
-                  "stream_url": stream_urls
+                  "stream_url": stream_urls,
+                  "http-user-agent": user_agent_val,
+                  "http-referrer": referer_val
               }
 
           # ================= COMMON UTILS =================
