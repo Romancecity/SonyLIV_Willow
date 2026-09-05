@@ -66,6 +66,7 @@ jobs:
               clean_text = res.content.decode('utf-8-sig', errors='ignore').strip()
               return json.loads(clean_text)
 
+          # ================= SONY LIV HANDLERS =================
           def is_sonyliv_item(item):
               if not isinstance(item, dict):
                   return False
@@ -94,43 +95,6 @@ jobs:
                   
               return servers
 
-          def is_live_event(item):
-              if not isinstance(item, dict):
-                  return False
-              
-              # DAI লিংক থাকলে সেটি নিশ্চিতভাবেই লাইভ
-              stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
-              dai = stream_info.get("dai_asset_key") or stream_info.get("dai_url") or item.get("dai_asset_key") or item.get("dai_url")
-              if dai and str(dai).startswith("http"):
-                  return True
-              
-              stream_obj = item.get("stream_url", {})
-              if isinstance(stream_obj, dict) and "Original Server" in stream_obj:
-                  if str(stream_obj["Original Server"]).startswith("http"):
-                      return True
-
-              # সাধারণ লাইভ ফ্ল্যাগ চেক
-              for k in ["is_live", "live", "isLive", "islive", "is_stream_live"]:
-                  if k in item:
-                      val = item[k]
-                      if val in [True, 1, "true", "1", "live", "yes", "True", "LIVE"]:
-                          return True
-              
-              v_info = item.get("video_info", {}) if isinstance(item.get("video_info"), dict) else {}
-              for k in ["is_live", "live", "isLive", "islive", "broadcast_state"]:
-                  if k in v_info:
-                      val = v_info[k]
-                      if val in [True, 1, "true", "1", "live", "yes", "True", "LIVE"]:
-                          return True
-
-              for k in ["status", "event_status", "match_status", "badge", "state"]:
-                  if k in item and isinstance(item[k], str) and "live" in item[k].lower():
-                      return True
-                  if k in v_info and isinstance(v_info[k], str) and "live" in v_info[k].lower():
-                      return True
-              
-              return False
-
           def transform_sonyliv_item(item):
               v_info = item.get("video_info", {}) if isinstance(item.get("video_info"), dict) else {}
               img_cdn = item.get("image_cdn", {}) if isinstance(item.get("image_cdn"), dict) else {}
@@ -146,11 +110,9 @@ jobs:
                   item.get("cover_image") or ""
               )
 
-              # শুধু DAI URL এক্সট্রাক্ট করা হচ্ছে (Original Server)
               stream_urls = extract_sonyliv_streams(item)
               dai_url = stream_urls.get("Original Server")
               
-              # DAI স্ট্রিম লিংক থাকলেই অটোমেটিক LIVE, না থাকলে UPCOMING
               if dai_url:
                   match_url = dai_url
                   status = "LIVE"
@@ -178,6 +140,154 @@ jobs:
                   "stream_url": stream_urls
               }
 
+          # ================= BINGSTREAM HANDLERS =================
+          def is_bingstream_item(item):
+              if not isinstance(item, dict):
+                  return False
+              if any(k in item for k in ["video_url", "video URL", "videoUrl", "video_urls", "videoURLs"]):
+                  return True
+              source_val = str(item.get("source", "") or item.get("provider", "") or item.get("type", "")).lower()
+              if "bing" in source_val:
+                  return True
+              return False
+
+          def extract_bingstream_streams(item):
+              servers = {}
+              found_urls = []
+
+              # ১. Referer চেক করা
+              referer = (
+                  item.get("referer") or 
+                  item.get("referrer") or 
+                  item.get("referer_url") or 
+                  item.get("referrer_url") or 
+                  item.get("Referer") or 
+                  item.get("ref")
+              )
+              if not referer and isinstance(item.get("headers"), dict):
+                  referer = item["headers"].get("Referer") or item["headers"].get("referer")
+
+              # ২. video URL এর ফিল্ডগুলো সংগ্রহ করা
+              video_keys = ["video_url", "video URL", "videoUrl", "video_urls", "videoURLs", "stream_url", "streams", "links", "urls"]
+              for key in video_keys:
+                  if key in item and item[key]:
+                      val = item[key]
+                      if isinstance(val, str):
+                          val_str = val.strip()
+                          if val_str.startswith("[") and val_str.endswith("]"):
+                              try:
+                                  parsed = json.loads(val_str)
+                                  if isinstance(parsed, list):
+                                      val = parsed
+                              except Exception:
+                                  pass
+                          if isinstance(val, str):
+                              for p in re.split(r'[\r\n,]+', val_str):
+                                  p_clean = p.strip()
+                                  if p_clean.startswith("http"):
+                                      found_urls.append(p_clean)
+
+                      if isinstance(val, list):
+                          for elem in val:
+                              if isinstance(elem, str) and elem.strip().startswith("http"):
+                                  found_urls.append(elem.strip())
+                              elif isinstance(elem, dict):
+                                  u = elem.get("url") or elem.get("link") or elem.get("stream_url") or elem.get("video_url")
+                                  r = elem.get("referer") or elem.get("referrer") or referer
+                                  if u and str(u).startswith("http"):
+                                      u_str = str(u).strip()
+                                      if r and "|referer=" not in u_str.lower():
+                                          u_str = f"{u_str}|Referer={r}"
+                                      found_urls.append(u_str)
+
+                      elif isinstance(val, dict):
+                          for _, s_url in val.items():
+                              if isinstance(s_url, str) and s_url.strip().startswith("http"):
+                                  found_urls.append(s_url.strip())
+
+              # server_1, server_2 ইত্যাদি আলাদা কী থাকলেও সংগ্রহ করা
+              for k in sorted(item.keys()):
+                  if re.match(r'^(server|link|stream|video)[_\s]?[0-9]+$', k, re.IGNORECASE):
+                      val = item[k]
+                      if isinstance(val, str) and val.strip().startswith("http"):
+                          found_urls.append(val.strip())
+
+              # ডুপ্লিকেট রিমুভ করা
+              seen_urls = []
+              for u in found_urls:
+                  if u not in seen_urls:
+                      seen_urls.append(u)
+
+              # Server 1, Server 2 হিসেবে সাজানো এবং Referer যোগ করা
+              for idx, u in enumerate(seen_urls, 1):
+                  final_u = u
+                  if referer and "|referer=" not in final_u.lower():
+                      final_u = f"{final_u}|Referer={referer}"
+                  servers[f"Server {idx}"] = final_u
+
+              return servers
+
+          def transform_bingstream_item(item):
+              title = item.get("title") or item.get("name") or item.get("event_name") or item.get("match_name") or "Sports Match"
+              synopsis = item.get("synopsis") or item.get("description") or item.get("longDescription") or item.get("shortDescription") or title
+              cover_image = item.get("cover_image") or item.get("thumbnail") or item.get("image") or item.get("poster") or item.get("logo") or item.get("banner") or ""
+              
+              stream_urls = extract_bingstream_streams(item)
+              first_url = next(iter(stream_urls.values())) if stream_urls else ""
+              match_url = item.get("match_url") or first_url or ""
+              
+              status = "LIVE" if (stream_urls or is_live_event(item)) else (item.get("status") or "UPCOMING")
+              match_id = str(item.get("match_id") or item.get("id") or item.get("contentId") or item.get("eventId") or item.get("event_id") or "")
+              time_val = item.get("time") or item.get("start_time") or item.get("date") or item.get("air_date") or ""
+
+              return {
+                  "match_id": match_id,
+                  "title": title,
+                  "synopsis": synopsis,
+                  "status": status,
+                  "time": time_val,
+                  "cover_image": cover_image,
+                  "match_url": match_url,
+                  "is_free": False,
+                  "stream_url": stream_urls
+              }
+
+          # ================= COMMON UTILS =================
+          def is_live_event(item):
+              if not isinstance(item, dict):
+                  return False
+              
+              stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
+              dai = stream_info.get("dai_asset_key") or stream_info.get("dai_url") or item.get("dai_asset_key") or item.get("dai_url")
+              if dai and str(dai).startswith("http"):
+                  return True
+              
+              stream_obj = item.get("stream_url", {})
+              if isinstance(stream_obj, dict):
+                  if any(str(v).startswith("http") for v in stream_obj.values() if v):
+                      return True
+
+              for k in ["is_live", "live", "isLive", "islive", "is_stream_live"]:
+                  if k in item:
+                      val = item[k]
+                      if val in [True, 1, "true", "1", "live", "yes", "True", "LIVE"]:
+                          return True
+              
+              v_info = item.get("video_info", {}) if isinstance(item.get("video_info"), dict) else {}
+              for k in ["is_live", "live", "isLive", "islive", "broadcast_state"]:
+                  if k in v_info:
+                      val = v_info[k]
+                      if val in [True, 1, "true", "1", "live", "yes", "True", "LIVE"]:
+                          return True
+
+              for k in ["status", "event_status", "match_status", "badge", "state"]:
+                  if k in item and isinstance(item[k], str) and "live" in item[k].lower():
+                      return True
+                  if k in v_info and isinstance(v_info[k], str) and "live" in v_info[k].lower():
+                      return True
+              
+              return False
+
           def extract_items_from_json(data):
               items = []
 
@@ -187,12 +297,12 @@ jobs:
                           walk(elem)
                   elif isinstance(obj, dict):
                       is_match_item = False
-                      if any(k in obj for k in ["contentId", "match_id", "eventId", "event_id"]) and \
-                         any(k in obj for k in ["video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "multiple_audio_links", "title"]):
+                      if any(k in obj for k in ["contentId", "match_id", "eventId", "event_id", "id"]) and \
+                         any(k in obj for k in ["video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "multiple_audio_links", "title", "video_url", "video URL", "videoUrl"]):
                           is_match_item = True
-                      elif "stream_url" in obj or "stream_url_alpha" in obj or "multiple_audio_links" in obj or "stream_info" in obj:
+                      elif any(k in obj for k in ["stream_url", "stream_url_alpha", "multiple_audio_links", "stream_info", "video_url", "video URL", "videoUrl", "video_urls"]):
                           is_match_item = True
-                      elif "title" in obj and any(k in obj for k in ["match_url", "status", "stream_url", "cover_image", "time", "start_time"]):
+                      elif "title" in obj and any(k in obj for k in ["match_url", "status", "stream_url", "cover_image", "time", "start_time", "video_url", "video URL", "videoUrl"]):
                           is_match_item = True
 
                       if is_match_item:
@@ -232,6 +342,8 @@ jobs:
                   return "PrimeVideo", "primevideo.txt", url
               elif "sony" in url_lower:
                   return "Sony LIV", "sonyliv.txt", url
+              elif "bing" in url_lower or "bingstream" in url_lower:
+                  return "Bingstream", "bingstream.txt", url
               elif "sports_data" in url_lower:
                   return "Sports Data", "sports_data.txt", url
               else:
@@ -246,6 +358,7 @@ jobs:
           for idx, line in enumerate(lines, 1):
               name, txt_filename, url = get_playlist_info(line)
               current_source_items = []
+              is_bing_source = ("bing" in name.lower() or "bing" in url.lower() or "bingstream" in url.lower())
               
               try:
                   print(f"[{idx}/{len(lines)}] Fetching: {name} from {url[:45]}...")
@@ -257,6 +370,8 @@ jobs:
                           continue
                       if is_sonyliv_item(it):
                           current_source_items.append(transform_sonyliv_item(it))
+                      elif is_bing_source or is_bingstream_item(it):
+                          current_source_items.append(transform_bingstream_item(it))
                       else:
                           current_source_items.append(it)
 
