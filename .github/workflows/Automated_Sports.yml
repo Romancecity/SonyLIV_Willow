@@ -402,10 +402,10 @@ jobs:
 
           final_json = {
               "playlist_name": "All Sports & Cricket Event Info",
-              "owner": "MD ANAMUL HOQUE",
+              "developer": "MD ANAMUL HOQUE",
               "telegram": "https://t.me/ireentv",
               "website": "https://anamul.pages.dev",
-              "developer": "IreenTechnology",
+              "work_place": "https://ireentechnology.netlify.app",
               "version": "1.0",
               "channels_amount": total_count,
               "live_count": live_count,
