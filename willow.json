@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "developer": "IreenTechnology",
   "version": "1.0",
-  "channels_amount": 259,
-  "live_count": 22,
-  "last_update": "02:48 PM 06-09-2026",
+  "channels_amount": 249,
+  "live_count": 26,
+  "last_update": "03:03 PM 06-09-2026",
   "events": [
     {
       "match_id": "B0HGM11XTY",
@@ -269,6 +269,23 @@
       "drm_key": "e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de"
     },
     {
+      "match_id": "B0HGSFRYGS",
+      "title": "3rd ODI: England vs. Ireland",
+      "synopsis": "3rd ODI: England vs. Ireland",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.f0dbba30-e812-454c-9223-07d63cb57c63/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HGSFRYGS",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd"
+      },
+      "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+    },
+    {
       "match_id": "B0HFG868T8",
       "title": "Sep 6 - PTT Frankfurt",
       "synopsis": "Sep 6 - PTT Frankfurt",
@@ -319,6 +336,19 @@
       "is_free": false,
       "stream_url": {
         "Original Server": "https://dai.google.com/ssai/event/MteJAW66RAWpiknIUUM7GQ/master.m3u8"
+      }
+    },
+    {
+      "match_id": "1090541532",
+      "title": "Omega European Masters - Day 4 - 6 Sep 2026",
+      "synopsis": "Watch all the action from Omega European Masters Day 4, LIVE on Sony LIV.",
+      "status": "LIVE",
+      "time": "06 Sep 2026, 03:30 PM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023367/1788341923917287_DP-World-2026-Omega-European-Masters_Day4_landscape_thumb.jpg",
+      "match_url": "https://dai.google.com/ssai/event/Jh7uKPjJT5ew26R51u2hLg/master.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://dai.google.com/ssai/event/Jh7uKPjJT5ew26R51u2hLg/master.m3u8"
       }
     },
     {
@@ -493,10 +523,10 @@
       "status": "LIVE",
       "time": "1:40 PM 06-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1788772648-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-88d935f762dcd66da31bbb9963effbbe|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1788773547-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7ff2e6d5c17864a88829442bbe7c6eaa|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1788772648-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-88d935f762dcd66da31bbb9963effbbe|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1788773547-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7ff2e6d5c17864a88829442bbe7c6eaa|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -506,10 +536,10 @@
       "status": "LIVE",
       "time": "2:15 PM 06-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1788772649-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e35061ffab63628f06b4053aa390bf2a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1788773548-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d599b19580e9cf1ac3e1bc2ce97bf16f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1788772649-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e35061ffab63628f06b4053aa390bf2a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1788773548-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d599b19580e9cf1ac3e1bc2ce97bf16f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -519,25 +549,11 @@
       "status": "LIVE",
       "time": "2:30 PM 06-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/274.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7f1887eeaf4f1e6ae820f3-backup/chunks.m3u8?is_vip=false&token=1788772651-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-565bae6cf0dfa285b141e2561585cecb|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7f1887eeaf4f1e6ae820f3-backup/chunks.m3u8?is_vip=false&token=1788773549-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1f3ac66d6a97f3c547f48e4ec81ec307|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7f1887eeaf4f1e6ae820f3-backup/chunks.m3u8?is_vip=false&token=1788772651-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-565bae6cf0dfa285b141e2561585cecb|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7f1887eeaf4f1e6ae820f3/chunks.m3u8?is_vip=false&token=1788772652-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c550f2d05ee15cd4107ccf03a945d091|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "54272",
-      "title": "JEF United Chiba vs Gamba Osaka",
-      "synopsis": "J1 League - JEF United Chiba vs Gamba Osaka",
-      "status": "LIVE",
-      "time": "3:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/98.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c00-backup/chunks.m3u8?is_vip=false&token=1788772653-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6d22377436bbf42dbcaf41a710fe05f7|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c00-backup/chunks.m3u8?is_vip=false&token=1788772653-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6d22377436bbf42dbcaf41a710fe05f7|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c00/chunks.m3u8?is_vip=false&token=1788772654-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1d050d3d9e8020cc2630bc0d0aef7a5c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7f1887eeaf4f1e6ae820f3-backup/chunks.m3u8?is_vip=false&token=1788773549-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1f3ac66d6a97f3c547f48e4ec81ec307|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7f1887eeaf4f1e6ae820f3/chunks.m3u8?is_vip=false&token=1788773551-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d4ec7f320f00aca3f1f91ab17c98665d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -547,105 +563,11 @@
       "status": "LIVE",
       "time": "3:00 PM 06-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/98.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c03-backup/chunks.m3u8?is_vip=false&token=1788772655-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-45a5ea0989bdd578d6b41fce51bdc1ca|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c03-backup/chunks.m3u8?is_vip=false&token=1788773552-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4c9274d7dcfd4101d7377fb61c735192|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c03-backup/chunks.m3u8?is_vip=false&token=1788772655-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-45a5ea0989bdd578d6b41fce51bdc1ca|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c03/chunks.m3u8?is_vip=false&token=1788772656-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2301b6027a3fcc447f94ba8f28e1f1c2|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "54274",
-      "title": "Nagoya Grampus vs Machida Zelvia",
-      "synopsis": "J1 League - Nagoya Grampus vs Machida Zelvia",
-      "status": "LIVE",
-      "time": "3:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/98.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c01-backup/chunks.m3u8?is_vip=false&token=1788772657-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9f7078d9fab0f5c4f9f870949c1f855e|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c01-backup/chunks.m3u8?is_vip=false&token=1788772657-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9f7078d9fab0f5c4f9f870949c1f855e|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c01/chunks.m3u8?is_vip=false&token=1788772658-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0d3a625e7c454b5899d6cb952537d9b2|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "54275",
-      "title": "Fagiano Okayama vs Sanfrecce Hiroshima",
-      "synopsis": "J1 League - Fagiano Okayama vs Sanfrecce Hiroshima",
-      "status": "LIVE",
-      "time": "3:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/98.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c02/chunks.m3u8?is_vip=false&token=1788772659-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0c9bbdcecc95f455fa7875b8e7f70d7b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c02/chunks.m3u8?is_vip=false&token=1788772659-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0c9bbdcecc95f455fa7875b8e7f70d7b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "54277",
-      "title": "Milan U20 vs Juventus U20",
-      "synopsis": "Campionato Primavera - 1 - Milan U20 vs Juventus U20",
-      "status": "LIVE",
-      "time": "3:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/705.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7b402efb009bc39fb3477e-backup/chunks.m3u8?is_vip=false&token=1788772661-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-bc60659aae14d8c1e755653c4b75fa84|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7b402efb009bc39fb3477e-backup/chunks.m3u8?is_vip=false&token=1788772661-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-bc60659aae14d8c1e755653c4b75fa84|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "54278",
-      "title": "Blaublitz Akita vs Omiya Ardija",
-      "synopsis": "J2 League - Blaublitz Akita vs Omiya Ardija",
-      "status": "LIVE",
-      "time": "3:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/99.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c05-backup/chunks.m3u8?is_vip=false&token=1788772662-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3ac22212a85a2e2f500932b76875588a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c05-backup/chunks.m3u8?is_vip=false&token=1788772662-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3ac22212a85a2e2f500932b76875588a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c05/chunks.m3u8?is_vip=false&token=1788772663-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-df43610f97f777aa0ba5cc4cc4ad2d02|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "54279",
-      "title": "Yokohama FC vs Albirex Niigata",
-      "synopsis": "J2 League - Yokohama FC vs Albirex Niigata",
-      "status": "LIVE",
-      "time": "3:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/99.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c04/chunks.m3u8?is_vip=false&token=1788772664-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2c215b16ff2fc09a2a85814669031771|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c04/chunks.m3u8?is_vip=false&token=1788772664-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2c215b16ff2fc09a2a85814669031771|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "60230",
-      "title": "Australia U20 vs Indonesia U20",
-      "synopsis": "AFC U20 Asian Cup - Australia U20 vs Indonesia U20",
-      "status": "LIVE",
-      "time": "3:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/965.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c46-backup/chunks.m3u8?is_vip=false&token=1788772665-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-bf0c4939dd743218fc43422e55be6cd8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c46-backup/chunks.m3u8?is_vip=false&token=1788772665-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-bf0c4939dd743218fc43422e55be6cd8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "60231",
-      "title": "Chinese Taipei U20 vs Singapore U20",
-      "synopsis": "AFC U20 Asian Cup - Chinese Taipei U20 vs Singapore U20",
-      "status": "LIVE",
-      "time": "3:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/965.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c42-backup/chunks.m3u8?is_vip=false&token=1788772667-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-20513fb17020fdff3d3268b20592d05e|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c42-backup/chunks.m3u8?is_vip=false&token=1788772667-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-20513fb17020fdff3d3268b20592d05e|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c42/chunks.m3u8?is_vip=false&token=1788772667-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-24b8ced1d949e060842afaf674d7f280|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c03-backup/chunks.m3u8?is_vip=false&token=1788773552-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4c9274d7dcfd4101d7377fb61c735192|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c03/chunks.m3u8?is_vip=false&token=1788773552-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e0d66fcda28f3784db7986bb6cce4502|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -655,11 +577,133 @@
       "status": "LIVE",
       "time": "3:00 PM 06-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/965.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c4f-backup/chunks.m3u8?is_vip=false&token=1788772669-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-71071df3a1e3f51a44e8b3be89aa3586|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c4f-backup/chunks.m3u8?is_vip=false&token=1788773554-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-25e0382744adc19135e64d7a9eedb10c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c4f-backup/chunks.m3u8?is_vip=false&token=1788772669-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-71071df3a1e3f51a44e8b3be89aa3586|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c4f/chunks.m3u8?is_vip=false&token=1788772670-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9a2eade2cc0ee55f089e19f370fe8470|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c4f-backup/chunks.m3u8?is_vip=false&token=1788773554-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-25e0382744adc19135e64d7a9eedb10c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c4f/chunks.m3u8?is_vip=false&token=1788773554-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3c72f63e290da468dcbb5f79145ab9a4|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "60231",
+      "title": "Chinese Taipei U20 vs Singapore U20",
+      "synopsis": "AFC U20 Asian Cup - Chinese Taipei U20 vs Singapore U20",
+      "status": "LIVE",
+      "time": "3:00 PM 06-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/965.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c42-backup/chunks.m3u8?is_vip=false&token=1788773555-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-87ed7d2e28329e685aff07c520f8a35a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c42-backup/chunks.m3u8?is_vip=false&token=1788773555-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-87ed7d2e28329e685aff07c520f8a35a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c42/chunks.m3u8?is_vip=false&token=1788773557-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c9bf12ec62ff6ffc916bba38d6c63545|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "60230",
+      "title": "Australia U20 vs Indonesia U20",
+      "synopsis": "AFC U20 Asian Cup - Australia U20 vs Indonesia U20",
+      "status": "LIVE",
+      "time": "3:00 PM 06-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/965.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c46-backup/chunks.m3u8?is_vip=false&token=1788773558-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0287377f2faf0d67b730cd4cf0c4a366|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c46-backup/chunks.m3u8?is_vip=false&token=1788773558-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0287377f2faf0d67b730cd4cf0c4a366|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "54279",
+      "title": "Yokohama FC vs Albirex Niigata",
+      "synopsis": "J2 League - Yokohama FC vs Albirex Niigata",
+      "status": "LIVE",
+      "time": "3:00 PM 06-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/99.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c04-backup/chunks.m3u8?is_vip=false&token=1788773559-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-cf53c189f30fa83e56288ab2dd3df07f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c04-backup/chunks.m3u8?is_vip=false&token=1788773559-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-cf53c189f30fa83e56288ab2dd3df07f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c04/chunks.m3u8?is_vip=false&token=1788773560-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0f3d31cb7d980254835cd0807516b96e|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "54278",
+      "title": "Blaublitz Akita vs Omiya Ardija",
+      "synopsis": "J2 League - Blaublitz Akita vs Omiya Ardija",
+      "status": "LIVE",
+      "time": "3:00 PM 06-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/99.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c05-backup/chunks.m3u8?is_vip=false&token=1788773561-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7e38a9b473bdfc30f83eab7e8f1cafd2|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c05-backup/chunks.m3u8?is_vip=false&token=1788773561-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7e38a9b473bdfc30f83eab7e8f1cafd2|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c05/chunks.m3u8?is_vip=false&token=1788773561-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4a18418e27742bf568cdafde23a2a971|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "54277",
+      "title": "Milan U20 vs Juventus U20",
+      "synopsis": "Campionato Primavera - 1 - Milan U20 vs Juventus U20",
+      "status": "LIVE",
+      "time": "3:00 PM 06-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/705.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7b402efb009bc39fb3477e-backup/chunks.m3u8?is_vip=false&token=1788773563-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7f7a427cd5c4bb923a3ebf580a2e9bcb|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7b402efb009bc39fb3477e-backup/chunks.m3u8?is_vip=false&token=1788773563-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7f7a427cd5c4bb923a3ebf580a2e9bcb|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "54275",
+      "title": "Fagiano Okayama vs Sanfrecce Hiroshima",
+      "synopsis": "J1 League - Fagiano Okayama vs Sanfrecce Hiroshima",
+      "status": "LIVE",
+      "time": "3:00 PM 06-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/98.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c02/chunks.m3u8?is_vip=false&token=1788773564-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0b376e40854df79f3145eca6bd55bb90|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c02/chunks.m3u8?is_vip=false&token=1788773564-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0b376e40854df79f3145eca6bd55bb90|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "54274",
+      "title": "Nagoya Grampus vs Machida Zelvia",
+      "synopsis": "J1 League - Nagoya Grampus vs Machida Zelvia",
+      "status": "LIVE",
+      "time": "3:00 PM 06-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/98.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c01-backup/chunks.m3u8?is_vip=false&token=1788773565-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-614f29e8cb01a436f41457b01f5ab8c8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c01-backup/chunks.m3u8?is_vip=false&token=1788773565-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-614f29e8cb01a436f41457b01f5ab8c8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c01/chunks.m3u8?is_vip=false&token=1788773566-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4321b0c06af20abcdf2f4f6d58d443c3|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "54272",
+      "title": "JEF United Chiba vs Gamba Osaka",
+      "synopsis": "J1 League - JEF United Chiba vs Gamba Osaka",
+      "status": "LIVE",
+      "time": "3:00 PM 06-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/98.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c00-backup/chunks.m3u8?is_vip=false&token=1788773567-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-edaf60e9a1509b79f8989c1042f913d7|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c00-backup/chunks.m3u8?is_vip=false&token=1788773567-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-edaf60e9a1509b79f8989c1042f913d7|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c00/chunks.m3u8?is_vip=false&token=1788773568-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-049390ba99d2c54994f785a8dc076c9a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "60234",
+      "title": "Myanmar U20 vs Maldives U20",
+      "synopsis": "AFC U20 Asian Cup - Myanmar U20 vs Maldives U20",
+      "status": "LIVE",
+      "time": "3:30 PM 06-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/965.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c40-backup/chunks.m3u8?is_vip=false&token=1788773569-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2447c10b6539cdee0204192f0893c185|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7c40-backup/chunks.m3u8?is_vip=false&token=1788773569-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2447c10b6539cdee0204192f0893c185|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -669,10 +713,10 @@
       "status": "LIVE",
       "time": "3:30 PM 06-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1788772671-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a84f0cf14c93c6d72c0dd9f917e3ae67|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1788773570-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9696ca0ef95be3caf2fd3c808bfa9dce|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1788772671-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a84f0cf14c93c6d72c0dd9f917e3ae67|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1788773570-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9696ca0ef95be3caf2fd3c808bfa9dce|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -682,10 +726,10 @@
       "status": "LIVE",
       "time": "3:30 PM 06-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/289/720p/chunks.m3u8?is_vip=false&token=1788772672-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a7470cc78e4b6d5a7b4f2eec1c4e4839|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/289/720p/chunks.m3u8?is_vip=false&token=1788773572-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b7498f8ad5a4016078d73499fcae0734|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/289/720p/chunks.m3u8?is_vip=false&token=1788772672-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a7470cc78e4b6d5a7b4f2eec1c4e4839|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/289/720p/chunks.m3u8?is_vip=false&token=1788773572-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b7498f8ad5a4016078d73499fcae0734|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -695,10 +739,10 @@
       "status": "LIVE",
       "time": "3:40 PM 06-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1788772674-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-84049077b40b804119a0a335f94763c0|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1788773573-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7229e8dc115fd2806c0c30a48c9af00a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1788772674-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-84049077b40b804119a0a335f94763c0|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1788773573-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7229e8dc115fd2806c0c30a48c9af00a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -936,12 +980,14 @@
       "match_id": "54645",
       "title": "Race Day Part 1: Turkey",
       "synopsis": "MXGP - Race Day Part 1: Turkey",
-      "status": "NS",
+      "status": "LIVE",
       "time": "4:00 PM 06-09-2026",
       "cover_image": "",
-      "match_url": "",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143070/720p/chunks.m3u8?is_vip=false&token=1788773577-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7624bba14d1cfac523f18b9325da790f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143070/720p/chunks.m3u8?is_vip=false&token=1788773577-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7624bba14d1cfac523f18b9325da790f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
     },
     {
       "match_id": "61573",
@@ -1005,149 +1051,6 @@
       "status": "NS",
       "time": "6:30 AM 07-09-2026",
       "cover_image": "",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "54280",
-      "title": "FC Anyang vs Gangwon FC",
-      "synopsis": "K League 1 - FC Anyang vs Gangwon FC",
-      "status": "NS",
-      "time": "4:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/292.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "54281",
-      "title": "Gimcheon Sangmu FC vs Gwangju FC",
-      "synopsis": "K League 1 - Gimcheon Sangmu FC vs Gwangju FC",
-      "status": "NS",
-      "time": "4:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/292.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "54282",
-      "title": "Gimpo Citizen vs Seongnam FC",
-      "synopsis": "K League 2 - Gimpo Citizen vs Seongnam FC",
-      "status": "NS",
-      "time": "4:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/293.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "54283",
-      "title": "Suwon Bluewings vs Asan Mugunghwa",
-      "synopsis": "K League 2 - Suwon Bluewings vs Asan Mugunghwa",
-      "status": "NS",
-      "time": "4:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/293.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "54286",
-      "title": "Cerezo Osaka vs Tokyo Verdy",
-      "synopsis": "J1 League - Cerezo Osaka vs Tokyo Verdy",
-      "status": "NS",
-      "time": "4:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/98.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "54287",
-      "title": "Kashiwa Reysol vs Yokohama F. Marinos",
-      "synopsis": "J1 League - Kashiwa Reysol vs Yokohama F. Marinos",
-      "status": "NS",
-      "time": "4:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/98.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "54288",
-      "title": "Vissel Kobe vs V-varen Nagasaki",
-      "synopsis": "J1 League - Vissel Kobe vs V-varen Nagasaki",
-      "status": "NS",
-      "time": "4:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/98.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "54289",
-      "title": "Kawasaki Frontale vs Shimizu S-pulse",
-      "synopsis": "J1 League - Kawasaki Frontale vs Shimizu S-pulse",
-      "status": "NS",
-      "time": "4:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/98.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "54290",
-      "title": "Atletico Madrid W vs Deportivo Alavés W",
-      "synopsis": "Primera División Femenina - Atletico Madrid W vs Deportivo Alavés W",
-      "status": "NS",
-      "time": "4:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/142.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "54291",
-      "title": "Jubilo Iwata vs Kataller Toyama",
-      "synopsis": "J2 League - Jubilo Iwata vs Kataller Toyama",
-      "status": "NS",
-      "time": "4:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/99.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "54292",
-      "title": "Oita Trinita vs Imabari",
-      "synopsis": "J2 League - Oita Trinita vs Imabari",
-      "status": "NS",
-      "time": "4:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/99.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "54317",
-      "title": "Naftan vs FC Minsk",
-      "synopsis": "Premier League - Naftan vs FC Minsk",
-      "status": "NS",
-      "time": "4:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/116.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "54422",
-      "title": "Vizela vs Felgueiras 1932",
-      "synopsis": "Segunda Liga - Vizela vs Felgueiras 1932",
-      "status": "NS",
-      "time": "4:00 PM 06-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/95.png",
       "match_url": "",
       "is_free": false,
       "stream_url": {}
