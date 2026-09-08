@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 123,
+  "channels_amount": 124,
   "live_count": 3,
-  "last_update": "12:19 PM 08-09-2026",
+  "last_update": "12:33 PM 08-09-2026",
   "events": [
     {
       "match_id": "B0HGXW7KMF",
@@ -442,19 +442,6 @@
       "stream_url": {}
     },
     {
-      "match_id": "65033",
-      "title": "US Open",
-      "synopsis": "US Open - US Open",
-      "status": "LIVE",
-      "time": "9:00 PM 07-09-2026",
-      "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1788936444-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7cb7f0c6a14efb065610dd8ccbe0c071|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1788936444-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7cb7f0c6a14efb065610dd8ccbe0c071|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
       "match_id": "64064",
       "title": "Prestwich Heys vs South Liverpool",
       "synopsis": "FA Cup - Prestwich Heys vs South Liverpool",
@@ -598,6 +585,19 @@
       "stream_url": {}
     },
     {
+      "match_id": "53639",
+      "title": "Utrecht vs GO Ahead Eagles",
+      "synopsis": "Eredivisie - Utrecht vs GO Ahead Eagles",
+      "status": "LIVE",
+      "time": "6:00 PM 08-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/88.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7b94-hd/chunks.m3u8?is_vip=false&token=1788937349-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5ac065f3e1d9b147321af355f12a0e96|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7c91d6250dd162774a7b94-hd/chunks.m3u8?is_vip=false&token=1788937349-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5ac065f3e1d9b147321af355f12a0e96|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
       "match_id": "60249",
       "title": "Club Brugge U19 vs Aston Villa U19",
       "synopsis": "UEFA Youth League - Club Brugge U19 vs Aston Villa U19",
@@ -703,6 +703,17 @@
       "status": "NS",
       "time": "12:00 AM 09-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/307.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "51766",
+      "title": "Doncaster vs Huddersfield",
+      "synopsis": "EFL Trophy - Doncaster vs Huddersfield",
+      "status": "NS",
+      "time": "12:00 AM 09-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/46.png",
       "match_url": "",
       "is_free": false,
       "stream_url": {}
