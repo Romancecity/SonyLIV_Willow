@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 111,
   "live_count": 12,
-  "last_update": "06:05 PM 09-09-2026",
+  "last_update": "06:21 PM 09-09-2026",
   "events": [
     {
       "match_id": "B0HFBLHW8K",
@@ -297,23 +297,6 @@
       "drm_key": "e14535ab02e4065cc846047f1feee48d:a51c5c164f9a6b0ae751afeec7f85052"
     },
     {
-      "match_id": "B0HHGXYYDG",
-      "title": "England vs. Pakistan",
-      "synopsis": "England vs. Pakistan",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.989e7578-6121-48bb-932f-85e9e8b0ac66/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HHGXYYDG",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd"
-      },
-      "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-    },
-    {
       "match_id": "B0HJ2SBWPT",
       "title": "Superfinal: Switzerland vs. Ukraine",
       "synopsis": "Superfinal: Switzerland vs. Ukraine",
@@ -329,6 +312,23 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/xuduw3ueoe/out/v1/1f4214b57faf489fa608906bec814ec3/cenc.mpd"
       },
       "drm_key": "dfa8e3854cb8ae706b7b28f22b16cbe2:c8dad1be3999d0aee9bf702316a03f6b"
+    },
+    {
+      "match_id": "B0HHGXYYDG",
+      "title": "England vs. Pakistan",
+      "synopsis": "England vs. Pakistan",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.989e7578-6121-48bb-932f-85e9e8b0ac66/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HHGXYYDG",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd"
+      },
+      "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
     },
     {
       "match_id": "1090541741",
@@ -528,37 +528,10 @@
       "status": "LIVE",
       "time": "4:00 PM 09-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789043546-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5bbddfa42a99d1487835ec8e9633c926|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789044446-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0bfe7948b6bd8c6a6c960da47b6006d3|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789043546-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5bbddfa42a99d1487835ec8e9633c926|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "56269",
-      "title": "Daejeon Citizen vs FC Anyang",
-      "synopsis": "K League 1 - Daejeon Citizen vs FC Anyang",
-      "status": "LIVE",
-      "time": "4:30 PM 09-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/292.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f32-backup/chunks.m3u8?is_vip=false&token=1789043547-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6520c7444c52b45f35edd9d5b2855b6a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f32-backup/chunks.m3u8?is_vip=false&token=1789043547-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6520c7444c52b45f35edd9d5b2855b6a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f32/chunks.m3u8?is_vip=false&token=1789043548-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-8eb4c90b902b5389012af0e0e9d94f9b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "56270",
-      "title": "Gangwon FC vs Jeonbuk Motors",
-      "synopsis": "K League 1 - Gangwon FC vs Jeonbuk Motors",
-      "status": "LIVE",
-      "time": "4:30 PM 09-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/292.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f33/chunks.m3u8?is_vip=false&token=1789043551-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ab88c7a67d17a6eeded145bfff5ea245|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f33/chunks.m3u8?is_vip=false&token=1789043551-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ab88c7a67d17a6eeded145bfff5ea245|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789044446-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0bfe7948b6bd8c6a6c960da47b6006d3|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -568,10 +541,23 @@
       "status": "LIVE",
       "time": "6:00 PM 09-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/1418/720p/chunks.m3u8?is_vip=false&token=1789043552-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0e6442e0f77e96ce97de48b1ee950c2a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/1418/720p/chunks.m3u8?is_vip=false&token=1789044448-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-86fe72800a55d5354ce3001c87a75aa8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/1418/720p/chunks.m3u8?is_vip=false&token=1789043552-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0e6442e0f77e96ce97de48b1ee950c2a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/1418/720p/chunks.m3u8?is_vip=false&token=1789044448-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-86fe72800a55d5354ce3001c87a75aa8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "60257",
+      "title": "PSG U19 vs Slovan Bratislava U19",
+      "synopsis": "UEFA Youth League - PSG U19 vs Slovan Bratislava U19",
+      "status": "LIVE",
+      "time": "6:30 PM 09-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/14.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a988774e4f896100f199654-backup/chunks.m3u8?is_vip=false&token=1789044449-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a71cecd46af70871995470160f7a5f19|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a988774e4f896100f199654-backup/chunks.m3u8?is_vip=false&token=1789044449-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a71cecd46af70871995470160f7a5f19|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -581,10 +567,10 @@
       "status": "LIVE",
       "time": "6:45 PM 09-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/1419/720p/chunks.m3u8?is_vip=false&token=1789043553-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b1161745a8940fc0fcb9b33d753f4a4e|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/1419/720p/chunks.m3u8?is_vip=false&token=1789044451-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f2d4e35d3f30c39e022f5d7d7cfd2135|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/1419/720p/chunks.m3u8?is_vip=false&token=1789043553-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b1161745a8940fc0fcb9b33d753f4a4e|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/1419/720p/chunks.m3u8?is_vip=false&token=1789044451-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f2d4e35d3f30c39e022f5d7d7cfd2135|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -605,6 +591,17 @@
       "status": "NS",
       "time": "8:00 PM 09-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/14.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "55781",
+      "title": "Vuelta a España, Stage 18",
+      "synopsis": "La Vuelta - Vuelta a España, Stage 18",
+      "status": "NS",
+      "time": "6:45 PM 10-09-2026",
+      "cover_image": "",
       "match_url": "",
       "is_free": false,
       "stream_url": {}
@@ -690,12 +687,14 @@
       "match_id": "55755",
       "title": "Guardians vs Wolves",
       "synopsis": "ETPL - Guardians vs Wolves",
-      "status": "NS",
+      "status": "LIVE",
       "time": "7:15 PM 09-09-2026",
       "cover_image": "",
-      "match_url": "",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/423/720p/chunks.m3u8?is_vip=false&token=1789044454-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-84f6bcdbfaa1684c3e79ab4b48be54b6|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/423/720p/chunks.m3u8?is_vip=false&token=1789044454-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-84f6bcdbfaa1684c3e79ab4b48be54b6|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
     },
     {
       "match_id": "55725",
