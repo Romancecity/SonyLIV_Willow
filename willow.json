@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 111,
-  "live_count": 6,
-  "last_update": "03:34 PM 09-09-2026",
+  "channels_amount": 116,
+  "live_count": 14,
+  "last_update": "03:50 PM 09-09-2026",
   "events": [
     {
       "match_id": "B0HFBLHW8K",
@@ -280,6 +280,23 @@
       "drm_key": "0bd0136d2728be3d6506cfe054a3fd59:27ae4995704be63440c0dcb001b2abbd"
     },
     {
+      "match_id": "B0HHGXYYDG",
+      "title": "England vs. Pakistan",
+      "synopsis": "England vs. Pakistan",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.989e7578-6121-48bb-932f-85e9e8b0ac66/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HHGXYYDG",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd"
+      },
+      "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+    },
+    {
       "match_id": "1090541741",
       "title": "Day 1 - 3rd Test - 9 Sep 2026",
       "synopsis": "England head to Edgbaston with a ruthless 3-0 whitewash in their sights, while a wounded Pakistan side fights for redemption after a turbulent tour that saw seven players sent home. Can Babar Azam inspire a revival against the might of Joe Root, Harry Brook and others? Tune in to catch all the action, LIVE on Sony LIV.",
@@ -477,11 +494,11 @@
       "status": "LIVE",
       "time": "3:30 PM 09-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/101.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f2a-backup/chunks.m3u8?is_vip=false&token=1789033642-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-688ffbd876d7069c51b185e52dc208ed|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f2a-backup/chunks.m3u8?is_vip=false&token=1789035449-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a1604190ef5bb49d134b6359841e9bd9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f2a-backup/chunks.m3u8?is_vip=false&token=1789033642-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-688ffbd876d7069c51b185e52dc208ed|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f2a/chunks.m3u8?is_vip=false&token=1789033643-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d05c13387db58133d5e2122bba253364|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f2a-backup/chunks.m3u8?is_vip=false&token=1789035449-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a1604190ef5bb49d134b6359841e9bd9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f2a/chunks.m3u8?is_vip=false&token=1789035450-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-fe35b82b6b9f1fccae9ebabd0aa0a1bd|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -491,11 +508,106 @@
       "status": "LIVE",
       "time": "3:30 PM 09-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/874.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8e5dcb7cb66c539a978285-backup/chunks.m3u8?is_vip=false&token=1789033645-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-04cc73056dc75613ba6d9ae8a210edd2|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8e5dcb7cb66c539a978285-backup/chunks.m3u8?is_vip=false&token=1789035452-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-05174b8f1ad20c0b8b864b95f990b427|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8e5dcb7cb66c539a978285-backup/chunks.m3u8?is_vip=false&token=1789033645-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-04cc73056dc75613ba6d9ae8a210edd2|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8e5dcb7cb66c539a978285/chunks.m3u8?is_vip=false&token=1789033646-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6043cccc41bd779ce1e8d35678d6eed5|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8e5dcb7cb66c539a978285-backup/chunks.m3u8?is_vip=false&token=1789035452-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-05174b8f1ad20c0b8b864b95f990b427|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8e5dcb7cb66c539a978285/chunks.m3u8?is_vip=false&token=1789035452-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7e0e32f784f66fb63120a9570dd56c4c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "56263",
+      "title": "Fukushima United vs Vegalta Sendai",
+      "synopsis": "J-League Cup - Fukushima United vs Vegalta Sendai",
+      "status": "LIVE",
+      "time": "4:00 PM 09-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/101.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f30-backup/chunks.m3u8?is_vip=false&token=1789035454-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-60bed454afab98e087c19cc079abbb43|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f30-backup/chunks.m3u8?is_vip=false&token=1789035454-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-60bed454afab98e087c19cc079abbb43|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f30/chunks.m3u8?is_vip=false&token=1789035455-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1dec72a5b47bac3e948d9dc9917d416c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "56264",
+      "title": "Kamatamare Sanuki vs JEF United Chiba",
+      "synopsis": "J-League Cup - Kamatamare Sanuki vs JEF United Chiba",
+      "status": "LIVE",
+      "time": "4:00 PM 09-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/101.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f2f/chunks.m3u8?is_vip=false&token=1789035456-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1323bef308666f8a79898d3a04634a89|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f2f/chunks.m3u8?is_vip=false&token=1789035456-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1323bef308666f8a79898d3a04634a89|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "56265",
+      "title": "Kochi United vs V-varen Nagasaki",
+      "synopsis": "J-League Cup - Kochi United vs V-varen Nagasaki",
+      "status": "LIVE",
+      "time": "4:00 PM 09-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/101.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f2e-backup/chunks.m3u8?is_vip=false&token=1789035458-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5df3646ec69d0ed01905a84bd86844cb|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f2e-backup/chunks.m3u8?is_vip=false&token=1789035458-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5df3646ec69d0ed01905a84bd86844cb|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f2e/chunks.m3u8?is_vip=false&token=1789035459-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9d28c8e9f5ec554c91f1e202c97119ce|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "56266",
+      "title": "Parceiro Nagano vs Mito Hollyhock",
+      "synopsis": "J-League Cup - Parceiro Nagano vs Mito Hollyhock",
+      "status": "LIVE",
+      "time": "4:00 PM 09-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/101.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f2d/chunks.m3u8?is_vip=false&token=1789035460-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b3ca8d6abc06ff4128bb9bb565c40176|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f2d/chunks.m3u8?is_vip=false&token=1789035460-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b3ca8d6abc06ff4128bb9bb565c40176|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "56267",
+      "title": "Tochigi SC vs Montedio Yamagata",
+      "synopsis": "J-League Cup - Tochigi SC vs Montedio Yamagata",
+      "status": "LIVE",
+      "time": "4:00 PM 09-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/101.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f2c-backup/chunks.m3u8?is_vip=false&token=1789035461-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a621c7bbe7fce805c68de3fbfbb3b2a4|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f2c-backup/chunks.m3u8?is_vip=false&token=1789035461-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a621c7bbe7fce805c68de3fbfbb3b2a4|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f2c/chunks.m3u8?is_vip=false&token=1789035462-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c44b327db37011b99606cc8a6c6197df|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "56268",
+      "title": "Matsumoto Yamaga vs Shonan Bellmare",
+      "synopsis": "J-League Cup - Matsumoto Yamaga vs Shonan Bellmare",
+      "status": "LIVE",
+      "time": "4:00 PM 09-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/101.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f2b-backup/chunks.m3u8?is_vip=false&token=1789035464-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-eb48237b4de5fb80011789d33fbe5187|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f2b-backup/chunks.m3u8?is_vip=false&token=1789035464-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-eb48237b4de5fb80011789d33fbe5187|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8086086c5a23a8c2be1f2b/chunks.m3u8?is_vip=false&token=1789035465-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1d79595858c029e1fb6ce59b12920c21|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "65134",
+      "title": "England vs Pakistan",
+      "synopsis": "3rd Test - England vs Pakistan",
+      "status": "LIVE",
+      "time": "4:00 PM 09-09-2026",
+      "cover_image": "",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789035466-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-94d959e9cd7c9b8d5abba2794ec6befe|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789035466-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-94d959e9cd7c9b8d5abba2794ec6befe|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -604,50 +716,6 @@
       "status": "NS",
       "time": "1:00 AM 10-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/48.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "56269",
-      "title": "Daejeon Citizen vs FC Anyang",
-      "synopsis": "K League 1 - Daejeon Citizen vs FC Anyang",
-      "status": "NS",
-      "time": "4:30 PM 09-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/292.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "56270",
-      "title": "Gangwon FC vs Jeonbuk Motors",
-      "synopsis": "K League 1 - Gangwon FC vs Jeonbuk Motors",
-      "status": "NS",
-      "time": "4:30 PM 09-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/292.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "56271",
-      "title": "Gwangju FC vs Jeju United FC",
-      "synopsis": "K League 1 - Gwangju FC vs Jeju United FC",
-      "status": "NS",
-      "time": "4:30 PM 09-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/292.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "56272",
-      "title": "Pohang Steelers vs Gimcheon Sangmu FC",
-      "synopsis": "K League 1 - Pohang Steelers vs Gimcheon Sangmu FC",
-      "status": "NS",
-      "time": "4:30 PM 09-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/292.png",
       "match_url": "",
       "is_free": false,
       "stream_url": {}
@@ -1065,6 +1133,17 @@
       "synopsis": "ETPL - Dockers vs Cosmics",
       "status": "NS",
       "time": "3:30 PM 10-09-2026",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "55726",
+      "title": "England vs Pakistan",
+      "synopsis": "3rd Test - England vs Pakistan",
+      "status": "NS",
+      "time": "4:00 PM 10-09-2026",
       "cover_image": "",
       "match_url": "",
       "is_free": false,
