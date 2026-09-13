@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 93,
-  "live_count": 26,
-  "last_update": "04:18 AM 14-09-2026",
+  "channels_amount": 104,
+  "live_count": 33,
+  "last_update": "04:33 AM 14-09-2026",
   "events": [
     {
       "match_id": "B0HB8S9KK2",
@@ -165,6 +165,23 @@
         "Original Server": "https://a23live-emt-pv-ta-enf-amazon.akamaized.net/$T$2D3RhEOhAQWhBFgkYWY3NDZlZjAtYzM0OC00MGM1LWFjN2UtYTVhZWIzNjhiNjA0WImmAWpwcmltZXZpZGVvBBpquoF8Bhpqprr8A2Zha2FtYWkCeClzc2lkOjVhOGExMjE0LTlhMzEtNDk4Ni04YjQxLThhMTg2NDgyMmFkYxkBOKEFoQJ4My95amVoajhkbWFsL291dC92MS9lODVhODI2MjYyMGM0OGEwYjdjNGIxODVhNTNjMjhlNVgggVZk3c7nYwMnqnJr8ju-XGwqvtqYHEqPRB4Ye3brZRY/IAD/e08698602dae4bf0a3687e3d1be8a7e6/v1/dash/159325541587/imdb_ottera_amzn1_dv_live_csid_610ccc26-479b-4d79-8c18-5ac0e6ceff38_us-east-1_iad_dash_h264_none_stereo/startover/clients/dash/manipulated-manifest-iad-prod/enc/yjehj8dmal/out/v1/e85a8262620c48a0b7c4b185a53c28e5/6917e469-fa27-4fcf-8542-358a3e94be19-cenc.mpd?aws.sessionId=bfcbe60f-6d3e-4e58-8179-24955a4a23d7"
       },
       "drm_key": "08c7d255bdb53b54f38735c2529492f9:7eafb46d7206f2cb19ef0751e3466a5a"
+    },
+    {
+      "match_id": "B0HGP2QCQX",
+      "title": "Barbados Tridents vs. Guyana Amazon Warriors",
+      "synopsis": "Barbados Tridents vs. Guyana Amazon Warriors",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.8b6b6f2e-7442-4610-ab34-5b2bd53fabcb/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HGP2QCQX",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd"
+      },
+      "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
     },
     {
       "match_id": "B0HGTN4JWS",
@@ -335,10 +352,10 @@
       "status": "LIVE",
       "time": "2:05 AM 14-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55847/720p/chunks.m3u8?is_vip=false&token=1789426041-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-8f3f278e6c30f764296e14a64484a1b1|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55847/720p/chunks.m3u8?is_vip=false&token=1789426947-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1d0f72452afa2cec5ceee733e1b4e6ff|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55847/720p/chunks.m3u8?is_vip=false&token=1789426041-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-8f3f278e6c30f764296e14a64484a1b1|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55847/720p/chunks.m3u8?is_vip=false&token=1789426947-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1d0f72452afa2cec5ceee733e1b4e6ff|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -348,10 +365,10 @@
       "status": "LIVE",
       "time": "2:10 AM 14-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55850/720p/chunks.m3u8?is_vip=false&token=1789426042-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a3665215ba1dc6c1ecc7478bd0638f08|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55850/720p/chunks.m3u8?is_vip=false&token=1789426948-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ab9e99222a55b60b336ff327a6673f72|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55850/720p/chunks.m3u8?is_vip=false&token=1789426042-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a3665215ba1dc6c1ecc7478bd0638f08|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55850/720p/chunks.m3u8?is_vip=false&token=1789426948-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ab9e99222a55b60b336ff327a6673f72|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -361,10 +378,10 @@
       "status": "LIVE",
       "time": "2:25 AM 14-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52465/720p/chunks.m3u8?is_vip=false&token=1789426044-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9efac790b2141b739c6d755f129d6500|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52465/720p/chunks.m3u8?is_vip=false&token=1789426949-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-85b0237e9564f6c17c11c5e23b514b38|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52465/720p/chunks.m3u8?is_vip=false&token=1789426044-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9efac790b2141b739c6d755f129d6500|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52465/720p/chunks.m3u8?is_vip=false&token=1789426949-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-85b0237e9564f6c17c11c5e23b514b38|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -374,10 +391,10 @@
       "status": "LIVE",
       "time": "2:25 AM 14-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52466/720p/chunks.m3u8?is_vip=false&token=1789426045-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-04211f2759127e49476075bc22db67f6|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52466/720p/chunks.m3u8?is_vip=false&token=1789426950-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-fe42b1a76dbf0db7084184a76b1f9794|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52466/720p/chunks.m3u8?is_vip=false&token=1789426045-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-04211f2759127e49476075bc22db67f6|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52466/720p/chunks.m3u8?is_vip=false&token=1789426950-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-fe42b1a76dbf0db7084184a76b1f9794|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -387,39 +404,22 @@
       "status": "LIVE",
       "time": "2:25 AM 14-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52468/720p/chunks.m3u8?is_vip=false&token=1789426046-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-87a7c9e4d239acc1e70c418eaf155b10|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52468/720p/chunks.m3u8?is_vip=false&token=1789426951-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9a284c31a8ae6a0d529e00f84880beb5|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52468/720p/chunks.m3u8?is_vip=false&token=1789426046-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-87a7c9e4d239acc1e70c418eaf155b10|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52468/720p/chunks.m3u8?is_vip=false&token=1789426951-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9a284c31a8ae6a0d529e00f84880beb5|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
       "match_id": "58747",
       "title": "Godoy Cruz vs Colon Santa Fe",
       "synopsis": "Primera Nacional - Godoy Cruz vs Colon Santa Fe",
-      "status": "LIVE",
+      "status": "FT",
       "time": "3:00 AM 14-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/129.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b6c031c11facd0026-backup/chunks.m3u8?is_vip=false&token=1789426047-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d34d4ff82fe260ecef8f9a3a07b57ab8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "",
       "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b6c031c11facd0026-backup/chunks.m3u8?is_vip=false&token=1789426047-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d34d4ff82fe260ecef8f9a3a07b57ab8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b6c031c11facd0026/chunks.m3u8?is_vip=false&token=1789426048-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c865b5e72cdbff1bfbb0a74c5d2dd056|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "59600",
-      "title": "New York City II vs Connecticut FC",
-      "synopsis": "MLS Next Pro - New York City II vs Connecticut FC",
-      "status": "LIVE",
-      "time": "3:00 AM 14-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/909.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9f1ed3018287f1ced8c659-backup/chunks.m3u8?is_vip=false&token=1789426049-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5f7da644952fe9ebac5a47d501b47723|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9f1ed3018287f1ced8c659-backup/chunks.m3u8?is_vip=false&token=1789426049-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5f7da644952fe9ebac5a47d501b47723|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9f1ed3018287f1ced8c659/chunks.m3u8?is_vip=false&token=1789426050-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d9ff34f5835ab2685a7334f005d5fe40|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
+      "stream_url": {}
     },
     {
       "match_id": "59601",
@@ -428,51 +428,10 @@
       "status": "LIVE",
       "time": "3:00 AM 14-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/72.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d8896e1cc910f0db054/chunks.m3u8?is_vip=false&token=1789426051-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-54308a741a82150eb88bcf4d551fcf5a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d8896e1cc910f0db054/chunks.m3u8?is_vip=false&token=1789426952-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6eab7656bdadfd90ac638f020c264242|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d8896e1cc910f0db054/chunks.m3u8?is_vip=false&token=1789426051-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-54308a741a82150eb88bcf4d551fcf5a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "59603",
-      "title": "Novorizontino vs Cuiaba",
-      "synopsis": "Serie B - Novorizontino vs Cuiaba",
-      "status": "LIVE",
-      "time": "3:30 AM 14-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/72.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6e7-backup/chunks.m3u8?is_vip=false&token=1789426052-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-09ef645fcfbfb80d3bf3e0c7b98ea98c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6e7-backup/chunks.m3u8?is_vip=false&token=1789426052-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-09ef645fcfbfb80d3bf3e0c7b98ea98c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6e7/chunks.m3u8?is_vip=false&token=1789426053-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f0f800f40b7e57798a1c887a207fa867|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "61623",
-      "title": "Brusque vs Inter De Limeira",
-      "synopsis": "Serie C - Brusque vs Inter De Limeira",
-      "status": "LIVE",
-      "time": "3:30 AM 14-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/75.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a978a486c031c11fa7c953f/chunks.m3u8?is_vip=false&token=1789426054-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-208db23ff5b6673c8b76da19218879ab|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a978a486c031c11fa7c953f/chunks.m3u8?is_vip=false&token=1789426054-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-208db23ff5b6673c8b76da19218879ab|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "61684",
-      "title": "Rubio NU vs Nacional Asuncion",
-      "synopsis": "Division Profesional - Clausura - Rubio NU vs Nacional Asuncion",
-      "status": "LIVE",
-      "time": "3:30 AM 14-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/252.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2c6-backup/chunks.m3u8?is_vip=false&token=1789426055-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4632e76aed3d670197d26b8b9778195d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2c6-backup/chunks.m3u8?is_vip=false&token=1789426055-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4632e76aed3d670197d26b8b9778195d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2c6/chunks.m3u8?is_vip=false&token=1789426056-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-008913cdfff7d89de3d5769940aa6f83|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d8896e1cc910f0db054/chunks.m3u8?is_vip=false&token=1789426952-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6eab7656bdadfd90ac638f020c264242|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -482,11 +441,52 @@
       "status": "LIVE",
       "time": "3:30 AM 14-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/72.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6e8-backup/chunks.m3u8?is_vip=false&token=1789426057-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d7dc9e4fb6ab34c9973e516d172ff247|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6e8-backup/chunks.m3u8?is_vip=false&token=1789426954-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f0f8006db607affdb990b2de19b29527|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6e8-backup/chunks.m3u8?is_vip=false&token=1789426057-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d7dc9e4fb6ab34c9973e516d172ff247|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6e8/chunks.m3u8?is_vip=false&token=1789426058-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2078e9099c4b952ac184be202746aece|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6e8-backup/chunks.m3u8?is_vip=false&token=1789426954-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f0f8006db607affdb990b2de19b29527|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6e8/chunks.m3u8?is_vip=false&token=1789426955-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-28019f411f992728491341223866a7b9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "61623",
+      "title": "Brusque vs Inter De Limeira",
+      "synopsis": "Serie C - Brusque vs Inter De Limeira",
+      "status": "LIVE",
+      "time": "3:30 AM 14-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/75.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a978a486c031c11fa7c953f/chunks.m3u8?is_vip=false&token=1789426956-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ab1955a9394a49f345c3075614ae05b4|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a978a486c031c11fa7c953f/chunks.m3u8?is_vip=false&token=1789426956-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ab1955a9394a49f345c3075614ae05b4|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "61684",
+      "title": "Rubio NU vs Nacional Asuncion",
+      "synopsis": "Division Profesional - Clausura - Rubio NU vs Nacional Asuncion",
+      "status": "LIVE",
+      "time": "3:30 AM 14-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/252.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2c6-backup/chunks.m3u8?is_vip=false&token=1789426957-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ff4819365e516658c89fd045353e6ad4|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2c6-backup/chunks.m3u8?is_vip=false&token=1789426957-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ff4819365e516658c89fd045353e6ad4|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2c6/chunks.m3u8?is_vip=false&token=1789426958-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2166b53ec01990ae0912c53e036fd0ed|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "59603",
+      "title": "Novorizontino vs Cuiaba",
+      "synopsis": "Serie B - Novorizontino vs Cuiaba",
+      "status": "LIVE",
+      "time": "3:30 AM 14-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/72.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6e7-backup/chunks.m3u8?is_vip=false&token=1789426959-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2a07854e5aedd6022ba8f97b65cd95f8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6e7-backup/chunks.m3u8?is_vip=false&token=1789426959-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2a07854e5aedd6022ba8f97b65cd95f8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6e7/chunks.m3u8?is_vip=false&token=1789426960-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7bb4268c697d45d5aa324e2f84b5e19d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -496,11 +496,11 @@
       "status": "LIVE",
       "time": "3:30 AM 14-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/129.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b6c031c11facd0020-backup/chunks.m3u8?is_vip=false&token=1789426059-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b5e4449273b626a2eb1236fdb28ce530|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b6c031c11facd0020-backup/chunks.m3u8?is_vip=false&token=1789426961-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9d838942248427d0136ed7debef76ece|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b6c031c11facd0020-backup/chunks.m3u8?is_vip=false&token=1789426059-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b5e4449273b626a2eb1236fdb28ce530|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b6c031c11facd0020/chunks.m3u8?is_vip=false&token=1789426060-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-53e8e7b70d7a8160fc275b187b071fc6|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b6c031c11facd0020-backup/chunks.m3u8?is_vip=false&token=1789426961-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9d838942248427d0136ed7debef76ece|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b6c031c11facd0020/chunks.m3u8?is_vip=false&token=1789426962-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-52dcbcba21014a7baeb3ff91170829cc|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -510,12 +510,12 @@
       "status": "LIVE",
       "time": "3:30 AM 14-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/253.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6eb-hd/chunks.m3u8?is_vip=false&token=1789426061-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-eff7e288c81664c2874560b338ba1a29|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6eb-hd/chunks.m3u8?is_vip=false&token=1789426963-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-10d702cd78111d12aaa4bb9728fa9cb8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6eb-hd/chunks.m3u8?is_vip=false&token=1789426061-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-eff7e288c81664c2874560b338ba1a29|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6eb-backup/chunks.m3u8?is_vip=false&token=1789426062-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b6d15c585c269fbe7f64be8ba9e6e986|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 3": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6eb/chunks.m3u8?is_vip=false&token=1789426062-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a86098953a014b04cf64fa6bde6fd588|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6eb-hd/chunks.m3u8?is_vip=false&token=1789426963-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-10d702cd78111d12aaa4bb9728fa9cb8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6eb-backup/chunks.m3u8?is_vip=false&token=1789426964-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-8d93b93f8913ab77abeadb5fce8c841b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 3": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6eb/chunks.m3u8?is_vip=false&token=1789426964-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e34c039ed6b68c17bbf0624bb99d0bf5|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -525,11 +525,11 @@
       "status": "LIVE",
       "time": "4:00 AM 14-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/479.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6e9-fhd/chunks.m3u8?is_vip=false&token=1789426063-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1895da0f6ac57b391b093bbfc3d98c06|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6e9-fhd/chunks.m3u8?is_vip=false&token=1789426965-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-86fe1d0579c4949300e9f8e6f7a43552|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6e9-fhd/chunks.m3u8?is_vip=false&token=1789426063-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1895da0f6ac57b391b093bbfc3d98c06|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6e9/chunks.m3u8?is_vip=false&token=1789426064-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5bf56bc89d321c409b8ff713f77d7011|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6e9-fhd/chunks.m3u8?is_vip=false&token=1789426965-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-86fe1d0579c4949300e9f8e6f7a43552|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6e9/chunks.m3u8?is_vip=false&token=1789426966-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-602803e56e7dcc2f08a0b4a6978a1f4b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -539,11 +539,11 @@
       "status": "LIVE",
       "time": "4:00 AM 14-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/489.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d8896e1cc910f0db052-backup/chunks.m3u8?is_vip=false&token=1789426065-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d29aef6de9fe77c297ada7c74758a5b8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d8896e1cc910f0db052-backup/chunks.m3u8?is_vip=false&token=1789426967-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1aa3d825cc9484b50faa518c187b132c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d8896e1cc910f0db052-backup/chunks.m3u8?is_vip=false&token=1789426065-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d29aef6de9fe77c297ada7c74758a5b8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d8896e1cc910f0db052/chunks.m3u8?is_vip=false&token=1789426066-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-50604bb1520d4d8d67ae3639fec12b69|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d8896e1cc910f0db052-backup/chunks.m3u8?is_vip=false&token=1789426967-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1aa3d825cc9484b50faa518c187b132c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d8896e1cc910f0db052/chunks.m3u8?is_vip=false&token=1789426968-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-553d7b9f421276b2ae8f0724ee554420|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -553,11 +553,11 @@
       "status": "LIVE",
       "time": "4:15 AM 14-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/128.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d8896e1cc910f0db00b-backup/chunks.m3u8?is_vip=false&token=1789426067-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c90b096c1f1d0cbf762f4e20b9ef1edb|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d8896e1cc910f0db00b-backup/chunks.m3u8?is_vip=false&token=1789426970-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-434c15ce159945396638d28a1ef98232|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d8896e1cc910f0db00b-backup/chunks.m3u8?is_vip=false&token=1789426067-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c90b096c1f1d0cbf762f4e20b9ef1edb|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d8896e1cc910f0db00b/chunks.m3u8?is_vip=false&token=1789426067-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d912b2f3344a6dac0537fc6e0a514f7c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d8896e1cc910f0db00b-backup/chunks.m3u8?is_vip=false&token=1789426970-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-434c15ce159945396638d28a1ef98232|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d8896e1cc910f0db00b/chunks.m3u8?is_vip=false&token=1789426971-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2529829f17eb377e837ceb611c01c9bd|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -567,11 +567,80 @@
       "status": "LIVE",
       "time": "4:30 AM 14-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/253.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6ea-backup/chunks.m3u8?is_vip=false&token=1789426068-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-15f07cf2df3a214adc7a80c3f1d626b7|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6ea-hd/chunks.m3u8?is_vip=false&token=1789426972-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-fe8a26839f55bf415c21300d63221de8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6ea-backup/chunks.m3u8?is_vip=false&token=1789426068-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-15f07cf2df3a214adc7a80c3f1d626b7|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6ea/chunks.m3u8?is_vip=false&token=1789426069-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-bac1ec60afc9df3d795356b921712cfc|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6ea-hd/chunks.m3u8?is_vip=false&token=1789426972-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-fe8a26839f55bf415c21300d63221de8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6ea-backup/chunks.m3u8?is_vip=false&token=1789426972-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-83c7bdb3a7ff35bd0e67f06735a0a199|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 3": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6ea/chunks.m3u8?is_vip=false&token=1789426973-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-70e681f86aa4675d744522f16c779bf2|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "59611",
+      "title": "Orlando City II vs Toronto II",
+      "synopsis": "MLS Next Pro - Orlando City II vs Toronto II",
+      "status": "LIVE",
+      "time": "5:00 AM 14-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/909.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9f1ed3018287f1ced8c65d-backup/chunks.m3u8?is_vip=false&token=1789426974-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-635b33d5c5bfed43b95433df1e900b12|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9f1ed3018287f1ced8c65d-backup/chunks.m3u8?is_vip=false&token=1789426974-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-635b33d5c5bfed43b95433df1e900b12|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9f1ed3018287f1ced8c65d/chunks.m3u8?is_vip=false&token=1789426975-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-189e638174e995c7acda7065d0e6408d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "59613",
+      "title": "Atlético San Luis W vs Santos Laguna W",
+      "synopsis": "Liga MX Femenil - Atlético San Luis W vs Santos Laguna W",
+      "status": "LIVE",
+      "time": "5:00 AM 14-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/673.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6ed-backup/chunks.m3u8?is_vip=false&token=1789426976-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-74b3b5611b7333e2bac6e37eb51ab61f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6ed-backup/chunks.m3u8?is_vip=false&token=1789426976-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-74b3b5611b7333e2bac6e37eb51ab61f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6ed/chunks.m3u8?is_vip=false&token=1789426977-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ba581fc33d6d5ce91bae17b39ca0f3c8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "59614",
+      "title": "América W vs Tigres UANL W",
+      "synopsis": "Liga MX Femenil - América W vs Tigres UANL W",
+      "status": "LIVE",
+      "time": "5:00 AM 14-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/673.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6ee-backup/chunks.m3u8?is_vip=false&token=1789426978-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e5c93396456686d0e777dc185975cdd8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6ee-backup/chunks.m3u8?is_vip=false&token=1789426978-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e5c93396456686d0e777dc185975cdd8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "59610",
+      "title": "New York RB II vs FC Cincinnati II",
+      "synopsis": "MLS Next Pro - New York RB II vs FC Cincinnati II",
+      "status": "LIVE",
+      "time": "5:00 AM 14-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/909.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9f1ed3018287f1ced8c65e-backup/chunks.m3u8?is_vip=false&token=1789426980-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-8c8588ad503a17de19af2b8286336a13|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9f1ed3018287f1ced8c65e-backup/chunks.m3u8?is_vip=false&token=1789426980-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-8c8588ad503a17de19af2b8286336a13|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9f1ed3018287f1ced8c65e/chunks.m3u8?is_vip=false&token=1789426981-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3ff3af2379a171180ac5a3d849ec0881|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "59609",
+      "title": "Inter Miami II vs Huntsville City",
+      "synopsis": "MLS Next Pro - Inter Miami II vs Huntsville City",
+      "status": "LIVE",
+      "time": "5:00 AM 14-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/909.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9f1ed3018287f1ced8c65f/chunks.m3u8?is_vip=false&token=1789426983-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-be3bcaf7d582cac97a11c7dfd7780ef4|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9f1ed3018287f1ced8c65f/chunks.m3u8?is_vip=false&token=1789426983-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-be3bcaf7d582cac97a11c7dfd7780ef4|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -581,10 +650,38 @@
       "status": "LIVE",
       "time": "5:00 AM 14-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789426070-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f0ae7080fa550c60faf0856d7a40664a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789426984-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0be239b7e09ebe434bd9688ab902cc53|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789426070-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f0ae7080fa550c60faf0856d7a40664a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789426984-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0be239b7e09ebe434bd9688ab902cc53|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "59608",
+      "title": "Portland Thorns W vs Chicago Red Stars W",
+      "synopsis": "NWSL Women - Portland Thorns W vs Chicago Red Stars W",
+      "status": "LIVE",
+      "time": "5:00 AM 14-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/254.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6ec-backup/chunks.m3u8?is_vip=false&token=1789426985-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b08fac730ad560e4464aa7c3521f2e55|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6ec-backup/chunks.m3u8?is_vip=false&token=1789426985-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b08fac730ad560e4464aa7c3521f2e55|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe6ec/chunks.m3u8?is_vip=false&token=1789426986-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7d1c9ac32e9563f20edae09171aafe9f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "59607",
+      "title": "A. Italiano vs O'Higgins",
+      "synopsis": "Primera División - A. Italiano vs O'Higgins",
+      "status": "LIVE",
+      "time": "5:00 AM 14-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/265.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d8896e1cc910f0db025-backup/chunks.m3u8?is_vip=false&token=1789426987-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-aa56c12cfc3520d15212fdb46ed2d49e|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d8896e1cc910f0db025-backup/chunks.m3u8?is_vip=false&token=1789426987-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-aa56c12cfc3520d15212fdb46ed2d49e|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d8896e1cc910f0db025/chunks.m3u8?is_vip=false&token=1789426988-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-15a9ad23e345447768747b8cdf171aaf|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -646,12 +743,14 @@
       "match_id": "61742",
       "title": "San Diego Padres vs San Francisco Giants",
       "synopsis": "MLB - San Diego Padres vs San Francisco Giants",
-      "status": "NS",
+      "status": "LIVE",
       "time": "5:20 AM 14-09-2026",
       "cover_image": "",
-      "match_url": "",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55849/720p/chunks.m3u8?is_vip=false&token=1789426990-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-94cd1d9e074dea78143045bc69521842|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55849/720p/chunks.m3u8?is_vip=false&token=1789426990-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-94cd1d9e074dea78143045bc69521842|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
     },
     {
       "match_id": "64086",
@@ -1100,6 +1199,50 @@
       "status": "NS",
       "time": "2:00 AM 15-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/909.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "59566",
+      "title": "Banfield vs Barracas Central",
+      "synopsis": "Liga Profesional Argentina - Banfield vs Barracas Central",
+      "status": "NS",
+      "time": "4:00 AM 15-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/128.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "59569",
+      "title": "Deportivo Riestra vs Lanus",
+      "synopsis": "Liga Profesional Argentina - Deportivo Riestra vs Lanus",
+      "status": "NS",
+      "time": "4:00 AM 15-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/128.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "60302",
+      "title": "America Mineiro vs São Bernardo",
+      "synopsis": "Serie B - America Mineiro vs São Bernardo",
+      "status": "NS",
+      "time": "4:30 AM 15-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/72.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "60303",
+      "title": "Botafogo SP vs Goias",
+      "synopsis": "Serie B - Botafogo SP vs Goias",
+      "status": "NS",
+      "time": "4:30 AM 15-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/72.png",
       "match_url": "",
       "is_free": false,
       "stream_url": {}
