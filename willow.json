@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 93,
   "live_count": 6,
-  "last_update": "07:19 PM 14-09-2026",
+  "last_update": "07:35 PM 14-09-2026",
   "events": [
     {
       "match_id": "B0H7PD3W98",
@@ -94,6 +94,23 @@
       "drm_key": ""
     },
     {
+      "match_id": "B0HFSYGH8P",
+      "title": "The Morning Drive",
+      "synopsis": "The Morning Drive",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.46845e84-cb8e-4e5b-ac2d-6d008f1d92aa/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HFSYGH8P",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vax19ewjes/out/v1/f077d112d47e4a899664fa27031ba9fa/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vax19ewjes/out/v1/f077d112d47e4a899664fa27031ba9fa/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vax19ewjes/out/v1/f077d112d47e4a899664fa27031ba9fa/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vax19ewjes/out/v1/f077d112d47e4a899664fa27031ba9fa/cenc.mpd"
+      },
+      "drm_key": "e14535ab02e4065cc846047f1feee48d:a51c5c164f9a6b0ae751afeec7f85052"
+    },
+    {
       "match_id": "B0HGXWVY5Z",
       "title": "Triton ONE Poker Series Jeju II-$200K Triton Invitational",
       "synopsis": "Triton ONE Poker Series Jeju II-$200K Triton Invitational",
@@ -126,23 +143,6 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/xuduw3ueoe/out/v1/1f4214b57faf489fa608906bec814ec3/cenc.mpd"
       },
       "drm_key": "dfa8e3854cb8ae706b7b28f22b16cbe2:c8dad1be3999d0aee9bf702316a03f6b"
-    },
-    {
-      "match_id": "B0HFSYGH8P",
-      "title": "The Morning Drive",
-      "synopsis": "The Morning Drive",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.46845e84-cb8e-4e5b-ac2d-6d008f1d92aa/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HFSYGH8P",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vax19ewjes/out/v1/f077d112d47e4a899664fa27031ba9fa/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vax19ewjes/out/v1/f077d112d47e4a899664fa27031ba9fa/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vax19ewjes/out/v1/f077d112d47e4a899664fa27031ba9fa/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vax19ewjes/out/v1/f077d112d47e4a899664fa27031ba9fa/cenc.mpd"
-      },
-      "drm_key": "e14535ab02e4065cc846047f1feee48d:a51c5c164f9a6b0ae751afeec7f85052"
     },
     {
       "match_id": "B0HB738GQF",
@@ -286,10 +286,10 @@
       "status": "LIVE",
       "time": "5:30 PM 14-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/1129.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48b5/chunks.m3u8?is_vip=false&token=1789480048-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-389707133c79a545d89911851107650a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48b5/chunks.m3u8?is_vip=false&token=1789480949-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-25166578ac21e00715a934e52cc32b05|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48b5/chunks.m3u8?is_vip=false&token=1789480048-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-389707133c79a545d89911851107650a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48b5/chunks.m3u8?is_vip=false&token=1789480949-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-25166578ac21e00715a934e52cc32b05|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -299,11 +299,11 @@
       "status": "LIVE",
       "time": "7:45 PM 14-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/17.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe709-fancode/chunks.m3u8?is_vip=false&token=1789480052-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-fc4ac6fd087550ef48c0cb9c99cfafff|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe709-fancode/chunks.m3u8?is_vip=false&token=1789480954-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-eeae0518c5dc13c5f8f3f31cc6284730|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe709-fancode/chunks.m3u8?is_vip=false&token=1789480052-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-fc4ac6fd087550ef48c0cb9c99cfafff|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe709/chunks.m3u8?is_vip=false&token=1789480053-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-48b957eb7849cd10e3638a71a222c934|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe709-fancode/chunks.m3u8?is_vip=false&token=1789480954-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-eeae0518c5dc13c5f8f3f31cc6284730|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a871d886c5a23a8c2ffe709/chunks.m3u8?is_vip=false&token=1789480958-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6d90fa39769bad6bf006c97a3bacf22d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
