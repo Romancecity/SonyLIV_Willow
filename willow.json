@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 102,
-  "live_count": 26,
-  "last_update": "12:20 AM 16-09-2026",
+  "channels_amount": 109,
+  "live_count": 27,
+  "last_update": "12:34 AM 16-09-2026",
   "events": [
     {
       "match_id": "B0HGBDBNS6",
@@ -83,6 +83,23 @@
       "drm_key": ""
     },
     {
+      "match_id": "B0HGBYLG18",
+      "title": "West Ham vs. Fulham",
+      "synopsis": "West Ham vs. Fulham",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.2c5e1ea3-8eb0-4c69-86ed-cb57a158ae03/2/BOXART-16X9/en-US/1920x1080._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMpng_.png",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HGBYLG18",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.mpd"
+      },
+      "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+    },
+    {
       "match_id": "B0HFWM2PQC",
       "title": "Mexico vs. China",
       "synopsis": "Mexico vs. China",
@@ -117,20 +134,6 @@
       "drm_key": "59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a"
     },
     {
-      "match_id": "B0HJ8JS8WY",
-      "title": "Sep 15 - PTT Chicago",
-      "synopsis": "Sep 15 - PTT Chicago",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.b03cafdc-9f24-44f9-bbd2-6f6484894fd0/4/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HJ8JS8WY",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://live-pv-ta-enf.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWImmAWpwcmltZXZpZGVvBBpqvSSBBhpqqV4BA2ZmYXN0bHkCeClzc2lkOjZjOGUxYzE0LTk5ZDktNGMwOS1iNjVmLWFhYjg1ZWRhZjk0NRkBOKEFoQJ4My9ldDhtYWtva3RwL291dC92MS9iYzE1ZTBmYThkNzM0NDE4YjNmYzM5YzJkZGYxZDczYVggOiBwuKD-acSH-82gM-wgk438uE38dI0fje4kIVX53IE/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/et8makoktp/out/v1/bc15e0fa8d734418b3fc39c2ddf1d73a/61aa2c51-fa48-420b-ada5-21fde0d12c88-cenc.mpd"
-      },
-      "drm_key": "8190ede3bf2e368fe038fb180123ec9c:6ecf277615e7f267fbdd793d51777077"
-    },
-    {
       "match_id": "B0H995RX1J",
       "title": "Sep 15 - PTT Newport Beach",
       "synopsis": "Sep 15 - PTT Newport Beach",
@@ -143,6 +146,20 @@
         "Original Server": "https://ABDJLINAAAAAAAAMHKAF3PN4RPMYD.ta.bia-cf.live.pv-cdn.net/$T$2D3RhEOhAQWhBFgkYzQ1OWU1YmItZDgxMS00NGM2LTgwYzQtNTNkZDc3NTIwODk5WJSnAWpwcmltZXZpZGVvBBpqvU6zBhpqqYgzA2pjbG91ZGZyb250Angpc3NpZDozOGJkMzg4Zi00NWIwLTRiMmYtYjM3ZC0xMjgyYjg4MTVkZTIZATihBaECeDMvazhpb20xYXFxdS9vdXQvdjEvYzQ1OGI5ZDk2NzA3NGQ0Nzg0MzhjZmRlMjM3NDA0MWEZATyBYlVTWCBmwLx13MSUyXKQUcTuTsSUiyziX4aWDCqFPGgmXDFKQA/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/k8iom1aqqu/out/v1/c458b9d967074d478438cfde2374041a/c1b8808c-3c57-4619-8053-98bfe352cd5e-cenc.mpd"
       },
       "drm_key": "756bee49dac2d3bb9422d1ba567975fd:d2989c281f29cda5da42154587a1efd6"
+    },
+    {
+      "match_id": "B0HJ8JS8WY",
+      "title": "Sep 15 - PTT Chicago",
+      "synopsis": "Sep 15 - PTT Chicago",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.b03cafdc-9f24-44f9-bbd2-6f6484894fd0/4/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HJ8JS8WY",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://live-pv-ta-enf.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWImmAWpwcmltZXZpZGVvBBpqvSSBBhpqqV4BA2ZmYXN0bHkCeClzc2lkOjZjOGUxYzE0LTk5ZDktNGMwOS1iNjVmLWFhYjg1ZWRhZjk0NRkBOKEFoQJ4My9ldDhtYWtva3RwL291dC92MS9iYzE1ZTBmYThkNzM0NDE4YjNmYzM5YzJkZGYxZDczYVggOiBwuKD-acSH-82gM-wgk438uE38dI0fje4kIVX53IE/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/et8makoktp/out/v1/bc15e0fa8d734418b3fc39c2ddf1d73a/61aa2c51-fa48-420b-ada5-21fde0d12c88-cenc.mpd"
+      },
+      "drm_key": "8190ede3bf2e368fe038fb180123ec9c:6ecf277615e7f267fbdd793d51777077"
     },
     {
       "match_id": "1090542511",
@@ -296,12 +313,12 @@
       "status": "LIVE",
       "time": "12:00 AM 16-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/140.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9b-hd/chunks.m3u8?is_vip=false&token=1789583546-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-cb38eb8d4a103c6b2d948c3e3ce98b4a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9b-hd/chunks.m3u8?is_vip=false&token=1789585346-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c4325ce96e55fb747c95131ae18e5c30|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9b-hd/chunks.m3u8?is_vip=false&token=1789583546-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-cb38eb8d4a103c6b2d948c3e3ce98b4a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9b-fancode/chunks.m3u8?is_vip=false&token=1789583548-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0afc8cb13aee1c3d0af198d6198595b1|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 3": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9b/chunks.m3u8?is_vip=false&token=1789583549-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-bbd8bfdfa03d24283a41edabacea9558|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9b-hd/chunks.m3u8?is_vip=false&token=1789585346-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c4325ce96e55fb747c95131ae18e5c30|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9b-fancode/chunks.m3u8?is_vip=false&token=1789585349-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7096201aebc6b2c0ae5e4649da9eb9a5|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 3": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9b/chunks.m3u8?is_vip=false&token=1789585351-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5356cb29c5605386f194f94c1fd40d11|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -311,234 +328,27 @@
       "status": "LIVE",
       "time": "12:00 AM 16-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/88.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b6b-hd/chunks.m3u8?is_vip=false&token=1789583550-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3116500ee1afa210362cfd62727b71c2|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b6b-hd/chunks.m3u8?is_vip=false&token=1789585352-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d135a3b6adf09e95b56de2bb81f22c75|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b6b-hd/chunks.m3u8?is_vip=false&token=1789583550-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3116500ee1afa210362cfd62727b71c2|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b6b/chunks.m3u8?is_vip=false&token=1789583552-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-359ee687eaadc26154aa105dacab0f9a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b6b-hd/chunks.m3u8?is_vip=false&token=1789585352-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d135a3b6adf09e95b56de2bb81f22c75|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b6b-fhd/chunks.m3u8?is_vip=false&token=1789585353-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b5c5b1162ad88fb2d7ca15330d14a6be|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 3": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b6b/chunks.m3u8?is_vip=false&token=1789585356-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-817515ed3f679abbebf573892c12866f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
-      "match_id": "64082",
-      "title": "England vs Sri Lanka",
-      "synopsis": "1st T20I - England vs Sri Lanka",
+      "match_id": "56824",
+      "title": "Ipswich vs Arsenal",
+      "synopsis": "League Cup - Ipswich vs Arsenal",
       "status": "LIVE",
-      "time": "10:00 PM 15-09-2026",
-      "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/289/720p/chunks.m3u8?is_vip=false&token=1789583553-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-04a8d834a59cffda0cf837389c39b292|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/289/720p/chunks.m3u8?is_vip=false&token=1789583553-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-04a8d834a59cffda0cf837389c39b292|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "61640",
-      "title": "Altay vs Söke 1970",
-      "synopsis": "Türkiye Kupası - Altay vs Söke 1970",
-      "status": "LIVE",
-      "time": "11:00 PM 15-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/206.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a96630093add94b37a7fc10/chunks.m3u8?is_vip=false&token=1789583557-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-23181d4b9052adf85fdae06fac1d5b7b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a96630093add94b37a7fc10/chunks.m3u8?is_vip=false&token=1789583557-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-23181d4b9052adf85fdae06fac1d5b7b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "60902",
-      "title": "Würzburger Kickers vs Alemannia Aachen",
-      "synopsis": "3. Liga - Würzburger Kickers vs Alemannia Aachen",
-      "status": "LIVE",
-      "time": "11:00 PM 15-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/80.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b57/chunks.m3u8?is_vip=false&token=1789583559-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-58419175fb36b6cddc3fb57b97131b63|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b57/chunks.m3u8?is_vip=false&token=1789583559-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-58419175fb36b6cddc3fb57b97131b63|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "60901",
-      "title": "SSV Jahn Regensburg vs Fortuna Düsseldorf",
-      "synopsis": "3. Liga - SSV Jahn Regensburg vs Fortuna Düsseldorf",
-      "status": "LIVE",
-      "time": "11:00 PM 15-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/80.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b58/chunks.m3u8?is_vip=false&token=1789583562-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-aff383087d93e5bde894b3cb8a1e6a43|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b58/chunks.m3u8?is_vip=false&token=1789583562-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-aff383087d93e5bde894b3cb8a1e6a43|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "60900",
-      "title": "SV Meppen vs FC Viktoria Köln",
-      "synopsis": "3. Liga - SV Meppen vs FC Viktoria Köln",
-      "status": "LIVE",
-      "time": "11:00 PM 15-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/80.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b5a/chunks.m3u8?is_vip=false&token=1789583564-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d58bd8af813bf59dda9f90b62361296d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b5a/chunks.m3u8?is_vip=false&token=1789583564-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d58bd8af813bf59dda9f90b62361296d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "60899",
-      "title": "SG Sonnenhof Grossaspach vs Verl",
-      "synopsis": "3. Liga - SG Sonnenhof Grossaspach vs Verl",
-      "status": "LIVE",
-      "time": "11:00 PM 15-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/80.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b5e/chunks.m3u8?is_vip=false&token=1789583566-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5859e959207147d368369106e6d760a7|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b5e/chunks.m3u8?is_vip=false&token=1789583566-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5859e959207147d368369106e6d760a7|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "60898",
-      "title": "MSV Duisburg vs Havelse",
-      "synopsis": "3. Liga - MSV Duisburg vs Havelse",
-      "status": "LIVE",
-      "time": "11:00 PM 15-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/80.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b60/chunks.m3u8?is_vip=false&token=1789583568-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5027592e11a23b46b736d7a5c2bec717|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b60/chunks.m3u8?is_vip=false&token=1789583568-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5027592e11a23b46b736d7a5c2bec717|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "60896",
-      "title": "IFK Varnamo vs Osters IF",
-      "synopsis": "Superettan - IFK Varnamo vs Osters IF",
-      "status": "LIVE",
-      "time": "11:00 PM 15-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/114.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b8f7c293f9fe4a4a6/chunks.m3u8?is_vip=false&token=1789583571-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-8ecd61bc4e576ebe0465904c1d41e869|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b8f7c293f9fe4a4a6/chunks.m3u8?is_vip=false&token=1789583571-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-8ecd61bc4e576ebe0465904c1d41e869|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "60894",
-      "title": "IK brage vs Sandviken",
-      "synopsis": "Superettan - IK brage vs Sandviken",
-      "status": "LIVE",
-      "time": "11:00 PM 15-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/114.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b8f7c293f9fe4a4ad/chunks.m3u8?is_vip=false&token=1789583573-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a7e29ccb501e5f7332c12ddf9f27ad6b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b8f7c293f9fe4a4ad/chunks.m3u8?is_vip=false&token=1789583573-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a7e29ccb501e5f7332c12ddf9f27ad6b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "58758",
-      "title": "Claypole vs Sacachispas",
-      "synopsis": "Primera C - Claypole vs Sacachispas",
-      "status": "LIVE",
-      "time": "12:00 AM 16-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/132.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b8f7c293f9fe4a40b/chunks.m3u8?is_vip=false&token=1789583574-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0b6dc3448bd4f93fac470b5e26a5c81c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b8f7c293f9fe4a40b/chunks.m3u8?is_vip=false&token=1789583574-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0b6dc3448bd4f93fac470b5e26a5c81c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "68303",
-      "title": "WTA Guadalajara",
-      "synopsis": "WTA Guadalajara - WTA Guadalajara",
-      "status": "LIVE",
-      "time": "12:00 AM 16-09-2026",
-      "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1789583575-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f4ffb10520eb322a45d95e0dbe526b13|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1789583575-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f4ffb10520eb322a45d95e0dbe526b13|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "60916",
-      "title": "Al-Hilal Saudi FC vs Al-Gharafa",
-      "synopsis": "AFC Champions League Elite - Al-Hilal Saudi FC vs Al-Gharafa",
-      "status": "LIVE",
-      "time": "12:15 AM 16-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/17.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b70-fancode/chunks.m3u8?is_vip=false&token=1789583577-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-cb0e88b18147002c986170809f445259|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b70-fancode/chunks.m3u8?is_vip=false&token=1789583577-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-cb0e88b18147002c986170809f445259|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b70/chunks.m3u8?is_vip=false&token=1789583578-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-114851320f26ff74b080f468e8b34c63|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "60917",
-      "title": "Korona Kielce vs Gornik Zabrze",
-      "synopsis": "Ekstraklasa - Korona Kielce vs Gornik Zabrze",
-      "status": "LIVE",
-      "time": "12:30 AM 16-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/106.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a4e6d30818b53788ceae1df/chunks.m3u8?is_vip=false&token=1789583580-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f8741b1f22e81928f9478ebdfe642ef2|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a4e6d30818b53788ceae1df/chunks.m3u8?is_vip=false&token=1789583580-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f8741b1f22e81928f9478ebdfe642ef2|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "56830",
-      "title": "Peterborough vs Barnsley",
-      "synopsis": "League Cup - Peterborough vs Barnsley",
-      "status": "LIVE",
-      "time": "12:30 AM 16-09-2026",
+      "time": "1:00 AM 16-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/48.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b40f-hd/chunks.m3u8?is_vip=false&token=1789583581-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e6420f45353d5b9389c8755e8abe7718|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b415-hd/chunks.m3u8?is_vip=false&token=1789585357-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-42e4486b408f0e1a9b566312596f1852|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b40f-hd/chunks.m3u8?is_vip=false&token=1789583581-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e6420f45353d5b9389c8755e8abe7718|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b40f/chunks.m3u8?is_vip=false&token=1789583584-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d2389a8ef38ec934f4edc9de0dfea614|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "55674",
-      "title": "Middlesbrough vs Millwall",
-      "synopsis": "Championship - Middlesbrough vs Millwall",
-      "status": "LIVE",
-      "time": "12:45 AM 16-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/40.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a808608887f467189a4ee29-hd/chunks.m3u8?is_vip=false&token=1789583585-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b5b5770a04c0e7f96a8f390326651a25|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a808608887f467189a4ee29-hd/chunks.m3u8?is_vip=false&token=1789583585-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b5b5770a04c0e7f96a8f390326651a25|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "55672",
-      "title": "Bristol City vs Lincoln",
-      "synopsis": "Championship - Bristol City vs Lincoln",
-      "status": "LIVE",
-      "time": "12:45 AM 16-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/40.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a808608887f467189a4ee2a-hd/chunks.m3u8?is_vip=false&token=1789583586-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-dfb5b5300264a491153550835045b337|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a808608887f467189a4ee2a-hd/chunks.m3u8?is_vip=false&token=1789583586-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-dfb5b5300264a491153550835045b337|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "57627",
-      "title": "West Ham vs Fulham",
-      "synopsis": "League Cup - West Ham vs Fulham",
-      "status": "LIVE",
-      "time": "12:45 AM 16-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/48.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b409-hd/chunks.m3u8?is_vip=false&token=1789583587-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-42c6d3ebf2b291957fb38af3a30bff03|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b409-hd/chunks.m3u8?is_vip=false&token=1789583587-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-42c6d3ebf2b291957fb38af3a30bff03|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b415-hd/chunks.m3u8?is_vip=false&token=1789585357-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-42e4486b408f0e1a9b566312596f1852|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b415-fancode/chunks.m3u8?is_vip=false&token=1789585359-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3b54fef6b9cdb3cb3759c753f892985d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 3": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b415/chunks.m3u8?is_vip=false&token=1789585360-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f66662699eb01d63f940ce6faec1adc6|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -548,22 +358,232 @@
       "status": "LIVE",
       "time": "1:00 AM 16-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/48.png",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/372/720p/chunks.m3u8?is_vip=false&token=1789583589-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c42346befcff0788813a39f6cfebcbc0|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/372/720p/chunks.m3u8?is_vip=false&token=1789585362-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f684ed4e858da5b50a6446def2601207|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/372/720p/chunks.m3u8?is_vip=false&token=1789583589-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c42346befcff0788813a39f6cfebcbc0|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/372/720p/chunks.m3u8?is_vip=false&token=1789585362-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f684ed4e858da5b50a6446def2601207|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b40e-hd/chunks.m3u8?is_vip=false&token=1789585364-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4802c03015624c470584bf030360d77b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 3": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b40e-fancode/chunks.m3u8?is_vip=false&token=1789585367-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-330bb41ea52c7f8106c4da70e388d2c6|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 4": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b40e/chunks.m3u8?is_vip=false&token=1789585368-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-825d57638822e403443668c1e6c141dc|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "64082",
+      "title": "England vs Sri Lanka",
+      "synopsis": "1st T20I - England vs Sri Lanka",
+      "status": "LIVE",
+      "time": "10:00 PM 15-09-2026",
+      "cover_image": "",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/289/720p/chunks.m3u8?is_vip=false&token=1789585369-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e3acfdf4717267b16d2a4ec11a5ea8c2|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/289/720p/chunks.m3u8?is_vip=false&token=1789585369-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e3acfdf4717267b16d2a4ec11a5ea8c2|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "68303",
+      "title": "WTA Guadalajara",
+      "synopsis": "WTA Guadalajara - WTA Guadalajara",
+      "status": "LIVE",
+      "time": "12:00 AM 16-09-2026",
+      "cover_image": "",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1789585372-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5a6a240c9dd78975d60286e22f361945|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1789585372-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5a6a240c9dd78975d60286e22f361945|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "58758",
+      "title": "Claypole vs Sacachispas",
+      "synopsis": "Primera C - Claypole vs Sacachispas",
+      "status": "LIVE",
+      "time": "12:00 AM 16-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/132.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b8f7c293f9fe4a40b/chunks.m3u8?is_vip=false&token=1789585373-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-64a78bb715314295336ef62af0abda05|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b8f7c293f9fe4a40b/chunks.m3u8?is_vip=false&token=1789585373-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-64a78bb715314295336ef62af0abda05|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "60916",
+      "title": "Al-Hilal Saudi FC vs Al-Gharafa",
+      "synopsis": "AFC Champions League Elite - Al-Hilal Saudi FC vs Al-Gharafa",
+      "status": "LIVE",
+      "time": "12:15 AM 16-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/17.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b70-fancode/chunks.m3u8?is_vip=false&token=1789585375-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-68e1d024f33f71e0afcf388cabd66a96|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b70-fancode/chunks.m3u8?is_vip=false&token=1789585375-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-68e1d024f33f71e0afcf388cabd66a96|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b70/chunks.m3u8?is_vip=false&token=1789585376-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c2307f78ec0dd51780cddf42507aa9ba|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "60917",
+      "title": "Korona Kielce vs Gornik Zabrze",
+      "synopsis": "Ekstraklasa - Korona Kielce vs Gornik Zabrze",
+      "status": "LIVE",
+      "time": "12:30 AM 16-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/106.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a4e6d30818b53788ceae1df/chunks.m3u8?is_vip=false&token=1789585379-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e7475541043f36bc6ee0f91a90c9375f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a4e6d30818b53788ceae1df/chunks.m3u8?is_vip=false&token=1789585379-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e7475541043f36bc6ee0f91a90c9375f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "56830",
+      "title": "Peterborough vs Barnsley",
+      "synopsis": "League Cup - Peterborough vs Barnsley",
+      "status": "LIVE",
+      "time": "12:30 AM 16-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/48.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b40f-hd/chunks.m3u8?is_vip=false&token=1789585380-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c264b342474d65e6a02adfde63601154|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b40f-hd/chunks.m3u8?is_vip=false&token=1789585380-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c264b342474d65e6a02adfde63601154|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b40f/chunks.m3u8?is_vip=false&token=1789585382-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-54576ecdc382a1371ec436a388db0f46|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "60919",
+      "title": "Falkirk vs Heart Of Midlothian",
+      "synopsis": "Premiership - Falkirk vs Heart Of Midlothian",
+      "status": "LIVE",
+      "time": "12:45 AM 16-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/179.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf8/chunks.m3u8?is_vip=false&token=1789585384-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f896aec5870bf8e02272d95ecd86c40c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf8/chunks.m3u8?is_vip=false&token=1789585384-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f896aec5870bf8e02272d95ecd86c40c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "55672",
+      "title": "Bristol City vs Lincoln",
+      "synopsis": "Championship - Bristol City vs Lincoln",
+      "status": "LIVE",
+      "time": "12:45 AM 16-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/40.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a808608887f467189a4ee2a-hd/chunks.m3u8?is_vip=false&token=1789585385-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ba743e5b0d9b2ac25e439817475d0c8d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a808608887f467189a4ee2a-hd/chunks.m3u8?is_vip=false&token=1789585385-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ba743e5b0d9b2ac25e439817475d0c8d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a808608887f467189a4ee2a/chunks.m3u8?is_vip=false&token=1789585387-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d9d6b28880315edb89160431afc13cd5|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "57627",
+      "title": "West Ham vs Fulham",
+      "synopsis": "League Cup - West Ham vs Fulham",
+      "status": "LIVE",
+      "time": "12:45 AM 16-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/48.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b409-hd/chunks.m3u8?is_vip=false&token=1789585388-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-83d7498d08faec1752f24e5e984113c5|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b409-hd/chunks.m3u8?is_vip=false&token=1789585388-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-83d7498d08faec1752f24e5e984113c5|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b409-fancode/chunks.m3u8?is_vip=false&token=1789585390-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2b7ef8632a2d304824bd8cf5fcb886bc|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 3": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b409/chunks.m3u8?is_vip=false&token=1789585391-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-72bf54899dbd4e2611435e781d4c7e59|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "60920",
+      "title": "Hibernian vs Kilmarnock",
+      "synopsis": "Premiership - Hibernian vs Kilmarnock",
+      "status": "LIVE",
+      "time": "12:45 AM 16-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/179.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf7/chunks.m3u8?is_vip=false&token=1789585393-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-cb81b579f9a124c6a6aaee1aa7cb845d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf7/chunks.m3u8?is_vip=false&token=1789585393-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-cb81b579f9a124c6a6aaee1aa7cb845d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "60921",
+      "title": "Motherwell vs Aberdeen",
+      "synopsis": "Premiership - Motherwell vs Aberdeen",
+      "status": "LIVE",
+      "time": "12:45 AM 16-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/179.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf6/chunks.m3u8?is_vip=false&token=1789585395-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-29cb2cb7cf96adf201afebfa7f7ce567|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf6/chunks.m3u8?is_vip=false&token=1789585395-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-29cb2cb7cf96adf201afebfa7f7ce567|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "55674",
+      "title": "Middlesbrough vs Millwall",
+      "synopsis": "Championship - Middlesbrough vs Millwall",
+      "status": "LIVE",
+      "time": "12:45 AM 16-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/40.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a808608887f467189a4ee29-hd/chunks.m3u8?is_vip=false&token=1789585396-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-35a608dd0aaea08070a1f4321d6602de|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a808608887f467189a4ee29-hd/chunks.m3u8?is_vip=false&token=1789585396-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-35a608dd0aaea08070a1f4321d6602de|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a808608887f467189a4ee29/chunks.m3u8?is_vip=false&token=1789585398-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ce8d14ac8264ed09d8603fcc244df170|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "51745",
+      "title": "Fiorentina vs Pisa",
+      "synopsis": "Coppa Italia - Fiorentina vs Pisa",
+      "status": "LIVE",
+      "time": "1:00 AM 16-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/137.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8ece4fb29a32ad128cd3de-hd/chunks.m3u8?is_vip=false&token=1789585399-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3b351f4a39692cf36e1a2775c76c0c28|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8ece4fb29a32ad128cd3de-hd/chunks.m3u8?is_vip=false&token=1789585399-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3b351f4a39692cf36e1a2775c76c0c28|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8ece4fb29a32ad128cd3de-fhd/chunks.m3u8?is_vip=false&token=1789585400-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e2187db5fd7728f39d7b9cc7ed2c2d6c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 3": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8ece4fb29a32ad128cd3de/chunks.m3u8?is_vip=false&token=1789585402-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-23bde9390998b326e200d4732b2da8c3|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "56831",
+      "title": "Reading vs Brentford",
+      "synopsis": "League Cup - Reading vs Brentford",
+      "status": "LIVE",
+      "time": "1:00 AM 16-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/48.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b412-hd/chunks.m3u8?is_vip=false&token=1789585404-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ff04ee13f64d91c89a038a23cdee73d2|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b412-hd/chunks.m3u8?is_vip=false&token=1789585404-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ff04ee13f64d91c89a038a23cdee73d2|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b412-fancode/chunks.m3u8?is_vip=false&token=1789585405-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-26d64a1502c4530af9ea18c5232a3c10|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 3": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90e4b95d79ffdae276b412/chunks.m3u8?is_vip=false&token=1789585406-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-27eb1cf6759b7afc6941b9de41bfc614|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "65923",
+      "title": "Fram Reykjavik vs Breidablik",
+      "synopsis": "Úrvalsdeild - Fram Reykjavik vs Breidablik",
+      "status": "LIVE",
+      "time": "1:15 AM 16-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/164.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6aa07e71eee29798ba781803/chunks.m3u8?is_vip=false&token=1789585409-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-853ae453637f50c727aa4dc5f683c380|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6aa07e71eee29798ba781803/chunks.m3u8?is_vip=false&token=1789585409-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-853ae453637f50c727aa4dc5f683c380|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
       "match_id": "43771",
       "title": "Elche vs Real Madrid",
       "synopsis": "La Liga - Elche vs Real Madrid",
-      "status": "NS",
+      "status": "LIVE",
       "time": "1:30 AM 16-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/140.png",
-      "match_url": "",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/112520/720p/chunks.m3u8?is_vip=false&token=1789585410-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-bc241f02347052243e4516ba2f5ac2e7|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/112520/720p/chunks.m3u8?is_vip=false&token=1789585410-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-bc241f02347052243e4516ba2f5ac2e7|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
     },
     {
       "match_id": "43764",
@@ -588,12 +608,12 @@
       "stream_url": {}
     },
     {
-      "match_id": "65923",
-      "title": "Fram Reykjavik vs Breidablik",
-      "synopsis": "Úrvalsdeild - Fram Reykjavik vs Breidablik",
+      "match_id": "57223",
+      "title": "AC Milan vs Benfica",
+      "synopsis": "UEFA Europa League - AC Milan vs Benfica",
       "status": "NS",
-      "time": "1:15 AM 16-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/164.png",
+      "time": "1:00 AM 17-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/3.png",
       "match_url": "",
       "is_free": false,
       "stream_url": {}
@@ -979,6 +999,83 @@
       "status": "NS",
       "time": "11:00 PM 16-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/80.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "61671",
+      "title": "Baltika vs Zenit",
+      "synopsis": "Premier League - Baltika vs Zenit",
+      "status": "NS",
+      "time": "11:45 PM 16-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/235.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "61672",
+      "title": "Lokomotiv vs Krylia Sovetov",
+      "synopsis": "Premier League - Lokomotiv vs Krylia Sovetov",
+      "status": "NS",
+      "time": "11:45 PM 16-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/235.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "61676",
+      "title": "Al Shorta vs Al Seeb",
+      "synopsis": "AFC Champions League Two - Al Shorta vs Al Seeb",
+      "status": "NS",
+      "time": "12:15 AM 17-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/18.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "57705",
+      "title": "Newport City vs Trethomas Bluebirds",
+      "synopsis": "FAW Championship - Newport City vs Trethomas Bluebirds",
+      "status": "NS",
+      "time": "12:30 AM 17-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/111.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "57247",
+      "title": "Anderlecht vs Lyon",
+      "synopsis": "UEFA Europa League - Anderlecht vs Lyon",
+      "status": "NS",
+      "time": "1:00 AM 17-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/3.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "57253",
+      "title": "Hapoel Beer Sheva vs Dinamo Zagreb",
+      "synopsis": "UEFA Europa League - Hapoel Beer Sheva vs Dinamo Zagreb",
+      "status": "NS",
+      "time": "1:00 AM 17-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/3.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "57283",
+      "title": "Sunderland vs AZ Alkmaar",
+      "synopsis": "UEFA Europa League - Sunderland vs AZ Alkmaar",
+      "status": "NS",
+      "time": "1:00 AM 17-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/3.png",
       "match_url": "",
       "is_free": false,
       "stream_url": {}
