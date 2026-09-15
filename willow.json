@@ -6,16 +6,16 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 72,
-  "live_count": 3,
-  "last_update": "01:49 PM 15-09-2026",
+  "live_count": 4,
+  "last_update": "02:02 PM 15-09-2026",
   "events": [
     {
       "match_id": "B0H7PD3W98",
       "title": "European T20 Premier League 2026 - 26th Match - Amsterdam Flames vs Dublin Guardians",
       "synopsis": "European T20 Premier League 2026 - 26th Match - Amsterdam Flames vs Dublin Guardians",
       "status": "UPCOMING",
-      "time": "Live at 3:30 PM BDT",
-      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.118470e0-9473-4801-988f-907d4b7a1c04/1/BOXART-16X9/en-US._UR1920,1080_.jpeg",
+      "time": "Live at 3 PM BDT",
+      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.118470e0-9473-4801-988f-907d4b7a1c04/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0H7PD3W98?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_1",
       "is_free": false,
       "stream_url_alpha": "",
@@ -121,6 +121,23 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/znpxp4vhyl/out/v1/2a14edb0fa434870a70679d37f5f013c/cenc.mpd"
       },
       "drm_key": "0bd0136d2728be3d6506cfe054a3fd59:27ae4995704be63440c0dcb001b2abbd"
+    },
+    {
+      "match_id": "B0H95FQQNL",
+      "title": "U23 World Cup: Day 1, Session 4",
+      "synopsis": "U23 World Cup: Day 1, Session 4",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.52dc0b8f-3a75-4e05-8082-a203a67c3585/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0H95FQQNL",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3e2jwzlivy/out/v1/8093f930120e4a9ca62422f5b18ded4f/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3e2jwzlivy/out/v1/8093f930120e4a9ca62422f5b18ded4f/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/3e2jwzlivy/out/v1/8093f930120e4a9ca62422f5b18ded4f/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/3e2jwzlivy/out/v1/8093f930120e4a9ca62422f5b18ded4f/cenc.mpd"
+      },
+      "drm_key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
     },
     {
       "match_id": "B0HJ1TFD9H",
@@ -347,17 +364,6 @@
       "status": "NS",
       "time": "1:30 AM 16-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/140.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "60878",
-      "title": "Austria U17 W vs Poland U17 W",
-      "synopsis": "Friendlies Women - Austria U17 W vs Poland U17 W",
-      "status": "NS",
-      "time": "3:00 PM 15-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/666.png",
       "match_url": "",
       "is_free": false,
       "stream_url": {}
