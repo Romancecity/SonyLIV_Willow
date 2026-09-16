@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 108,
+  "channels_amount": 107,
   "live_count": 9,
-  "last_update": "05:20 PM 16-09-2026",
+  "last_update": "05:34 PM 16-09-2026",
   "events": [
     {
       "match_id": "B0HGVJ53NQ",
@@ -109,6 +109,23 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ppzmljumfr/out/v1/25e29b9f67954e16badd296287c53359/cenc.mpd"
       },
       "drm_key": "0bd0136d2728be3d6506cfe054a3fd59:27ae4995704be63440c0dcb001b2abbd"
+    },
+    {
+      "match_id": "B0HGDJHPVH",
+      "title": "U23 World Cup: Day 2, Session 5",
+      "synopsis": "U23 World Cup: Day 2, Session 5",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.81900be0-dd7d-4e09-916e-cab00767c20e/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HGDJHPVH",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd"
+      },
+      "drm_key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
     },
     {
       "match_id": "B0HGFYNFP4",
@@ -280,51 +297,10 @@
       "status": "LIVE",
       "time": "7:00 AM 16-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274846/720p/chunks.m3u8?is_vip=false&token=1789645648-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7f86d0d49574db918f6d56f612de3baf|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274846/720p/chunks.m3u8?is_vip=false&token=1789646548-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1de6fc9400a4c6bc832be155bb87a5fc|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274846/720p/chunks.m3u8?is_vip=false&token=1789645648-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7f86d0d49574db918f6d56f612de3baf|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "61629",
-      "title": "Jeonbuk Motors vs Kashiwa Reysol",
-      "synopsis": "AFC Champions League Elite - Jeonbuk Motors vs Kashiwa Reysol",
-      "status": "LIVE",
-      "time": "4:00 PM 16-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/17.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e64-fancode/chunks.m3u8?is_vip=false&token=1789645652-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b324bece6ebe567d7a6fbaf99c7f93b3|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e64-fancode/chunks.m3u8?is_vip=false&token=1789645652-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b324bece6ebe567d7a6fbaf99c7f93b3|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e64/chunks.m3u8?is_vip=false&token=1789645653-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-adff8580a1dc5bcb2edc023ab20eb2a9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "61630",
-      "title": "FC Seoul vs Persib Bandung",
-      "synopsis": "AFC Champions League Two - FC Seoul vs Persib Bandung",
-      "status": "LIVE",
-      "time": "4:00 PM 16-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/18.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e65-fancode/chunks.m3u8?is_vip=false&token=1789645655-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e5a101ec1c60cefa2d18ef5c9a0e4312|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e65-fancode/chunks.m3u8?is_vip=false&token=1789645655-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e5a101ec1c60cefa2d18ef5c9a0e4312|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e65/chunks.m3u8?is_vip=false&token=1789645657-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-57622f8dd30811d4218d4b6cf4eb861c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "67352",
-      "title": "China PR U23 vs Korea DPR U23",
-      "synopsis": "Asian Games - China PR U23 vs Korea DPR U23",
-      "status": "LIVE",
-      "time": "4:00 PM 16-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/803.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245bb0/chunks.m3u8?is_vip=false&token=1789645658-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2fecf1c963b72aa6ed443726f2921710|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245bb0/chunks.m3u8?is_vip=false&token=1789645658-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2fecf1c963b72aa6ed443726f2921710|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274846/720p/chunks.m3u8?is_vip=false&token=1789646548-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1de6fc9400a4c6bc832be155bb87a5fc|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -334,10 +310,10 @@
       "status": "LIVE",
       "time": "4:30 PM 16-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/803.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e60/chunks.m3u8?is_vip=false&token=1789645661-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-52e07eddfaacb516fbad9924d46951e9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e60/chunks.m3u8?is_vip=false&token=1789646551-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-87e7c126ab454dd29739e71a060bc989|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e60/chunks.m3u8?is_vip=false&token=1789645661-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-52e07eddfaacb516fbad9924d46951e9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e60/chunks.m3u8?is_vip=false&token=1789646551-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-87e7c126ab454dd29739e71a060bc989|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -347,10 +323,38 @@
       "status": "LIVE",
       "time": "5:35 PM 16-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/1410/720p/chunks.m3u8?is_vip=false&token=1789645664-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1725121ab4d8cfc87bc7ba47aa14565a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/1410/720p/chunks.m3u8?is_vip=false&token=1789646555-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0745ff5906115c60aca1626624b43009|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/1410/720p/chunks.m3u8?is_vip=false&token=1789645664-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1725121ab4d8cfc87bc7ba47aa14565a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/1410/720p/chunks.m3u8?is_vip=false&token=1789646555-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0745ff5906115c60aca1626624b43009|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "61631",
+      "title": "Port FC vs Vissel Kobe",
+      "synopsis": "AFC Champions League Elite - Port FC vs Vissel Kobe",
+      "status": "LIVE",
+      "time": "6:15 PM 16-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/17.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e7a-fancode/chunks.m3u8?is_vip=false&token=1789646562-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-92330f37b2ef306412bc7981e916d82d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e7a-fancode/chunks.m3u8?is_vip=false&token=1789646562-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-92330f37b2ef306412bc7981e916d82d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e7a/chunks.m3u8?is_vip=false&token=1789646562-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-637acb636ce38295c3702ba0b20d07db|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "61632",
+      "title": "Viettel vs Melbourne Victory",
+      "synopsis": "AFC Champions League Two - Viettel vs Melbourne Victory",
+      "status": "LIVE",
+      "time": "6:15 PM 16-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/18.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e7b-fancode/chunks.m3u8?is_vip=false&token=1789646563-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0311ced21ede038e80d2dc25ec84781a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e7b-fancode/chunks.m3u8?is_vip=false&token=1789646563-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0311ced21ede038e80d2dc25ec84781a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e7b/chunks.m3u8?is_vip=false&token=1789646563-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6032969c8d7fc33dd4a35cd227360b62|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -437,17 +441,6 @@
       "status": "NS",
       "time": "6:00 AM 17-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/885.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "62311",
-      "title": "Enisey vs Arsenal Tula",
-      "synopsis": "First League - Enisey vs Arsenal Tula",
-      "status": "NS",
-      "time": "6:30 PM 16-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/236.png",
       "match_url": "",
       "is_free": false,
       "stream_url": {}
