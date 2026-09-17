@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 101,
-  "live_count": 11,
-  "last_update": "09:33 AM 17-09-2026",
+  "channels_amount": 99,
+  "live_count": 8,
+  "last_update": "09:35 AM 17-09-2026",
   "events": [
     {
       "match_id": "B0HFTPJ4LJ",
@@ -171,23 +171,6 @@
       "drm_key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
     },
     {
-      "match_id": "B0HG47XX1Q",
-      "title": "Charlotte Independence at Athletic Club Boise",
-      "synopsis": "Charlotte Independence at Athletic Club Boise",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.0185a847-96c7-4cc4-896a-8f922c9af840/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HG47XX1Q",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd"
-      },
-      "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-    },
-    {
       "match_id": "B0HCNCGLGM",
       "title": "Alianza FC vs. Motagua",
       "synopsis": "Alianza FC vs. Motagua",
@@ -203,6 +186,23 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.mpd"
       },
       "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+    },
+    {
+      "match_id": "B0HGFHYD5G",
+      "title": "Triton ONE Poker Series Jeju II-$150K NLH 10th Anniversary Special",
+      "synopsis": "Triton ONE Poker Series Jeju II-$150K NLH 10th Anniversary Special",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.801c8c8e-7ee3-401c-8fdc-239c1d50887e/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HGFHYD5G",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/ppzmljumfr/out/v1/25e29b9f67954e16badd296287c53359/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/ppzmljumfr/out/v1/25e29b9f67954e16badd296287c53359/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ppzmljumfr/out/v1/25e29b9f67954e16badd296287c53359/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ppzmljumfr/out/v1/25e29b9f67954e16badd296287c53359/cenc.mpd"
+      },
+      "drm_key": "0bd0136d2728be3d6506cfe054a3fd59:27ae4995704be63440c0dcb001b2abbd"
     },
     {
       "match_id": "B0HH49116Q",
@@ -351,68 +351,16 @@
       "stream_url": {}
     },
     {
-      "match_id": "69202",
-      "title": "WTA Guadalajara",
-      "synopsis": "WTA Guadalajara - WTA Guadalajara",
-      "status": "LIVE",
-      "time": "12:00 AM 17-09-2026",
-      "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1789703245-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d5ac0cfa46291144c8deba6ddf1ce05f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1789703245-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d5ac0cfa46291144c8deba6ddf1ce05f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "65061",
-      "title": "Boston Red Sox vs Texas Rangers",
-      "synopsis": "MLB - Boston Red Sox vs Texas Rangers",
-      "status": "LIVE",
-      "time": "6:05 AM 17-09-2026",
-      "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55845/720p/chunks.m3u8?is_vip=false&token=1789703247-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-862012361a386599c3d34b8c30f7747f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55845/720p/chunks.m3u8?is_vip=false&token=1789703247-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-862012361a386599c3d34b8c30f7747f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "65062",
-      "title": "Kansas City Royals vs Houston Astros",
-      "synopsis": "MLB - Kansas City Royals vs Houston Astros",
-      "status": "LIVE",
-      "time": "6:10 AM 17-09-2026",
-      "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55846/720p/chunks.m3u8?is_vip=false&token=1789703249-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-12b312d90ab2a41a4820ead28f4f8a00|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55846/720p/chunks.m3u8?is_vip=false&token=1789703249-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-12b312d90ab2a41a4820ead28f4f8a00|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "65063",
-      "title": "San Diego Padres vs Colorado Rockies",
-      "synopsis": "MLB - San Diego Padres vs Colorado Rockies",
-      "status": "LIVE",
-      "time": "6:40 AM 17-09-2026",
-      "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55847/720p/chunks.m3u8?is_vip=false&token=1789703250-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1075e95b09a5bfc3a1f98d8339d13579|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55847/720p/chunks.m3u8?is_vip=false&token=1789703250-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1075e95b09a5bfc3a1f98d8339d13579|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
       "match_id": "65064",
       "title": "Seattle Mariners vs Los Angeles Angels",
       "synopsis": "MLB - Seattle Mariners vs Los Angeles Angels",
       "status": "LIVE",
       "time": "7:35 AM 17-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55848/720p/chunks.m3u8?is_vip=false&token=1789703252-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-94becfe1f7dd6c09cc718a5983bf2598|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55848/720p/chunks.m3u8?is_vip=false&token=1789704149-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-856693d42ea4fcd4a68793a8046f639b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55848/720p/chunks.m3u8?is_vip=false&token=1789703252-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-94becfe1f7dd6c09cc718a5983bf2598|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55848/720p/chunks.m3u8?is_vip=false&token=1789704149-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-856693d42ea4fcd4a68793a8046f639b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -422,10 +370,10 @@
       "status": "LIVE",
       "time": "8:00 AM 17-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/254.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8b1212bd56ad3e896dc417/chunks.m3u8?is_vip=false&token=1789703255-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-38db6be2c3e336883bbc45fed3525649|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8b1212bd56ad3e896dc417/chunks.m3u8?is_vip=false&token=1789704151-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ce0736bc389cec454ce2786682328d67|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8b1212bd56ad3e896dc417/chunks.m3u8?is_vip=false&token=1789703255-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-38db6be2c3e336883bbc45fed3525649|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8b1212bd56ad3e896dc417/chunks.m3u8?is_vip=false&token=1789704151-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ce0736bc389cec454ce2786682328d67|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -435,10 +383,23 @@
       "status": "LIVE",
       "time": "9:15 AM 17-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/1028.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a98f7defbc4c8ef09f21fcf/chunks.m3u8?is_vip=false&token=1789703257-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-df1c789bd0ca0bb344ac8168c740c388|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a98f7defbc4c8ef09f21fcf/chunks.m3u8?is_vip=false&token=1789704154-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-fc57b57d1a497fac5647488fa66f11ef|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a98f7defbc4c8ef09f21fcf/chunks.m3u8?is_vip=false&token=1789703257-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-df1c789bd0ca0bb344ac8168c740c388|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a98f7defbc4c8ef09f21fcf/chunks.m3u8?is_vip=false&token=1789704154-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-fc57b57d1a497fac5647488fa66f11ef|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "69946",
+      "title": "Day 3",
+      "synopsis": "FIBA 3x3 U23 World Cup - Day 3",
+      "status": "LIVE",
+      "time": "9:30 AM 17-09-2026",
+      "cover_image": "",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274846/720p/chunks.m3u8?is_vip=false&token=1789704157-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3eba69b00d3a6500b7696cef56a24c26|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274846/720p/chunks.m3u8?is_vip=false&token=1789704157-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3eba69b00d3a6500b7696cef56a24c26|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -965,6 +926,17 @@
       "status": "NS",
       "time": "7:00 AM 18-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/263.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "62936",
+      "title": "CD Olimpia vs Firpo",
+      "synopsis": "CONCACAF Central American Cup - CD Olimpia vs Firpo",
+      "status": "NS",
+      "time": "9:15 AM 18-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/1028.png",
       "match_url": "",
       "is_free": false,
       "stream_url": {}
