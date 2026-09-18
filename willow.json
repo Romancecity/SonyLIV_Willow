@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 164,
-  "live_count": 11,
-  "last_update": "04:19 PM 18-09-2026",
+  "channels_amount": 177,
+  "live_count": 14,
+  "last_update": "04:34 PM 18-09-2026",
   "events": [
     {
       "match_id": "B0HK18NQRX",
@@ -90,6 +90,23 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd"
       },
       "drm_key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
+    },
+    {
+      "match_id": "B0HH24B8Y4",
+      "title": "The Morning Drive",
+      "synopsis": "The Morning Drive",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.5b06d077-00e5-4eef-93ce-2887a87f43d6/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HH24B8Y4",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uenudg4x6g/out/v1/8b25f245771b4e5698d914b941c54982/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uenudg4x6g/out/v1/8b25f245771b4e5698d914b941c54982/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/uenudg4x6g/out/v1/8b25f245771b4e5698d914b941c54982/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/uenudg4x6g/out/v1/8b25f245771b4e5698d914b941c54982/cenc.mpd"
+      },
+      "drm_key": "e14535ab02e4065cc846047f1feee48d:a51c5c164f9a6b0ae751afeec7f85052"
     },
     {
       "match_id": "B0HJNN82QG",
@@ -307,10 +324,10 @@
       "status": "LIVE",
       "time": "6:00 AM 18-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274843/720p/chunks.m3u8?is_vip=false&token=1789813949-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a68aaf3abea4a65692da2260a55a06dd|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274843/720p/chunks.m3u8?is_vip=false&token=1789815780-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ecc3077f011581f3a7017ac09f3f674a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274843/720p/chunks.m3u8?is_vip=false&token=1789813949-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a68aaf3abea4a65692da2260a55a06dd|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274843/720p/chunks.m3u8?is_vip=false&token=1789815780-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ecc3077f011581f3a7017ac09f3f674a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -320,10 +337,10 @@
       "status": "LIVE",
       "time": "3:15 PM 18-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1789813951-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7f28e3b6c66593d8fd37eff059b56e0a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1789815782-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f76992e25d9bf282dd8e7789f8886646|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1789813951-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7f28e3b6c66593d8fd37eff059b56e0a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1789815782-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f76992e25d9bf282dd8e7789f8886646|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -333,10 +350,10 @@
       "status": "LIVE",
       "time": "4:00 PM 18-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/170.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885fb/chunks.m3u8?is_vip=false&token=1789813953-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c9beb1d46b0104adb2069d96322cf17b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885fb/chunks.m3u8?is_vip=false&token=1789815785-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-362a3bc61565fcb5e50b8f7d9f5e6a89|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885fb/chunks.m3u8?is_vip=false&token=1789813953-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c9beb1d46b0104adb2069d96322cf17b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885fb/chunks.m3u8?is_vip=false&token=1789815785-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-362a3bc61565fcb5e50b8f7d9f5e6a89|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -346,10 +363,10 @@
       "status": "LIVE",
       "time": "4:00 PM 18-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/803.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885f8/chunks.m3u8?is_vip=false&token=1789813955-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0b2561e028eef1dd4dcea6883c0e86a1|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885f8/chunks.m3u8?is_vip=false&token=1789815787-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-429359e2f9738c7990ccb062a0e8ecd6|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885f8/chunks.m3u8?is_vip=false&token=1789813955-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0b2561e028eef1dd4dcea6883c0e86a1|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885f8/chunks.m3u8?is_vip=false&token=1789815787-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-429359e2f9738c7990ccb062a0e8ecd6|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -359,10 +376,36 @@
       "status": "LIVE",
       "time": "4:30 PM 18-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/803.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885fe/chunks.m3u8?is_vip=false&token=1789813956-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4e1cbf4c0255ba9abad21c18bff94c58|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885fe/chunks.m3u8?is_vip=false&token=1789815789-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6590244bc5ad0cab13b445f291bc11cd|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885fe/chunks.m3u8?is_vip=false&token=1789813956-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4e1cbf4c0255ba9abad21c18bff94c58|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885fe/chunks.m3u8?is_vip=false&token=1789815789-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6590244bc5ad0cab13b445f291bc11cd|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "62948",
+      "title": "Dalian Huayi vs Ningbo Professional",
+      "synopsis": "League One - Dalian Huayi vs Ningbo Professional",
+      "status": "LIVE",
+      "time": "5:00 PM 18-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/170.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885ff/chunks.m3u8?is_vip=false&token=1789815790-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-bbddde75f115cbd334b4b2d67fa5539a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885ff/chunks.m3u8?is_vip=false&token=1789815790-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-bbddde75f115cbd334b4b2d67fa5539a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "66640",
+      "title": "Day 2 - Afternoon Session",
+      "synopsis": "World Series of Darts Finals - Day 2 - Afternoon Session",
+      "status": "LIVE",
+      "time": "5:00 PM 18-09-2026",
+      "cover_image": "",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/114414/720p/chunks.m3u8?is_vip=false&token=1789815792-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0209fbd3322fd2572a12fba884051614|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/114414/720p/chunks.m3u8?is_vip=false&token=1789815792-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0209fbd3322fd2572a12fba884051614|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -427,28 +470,6 @@
       "status": "NS",
       "time": "1:00 AM 19-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/140.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "62949",
-      "title": "Nantong Zhiyun vs Guangxi Hengchen",
-      "synopsis": "League One - Nantong Zhiyun vs Guangxi Hengchen",
-      "status": "NS",
-      "time": "5:30 PM 18-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/170.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "62950",
-      "title": "Albirex Niigata S vs Hougang United",
-      "synopsis": "Premier League - Albirex Niigata S vs Hougang United",
-      "status": "NS",
-      "time": "5:30 PM 18-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/368.png",
       "match_url": "",
       "is_free": false,
       "stream_url": {}
@@ -1367,6 +1388,39 @@
       "stream_url": {}
     },
     {
+      "match_id": "63661",
+      "title": "FC Anyang vs Ulsan Hyundai FC",
+      "synopsis": "K League 1 - FC Anyang vs Ulsan Hyundai FC",
+      "status": "NS",
+      "time": "4:00 PM 19-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/292.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "63662",
+      "title": "Gimpo Citizen vs Busan I Park",
+      "synopsis": "K League 2 - Gimpo Citizen vs Busan I Park",
+      "status": "NS",
+      "time": "4:00 PM 19-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/293.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "63663",
+      "title": "Seoul E-Land FC vs Daegu FC",
+      "synopsis": "K League 2 - Seoul E-Land FC vs Daegu FC",
+      "status": "NS",
+      "time": "4:00 PM 19-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/293.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
       "match_id": "63664",
       "title": "FC Tokyo vs Nagoya Grampus",
       "synopsis": "J1 League - FC Tokyo vs Nagoya Grampus",
@@ -1400,9 +1454,31 @@
       "stream_url": {}
     },
     {
+      "match_id": "63668",
+      "title": "Yokohama FC vs Imabari",
+      "synopsis": "J2 League - Yokohama FC vs Imabari",
+      "status": "NS",
+      "time": "4:00 PM 19-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/99.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
       "match_id": "63669",
       "title": "Ventforet Kofu vs Tokushima Vortis",
       "synopsis": "J2 League - Ventforet Kofu vs Tokushima Vortis",
+      "status": "NS",
+      "time": "4:00 PM 19-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/99.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "63670",
+      "title": "Sagan Tosu vs Iwaki",
+      "synopsis": "J2 League - Sagan Tosu vs Iwaki",
       "status": "NS",
       "time": "4:00 PM 19-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/99.png",
@@ -1433,25 +1509,78 @@
       "stream_url": {}
     },
     {
-      "match_id": "66640",
-      "title": "Day 2 - Afternoon Session",
-      "synopsis": "World Series of Darts Finals - Day 2 - Afternoon Session",
-      "status": "LIVE",
-      "time": "5:00 PM 18-09-2026",
-      "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/114414/720p/chunks.m3u8?is_vip=false&token=1789813968-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-77fd87175cbdefcb066ecc7954ec1df9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_id": "63673",
+      "title": "Yokohama F. Marinos vs Mito Hollyhock",
+      "synopsis": "J1 League - Yokohama F. Marinos vs Mito Hollyhock",
+      "status": "NS",
+      "time": "4:30 PM 19-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/98.png",
+      "match_url": "",
       "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/114414/720p/chunks.m3u8?is_vip=false&token=1789813968-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-77fd87175cbdefcb066ecc7954ec1df9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
+      "stream_url": {}
     },
     {
-      "match_id": "66641",
-      "title": "Day 2 - Evening Session",
-      "synopsis": "World Series of Darts Finals - Day 2 - Evening Session",
+      "match_id": "63674",
+      "title": "Lechia Gdansk vs Stal Mielec",
+      "synopsis": "I Liga - Lechia Gdansk vs Stal Mielec",
       "status": "NS",
-      "time": "11:00 PM 18-09-2026",
-      "cover_image": "",
+      "time": "4:30 PM 19-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/107.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "63678",
+      "title": "Shaanxi Union vs Suzhou Dongwu",
+      "synopsis": "League One - Shaanxi Union vs Suzhou Dongwu",
+      "status": "NS",
+      "time": "5:00 PM 19-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/170.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "63679",
+      "title": "Shenzhen Juniors vs Changchun Yatai",
+      "synopsis": "League One - Shenzhen Juniors vs Changchun Yatai",
+      "status": "NS",
+      "time": "5:00 PM 19-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/170.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "63683",
+      "title": "Holstein Kiel vs VfL Osnabrück",
+      "synopsis": "2. Bundesliga - Holstein Kiel vs VfL Osnabrück",
+      "status": "NS",
+      "time": "5:00 PM 19-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/79.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "63684",
+      "title": "1. FC Kaiserslautern vs Eintracht Braunschweig",
+      "synopsis": "2. Bundesliga - 1. FC Kaiserslautern vs Eintracht Braunschweig",
+      "status": "NS",
+      "time": "5:00 PM 19-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/79.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "63685",
+      "title": "Karlsruher SC vs 1. FC Nürnberg",
+      "synopsis": "2. Bundesliga - Karlsruher SC vs 1. FC Nürnberg",
+      "status": "NS",
+      "time": "5:00 PM 19-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/79.png",
       "match_url": "",
       "is_free": false,
       "stream_url": {}
@@ -1460,12 +1589,14 @@
       "match_id": "65076",
       "title": "ES1, Giro d'Abruzzo, Stage 4",
       "synopsis": "UCI Pro Series - ES1, Giro d'Abruzzo, Stage 4",
-      "status": "NS",
+      "status": "LIVE",
       "time": "5:30 PM 18-09-2026",
       "cover_image": "",
-      "match_url": "",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/1410/720p/chunks.m3u8?is_vip=false&token=1789815807-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9ac54efd5bd9e79438bcd3287cc2c7ff|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/1410/720p/chunks.m3u8?is_vip=false&token=1789815807-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9ac54efd5bd9e79438bcd3287cc2c7ff|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
     },
     {
       "match_id": "65113",
@@ -1506,6 +1637,28 @@
       "synopsis": "Horse Racing - America's Day At the Races",
       "status": "NS",
       "time": "4:00 AM 19-09-2026",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "66641",
+      "title": "Day 2 - Evening Session",
+      "synopsis": "World Series of Darts Finals - Day 2 - Evening Session",
+      "status": "NS",
+      "time": "11:00 PM 18-09-2026",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "66642",
+      "title": "Day 3 - Afternoon Session",
+      "synopsis": "World Series of Darts Finals - Day 3 - Afternoon Session",
+      "status": "NS",
+      "time": "5:00 PM 19-09-2026",
       "cover_image": "",
       "match_url": "",
       "is_free": false,
