@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 150,
+  "channels_amount": 149,
   "live_count": 13,
-  "last_update": "01:03 PM 18-09-2026",
+  "last_update": "01:05 PM 18-09-2026",
   "events": [
     {
       "match_id": "B0HK18NQRX",
@@ -58,23 +58,6 @@
       "drm_key": ""
     },
     {
-      "match_id": "B0HJ9CHHHD",
-      "title": "U23 World Cup: Day 4, Session 2",
-      "synopsis": "U23 World Cup: Day 4, Session 2",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.688a73eb-91c5-40e3-93db-cd9a7be78605/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HJ9CHHHD",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd"
-      },
-      "drm_key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
-    },
-    {
       "match_id": "B0HGXJ8NSV",
       "title": "LIVE: BMW PGA Championship Day 2",
       "synopsis": "LIVE: BMW PGA Championship Day 2",
@@ -90,6 +73,23 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/yoaryfkyeh/out/v1/63e8364f9ad047a7bb1c4a9a8d754f42/cenc.mpd"
       },
       "drm_key": "9590ea43d0f770c24205e23440d8af8c:b127454380d8fffc3acd12575b2b4adb"
+    },
+    {
+      "match_id": "B0HJ9CHHHD",
+      "title": "U23 World Cup: Day 4, Session 2",
+      "synopsis": "U23 World Cup: Day 4, Session 2",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.688a73eb-91c5-40e3-93db-cd9a7be78605/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HJ9CHHHD",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd"
+      },
+      "drm_key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
     },
     {
       "match_id": "B0HHMFBCLH",
@@ -109,6 +109,20 @@
       "drm_key": "63a084a354d126bcd099c9eabf0cbb93:bd2b00bce574c33af46d0538937b3ac3"
     },
     {
+      "match_id": "B0H13B5Q21",
+      "title": "Qatar Airways Grand Prix of Austria, Free Practice 1",
+      "synopsis": "Qatar Airways Grand Prix of Austria, Free Practice 1",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.b02a605a-4811-4c73-bc79-43ec5ab1d59e/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0H13B5Q21",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://a120live-emt-pv-ta-amazon.akamaized.net/$T$2D3RhEOhAQWhBFgkYWY3NDZlZjAtYzM0OC00MGM1LWFjN2UtYTVhZWIzNjhiNjA0WJCnAWpwcmltZXZpZGVvBBpqwKiLBhpqrOILA2Zha2FtYWkCeClzc2lkOmQxNWQ0MTYzLTg3ZDctNDdhNy1iZmRkLWVlYmQ4YjU3NTMwZBkBOKEFoQJ4My9pbmR6dTZpem9pL291dC92MS84MTk3YzhlMDU1Yzk0YTg2ODYyMzY1M2FjNTVjMTBiZhkBPIFiVVNYILw2Z5InB8nyRAzhsOSFgH_oMjR-88SgesvfNPZri56H/IAD/ecb5167adc48418f9e275a06ed14a1f9/v1/dash/590183725645/imdb_amagi_amzn1_dv_live_csid_5357cf2a-51c8-4fa5-b996-cd307e0b7edc_us-east-1_iad_dash_h264/startover/clients/dash/manipulated-manifest-iad-prod/enc/indzu6izoi/out/v1/8197c8e055c94a868623653ac55c10bf/a20aef6f-bfe2-44c7-8dd5-3b076b72cec0-cenc.mpd?aws.sessionId=5c86859e-3a35-46a6-b7c4-a191e3e2b3a6"
+      },
+      "drm_key": "e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de"
+    },
+    {
       "match_id": "B0HHZ77BTQ",
       "title": "U23 World Cup: Day 4, Session 3",
       "synopsis": "U23 World Cup: Day 4, Session 3",
@@ -124,20 +138,6 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/3e2jwzlivy/out/v1/8093f930120e4a9ca62422f5b18ded4f/cenc.mpd"
       },
       "drm_key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
-    },
-    {
-      "match_id": "B0H13B5Q21",
-      "title": "Qatar Airways Grand Prix of Austria, Free Practice 1",
-      "synopsis": "Qatar Airways Grand Prix of Austria, Free Practice 1",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.b02a605a-4811-4c73-bc79-43ec5ab1d59e/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0H13B5Q21",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://a120live-emt-pv-ta-amazon.akamaized.net/$T$2D3RhEOhAQWhBFgkYWY3NDZlZjAtYzM0OC00MGM1LWFjN2UtYTVhZWIzNjhiNjA0WJCnAWpwcmltZXZpZGVvBBpqwKiLBhpqrOILA2Zha2FtYWkCeClzc2lkOmQxNWQ0MTYzLTg3ZDctNDdhNy1iZmRkLWVlYmQ4YjU3NTMwZBkBOKEFoQJ4My9pbmR6dTZpem9pL291dC92MS84MTk3YzhlMDU1Yzk0YTg2ODYyMzY1M2FjNTVjMTBiZhkBPIFiVVNYILw2Z5InB8nyRAzhsOSFgH_oMjR-88SgesvfNPZri56H/IAD/ecb5167adc48418f9e275a06ed14a1f9/v1/dash/590183725645/imdb_amagi_amzn1_dv_live_csid_5357cf2a-51c8-4fa5-b996-cd307e0b7edc_us-east-1_iad_dash_h264/startover/clients/dash/manipulated-manifest-iad-prod/enc/indzu6izoi/out/v1/8197c8e055c94a868623653ac55c10bf/a20aef6f-bfe2-44c7-8dd5-3b076b72cec0-cenc.mpd?aws.sessionId=5c86859e-3a35-46a6-b7c4-a191e3e2b3a6"
-      },
-      "drm_key": "e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de"
     },
     {
       "match_id": "B0HJNN82QG",
@@ -342,10 +342,10 @@
       "status": "LIVE",
       "time": "6:00 AM 18-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274843/720p/chunks.m3u8?is_vip=false&token=1789802247-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-73c2190e577e8035c9f2f562a245bce7|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274843/720p/chunks.m3u8?is_vip=false&token=1789803179-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5d1dfd39772566f32cc4d4357141970b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274843/720p/chunks.m3u8?is_vip=false&token=1789802247-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-73c2190e577e8035c9f2f562a245bce7|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274843/720p/chunks.m3u8?is_vip=false&token=1789803179-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5d1dfd39772566f32cc4d4357141970b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -355,10 +355,10 @@
       "status": "LIVE",
       "time": "11:00 AM 18-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789802249-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-022cc882fe2b842fbef03e27800f5a72|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789803181-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7de42493a36c3a2de1a66a832ccc9d32|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789802249-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-022cc882fe2b842fbef03e27800f5a72|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789803181-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7de42493a36c3a2de1a66a832ccc9d32|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -368,10 +368,10 @@
       "status": "LIVE",
       "time": "12:30 PM 18-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/803.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885f9/chunks.m3u8?is_vip=false&token=1789802252-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2f300faf7fcb44c3ca77d5c3e8a96289|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885f9/chunks.m3u8?is_vip=false&token=1789803183-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ea82e5696aa07d56fe139a9dd15d400e|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885f9/chunks.m3u8?is_vip=false&token=1789802252-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2f300faf7fcb44c3ca77d5c3e8a96289|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885f9/chunks.m3u8?is_vip=false&token=1789803183-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ea82e5696aa07d56fe139a9dd15d400e|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -381,10 +381,10 @@
       "status": "LIVE",
       "time": "1:00 PM 18-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143070/720p/chunks.m3u8?is_vip=false&token=1789802254-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2a5fd4851dbc27648aa841bc0e418db7|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143070/720p/chunks.m3u8?is_vip=false&token=1789803185-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d4a0cb66e2222e2bf463403c4f48ddf2|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143070/720p/chunks.m3u8?is_vip=false&token=1789802254-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2a5fd4851dbc27648aa841bc0e418db7|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143070/720p/chunks.m3u8?is_vip=false&token=1789803185-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d4a0cb66e2222e2bf463403c4f48ddf2|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -394,10 +394,23 @@
       "status": "LIVE",
       "time": "1:30 PM 18-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1789802255-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f0d0ee9e9a75fcaa5f3f760a568d20c0|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1789803187-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b3bbe004802f11d7815ceba01a0fc111|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1789802255-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f0d0ee9e9a75fcaa5f3f760a568d20c0|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1789803187-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b3bbe004802f11d7815ceba01a0fc111|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "70928",
+      "title": "Day 4",
+      "synopsis": "FIBA 3x3 U23 World Cup - Day 4",
+      "status": "LIVE",
+      "time": "1:45 PM 18-09-2026",
+      "cover_image": "",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274846/720p/chunks.m3u8?is_vip=false&token=1789803188-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-853fc1d01c2872bcfb21de9f051748c6|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274846/720p/chunks.m3u8?is_vip=false&token=1789803188-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-853fc1d01c2872bcfb21de9f051748c6|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -462,63 +475,6 @@
       "status": "NS",
       "time": "1:00 AM 19-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/140.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "70928",
-      "title": "Day 4",
-      "synopsis": "FIBA 3x3 U23 World Cup - Day 4",
-      "status": "LIVE",
-      "time": "1:45 PM 18-09-2026",
-      "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274846/720p/chunks.m3u8?is_vip=false&token=1789802257-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7a8dcf50229cc6b10d79dc1d5eab1d84|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274846/720p/chunks.m3u8?is_vip=false&token=1789802257-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7a8dcf50229cc6b10d79dc1d5eab1d84|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "65093",
-      "title": "Indiana Fever vs Toronto Tempo",
-      "synopsis": "WNBA - Indiana Fever vs Toronto Tempo",
-      "status": "NS",
-      "time": "5:30 AM 19-09-2026",
-      "cover_image": "",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "65094",
-      "title": "New York Liberty vs Minnesota Lynx",
-      "synopsis": "WNBA - New York Liberty vs Minnesota Lynx",
-      "status": "NS",
-      "time": "5:30 AM 19-09-2026",
-      "cover_image": "",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "65095",
-      "title": "Portland Fire vs Golden State Valkyries",
-      "synopsis": "WNBA - Portland Fire vs Golden State Valkyries",
-      "status": "NS",
-      "time": "8:00 AM 19-09-2026",
-      "cover_image": "",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "62945",
-      "title": "Ural U20 vs Dynamo Makhachkala U19",
-      "synopsis": "Youth Championship - Ural U20 vs Dynamo Makhachkala U19",
-      "status": "NS",
-      "time": "2:00 PM 18-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/238.png",
       "match_url": "",
       "is_free": false,
       "stream_url": {}
@@ -1706,6 +1662,39 @@
       "synopsis": "CPL - TBA vs TBA",
       "status": "NS",
       "time": "5:00 AM 19-09-2026",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "65093",
+      "title": "Indiana Fever vs Toronto Tempo",
+      "synopsis": "WNBA - Indiana Fever vs Toronto Tempo",
+      "status": "NS",
+      "time": "5:30 AM 19-09-2026",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "65094",
+      "title": "New York Liberty vs Minnesota Lynx",
+      "synopsis": "WNBA - New York Liberty vs Minnesota Lynx",
+      "status": "NS",
+      "time": "5:30 AM 19-09-2026",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "65095",
+      "title": "Portland Fire vs Golden State Valkyries",
+      "synopsis": "WNBA - Portland Fire vs Golden State Valkyries",
+      "status": "NS",
+      "time": "8:00 AM 19-09-2026",
       "cover_image": "",
       "match_url": "",
       "is_free": false,
