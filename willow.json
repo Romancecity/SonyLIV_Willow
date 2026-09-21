@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 49,
-  "live_count": 15,
-  "last_update": "03:37 PM 21-09-2026",
+  "channels_amount": 50,
+  "live_count": 16,
+  "last_update": "04:03 PM 21-09-2026",
   "events": [
     {
       "match_id": "B0HJQCS6P5",
@@ -255,13 +255,13 @@
       "drm_key": "18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67"
     },
     {
-      "match_id": "B0HGG8T451",
-      "title": "Men's & Women's Swimming",
-      "synopsis": "Men's & Women's Swimming",
+      "match_id": "B0H8RN63V6",
+      "title": "Women's Soccer, Group E: Japan vs. Chinese Taipei",
+      "synopsis": "Women's Soccer, Group E: Japan vs. Chinese Taipei",
       "status": "LIVE",
       "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.2d041691-5889-430a-9074-61d237df4535/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HGG8T451",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.5fafa6d6-de37-4667-971c-d709e0d2c9e9/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0H8RN63V6",
       "is_free": false,
       "stream_url": {
         "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
@@ -287,11 +287,11 @@
     },
     {
       "match_id": "1090541381",
-      "title": "Volleyball - 21 Sep 2026",
+      "title": "India In Action - Table Tennis - 21 Sep 2026",
       "synopsis": "Watch all the action from the 20th Asian Games Aichi-Nagoya 2026, LIVE on Sony LIV.",
       "status": "LIVE",
       "time": "21 Sep 2026, 06:30 AM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023916/1789301604665741_AG26_Volleyball_pictogram_landscape_thumb.jpg",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024324/1789932731698517_AG26_Table_Tennis_mens_Team_India_vs_Pakistan_live_landscape_thumb.jpg",
       "match_url": "https://dai.google.com/ssai/event/OBZ7-96EQEmo49yN4mTxqg/master.m3u8",
       "is_free": false,
       "stream_url": {
@@ -299,12 +299,51 @@
       }
     },
     {
+      "match_id": "1090543296",
+      "title": "India vs Bangladesh - Women's Kabaddi - 21 Sep 2026",
+      "synopsis": "Watch all the action from the 20th Asian Games Aichi-Nagoya 2026, LIVE on Sony LIV.",
+      "status": "LIVE",
+      "time": "21 Sep 2026, 09:30 AM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024352/1789977683869714_AG_INDvsBAN_womens_kabbadi_landscape_thumb.jpg",
+      "match_url": "https://dai.google.com/ssai/event/LA0EX6hcTYS2k4VVDy3k2A/master.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://dai.google.com/ssai/event/LA0EX6hcTYS2k4VVDy3k2A/master.m3u8"
+      }
+    },
+    {
+      "match_id": "1090541380",
+      "title": "Badminton - 21 Sep 2026",
+      "synopsis": "Watch all the exclusive action from the Badminton in the Men's Team, LIVE on Sony LIV.",
+      "status": "LIVE",
+      "time": "21 Sep 2026, 06:00 AM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541380/landscapeThumb/1789970467386_1789292948462348_AG26_Badminton_pictogram_landscape_thumb.jpg",
+      "match_url": "https://dai.google.com/ssai/event/jRQlKg2DQWa70jsLHUtxGA/master.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://dai.google.com/ssai/event/jRQlKg2DQWa70jsLHUtxGA/master.m3u8"
+      }
+    },
+    {
+      "match_id": "1090541378",
+      "title": "Bangladesh vs Chinese Taipei - Men's Team - Kabaddi - 21 Sep 2026",
+      "synopsis": "Watch all the exclusive action from the Kabaddi in the Men's Team, LIVE on Sony LIV.",
+      "status": "LIVE",
+      "time": "21 Sep 2026, 06:00 AM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541378/landscapeThumb/1789983239366_1789299301145348_AG26_Kabaddi_pictogram_landscape_thumb.jpg",
+      "match_url": "https://dai.google.com/ssai/event/SXGI53qCTm6LYdjpY6aEAw/master.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://dai.google.com/ssai/event/SXGI53qCTm6LYdjpY6aEAw/master.m3u8"
+      }
+    },
+    {
       "match_id": "1090541385",
-      "title": "Day 3 - 21 Sep 2026 (Hindi)",
+      "title": "India In Action - Table Tennis - 21 Sep 2026 (Hindi)",
       "synopsis": "Watch all the action from the 20th Asian Games Aichi-Nagoya 2026, LIVE on Sony LIV.",
       "status": "LIVE",
       "time": "21 Sep 2026, 06:30 AM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024320/178992641642241_AG26_stream3_hindi_generic_landscape_thumb.jpg",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024324/1789932715931517_AG26_Table_Tennis_mens_Team_India_vs_Pakistan_hindi_landscape_thumb.jpg",
       "match_url": "https://dai.google.com/ssai/event/ENoksIKvQXa_gMWRJyF0Aw/master.m3u8",
       "is_free": false,
       "stream_url": {
@@ -338,38 +377,12 @@
       }
     },
     {
-      "match_id": "1090541380",
-      "title": "Badminton - 21 Sep 2026",
-      "synopsis": "Watch all the exclusive action from the Badminton in the Men's Team, LIVE on Sony LIV.",
-      "status": "LIVE",
-      "time": "21 Sep 2026, 06:00 AM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541380/landscapeThumb/1789970467386_1789292948462348_AG26_Badminton_pictogram_landscape_thumb.jpg",
-      "match_url": "https://dai.google.com/ssai/event/jRQlKg2DQWa70jsLHUtxGA/master.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://dai.google.com/ssai/event/jRQlKg2DQWa70jsLHUtxGA/master.m3u8"
-      }
-    },
-    {
-      "match_id": "1090541378",
-      "title": "Sri Lanka vs Thailand - Women's Team - Kabaddi - 21 Sep 2026",
-      "synopsis": "Watch all the exclusive action from the Kabaddi in the Women's Team, LIVE on Sony LIV.",
-      "status": "LIVE",
-      "time": "21 Sep 2026, 06:00 AM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541378/landscapeThumb/1789978557857_1789299301145348_AG26_Kabaddi_pictogram_landscape_thumb.jpg",
-      "match_url": "https://dai.google.com/ssai/event/SXGI53qCTm6LYdjpY6aEAw/master.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://dai.google.com/ssai/event/SXGI53qCTm6LYdjpY6aEAw/master.m3u8"
-      }
-    },
-    {
       "match_id": "1090541379",
-      "title": "Japan vs Singapore - Women - Hockey - 21 Sep 2026",
+      "title": "Bangladesh vs Malaysia - Women - Hockey - 21 Sep 2026",
       "synopsis": "Watch all the exclusive action from the Hockey in the Women, LIVE on Sony LIV.",
       "status": "LIVE",
       "time": "21 Sep 2026, 05:30 AM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541379/landscapeThumb/1789977226965_1789299123285348_AG26_Hockey_pictogram_landscape_thumb.jpg",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541379/landscapeThumb/1789984356516_1789299123285348_AG26_Hockey_pictogram_landscape_thumb.jpg",
       "match_url": "https://dai.google.com/ssai/event/UIOz_TESSFeaptBmSg8_dA/master.m3u8",
       "is_free": false,
       "stream_url": {
@@ -378,11 +391,11 @@
     },
     {
       "match_id": "1090541387",
-      "title": "Republic of Korea vs Democratic People's Republic of Korea - Women - Football - 21 Sep 2026",
-      "synopsis": "Watch all the exclusive action from the Football in the Women, LIVE on Sony LIV.",
+      "title": "Pakistan vs India - Men's Team - Table Tennis - 21 Sep 2026",
+      "synopsis": "Watch all the exclusive action from the Table Tennis in the Men's Team, LIVE on Sony LIV.",
       "status": "LIVE",
       "time": "21 Sep 2026, 06:30 AM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541387/landscapeThumb/1789973631358_1789297879081348_AG26_Football_pictogram_landscape_thumb.jpg",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541387/landscapeThumb/1789984925639_1789300835115741_AG26_Table_Tennis_pictogram_landscape_thumb.jpg",
       "match_url": "https://dai.google.com/ssai/event/ElBuHHaMSOGhCRM0EgM8Fw/master.m3u8",
       "is_free": false,
       "stream_url": {
@@ -430,11 +443,11 @@
     },
     {
       "match_id": "1090541376",
-      "title": "Day 3 - 21 Sep 2026",
-      "synopsis": "Watch all the exclusive action from the 20th Asian Games Aichi-Nagoya 2026, LIVE on Sony LIV.",
+      "title": "People's Republic of China vs Indonesia - Women - Basketball - 21 Sep 2026",
+      "synopsis": "Watch all the exclusive action from the Basketball in the Women, LIVE on Sony LIV.",
       "status": "LIVE",
       "time": "21 Sep 2026, 05:30 AM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541376/landscapeThumb/1789974008442_1789293450735348_AG26_Basketball_pictogram_landscape_thumb.jpg",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541376/landscapeThumb/1789984768115_1789293450735348_AG26_Basketball_pictogram_landscape_thumb.jpg",
       "match_url": "https://dai.google.com/ssai/event/shkqoON_T6OVwAhCb9YdoA/master.m3u8",
       "is_free": false,
       "stream_url": {
