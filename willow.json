@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 122,
+  "channels_amount": 121,
   "live_count": 23,
-  "last_update": "10:03 AM 22-09-2026",
+  "last_update": "10:05 AM 22-09-2026",
   "events": [
     {
       "match_id": "B0HJ7VXFVN",
@@ -38,13 +38,26 @@
       "match_id": "B0HGMS7B1G",
       "title": "Womens Asian Games 2026 - Final - Sri Lanka Women vs India Women",
       "synopsis": "Womens Asian Games 2026 - Final - Sri Lanka Women vs India Women",
-      "status": "UPCOMING",
-      "time": "Live at 10:30 AM BDT",
+      "status": "LIVE",
+      "time": "10:30 AM BDT",
       "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.c6e22aba-455e-4748-8387-2a3edfce56e6/4/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HGMS7B1G?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_2",
       "is_free": false,
-      "stream_url_alpha": "",
-      "drm_key": ""
+      "stream_url_alpha": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mhafawkat7/out/v1/bcd1058ace2b4f1b90739cd7f847054c/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mhafawkat7/out/v1/bcd1058ace2b4f1b90739cd7f847054c/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/mhafawkat7/out/v1/bcd1058ace2b4f1b90739cd7f847054c/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/mhafawkat7/out/v1/bcd1058ace2b4f1b90739cd7f847054c/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/mhafawkat7/out/v1/bcd1058ace2b4f1b90739cd7f847054c/cenc.mpd"
+      },
+      "stream_url_bravo": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zhv1jbpenz/out/v1/b8d4d021cf3b493b80080d725a4fc87f/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zhv1jbpenz/out/v1/b8d4d021cf3b493b80080d725a4fc87f/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/zhv1jbpenz/out/v1/b8d4d021cf3b493b80080d725a4fc87f/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/zhv1jbpenz/out/v1/b8d4d021cf3b493b80080d725a4fc87f/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/zhv1jbpenz/out/v1/b8d4d021cf3b493b80080d725a4fc87f/cenc.mpd"
+      },
+      "drm_key": "26b5d1e236534979b5f85ffa22a37dbf:cfd708ebfd7d08d24fd0033b9bd9e62e"
     },
     {
       "match_id": "B0HJQCS6P5",
@@ -638,24 +651,11 @@
       "status": "LIVE",
       "time": "7:45 AM 22-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/144992/720p/chunks.m3u8?is_vip=false&token=1790137047-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-2b567d730e348966a28400ecb563f826|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/144992/720p/chunks.m3u8?is_vip=false&token=1790137952-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-7aae1a167f046da884ff2b4df95414cc|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/144992/720p/chunks.m3u8?is_vip=false&token=1790137047-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-2b567d730e348966a28400ecb563f826|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55837/720p/chunks.m3u8?is_vip=false&token=1790137051-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-2818c1310bb74ca49f31cb119298861b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "73904",
-      "title": "Dallas Wings vs Phoenix Mercury",
-      "synopsis": "WNBA - Dallas Wings vs Phoenix Mercury",
-      "status": "LIVE",
-      "time": "8:00 AM 22-09-2026",
-      "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/510822/720p/chunks.m3u8?is_vip=false&token=1790137058-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-1bc80eaa299764fa94b02226a65d76cd|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/510822/720p/chunks.m3u8?is_vip=false&token=1790137058-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-1bc80eaa299764fa94b02226a65d76cd|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/144992/720p/chunks.m3u8?is_vip=false&token=1790137952-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-7aae1a167f046da884ff2b4df95414cc|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+        "Server 2": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55837/720p/chunks.m3u8?is_vip=false&token=1790137957-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-f7c0e0f02b612917edb0db63318b6286|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -665,10 +665,10 @@
       "status": "LIVE",
       "time": "9:00 AM 22-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790137072-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-f6660d76cc7892ca9605535e67520b06|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790137963-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-06e919cbda7c05ed46f53082f4bf85ba|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790137072-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-f6660d76cc7892ca9605535e67520b06|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790137963-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-06e919cbda7c05ed46f53082f4bf85ba|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -678,10 +678,10 @@
       "status": "LIVE",
       "time": "9:15 AM 22-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/510511/720p/chunks.m3u8?is_vip=false&token=1790137077-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-461e7cbb2e89256b423bd319d94cfb8c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/510511/720p/chunks.m3u8?is_vip=false&token=1790137970-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-212fe7e8a4b0e19e0c75b8491674e67b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/510511/720p/chunks.m3u8?is_vip=false&token=1790137077-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-461e7cbb2e89256b423bd319d94cfb8c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/510511/720p/chunks.m3u8?is_vip=false&token=1790137970-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-212fe7e8a4b0e19e0c75b8491674e67b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -691,10 +691,10 @@
       "status": "LIVE",
       "time": "9:20 AM 22-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/510510/720p/chunks.m3u8?is_vip=false&token=1790137083-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-28ee52127dc4b89d059a9521d5ed0ef1|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/510510/720p/chunks.m3u8?is_vip=false&token=1790137980-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-7f833eab7a1c53f6686a094ffc71be04|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/510510/720p/chunks.m3u8?is_vip=false&token=1790137083-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-28ee52127dc4b89d059a9521d5ed0ef1|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/510510/720p/chunks.m3u8?is_vip=false&token=1790137980-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-7f833eab7a1c53f6686a094ffc71be04|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -704,10 +704,10 @@
       "status": "LIVE",
       "time": "9:40 AM 22-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/510509/720p/chunks.m3u8?is_vip=false&token=1790137089-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-907757bf9a7c4f4642e2d25290f581d0|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/510509/720p/chunks.m3u8?is_vip=false&token=1790137987-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-7f53e595212c76043cbf3f9cc8f7fe1f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/510509/720p/chunks.m3u8?is_vip=false&token=1790137089-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-907757bf9a7c4f4642e2d25290f581d0|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/510509/720p/chunks.m3u8?is_vip=false&token=1790137987-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-7f53e595212c76043cbf3f9cc8f7fe1f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -717,10 +717,10 @@
       "status": "LIVE",
       "time": "10:00 AM 22-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1790136198-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-7eced36e4d64bfac66af9d5cf9c15519|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1790137993-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-08adc78d86798b36696efcccbfd4430d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1790136198-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-7eced36e4d64bfac66af9d5cf9c15519|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1790137993-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-08adc78d86798b36696efcccbfd4430d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
