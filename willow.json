@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 112,
+  "channels_amount": 114,
   "live_count": 19,
-  "last_update": "02:06 PM 22-09-2026",
+  "last_update": "02:21 PM 22-09-2026",
   "events": [
     {
       "match_id": "B0HGMS7B1G",
@@ -668,10 +668,10 @@
       "status": "LIVE",
       "time": "9:00 AM 22-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790152363-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b4ca498d8884021ee67a53856f2aecd5|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790153250-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-2abd64b29472da5c3382f15bec756a54|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790152363-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b4ca498d8884021ee67a53856f2aecd5|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790153250-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-2abd64b29472da5c3382f15bec756a54|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -692,6 +692,17 @@
       "status": "NS",
       "time": "12:30 AM 23-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/46.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "67364",
+      "title": "Korea Republic U23 vs Saudi Arabia U23",
+      "synopsis": "Asian Games - Korea Republic U23 vs Saudi Arabia U23",
+      "status": "NS",
+      "time": "4:00 PM 22-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/803.png",
       "match_url": "",
       "is_free": false,
       "stream_url": {}
@@ -807,17 +818,6 @@
       "stream_url": {}
     },
     {
-      "match_id": "66100",
-      "title": "Leicester vs Fulham U21",
-      "synopsis": "EFL Trophy - Leicester vs Fulham U21",
-      "status": "NS",
-      "time": "12:00 AM 23-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/46.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
       "match_id": "66101",
       "title": "Walsall vs Stevenage",
       "synopsis": "EFL Trophy - Walsall vs Stevenage",
@@ -851,34 +851,23 @@
       "stream_url": {}
     },
     {
+      "match_id": "66104",
+      "title": "Plymouth vs Crystal Palace U21",
+      "synopsis": "EFL Trophy - Plymouth vs Crystal Palace U21",
+      "status": "NS",
+      "time": "12:00 AM 23-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/46.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
       "match_id": "66106",
       "title": "Gillingham vs Cambridge United",
       "synopsis": "EFL Trophy - Gillingham vs Cambridge United",
       "status": "NS",
       "time": "12:00 AM 23-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/46.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "66107",
-      "title": "Milton Keynes Dons vs Crawley Town",
-      "synopsis": "EFL Trophy - Milton Keynes Dons vs Crawley Town",
-      "status": "NS",
-      "time": "12:00 AM 23-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/46.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "72534",
-      "title": "Chippenham Town vs Yate Town",
-      "synopsis": "FA Cup - Chippenham Town vs Yate Town",
-      "status": "NS",
-      "time": "12:45 AM 23-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/45.png",
       "match_url": "",
       "is_free": false,
       "stream_url": {}
@@ -898,6 +887,17 @@
       "match_id": "72859",
       "title": "Crowborough Athletic vs Hampton & Richmond",
       "synopsis": "FA Cup - Crowborough Athletic vs Hampton & Richmond",
+      "status": "NS",
+      "time": "12:45 AM 23-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/45.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "72860",
+      "title": "Dagenham & Redbridge vs Waltham Abbey",
+      "synopsis": "FA Cup - Dagenham & Redbridge vs Waltham Abbey",
       "status": "NS",
       "time": "12:45 AM 23-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/45.png",
@@ -983,6 +983,17 @@
       "stream_url": {}
     },
     {
+      "match_id": "72869",
+      "title": "Worksop Town vs AFC Telford United",
+      "synopsis": "FA Cup - Worksop Town vs AFC Telford United",
+      "status": "NS",
+      "time": "12:45 AM 23-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/45.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
       "match_id": "73901",
       "title": "Dorking Wanderers vs Southall",
       "synopsis": "FA Cup - Dorking Wanderers vs Southall",
@@ -1043,6 +1054,17 @@
       "synopsis": "UCI Pro Series - ES1, CRO Race, Stage 1",
       "status": "NS",
       "time": "6:00 PM 22-09-2026",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "66648",
+      "title": "Mixed Relay",
+      "synopsis": "Cycling World Championships - Mixed Relay",
+      "status": "NS",
+      "time": "8:00 PM 22-09-2026",
       "cover_image": "",
       "match_url": "",
       "is_free": false,
