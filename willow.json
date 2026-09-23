@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 108,
-  "live_count": 10,
-  "last_update": "02:23 AM 24-09-2026",
+  "channels_amount": 106,
+  "live_count": 8,
+  "last_update": "02:33 AM 24-09-2026",
   "events": [
     {
       "match_id": "B0HKBMRLZ1",
@@ -255,6 +255,23 @@
       "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
     },
     {
+      "match_id": "B0HJGVR6R4",
+      "title": "FloRacing Night in America at Lincoln Park Speedway",
+      "synopsis": "FloRacing Night in America at Lincoln Park Speedway",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.a8db76d4-164d-483e-85bf-050102f66aa9/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HJGVR6R4",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/d4bm3wili0/out/v1/0139d2336b32481b956ff21357e97f0d/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/d4bm3wili0/out/v1/0139d2336b32481b956ff21357e97f0d/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/d4bm3wili0/out/v1/0139d2336b32481b956ff21357e97f0d/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/d4bm3wili0/out/v1/0139d2336b32481b956ff21357e97f0d/cenc.mpd"
+      },
+      "drm_key": "2bead1627019ccc863e138410a8893ad:9fcd23f01aaef2bcf9c5cb2907f86aca"
+    },
+    {
       "match_id": "B0HG6GHJNT",
       "title": "Tennis Today Live-Singapore-WTA, Seoul-WTA, Chengdu-ATP & Hangzhou-ATP Early Rounds",
       "synopsis": "Tennis Today Live-Singapore-WTA, Seoul-WTA, Chengdu-ATP & Hangzhou-ATP Early Rounds",
@@ -465,57 +482,16 @@
       "stream_url": {}
     },
     {
-      "match_id": "66135",
-      "title": "Barcelona W vs Paris FC W",
-      "synopsis": "UEFA Champions League Women - Barcelona W vs Paris FC W",
-      "status": "LIVE",
-      "time": "1:00 AM 24-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/525.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6aa9c724018287f1ce3f7f2a-fancode/chunks.m3u8?is_vip=false&token=1790282850-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-265017cab286592197300a973e59379d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6aa9c724018287f1ce3f7f2a-fancode/chunks.m3u8?is_vip=false&token=1790282850-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-265017cab286592197300a973e59379d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6aa9c724018287f1ce3f7f2a/chunks.m3u8?is_vip=false&token=1790282855-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-c90e8997a21e8c068998383364ab66e9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "66142",
-      "title": "Chelsea W vs Austria Wien W",
-      "synopsis": "UEFA Champions League Women - Chelsea W vs Austria Wien W",
-      "status": "LIVE",
-      "time": "1:00 AM 24-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/525.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6aa9c724018287f1ce3f7f29-fancode/chunks.m3u8?is_vip=false&token=1790282860-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-dd77d2d8d29d39253502d9ce6ea57643|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6aa9c724018287f1ce3f7f29-fancode/chunks.m3u8?is_vip=false&token=1790282860-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-dd77d2d8d29d39253502d9ce6ea57643|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-        "Server 2": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6aa9c724018287f1ce3f7f29/chunks.m3u8?is_vip=false&token=1790282868-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-e569dc053860572900b6af9a67069dfc|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "69926",
-      "title": "Turks and Caicos Islands vs Montserrat",
-      "synopsis": "CONCACAF Nations League - Turks and Caicos Islands vs Montserrat",
-      "status": "LIVE",
-      "time": "1:00 AM 24-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/536.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fab78887f467189bd8fc2/chunks.m3u8?is_vip=false&token=1790282873-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-2472ac23bc608ace43c9fdf43cd684b5|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fab78887f467189bd8fc2/chunks.m3u8?is_vip=false&token=1790282873-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-2472ac23bc608ace43c9fdf43cd684b5|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
       "match_id": "67516",
       "title": "Minnesota Twins vs San Francisco Giants",
       "synopsis": "MLB - Minnesota Twins vs San Francisco Giants",
       "status": "LIVE",
       "time": "1:45 AM 24-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55838/720p/chunks.m3u8?is_vip=false&token=1790282878-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-6d4ffa2499a646c3087a4086ab023f12|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55838/720p/chunks.m3u8?is_vip=false&token=1790283752-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-a8d246dea6f66d8210fcbc9201f37778|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55838/720p/chunks.m3u8?is_vip=false&token=1790282878-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-6d4ffa2499a646c3087a4086ab023f12|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55838/720p/chunks.m3u8?is_vip=false&token=1790283752-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-a8d246dea6f66d8210fcbc9201f37778|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -525,10 +501,10 @@
       "status": "LIVE",
       "time": "2:00 AM 24-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/281.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b6c031c11facd0033/chunks.m3u8?is_vip=false&token=1790282885-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-6b868a2a17326f6f305b69f611492768|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b6c031c11facd0033/chunks.m3u8?is_vip=false&token=1790283760-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-9a0772eee23d4face4999f24c21932e5|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b6c031c11facd0033/chunks.m3u8?is_vip=false&token=1790282885-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-6b868a2a17326f6f305b69f611492768|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a85cc6b6c031c11facd0033/chunks.m3u8?is_vip=false&token=1790283760-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-9a0772eee23d4face4999f24c21932e5|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -538,10 +514,10 @@
       "status": "LIVE",
       "time": "2:00 AM 24-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/536.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fab78887f467189bd8fc3/chunks.m3u8?is_vip=false&token=1790282891-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-fc6fb6ad8c91b2582d4666ea68d70fc9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fab78887f467189bd8fc3/chunks.m3u8?is_vip=false&token=1790283767-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-260f62db8ac85cb0105491bafaa601ca|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fab78887f467189bd8fc3/chunks.m3u8?is_vip=false&token=1790282891-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-fc6fb6ad8c91b2582d4666ea68d70fc9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fab78887f467189bd8fc3/chunks.m3u8?is_vip=false&token=1790283767-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-260f62db8ac85cb0105491bafaa601ca|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
