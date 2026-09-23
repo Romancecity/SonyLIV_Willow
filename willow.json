@@ -5,29 +5,42 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 112,
-  "live_count": 14,
-  "last_update": "04:53 AM 24-09-2026",
+  "channels_amount": 116,
+  "live_count": 20,
+  "last_update": "05:04 AM 24-09-2026",
   "events": [
     {
       "match_id": "B0HKBMRLZ1",
       "title": "Asian Games 2026 - 1st Match - Japan vs Afghanistan",
       "synopsis": "Asian Games 2026 - 1st Match - Japan vs Afghanistan",
-      "status": "UPCOMING",
-      "time": "Live at 6 AM BDT",
-      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.3acf41e3-9c20-44d1-aec8-b34a0ee7bc20/1/BOXART-16X9/en-US._UR1920,1080_.jpeg",
+      "status": "LIVE",
+      "time": "5:30 AM BDT",
+      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.3acf41e3-9c20-44d1-aec8-b34a0ee7bc20/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HKBMRLZ1?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_1",
       "is_free": false,
-      "stream_url_alpha": "",
-      "drm_key": ""
+      "stream_url_alpha": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uwxerw2eey/out/v1/14e8580d2e304df391b94c8eb68553a9/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uwxerw2eey/out/v1/14e8580d2e304df391b94c8eb68553a9/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/uwxerw2eey/out/v1/14e8580d2e304df391b94c8eb68553a9/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/uwxerw2eey/out/v1/14e8580d2e304df391b94c8eb68553a9/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/uwxerw2eey/out/v1/14e8580d2e304df391b94c8eb68553a9/cenc.mpd"
+      },
+      "stream_url_bravo": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/docqurfrc3/out/v1/1804c33d898a48cb988e15cca0199512/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/docqurfrc3/out/v1/1804c33d898a48cb988e15cca0199512/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/docqurfrc3/out/v1/1804c33d898a48cb988e15cca0199512/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/docqurfrc3/out/v1/1804c33d898a48cb988e15cca0199512/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/docqurfrc3/out/v1/1804c33d898a48cb988e15cca0199512/cenc.mpd"
+      },
+      "drm_key": "2fbb11f58d670ba448625bee36773fff:76e8bd546a74e60598e1d59df0b9b3cc"
     },
     {
       "match_id": "B0H6XJYTG3",
-      "title": "Asian Games 2026 - 2nd Match -Hong Kong, China vs Malaysia",
-      "synopsis": "Asian Games 2026 - 2nd Match -Hong Kong, China vs Malaysia",
+      "title": "Asian Games 2026 - 2nd Match - Hong Kong, China vs Malaysia",
+      "synopsis": "Asian Games 2026 - 2nd Match - Hong Kong, China vs Malaysia",
       "status": "UPCOMING",
-      "time": "Live at 11 AM BDT",
-      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.386d0ce0-c3cb-4287-91d9-a957b886961c/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
+      "time": "Live at 10:30 AM BDT",
+      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.386d0ce0-c3cb-4287-91d9-a957b886961c/4/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0H6XJYTG3?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_2",
       "is_free": false,
       "stream_url_alpha": "",
@@ -300,23 +313,62 @@
       "drm_key": "8cd7a96084cf4b7a63ad40a60870aa94:68f577830270c18de5672de57c5129f3"
     },
     {
+      "match_id": "1090541367",
+      "title": "Afghanistan vs Japan - 24 Sep 2026",
+      "synopsis": "Afghanistan take on Japan in the Men's Cricket clash at the 20th Asian Games Aichi-Nagoya 2026. With both sides ready for a fresh challenge, expect an exciting contest as they look to make their mark. Catch all the action, LIVE on Sony LIV.",
+      "status": "LIVE",
+      "time": "24 Sep 2026, 05:30 AM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024552/1790159442582620_AG26_Mens-Cricket-Afghanistan-vs-Japan_landscape_thumb.jpg",
+      "match_url": "https://dai.google.com/ssai/event/_wNibTTjRKGbTJkQbT7_mQ/master.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://dai.google.com/ssai/event/_wNibTTjRKGbTJkQbT7_mQ/master.m3u8"
+      }
+    },
+    {
+      "match_id": "1090541387",
+      "title": "People's Republic of China vs Vietnam - Women's Beach Volleyball - 24 Sep 2026",
+      "synopsis": "Watch all the action from the 20th Asian Games Aichi-Nagoya 2026, LIVE on Sony LIV.",
+      "status": "LIVE",
+      "time": "24 Sep 2026, 05:25 AM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023916/1789301604665741_AG26_Volleyball_pictogram_landscape_thumb.jpg",
+      "match_url": "https://dai.google.com/ssai/event/k546vMA7RwaIHM8n9oSIyw/master.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://dai.google.com/ssai/event/k546vMA7RwaIHM8n9oSIyw/master.m3u8"
+      }
+    },
+    {
+      "match_id": "1090541369",
+      "title": "Thailand vs Japan - Men's Team Regu Semifinal - Sepaktakraw - 24 Sep 2026",
+      "synopsis": "Watch all the action from the 20th Asian Games Aichi-Nagoya 2026, LIVE on Sony LIV.",
+      "status": "LIVE",
+      "time": "24 Sep 2026, 05:25 AM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023916/1789300218628741_AG26_Sepaktakraw_pictogram_landscape_thumb.jpg",
+      "match_url": "https://dai.google.com/ssai/event/vC6ytSnwQTCFRR5sYUR6DQ/master.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://dai.google.com/ssai/event/vC6ytSnwQTCFRR5sYUR6DQ/master.m3u8"
+      }
+    },
+    {
       "match_id": "1090543448",
-      "title": "Upcoming - India's International Friendlies",
+      "title": "Upcoming - India vs Panama - India's International Friendlies",
       "synopsis": "Watch an epic football encounter as India faces Panama, Brazil and Uruguay, only on Sony LIV.",
       "status": "UPCOMING",
       "time": "",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024482/1790087785944617_IND_PAN_DDT_Promo_landscape_Thumb.jpg",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024583/1790188903565263_FIFA_international_friendlies_india_vs_panama_dated_rev_landscape_thumb.jpg",
       "match_url": "https://www.sonyliv.com/custom-live/1090543448",
       "is_free": false,
       "stream_url": {}
     },
     {
       "match_id": "1090543727",
-      "title": "Upcoming - India vs Brazil -India's International Friendlies ",
-      "synopsis": "Watch an epic football encounter as India faces Panama, Brazil and Uruguay, only on Sony LIV.",
+      "title": "Upcoming - India vs Brazil - India's International Friendlies ",
+      "synopsis": "Watch an epic football encounter as India faces Brazil, only on Sony LIV.",
       "status": "UPCOMING",
       "time": "",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024504/1790111246357701_FIFA_international_friendlies_india_vs_brazil_dated_landscape_thumb.jpg",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024578/1790187144920418_FIFA_international_friendlies_india_vs_brazil_dated_rev_landscape_thumb.jpg",
       "match_url": "https://www.sonyliv.com/custom-live/1090543727",
       "is_free": false,
       "stream_url": {}
@@ -471,10 +523,10 @@
       "status": "LIVE",
       "time": "4:35 AM 24-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55837/720p/chunks.m3u8?is_vip=false&token=1790291850-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-cac5ca2d120a0ede8329bba2dd9d7b5f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55837/720p/chunks.m3u8?is_vip=false&token=1790292748-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-73f1587db43a8325fff3bb761743cdf0|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55837/720p/chunks.m3u8?is_vip=false&token=1790291850-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-cac5ca2d120a0ede8329bba2dd9d7b5f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55837/720p/chunks.m3u8?is_vip=false&token=1790292748-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-73f1587db43a8325fff3bb761743cdf0|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -484,10 +536,10 @@
       "status": "LIVE",
       "time": "4:40 AM 24-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55839/720p/chunks.m3u8?is_vip=false&token=1790291857-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-84b9f23501c0e9111c014b0f562bc5e8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55839/720p/chunks.m3u8?is_vip=false&token=1790292757-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-8b1a8ad4ac81866db5883291c1bbb8e9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55839/720p/chunks.m3u8?is_vip=false&token=1790291857-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-84b9f23501c0e9111c014b0f562bc5e8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55839/720p/chunks.m3u8?is_vip=false&token=1790292757-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-8b1a8ad4ac81866db5883291c1bbb8e9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -497,23 +549,10 @@
       "status": "LIVE",
       "time": "4:40 AM 24-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55840/720p/chunks.m3u8?is_vip=false&token=1790291863-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-cf92be957d5665838980e386f83870f5|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55840/720p/chunks.m3u8?is_vip=false&token=1790292765-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-967ec9eb9efbf5ba1184a6fc1399831d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55840/720p/chunks.m3u8?is_vip=false&token=1790291863-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-cf92be957d5665838980e386f83870f5|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "69928",
-      "title": "Aruba vs Antigua and Barbuda",
-      "synopsis": "CONCACAF Nations League - Aruba vs Antigua and Barbuda",
-      "status": "LIVE",
-      "time": "5:00 AM 24-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/536.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fab78887f467189bd8fc4/chunks.m3u8?is_vip=false&token=1790291870-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-73300adc67009cc2abf63ee361946828|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fab78887f467189bd8fc4/chunks.m3u8?is_vip=false&token=1790291870-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-73300adc67009cc2abf63ee361946828|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55840/720p/chunks.m3u8?is_vip=false&token=1790292765-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-967ec9eb9efbf5ba1184a6fc1399831d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -523,10 +562,10 @@
       "status": "LIVE",
       "time": "5:00 AM 24-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52440/720p/chunks.m3u8?is_vip=false&token=1790291876-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-cd94987f0bc16613dd17fef3182b961f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52440/720p/chunks.m3u8?is_vip=false&token=1790292785-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-90d01afbf6bf82f03f8878621816ba13|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52440/720p/chunks.m3u8?is_vip=false&token=1790291876-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-cd94987f0bc16613dd17fef3182b961f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52440/720p/chunks.m3u8?is_vip=false&token=1790292785-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-90d01afbf6bf82f03f8878621816ba13|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -536,10 +575,10 @@
       "status": "LIVE",
       "time": "5:00 AM 24-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52441/720p/chunks.m3u8?is_vip=false&token=1790291882-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b0b29ec3295222a9ef85be1aaca1b5a5|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52441/720p/chunks.m3u8?is_vip=false&token=1790292791-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-94d4aae502234d6aa956e801efdb5b5e|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52441/720p/chunks.m3u8?is_vip=false&token=1790291882-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b0b29ec3295222a9ef85be1aaca1b5a5|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52441/720p/chunks.m3u8?is_vip=false&token=1790292791-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-94d4aae502234d6aa956e801efdb5b5e|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -549,10 +588,10 @@
       "status": "LIVE",
       "time": "5:05 AM 24-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55841/720p/chunks.m3u8?is_vip=false&token=1790291889-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-ec6d81dd78719ef988039bd95b7cef54|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55841/720p/chunks.m3u8?is_vip=false&token=1790292797-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-a953ed4cac268388a4f1aaba434188e1|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55841/720p/chunks.m3u8?is_vip=false&token=1790291889-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-ec6d81dd78719ef988039bd95b7cef54|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55841/720p/chunks.m3u8?is_vip=false&token=1790292797-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-a953ed4cac268388a4f1aaba434188e1|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -562,10 +601,10 @@
       "status": "LIVE",
       "time": "5:10 AM 24-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55842/720p/chunks.m3u8?is_vip=false&token=1790291896-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-ea1c703913ba9dc1a6dd21f52e63c560|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55842/720p/chunks.m3u8?is_vip=false&token=1790292803-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-ed58554e763b4e969c846b05e77f3a55|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55842/720p/chunks.m3u8?is_vip=false&token=1790291896-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-ea1c703913ba9dc1a6dd21f52e63c560|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55842/720p/chunks.m3u8?is_vip=false&token=1790292803-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-ed58554e763b4e969c846b05e77f3a55|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -575,10 +614,10 @@
       "status": "LIVE",
       "time": "5:15 AM 24-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55843/720p/chunks.m3u8?is_vip=false&token=1790291901-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-ba4c0e6c1a2a97ef20d0e41c2a24a1b9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55843/720p/chunks.m3u8?is_vip=false&token=1790292810-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-a7a9c71e54d33d7ac01b9e9e2a16b3be|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55843/720p/chunks.m3u8?is_vip=false&token=1790291901-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-ba4c0e6c1a2a97ef20d0e41c2a24a1b9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55843/720p/chunks.m3u8?is_vip=false&token=1790292810-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-a7a9c71e54d33d7ac01b9e9e2a16b3be|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -588,10 +627,36 @@
       "status": "LIVE",
       "time": "5:30 AM 24-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/451/720p/chunks.m3u8?is_vip=false&token=1790291908-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-f8a4d0617d9379692733b6622c2fb8d4|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/451/720p/chunks.m3u8?is_vip=false&token=1790292816-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-04de99a50171818ea3319d818057eaad|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/451/720p/chunks.m3u8?is_vip=false&token=1790291908-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-f8a4d0617d9379692733b6622c2fb8d4|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/451/720p/chunks.m3u8?is_vip=false&token=1790292816-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-04de99a50171818ea3319d818057eaad|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "67523",
+      "title": "Chicago White Sox vs Kansas City Royals",
+      "synopsis": "MLB - Chicago White Sox vs Kansas City Royals",
+      "status": "LIVE",
+      "time": "5:40 AM 24-09-2026",
+      "cover_image": "",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55844/720p/chunks.m3u8?is_vip=false&token=1790292821-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-eca8b7ef07ae8941d57f4d2ca794739a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55844/720p/chunks.m3u8?is_vip=false&token=1790292821-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-eca8b7ef07ae8941d57f4d2ca794739a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "67524",
+      "title": "Miami Marlins vs Chicago Cubs",
+      "synopsis": "MLB - Miami Marlins vs Chicago Cubs",
+      "status": "LIVE",
+      "time": "5:40 AM 24-09-2026",
+      "cover_image": "",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55845/720p/chunks.m3u8?is_vip=false&token=1790292827-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-070d6b4653f70837ed776d06c41a7609|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55845/720p/chunks.m3u8?is_vip=false&token=1790292827-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-070d6b4653f70837ed776d06c41a7609|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -615,6 +680,19 @@
       "match_url": "",
       "is_free": false,
       "stream_url": {}
+    },
+    {
+      "match_id": "69928",
+      "title": "Aruba vs Antigua and Barbuda",
+      "synopsis": "CONCACAF Nations League - Aruba vs Antigua and Barbuda",
+      "status": "LIVE",
+      "time": "5:00 AM 24-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/536.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fab78887f467189bd8fc4/chunks.m3u8?is_vip=false&token=1790292836-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b4ef1ab714d00e72bb52608f92dd688d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fab78887f467189bd8fc4/chunks.m3u8?is_vip=false&token=1790292836-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b4ef1ab714d00e72bb52608f92dd688d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
     },
     {
       "match_id": "66221",
@@ -700,28 +778,6 @@
       "status": "UPCOMING",
       "time": "12:45 AM 25-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/5.png",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "67523",
-      "title": "Chicago White Sox vs Kansas City Royals",
-      "synopsis": "MLB - Chicago White Sox vs Kansas City Royals",
-      "status": "UPCOMING",
-      "time": "5:40 AM 24-09-2026",
-      "cover_image": "",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "67524",
-      "title": "Miami Marlins vs Chicago Cubs",
-      "synopsis": "MLB - Miami Marlins vs Chicago Cubs",
-      "status": "UPCOMING",
-      "time": "5:40 AM 24-09-2026",
-      "cover_image": "",
       "match_url": "",
       "is_free": false,
       "stream_url": {}
@@ -862,7 +918,7 @@
       "match_id": "67537",
       "title": "Tampa Bay Rays vs New York Yankees",
       "synopsis": "MLB - Tampa Bay Rays vs New York Yankees",
-      "status": "NS",
+      "status": "UPCOMING",
       "time": "5:05 AM 25-09-2026",
       "cover_image": "",
       "match_url": "",
@@ -873,7 +929,7 @@
       "match_id": "67538",
       "title": "Cincinnati Reds vs Atlanta Braves",
       "synopsis": "MLB - Cincinnati Reds vs Atlanta Braves",
-      "status": "NS",
+      "status": "UPCOMING",
       "time": "5:15 AM 25-09-2026",
       "cover_image": "",
       "match_url": "",
@@ -1238,6 +1294,17 @@
       "synopsis": "WNBA - Toronto Tempo vs Connecticut Sun",
       "status": "UPCOMING",
       "time": "5:00 AM 25-09-2026",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "67512",
+      "title": "Chicago Sky vs Washington Mystics",
+      "synopsis": "WNBA - Chicago Sky vs Washington Mystics",
+      "status": "NS",
+      "time": "5:30 AM 25-09-2026",
       "cover_image": "",
       "match_url": "",
       "is_free": false,
