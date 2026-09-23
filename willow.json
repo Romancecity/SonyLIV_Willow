@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 99,
-  "live_count": 22,
-  "last_update": "01:22 PM 23-09-2026",
+  "live_count": 21,
+  "last_update": "01:35 PM 23-09-2026",
   "events": [
     {
       "match_id": "B0HKBMRLZ1",
@@ -241,23 +241,6 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd"
       },
       "drm_key": "18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67"
-    },
-    {
-      "match_id": "B0HK36H14L",
-      "title": "Shooting Men",
-      "synopsis": "Shooting Men",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.11e1e294-0d63-45fb-a33d-eac01ba47a26/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HK36H14L",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd"
-      },
-      "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
     },
     {
       "match_id": "B0HG6GHJNT",
@@ -644,23 +627,10 @@
       "status": "LIVE",
       "time": "11:00 AM 23-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790236056-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-875b119a505cf3902dbca3ea7204c452|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790236949-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-c50162a7204df2f469bd88e900c14efd|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790236056-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-875b119a505cf3902dbca3ea7204c452|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "75844",
-      "title": "Sebastian Baez vs Jenson Brooksby",
-      "synopsis": "ATP Chengdu - Sebastian Baez vs Jenson Brooksby",
-      "status": "LIVE",
-      "time": "11:00 AM 23-09-2026",
-      "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/112612/720p/chunks.m3u8?is_vip=false&token=1790236062-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-eebd6a4bf8c5bc1df817160a83f1c92d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/112612/720p/chunks.m3u8?is_vip=false&token=1790236062-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-eebd6a4bf8c5bc1df817160a83f1c92d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790236949-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-c50162a7204df2f469bd88e900c14efd|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -670,10 +640,10 @@
       "status": "LIVE",
       "time": "11:30 AM 23-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/53766/720p/chunks.m3u8?is_vip=false&token=1790236069-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-094f6ab1d7f742a14f94098e4c74d93e|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/53766/720p/chunks.m3u8?is_vip=false&token=1790236955-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b5c79c128b916004ee353189b568780a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/53766/720p/chunks.m3u8?is_vip=false&token=1790236069-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-094f6ab1d7f742a14f94098e4c74d93e|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/53766/720p/chunks.m3u8?is_vip=false&token=1790236955-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b5c79c128b916004ee353189b568780a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -687,6 +657,19 @@
       "is_free": false,
       "stream_url": {
         "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/112612/720p/chunks.m3u8?is_vip=false&token=1790236075-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b07f0d52997a16183cdc663651333174|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "75847",
+      "title": "Alina Korneeva vs Darya Astakhova",
+      "synopsis": "WTA Seoul - Alina Korneeva vs Darya Astakhova",
+      "status": "LIVE",
+      "time": "1:10 PM 23-09-2026",
+      "cover_image": "",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/510517/720p/chunks.m3u8?is_vip=false&token=1790236980-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b2663c8a45393ff452d7638a09c92c8d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/510517/720p/chunks.m3u8?is_vip=false&token=1790236980-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b2663c8a45393ff452d7638a09c92c8d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -1168,6 +1151,17 @@
       "synopsis": "NPC - Tasman vs Bay Of Plenty",
       "status": "UPCOMING",
       "time": "1:00 PM 24-09-2026",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "67506",
+      "title": "South Africa vs Australia",
+      "synopsis": "Australia tour of South Africa - South Africa vs Australia",
+      "status": "NS",
+      "time": "2:00 PM 24-09-2026",
       "cover_image": "",
       "match_url": "",
       "is_free": false,
