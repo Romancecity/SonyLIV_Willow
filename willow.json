@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 200,
-  "live_count": 23,
-  "last_update": "02:23 AM 26-09-2026",
+  "channels_amount": 199,
+  "live_count": 16,
+  "last_update": "02:33 AM 26-09-2026",
   "events": [
     {
       "match_id": "B0HC388PM2",
@@ -166,23 +166,6 @@
       "drm_key": ""
     },
     {
-      "match_id": "B0HK3LVNGV",
-      "title": "Poland vs. Bosnia-Herzegovina",
-      "synopsis": "Poland vs. Bosnia-Herzegovina",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.45fc50ee-564e-4137-bfa4-4541a0a9962f/4/BOXART-16X9/en-US/1920x1080._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMpng_.png",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HK3LVNGV",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd"
-      },
-      "drm_key": "fa5e8db5359fc7d1f15207d5de2a3ac4:78a6c0a41972dfdba2145ae0ad4bd681"
-    },
-    {
       "match_id": "B0HK575M7B",
       "title": "LIVE: Open de France Championship Day 2",
       "synopsis": "LIVE: Open de France Championship Day 2",
@@ -198,6 +181,23 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/mnxueephr4/out/v1/b0eeb77d4e1f4b02b4e3325fd712267e/cenc.mpd"
       },
       "drm_key": "9590ea43d0f770c24205e23440d8af8c:b127454380d8fffc3acd12575b2b4adb"
+    },
+    {
+      "match_id": "B0HK3LVNGV",
+      "title": "Poland vs. Bosnia-Herzegovina",
+      "synopsis": "Poland vs. Bosnia-Herzegovina",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.45fc50ee-564e-4137-bfa4-4541a0a9962f/4/BOXART-16X9/en-US/1920x1080._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMpng_.png",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HK3LVNGV",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd"
+      },
+      "drm_key": "fa5e8db5359fc7d1f15207d5de2a3ac4:78a6c0a41972dfdba2145ae0ad4bd681"
     },
     {
       "match_id": "B0HJ6ZRJKH",
@@ -468,10 +468,10 @@
       "status": "LIVE",
       "time": "2:05 AM 26-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/ab/1.png",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55838/720p/chunks.m3u8?is_vip=false&token=1790455648-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-609dfa0594f61f5e492042603cc887cc|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55838/720p/chunks.m3u8?is_vip=false&token=1790456556-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-c20b797002855f64d5185426bc5a77a9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55838/720p/chunks.m3u8?is_vip=false&token=1790455648-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-609dfa0594f61f5e492042603cc887cc|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55838/720p/chunks.m3u8?is_vip=false&token=1790456556-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-c20b797002855f64d5185426bc5a77a9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -481,10 +481,10 @@
       "status": "LIVE",
       "time": "10:30 PM 25-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/287/720p/chunks.m3u8?is_vip=false&token=1790455651-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-17af3f2aced3aa1b3c0d604b7fb5e00f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/287/720p/chunks.m3u8?is_vip=false&token=1790456559-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-3441b59d55a9e89942e168e383be0bd8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/287/720p/chunks.m3u8?is_vip=false&token=1790455651-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-17af3f2aced3aa1b3c0d604b7fb5e00f|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/287/720p/chunks.m3u8?is_vip=false&token=1790456559-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-3441b59d55a9e89942e168e383be0bd8|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -494,10 +494,10 @@
       "status": "LIVE",
       "time": "12:45 AM 26-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143072/720p/chunks.m3u8?is_vip=false&token=1790455654-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b019cf5b4a7e867f85031f771f835622|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143072/720p/chunks.m3u8?is_vip=false&token=1790456562-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-74849fd09a38b66290b89cdc3178d77e|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143072/720p/chunks.m3u8?is_vip=false&token=1790455654-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b019cf5b4a7e867f85031f771f835622|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143072/720p/chunks.m3u8?is_vip=false&token=1790456562-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-74849fd09a38b66290b89cdc3178d77e|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -507,10 +507,10 @@
       "status": "LIVE",
       "time": "12:45 AM 26-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143073/720p/chunks.m3u8?is_vip=false&token=1790455656-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b534ac6bec689e1b42021ee8595f88eb|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143073/720p/chunks.m3u8?is_vip=false&token=1790456565-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-d018e5c3ec49611ec224e8ac079b0584|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143073/720p/chunks.m3u8?is_vip=false&token=1790455656-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b534ac6bec689e1b42021ee8595f88eb|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143073/720p/chunks.m3u8?is_vip=false&token=1790456565-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-d018e5c3ec49611ec224e8ac079b0584|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -520,102 +520,22 @@
       "status": "LIVE",
       "time": "12:45 AM 26-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/68905/720p/chunks.m3u8?is_vip=false&token=1790455659-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-9e10e06b2e3c601ab272bda3c787bad1|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/68905/720p/chunks.m3u8?is_vip=false&token=1790456568-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-3a94579f7545440ab966e55c65348bfb|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/68905/720p/chunks.m3u8?is_vip=false&token=1790455659-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-9e10e06b2e3c601ab272bda3c787bad1|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "66284",
-      "title": "Morocco vs Gabon",
-      "synopsis": "Africa Cup of Nations - Qualification - Morocco vs Gabon",
-      "status": "LIVE",
-      "time": "1:00 AM 26-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/36.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fc7a96c031c11face1a64/chunks.m3u8?is_vip=false&token=1790455662-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-165b980843ff185f4f04b2872de15109|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fc7a96c031c11face1a64/chunks.m3u8?is_vip=false&token=1790455662-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-165b980843ff185f4f04b2872de15109|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "66286",
-      "title": "Dordrecht vs Almere City FC",
-      "synopsis": "Eerste Divisie - Dordrecht vs Almere City FC",
-      "status": "LIVE",
-      "time": "1:00 AM 26-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/89.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a96efa0e9d80a100cb2e9d0/chunks.m3u8?is_vip=false&token=1790455664-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-2de31f493b7071a512eee6de0772b3c9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a96efa0e9d80a100cb2e9d0/chunks.m3u8?is_vip=false&token=1790455664-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-2de31f493b7071a512eee6de0772b3c9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "69934",
-      "title": "Bermuda vs Guadeloupe",
-      "synopsis": "CONCACAF Nations League - Bermuda vs Guadeloupe",
-      "status": "LIVE",
-      "time": "1:00 AM 26-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/536.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fc7a96c031c11face1a69/chunks.m3u8?is_vip=false&token=1790455667-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-2f20c8e4e3742770e03f97e6f60279c6|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fc7a96c031c11face1a69/chunks.m3u8?is_vip=false&token=1790455667-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-2f20c8e4e3742770e03f97e6f60279c6|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "66283",
-      "title": "Mali vs Cape Verde Islands",
-      "synopsis": "Africa Cup of Nations - Qualification - Mali vs Cape Verde Islands",
-      "status": "LIVE",
-      "time": "1:00 AM 26-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/36.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fc7a96c031c11face1a65/chunks.m3u8?is_vip=false&token=1790455671-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-efb567527c03933f86ede0b59308de61|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fc7a96c031c11face1a65/chunks.m3u8?is_vip=false&token=1790455671-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-efb567527c03933f86ede0b59308de61|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "66282",
-      "title": "Egypt vs Angola",
-      "synopsis": "Africa Cup of Nations - Qualification - Egypt vs Angola",
-      "status": "LIVE",
-      "time": "1:00 AM 26-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/36.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fc7a96c031c11face1a63/chunks.m3u8?is_vip=false&token=1790455674-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-82865d2a6e6e69ae9168cfcd8857220b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fc7a96c031c11face1a63/chunks.m3u8?is_vip=false&token=1790455674-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-82865d2a6e6e69ae9168cfcd8857220b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/68905/720p/chunks.m3u8?is_vip=false&token=1790456568-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-3a94579f7545440ab966e55c65348bfb|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
       "match_id": "66281",
       "title": "Burkina Faso vs Benin",
       "synopsis": "Africa Cup of Nations - Qualification - Burkina Faso vs Benin",
-      "status": "LIVE",
+      "status": "FT",
       "time": "1:00 AM 26-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/36.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fc7a96c031c11face1a67/chunks.m3u8?is_vip=false&token=1790455676-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-f7a4670d515770305e93bc822541a6a7|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "",
       "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fc7a96c031c11face1a67/chunks.m3u8?is_vip=false&token=1790455676-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-f7a4670d515770305e93bc822541a6a7|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
-      "match_id": "66280",
-      "title": "Algeria vs Zambia",
-      "synopsis": "Africa Cup of Nations - Qualification - Algeria vs Zambia",
-      "status": "LIVE",
-      "time": "1:00 AM 26-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/36.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fc7a96c031c11face1a66/chunks.m3u8?is_vip=false&token=1790455678-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-0ee336f72488e1e633021dff8713bc88|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fc7a96c031c11face1a66/chunks.m3u8?is_vip=false&token=1790455678-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-0ee336f72488e1e633021dff8713bc88|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
+      "stream_url": {}
     },
     {
       "match_id": "70006",
@@ -624,10 +544,10 @@
       "status": "LIVE",
       "time": "1:30 AM 26-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/252.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9d870cfd629e492fe0dafd/chunks.m3u8?is_vip=false&token=1790455681-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-c4859edf7a3bfea38be7fdee16bd66f9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9d870cfd629e492fe0dafd/chunks.m3u8?is_vip=false&token=1790456574-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-a3c6944d3ea0c277550744fdcbdb56e0|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9d870cfd629e492fe0dafd/chunks.m3u8?is_vip=false&token=1790455681-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-c4859edf7a3bfea38be7fdee16bd66f9|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9d870cfd629e492fe0dafd/chunks.m3u8?is_vip=false&token=1790456574-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-a3c6944d3ea0c277550744fdcbdb56e0|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -637,10 +557,10 @@
       "status": "LIVE",
       "time": "3:00 AM 26-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/536.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fc7a96c031c11face1a6a/chunks.m3u8?is_vip=false&token=1790455684-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-04c80b3e4ea0112ca8284e170aa47f7c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fc7a96c031c11face1a6a/chunks.m3u8?is_vip=false&token=1790456577-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-8f6866a7b9e7c150b450cbd41fa54493|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fc7a96c031c11face1a6a/chunks.m3u8?is_vip=false&token=1790455684-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-04c80b3e4ea0112ca8284e170aa47f7c|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fc7a96c031c11face1a6a/chunks.m3u8?is_vip=false&token=1790456577-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-8f6866a7b9e7c150b450cbd41fa54493|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -1046,6 +966,28 @@
       "status": "UPCOMING",
       "time": "2:10 AM 27-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/ab/1.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "80048",
+      "title": "Philadelphia Flyers vs Washington Capitals",
+      "synopsis": "NHL - Philadelphia Flyers vs Washington Capitals",
+      "status": "NS",
+      "time": "3:00 AM 27-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/ah/57.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "80049",
+      "title": "Utah Mammoth vs Colorado Avalanche",
+      "synopsis": "NHL - Utah Mammoth vs Colorado Avalanche",
+      "status": "NS",
+      "time": "3:00 AM 27-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/ah/57.png",
       "match_url": "",
       "is_free": false,
       "stream_url": {}
@@ -1942,6 +1884,17 @@
       "stream_url": {}
     },
     {
+      "match_id": "66578",
+      "title": "USA vs Peru",
+      "synopsis": "Friendlies - USA vs Peru",
+      "status": "NS",
+      "time": "2:30 AM 27-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/10.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
       "match_id": "68323",
       "title": "SHOOTO BRAZIL 140",
       "synopsis": "MMA - SHOOTO BRAZIL 140",
@@ -2013,6 +1966,17 @@
       "synopsis": "MMA - CAGE WARRIORS 210",
       "status": "UPCOMING",
       "time": "1:30 AM 27-09-2026",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "70037",
+      "title": "PRELIMS",
+      "synopsis": "UFC FIGHT NIGHT - PRELIMS",
+      "status": "NS",
+      "time": "3:00 AM 27-09-2026",
       "cover_image": "",
       "match_url": "",
       "is_free": false,
@@ -2266,6 +2230,17 @@
       "synopsis": "Horse Racing - America's Day At the Races",
       "status": "UPCOMING",
       "time": "10:00 PM 26-09-2026",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "70053",
+      "title": "America's Day At the Races",
+      "synopsis": "Horse Racing - America's Day At the Races",
+      "status": "NS",
+      "time": "3:00 AM 27-09-2026",
       "cover_image": "",
       "match_url": "",
       "is_free": false,
