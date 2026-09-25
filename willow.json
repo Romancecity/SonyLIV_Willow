@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 147,
-  "live_count": 15,
-  "last_update": "06:24 PM 25-09-2026",
+  "channels_amount": 155,
+  "live_count": 14,
+  "last_update": "06:35 PM 25-09-2026",
   "events": [
     {
       "match_id": "B0HC388PM2",
@@ -232,23 +232,6 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/k653vm77p0/out/v1/313a4febbed346d298f7c1c281a00f6d/cenc.mpd"
       },
       "drm_key": "59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a"
-    },
-    {
-      "match_id": "B0HK76B323",
-      "title": "Football Men, Quarterfinal",
-      "synopsis": "Football Men, Quarterfinal",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.bf0cb871-21c1-4f97-be00-4551596b1d40/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HK76B323",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd"
-      },
-      "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
     },
     {
       "match_id": "B0HK13D7DH",
@@ -889,6 +872,17 @@
       "stream_url": {}
     },
     {
+      "match_id": "66545",
+      "title": "Slovenia vs Scotland",
+      "synopsis": "UEFA Nations League - Slovenia vs Scotland",
+      "status": "NS",
+      "time": "7:00 PM 26-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/5.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
       "match_id": "66413",
       "title": "India vs Panama",
       "synopsis": "Friendlies - India vs Panama",
@@ -1461,6 +1455,83 @@
       "stream_url": {}
     },
     {
+      "match_id": "66340",
+      "title": "PSV/Eindhoven W vs De Graafschap W",
+      "synopsis": "Eredivisie Women - PSV/Eindhoven W vs De Graafschap W",
+      "status": "NS",
+      "time": "6:00 PM 26-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/91.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "66356",
+      "title": "Charlton Athletic W vs Manchester City W",
+      "synopsis": "FA WSL - Charlton Athletic W vs Manchester City W",
+      "status": "NS",
+      "time": "6:30 PM 26-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/44.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "66357",
+      "title": "Giana Erminio vs PRO Vercelli",
+      "synopsis": "Serie C - Girone A - Giana Erminio vs PRO Vercelli",
+      "status": "NS",
+      "time": "6:30 PM 26-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/138.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "66358",
+      "title": "Lumezzane vs Folgore Caratese",
+      "synopsis": "Serie C - Girone A - Lumezzane vs Folgore Caratese",
+      "status": "NS",
+      "time": "6:30 PM 26-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/138.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "66359",
+      "title": "Pergolettese vs Trento",
+      "synopsis": "Serie C - Girone A - Pergolettese vs Trento",
+      "status": "NS",
+      "time": "6:30 PM 26-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/138.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "66366",
+      "title": "Kenya vs Eritrea",
+      "synopsis": "Africa Cup of Nations - Qualification - Kenya vs Eritrea",
+      "status": "NS",
+      "time": "7:00 PM 26-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/36.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "66493",
+      "title": "South Africa vs Guinea",
+      "synopsis": "Africa Cup of Nations - Qualification - South Africa vs Guinea",
+      "status": "NS",
+      "time": "7:00 PM 26-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/36.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
       "match_id": "67555",
       "title": "Men's U23 RR",
       "synopsis": "Cycling World Championships - Men's U23 RR",
@@ -1488,6 +1559,17 @@
       "synopsis": "UCI Pro Series - ES1, CRO Race, Stage 5",
       "status": "UPCOMING",
       "time": "5:00 PM 26-09-2026",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "68333",
+      "title": "Women's Elite RR",
+      "synopsis": "Cycling World Championships - Women's Elite RR",
+      "status": "NS",
+      "time": "7:00 PM 26-09-2026",
       "cover_image": "",
       "match_url": "",
       "is_free": false,
