@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 147,
-  "live_count": 21,
-  "last_update": "10:25 AM 25-09-2026",
+  "channels_amount": 151,
+  "live_count": 23,
+  "last_update": "10:35 AM 25-09-2026",
   "events": [
     {
       "match_id": "B0HK9RWVZS",
@@ -206,6 +206,40 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/2idyuu2ecl/out/v1/8b521304de804ce5a5ac4ff27eb85eb3/cenc.mpd"
       },
       "drm_key": "18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67"
+    },
+    {
+      "match_id": "B0HJJLKWSD",
+      "title": "Tennis Today Live-Singapore-WTA, Seoul-WTA Quarterfinals; Chengdu-ATP & Hangzhou-ATP Early Rounds",
+      "synopsis": "Tennis Today Live-Singapore-WTA, Seoul-WTA Quarterfinals; Chengdu-ATP & Hangzhou-ATP Early Rounds",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.723a5163-d6c5-4d7a-bfc5-c8fbf06ce4a0/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HJJLKWSD",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd"
+      },
+      "drm_key": "59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a"
+    },
+    {
+      "match_id": "B0HGMS9JJN",
+      "title": "Shooting",
+      "synopsis": "Shooting",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.4e9d9151-0f18-4201-a749-bd3c1c96f899/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HGMS9JJN",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd"
+      },
+      "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
     },
     {
       "match_id": "1090543296",
@@ -568,29 +602,16 @@
       "stream_url": {}
     },
     {
-      "match_id": "80039",
-      "title": "Vegas Golden Knights vs Utah Mammoth",
-      "synopsis": "NHL - Vegas Golden Knights vs Utah Mammoth",
-      "status": "LIVE",
-      "time": "8:00 AM 25-09-2026",
-      "cover_image": "https://rs.maycdn.com/fixture/leagues/ah/57.png",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/527092/720p/chunks.m3u8?is_vip=false&token=1790398047-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-a26f96348d7bcefed5e11f523071cf64|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/527092/720p/chunks.m3u8?is_vip=false&token=1790398047-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-a26f96348d7bcefed5e11f523071cf64|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
-      }
-    },
-    {
       "match_id": "81580",
       "title": "WTA Seoul",
       "synopsis": "WTA Seoul - WTA Seoul",
       "status": "LIVE",
       "time": "9:00 AM 25-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790397180-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-04b81754d315f3ecdea0f34b3e7c365d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790398950-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-1c16519ae94796e89ed9fb849d2f3f9e|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790397180-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-04b81754d315f3ecdea0f34b3e7c365d|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790398950-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-1c16519ae94796e89ed9fb849d2f3f9e|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -600,10 +621,23 @@
       "status": "LIVE",
       "time": "10:10 AM 25-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1790398066-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-708e30d69fa0267c3cced85af19a29c0|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1790398961-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-102bca4e0771c6daa85a594e45dfb9c6|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1790398066-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-708e30d69fa0267c3cced85af19a29c0|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1790398961-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-102bca4e0771c6daa85a594e45dfb9c6|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
+    },
+    {
+      "match_id": "75851",
+      "title": "Uzbekistan U23 vs Saudi Arabia U23",
+      "synopsis": "Asian Games - Uzbekistan U23 vs Saudi Arabia U23",
+      "status": "LIVE",
+      "time": "11:00 AM 25-09-2026",
+      "cover_image": "https://rs.maycdn.com/fixture/leagues/af/803.png",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab2ad21e607ff5ae492e242/chunks.m3u8?is_vip=false&token=1790398967-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-9f3cc726d78c293beb353428eb026728|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab2ad21e607ff5ae492e242/chunks.m3u8?is_vip=false&token=1790398967-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-9f3cc726d78c293beb353428eb026728|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -613,10 +647,10 @@
       "status": "LIVE",
       "time": "11:00 AM 25-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790398083-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-60d797669a5978513cd75156086d8829|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790398972-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-eb33ac553fbc8f66801f4a599bf8dbcd|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790398083-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-60d797669a5978513cd75156086d8829|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790398972-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-eb33ac553fbc8f66801f4a599bf8dbcd|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -977,6 +1011,17 @@
       "synopsis": "NPC - Northland vs Counties Manukau",
       "status": "UPCOMING",
       "time": "8:00 AM 26-09-2026",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "68338",
+      "title": "Canterbury vs Southland",
+      "synopsis": "NPC - Canterbury vs Southland",
+      "status": "NS",
+      "time": "11:00 AM 26-09-2026",
       "cover_image": "",
       "match_url": "",
       "is_free": false,
@@ -1604,6 +1649,17 @@
       "synopsis": "WEC - Free Practice 3: 6 Hours of Fuji",
       "status": "UPCOMING",
       "time": "6:15 AM 26-09-2026",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "68348",
+      "title": "Qualifying: 6 Hours of Fuji",
+      "synopsis": "WEC - Qualifying: 6 Hours of Fuji",
+      "status": "NS",
+      "time": "10:50 AM 26-09-2026",
       "cover_image": "",
       "match_url": "",
       "is_free": false,
