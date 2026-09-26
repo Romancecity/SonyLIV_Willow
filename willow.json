@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 238,
-  "live_count": 19,
-  "last_update": "11:51 AM 26-09-2026",
+  "live_count": 20,
+  "last_update": "12:03 PM 26-09-2026",
   "events": [
     {
       "match_id": "B0HHXDYBND",
@@ -167,6 +167,23 @@
       "drm_key": ""
     },
     {
+      "match_id": "B0HHNJV5KR",
+      "title": "Shanghai Sprints, Day 1",
+      "synopsis": "Shanghai Sprints, Day 1",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.47391a8a-dc15-4a0f-b910-be9c5c0848d3/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HHNJV5KR",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd"
+      },
+      "drm_key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
+    },
+    {
       "match_id": "B0HFHJZTYX",
       "title": "Predator Pro Billiard Series: Vietnam",
       "synopsis": "Predator Pro Billiard Series: Vietnam",
@@ -184,23 +201,6 @@
       "drm_key": "18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67"
     },
     {
-      "match_id": "B0HC7BMHPP",
-      "title": "Fiji v Netherlands",
-      "synopsis": "Fiji v Netherlands",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.c3998373-623c-44c7-88c7-e815bf8e8029/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HC7BMHPP",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/z1mmauev4g/out/v1/40b826b7f7d449559a5e4e3c2ac3fca2/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/z1mmauev4g/out/v1/40b826b7f7d449559a5e4e3c2ac3fca2/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/z1mmauev4g/out/v1/40b826b7f7d449559a5e4e3c2ac3fca2/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/z1mmauev4g/out/v1/40b826b7f7d449559a5e4e3c2ac3fca2/cenc.mpd"
-      },
-      "drm_key": "63a084a354d126bcd099c9eabf0cbb93:bd2b00bce574c33af46d0538937b3ac3"
-    },
-    {
       "match_id": "B0H5KQ8TQ7",
       "title": "Weightlifting 08",
       "synopsis": "Weightlifting 08",
@@ -216,6 +216,23 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd"
       },
       "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+    },
+    {
+      "match_id": "B0HC7BMHPP",
+      "title": "Fiji v Netherlands",
+      "synopsis": "Fiji v Netherlands",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.c3998373-623c-44c7-88c7-e815bf8e8029/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HC7BMHPP",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/z1mmauev4g/out/v1/40b826b7f7d449559a5e4e3c2ac3fca2/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/z1mmauev4g/out/v1/40b826b7f7d449559a5e4e3c2ac3fca2/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/z1mmauev4g/out/v1/40b826b7f7d449559a5e4e3c2ac3fca2/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/z1mmauev4g/out/v1/40b826b7f7d449559a5e4e3c2ac3fca2/cenc.mpd"
+      },
+      "drm_key": "63a084a354d126bcd099c9eabf0cbb93:bd2b00bce574c33af46d0538937b3ac3"
     },
     {
       "match_id": "B0HJLQ77VN",
@@ -236,11 +253,11 @@
     },
     {
       "match_id": "1090543296",
-      "title": "India vs Islamic Republic Of Iran - Gold Medal Match - Kabaddi - 26 Sep 2026",
+      "title": "India In Action - Squash - 26 Sep 2026",
       "synopsis": "Watch all the action from the 20th Asian Games Aichi-Nagoya 2026, LIVE on Sony LIV.",
       "status": "LIVE",
       "time": "26 Sep 2026, 06:00 AM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024875/1790395448875854_AG26_Kabaddi_Womens_final_India_vs_Iran_live_landscape_thumb.jpg",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024870/1790392197365510_AG26_Squash_Mens_Singles_SF_Muhammad_vs_Abhay_live_landscape_thumb.jpg",
       "match_url": "https://dai.google.com/ssai/event/vlCs4nueQxGyqAybpr6Uxw/master.m3u8",
       "is_free": false,
       "stream_url": {
@@ -248,29 +265,16 @@
       }
     },
     {
-      "match_id": "1090541387",
-      "title": "India In Action - Shooting - 26 Sep 2026",
-      "synopsis": "Watch all the exclusive action from Table Tennis, LIVE on Sony LIV.",
-      "status": "LIVE",
-      "time": "26 Sep 2026, 08:45 AM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024869/1790391046250929_AG26_Shooting_50m_Rifle_3_Positions_Women_Individual_FINAL_Vidarsa_and_Tilottama_live_landscape_thumb.jpg",
-      "match_url": "https://dai.google.com/ssai/event/ZQ_v8v74RPSWCGJFxqFAIw/master.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://dai.google.com/ssai/event/ZQ_v8v74RPSWCGJFxqFAIw/master.m3u8"
-      }
-    },
-    {
-      "match_id": "1090541376",
-      "title": "Unnati vs Ling Ching - Women's Singles - Badminton - 26 Sep 2026",
+      "match_id": "1090541854",
+      "title": "V. Sindhu vs CHIU - Women's Singles - Badminton - 26 Sep 2026",
       "synopsis": "Watch all the exclusive action from the Badminton in the Women's Singles, LIVE on Sony LIV.",
       "status": "LIVE",
-      "time": "26 Sep 2026, 08:00 AM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024850/1790377804984411_AG26_25Sep_Badminton_Womens_Singles_Unnati_vs_Ling_Ching_live_landscape_thumb.jpg",
-      "match_url": "https://dai.google.com/ssai/event/gF4fNDLFQ9SlJT1MO53MqA/master.m3u8",
+      "time": "26 Sep 2026, 06:00 AM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541854/landscapeThumb/1790403787381_1789292948462348_AG26_Badminton_pictogram_landscape_thumb.jpg",
+      "match_url": "https://dai.google.com/ssai/event/xyrkD6I8R82wKes3PHaz-w/master.m3u8",
       "is_free": false,
       "stream_url": {
-        "Original Server": "https://dai.google.com/ssai/event/gF4fNDLFQ9SlJT1MO53MqA/master.m3u8"
+        "Original Server": "https://dai.google.com/ssai/event/xyrkD6I8R82wKes3PHaz-w/master.m3u8"
       }
     },
     {
@@ -288,11 +292,11 @@
     },
     {
       "match_id": "1090541380",
-      "title": "Malaysia vs Pakistan - Men - Hockey - 26 Sep 2026",
+      "title": "Sri Lanka vs Republic of Korea - Men - Hockey - 26 Sep 2026",
       "synopsis": "Watch all the exclusive action from the Hockey in the Men, LIVE on Sony LIV.",
       "status": "LIVE",
       "time": "26 Sep 2026, 05:30 AM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541380/landscapeThumb/1790394790389_1789299123285348_AG26_Hockey_pictogram_landscape_thumb.jpg",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541380/landscapeThumb/1790402115085_1789299123285348_AG26_Hockey_pictogram_landscape_thumb.jpg",
       "match_url": "https://dai.google.com/ssai/event/5aAxj8T7ToGk12atUPTAbA/master.m3u8",
       "is_free": false,
       "stream_url": {
@@ -301,11 +305,11 @@
     },
     {
       "match_id": "1090541853",
-      "title": "ZHANG Jiamao vs Meroj SUFIJONOV - Men's 55kg - Boxing - 26 Sep 2026",
-      "synopsis": "Watch all the exclusive action from the Boxing in the Men's 55kg, LIVE on Sony LIV.",
+      "title": "Boxing - 26 Sep 2026",
+      "synopsis": "Watch all the exclusive action from the Boxing, LIVE on Sony LIV.",
       "status": "LIVE",
       "time": "25 Sep 2026, 06:30 AM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541853/landscapeThumb/1790396325545_1789293652814348_AG26_Boxing_pictogram_landscape_thumb.jpg",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541853/landscapeThumb/1790400301923_1789293652814348_AG26_Boxing_pictogram_landscape_thumb.jpg",
       "match_url": "https://dai.google.com/ssai/event/mtJJIdT7TfKMRF3G1aon-g/master.m3u8",
       "is_free": false,
       "stream_url": {
@@ -313,16 +317,16 @@
       }
     },
     {
-      "match_id": "1090541854",
-      "title": "Badminton - 26 Sep 2026",
-      "synopsis": "Watch all the exclusive action from the Badminton, LIVE on Sony LIV.",
+      "match_id": "1090541387",
+      "title": "Shooting - 26 Sep 2026",
+      "synopsis": "Watch all the exclusive action from Table Tennis, LIVE on Sony LIV.",
       "status": "LIVE",
-      "time": "26 Sep 2026, 06:00 AM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541854/landscapeThumb/1790382960551_1789292948462348_AG26_Badminton_pictogram_landscape_thumb.jpg",
-      "match_url": "https://dai.google.com/ssai/event/xyrkD6I8R82wKes3PHaz-w/master.m3u8",
+      "time": "26 Sep 2026, 08:45 AM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023916/1789300294846741_AG26_Shooting_pictogram_landscape_thumb.jpg",
+      "match_url": "https://dai.google.com/ssai/event/ZQ_v8v74RPSWCGJFxqFAIw/master.m3u8",
       "is_free": false,
       "stream_url": {
-        "Original Server": "https://dai.google.com/ssai/event/xyrkD6I8R82wKes3PHaz-w/master.m3u8"
+        "Original Server": "https://dai.google.com/ssai/event/ZQ_v8v74RPSWCGJFxqFAIw/master.m3u8"
       }
     },
     {
@@ -336,6 +340,19 @@
       "is_free": false,
       "stream_url": {
         "Original Server": "https://dai.google.com/ssai/event/F0uruwPCRtu1lVbb6Jib-A/master.m3u8"
+      }
+    },
+    {
+      "match_id": "1090541376",
+      "title": "Badminton - 26 Sep 2026",
+      "synopsis": "Watch all the exclusive action from the Badminton, LIVE on Sony LIV.",
+      "status": "LIVE",
+      "time": "26 Sep 2026, 08:00 AM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023915/1789292948462348_AG26_Badminton_pictogram_landscape_thumb.jpg",
+      "match_url": "https://dai.google.com/ssai/event/gF4fNDLFQ9SlJT1MO53MqA/master.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://dai.google.com/ssai/event/gF4fNDLFQ9SlJT1MO53MqA/master.m3u8"
       }
     },
     {
@@ -362,19 +379,6 @@
       "is_free": false,
       "stream_url": {
         "Original Server": "https://dai.google.com/ssai/event/XmqwVn_hSLSfcYpIY4_oxQ/master.m3u8"
-      }
-    },
-    {
-      "match_id": "1090541367",
-      "title": "Malaysia vs Oman - 26 Sep 2026",
-      "synopsis": "Malaysia take on Oman in this exciting Men's Cricket encounter at the 20th Asian Games Aichi-Nagoya 2026. Catch all the action, LIVE on Sony LIV.",
-      "status": "LIVE",
-      "time": "26 Sep 2026, 10:00 AM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024800/1790345606308331_AG_26_MALAYSAI_VS_OMAN_LIVE_landscape_thumb.jpg",
-      "match_url": "https://dai.google.com/ssai/event/F_H8S5gzS56WKJiNDa1z5Q/master.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://dai.google.com/ssai/event/F_H8S5gzS56WKJiNDa1z5Q/master.m3u8"
       }
     },
     {
@@ -549,10 +553,10 @@
       "status": "LIVE",
       "time": "9:00 AM 26-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790489851-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-0a55f2c97d923ba36ac2645e03676b47|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790490751-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-e80b16394d21bf66ecf87bfffc071aae|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790489851-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-0a55f2c97d923ba36ac2645e03676b47|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790490751-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-e80b16394d21bf66ecf87bfffc071aae|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -562,10 +566,10 @@
       "status": "LIVE",
       "time": "11:00 AM 26-09-2026",
       "cover_image": "",
-      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143073/720p/chunks.m3u8?is_vip=false&token=1790489854-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-41f3b50805c75dc59939db1f1595c19b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143073/720p/chunks.m3u8?is_vip=false&token=1790490753-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-26802ba4a6bb0f3ea80febb6c2798c9a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143073/720p/chunks.m3u8?is_vip=false&token=1790489854-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-41f3b50805c75dc59939db1f1595c19b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143073/720p/chunks.m3u8?is_vip=false&token=1790490753-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-26802ba4a6bb0f3ea80febb6c2798c9a|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
@@ -575,22 +579,24 @@
       "status": "LIVE",
       "time": "12:00 PM 26-09-2026",
       "cover_image": "https://rs.maycdn.com/fixture/leagues/af/803.png",
-      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab3fed670a52b8b4e741fd2/chunks.m3u8?is_vip=false&token=1790489862-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-8a64bdf434f6f7d4251773e1ba3c57ff|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
+      "match_url": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab3fed670a52b8b4e741fd2/chunks.m3u8?is_vip=false&token=1790490756-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-478ace951d5622433c2e57f42c1ff138|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab3fed670a52b8b4e741fd2/chunks.m3u8?is_vip=false&token=1790489862-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-8a64bdf434f6f7d4251773e1ba3c57ff|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+        "Server 1": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab3fed670a52b8b4e741fd2/chunks.m3u8?is_vip=false&token=1790490756-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-478ace951d5622433c2e57f42c1ff138|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
       }
     },
     {
       "match_id": "72917",
       "title": "Baku, AzerbaijanRace 2",
       "synopsis": "FIA Formula 2 Championship Feature Race - Baku, AzerbaijanRace 2",
-      "status": "NS",
+      "status": "LIVE",
       "time": "1:00 PM 26-09-2026",
       "cover_image": "",
-      "match_url": "",
+      "match_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1790490759-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-0c13891840c3fd1bb761b0b9a391403b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": {
+        "Server 1": "https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1790490759-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-0c13891840c3fd1bb761b0b9a391403b|http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&http-referrer=https://iframe.rumsport8.live/"
+      }
     },
     {
       "match_id": "66545",
