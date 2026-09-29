@@ -5,8 +5,8 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 25,
-  "live_count": 1,
+  "channels_amount": 28,
+  "live_count": 4,
   "last_update": "11:35 PM 29-09-2026",
   "events": [
     {
@@ -130,6 +130,20 @@
       "drm_key": ""
     },
     {
+      "match_id": "B0HKSFVGW9",
+      "title": "Sep 29 - PTT Lincoln",
+      "synopsis": "Sep 29 - PTT Lincoln",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.cf5613bf-1755-4053-b0a6-a33515e192cd/7/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HKSFVGW9",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://a68live-pv-ta-amazon.akamaized.net/$T$2D3RhEOhAQWhBFgkYWY3NDZlZjAtYzM0OC00MGM1LWFjN2UtYTVhZWIzNjhiNjA0WJCnAWpwcmltZXZpZGVvBBpqz4RpBhpqu73pA2Zha2FtYWkCeClzc2lkOjRkNjQyNDlkLTUyZGYtNGFlMi05MTY5LTc4MDRmNTU1ZDIyYxkBOKEFoQJ4My9oZXR6enZhb2ljL291dC92MS9jNzJiOWFiMDBjMTM0M2ZjYmQ0ZDhkOWMyZDBkNmIxNhkBPIFiVVNYIBSxAoW-ALr-qGKzrfHBrQYXJ0x9pCuZc5dyEEINqtVE/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/hetzzvaoic/out/v1/c72b9ab00c1343fcbd4d8d9c2d0d6b16/959fb37e-819d-48ac-a275-a9169d1889ee-cenc.mpd"
+      },
+      "drm_key": "e3a4fe2d55c09f648a8842a920248eed:bd09d4918e5483e5f18b1099692d3a70"
+    },
+    {
       "match_id": "1090545343",
       "title": "Finland vs Belarus - 29 Sep 2026",
       "synopsis": "Finland meet Belarus in a UEFA Nations League 2026-27 league-phase clash, with valuable points on the line as the campaign gathers pace. Watch all the action, LIVE on Sony LIV.",
@@ -140,6 +154,32 @@
       "is_free": false,
       "stream_url": {
         "Original Server": "https://dai.google.com/ssai/event/lqVj4YjSQE6TgVCJaDNnlA/master.m3u8"
+      }
+    },
+    {
+      "match_id": "1090545448",
+      "title": "Spain vs Croatia - 30 Sep 2026",
+      "synopsis": "Spain face Croatia in a UEFA Nations League 2026-27 clash as two European sides meet in the league phase. Watch all the action LIVE, only on Sony LIV.",
+      "status": "LIVE",
+      "time": "30 Sep 2026, 12:05 AM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024421/1790037081710813_UNL2627_Spain_vs_Croatia_landscape_thumb.jpg",
+      "match_url": "https://dai.google.com/ssai/event/oZs88hOjQ3S-EChISQYBTg/master.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://dai.google.com/ssai/event/oZs88hOjQ3S-EChISQYBTg/master.m3u8"
+      }
+    },
+    {
+      "match_id": "1090545449",
+      "title": "Czechia vs England - 30 Sep 2026",
+      "synopsis": "Czechia take on England in the UEFA Nations League 2026-27 as the teams meet in another league-phase fixture. Watch all the action LIVE, only on Sony LIV.",
+      "status": "LIVE",
+      "time": "30 Sep 2026, 12:05 AM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024420/1790037196135628_UNL2627_Czechia_vs_England_landscape_thumb.jpg",
+      "match_url": "https://dai.google.com/ssai/event/CQGb3i5DRQS6S07yMPPm2A/master.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://dai.google.com/ssai/event/CQGb3i5DRQS6S07yMPPm2A/master.m3u8"
       }
     },
     {
