@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 30,
-  "live_count": 7,
-  "last_update": "10:07 PM 07-10-2026",
+  "channels_amount": 29,
+  "live_count": 6,
+  "last_update": "10:36 PM 07-10-2026",
   "events": [
     {
       "match_id": "B0HLVXRCKB",
@@ -267,23 +267,6 @@
       "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
     },
     {
-      "match_id": "B0HLTN89KS",
-      "title": "The Morning Drive",
-      "synopsis": "The Morning Drive",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.24ffd41d-80bc-412a-aec4-e3b6338fb6a0/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HLTN89KS",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vax19ewjes/out/v1/f077d112d47e4a899664fa27031ba9fa/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vax19ewjes/out/v1/f077d112d47e4a899664fa27031ba9fa/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vax19ewjes/out/v1/f077d112d47e4a899664fa27031ba9fa/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vax19ewjes/out/v1/f077d112d47e4a899664fa27031ba9fa/cenc.mpd"
-      },
-      "drm_key": "e14535ab02e4065cc846047f1feee48d:a51c5c164f9a6b0ae751afeec7f85052"
-    },
-    {
       "match_id": "B0HLS2VXHX",
       "title": "Oct 7 - PTT Cordoba Men",
       "synopsis": "Oct 7 - PTT Cordoba Men",
@@ -312,6 +295,20 @@
       "drm_key": "24abc4e05149ec932ec1d34b9190c8c5:47c91bdde90e098162b834c9b9f3925c"
     },
     {
+      "match_id": "B0HL6DLN4S",
+      "title": "Oct 7 - UTR PTT San Diego",
+      "synopsis": "Oct 7 - UTR PTT San Diego",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.5f504f0b-6e57-4f91-a1d3-4c3ef2b92d53/10/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HL6DLN4S",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://ABJDBDDAAAAAAAAMFNQZ5Z3WI444P.ta.bia-cf.live.pv-cdn.net/$T$2D3RhEOhAQWhBFgkYzQ1OWU1YmItZDgxMS00NGM2LTgwYzQtNTNkZDc3NTIwODk5WJOnAWpwcmltZXZpZGVvBBpq2kGjBhpqxnsjA2pjbG91ZGZyb250AngoZmlkOjAxYTExNzUxLTAyNjQtNzc3Zi1iOWRmLWM2NTA5YmYwNDhmNBkBOKEFoQJ4My9neXBodWd1azE3L291dC92MS83ZjZkMTUwZGRiNmI0N2M3ODU2ODVlMGFiYmVhNjI4NBkBPIFiVVNYIGfk5hSN91g9CEdzwlyReMRKmF0CRbqYSVFulXeBh8x0/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/gyphuguk17/out/v1/7f6d150ddb6b47c785685e0abbea6284/0a099a79-7a07-401a-87b9-bf013b767749-cenc.mpd"
+      },
+      "drm_key": "a40938c361c86a39aa7d76174c6f953c:39bcf6ad825e882b92ca2cb6e6a72ef7"
+    },
+    {
       "match_id": "1090538390",
       "title": "Kaun Banega Crorepati",
       "synopsis": "Kaun Banega Crorepati Season 18 is here on Sony LIV! Join Amitabh Bachchan as India's biggest quiz show returns, championing the power of applied knowledge with the new theme, “Sochna Padega.” In a world where information is everywhere, what matters is how you apply it. Watch every episode, play along live on Sony LIV, answer questions in real time, and stand a chance to win exciting prizes.",
@@ -322,19 +319,6 @@
       "is_free": false,
       "stream_url": {
         "Original Server": "https://dai.google.com/ssai/event/ZTiS6CxzTsyOWIIkUAdP3A/master.m3u8"
-      }
-    },
-    {
-      "match_id": "1090547324",
-      "title": "Hooghly Hitters vs Namma Bengaluru Smashers - 7 Oct 2026",
-      "synopsis": "Watch all the action from the Volleyball Championship League 2026 as Hooghly Hitters take on Namma Bengaluru Smashers, LIVE on Sony LIV.",
-      "status": "LIVE",
-      "time": "07 Oct 2026, 06:30 PM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000025957/1791355174953342_VCL_Hoogly-Hitters-vs-Namma-Bengaluru-Smashers_live_landscape_thumb.jpg",
-      "match_url": "https://dai.google.com/ssai/event/9Z3QHcS6TmqIdw1xt35scA/master.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://dai.google.com/ssai/event/9Z3QHcS6TmqIdw1xt35scA/master.m3u8"
       }
     },
     {
