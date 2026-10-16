@@ -94,6 +94,7 @@ jobs:
 
               stream_url_alpha = {}
               drm_keys = {}
+              first_drm = ""
 
               channels = item.get("channels", [])
               if isinstance(channels, list):
@@ -113,7 +114,10 @@ jobs:
                           stream_url_alpha[ch_name] = ch_url
                           drm = ch.get("drm_key")
                           if drm:
-                              drm_keys[ch_name] = str(drm).strip()
+                              drm_str = str(drm).strip()
+                              drm_keys[ch_name] = drm_str
+                              if not first_drm:
+                                  first_drm = drm_str
 
               transformed = {
                   "match_id": match_id,
@@ -130,7 +134,8 @@ jobs:
                   "stream_url": stream_url_alpha
               }
 
-              # শুধুমাত্র drm_keys ফিল্ড রাখা হলো
+              if first_drm:
+                  transformed["drm_key"] = first_drm
               if drm_keys:
                   transformed["drm_keys"] = drm_keys
 
