@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 87,
   "live_count": 43,
-  "last_update": "04:25 AM 17-10-2026",
+  "last_update": "04:30 AM 17-10-2026",
   "events": [
     {
       "match_id": "B0HN8KZH6R",
@@ -370,6 +370,21 @@
       "stream_url": {}
     },
     {
+      "match_id": "mirassol-vs-internacional",
+      "title": "Mirassol vs Internacional",
+      "sport": "Football",
+      "sub_category": "Campeonato Brasileiro Série A",
+      "status": "LIVE",
+      "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
+      "time": "Oct 17, 2026, 05:00:00 AM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|drm_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
+      }
+    },
+    {
       "match_id": "cleveland-guardians-vs-tampa-bay-rays",
       "title": "Cleveland Guardians vs Tampa Bay Rays",
       "sport": "Baseball",
@@ -385,6 +400,66 @@
         "FOX SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16",
         "FOX DEPORTES - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
         "HD SERVER": "https://edgestream7.pro/hls/dazhfiach15.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
+      }
+    },
+    {
+      "match_id": "philadelphia-76ers-vs-boston-celtics",
+      "title": "Philadelphia 76ers vs Boston Celtics",
+      "sport": "Basketball",
+      "sub_category": "NBA Preseason",
+      "status": "LIVE",
+      "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
+      "time": "Oct 17, 2026, 05:00:00 AM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream2.pro/hls/wfazgsqtrezu66.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
+      }
+    },
+    {
+      "match_id": "indiana-pacers-vs-milwaukee-bucks",
+      "title": "Indiana Pacers vs Milwaukee Bucks",
+      "sport": "Basketball",
+      "sub_category": "NBA Preseason",
+      "status": "LIVE",
+      "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
+      "time": "Oct 17, 2026, 05:00:00 AM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream7.pro/hls/zayrtezafgvdv68.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
+      }
+    },
+    {
+      "match_id": "orlando-magic-vs-miami-heat",
+      "title": "Orlando Magic vs Miami Heat",
+      "sport": "Basketball",
+      "sub_category": "NBA Preseason",
+      "status": "LIVE",
+      "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
+      "time": "Oct 17, 2026, 05:00:00 AM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream5.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
+      }
+    },
+    {
+      "match_id": "detroit-pistons-vs-toronto-raptors",
+      "title": "Detroit Pistons vs Toronto Raptors",
+      "sport": "Basketball",
+      "sub_category": "NBA Preseason",
+      "status": "LIVE",
+      "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
+      "time": "Oct 17, 2026, 05:00:00 AM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream4.pro/hls/hfsdqtaxvb67.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
       }
     },
     {
@@ -417,81 +492,6 @@
       "is_free": false,
       "stream_url_alpha": {
         "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
-      }
-    },
-    {
-      "match_id": "mirassol-vs-internacional",
-      "title": "Mirassol vs Internacional",
-      "sport": "Football",
-      "sub_category": "Campeonato Brasileiro Série A",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
-      "time": "Oct 17, 2026, 05:00:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|drm_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
-      }
-    },
-    {
-      "match_id": "philadelphia-76ers-vs-boston-celtics",
-      "title": "Philadelphia 76ers vs Boston Celtics",
-      "sport": "Basketball",
-      "sub_category": "NBA Preseason",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
-      "time": "Oct 17, 2026, 05:00:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "HD QUALITY": "https://edgestream2.pro/hls/wfazgsqtrezu66.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
-      }
-    },
-    {
-      "match_id": "indiana-pacers-vs-milwaukee-bucks",
-      "title": "Indiana Pacers vs Milwaukee Bucks",
-      "sport": "Basketball",
-      "sub_category": "NBA Preseason",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
-      "time": "Oct 17, 2026, 05:00:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "HD QUALITY": "https://edgestream7.pro/hls/zayrtezafgvdv68.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
-      }
-    },
-    {
-      "match_id": "orlando-magic-vs-miami-heat",
-      "title": "Orlando Magic vs Miami Heat",
-      "sport": "Basketball",
-      "sub_category": "NBA Preseason",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
-      "time": "Oct 17, 2026, 05:00:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "HD QUALITY": "https://edgestream5.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
-      }
-    },
-    {
-      "match_id": "detroit-pistons-vs-toronto-raptors",
-      "title": "Detroit Pistons vs Toronto Raptors",
-      "sport": "Basketball",
-      "sub_category": "NBA Preseason",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
-      "time": "Oct 17, 2026, 05:00:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "HD QUALITY": "https://edgestream4.pro/hls/hfsdqtaxvb67.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
       }
     },
     {
