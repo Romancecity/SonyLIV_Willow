@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 87,
   "live_count": 46,
-  "last_update": "01:27 AM 17-10-2026",
+  "last_update": "01:32 AM 17-10-2026",
   "events": [
     {
       "match_id": "B0HMJGLWX8",
@@ -391,26 +391,6 @@
       "match_url": "https://www.sonyliv.com/custom-live/1090548283",
       "is_free": false,
       "stream_url": {}
-    },
-    {
-      "match_id": "wcl-world-championship-of-legends",
-      "title": "WCL World Championship of Legends",
-      "sport": "Cricket",
-      "sub_category": "World Championship of Legends",
-      "status": "LIVE",
-      "start_time_bst": "Oct 16, 2026, 09:30:28 PM",
-      "time": "Oct 16, 2026, 09:30:28 PM",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZ0c8Wb0slhQCjc_XsPzMuqyX52rG-yapyEgJpdSmSQ&s=10",
-      "cover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZ0c8Wb0slhQCjc_XsPzMuqyX52rG-yapyEgJpdSmSQ&s=10",
-      "is_free": false,
-      "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/erfohta9mo/out/v1/37c9d4426c814b168257fc9b34551119/cenc.mpd|drm_key=5a0e73fa4a0c0573476bf83d0e677b37:dcddd039f451b85d8463a35624e42aaf",
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|drm_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
-        "STARZPLAY - AQ": "https://d1ifzl5cnhi7bu.cloudfront.net/out/v1/45ba30e075ad455a8767d3f33e67ea3d/index.mpd|drm_key=0ae4f162eec3e6f2b580a5bf0f4a64d4:03483335db81cba5bbcf51b6d31196d9",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/erfohta9mo/out/v1/37c9d4426c814b168257fc9b34551119/cenc.mpd|drm_key=5a0e73fa4a0c0573476bf83d0e677b37:dcddd039f451b85d8463a35624e42aaf",
-        "WILLOW HD": "https://df3xownvf1f4t.cloudfront.net/v1/master/071c0467fcd02420cdf0d8a1ca3524b96c27a151/willow_tv/playlist.m3u8",
-        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4249229_english_hls_dd4592751127063_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
-      }
     },
     {
       "match_id": "eintracht-frankfurt-vs-1-fc-koln",
@@ -1088,7 +1068,9 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+      }
     },
     {
       "match_id": "everton-vs-chelsea",
@@ -1308,6 +1290,19 @@
       "time": "Oct 18, 2026, 12:00:00 AM",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "wcl-world-championship-of-legends",
+      "title": "WCL World Championship of Legends",
+      "sport": "Cricket",
+      "sub_category": "World Championship of Legends",
+      "status": "ENDED",
+      "start_time_bst": "Oct 16, 2026, 09:30:28 PM",
+      "time": "Oct 16, 2026, 09:30:28 PM",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZ0c8Wb0slhQCjc_XsPzMuqyX52rG-yapyEgJpdSmSQ&s=10",
+      "cover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZ0c8Wb0slhQCjc_XsPzMuqyX52rG-yapyEgJpdSmSQ&s=10",
       "is_free": false,
       "stream_url_alpha": {}
     }
