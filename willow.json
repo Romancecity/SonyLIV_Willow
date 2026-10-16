@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 88,
   "live_count": 44,
-  "last_update": "02:17 AM 17-10-2026",
+  "last_update": "02:23 AM 17-10-2026",
   "events": [
     {
       "match_id": "B0HN8KZH6R",
@@ -387,26 +387,6 @@
       "stream_url": {}
     },
     {
-      "match_id": "eintracht-frankfurt-vs-1-fc-koln",
-      "title": "Eintracht Frankfurt vs 1. FC Koln",
-      "sport": "Football",
-      "sub_category": "Bundesliga",
-      "status": "LIVE",
-      "start_time_bst": "Oct 17, 2026, 12:30:00 AM",
-      "time": "Oct 17, 2026, 12:30:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "SporTV BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b",
-        "ONE SOCCER HD": "https://admin2.formaturamaxi.com.br/one.m3u8",
-        "CRICFy LIVE": "https://live.vivo155.com/live/hd-en-1-4566306.m3u8?txSecret=4f425a6ded943737d287331589513ac4&txTime=6AD2815F|Referer=https://player.online878.com/",
-        "HD SERVER": "https://edgestream5.pro/hls/ueyeztrazb4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-        "CRICFy FAST": "https://www.rtmpcdn.com/live/c03a3e8b-ff7f-4afc-9d70-ef279a67849a.m3u8",
-        "LOW SERVER": "http://193.47.62.59/hls/4HHHAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
       "match_id": "frosinone-vs-sassuolo",
       "title": "Frosinone vs Sassuolo",
       "sport": "Football",
@@ -484,22 +464,6 @@
         "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4563626.m3u8?txSecret=caf96a33182a8f30fcc9498c4456fc03&txTime=6AD28764|Referer=https://player.online878.com/",
         "HD SERVER": "https://edgestream4.pro/hls/24SDAZFcsqnj24.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
         "LOW SERVER": "http://193.47.62.50/hls/8FFFFQQQQQAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
-      "match_id": "leganes-vs-cordoba",
-      "title": "Leganes vs Cordoba",
-      "sport": "Football",
-      "sub_category": "LaLiga 2",
-      "status": "LIVE",
-      "start_time_bst": "Oct 17, 2026, 12:30:00 AM",
-      "time": "Oct 17, 2026, 12:30:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4567318.m3u8?txSecret=d4cb67d183d971eee237000e8528d468&txTime=6AD2803C|Referer=https://player.online878.com/",
-        "LOW SERVER": "http://193.47.62.59/hls/4HHHAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -1076,7 +1040,9 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+      }
     },
     {
       "match_id": "fulham-vs-hull-city",
@@ -1089,7 +1055,9 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+      }
     },
     {
       "match_id": "manchester-city-vs-ipswich-town",
@@ -1287,6 +1255,19 @@
       "stream_url_alpha": {}
     },
     {
+      "match_id": "eintracht-frankfurt-vs-1-fc-koln",
+      "title": "Eintracht Frankfurt vs 1. FC Koln",
+      "sport": "Football",
+      "sub_category": "Bundesliga",
+      "status": "ENDED",
+      "start_time_bst": "Oct 17, 2026, 12:30:00 AM",
+      "time": "Oct 17, 2026, 12:30:00 AM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
       "match_id": "sc-heerenveen-vs-excelsior",
       "title": "SC Heerenveen vs Excelsior",
       "sport": "Football",
@@ -1296,6 +1277,19 @@
       "time": "Oct 17, 2026, 12:00:00 AM",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "leganes-vs-cordoba",
+      "title": "Leganes vs Cordoba",
+      "sport": "Football",
+      "sub_category": "LaLiga 2",
+      "status": "ENDED",
+      "start_time_bst": "Oct 17, 2026, 12:30:00 AM",
+      "time": "Oct 17, 2026, 12:30:00 AM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
       "is_free": false,
       "stream_url_alpha": {}
     }
