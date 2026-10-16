@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 85,
   "live_count": 44,
-  "last_update": "01:47 AM 17-10-2026",
+  "last_update": "01:52 AM 17-10-2026",
   "events": [
     {
       "match_id": "B0HF49JPT3",
@@ -448,22 +448,6 @@
         "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4563626.m3u8?txSecret=caf96a33182a8f30fcc9498c4456fc03&txTime=6AD28764|Referer=https://player.online878.com/",
         "HD SERVER": "https://edgestream4.pro/hls/24SDAZFcsqnj24.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
         "LOW SERVER": "http://193.47.62.50/hls/8FFFFQQQQQAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
-      "match_id": "sc-heerenveen-vs-excelsior",
-      "title": "SC Heerenveen vs Excelsior",
-      "sport": "Football",
-      "sub_category": "VriendenLoterij Eredivisie",
-      "status": "LIVE",
-      "start_time_bst": "Oct 17, 2026, 12:00:00 AM",
-      "time": "Oct 17, 2026, 12:00:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4552219.m3u8?txSecret=d231bc19e3da54cb39e4e7c437172987&txTime=6AD27933|Referer=https://player.online878.com/",
-        "LOW SERVER": "http://193.47.62.44/hls/Z666AAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -1041,7 +1025,9 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+      }
     },
     {
       "match_id": "brentford-vs-liverpool-fc",
@@ -1261,6 +1247,19 @@
       "time": "Oct 16, 2026, 09:30:28 PM",
       "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZ0c8Wb0slhQCjc_XsPzMuqyX52rG-yapyEgJpdSmSQ&s=10",
       "cover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZ0c8Wb0slhQCjc_XsPzMuqyX52rG-yapyEgJpdSmSQ&s=10",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "sc-heerenveen-vs-excelsior",
+      "title": "SC Heerenveen vs Excelsior",
+      "sport": "Football",
+      "sub_category": "VriendenLoterij Eredivisie",
+      "status": "ENDED",
+      "start_time_bst": "Oct 17, 2026, 12:00:00 AM",
+      "time": "Oct 17, 2026, 12:00:00 AM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
       "is_free": false,
       "stream_url_alpha": {}
     }
