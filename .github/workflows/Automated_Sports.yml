@@ -126,11 +126,9 @@ jobs:
                   "logo": logo,
                   "cover_image": logo,
                   "is_free": False,
-                  "stream_url_alpha": stream_url_alpha,
-                  "stream_url": stream_url_alpha
+                  "stream_url_alpha": stream_url_alpha
               }
 
-              # শুধুমাত্র drm_keys ফিল্ড রাখা হলো
               if drm_keys:
                   transformed["drm_keys"] = drm_keys
 
@@ -204,8 +202,7 @@ jobs:
                   "logo": cover_image,
                   "match_url": match_url,
                   "is_free": False,
-                  "stream_url": stream_urls,
-                  "stream_url_alpha": stream_urls
+                  "stream_url": stream_urls
               }
 
           # ================= BINGSTREAM =================
@@ -315,8 +312,7 @@ jobs:
                   "logo": cover_image,
                   "match_url": match_url,
                   "is_free": False,
-                  "stream_url": stream_urls,
-                  "stream_url_alpha": stream_urls
+                  "stream_url": stream_urls
               }
 
           # ================= COMMON UTILS =================
