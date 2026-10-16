@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 92,
   "live_count": 48,
-  "last_update": "04:55 AM 17-10-2026",
+  "last_update": "05:00 AM 17-10-2026",
   "events": [
     {
       "match_id": "B0HN8KZH6R",
@@ -568,6 +568,21 @@
       }
     },
     {
+      "match_id": "everton-vs-chelsea",
+      "title": "Everton vs Chelsea",
+      "sport": "Football",
+      "sub_category": "Premier League",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 17, 2026, 05:30:00 PM",
+      "time": "Oct 17, 2026, 05:30:00 PM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+      }
+    },
+    {
       "match_id": "san-antonio-spurs-vs-sacramento-kings",
       "title": "San Antonio Spurs vs Sacramento Kings",
       "sport": "Basketball",
@@ -985,21 +1000,6 @@
       "time": "Oct 17, 2026, 10:30:00 PM",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
-      }
-    },
-    {
-      "match_id": "everton-vs-chelsea",
-      "title": "Everton vs Chelsea",
-      "sport": "Football",
-      "sub_category": "Premier League",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 17, 2026, 05:30:00 PM",
-      "time": "Oct 17, 2026, 05:30:00 PM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
       "is_free": false,
       "stream_url_alpha": {
         "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
