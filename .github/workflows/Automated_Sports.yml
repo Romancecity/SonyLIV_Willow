@@ -2,10 +2,10 @@ name: Automated Sports Data JSON & All TXT Updater
 
 on:
   schedule:
-    - cron: '*/15 * * * *'   # ব্যাকআপ হিসেবে প্রতি ১৫ মিনিট চলবে
+    - cron: '*/15 * * * *'
   workflow_dispatch:
   repository_dispatch:
-    types: [update-playlist] # 👈 রেন্ডার ওয়াচার বটের সংকেত রিসিভ করবে
+    types: [update-playlist]
 
 jobs:
   update-file:
@@ -102,22 +102,24 @@ jobs:
                       ch_name = ch.get("channel_name") or f"Server {len(stream_url_alpha) + 1}"
                       ch_url = ch.get("raw_link") or ch.get("url") or ""
 
-                      # Headers
+                      # Headers হ্যান্ডলিং
                       headers = ch.get("headers")
                       if ch_url and isinstance(headers, dict) and "|" not in ch_url:
                           h_parts = [f"{k}={v}" for k, v in headers.items() if v]
                           if h_parts:
                               ch_url += "|" + "&".join(h_parts)
 
+                      # DRM Key লিঙ্ক এর সাথে যুক্ত করা
                       drm = ch.get("drm_key")
-                      drm_str = str(drm).strip() if drm else None
+                      if ch_url and drm:
+                          drm_str = str(drm).strip()
+                          if "|" in ch_url:
+                              ch_url += f"&drm_key={drm_str}"
+                          else:
+                              ch_url += f"|drm_key={drm_str}"
 
                       if ch_url:
-                          # সমাধান ২: প্রতিটি চ্যানেল অবজেক্ট হিসেবে URL এবং drm_key রাখবে
-                          stream_url_alpha[ch_name] = {
-                              "url": ch_url,
-                              "drm_key": drm_str
-                          }
+                          stream_url_alpha[ch_name] = ch_url
 
               return {
                   "match_id": match_id,
@@ -331,11 +333,8 @@ jobs:
               
               stream_obj = item.get("stream_url", {}) or item.get("stream_url_alpha", {})
               if isinstance(stream_obj, dict):
-                  for v in stream_obj.values():
-                      if isinstance(v, str) and v.startswith("http"):
-                          return True
-                      elif isinstance(v, dict) and str(v.get("url", "")).startswith("http"):
-                          return True
+                  if any(str(v).startswith("http") for v in stream_obj.values() if v):
+                      return True
 
               for k in ["is_live", "live", "isLive", "islive", "is_stream_live"]:
                   if k in item:
