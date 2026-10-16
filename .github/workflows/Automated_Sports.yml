@@ -93,7 +93,6 @@ jobs:
                   status = status_raw if status_raw else "UPCOMING"
 
               stream_url_alpha = {}
-              drm_keys = {}
 
               channels = item.get("channels", [])
               if isinstance(channels, list):
@@ -103,19 +102,24 @@ jobs:
                       ch_name = ch.get("channel_name") or f"Server {len(stream_url_alpha) + 1}"
                       ch_url = ch.get("raw_link") or ch.get("url") or ""
 
+                      # Headers
                       headers = ch.get("headers")
                       if ch_url and isinstance(headers, dict) and "|" not in ch_url:
                           h_parts = [f"{k}={v}" for k, v in headers.items() if v]
                           if h_parts:
                               ch_url += "|" + "&".join(h_parts)
 
-                      if ch_url:
-                          stream_url_alpha[ch_name] = ch_url
-                          drm = ch.get("drm_key")
-                          if drm:
-                              drm_keys[ch_name] = str(drm).strip()
+                      drm = ch.get("drm_key")
+                      drm_str = str(drm).strip() if drm else None
 
-              transformed = {
+                      if ch_url:
+                          # সমাধান ২: প্রতিটি চ্যানেল অবজেক্ট হিসেবে URL এবং drm_key রাখবে
+                          stream_url_alpha[ch_name] = {
+                              "url": ch_url,
+                              "drm_key": drm_str
+                          }
+
+              return {
                   "match_id": match_id,
                   "title": title,
                   "sport": sport,
@@ -128,11 +132,6 @@ jobs:
                   "is_free": False,
                   "stream_url_alpha": stream_url_alpha
               }
-
-              if drm_keys:
-                  transformed["drm_keys"] = drm_keys
-
-              return transformed
 
           # ================= SONY LIV =================
           def is_sonyliv_item(item):
@@ -332,8 +331,11 @@ jobs:
               
               stream_obj = item.get("stream_url", {}) or item.get("stream_url_alpha", {})
               if isinstance(stream_obj, dict):
-                  if any(str(v).startswith("http") for v in stream_obj.values() if v):
-                      return True
+                  for v in stream_obj.values():
+                      if isinstance(v, str) and v.startswith("http"):
+                          return True
+                      elif isinstance(v, dict) and str(v.get("url", "")).startswith("http"):
+                          return True
 
               for k in ["is_live", "live", "isLive", "islive", "is_stream_live"]:
                   if k in item:
