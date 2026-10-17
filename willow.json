@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 84,
   "live_count": 53,
-  "last_update": "07:43 AM 17-10-2026",
+  "last_update": "07:48 AM 17-10-2026",
   "events": [
     {
       "match_id": "B0HN8KZH6R",
@@ -873,6 +873,21 @@
       }
     },
     {
+      "match_id": "villarreal-vs-elche",
+      "title": "Villarreal vs Elche",
+      "sport": "Football",
+      "sub_category": "LaLiga",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 17, 2026, 08:15:00 PM",
+      "time": "Oct 17, 2026, 08:15:00 PM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+      }
+    },
+    {
       "match_id": "los-angeles-lakers-vs-denver-nuggets",
       "title": "Los Angeles Lakers vs Denver Nuggets",
       "sport": "Basketball",
@@ -1141,21 +1156,6 @@
       "time": "Oct 18, 2026, 12:45:00 AM",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
-      }
-    },
-    {
-      "match_id": "villarreal-vs-elche",
-      "title": "Villarreal vs Elche",
-      "sport": "Football",
-      "sub_category": "LaLiga",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 17, 2026, 08:15:00 PM",
-      "time": "Oct 17, 2026, 08:15:00 PM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
       "is_free": false,
       "stream_url_alpha": {
         "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
