@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 108,
   "live_count": 48,
-  "last_update": "08:44 AM 17-10-2026",
+  "last_update": "08:49 AM 17-10-2026",
   "events": [
     {
       "match_id": "B0HN8KZH6R",
@@ -729,6 +729,21 @@
       }
     },
     {
+      "match_id": "rc-strasbourg-vs-paris-saint-germain",
+      "title": "RC Strasbourg vs Paris Saint-Germain",
+      "sport": "Football",
+      "sub_category": "Ligue 1",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 17, 2026, 09:15:00 PM",
+      "time": "Oct 17, 2026, 09:15:00 PM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+      }
+    },
+    {
       "match_id": "middlesbrough-vs-cardiff-city",
       "title": "Middlesbrough vs Cardiff City",
       "sport": "Football",
@@ -1070,12 +1085,7 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
       "cover_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
       "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/54800/load-playlist?|Referer=https://gooz.aapmains.net",
-        "HD SERVER": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/1.m3u8",
-        "CRICFy HD": "https://edgestream2.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-        "SD SERVER": "http://193.47.62.59/hls/K999QQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
+      "stream_url_alpha": {}
     },
     {
       "match_id": "ufc-live",
@@ -1243,19 +1253,6 @@
       "time": "Oct 18, 2026, 01:00:00 AM",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "rc-strasbourg-vs-paris-saint-germain",
-      "title": "RC Strasbourg vs Paris Saint-Germain",
-      "sport": "Football",
-      "sub_category": "Ligue 1",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 17, 2026, 09:15:00 PM",
-      "time": "Oct 17, 2026, 09:15:00 PM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
       "is_free": false,
       "stream_url_alpha": {}
     },
