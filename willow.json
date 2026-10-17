@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 103,
   "live_count": 46,
-  "last_update": "10:26 AM 17-10-2026",
+  "last_update": "10:31 AM 17-10-2026",
   "events": [
     {
       "match_id": "B0HN8KZH6R",
@@ -413,24 +413,6 @@
       "match_url": "https://www.sonyliv.com/custom-live/1090548283",
       "is_free": false,
       "stream_url": {}
-    },
-    {
-      "match_id": "los-angeles-lakers-vs-denver-nuggets",
-      "title": "Los Angeles Lakers vs Denver Nuggets",
-      "sport": "Basketball",
-      "sub_category": "NBA Preseason",
-      "status": "LIVE",
-      "start_time_bst": "Oct 17, 2026, 08:30:00 AM",
-      "time": "Oct 17, 2026, 08:30:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/58126/load-playlist?|Referer=https://gooz.aapmains.net",
-        "HD QUALITY": "https://edgestream6.pro/hls/xcsfadafgzfg76.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-        "PLAYFy LIVE": "https://www.rtmpcdn.com/live/139626cd-4279-417b-a718-e1470c5e219d.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-        "LOW QUALITY": "http://193.47.62.55/hls/HTTTAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
     },
     {
       "match_id": "india-vs-west-indies",
@@ -1032,7 +1014,9 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+      }
     },
     {
       "match_id": "fenerbahce-vs-alanyaspor",
@@ -1419,6 +1403,19 @@
       "status": "ENDED",
       "start_time_bst": "Oct 17, 2026, 08:00:00 AM",
       "time": "Oct 17, 2026, 08:00:00 AM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "los-angeles-lakers-vs-denver-nuggets",
+      "title": "Los Angeles Lakers vs Denver Nuggets",
+      "sport": "Basketball",
+      "sub_category": "NBA Preseason",
+      "status": "ENDED",
+      "start_time_bst": "Oct 17, 2026, 08:30:00 AM",
+      "time": "Oct 17, 2026, 08:30:00 AM",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
       "is_free": false,
