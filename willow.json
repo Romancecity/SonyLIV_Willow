@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 99,
   "live_count": 45,
-  "last_update": "04:42 PM 17-10-2026",
+  "last_update": "04:48 PM 17-10-2026",
   "events": [
     {
       "match_id": "B0HN8KZH6R",
@@ -527,6 +527,7 @@
       "is_free": false,
       "stream_url_alpha": {
         "A SPORTS HD": "https://playztv-apps.pages.dev/a-sports/index.m3u8",
+        "T SPORTS HD": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
         "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4249694_english_hls_c370ab317921311_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
       }
     },
@@ -914,7 +915,8 @@
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
       "is_free": false,
       "stream_url_alpha": {
-        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+        "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4563628.m3u8?txSecret=9b8bcf75ff2c65a257834fcc1d0e8199&txTime=6AD36BEA|Referer=https://player.online878.com/",
+        "LOW SERVER": "http://193.47.62.50/hls/4GGGQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
