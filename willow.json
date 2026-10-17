@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 73,
   "live_count": 39,
-  "last_update": "12:26 AM 18-10-2026",
+  "last_update": "12:31 AM 18-10-2026",
   "events": [
     {
       "match_id": "B0HN8KZH6R",
@@ -578,6 +578,22 @@
       }
     },
     {
+      "match_id": "valencia-vs-athletic-club",
+      "title": "Valencia vs Athletic Club",
+      "sport": "Football",
+      "sub_category": "LaLiga",
+      "status": "LIVE",
+      "start_time_bst": "Oct 18, 2026, 01:00:00 AM",
+      "time": "Oct 18, 2026, 01:00:00 AM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+      }
+    },
+    {
       "match_id": "lille-vs-stade-brestois",
       "title": "Lille vs Stade Brestois",
       "sport": "Football",
@@ -653,6 +669,36 @@
       }
     },
     {
+      "match_id": "sparta-rotterdam-vs-willem-ii-tilburg",
+      "title": "Sparta Rotterdam vs Willem II Tilburg",
+      "sport": "Football",
+      "sub_category": "VriendenLoterij Eredivisie",
+      "status": "LIVE",
+      "start_time_bst": "Oct 18, 2026, 01:00:00 AM",
+      "time": "Oct 18, 2026, 01:00:00 AM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+      }
+    },
+    {
+      "match_id": "ud-las-palmas-vs-cd-castellon",
+      "title": "UD Las Palmas vs CD Castellon",
+      "sport": "Football",
+      "sub_category": "LaLiga 2",
+      "status": "LIVE",
+      "start_time_bst": "Oct 18, 2026, 01:00:00 AM",
+      "time": "Oct 18, 2026, 01:00:00 AM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+      }
+    },
+    {
       "match_id": "ufc-live",
       "title": "UFC LIVE",
       "sport": "Football",
@@ -671,52 +717,6 @@
         "LOW SERVER": "http://193.47.62.192/hls/FEEEEQ.m3u8?|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
         "SportsNet - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ccupb3gevq/out/v1/d9d54c61efab463981d1a7d04ceeb44c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=60de674d9db66df9ba090e06871d3554:18071eac168232fc3d45549049c1de6b",
         "UFC TV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9v8cttmhcw/out/v1/df4c5196e3d74e7d8f484fc25d9034f1/cenc.mpd|drm_key=a49085f8da5e65af1efff0edac830b1f:4659bc58a85c062e3fe0c039a446fe47"
-      }
-    },
-    {
-      "match_id": "valencia-vs-athletic-club",
-      "title": "Valencia vs Athletic Club",
-      "sport": "Football",
-      "sub_category": "LaLiga",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 18, 2026, 01:00:00 AM",
-      "time": "Oct 18, 2026, 01:00:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-      }
-    },
-    {
-      "match_id": "sparta-rotterdam-vs-willem-ii-tilburg",
-      "title": "Sparta Rotterdam vs Willem II Tilburg",
-      "sport": "Football",
-      "sub_category": "VriendenLoterij Eredivisie",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 18, 2026, 01:00:00 AM",
-      "time": "Oct 18, 2026, 01:00:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
-      }
-    },
-    {
-      "match_id": "ud-las-palmas-vs-cd-castellon",
-      "title": "UD Las Palmas vs CD Castellon",
-      "sport": "Football",
-      "sub_category": "LaLiga 2",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 18, 2026, 01:00:00 AM",
-      "time": "Oct 18, 2026, 01:00:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
       }
     },
     {
