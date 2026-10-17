@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 106,
   "live_count": 49,
-  "last_update": "09:40 AM 17-10-2026",
+  "last_update": "09:45 AM 17-10-2026",
   "events": [
     {
       "match_id": "B0HN8KZH6R",
@@ -1450,6 +1450,19 @@
       "stream_url_alpha": {}
     },
     {
+      "match_id": "cleveland-guardians-vs-tampa-bay-rays",
+      "title": "Cleveland Guardians vs Tampa Bay Rays",
+      "sport": "Baseball",
+      "sub_category": "MLB",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 18, 2026, 06:00:00 AM",
+      "time": "Oct 18, 2026, 06:00:00 AM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
       "match_id": "san-antonio-spurs-vs-sacramento-kings",
       "title": "San Antonio Spurs vs Sacramento Kings",
       "sport": "Basketball",
@@ -1459,19 +1472,6 @@
       "time": "Oct 17, 2026, 06:00:00 AM",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "cleveland-guardians-vs-tampa-bay-rays",
-      "title": "Cleveland Guardians vs Tampa Bay Rays",
-      "sport": "Baseball",
-      "sub_category": "MLB",
-      "status": "ENDED",
-      "start_time_bst": "Oct 17, 2026, 06:00:00 AM",
-      "time": "Oct 17, 2026, 06:00:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
       "is_free": false,
       "stream_url_alpha": {}
     }
