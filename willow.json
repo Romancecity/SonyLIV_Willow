@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 95,
   "live_count": 42,
-  "last_update": "12:28 PM 17-10-2026",
+  "last_update": "12:33 PM 17-10-2026",
   "events": [
     {
       "match_id": "B0HN8KZH6R",
@@ -219,7 +219,7 @@
       "synopsis": "2nd Test: Australia v New Zealand",
       "status": "LIVE",
       "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.0985744a-1407-48ed-a444-9bcd5972dffb/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.0985744a-1407-48ed-a444-9bcd5972dffb/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HMPZ6NSW",
       "is_free": false,
       "stream_url": {
@@ -664,6 +664,22 @@
       }
     },
     {
+      "match_id": "valencia-vs-athletic-club",
+      "title": "Valencia vs Athletic Club",
+      "sport": "Football",
+      "sub_category": "LaLiga",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 18, 2026, 01:00:00 AM",
+      "time": "Oct 18, 2026, 01:00:00 AM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+      }
+    },
+    {
       "match_id": "rc-strasbourg-vs-paris-saint-germain",
       "title": "RC Strasbourg vs Paris Saint-Germain",
       "sport": "Football",
@@ -960,9 +976,7 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
       "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
-      }
+      "stream_url_alpha": {}
     },
     {
       "match_id": "ado-den-haag-vs-psv-eindhoven",
@@ -991,6 +1005,19 @@
       "stream_url_alpha": {}
     },
     {
+      "match_id": "sparta-rotterdam-vs-willem-ii-tilburg",
+      "title": "Sparta Rotterdam vs Willem II Tilburg",
+      "sport": "Football",
+      "sub_category": "VriendenLoterij Eredivisie",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 18, 2026, 01:00:00 AM",
+      "time": "Oct 18, 2026, 01:00:00 AM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
       "match_id": "real-sociedad-b-vs-almeria",
       "title": "Real Sociedad B vs Almeria",
       "sport": "Football",
@@ -1011,6 +1038,19 @@
       "status": "UPCOMING",
       "start_time_bst": "Oct 17, 2026, 08:15:00 PM",
       "time": "Oct 17, 2026, 08:15:00 PM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "ud-las-palmas-vs-cd-castellon",
+      "title": "UD Las Palmas vs CD Castellon",
+      "sport": "Football",
+      "sub_category": "LaLiga 2",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 18, 2026, 01:00:00 AM",
+      "time": "Oct 18, 2026, 01:00:00 AM",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
       "is_free": false,
@@ -1208,45 +1248,6 @@
       "time": "Oct 19, 2026, 06:00:00 PM",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "valencia-vs-athletic-club",
-      "title": "Valencia vs Athletic Club",
-      "sport": "Football",
-      "sub_category": "LaLiga",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 18, 2026, 01:00:00 AM",
-      "time": "Oct 18, 2026, 01:00:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "sparta-rotterdam-vs-willem-ii-tilburg",
-      "title": "Sparta Rotterdam vs Willem II Tilburg",
-      "sport": "Football",
-      "sub_category": "VriendenLoterij Eredivisie",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 18, 2026, 01:00:00 AM",
-      "time": "Oct 18, 2026, 01:00:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "ud-las-palmas-vs-cd-castellon",
-      "title": "UD Las Palmas vs CD Castellon",
-      "sport": "Football",
-      "sub_category": "LaLiga 2",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 18, 2026, 01:00:00 AM",
-      "time": "Oct 18, 2026, 01:00:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
       "is_free": false,
       "stream_url_alpha": {}
     },
