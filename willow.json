@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 109,
   "live_count": 49,
-  "last_update": "09:25 AM 17-10-2026",
+  "last_update": "09:30 AM 17-10-2026",
   "events": [
     {
       "match_id": "B0HN8KZH6R",
@@ -713,6 +713,21 @@
       }
     },
     {
+      "match_id": "bologna-vs-inter",
+      "title": "Bologna vs Inter",
+      "sport": "Football",
+      "sub_category": "Serie A",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 17, 2026, 10:00:00 PM",
+      "time": "Oct 17, 2026, 10:00:00 PM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+      }
+    },
+    {
       "match_id": "espanyol-vs-atletico-madrid",
       "title": "Espanyol vs Atletico Madrid",
       "sport": "Football",
@@ -1043,6 +1058,21 @@
       }
     },
     {
+      "match_id": "fenerbahce-vs-alanyaspor",
+      "title": "Fenerbahce vs Alanyaspor",
+      "sport": "Football",
+      "sub_category": "Trendyol Süper Lig",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 17, 2026, 10:00:00 PM",
+      "time": "Oct 17, 2026, 10:00:00 PM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+      }
+    },
+    {
       "match_id": "amed-sportif-faaliyetler-vs-konyaspor",
       "title": "Amed Sportif Faaliyetler vs Konyaspor",
       "sport": "Football",
@@ -1053,9 +1083,7 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
       "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
-      }
+      "stream_url_alpha": {}
     },
     {
       "match_id": "formula-1",
@@ -1068,20 +1096,7 @@
       "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6U1hs_95YIb02AiDL1JAgkqMNrA1SkPMUatqqPsO2ZqtNZdmj79TQ71k&s=10",
       "cover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6U1hs_95YIb02AiDL1JAgkqMNrA1SkPMUatqqPsO2ZqtNZdmj79TQ71k&s=10",
       "is_free": false,
-      "stream_url_alpha": {
-        "SKY SPORTS  - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/duswnrmxpw/out/v1/12ccf25f7bc545c2be53511956c7f40f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=b48b292c66f796d2fea54beb5298e96d:9fcdc4a898ccf47be7e7bbabf91776db",
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
-        "SporTV BR - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd|drm_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3",
-        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/57777/load-playlist?|Referer=https://gooz.aapmains.net",
-        "DAZN SPORTS - AQ": "https://netanjahu.hls.st/t/c1dba79757f1e493804b93b793f031ca/index.m3u8?|Referer=https://iplayer.is/",
-        "SPORTSCAST - AQ": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/000f1e77-40a6-4294-b2de-a618eebdc4f0/master.m3u8",
-        "SKY MAIN EVENT": "https://admin2.formaturamaxi.com.br/f1.m3u8",
-        "ELEVEN SPORTS HD": "https://netanjahu.hls.st/t/dce46f420ee0521d035a2adf156948a2/index.m3u8?|Referer=https://iplayer.is/",
-        "FORMULA 1 - AQ": "https://tedesco.formaturamaxi.com.br/f1.m3u8",
-        "RUSSIA FEED": "https://bl.rutube.ru/livestream/4883ca1f298abb3a17eae58fc0532c89/index.m3u8?s=o6oFOpHt6HBBUneuoZAuog&e=1791709072&scheme=https|user-agent=Mozilla",
-        "HD SERVER": "https://edgestream3.pro/hls/hbfkazbkaznc49.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-        "LOW SERVER": "http://193.47.62.55/hls/NNNN.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
+      "stream_url_alpha": {}
     },
     {
       "match_id": "motogp",
@@ -1227,19 +1242,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "bologna-vs-inter",
-      "title": "Bologna vs Inter",
-      "sport": "Football",
-      "sub_category": "Serie A",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 17, 2026, 10:00:00 PM",
-      "time": "Oct 17, 2026, 10:00:00 PM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
       "match_id": "as-roma-vs-genoa",
       "title": "AS Roma vs Genoa",
       "sport": "Football",
@@ -1379,19 +1381,6 @@
       "time": "Oct 17, 2026, 10:30:00 PM",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "fenerbahce-vs-alanyaspor",
-      "title": "Fenerbahce vs Alanyaspor",
-      "sport": "Football",
-      "sub_category": "Trendyol Süper Lig",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 17, 2026, 10:00:00 PM",
-      "time": "Oct 17, 2026, 10:00:00 PM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
       "is_free": false,
       "stream_url_alpha": {}
     },
