@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 97,
   "live_count": 44,
-  "last_update": "11:27 AM 17-10-2026",
+  "last_update": "11:32 AM 17-10-2026",
   "events": [
     {
       "match_id": "B0HN8KZH6R",
@@ -707,6 +707,21 @@
       }
     },
     {
+      "match_id": "diriyah-vs-al-taawoun",
+      "title": "Diriyah vs Al-Taawoun",
+      "sport": "Football",
+      "sub_category": "Saudi Pro League",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 18, 2026, 12:00:00 AM",
+      "time": "Oct 18, 2026, 12:00:00 AM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+      }
+    },
+    {
       "match_id": "middlesbrough-vs-cardiff-city",
       "title": "Middlesbrough vs Cardiff City",
       "sport": "Football",
@@ -932,6 +947,21 @@
       }
     },
     {
+      "match_id": "sc-telstar-vs-feyenoord",
+      "title": "SC Telstar vs Feyenoord",
+      "sport": "Football",
+      "sub_category": "VriendenLoterij Eredivisie",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 18, 2026, 12:00:00 AM",
+      "time": "Oct 18, 2026, 12:00:00 AM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+      }
+    },
+    {
       "match_id": "real-sociedad-b-vs-almeria",
       "title": "Real Sociedad B vs Almeria",
       "sport": "Football",
@@ -972,9 +1002,7 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
       "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
-      }
+      "stream_url_alpha": {}
     },
     {
       "match_id": "genclerbirligi-vs-galatasaray",
@@ -987,9 +1015,7 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
       "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
-      }
+      "stream_url_alpha": {}
     },
     {
       "match_id": "fenerbahce-vs-alanyaspor",
@@ -1213,19 +1239,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "diriyah-vs-al-taawoun",
-      "title": "Diriyah vs Al-Taawoun",
-      "sport": "Football",
-      "sub_category": "Saudi Pro League",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 18, 2026, 12:00:00 AM",
-      "time": "Oct 18, 2026, 12:00:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
       "match_id": "hannover-96-vs-fc-st-pauli",
       "title": "Hannover 96 vs FC St. Pauli",
       "sport": "Football",
@@ -1235,19 +1248,6 @@
       "time": "Oct 18, 2026, 12:30:00 AM",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "sc-telstar-vs-feyenoord",
-      "title": "SC Telstar vs Feyenoord",
-      "sport": "Football",
-      "sub_category": "VriendenLoterij Eredivisie",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 18, 2026, 12:00:00 AM",
-      "time": "Oct 18, 2026, 12:00:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
       "is_free": false,
       "stream_url_alpha": {}
     },
