@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 73,
-  "live_count": 39,
-  "last_update": "01:27 AM 18-10-2026",
+  "live_count": 38,
+  "last_update": "01:32 AM 18-10-2026",
   "events": [
     {
       "match_id": "B0HN8KZH6R",
@@ -536,27 +536,6 @@
       "stream_url": {}
     },
     {
-      "match_id": "bangladesh-vs-zimbabwe",
-      "title": "Bangladesh vs Zimbabwe",
-      "sport": "Cricket",
-      "sub_category": "ODI Tri-Series in United Arab Emirates",
-      "status": "LIVE",
-      "start_time_bst": "Oct 17, 2026, 05:30:20 PM",
-      "time": "Oct 17, 2026, 05:30:20 PM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iiqppqpksi/out/v1/5aedff78e45a44a08461ab32fa41310a/cenc.mpd|drm_key=d67c0f3e8d176e693e9d452ec4aeca2f:3cae5de28b16ae8152999574ced3b4db",
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/iiqppqpksi/out/v1/5aedff78e45a44a08461ab32fa41310a/cenc.mpd|drm_key=d67c0f3e8d176e693e9d452ec4aeca2f:3cae5de28b16ae8152999574ced3b4db",
-        "TAPMAD - AQ": "https://saseries.akamaized.net/hls/live/2110097/306-tapmad/master.m3u8",
-        "A SPORTS HD": "https://playztv-apps.pages.dev/a-sports/index.m3u8",
-        "T SPORTS HD": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
-        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4249694_english_hls_c370ab317921311_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
-      }
-    },
-    {
       "match_id": "as-roma-vs-genoa",
       "title": "AS Roma vs Genoa",
       "sport": "Football",
@@ -994,6 +973,19 @@
       "time": "Oct 17, 2026, 09:00:45 PM",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "bangladesh-vs-zimbabwe",
+      "title": "Bangladesh vs Zimbabwe",
+      "sport": "Cricket",
+      "sub_category": "ODI Tri-Series in United Arab Emirates",
+      "status": "ENDED",
+      "start_time_bst": "Oct 17, 2026, 05:30:20 PM",
+      "time": "Oct 17, 2026, 05:30:20 PM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark",
       "is_free": false,
       "stream_url_alpha": {}
     },
