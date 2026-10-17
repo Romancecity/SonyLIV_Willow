@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 138,
   "live_count": 40,
-  "last_update": "11:45 PM 17-10-2026",
+  "last_update": "11:50 PM 17-10-2026",
   "events": [
     {
       "match_id": "B0HN8KZH6R",
@@ -649,27 +649,6 @@
       }
     },
     {
-      "match_id": "bologna-vs-inter",
-      "title": "Bologna vs Inter",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 17, 2026, 10:00:00 PM",
-      "time": "Oct 17, 2026, 10:00:00 PM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
-        "PARAMOUNT+ HD": "https://chatgpt.hereisman.net/playlist/58147/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-        "CRICFy LIVE": "https://live.vivo155.com/live/hd-en-1-4549109.m3u8?txSecret=9f5829200af96ed9c80f5e9f758e6515&txTime=6AD3AEDA|Referer=https://player.online878.com/",
-        "CBS SPORTS HD": "https://sofi.dulo.cc/play/-pds9pI-P4Hph7wcPsf0eH8W_FT7qteT/TzwOC9uS5URGFJQL.m3u8",
-        "HD SERVER": "https://www.rtmpcdn.com/live/4a5452b6-326d-4212-9b6b-bd3a265c0a96.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-        "LOW SERVER": "http://193.47.62.55/hls/QQUUUQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
       "match_id": "real-betis-vs-fc-barcelona",
       "title": "Real Betis vs FC Barcelona",
       "sport": "Football",
@@ -708,6 +687,21 @@
       }
     },
     {
+      "match_id": "hannover-96-vs-fc-st-pauli",
+      "title": "Hannover 96 vs FC St. Pauli",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 18, 2026, 12:30:00 AM",
+      "time": "Oct 18, 2026, 12:30:00 AM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+      }
+    },
+    {
       "match_id": "sc-telstar-vs-feyenoord",
       "title": "SC Telstar vs Feyenoord",
       "sport": "Football",
@@ -735,22 +729,6 @@
       "is_free": false,
       "stream_url_alpha": {
         "LOW SERVER": "http://193.47.62.55/hls/FUUUQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
-      "match_id": "fenerbahce-vs-alanyaspor",
-      "title": "Fenerbahce vs Alanyaspor",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 17, 2026, 10:00:00 PM",
-      "time": "Oct 17, 2026, 10:00:00 PM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4581336.m3u8?txSecret=7647c7bc7879e4412eb8f73cc287962a&txTime=6AD3AF00|Referer=https://player.online878.com/",
-        "LOW SERVER": "http://193.47.62.59/hls/LIIIQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -844,21 +822,6 @@
       "time": "Oct 18, 2026, 12:45:00 AM",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
-      }
-    },
-    {
-      "match_id": "hannover-96-vs-fc-st-pauli",
-      "title": "Hannover 96 vs FC St. Pauli",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 18, 2026, 12:30:00 AM",
-      "time": "Oct 18, 2026, 12:30:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
       "is_free": false,
       "stream_url_alpha": {
         "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
@@ -1260,7 +1223,11 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
       "cover_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/54963/load-playlist?|Referer=https://gooz.aapmains.net",
+        "WWE LIVE - AQ": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
+        "SD SERVER": "http://193.47.62.41/hls/UIIIAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      }
     },
     {
       "match_id": "formats",
@@ -1325,7 +1292,12 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
       "cover_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/54800/load-playlist?|Referer=https://gooz.aapmains.net",
+        "HD SERVER": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/1.m3u8",
+        "CRICFy HD": "https://edgestream2.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+        "SD SERVER": "http://193.47.62.59/hls/K999QQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      }
     },
     {
       "match_id": "formats",
@@ -1926,6 +1898,19 @@
       "stream_url_alpha": {}
     },
     {
+      "match_id": "bologna-vs-inter",
+      "title": "Bologna vs Inter",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "ENDED",
+      "start_time_bst": "Oct 17, 2026, 10:00:00 PM",
+      "time": "Oct 17, 2026, 10:00:00 PM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
       "match_id": "rc-strasbourg-vs-paris-saint-germain",
       "title": "RC Strasbourg vs Paris Saint-Germain",
       "sport": "Football",
@@ -1948,6 +1933,19 @@
       "time": "Oct 17, 2026, 09:40:00 PM",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "fenerbahce-vs-alanyaspor",
+      "title": "Fenerbahce vs Alanyaspor",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "ENDED",
+      "start_time_bst": "Oct 17, 2026, 10:00:00 PM",
+      "time": "Oct 17, 2026, 10:00:00 PM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
       "is_free": false,
       "stream_url_alpha": {}
     }
