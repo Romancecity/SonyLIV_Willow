@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 96,
-  "live_count": 43,
-  "last_update": "11:57 AM 17-10-2026",
+  "channels_amount": 95,
+  "live_count": 42,
+  "last_update": "12:02 PM 17-10-2026",
   "events": [
     {
       "match_id": "B0HN8KZH6R",
@@ -229,23 +229,6 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/emn1qibfun/out/v1/0e442a73dc9841158975a938f8b31087/cenc.mpd"
       },
       "drm_key": "63a084a354d126bcd099c9eabf0cbb93:bd2b00bce574c33af46d0538937b3ac3"
-    },
-    {
-      "match_id": "B0HLZJRZGT",
-      "title": "High Limit Racing All-In Championship at Texas Motor Speedway",
-      "synopsis": "High Limit Racing All-In Championship at Texas Motor Speedway",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.32b810a2-b4f3-4e3b-9742-62be59ab726b/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HLZJRZGT",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/piohtevobl/out/v1/5492835514884933abee7a9b852dd1af/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/piohtevobl/out/v1/5492835514884933abee7a9b852dd1af/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/piohtevobl/out/v1/5492835514884933abee7a9b852dd1af/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/piohtevobl/out/v1/5492835514884933abee7a9b852dd1af/cenc.mpd"
-      },
-      "drm_key": "2bead1627019ccc863e138410a8893ad:9fcd23f01aaef2bcf9c5cb2907f86aca"
     },
     {
       "match_id": "1090548709",
@@ -626,7 +609,8 @@
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
       "is_free": false,
       "stream_url_alpha": {
-        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+        "D SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3",
+        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
       }
     },
     {
@@ -746,7 +730,8 @@
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
       "is_free": false,
       "stream_url_alpha": {
-        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
       }
     },
     {
@@ -915,6 +900,21 @@
       }
     },
     {
+      "match_id": "hannover-96-vs-fc-st-pauli",
+      "title": "Hannover 96 vs FC St. Pauli",
+      "sport": "Football",
+      "sub_category": "2. Bundesliga",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 18, 2026, 12:30:00 AM",
+      "time": "Oct 18, 2026, 12:30:00 AM",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+      }
+    },
+    {
       "match_id": "ado-den-haag-vs-psv-eindhoven",
       "title": "ADO Den Haag vs PSV Eindhoven",
       "sport": "Football",
@@ -970,9 +970,7 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
       "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
-      }
+      "stream_url_alpha": {}
     },
     {
       "match_id": "sporting-gijon-vs-albacete-balompie",
@@ -1218,19 +1216,6 @@
       "time": "Oct 18, 2026, 12:45:00 AM",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "hannover-96-vs-fc-st-pauli",
-      "title": "Hannover 96 vs FC St. Pauli",
-      "sport": "Football",
-      "sub_category": "2. Bundesliga",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 18, 2026, 12:30:00 AM",
-      "time": "Oct 18, 2026, 12:30:00 AM",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
       "is_free": false,
       "stream_url_alpha": {}
     },
