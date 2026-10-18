@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 70,
   "live_count": 28,
-  "last_update": "03:50 AM 19-10-2026",
+  "last_update": "03:54 AM 19-10-2026",
   "events": [
     {
       "match_id": "B0HFWWJWH6",
@@ -414,6 +414,21 @@
       }
     },
     {
+      "match_id": "remo-vs-red-bull-bragantino",
+      "title": "Remo vs Red Bull Bragantino",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 19, 2026, 04:30:00 AM",
+      "time": "Oct 19, 2026, 04:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2012/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2012/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd|drm_key=e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94"
+      }
+    },
+    {
       "match_id": "cleveland-guardians-vs-tampa-bay-rays",
       "title": "Cleveland Guardians vs Tampa Bay Rays",
       "sport": "Baseball",
@@ -644,21 +659,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/33/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "remo-vs-red-bull-bragantino",
-      "title": "Remo vs Red Bull Bragantino",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 19, 2026, 04:30:00 AM",
-      "time": "Oct 19, 2026, 04:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2012/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2012/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd|drm_key=e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94"
-      }
     },
     {
       "match_id": "corinthians-vs-vitoria",
