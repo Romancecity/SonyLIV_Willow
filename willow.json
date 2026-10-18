@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 72,
   "live_count": 30,
-  "last_update": "05:15 AM 19-10-2026",
+  "last_update": "05:20 AM 19-10-2026",
   "events": [
     {
       "match_id": "B0HFWWJWH6",
@@ -372,22 +372,6 @@
       "match_url": "https://www.sonyliv.com/custom-live/1090542506",
       "is_free": false,
       "stream_url": {}
-    },
-    {
-      "match_id": "bahia-vs-flamengo",
-      "title": "Bahia vs Flamengo",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 19, 2026, 03:30:00 AM",
-      "time": "Oct 19, 2026, 03:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/1955/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/1955/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|drm_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
-        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|drm_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
-      }
     },
     {
       "match_id": "remo-vs-red-bull-bragantino",
@@ -983,6 +967,22 @@
       "is_free": false,
       "stream_url_alpha": {
         "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94"
+      }
+    },
+    {
+      "match_id": "bahia-vs-flamengo",
+      "title": "Bahia vs Flamengo",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "FINISH",
+      "start_time_bst": "Oct 19, 2026, 03:30:00 AM",
+      "time": "Oct 19, 2026, 03:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/1955/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/1955/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|drm_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|drm_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
       }
     },
     {
