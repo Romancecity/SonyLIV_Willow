@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 70,
   "live_count": 28,
-  "last_update": "04:50 AM 19-10-2026",
+  "last_update": "04:55 AM 19-10-2026",
   "events": [
     {
       "match_id": "B0HFWWJWH6",
@@ -344,41 +344,6 @@
       "match_url": "https://www.sonyliv.com/custom-live/1090542506",
       "is_free": false,
       "stream_url": {}
-    },
-    {
-      "match_id": "kansas-city-chiefs-vs-los-angeles-chargers",
-      "title": "Kansas City Chiefs vs Los Angeles Chargers",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 19, 2026, 02:25:00 AM",
-      "time": "Oct 19, 2026, 02:25:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/4422/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4422/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "TSN SPORTS 1 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
-        "TSN SPORTS 3 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37",
-        "CRICFy LIVE ": "https://chatgpt.hereisman.net/playlist/58294/load-playlist?|Referer=https://gooz.aapmains.net",
-        "HD SERVER ": "https://edgestream5.pro/hls/poertjnvnev40.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
-      }
-    },
-    {
-      "match_id": "las-vegas-raiders-vs-buffalo-bills",
-      "title": "Las Vegas Raiders vs Buffalo Bills",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 19, 2026, 02:25:00 AM",
-      "time": "Oct 19, 2026, 02:25:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/4390/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4390/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/58295/load-playlist?|Referer=https://gooz.aapmains.net",
-        "CRICFy NFL ": "https://chatgpt.hereisman.net/playlist/58288/load-playlist?|Referer=https://gooz.aapmains.net",
-        "HD SERVER ": "https://edgestream5.pro/hls/cwxcnbscbsq39.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
-      }
     },
     {
       "match_id": "bahia-vs-flamengo",
@@ -922,6 +887,41 @@
         "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/58293/load-playlist?|Referer=https://gooz.aapmains.net",
         "CRICFy NFL": "https://chatgpt.hereisman.net/playlist/58286/load-playlist?|Referer=https://gooz.aapmains.net",
         "HD SERVER ": "https://edgestream3.pro/hls/ysvbxwnbc38.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
+      }
+    },
+    {
+      "match_id": "kansas-city-chiefs-vs-los-angeles-chargers",
+      "title": "Kansas City Chiefs vs Los Angeles Chargers",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "FINISH",
+      "start_time_bst": "Oct 19, 2026, 02:25:00 AM",
+      "time": "Oct 19, 2026, 02:25:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/4422/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4422/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TSN SPORTS 1 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
+        "TSN SPORTS 3 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37",
+        "CRICFy LIVE ": "https://chatgpt.hereisman.net/playlist/58294/load-playlist?|Referer=https://gooz.aapmains.net",
+        "HD SERVER ": "https://edgestream5.pro/hls/poertjnvnev40.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
+      }
+    },
+    {
+      "match_id": "las-vegas-raiders-vs-buffalo-bills",
+      "title": "Las Vegas Raiders vs Buffalo Bills",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "FINISH",
+      "start_time_bst": "Oct 19, 2026, 02:25:00 AM",
+      "time": "Oct 19, 2026, 02:25:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/4390/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4390/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/58295/load-playlist?|Referer=https://gooz.aapmains.net",
+        "CRICFy NFL ": "https://chatgpt.hereisman.net/playlist/58288/load-playlist?|Referer=https://gooz.aapmains.net",
+        "HD SERVER ": "https://edgestream5.pro/hls/cwxcnbscbsq39.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
       }
     },
     {
