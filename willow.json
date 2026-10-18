@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 74,
-  "live_count": 12,
-  "last_update": "02:44 AM 19-10-2026",
+  "live_count": 9,
+  "last_update": "02:50 AM 19-10-2026",
   "events": [
     {
       "match_id": "B0HFWWJWH6",
@@ -460,77 +460,6 @@
       }
     },
     {
-      "match_id": "fluminense-vs-santos",
-      "title": "Fluminense vs Santos",
-      "sport": "Football",
-      "sub_category": "Campeonato Brasileiro Série A",
-      "status": "LIVE",
-      "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
-      "time": "Oct 19, 2026, 01:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/1961/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/1961/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7",
-        "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd|drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
-        "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4465909.m3u8?txSecret=ae0f0a20da40a74a572bb0c2d34824bd&txTime=6AD528CF|Referer=https://player.online878.com/",
-        "LOW SERVER": "http://193.47.62.44/hls/HH666AAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
-      "match_id": "gremio-vs-cruzeiro",
-      "title": "Gremio vs Cruzeiro",
-      "sport": "Football",
-      "sub_category": "Campeonato Brasileiro Série A",
-      "status": "LIVE",
-      "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
-      "time": "Oct 19, 2026, 01:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/5926/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/5926/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94"
-      }
-    },
-    {
-      "match_id": "real-madrid-vs-sevilla",
-      "title": "Real Madrid vs Sevilla",
-      "sport": "Football",
-      "sub_category": "LaLiga",
-      "status": "LIVE",
-      "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
-      "time": "Oct 19, 2026, 01:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2829/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2829/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0",
-        "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|drm_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
-        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=ac7abaa9c9481aacfbdac64fc3ec3312:c0c504a2ed2e70b879a650b8770a38c6",
-        "ESPN DEPORTES HD": "https://chatgpt.hereisman.net/playlist/58284/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-        "CRICFy LIVE": "https://live.vivo155.com/live/hd-en-1-4565459.m3u8?txSecret=102435bbafe684dd75bf6d99bbdc4859&txTime=6AD528F3|Referer=https://player.online878.com/",
-        "HD SERVER": "https://www.rtmpcdn.com/live/d4eebde5-881f-4321-8b1e-f190f0a21624.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-        "LOW SERVER": "http://193.47.62.59/hls/aaaaa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
-      "match_id": "burgos-club-de-futbol-vs-ce-sabadell",
-      "title": "Burgos Club de Futbol vs CE Sabadell",
-      "sport": "Football",
-      "sub_category": "LaLiga 2",
-      "status": "LIVE",
-      "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
-      "time": "Oct 19, 2026, 01:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2854/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2854/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "http://193.47.62.44/hls/HH666AAAAQqqq.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
       "match_id": "cleveland-guardians-vs-tampa-bay-rays",
       "title": "Cleveland Guardians vs Tampa Bay Rays",
       "sport": "Baseball",
@@ -544,6 +473,22 @@
       "stream_url_alpha": {
         "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b",
         "HD SERVER": "https://edgestream4.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
+      }
+    },
+    {
+      "match_id": "bahia-vs-flamengo",
+      "title": "Bahia vs Flamengo",
+      "sport": "Football",
+      "sub_category": "Campeonato Brasileiro Série A",
+      "status": "LIVE",
+      "start_time_bst": "Oct 19, 2026, 03:30:00 AM",
+      "time": "Oct 19, 2026, 03:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/1955/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/1955/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|drm_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|drm_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
       }
     },
     {
@@ -569,19 +514,6 @@
       "time": "Oct 19, 2026, 06:20:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/4420/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/4420/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "bahia-vs-flamengo",
-      "title": "Bahia vs Flamengo",
-      "sport": "Football",
-      "sub_category": "Campeonato Brasileiro Série A",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 19, 2026, 03:30:00 AM",
-      "time": "Oct 19, 2026, 03:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/1955/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/1955/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
@@ -963,6 +895,32 @@
       "stream_url_alpha": {}
     },
     {
+      "match_id": "fluminense-vs-santos",
+      "title": "Fluminense vs Santos",
+      "sport": "Football",
+      "sub_category": "Campeonato Brasileiro Série A",
+      "status": "ENDED",
+      "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
+      "time": "Oct 19, 2026, 01:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/1961/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/1961/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "gremio-vs-cruzeiro",
+      "title": "Gremio vs Cruzeiro",
+      "sport": "Football",
+      "sub_category": "Campeonato Brasileiro Série A",
+      "status": "ENDED",
+      "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
+      "time": "Oct 19, 2026, 01:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/5926/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/5926/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
       "match_id": "juventus-vs-lazio",
       "title": "Juventus vs Lazio",
       "sport": "Football",
@@ -976,6 +934,19 @@
       "stream_url_alpha": {}
     },
     {
+      "match_id": "real-madrid-vs-sevilla",
+      "title": "Real Madrid vs Sevilla",
+      "sport": "Football",
+      "sub_category": "LaLiga",
+      "status": "ENDED",
+      "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
+      "time": "Oct 19, 2026, 01:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2829/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2829/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
       "match_id": "olympique-lyonnais-vs-nice",
       "title": "Olympique Lyonnais vs Nice",
       "sport": "Football",
@@ -985,6 +956,19 @@
       "time": "Oct 19, 2026, 12:45:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/1649/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/1649/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "burgos-club-de-futbol-vs-ce-sabadell",
+      "title": "Burgos Club de Futbol vs CE Sabadell",
+      "sport": "Football",
+      "sub_category": "LaLiga 2",
+      "status": "ENDED",
+      "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
+      "time": "Oct 19, 2026, 01:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2854/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2854/image",
       "is_free": false,
       "stream_url_alpha": {}
     }
