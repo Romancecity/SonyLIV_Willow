@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 70,
   "live_count": 28,
-  "last_update": "06:16 AM 19-10-2026",
+  "last_update": "06:21 AM 19-10-2026",
   "events": [
     {
       "match_id": "B0HFWWJWH6",
@@ -361,21 +361,6 @@
         "NBC SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=36a385124dcdfb2f0969935065e03afa:ccecd65514dff22eae493b975ccf9a9e",
         "TSN SPORTS 5 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8",
         "HD SERVER ": "https://edgestream7.pro/hls/ijzriafaq41.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
-      }
-    },
-    {
-      "match_id": "remo-vs-red-bull-bragantino",
-      "title": "Remo vs Red Bull Bragantino",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 19, 2026, 04:30:00 AM",
-      "time": "Oct 19, 2026, 04:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2012/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2012/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd|drm_key=e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94"
       }
     },
     {
@@ -939,6 +924,21 @@
       "stream_url_alpha": {
         "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|drm_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
         "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|drm_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
+      }
+    },
+    {
+      "match_id": "remo-vs-red-bull-bragantino",
+      "title": "Remo vs Red Bull Bragantino",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "FINISH",
+      "start_time_bst": "Oct 19, 2026, 04:30:00 AM",
+      "time": "Oct 19, 2026, 04:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2012/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2012/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd|drm_key=e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94"
       }
     },
     {
