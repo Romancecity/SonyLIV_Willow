@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 82,
   "live_count": 29,
-  "last_update": "09:42 PM 19-10-2026",
+  "last_update": "09:54 PM 19-10-2026",
   "events": [
     {
       "match_id": "B0HFWWJWH6",
@@ -611,6 +611,23 @@
       }
     },
     {
+      "match_id": "monza-vs-cagliari",
+      "title": "Monza vs Cagliari",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 19, 2026, 10:30:00 PM",
+      "time": "Oct 19, 2026, 10:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2729/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2729/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+        "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1",
+        "HD SERVER": "https://edgestream2.pro/hls/syaLqucEne4k.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
+      }
+    },
+    {
       "match_id": "al-fayha-vs-al-ahli",
       "title": "Al-Fayha vs Al-Ahli",
       "sport": "Football",
@@ -807,23 +824,6 @@
       "stream_url_alpha": {
         "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|drm_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
         "SporTV BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
-      }
-    },
-    {
-      "match_id": "monza-vs-cagliari",
-      "title": "Monza vs Cagliari",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 19, 2026, 10:30:00 PM",
-      "time": "Oct 19, 2026, 10:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2729/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2729/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-        "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1",
-        "HD SERVER": "https://edgestream2.pro/hls/syaLqucEne4k.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
       }
     },
     {
