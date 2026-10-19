@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 72,
   "live_count": 30,
-  "last_update": "05:25 AM 19-10-2026",
+  "last_update": "05:30 AM 19-10-2026",
   "events": [
     {
       "match_id": "B0HFWWJWH6",
@@ -386,22 +386,6 @@
       "is_free": false,
       "stream_url_alpha": {
         "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd|drm_key=e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94"
-      }
-    },
-    {
-      "match_id": "cleveland-guardians-vs-tampa-bay-rays",
-      "title": "Cleveland Guardians vs Tampa Bay Rays",
-      "sport": "Baseball",
-      "sub_category": "Baseball",
-      "status": "LIVE",
-      "start_time_bst": "Oct 19, 2026, 03:00:00 AM",
-      "time": "Oct 19, 2026, 03:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3650/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3650/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b",
-        "HD SERVER ": "https://edgestream4.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
       }
     },
     {
@@ -1059,6 +1043,22 @@
       "is_free": false,
       "stream_url_alpha": {
         "CRICFy LIVE": "http://193.47.62.44/hls/HH666AAAAQqqq.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "cleveland-guardians-vs-tampa-bay-rays",
+      "title": "Cleveland Guardians vs Tampa Bay Rays",
+      "sport": "Baseball",
+      "sub_category": "Baseball",
+      "status": "FINISH",
+      "start_time_bst": "Oct 19, 2026, 03:00:00 AM",
+      "time": "Oct 19, 2026, 03:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3650/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3650/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b",
+        "HD SERVER ": "https://edgestream4.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
       }
     }
   ]
