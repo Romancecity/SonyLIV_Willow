@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 79,
-  "live_count": 18,
-  "last_update": "04:57 PM 19-10-2026",
+  "channels_amount": 78,
+  "live_count": 20,
+  "last_update": "05:02 PM 19-10-2026",
   "events": [
     {
       "match_id": "B0HFWWJWH6",
@@ -738,7 +738,10 @@
       "logo": "https://img.sofascore.com/api/v1/team/2729/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/2729/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+        "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
+      }
     },
     {
       "match_id": "parma-vs-torino",
@@ -777,20 +780,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/168094/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/168094/image",
       "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "abha-vs-al-kholood",
-      "title": "Abha vs Al-Kholood",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 19, 2026, 09:20:00 PM",
-      "time": "Oct 19, 2026, 09:20:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/168090/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/168090/image",
-      "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "FOX DEPORTES - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
+      }
     },
     {
       "match_id": "al-hilal-vs-al-hazem",
