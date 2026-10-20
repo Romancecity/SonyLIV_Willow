@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 80,
   "live_count": 24,
-  "last_update": "11:06 PM 20-10-2026",
+  "last_update": "11:25 PM 20-10-2026",
   "events": [
     {
       "match_id": "B0HKMGSFBW",
@@ -596,6 +596,23 @@
       }
     },
     {
+      "match_id": "al-nassr-vs-neom-sc",
+      "title": "Al-Nassr vs Neom SC",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 21, 2026, 12:00:00 AM",
+      "time": "Oct 21, 2026, 12:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/23400/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/23400/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "FOX DEPORTES - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd|drm_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
+        "SporTV BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b",
+        "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd|drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+      }
+    },
+    {
       "match_id": "formula-1",
       "title": "Formula 1",
       "sport": "Motorsport",
@@ -987,23 +1004,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/3001/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "al-nassr-vs-neom-sc",
-      "title": "Al-Nassr vs Neom SC",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 21, 2026, 12:00:00 AM",
-      "time": "Oct 21, 2026, 12:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/23400/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/23400/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "FOX DEPORTES - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd|drm_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
-        "SporTV BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b",
-        "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd|drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-      }
     },
     {
       "match_id": "al-ettifaq-vs-al-ittihad",
