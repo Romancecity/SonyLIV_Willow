@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 75,
   "live_count": 29,
-  "last_update": "04:47 PM 21-10-2026",
+  "last_update": "04:52 PM 21-10-2026",
   "events": [
     {
       "match_id": "B0HFWWJWH6",
@@ -505,6 +505,25 @@
       }
     },
     {
+      "match_id": "afghanistan-vs-bangladesh",
+      "title": "Afghanistan vs Bangladesh",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Oct 21, 2026, 05:30:00 PM",
+      "time": "Oct 21, 2026, 05:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/187575/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/187575/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iplwybp0pk/out/v1/d71f03d9635c4fc0b1c911f743f98519/cenc.mpd|drm_key=a016bbf898c1522758c13ec19c280d2a:f7a70af49c51630e54a3ec6dfe2de582",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/iplwybp0pk/out/v1/d71f03d9635c4fc0b1c911f743f98519/cenc.mpd|drm_key=a016bbf898c1522758c13ec19c280d2a:f7a70af49c51630e54a3ec6dfe2de582",
+        "TAPMAD - AQ": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8?|referer=https://tapmad.com/&origin=https://tapmad.com",
+        "T SPORTS HD": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
+        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4249696_english_hls_d51b02bd8369074_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+      }
+    },
+    {
       "match_id": "formula-1",
       "title": "Formula 1",
       "sport": "Motorsport",
@@ -791,22 +810,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/3001/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "afghanistan-vs-bangladesh",
-      "title": "Afghanistan vs Bangladesh",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 21, 2026, 05:30:00 PM",
-      "time": "Oct 21, 2026, 05:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/187575/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/187575/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iplwybp0pk/out/v1/d71f03d9635c4fc0b1c911f743f98519/cenc.mpd|drm_key=a016bbf898c1522758c13ec19c280d2a:f7a70af49c51630e54a3ec6dfe2de582",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/iplwybp0pk/out/v1/d71f03d9635c4fc0b1c911f743f98519/cenc.mpd|drm_key=a016bbf898c1522758c13ec19c280d2a:f7a70af49c51630e54a3ec6dfe2de582"
-      }
     },
     {
       "match_id": "sri-lanka-vs-england",
