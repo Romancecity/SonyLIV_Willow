@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 69,
   "live_count": 26,
-  "last_update": "08:35 AM 21-10-2026",
+  "last_update": "09:03 AM 21-10-2026",
   "events": [
     {
       "match_id": "B0HFWWJWH6",
@@ -497,24 +497,6 @@
       "stream_url": {}
     },
     {
-      "match_id": "tampa-bay-rays-vs-cleveland-guardians",
-      "title": "Tampa Bay Rays vs Cleveland Guardians",
-      "sport": "Baseball",
-      "sub_category": "Baseball",
-      "status": "LIVE",
-      "start_time_bst": "Oct 21, 2026, 06:00:00 AM",
-      "time": "Oct 21, 2026, 06:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3653/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3653/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "TNT SPORTS 1 - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749",
-        "TNT SPORTS 2 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b",
-        "HD QUALITY": "https://edgestream4.pro/hls/cwxvbnfghq60.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-        "LOW QUALITY": "http://193.47.62.55/hls/RARARA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
       "match_id": "san-antonio-spurs-vs-oklahoma-city-thunder",
       "title": "San Antonio Spurs vs Oklahoma City Thunder",
       "sport": "Basketball",
@@ -979,6 +961,24 @@
       "is_free": false,
       "stream_url_alpha": {
         "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      }
+    },
+    {
+      "match_id": "tampa-bay-rays-vs-cleveland-guardians",
+      "title": "Tampa Bay Rays vs Cleveland Guardians",
+      "sport": "Baseball",
+      "sub_category": "Baseball",
+      "status": "FINISH",
+      "start_time_bst": "Oct 21, 2026, 06:00:00 AM",
+      "time": "Oct 21, 2026, 06:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3653/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3653/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TNT SPORTS 1 - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749",
+        "TNT SPORTS 2 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b",
+        "HD QUALITY": "https://edgestream4.pro/hls/cwxvbnfghq60.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+        "LOW QUALITY": "http://193.47.62.55/hls/RARARA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     }
   ]
