@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 115,
-  "live_count": 43,
-  "last_update": "11:50 PM 21-10-2026",
+  "channels_amount": 114,
+  "live_count": 42,
+  "last_update": "11:56 PM 21-10-2026",
   "events": [
     {
       "match_id": "B0HN5PJ2BX",
@@ -558,26 +558,6 @@
       }
     },
     {
-      "match_id": "afghanistan-vs-bangladesh",
-      "title": "Afghanistan vs Bangladesh",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "LIVE",
-      "start_time_bst": "Oct 21, 2026, 05:30:00 PM",
-      "time": "Oct 21, 2026, 05:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/187575/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/187575/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iplwybp0pk/out/v1/d71f03d9635c4fc0b1c911f743f98519/cenc.mpd|drm_key=a016bbf898c1522758c13ec19c280d2a:f7a70af49c51630e54a3ec6dfe2de582",
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/twcny8iyym/out/v1/83184682abbf4c7fbc78b64266100dbd/cenc.mpd|drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/iplwybp0pk/out/v1/d71f03d9635c4fc0b1c911f743f98519/cenc.mpd|drm_key=a016bbf898c1522758c13ec19c280d2a:f7a70af49c51630e54a3ec6dfe2de582",
-        "TAPMAD - AQ": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8?|referer=https://tapmad.com/&origin=https://tapmad.com",
-        "T SPORTS HD": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
-        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4249696_english_hls_d51b02bd8369074_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
-      }
-    },
-    {
       "match_id": "levante-ud-vs-athletic-club",
       "title": "Levante UD vs Athletic Club",
       "sport": "Football",
@@ -994,7 +974,8 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/28/image",
       "is_free": false,
       "stream_url_alpha": {
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+        "LOW SERVER": "http://193.47.62.55/hls/ajjjQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -1173,7 +1154,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/262229/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/262229/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "Server 1": "ok"
+      }
     },
     {
       "match_id": "gnk-dinamo-zagreb-vs-nec-nijmegen",
