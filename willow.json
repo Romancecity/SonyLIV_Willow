@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 98,
+  "channels_amount": 100,
   "live_count": 54,
-  "last_update": "10:40 PM 22-10-2026",
+  "last_update": "10:51 PM 22-10-2026",
   "events": [
     {
       "match_id": "B0HMLGQPBV",
@@ -1100,6 +1100,25 @@
       }
     },
     {
+      "match_id": "sri-lanka-vs-england",
+      "title": "Sri Lanka vs England",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 29, 2026, 02:00:58 PM",
+      "time": "Oct 29, 2026, 02:00:58 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/187756/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/187756/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lognidbrxm/out/v1/7871a7545c6a43f9b9f17bf42f50602e/cenc.mpd|drm_key=6138da1047932e4c4328448493554901:4e8e19728da2159ac564bd5b01843621",
+        "SKY CRICKET - AQ": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/lognidbrxm/out/v1/7871a7545c6a43f9b9f17bf42f50602e/cenc.mpd|drm_key=6138da1047932e4c4328448493554901:4e8e19728da2159ac564bd5b01843621",
+        "PTV SPORTS HD": "https://baila-lentoo.pages.dev/all-sp/809398.m3u8",
+        "TAPMAD - AQ": "https://tencent-cdn.tapmad.com/v1/01a14a9fb90c15fc60e91e1786b061/01a14a9feb881ea540a81c2b41b75e/main.m3u8|referer=https://tapmad.com/"
+      }
+    },
+    {
       "match_id": "new-zealand-vs-india",
       "title": "New Zealand vs India",
       "sport": "Cricket",
@@ -1446,23 +1465,30 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "sri-lanka-vs-england",
-      "title": "Sri Lanka vs England",
+      "match_id": "pakistan-vs-sri-lanka",
+      "title": "Pakistan vs Sri Lanka",
       "sport": "Cricket",
       "sub_category": "Cricket",
-      "status": "FINISH",
-      "start_time_bst": "Oct 22, 2026, 02:00:00 PM",
-      "time": "Oct 22, 2026, 02:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/187756/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/187756/image",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 27, 2026, 02:00:00 PM",
+      "time": "Oct 27, 2026, 02:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/187754/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/187754/image",
       "is_free": false,
-      "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lognidbrxm/out/v1/7871a7545c6a43f9b9f17bf42f50602e/cenc.mpd|drm_key=6138da1047932e4c4328448493554901:4e8e19728da2159ac564bd5b01843621",
-        "SKY CRICKET - AQ": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/lognidbrxm/out/v1/7871a7545c6a43f9b9f17bf42f50602e/cenc.mpd|drm_key=6138da1047932e4c4328448493554901:4e8e19728da2159ac564bd5b01843621",
-        "PTV SPORTS HD": "https://baila-lentoo.pages.dev/all-sp/809398.m3u8",
-        "TAPMAD - AQ": "https://tencent-cdn.tapmad.com/v1/01a14a9fb90c15fc60e91e1786b061/01a14a9feb881ea540a81c2b41b75e/main.m3u8|referer=https://tapmad.com/"
-      }
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "bangladesh-vs-west-indies",
+      "title": "Bangladesh vs West Indies",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 28, 2026, 10:00:00 AM",
+      "time": "Oct 28, 2026, 10:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/187744/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/187744/image",
+      "is_free": false,
+      "stream_url_alpha": {}
     }
   ]
 }
