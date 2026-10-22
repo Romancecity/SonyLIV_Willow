@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 88,
-  "live_count": 28,
-  "last_update": "05:57 PM 22-10-2026",
+  "channels_amount": 89,
+  "live_count": 29,
+  "last_update": "06:03 PM 22-10-2026",
   "events": [
     {
       "match_id": "B0HFWWJWH6",
@@ -279,23 +279,6 @@
       "drm_key": "18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67"
     },
     {
-      "match_id": "B0HMVS5WQ2",
-      "title": "Smith vs. Puello: Press Conference",
-      "synopsis": "Smith vs. Puello: Press Conference",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.aa5d4759-2619-4648-932e-10a4ef216521/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HMVS5WQ2",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qkvxe8ubng/out/v1/dcedefedc735415a9f9d36d3d3016629/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qkvxe8ubng/out/v1/dcedefedc735415a9f9d36d3d3016629/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qkvxe8ubng/out/v1/dcedefedc735415a9f9d36d3d3016629/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qkvxe8ubng/out/v1/dcedefedc735415a9f9d36d3d3016629/cenc.mpd"
-      },
-      "drm_key": "99f2d8b38451875101393cfda6cc5e77:3d32bdfa5fe52cf74567eb20716b5a65"
-    },
-    {
       "match_id": "B0HNV6CRMH",
       "title": "The Morning Drive",
       "synopsis": "The Morning Drive",
@@ -311,6 +294,23 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vax19ewjes/out/v1/f077d112d47e4a899664fa27031ba9fa/cenc.mpd"
       },
       "drm_key": "e14535ab02e4065cc846047f1feee48d:a51c5c164f9a6b0ae751afeec7f85052"
+    },
+    {
+      "match_id": "B0HMVS5WQ2",
+      "title": "Smith vs. Puello: Press Conference",
+      "synopsis": "Smith vs. Puello: Press Conference",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.aa5d4759-2619-4648-932e-10a4ef216521/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HMVS5WQ2",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qkvxe8ubng/out/v1/dcedefedc735415a9f9d36d3d3016629/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qkvxe8ubng/out/v1/dcedefedc735415a9f9d36d3d3016629/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qkvxe8ubng/out/v1/dcedefedc735415a9f9d36d3d3016629/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qkvxe8ubng/out/v1/dcedefedc735415a9f9d36d3d3016629/cenc.mpd"
+      },
+      "drm_key": "99f2d8b38451875101393cfda6cc5e77:3d32bdfa5fe52cf74567eb20716b5a65"
     },
     {
       "match_id": "B0HFWWJWH6",
@@ -393,6 +393,20 @@
         "Original Server": "https://live-pv-ta-enf.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWIimAWpwcmltZXZpZGVvBBpq7aW6Bhpq2d86A2ZmYXN0bHkCeChmaWQ6MDFhMTYzMGYtZmMzYy03NmMzLWE0ZjgtNDY2MmZjOWJkNzc4GQE4oQWhAngzL3Znbm56eGp6cm0vb3V0L3YxLzJjYWY3NTAwMjFkYjQzYzU4MzFjYTcwMzcwMmYxOTRmWCAvn3Hp4vTdzXEDQi-PINprW2CU4Fs3LOjYFs5mvaZ7yg/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/vgnnzxjzrm/out/v1/2caf750021db43c5831ca703702f194f/9722dd42-7530-4e6e-bdad-c70066af3a0d-cenc.mpd"
       },
       "drm_key": "c86e1954d3c3e73639440ec646089a42:f8bf149cff08385ee34ec772894ff301"
+    },
+    {
+      "match_id": "1090549594",
+      "title": "Mumbai Mavericks vs Tamilnadu Thunders - 22 Oct 2026",
+      "synopsis": "Mumbai Mavericks take on Tamilnadu Thunders in the Salute Tiranga Cricket League 2026. Watch all the action LIVE, only on Sony LIV.",
+      "status": "LIVE",
+      "time": "22 Oct 2026, 06:20 PM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000026937/179261767506469_STCL26_mumbai_vs_tamilnadu_landscape_thumb.jpg",
+      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000026937/179261767506469_STCL26_mumbai_vs_tamilnadu_landscape_thumb.jpg",
+      "match_url": "https://dai.google.com/ssai/event/inz4lo3RShWuushZHiDilA/master.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://dai.google.com/ssai/event/inz4lo3RShWuushZHiDilA/master.m3u8"
+      }
     },
     {
       "match_id": "1090549928",
