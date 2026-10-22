@@ -36,6 +36,7 @@ jobs:
       - name: Fetch, Filter Credits, Count Live and Generate All Files
         env:
           JSON_PLAYLIST_URLS: ${{ secrets.JSON_PLAYLIST_URLS }}
+          GITHUB_REPO: ${{ github.repository }}
         run: |
           git pull origin main --rebase
 
@@ -43,6 +44,7 @@ jobs:
           import os
           import re
           import json
+          import hashlib
           import requests
           import urllib3
           from datetime import datetime
@@ -54,7 +56,13 @@ jobs:
           current_time = datetime.now(tz).strftime("%I:%M %p %d-%m-%Y")
 
           raw_urls = os.environ.get("JSON_PLAYLIST_URLS", "")
+          repo_name = os.environ.get("GITHUB_REPO", "ireentv/repository")
           lines = [u.strip() for u in raw_urls.splitlines() if u.strip() and not u.strip().startswith("#")]
+
+          # লোগো সংরক্ষণ করার ফোল্ডার তৈরি
+          LOGOS_DIR = "logos"
+          os.makedirs(LOGOS_DIR, exist_ok=True)
+          BASE_IMG_URL = f"https://raw.githubusercontent.com/{repo_name}/main/{LOGOS_DIR}"
 
           def fetch_data(url):
               headers = {
@@ -65,6 +73,45 @@ jobs:
               res.raise_for_status()
               clean_text = res.content.decode('utf-8-sig', errors='ignore').strip()
               return json.loads(clean_text)
+
+          # ================= LOGO DOWNLOADER & CACHER =================
+          def download_and_cache_logo(img_url):
+              if not img_url or not isinstance(img_url, str) or not img_url.startswith("http"):
+                  return img_url
+
+              # যদি ইতিমধ্যে আমাদের নিজের রিপোজিটরির ইমেজ লিংক হয়, পুনরায় ডাউনলোডের প্রয়োজন নেই
+              if BASE_IMG_URL in img_url:
+                  return img_url
+
+              # এক্সটেনশন এবং হ্যাশ তৈরি
+              clean_url = img_url.split("?")[0].strip()
+              ext = os.path.splitext(clean_url)[1].lower()
+              if ext not in [".jpg", ".jpeg", ".png", ".webp", ".svg"]:
+                  ext = ".jpg"
+
+              # ইমেজ URL দিয়ে ইউনিক ফাইলের নাম তৈরি
+              img_hash = hashlib.md5(img_url.encode('utf-8')).hexdigest()[:14]
+              filename = f"{img_hash}{ext}"
+              local_filepath = os.path.join(LOGOS_DIR, filename)
+
+              # ইমেজ আগে থেকেই লোকাল ফোল্ডারে থাকলে আর ডাউনলোড করব না (Save Time)
+              if not os.path.exists(local_filepath):
+                  try:
+                      headers = {
+                          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                          "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+                      }
+                      r = requests.get(img_url, headers=headers, timeout=10, verify=False)
+                      if r.status_code == 200 and len(r.content) > 300:
+                          with open(local_filepath, "wb") as f:
+                              f.write(r.content)
+                      else:
+                          return img_url  # ডাউনলোড ব্যর্থ হলে অরিজিনাল লিঙ্ক বহাল থাকবে
+                  except Exception:
+                      return img_url
+
+              # সফলভাবে ডাউনলোড/ক্যাশ হলে নতুন GitHub Raw লিঙ্ক রিটার্ন করবে
+              return f"{BASE_IMG_URL}/{filename}"
 
           # ================= LIVE SPORTS HD =================
           def is_livesports_item(item):
@@ -463,6 +510,17 @@ jobs:
               except Exception as e:
                   print(f"❌ Error fetching {name} ({url}): {e}")
 
+          # ================= AUTOMATIC LOGO PLACEMENT =================
+          print("📥 Downloading and mapping event logos to local repository...")
+          for event in all_collected_events:
+              img_src = event.get("logo") or event.get("cover_image")
+              if img_src and str(img_src).startswith("http"):
+                  cached_url = download_and_cache_logo(img_src)
+                  if "logo" in event:
+                      event["logo"] = cached_url
+                  if "cover_image" in event:
+                      event["cover_image"] = cached_url
+
           total_count = len(all_collected_events)
           live_count = sum(1 for item in all_collected_events if is_live_event(item))
 
@@ -491,9 +549,10 @@ jobs:
       - name: Commit and Push
         run: |
           export TZ="Asia/Kolkata"
-          git add willow.json *.txt
+          # willow.json, txt ফাইল এবং logos ফোল্ডারের ইমেজ git-এ যুক্ত করা
+          git add willow.json *.txt logos/
           if ! git diff --cached --quiet; then
-            git commit -m "All Playlists Synced Successfully ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git commit -m "All Playlists Synced & Logos Cached Successfully ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
           else
             echo "No changes to commit"
