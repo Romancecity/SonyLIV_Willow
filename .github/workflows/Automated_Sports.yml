@@ -31,12 +31,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests pytz urllib3 pillow
+          pip install requests pytz urllib3
 
-      - name: Fetch, Generate OTT VS Banners and Update All Files
+      - name: Fetch, Filter Credits, Count Live and Generate All Files
         env:
           JSON_PLAYLIST_URLS: ${{ secrets.JSON_PLAYLIST_URLS }}
-          GITHUB_REPO: ${{ github.repository }}
         run: |
           git pull origin main --rebase
 
@@ -44,13 +43,10 @@ jobs:
           import os
           import re
           import json
-          import hashlib
           import requests
           import urllib3
-          from io import BytesIO
           from datetime import datetime
           import pytz
-          from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 
           urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -58,218 +54,27 @@ jobs:
           current_time = datetime.now(tz).strftime("%I:%M %p %d-%m-%Y")
 
           raw_urls = os.environ.get("JSON_PLAYLIST_URLS", "")
-          repo_name = os.environ.get("GITHUB_REPO", "ireentv/repository")
           lines = [u.strip() for u in raw_urls.splitlines() if u.strip() and not u.strip().startswith("#")]
 
-          LOGOS_DIR = "logos"
-          os.makedirs(LOGOS_DIR, exist_ok=True)
-          BASE_IMG_URL = f"https://raw.githubusercontent.com/{repo_name}/main/{LOGOS_DIR}"
-
-          HEADERS = {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-          }
-
-          # বোল্ড ফন্ট ডাউনলোড করা (প্রফেশনাল লুকের জন্য)
-          FONT_FILE = "Roboto-Bold.ttf"
-          if not os.path.exists(FONT_FILE):
-              try:
-                  f_res = requests.get("https://raw.githubusercontent.com/google/fonts/main/apache/roboto/Roboto-Bold.ttf", timeout=10)
-                  with open(FONT_FILE, "wb") as f:
-                      f.write(f_res.content)
-              except Exception:
-                  pass
-
-          def get_font(size):
-              if os.path.exists(FONT_FILE):
-                  try:
-                      return ImageFont.truetype(FONT_FILE, size)
-                  except Exception:
-                      pass
-              return ImageFont.load_default()
-
-          team_logo_cache = {}
-
           def fetch_data(url):
-              res = requests.get(url, headers=HEADERS, timeout=30, verify=False)
+              headers = {
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+                  "Accept": "application/json, text/plain, */*"
+              }
+              res = requests.get(url, headers=headers, timeout=30, verify=False)
               res.raise_for_status()
               clean_text = res.content.decode('utf-8-sig', errors='ignore').strip()
               return json.loads(clean_text)
 
-          # ================= SPORTS LOGO SEARCH (TheSportsDB) =================
-          def get_team_logo_online(team_name):
-              clean_name = re.sub(r'[^a-zA-Z0-9 ]', '', team_name).strip()
-              if not clean_name or len(clean_name) < 2:
-                  return None
-              
-              if clean_name.lower() in team_logo_cache:
-                  return team_logo_cache[clean_name.lower()]
-
-              api_url = f"https://www.thesportsdb.com/api/v1/json/3/searchteams.php?t={clean_name}"
-              try:
-                  r = requests.get(api_url, headers=HEADERS, timeout=5)
-                  if r.status_code == 200:
-                      data = r.json()
-                      teams = data.get("teams")
-                      if teams and isinstance(teams, list) and len(teams) > 0:
-                          badge = teams[0].get("strBadge") or teams[0].get("strLogo")
-                          if badge:
-                              team_logo_cache[clean_name.lower()] = badge
-                              return badge
-              except Exception:
-                  pass
-
-              team_logo_cache[clean_name.lower()] = None
-              return None
-
-          def download_pil_image(img_url):
-              if not img_url or not str(img_url).startswith("http"):
-                  return None
-              try:
-                  r = requests.get(img_url, headers=HEADERS, timeout=6, verify=False)
-                  if r.status_code == 200 and len(r.content) > 400:
-                      return Image.open(BytesIO(r.content)).convert("RGBA")
-              except Exception:
-                  pass
-              return None
-
-          # ================= OTT STYLE VS CARD GENERATOR =================
-          def generate_ott_vs_card(team1, team2, logo1_url=None, logo2_url=None, status="UPCOMING", league_name=""):
-              safe_id = hashlib.md5(f"{team1}_vs_{team2}".lower().encode()).hexdigest()[:12]
-              filename = f"ott_{safe_id}.png"
-              local_path = os.path.join(LOGOS_DIR, filename)
-
-              # ক্যাশ চেক
-              if os.path.exists(local_path):
-                  return f"{BASE_IMG_URL}/{filename}"
-
-              # লোগো অনলাইন থেকে আনা
-              if not logo1_url:
-                  logo1_url = get_team_logo_online(team1)
-              if not logo2_url:
-                  logo2_url = get_team_logo_online(team2)
-
-              img1 = download_pil_image(logo1_url)
-              img2 = download_pil_image(logo2_url)
-
-              # ক্যানভাস সাইজ: 16:9 স্ট্যান্ডার্ড (800x450)
-              W, H = 800, 450
-              
-              # প্রিমিয়াম ডার্ক ব্লু/চারকোল গ্রেডিয়েন্ট ব্যাকগ্রাউন্ড
-              card = Image.new("RGBA", (W, H), (17, 24, 39, 255))
-              draw = ImageDraw.Draw(card)
-
-              # ব্যাকগ্রাউন্ড হালকা গ্রেডিয়েন্ট গ্লো
-              for i in range(H):
-                  alpha = int(35 * (1 - i / H))
-                  draw.line([(0, i), (W, i)], fill=(30, 41, 59, 255 - alpha))
-
-              # ১. ওয়াটারমার্ক ড্র (লোগোর পেছনের আবছা বড় শ্যাডো - ঠিক ২য় ছবির মতো)
-              def paste_watermark(img, center_x):
-                  if not img: return
-                  wm = img.copy()
-                  wm.thumbnail((320, 320), Image.Resampling.LANCZOS)
-                  # আলফা/স্বচ্ছতা ২০% এ কমিয়ে দেওয়া
-                  alpha = wm.split()[3]
-                  alpha = ImageEnhance.Brightness(alpha).enhance(0.18)
-                  wm.putalpha(alpha)
-                  w, h = wm.size
-                  card.paste(wm, (center_x - w // 2, H // 2 - h // 2), wm)
-
-              paste_watermark(img1, W // 4)
-              paste_watermark(img2, 3 * W // 4)
-
-              # ২. সামনে মূল লোগো ড্র করা (শার্প এবং ক্লিয়ার)
-              def paste_main_logo(img, center_x):
-                  if not img:
-                      # লোগো না পেলে সুন্দর সার্কেল প্লেসহোল্ডার
-                      draw.ellipse([center_x - 65, H // 2 - 65, center_x + 65, H // 2 + 65], fill=(30, 41, 59, 200), outline=(71, 85, 105), width=2)
-                      return
-                  fg = img.copy()
-                  fg.thumbnail((160, 160), Image.Resampling.LANCZOS)
-                  w, h = fg.size
-                  card.paste(fg, (center_x - w // 2, H // 2 - h // 2), fg)
-
-              paste_main_logo(img1, W // 4)
-              paste_main_logo(img2, 3 * W // 4)
-
-              # ৩. সেন্টারে "VS" এলিমেন্ট
-              cx, cy = W // 2, H // 2
-              vs_font = get_font(26)
-              draw.ellipse([cx - 28, cy - 28, cx + 28, cy + 28], fill=(15, 23, 42, 220), outline=(71, 85, 105), width=2)
-              draw.text((cx - 16, cy - 15), "VS", fill=(241, 245, 249), font=vs_font)
-
-              # ৪. ওপরে বাম কোণায় ব্যাজ (ঠিক আপনার ২য় ছবির মতো)
-              is_live = (status.upper() == "LIVE")
-              badge_bg = (225, 29, 72, 240) if is_live else (0, 0, 0, 200) # লাইভ হলে লাল, শিডিউল হলে কালো
-              badge_text = "● LIVE" if is_live else "SCHEDULED"
-              
-              draw.rounded_rectangle([30, 25, 155, 62], radius=6, fill=badge_bg)
-              badge_font = get_font(14)
-              draw.text((45, 36), badge_text, fill=(255, 255, 255), font=badge_font)
-
-              # ৫. টুর্নামেন্ট বা সিরিজের নাম (ওপরে সেন্টারে)
-              if league_name:
-                  clean_league = league_name.upper()[:35]
-                  l_font = get_font(15)
-                  draw.text((W // 2 - (len(clean_league) * 4.5), 35), clean_league, fill=(148, 163, 184), font=l_font)
-
-              # ৬. নিচে দলের নাম
-              name_font = get_font(18)
-              def draw_team_name(name, center_x):
-                  t_name = name.upper()[:16]
-                  draw.text((center_x - (len(t_name) * 5), H - 65), t_name, fill=(255, 255, 255), font=name_font)
-
-              draw_team_name(team1, W // 4)
-              draw_team_name(team2, 3 * W // 4)
-
-              # সেভ করা
-              card.save(local_path, format="PNG")
-              return f"{BASE_IMG_URL}/{filename}"
-
-          # ================= MATCH IDENTIFIER =================
-          def detect_teams_and_assign_logo(event):
-              title = event.get("title", "")
-              sub = event.get("sub_category") or event.get("sport") or event.get("synopsis") or ""
-              status = event.get("status", "UPCOMING")
-
-              team1 = event.get("localteam_name") or event.get("team1")
-              team2 = event.get("visitorteam_name") or event.get("team2")
-              logo1 = event.get("localteam_logo") or event.get("team1_logo")
-              logo2 = event.get("visitorteam_logo") or event.get("team2_logo")
-
-              if not (team1 and team2):
-                  parts = re.split(r'\s+(?:vs\.?|v|-)\s+', title, flags=re.IGNORECASE)
-                  if len(parts) >= 2:
-                      team1 = parts[0].strip()
-                      team2 = parts[1].split("(")[0].split("|")[0].strip()
-
-              if team1 and team2 and len(team1) > 1 and len(team2) > 1:
-                  card_url = generate_ott_vs_card(team1, team2, logo1, logo2, status, sub)
-                  event["logo"] = card_url
-                  event["cover_image"] = card_url
-                  return
-
-              # রেগুলার ইভেন্ট হলে সাধারণ লোগো ক্যাশ করা
-              orig_logo = event.get("logo") or event.get("cover_image")
-              if orig_logo and str(orig_logo).startswith("http"):
-                  safe_name = f"logo_{hashlib.md5(orig_logo.encode()).hexdigest()[:12]}.jpg"
-                  local_f = os.path.join(LOGOS_DIR, safe_name)
-                  if not os.path.exists(local_f):
-                      try:
-                          r = requests.get(orig_logo, headers=HEADERS, timeout=6, verify=False)
-                          if r.status_code == 200:
-                              with open(local_f, "wb") as f:
-                                  f.write(r.content)
-                      except Exception:
-                          pass
-                  if os.path.exists(local_f):
-                      event["logo"] = f"{BASE_IMG_URL}/{safe_name}"
-                      event["cover_image"] = f"{BASE_IMG_URL}/{safe_name}"
-
-          # ================= PARSERS =================
+          # ================= LIVE SPORTS HD =================
           def is_livesports_item(item):
-              if not isinstance(item, dict): return False
-              return ("channels" in item and isinstance(item["channels"], list)) or ("schedule" in item)
+              if not isinstance(item, dict):
+                  return False
+              if "channels" in item and isinstance(item["channels"], list):
+                  return True
+              if "schedule" in item and ("start_time_bst" in item.get("schedule", {}) or "teams" in item):
+                  return True
+              return False
 
           def transform_livesports_item(item):
               title = item.get("title") or "Sports Match"
@@ -277,27 +82,44 @@ jobs:
               sub_category = item.get("sub_category") or ""
               logo = item.get("logo") or item.get("cover_image") or ""
               match_id = str(item.get("slug") or item.get("match_id") or sport)
+
               schedule = item.get("schedule", {}) if isinstance(item.get("schedule"), dict) else {}
               start_time_bst = schedule.get("start_time_bst") or item.get("start_time_bst") or item.get("time") or ""
 
               status_raw = str(item.get("status", "")).strip().upper()
-              status = "LIVE" if status_raw in ["LIVE", "PLAYING", "IN_PLAY"] or is_live_event(item) else (status_raw or "UPCOMING")
+              if status_raw in ["LIVE", "PLAYING", "IN_PLAY"] or is_live_event(item):
+                  status = "LIVE"
+              else:
+                  status = status_raw if status_raw else "UPCOMING"
 
               stream_url_alpha = {}
+
               channels = item.get("channels", [])
               if isinstance(channels, list):
                   for ch in channels:
-                      if not isinstance(ch, dict): continue
+                      if not isinstance(ch, dict):
+                          continue
                       ch_name = ch.get("channel_name") or f"Server {len(stream_url_alpha) + 1}"
                       ch_url = ch.get("raw_link") or ch.get("url") or ""
+
+                      # Headers হ্যান্ডলিং
                       headers = ch.get("headers")
                       if ch_url and isinstance(headers, dict) and "|" not in ch_url:
                           h_parts = [f"{k}={v}" for k, v in headers.items() if v]
-                          if h_parts: ch_url += "|" + "&".join(h_parts)
+                          if h_parts:
+                              ch_url += "|" + "&".join(h_parts)
+
+                      # DRM Key লিঙ্ক এর সাথে যুক্ত করা
                       drm = ch.get("drm_key")
                       if ch_url and drm:
-                          ch_url += f"&drm_key={drm}" if "|" in ch_url else f"|drm_key={drm}"
-                      if ch_url: stream_url_alpha[ch_name] = ch_url
+                          drm_str = str(drm).strip()
+                          if "|" in ch_url:
+                              ch_url += f"&drm_key={drm_str}"
+                          else:
+                              ch_url += f"|drm_key={drm_str}"
+
+                      if ch_url:
+                          stream_url_alpha[ch_name] = ch_url
 
               return {
                   "match_id": match_id,
@@ -313,130 +135,354 @@ jobs:
                   "stream_url_alpha": stream_url_alpha
               }
 
+          # ================= SONY LIV =================
           def is_sonyliv_item(item):
-              if not isinstance(item, dict): return False
-              return any(k in item for k in ["multiple_audio_links", "video_info", "contentId"])
+              if not isinstance(item, dict):
+                  return False
+              if "multiple_audio_links" in item:
+                  return True
+              if "video_info" in item and ("stream_info" in item or "image_cdn" in item or "air_dates" in item):
+                  return True
+              if "contentId" in item and ("video_info" in item or "air_dates" in item or "stream_info" in item):
+                  return True
+              return False
+
+          def extract_sonyliv_streams(item):
+              servers = {}
+              stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
+              dai = (
+                  stream_info.get("dai_asset_key") or 
+                  stream_info.get("dai_url") or 
+                  item.get("dai_asset_key") or 
+                  item.get("dai_url")
+              )
+              if dai and str(dai).startswith("http"):
+                  servers["Original Server"] = str(dai).strip()
+              return servers
 
           def transform_sonyliv_item(item):
               v_info = item.get("video_info", {}) if isinstance(item.get("video_info"), dict) else {}
               img_cdn = item.get("image_cdn", {}) if isinstance(item.get("image_cdn"), dict) else {}
               air_dates = item.get("air_dates", {}) if isinstance(item.get("air_dates"), dict) else {}
+
               title = v_info.get("episodeTitle") or v_info.get("title") or item.get("title") or "Sports Match"
-              cover_image = img_cdn.get("landscape_thumb") or img_cdn.get("thumbnail") or item.get("cover_image") or ""
+              synopsis = v_info.get("longDescription") or v_info.get("shortDescription") or item.get("synopsis") or title
+
+              cover_image = (
+                  img_cdn.get("landscape_thumb") or 
+                  img_cdn.get("thumbnail") or 
+                  img_cdn.get("portrait_thumb") or 
+                  item.get("cover_image") or ""
+              )
+
+              stream_urls = extract_sonyliv_streams(item)
+              dai_url = stream_urls.get("Original Server")
               
-              stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
-              dai = stream_info.get("dai_asset_key") or stream_info.get("dai_url")
-              servers = {"Original Server": str(dai).strip()} if dai and str(dai).startswith("http") else {}
-              
-              status = "LIVE" if servers or is_live_event(item) else "UPCOMING"
+              if dai_url:
+                  match_url = dai_url
+                  status = "LIVE"
+              else:
+                  content_id = item.get('contentId') or item.get('match_id', '')
+                  match_url = f"https://www.sonyliv.com/custom-live/{content_id}" if content_id else ""
+                  status = "LIVE" if is_live_event(item) else "UPCOMING"
+
+              time_val = (
+                  air_dates.get("originalAirDate") or 
+                  air_dates.get("start_date") or 
+                  item.get("time") or 
+                  item.get("start_time") or ""
+              )
+
               return {
                   "match_id": str(item.get("contentId") or item.get("match_id", "")),
                   "title": title,
-                  "synopsis": v_info.get("longDescription") or title,
+                  "synopsis": synopsis,
                   "status": status,
-                  "time": air_dates.get("originalAirDate") or item.get("time") or "",
+                  "time": time_val,
                   "cover_image": cover_image,
                   "logo": cover_image,
-                  "match_url": servers.get("Original Server", ""),
+                  "match_url": match_url,
                   "is_free": False,
-                  "stream_url": servers
+                  "stream_url": stream_urls
               }
 
+          # ================= BINGSTREAM =================
           def is_bingstream_item(item):
-              if not isinstance(item, dict): return False
-              return any(k in item for k in ["link_live", "videoURL", "video_url", "localteam_name"])
+              if not isinstance(item, dict):
+                  return False
+              if "link_live" in item:
+                  return True
+              if any(k in item for k in ["videoURL", "video_url", "video URL", "videoUrl", "cdn_domain", "localteam_name"]):
+                  return True
+              source_val = str(item.get("source", "") or item.get("provider", "") or item.get("type", "")).lower()
+              return "bing" in source_val
+
+          def extract_bingstream_streams(item):
+              servers = {}
+              found_urls = []
+
+              referer_val = (
+                  item.get("referer") or 
+                  item.get("referrer") or 
+                  item.get("referer_url") or 
+                  item.get("referrer_url") or 
+                  "https://iframe.rumsport8.live/"
+              )
+              if referer_val and not referer_val.endswith("/"):
+                  referer_val += "/"
+
+              user_agent_val = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              suffix = f"|http-user-agent={user_agent_val}&http-referrer={referer_val}"
+
+              if "link_live" in item and isinstance(item["link_live"], list):
+                  for obj in item["link_live"]:
+                      if isinstance(obj, dict):
+                          v_url = obj.get("videoURL") or obj.get("video_url") or obj.get("videoUrl") or obj.get("video URL")
+                          if v_url and str(v_url).startswith("http"):
+                              found_urls.append(str(v_url).strip())
+                      elif isinstance(obj, str) and obj.startswith("http"):
+                          found_urls.append(obj.strip())
+
+              if not found_urls:
+                  video_keys = ["videoURL", "video_url", "video URL", "videoUrl", "video_urls", "videoURLs"]
+                  for key in video_keys:
+                      if key in item and item[key]:
+                          val = item[key]
+                          if isinstance(val, str):
+                              for p in re.split(r'[\r\n,]+', val.strip()):
+                                  p_clean = p.strip()
+                                  if p_clean.startswith("http"):
+                                      found_urls.append(p_clean)
+                          elif isinstance(val, list):
+                              for elem in val:
+                                  if isinstance(elem, str) and elem.strip().startswith("http"):
+                                      found_urls.append(elem.strip())
+                                  elif isinstance(elem, dict):
+                                      u = elem.get("videoURL") or elem.get("video_url") or elem.get("videoUrl")
+                                      if u and str(u).startswith("http"):
+                                          found_urls.append(str(u).strip())
+
+              seen_urls = []
+              for u in found_urls:
+                  if u not in seen_urls:
+                      seen_urls.append(u)
+
+              for idx, u in enumerate(seen_urls, 1):
+                  clean_u = u.split("|http-")[0] if "|http-" in u else u
+                  servers[f"Server {idx}"] = f"{clean_u}{suffix}"
+
+              return servers
 
           def transform_bingstream_item(item):
-              title = item.get("name") or item.get("title") or item.get("event_name") or "Sports Match"
-              servers = {}
-              suffix = "|http-user-agent=Mozilla/5.0&http-referrer=https://iframe.rumsport8.live/"
-              if "link_live" in item and isinstance(item["link_live"], list):
-                  for idx, obj in enumerate(item["link_live"], 1):
-                      u = obj.get("videoURL") or obj.get("video_url") if isinstance(obj, dict) else str(obj)
-                      if u and str(u).startswith("http"):
-                          servers[f"Server {idx}"] = f"{u.split('|http-')[0]}{suffix}"
+              title = item.get("name") or item.get("title") or item.get("event_name") or item.get("match_name") or "Sports Match"
+              league = item.get("league_name", "")
+              synopsis = item.get("synopsis") or item.get("description") or (f"{league} - {title}" if league else title)
               
+              cover_image = (
+                  item.get("cover_image") or 
+                  item.get("thumbnail") or 
+                  item.get("league_logo") or 
+                  item.get("localteam_logo") or 
+                  item.get("visitorteam_logo") or 
+                  item.get("image") or ""
+              )
+
+              stream_urls = extract_bingstream_streams(item)
+              first_url = next(iter(stream_urls.values())) if stream_urls else ""
+              match_url = item.get("match_url") or first_url or ""
+              
+              is_live = False
+              if item.get("is_playing") is True:
+                  is_live = True
+              elif stream_urls and not item.get("has_ended", False):
+                  is_live = True
+              elif is_live_event(item):
+                  is_live = True
+
+              status = "LIVE" if is_live else (item.get("status") or "UPCOMING")
+              match_id = str(item.get("id") or item.get("match_id") or item.get("contentId") or item.get("eventId") or "")
+              time_val = item.get("bd_time") or item.get("time") or item.get("start_time") or item.get("date") or ""
+
               return {
-                  "match_id": str(item.get("id") or item.get("match_id") or ""),
+                  "match_id": match_id,
                   "title": title,
-                  "localteam_name": item.get("localteam_name"),
-                  "visitorteam_name": item.get("visitorteam_name"),
-                  "localteam_logo": item.get("localteam_logo"),
-                  "visitorteam_logo": item.get("visitorteam_logo"),
-                  "status": "LIVE" if is_live_event(item) else "UPCOMING",
-                  "time": item.get("time") or item.get("bd_time") or "",
-                  "cover_image": item.get("cover_image") or item.get("thumbnail") or "",
-                  "logo": item.get("cover_image") or item.get("thumbnail") or "",
-                  "stream_url": servers
+                  "synopsis": synopsis,
+                  "status": status,
+                  "time": time_val,
+                  "cover_image": cover_image,
+                  "logo": cover_image,
+                  "match_url": match_url,
+                  "is_free": False,
+                  "stream_url": stream_urls
               }
 
+          # ================= COMMON UTILS =================
           def is_live_event(item):
-              if not isinstance(item, dict): return False
-              if item.get("is_playing") is True: return True
-              for k in ["is_live", "live", "isLive", "status"]:
-                  if k in item and "live" in str(item[k]).lower(): return True
+              if not isinstance(item, dict):
+                  return False
+              
+              if item.get("is_playing") is True:
+                  return True
+              if item.get("has_ended") is True:
+                  return False
+
+              stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
+              dai = stream_info.get("dai_asset_key") or stream_info.get("dai_url") or item.get("dai_asset_key") or item.get("dai_url")
+              if dai and str(dai).startswith("http"):
+                  return True
+              
+              stream_obj = item.get("stream_url", {}) or item.get("stream_url_alpha", {})
+              if isinstance(stream_obj, dict):
+                  if any(str(v).startswith("http") for v in stream_obj.values() if v):
+                      return True
+
+              for k in ["is_live", "live", "isLive", "islive", "is_stream_live"]:
+                  if k in item:
+                      val = item[k]
+                      if val in [True, 1, "true", "1", "live", "yes", "True", "LIVE"]:
+                          return True
+              
+              v_info = item.get("video_info", {}) if isinstance(item.get("video_info"), dict) else {}
+              for k in ["is_live", "live", "isLive", "islive", "broadcast_state"]:
+                  if k in v_info:
+                      val = v_info[k]
+                      if val in [True, 1, "true", "1", "live", "yes", "True", "LIVE"]:
+                          return True
+
+              for k in ["status", "event_status", "match_status", "badge", "state"]:
+                  if k in item and isinstance(item[k], str) and "live" in item[k].lower():
+                      return True
+                  if k in v_info and isinstance(v_info[k], str) and "live" in v_info[k].lower():
+                      return True
+              
               return False
 
           def extract_items_from_json(data):
               items = []
+
               def walk(obj):
                   if isinstance(obj, list):
-                      for elem in obj: walk(elem)
+                      for elem in obj:
+                          walk(elem)
                   elif isinstance(obj, dict):
-                      if any(k in obj for k in ["channels", "link_live", "video_info", "localteam_name", "stream_url", "stream_url_alpha"]):
+                      is_match_item = False
+                      has_id = any(k in obj for k in ["contentId", "match_id", "eventId", "event_id", "id", "fixture_id", "slug"])
+                      has_media = any(k in obj for k in ["channels", "link_live", "video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "multiple_audio_links", "video_url", "video URL", "videoUrl", "videoURL"])
+                      has_sports = any(k in obj for k in ["localteam_name", "visitorteam_name", "league_name", "timelive", "is_playing", "sub_category", "sport", "teams"])
+
+                      if (has_id and (has_media or has_sports)) or has_media:
+                          is_match_item = True
+                      elif any(k in obj for k in ["title", "name"]) and any(k in obj for k in ["channels", "match_url", "status", "stream_url", "cover_image", "time", "start_time", "bd_time", "link_live"]):
+                          is_match_item = True
+
+                      if is_match_item:
                           items.append(obj)
                       else:
-                          for v in obj.values(): walk(v)
+                          for k, v in obj.items():
+                              if k.lower() in ["owner", "telegram", "credit", "website", "admin", "notice"]:
+                                  continue
+                              walk(v)
+
               walk(data)
-              return items
+
+              seen = set()
+              unique_items = []
+              for it in items:
+                  uid = it.get("slug") or it.get("contentId") or it.get("match_id") or it.get("eventId") or it.get("id") or it.get("title") or it.get("name")
+                  if uid and uid not in seen:
+                      seen.add(uid)
+                      unique_items.append(it)
+                  elif not uid:
+                      unique_items.append(it)
+
+              return unique_items
 
           def get_playlist_info(url_line):
               if "|" in url_line:
                   name, url = url_line.split("|", 1)
-                  return name.strip(), f"{re.sub(r'[^a-zA-Z0-9_-]', '_', name.lower())}.txt", url.strip()
+                  name = name.strip()
+                  filename = re.sub(r'[^a-zA-Z0-9_-]', '_', name.lower()) + ".txt"
+                  return name, filename, url.strip()
+              
               url = url_line.strip()
-              base = os.path.splitext(os.path.basename(url.split("?")[0]))[0] or "playlist"
-              return base.title(), f"{base.lower()}.txt", url
+              url_lower = url.lower()
+              if "willow" in url_lower:
+                  return "Willow", "willow.txt", url
+              elif "prime" in url_lower:
+                  return "PrimeVideo", "primevideo.txt", url
+              elif "sony" in url_lower:
+                  return "Sony LIV", "sonyliv.txt", url
+              elif "bing" in url_lower or "bingstream" in url_lower:
+                  return "Bingstream", "bingstream.txt", url
+              elif "live_sports" in url_lower or "livesports" in url_lower:
+                  return "Live Sports HD", "livesports.txt", url
+              elif "sports_data" in url_lower:
+                  return "Sports Data", "sports_data.txt", url
+              else:
+                  base = os.path.splitext(os.path.basename(url.split("?")[0]))[0]
+                  clean_name = re.sub(r'[^a-zA-Z0-9_-]', '_', base) if base else "playlist"
+                  return clean_name.replace("_", " ").title(), f"{clean_name.lower()}.txt", url
 
           all_collected_events = []
-          for line in lines:
+
+          print(f"Total Playlist URLs Found in Secrets: {len(lines)}")
+
+          for idx, line in enumerate(lines, 1):
               name, txt_filename, url = get_playlist_info(line)
               current_source_items = []
+              is_bing_source = ("bing" in name.lower() or "bing" in url.lower() or "bingstream" in url.lower())
+              
               try:
+                  print(f"[{idx}/{len(lines)}] Fetching: {name} from {url[:45]}...")
                   raw_json = fetch_data(url)
-                  for it in extract_items_from_json(raw_json):
-                      if is_livesports_item(it): current_source_items.append(transform_livesports_item(it))
-                      elif is_sonyliv_item(it): current_source_items.append(transform_sonyliv_item(it))
-                      elif is_bingstream_item(it): current_source_items.append(transform_bingstream_item(it))
-                      else: current_source_items.append(it)
-                  all_collected_events.extend(current_source_items)
-                  with open(txt_filename, "w", encoding="utf-8") as f:
-                      f.write(f"🚀 {name} Synced | Channels: {len(current_source_items)}\n")
-              except Exception as e:
-                  print(f"❌ Error fetching {name}: {e}")
+                  raw_items = extract_items_from_json(raw_json)
 
-          # ================= লোগো এবং OTT কার্ড তৈরি =================
-          print("🎨 Rendering Premium OTT Style Posters & Watermarks...")
-          for event in all_collected_events:
-              try:
-                  detect_teams_and_assign_logo(event)
+                  for it in raw_items:
+                      if not isinstance(it, dict):
+                          continue
+                      if is_livesports_item(it):
+                          current_source_items.append(transform_livesports_item(it))
+                      elif is_sonyliv_item(it):
+                          current_source_items.append(transform_sonyliv_item(it))
+                      elif is_bing_source or is_bingstream_item(it):
+                          current_source_items.append(transform_bingstream_item(it))
+                      else:
+                          current_source_items.append(it)
+
+                  all_collected_events.extend(current_source_items)
+
+                  src_total = len(current_source_items)
+                  src_live = sum(1 for it in current_source_items if is_live_event(it))
+
+                  log_line = f"🚀 {name} Synced | IST: {current_time} | Channels: {src_total} | Live: {src_live}\n"
+                  with open(txt_filename, "w", encoding="utf-8") as f:
+                      f.write(log_line)
+
+                  print(f"✅ Success: {name} -> Extracted: {src_total} items (Live: {src_live})")
+
               except Exception as e:
-                  print(f"Poster skip: {e}")
+                  print(f"❌ Error fetching {name} ({url}): {e}")
 
           total_count = len(all_collected_events)
+          live_count = sum(1 for item in all_collected_events if is_live_event(item))
+
           final_json = {
               "playlist_name": "All Sports & Cricket Event Info",
               "developer": "MD ANAMUL HOQUE",
               "telegram": "https://t.me/ireentv",
+              "website": "https://anamul.pages.dev",
+              "work_place": "https://ireentechnology.netlify.app",
+              "version": "1.0",
               "channels_amount": total_count,
-              "live_count": sum(1 for it in all_collected_events if is_live_event(it)),
+              "live_count": live_count,
               "last_update": current_time,
               "events": all_collected_events
           }
 
           with open("willow.json", "w", encoding="utf-8") as f:
               json.dump(final_json, f, indent=2, ensure_ascii=False)
-          print(f"🎯 Finished! Created OTT Posters and saved to willow.json")
+
+          print(f"🎯 Finished! Total Combined Channels: {total_count} (Live: {live_count})")
           EOF
 
           python3 update_playlist.py
@@ -445,9 +491,9 @@ jobs:
       - name: Commit and Push
         run: |
           export TZ="Asia/Kolkata"
-          git add willow.json *.txt logos/
+          git add willow.json *.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Generated Premium OTT Match Posters ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git commit -m "All Playlists Synced Successfully ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
           else
             echo "No changes to commit"
