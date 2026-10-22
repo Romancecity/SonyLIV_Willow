@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 89,
-  "live_count": 30,
-  "last_update": "08:08 PM 22-10-2026",
+  "live_count": 31,
+  "last_update": "08:14 PM 22-10-2026",
   "events": [
     {
       "match_id": "B0HFWWJWH6",
@@ -534,6 +534,24 @@
       }
     },
     {
+      "match_id": "fc-kairat-almaty-vs-panathinaikos-fc",
+      "title": "FC Kairat Almaty vs Panathinaikos FC",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 22, 2026, 08:30:00 PM",
+      "time": "Oct 22, 2026, 08:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/5172/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/5172/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "VIX SPANISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5s56vlvtxj/out/v1/83e94e1e8f76494f8173edb038f25837/cenc.mpd|drm_key=a0792c0c9b157d5e6a5239460936ff3b:459887781ab8b34c993cdd8c124fd3f6",
+        "CRICFy LIVE": "https://live2.jorvakstreamcache.com/live/channel22.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://xlz.domainkqt.cc/&Origin=https://xlz.domainkqt.cc",
+        "SonyLiv": "https://sonymtmnew.akamaized.net/hls/live/2094588/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=a550536bd3c2b385ea3a99f817d93ebe-1792678203583",
+        "LOW SERVER": "http://193.47.62.41/hls/BEEE.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "formula-1",
       "title": "Formula 1",
       "sport": "Motorsport",
@@ -964,19 +982,6 @@
       "time": "Oct 23, 2026, 01:00:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/4502/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/4502/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "fc-kairat-almaty-vs-panathinaikos-fc",
-      "title": "FC Kairat Almaty vs Panathinaikos FC",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 22, 2026, 08:30:00 PM",
-      "time": "Oct 22, 2026, 08:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/5172/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/5172/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
