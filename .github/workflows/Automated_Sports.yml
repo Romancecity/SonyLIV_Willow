@@ -33,7 +33,7 @@ jobs:
         run: |
           pip install requests pytz urllib3 pillow
 
-      - name: Fetch, Generate VS Banners and Update All Files
+      - name: Fetch, Generate OTT VS Banners and Update All Files
         env:
           JSON_PLAYLIST_URLS: ${{ secrets.JSON_PLAYLIST_URLS }}
           GITHUB_REPO: ${{ github.repository }}
@@ -50,7 +50,7 @@ jobs:
           from io import BytesIO
           from datetime import datetime
           import pytz
-          from PIL import Image, ImageDraw, ImageFont
+          from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 
           urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -68,6 +68,24 @@ jobs:
           HEADERS = {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
           }
+
+          # বোল্ড ফন্ট ডাউনলোড করা (প্রফেশনাল লুকের জন্য)
+          FONT_FILE = "Roboto-Bold.ttf"
+          if not os.path.exists(FONT_FILE):
+              try:
+                  f_res = requests.get("https://raw.githubusercontent.com/google/fonts/main/apache/roboto/Roboto-Bold.ttf", timeout=10)
+                  with open(FONT_FILE, "wb") as f:
+                      f.write(f_res.content)
+              except Exception:
+                  pass
+
+          def get_font(size):
+              if os.path.exists(FONT_FILE):
+                  try:
+                      return ImageFont.truetype(FONT_FILE, size)
+                  except Exception:
+                      pass
+              return ImageFont.load_default()
 
           team_logo_cache = {}
 
@@ -108,23 +126,23 @@ jobs:
                   return None
               try:
                   r = requests.get(img_url, headers=HEADERS, timeout=6, verify=False)
-                  if r.status_code == 200 and len(r.content) > 500:
+                  if r.status_code == 200 and len(r.content) > 400:
                       return Image.open(BytesIO(r.content)).convert("RGBA")
               except Exception:
                   pass
               return None
 
-          # ================= AUTOMATIC "VS" BANNER GENERATOR =================
-          def generate_vs_banner(team1, team2, logo1_url=None, logo2_url=None, sub_text=""):
+          # ================= OTT STYLE VS CARD GENERATOR =================
+          def generate_ott_vs_card(team1, team2, logo1_url=None, logo2_url=None, status="UPCOMING", league_name=""):
               safe_id = hashlib.md5(f"{team1}_vs_{team2}".lower().encode()).hexdigest()[:12]
-              filename = f"vs_{safe_id}.png"
+              filename = f"ott_{safe_id}.png"
               local_path = os.path.join(LOGOS_DIR, filename)
 
-              # ক্যাশে থাকলে পুনরায় তৈরি না করে সরাসরি লিংক দেবে
+              # ক্যাশ চেক
               if os.path.exists(local_path):
                   return f"{BASE_IMG_URL}/{filename}"
 
-              # লোগো না থাকলে অনলাইন থেকে খোঁজা
+              # লোগো অনলাইন থেকে আনা
               if not logo1_url:
                   logo1_url = get_team_logo_online(team1)
               if not logo2_url:
@@ -133,77 +151,105 @@ jobs:
               img1 = download_pil_image(logo1_url)
               img2 = download_pil_image(logo2_url)
 
-              # ক্যানভাস তৈরি: 900x500 (16:9 ডার্ক প্রিমিয়াম ব্যাকগ্রাউন্ড)
-              W, H = 900, 500
-              banner = Image.new("RGBA", (W, H), (15, 23, 42, 255)) # Dark Navy
-              draw = ImageDraw.Draw(banner)
+              # ক্যানভাস সাইজ: 16:9 স্ট্যান্ডার্ড (800x450)
+              W, H = 800, 450
+              
+              # প্রিমিয়াম ডার্ক ব্লু/চারকোল গ্রেডিয়েন্ট ব্যাকগ্রাউন্ড
+              card = Image.new("RGBA", (W, H), (17, 24, 39, 255))
+              draw = ImageDraw.Draw(card)
 
-              # ব্যাকগ্রাউন্ড ডিজাইন
-              draw.rectangle([(0, 0), (W, 60)], fill=(30, 41, 59, 255))
-              draw.line([(W // 2, 80), (W // 2, H - 40)], fill=(51, 65, 85, 180), width=2)
+              # ব্যাকগ্রাউন্ড হালকা গ্রেডিয়েন্ট গ্লো
+              for i in range(H):
+                  alpha = int(35 * (1 - i / H))
+                  draw.line([(0, i), (W, i)], fill=(30, 41, 59, 255 - alpha))
 
-              # টিম ১ এর লোগো ড্র করা (বাম পাশে)
-              if img1:
-                  img1.thumbnail((200, 200), Image.Resampling.LANCZOS)
-                  w1, h1 = img1.size
-                  banner.paste(img1, (W // 4 - w1 // 2, 170 - h1 // 2), img1)
-              else:
-                  draw.ellipse([W // 4 - 60, 110, W // 4 + 60, 230], fill=(30, 41, 59, 255), outline=(100, 116, 139), width=2)
+              # ১. ওয়াটারমার্ক ড্র (লোগোর পেছনের আবছা বড় শ্যাডো - ঠিক ২য় ছবির মতো)
+              def paste_watermark(img, center_x):
+                  if not img: return
+                  wm = img.copy()
+                  wm.thumbnail((320, 320), Image.Resampling.LANCZOS)
+                  # আলফা/স্বচ্ছতা ২০% এ কমিয়ে দেওয়া
+                  alpha = wm.split()[3]
+                  alpha = ImageEnhance.Brightness(alpha).enhance(0.18)
+                  wm.putalpha(alpha)
+                  w, h = wm.size
+                  card.paste(wm, (center_x - w // 2, H // 2 - h // 2), wm)
 
-              # টিম ২ এর লোগো ড্র করা (ডান পাশে)
-              if img2:
-                  img2.thumbnail((200, 200), Image.Resampling.LANCZOS)
-                  w2, h2 = img2.size
-                  banner.paste(img2, (3 * W // 4 - w2 // 2, 170 - h2 // 2), img2)
-              else:
-                  draw.ellipse([3 * W // 4 - 60, 110, 3 * W // 4 + 60, 230], fill=(30, 41, 59, 255), outline=(100, 116, 139), width=2)
+              paste_watermark(img1, W // 4)
+              paste_watermark(img2, 3 * W // 4)
 
-              # সেন্টারে সুন্দর "VS" ব্যাজ তৈরি
-              cx, cy = W // 2, 170
-              draw.ellipse([cx - 40, cy - 40, cx + 40, cy + 40], fill=(225, 29, 72, 255)) # Crimson Red circle
-              draw.text((cx - 15, cy - 14), "VS", fill=(255, 255, 255, 255))
+              # ২. সামনে মূল লোগো ড্র করা (শার্প এবং ক্লিয়ার)
+              def paste_main_logo(img, center_x):
+                  if not img:
+                      # লোগো না পেলে সুন্দর সার্কেল প্লেসহোল্ডার
+                      draw.ellipse([center_x - 65, H // 2 - 65, center_x + 65, H // 2 + 65], fill=(30, 41, 59, 200), outline=(71, 85, 105), width=2)
+                      return
+                  fg = img.copy()
+                  fg.thumbnail((160, 160), Image.Resampling.LANCZOS)
+                  w, h = fg.size
+                  card.paste(fg, (center_x - w // 2, H // 2 - h // 2), fg)
 
-              # টেক্সট ড্র (দলের নাম ও টুর্নামেন্ট)
-              def draw_centered_text(y, text, color=(255, 255, 255)):
-                  text_clean = text[:20]
-                  draw.text((W // 4 - (len(text_clean) * 4), y), text_clean, fill=color)
+              paste_main_logo(img1, W // 4)
+              paste_main_logo(img2, 3 * W // 4)
 
-              draw_centered_text(310, team1.upper())
-              draw.text((3 * W // 4 - (len(team2[:20]) * 4), 310), team2[:20].upper(), fill=(255, 255, 255))
+              # ৩. সেন্টারে "VS" এলিমেন্ট
+              cx, cy = W // 2, H // 2
+              vs_font = get_font(26)
+              draw.ellipse([cx - 28, cy - 28, cx + 28, cy + 28], fill=(15, 23, 42, 220), outline=(71, 85, 105), width=2)
+              draw.text((cx - 16, cy - 15), "VS", fill=(241, 245, 249), font=vs_font)
 
-              if sub_text:
-                  draw.text((W // 2 - (len(sub_text[:35]) * 4), 22), sub_text[:35].upper(), fill=(148, 163, 184))
+              # ৪. ওপরে বাম কোণায় ব্যাজ (ঠিক আপনার ২য় ছবির মতো)
+              is_live = (status.upper() == "LIVE")
+              badge_bg = (225, 29, 72, 240) if is_live else (0, 0, 0, 200) # লাইভ হলে লাল, শিডিউল হলে কালো
+              badge_text = "● LIVE" if is_live else "SCHEDULED"
+              
+              draw.rounded_rectangle([30, 25, 155, 62], radius=6, fill=badge_bg)
+              badge_font = get_font(14)
+              draw.text((45, 36), badge_text, fill=(255, 255, 255), font=badge_font)
+
+              # ৫. টুর্নামেন্ট বা সিরিজের নাম (ওপরে সেন্টারে)
+              if league_name:
+                  clean_league = league_name.upper()[:35]
+                  l_font = get_font(15)
+                  draw.text((W // 2 - (len(clean_league) * 4.5), 35), clean_league, fill=(148, 163, 184), font=l_font)
+
+              # ৬. নিচে দলের নাম
+              name_font = get_font(18)
+              def draw_team_name(name, center_x):
+                  t_name = name.upper()[:16]
+                  draw.text((center_x - (len(t_name) * 5), H - 65), t_name, fill=(255, 255, 255), font=name_font)
+
+              draw_team_name(team1, W // 4)
+              draw_team_name(team2, 3 * W // 4)
 
               # সেভ করা
-              banner.save(local_path, format="PNG")
+              card.save(local_path, format="PNG")
               return f"{BASE_IMG_URL}/{filename}"
 
-          # ================= EXTRACT TEAMS =================
+          # ================= MATCH IDENTIFIER =================
           def detect_teams_and_assign_logo(event):
               title = event.get("title", "")
-              sub = event.get("sub_category") or event.get("sport") or ""
-              
-              # সোর্স অবজেক্টে সরাসরি কোনো দলের নাম আছে কিনা দেখা
+              sub = event.get("sub_category") or event.get("sport") or event.get("synopsis") or ""
+              status = event.get("status", "UPCOMING")
+
               team1 = event.get("localteam_name") or event.get("team1")
               team2 = event.get("visitorteam_name") or event.get("team2")
               logo1 = event.get("localteam_logo") or event.get("team1_logo")
               logo2 = event.get("visitorteam_logo") or event.get("team2_logo")
 
-              # যদি আলাদা ফিল্ড না থাকে, টাইটেল থেকে "Real Madrid vs Arsenal" আলাদা করা
               if not (team1 and team2):
                   parts = re.split(r'\s+(?:vs\.?|v|-)\s+', title, flags=re.IGNORECASE)
                   if len(parts) >= 2:
                       team1 = parts[0].strip()
                       team2 = parts[1].split("(")[0].split("|")[0].strip()
 
-              # দুটি দল সনাক্ত হলে সুন্দর VS ব্যানার বানিয়ে দেবে
               if team1 and team2 and len(team1) > 1 and len(team2) > 1:
-                  vs_logo_url = generate_vs_banner(team1, team2, logo1, logo2, sub)
-                  event["logo"] = vs_logo_url
-                  event["cover_image"] = vs_logo_url
+                  card_url = generate_ott_vs_card(team1, team2, logo1, logo2, status, sub)
+                  event["logo"] = card_url
+                  event["cover_image"] = card_url
                   return
 
-              # দল শনাক্ত না হলে রেগুলার লোগো ক্যাশ করা
+              # রেগুলার ইভেন্ট হলে সাধারণ লোগো ক্যাশ করা
               orig_logo = event.get("logo") or event.get("cover_image")
               if orig_logo and str(orig_logo).startswith("http"):
                   safe_name = f"logo_{hashlib.md5(orig_logo.encode()).hexdigest()[:12]}.jpg"
@@ -369,13 +415,13 @@ jobs:
               except Exception as e:
                   print(f"❌ Error fetching {name}: {e}")
 
-          # ================= লোগো এবং VS ব্যানার তৈরি =================
-          print("🎨 Generating Dual-Team VS Posters & Accurate Logos...")
+          # ================= লোগো এবং OTT কার্ড তৈরি =================
+          print("🎨 Rendering Premium OTT Style Posters & Watermarks...")
           for event in all_collected_events:
               try:
                   detect_teams_and_assign_logo(event)
               except Exception as e:
-                  print(f"Banner skip: {e}")
+                  print(f"Poster skip: {e}")
 
           total_count = len(all_collected_events)
           final_json = {
@@ -390,7 +436,7 @@ jobs:
 
           with open("willow.json", "w", encoding="utf-8") as f:
               json.dump(final_json, f, indent=2, ensure_ascii=False)
-          print(f"🎯 Finished! Created Posters and saved to willow.json")
+          print(f"🎯 Finished! Created OTT Posters and saved to willow.json")
           EOF
 
           python3 update_playlist.py
@@ -401,7 +447,7 @@ jobs:
           export TZ="Asia/Kolkata"
           git add willow.json *.txt logos/
           if ! git diff --cached --quiet; then
-            git commit -m "Auto VS Posters & Logos Synced ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git commit -m "Generated Premium OTT Match Posters ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
           else
             echo "No changes to commit"
