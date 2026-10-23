@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 72,
   "live_count": 38,
-  "last_update": "05:36 AM 23-10-2026",
+  "last_update": "05:37 AM 23-10-2026",
   "events": [
     {
       "match_id": "B0HL5YN53G",
@@ -484,22 +484,6 @@
       }
     },
     {
-      "match_id": "chicago-bears-vs-new-england-patriots",
-      "title": "Chicago Bears vs New England Patriots",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 23, 2026, 06:15:00 AM",
-      "time": "Oct 23, 2026, 06:15:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/4391/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4391/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
-        "HD QUALITY": "https://edgestream1.pro/hls/JHDAJBDnjdna30.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
-      }
-    },
-    {
       "match_id": "formula-1",
       "title": "Formula 1",
       "sport": "Motorsport",
@@ -710,6 +694,22 @@
       "is_free": false,
       "stream_url_alpha": {
         "HD QUALITY": "https://edgestream1.pro/hls/wfazgsqtrezu66.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
+      }
+    },
+    {
+      "match_id": "chicago-bears-vs-new-england-patriots",
+      "title": "Chicago Bears vs New England Patriots",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 23, 2026, 06:15:00 AM",
+      "time": "Oct 23, 2026, 06:15:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/4391/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4391/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
+        "HD QUALITY": "https://edgestream1.pro/hls/JHDAJBDnjdna30.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
       }
     },
     {
