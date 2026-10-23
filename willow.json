@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 147,
   "live_count": 63,
-  "last_update": "06:37 PM 23-10-2026",
+  "last_update": "06:52 PM 23-10-2026",
   "events": [
     {
       "match_id": "B0HL5YN53G",
@@ -604,6 +604,23 @@
         "A SPORTS HD": "https://playztv-apps.pages.dev/a-sports/index.m3u8",
         "T SPORTS HD": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
         "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4249697_english_hls_7444655df2273_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+      }
+    },
+    {
+      "match_id": "al-faisaly-vs-al-nassr",
+      "title": "Al Faisaly vs Al-Nassr",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 23, 2026, 07:30:00 PM",
+      "time": "Oct 23, 2026, 07:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/56035/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/56035/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "FOX SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd|drm_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
+        "FOX DEPORTES - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd|drm_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
+        "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd|drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
       }
     },
     {
@@ -1350,23 +1367,6 @@
       "is_free": false,
       "stream_url_alpha": {
         "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=ac7abaa9c9481aacfbdac64fc3ec3312:c0c504a2ed2e70b879a650b8770a38c6"
-      }
-    },
-    {
-      "match_id": "al-faisaly-vs-al-nassr",
-      "title": "Al Faisaly vs Al-Nassr",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 23, 2026, 07:30:00 PM",
-      "time": "Oct 23, 2026, 07:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/56035/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/56035/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "FOX SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd|drm_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
-        "FOX DEPORTES - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd|drm_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
-        "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd|drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
       }
     },
     {
