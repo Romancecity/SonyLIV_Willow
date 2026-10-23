@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 139,
-  "live_count": 71,
-  "last_update": "02:23 AM 24-10-2026",
+  "channels_amount": 137,
+  "live_count": 69,
+  "last_update": "02:31 AM 24-10-2026",
   "events": [
     {
       "match_id": "B0HL646MJT",
@@ -535,22 +535,26 @@
       "stream_url": {}
     },
     {
-      "match_id": "vfb-stuttgart-vs-borussia-mgladbach",
-      "title": "VfB Stuttgart vs Borussia Mgladbach",
-      "sport": "Football",
-      "sub_category": "Football",
+      "match_id": "formula-1",
+      "title": "Formula 1",
+      "sport": "Motorsport",
+      "sub_category": "Motorsports",
       "status": "LIVE",
-      "start_time_bst": "Oct 24, 2026, 12:30:00 AM",
-      "time": "Oct 24, 2026, 12:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2677/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2677/image",
+      "start_time_bst": "Oct 24, 2026, 03:00:43 AM",
+      "time": "Oct 24, 2026, 03:00:43 AM",
+      "logo": "nulln",
+      "cover_image": "nulln",
       "is_free": false,
       "stream_url_alpha": {
-        "SporTV BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b",
-        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=ac7abaa9c9481aacfbdac64fc3ec3312:c0c504a2ed2e70b879a650b8770a38c6",
-        "SKY BUNDESLIGA HD": "https://edgestream7.pro/hls/ueyeztrazb4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-        "HD SERVER": "https://www.rtmpcdn.com/live/0f432d53-6ed0-4539-a624-838b2ef203af.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-        "LOW SERVER": "http://193.47.62.44/hls/QMMMAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+        "SKY Via APPLE TV": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0nkpfowtvk/out/v1/44d9e1a5b64547389ac30667bef4c3b0/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=da4922b32a98e59162706fcdff46fa4e:67a60e4a0e6638464fe02efeed958674",
+        "APPLE TV - AQ": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/z2ppargwyz/out/v1/d52ee9613b584e0ea09dbdf44b2acab4/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f9e25d589f239d8e57908782e633ecf1:0b829035e4abe3b26d9c1be6abfb763e",
+        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
+        "SporTV BR - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd|drm_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3",
+        "CRICFy LIVE ": "https://chatgpt.hereisman.net/playlist/58439/load-playlist?|Referer=https://gooz.aapmains.net",
+        "SKY MAIN EVENT": "https://admin2.formaturamaxi.com.br/f1.m3u8",
+        "RUSSIA FEED": "https://bl.rutube.ru/livestream/d11d0145804d4321a677aacb62984de8/index.m3u8?s=k9d3abxTJHkJWs65bDRXjg&e=1791806247&scheme=https|user-agent=Mozilla",
+        "HD SERVER ": "https://edgestream3.pro/hls/hbfkazbkaznc49.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+        "LOW SERVER": "http://193.47.62.41/hls/ATTT.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -635,38 +639,6 @@
       }
     },
     {
-      "match_id": "al-ahli-vs-al-khaleej",
-      "title": "Al-Ahli vs Al-Khaleej",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 24, 2026, 12:00:00 AM",
-      "time": "Oct 24, 2026, 12:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/34469/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/34469/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "LOW SERVER": "http://193.47.62.44/hls/QQQQQAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
-      "match_id": "al-qadsiah-vs-al-hilal",
-      "title": "Al-Qadsiah vs Al-Hilal",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 24, 2026, 12:00:00 AM",
-      "time": "Oct 24, 2026, 12:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/56027/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/56027/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "FOX DEPORTES - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
-        "FOX SOCCER+ HD": "https://chatgpt.hereisman.net/playlist/58441/load-playlist?|Referer=https://gooz.aapmains.net",
-        "LOW SERVER": "http://193.47.62.44/hls/QQQQQAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
       "match_id": "bolton-wanderers-vs-middlesbrough",
       "title": "Bolton Wanderers vs Middlesbrough",
       "sport": "Football",
@@ -684,36 +656,6 @@
       }
     },
     {
-      "match_id": "go-ahead-eagles-vs-sc-telstar",
-      "title": "Go Ahead Eagles vs SC Telstar",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 24, 2026, 12:00:00 AM",
-      "time": "Oct 24, 2026, 12:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2979/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2979/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "LOW SERVER": "http://193.47.62.44/hls/QQQQQA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
-      "match_id": "granada-vs-real-valladolid",
-      "title": "Granada vs Real Valladolid",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 24, 2026, 12:30:00 AM",
-      "time": "Oct 24, 2026, 12:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/33779/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/33779/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "LOW SERVER": "http://193.47.62.44/hls/QMMMAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
       "match_id": "milwaukee-bucks-vs-chicago-bulls",
       "title": "Milwaukee Bucks vs Chicago Bulls",
       "sport": "Basketball",
@@ -726,29 +668,6 @@
       "is_free": false,
       "stream_url_alpha": {
         "HD QUALITY": "https://edgestream1.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
-      }
-    },
-    {
-      "match_id": "formula-1",
-      "title": "Formula 1",
-      "sport": "Motorsport",
-      "sub_category": "Motorsports",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 24, 2026, 03:00:43 AM",
-      "time": "Oct 24, 2026, 03:00:43 AM",
-      "logo": "nulln",
-      "cover_image": "nulln",
-      "is_free": false,
-      "stream_url_alpha": {
-        "SKY Via APPLE TV": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0nkpfowtvk/out/v1/44d9e1a5b64547389ac30667bef4c3b0/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=da4922b32a98e59162706fcdff46fa4e:67a60e4a0e6638464fe02efeed958674",
-        "APPLE TV - AQ": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/z2ppargwyz/out/v1/d52ee9613b584e0ea09dbdf44b2acab4/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f9e25d589f239d8e57908782e633ecf1:0b829035e4abe3b26d9c1be6abfb763e",
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
-        "SporTV BR - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd|drm_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3",
-        "CRICFy LIVE ": "https://chatgpt.hereisman.net/playlist/58439/load-playlist?|Referer=https://gooz.aapmains.net",
-        "SKY MAIN EVENT": "https://admin2.formaturamaxi.com.br/f1.m3u8",
-        "RUSSIA FEED": "https://bl.rutube.ru/livestream/d11d0145804d4321a677aacb62984de8/index.m3u8?s=k9d3abxTJHkJWs65bDRXjg&e=1791806247&scheme=https|user-agent=Mozilla",
-        "HD SERVER ": "https://edgestream3.pro/hls/hbfkazbkaznc49.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-        "LOW SERVER": "http://193.47.62.41/hls/ATTT.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -1613,18 +1532,84 @@
       }
     },
     {
-      "match_id": "vfb-stuttgartvs-borussia-mönchengladbach",
-      "title": "VfB Stuttgartvs.Borussia Mönchengladbach",
+      "match_id": "vfb-stuttgart-vs-borussia-mgladbach",
+      "title": "VfB Stuttgart vs Borussia Mgladbach",
       "sport": "Football",
       "sub_category": "Football",
-      "status": "LIVE",
+      "status": "FINISH",
       "start_time_bst": "Oct 24, 2026, 12:30:00 AM",
       "time": "Oct 24, 2026, 12:30:00 AM",
-      "logo": "https://streamecenter.live/api/images/badge/fcb9f740-d80e-4041-86a0-560f75d185a2.webp",
-      "cover_image": "https://streamecenter.live/api/images/badge/fcb9f740-d80e-4041-86a0-560f75d185a2.webp",
+      "logo": "https://img.sofascore.com/api/v1/team/2677/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2677/image",
       "is_free": false,
       "stream_url_alpha": {
-        "English Stream": "https://edgestream2.pro/hls/ueyeztrazb4.m3u8|Referer=https://streame.center"
+        "SporTV BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b",
+        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=ac7abaa9c9481aacfbdac64fc3ec3312:c0c504a2ed2e70b879a650b8770a38c6",
+        "SKY BUNDESLIGA HD": "https://edgestream7.pro/hls/ueyeztrazb4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+        "HD SERVER": "https://www.rtmpcdn.com/live/0f432d53-6ed0-4539-a624-838b2ef203af.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+        "LOW SERVER": "http://193.47.62.44/hls/QMMMAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "al-ahli-vs-al-khaleej",
+      "title": "Al-Ahli vs Al-Khaleej",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "FINISH",
+      "start_time_bst": "Oct 24, 2026, 12:00:00 AM",
+      "time": "Oct 24, 2026, 12:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/34469/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/34469/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER": "http://193.47.62.44/hls/QQQQQAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "al-qadsiah-vs-al-hilal",
+      "title": "Al-Qadsiah vs Al-Hilal",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "FINISH",
+      "start_time_bst": "Oct 24, 2026, 12:00:00 AM",
+      "time": "Oct 24, 2026, 12:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/56027/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/56027/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "FOX DEPORTES - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
+        "FOX SOCCER+ HD": "https://chatgpt.hereisman.net/playlist/58441/load-playlist?|Referer=https://gooz.aapmains.net",
+        "LOW SERVER": "http://193.47.62.44/hls/QQQQQAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "go-ahead-eagles-vs-sc-telstar",
+      "title": "Go Ahead Eagles vs SC Telstar",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "FINISH",
+      "start_time_bst": "Oct 24, 2026, 12:00:00 AM",
+      "time": "Oct 24, 2026, 12:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2979/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2979/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER": "http://193.47.62.44/hls/QQQQQA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "granada-vs-real-valladolid",
+      "title": "Granada vs Real Valladolid",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "FINISH",
+      "start_time_bst": "Oct 24, 2026, 12:30:00 AM",
+      "time": "Oct 24, 2026, 12:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/33779/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/33779/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER": "http://193.47.62.44/hls/QMMMAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -1640,6 +1625,21 @@
       "is_free": false,
       "stream_url_alpha": {
         "English Stream": "https://edgestream2.pro/hls/dza5z8f69.m3u8|Referer=https://streame.center"
+      }
+    },
+    {
+      "match_id": "torinovs-monza",
+      "title": "Torinovs.Monza",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 24, 2026, 12:45:00 AM",
+      "time": "Oct 24, 2026, 12:45:00 AM",
+      "logo": "https://streamecenter.live/api/images/badge/d4d6c96b-dd85-4a68-8eff-e6a24346518a.webp",
+      "cover_image": "https://streamecenter.live/api/images/badge/d4d6c96b-dd85-4a68-8eff-e6a24346518a.webp",
+      "is_free": false,
+      "stream_url_alpha": {
+        "English Stream": "https://edgestream2.pro/hls/syaLqucEne4k.m3u8|Referer=https://streame.center"
       }
     },
     {
@@ -1670,21 +1670,6 @@
       "is_free": false,
       "stream_url_alpha": {
         "English Stream": "https://edgestream2.pro/hls/377qj1h2727.m3u8|Referer=https://streame.center"
-      }
-    },
-    {
-      "match_id": "chicago-bullsvs-milwaukee-bucks",
-      "title": "Chicago Bullsvs.Milwaukee Bucks",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "LIVE",
-      "start_time_bst": "Oct 24, 2026, 02:00:00 AM",
-      "time": "Oct 24, 2026, 02:00:00 AM",
-      "logo": "https://streamecenter.live/api/images/badge/37b86493-9307-46a3-aa5c-9a24138ff0cb.webp",
-      "cover_image": "https://streamecenter.live/api/images/badge/37b86493-9307-46a3-aa5c-9a24138ff0cb.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "English Stream": "https://edgestream2.pro/hls/mlkijfezag65.m3u8|Referer=https://streame.center"
       }
     },
     {
@@ -1790,21 +1775,6 @@
       "is_free": false,
       "stream_url_alpha": {
         "English Stream": "https://edgestream2.pro/hls/zeafwqvhfe69.m3u8|Referer=https://streame.center"
-      }
-    },
-    {
-      "match_id": "toronto-raptorsvs-washington-wizards",
-      "title": "Toronto Raptorsvs.Washington Wizards",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 24, 2026, 05:00:00 AM",
-      "time": "Oct 24, 2026, 05:00:00 AM",
-      "logo": "https://streamecenter.live/api/images/badge/7a826d96-3fb0-4155-8f60-208e8e94e207.webp",
-      "cover_image": "https://streamecenter.live/api/images/badge/7a826d96-3fb0-4155-8f60-208e8e94e207.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "English Stream": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8|Referer=https://streame.center"
       }
     },
     {
