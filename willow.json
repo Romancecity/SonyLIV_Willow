@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 262,
-  "live_count": 179,
-  "last_update": "11:34 PM 23-10-2026",
+  "channels_amount": 260,
+  "live_count": 177,
+  "last_update": "11:35 PM 23-10-2026",
   "events": [
     {
       "match_id": "B0HFG5QN17",
@@ -381,6 +381,20 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd"
       },
       "drm_key": "59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a"
+    },
+    {
+      "match_id": "B0HMVNK85T",
+      "title": "Oct 23 - UTR PTT Newport Beach",
+      "synopsis": "Oct 23 - UTR PTT Newport Beach",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.97606270-be22-492b-8140-b49f957ec6f8/3/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HMVNK85T",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://a163live-pv-ta-enf-amazon.akamaized.net/$T$2D3RhEOhAQWhBFgkYWY3NDZlZjAtYzM0OC00MGM1LWFjN2UtYTVhZWIzNjhiNjA0WIimAWpwcmltZXZpZGVvBBpq72e3Bhpq26E3A2Zha2FtYWkCeChmaWQ6MDFhMTY5ZWQtYzAzOS03MDMyLWJiN2ItNzRiM2MxNzg5NjI4GQE4oQWhAngzL2p4d3N1Z3BpY2Mvb3V0L3YxLzM2YjZmZGU1NDMzNzQ2NWI5NmFhNzViZWE3MzA5NDRhWCCFfiolgcAgBdUmkkliVcyq3_C31GE9GZKXPZ0YNOaEDA/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/jxwsugpicc/out/v1/36b6fde54337465b96aa75bea730944a/59604c42-5b67-40fb-85bf-585344ec1dcc-cenc.mpd"
+      },
+      "drm_key": "00ceb04cf9193ffb1e94018962a4dda1:531e53932a055bf4ef3397e277b04b40"
     },
     {
       "match_id": "1090550350",
@@ -2048,75 +2062,6 @@
       }
     },
     {
-      "match_id": "2025-miami-open-tennis-atp-1st-round-wta-2nd-round",
-      "title": "2025 Miami Open Tennis ATP 1st Round; WTA 2nd Round",
-      "sport": "Tennis",
-      "sub_category": "ATP Tour",
-      "status": "LIVE",
-      "start_time_bst": "Oct 23, 2026, 09:00:00 PM",
-      "time": "Oct 23, 2026, 09:00:00 PM",
-      "logo": "https://i.ibb.co.com/fz9WSxtQ/Tennis.webp",
-      "cover_image": "https://i.ibb.co.com/fz9WSxtQ/Tennis.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Tennis Channel": "https://edge.cowedd4855ws.sbs/premium40/index.m3u8|Referer=https://dembed.st/",
-        "TSN2": "https://edge.cowedd4855ws.sbs/premium112/index.m3u8|Referer=https://dembed.st/",
-        "TSN3": "https://edge.cowedd4855ws.sbs/premium113/index.m3u8|Referer=https://dembed.st/",
-        "Sky Sports Tennis UK": "https://edge.cowedd4855ws.sbs/premium46/index.m3u8|Referer=https://dembed.st/",
-        "TV4 Tennis": "https://edge.cowedd4855ws.sbs/premium701/index.m3u8|Referer=https://dembed.st/",
-        "CANAL+ Sport Poland": "https://live-aka-canalplus-pol.akamaized.net/live/store01/Cplus-Stream1/hd2-dashdrm02/Cplus-Stream1.m3u8|Referer=https://vcdn-4758.website/",
-        "Sport Klub HD Serbia": "https://edge.cowedd4855ws.sbs/premium453/index.m3u8|Referer=https://dembed.st/"
-      }
-    },
-    {
-      "match_id": "nba-g-league-delaware-87ers-vs-fort-wayne-mad-ants",
-      "title": "NBA G-League : Delaware 87ers vs Fort Wayne Mad Ants",
-      "sport": "Basketball",
-      "sub_category": "NBA",
-      "status": "LIVE",
-      "start_time_bst": "Oct 23, 2026, 09:00:00 PM",
-      "time": "Oct 23, 2026, 09:00:00 PM",
-      "logo": "https://i.ibb.co.com/393JJ6zq/Basketball.jpg",
-      "cover_image": "https://i.ibb.co.com/393JJ6zq/Basketball.jpg",
-      "is_free": false,
-      "stream_url_alpha": {
-        "ESPN+ USA": "https://edge.cowedd4855ws.sbs/premium69/index.m3u8|Referer=https://dembed.st/"
-      }
-    },
-    {
-      "match_id": "women-s-futsal-2025-world-cup-qualifiers-hungary-vs-portugal",
-      "title": "Women's Futsal 2025 World Cup Qualifiers : Hungary vs Portugal",
-      "sport": "Futsal",
-      "sub_category": "Futsal",
-      "status": "LIVE",
-      "start_time_bst": "Oct 23, 2026, 09:00:00 PM",
-      "time": "Oct 23, 2026, 09:00:00 PM",
-      "logo": "https://i.ibb.co.com/pjRdKp8g/Live-Streaming.webp",
-      "cover_image": "https://i.ibb.co.com/pjRdKp8g/Live-Streaming.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Canal 11 Portugal": "https://edge.cowedd4855ws.sbs/premium540/index.m3u8|Referer=https://dembed.st/"
-      }
-    },
-    {
-      "match_id": "european-open-classic-powerlifting-championships-session-3-malaga",
-      "title": "European Open Classic Powerlifting Championships Session 3 | Malaga",
-      "sport": "Weightlifting",
-      "sub_category": "Weightlifting",
-      "status": "LIVE",
-      "start_time_bst": "Oct 23, 2026, 09:00:00 PM",
-      "time": "Oct 23, 2026, 09:00:00 PM",
-      "logo": "https://i.ibb.co.com/wrpLVMpz/Weightlifting.jpg",
-      "cover_image": "https://i.ibb.co.com/wrpLVMpz/Weightlifting.jpg",
-      "is_free": false,
-      "stream_url_alpha": {
-        "TNT Sports 4 UK": "https://edge.cowedd4855ws.sbs/premium34/index.m3u8|Referer=https://dembed.st/",
-        "EuroSport 2 Poland": "https://edge.cowedd4855ws.sbs/premium58/index.m3u8|Referer=https://dembed.st/",
-        "EuroSport 2 Spain": "https://edge.cowedd4855ws.sbs/premium525/index.m3u8|Referer=https://dembed.st/",
-        "EuroSport 2 France": "https://edge.cowedd4855ws.sbs/premium773/index.m3u8|Referer=https://dembed.st/"
-      }
-    },
-    {
       "match_id": "life-below-zero-next-generation-season-2-episode-11",
       "title": "Life Below Zero: Next Generation Season 2, Episode 11",
       "sport": "Tv shows",
@@ -2807,7 +2752,7 @@
       "title": "World Cup Qualifying : Saudi Arabia vs China",
       "sport": "Football",
       "sub_category": "Football",
-      "status": "UPCOMING",
+      "status": "LIVE",
       "start_time_bst": "Oct 24, 2026, 12:15:00 AM",
       "time": "Oct 24, 2026, 12:15:00 AM",
       "logo": "https://i.ibb.co.com/cSMrGjnb/Football.png",
@@ -2826,7 +2771,7 @@
       "title": "World Cup Qualifying : Iraq vs Kuwait",
       "sport": "Football",
       "sub_category": "Football",
-      "status": "UPCOMING",
+      "status": "LIVE",
       "start_time_bst": "Oct 24, 2026, 12:15:00 AM",
       "time": "Oct 24, 2026, 12:15:00 AM",
       "logo": "https://i.ibb.co.com/cSMrGjnb/Football.png",
@@ -2841,7 +2786,7 @@
       "title": "World Cup Qualifying : Jordan vs Palestine",
       "sport": "Football",
       "sub_category": "Football",
-      "status": "UPCOMING",
+      "status": "LIVE",
       "start_time_bst": "Oct 24, 2026, 12:15:00 AM",
       "time": "Oct 24, 2026, 12:15:00 AM",
       "logo": "https://i.ibb.co.com/cSMrGjnb/Football.png",
@@ -2857,7 +2802,7 @@
       "title": "World Cup Qualifying : Qatar vs Korea DPR",
       "sport": "Football",
       "sub_category": "Football",
-      "status": "UPCOMING",
+      "status": "LIVE",
       "start_time_bst": "Oct 24, 2026, 12:15:00 AM",
       "time": "Oct 24, 2026, 12:15:00 AM",
       "logo": "https://i.ibb.co.com/cSMrGjnb/Football.png",
@@ -3749,6 +3694,23 @@
       "stream_url_alpha": {
         "VTV+ Uruguay": "https://edge.cowedd4855ws.sbs/premium391/index.m3u8|Referer=https://dembed.st/",
         "GOLTV USA": "https://edge.cowedd4855ws.sbs/premium597/index.m3u8|Referer=https://dembed.st/"
+      }
+    },
+    {
+      "match_id": "2025-miami-open-tennis-atp-1st-round-wta-2nd-round",
+      "title": "2025 Miami Open Tennis ATP 1st Round; WTA 2nd Round",
+      "sport": "Tennis",
+      "sub_category": "ATP Tour",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 24, 2026, 05:00:00 AM",
+      "time": "Oct 24, 2026, 05:00:00 AM",
+      "logo": "https://i.ibb.co.com/fz9WSxtQ/Tennis.webp",
+      "cover_image": "https://i.ibb.co.com/fz9WSxtQ/Tennis.webp",
+      "is_free": false,
+      "stream_url_alpha": {
+        "Tennis Channel": "https://edge.cowedd4855ws.sbs/premium40/index.m3u8|Referer=https://dembed.st/",
+        "Sky Sports Tennis UK": "https://edge.cowedd4855ws.sbs/premium46/index.m3u8|Referer=https://dembed.st/",
+        "TV4 Tennis": "https://edge.cowedd4855ws.sbs/premium701/index.m3u8|Referer=https://dembed.st/"
       }
     },
     {
