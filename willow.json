@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 138,
   "live_count": 46,
-  "last_update": "04:46 PM 24-10-2026",
+  "last_update": "04:52 PM 24-10-2026",
   "events": [
     {
       "match_id": "B0HL646MJT",
@@ -432,6 +432,57 @@
       "match_url": "https://www.sonyliv.com/custom-live/1090548283",
       "is_free": false,
       "stream_url": {}
+    },
+    {
+      "match_id": "aston-villa-vs-manchester-city",
+      "title": "Aston Villa vs Manchester City",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 24, 2026, 05:30:00 PM",
+      "time": "Oct 24, 2026, 05:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/40/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/40/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749",
+        "NBC SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=36a385124dcdfb2f0969935065e03afa:ccecd65514dff22eae493b975ccf9a9e",
+        "USA NETWORK HD": "https://chatgpt.hereisman.net/playlist/58484/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "TNT SPORTS HD": "https://hls.meth-streams-hd.cfd/live/espn-401879256/index.m3u8",
+        "LOW SERVER ": "http://193.47.62.59/hls/GG555.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "charlton-athletic-vs-norwich-city",
+      "title": "Charlton Athletic vs Norwich City",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 24, 2026, 05:30:00 PM",
+      "time": "Oct 24, 2026, 05:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/47/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/47/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
+        "LOW SERVER": "http://193.47.62.50/hls/YYYYYAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "portsmouth-vs-millwall",
+      "title": "Portsmouth vs Millwall",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 24, 2026, 05:30:00 PM",
+      "time": "Oct 24, 2026, 05:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER": "http://193.47.62.50/hls/YYYYYAAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
     },
     {
       "match_id": "1-fc-heidenheim-vs-energie-cottbus",
@@ -945,25 +996,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "aston-villa-vs-manchester-city",
-      "title": "Aston Villa vs Manchester City",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 24, 2026, 05:30:00 PM",
-      "time": "Oct 24, 2026, 05:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/40/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/40/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749",
-        "NBC SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=36a385124dcdfb2f0969935065e03afa:ccecd65514dff22eae493b975ccf9a9e",
-        "USA NETWORK HD": "https://chatgpt.hereisman.net/playlist/58484/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-        "TNT SPORTS HD": "https://hls.meth-streams-hd.cfd/live/espn-401879256/index.m3u8",
-        "LOW SERVER ": "http://193.47.62.59/hls/GG555.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
       "match_id": "coventry-city-vs-fulham",
       "title": "Coventry City vs Fulham",
       "sport": "Football",
@@ -1375,38 +1407,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/168088/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "charlton-athletic-vs-norwich-city",
-      "title": "Charlton Athletic vs Norwich City",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 24, 2026, 05:30:00 PM",
-      "time": "Oct 24, 2026, 05:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/47/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/47/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
-        "LOW SERVER": "http://193.47.62.50/hls/YYYYYAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
-      "match_id": "portsmouth-vs-millwall",
-      "title": "Portsmouth vs Millwall",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 24, 2026, 05:30:00 PM",
-      "time": "Oct 24, 2026, 05:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "LOW SERVER": "http://193.47.62.50/hls/YYYYYAAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
     },
     {
       "match_id": "blackburn-rovers-vs-wrexham",
