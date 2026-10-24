@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 138,
   "live_count": 42,
-  "last_update": "03:48 PM 24-10-2026",
+  "last_update": "03:54 PM 24-10-2026",
   "events": [
     {
       "match_id": "B0HL646MJT",
@@ -457,6 +457,23 @@
         "SonyLiv - Tamil": "https://dai.google.com/ssai/event/xJ0HJTOMQDqKjRoBoIFLkg/master.m3u8",
         "SonyLiv - Telugu": "https://dai.google.com/ssai/event/yUO0eUDzSTGfGCq72cD9JA/master.m3u8",
         "SonyLiv - Kannada": "https://dai.google.com/ssai/event/FpkZw68FQKSEBeSHfi0nYA/master.m3u8edited"
+      }
+    },
+    {
+      "match_id": "eyupspor-vs-kasmpasa",
+      "title": "Eyupspor vs Kasmpasa",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 24, 2026, 04:30:00 PM",
+      "time": "Oct 24, 2026, 04:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/7040/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/7040/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4581343.m3u8?txSecret=c7cc783a56fb7ac8fbd4ad2449efbc51&txTime=6ADC97F5|Referer=https://player.online878.com/",
+        "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel28.m3u8",
+        "LOW SERVER": "http://193.47.62.55/hls/H777AAAAQQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -1667,23 +1684,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/2858/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "eyupspor-vs-kasmpasa",
-      "title": "Eyupspor vs Kasmpasa",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 24, 2026, 04:30:00 PM",
-      "time": "Oct 24, 2026, 04:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/7040/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/7040/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4581343.m3u8?txSecret=c7cc783a56fb7ac8fbd4ad2449efbc51&txTime=6ADC97F5|Referer=https://player.online878.com/",
-        "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel28.m3u8",
-        "LOW SERVER": "http://193.47.62.55/hls/H777AAAAQQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
     },
     {
       "match_id": "gaziantep-fk-vs-erzurumspor-fk",
