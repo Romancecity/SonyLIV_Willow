@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 112,
-  "live_count": 55,
-  "last_update": "10:34 PM 24-10-2026",
+  "live_count": 56,
+  "last_update": "10:36 PM 24-10-2026",
   "events": [
     {
       "match_id": "B0HMG5YWFC",
@@ -695,6 +695,21 @@
       }
     },
     {
+      "match_id": "fc-alverca-vs-fc-arouca",
+      "title": "FC Alverca vs FC Arouca",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 24, 2026, 11:00:00 PM",
+      "time": "Oct 24, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/190328/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/190328/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "http://193.47.62.55/hls/duuuuQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "girona-fc-vs-celta-fortuna",
       "title": "Girona FC vs Celta Fortuna",
       "sport": "Football",
@@ -752,8 +767,7 @@
       "cover_image": "nulln",
       "is_free": false,
       "stream_url_alpha": {
-        "SKY Via APPLE TV": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0nkpfowtvk/out/v1/44d9e1a5b64547389ac30667bef4c3b0/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=da4922b32a98e59162706fcdff46fa4e:67a60e4a0e6638464fe02efeed958674",
-        "APPLE TV - AQ": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/z2ppargwyz/out/v1/d52ee9613b584e0ea09dbdf44b2acab4/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f9e25d589f239d8e57908782e633ecf1:0b829035e4abe3b26d9c1be6abfb763e",
+        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8",
         "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
         "SporTV BR - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd|drm_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3",
         "CRICFy LIVE ": "https://chatgpt.hereisman.net/playlist/58439/load-playlist?|Referer=https://gooz.aapmains.net",
@@ -1370,19 +1384,6 @@
       "time": "Oct 25, 2026, 01:00:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/2966/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/2966/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "fc-alverca-vs-fc-arouca",
-      "title": "FC Alverca vs FC Arouca",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 24, 2026, 11:00:00 PM",
-      "time": "Oct 24, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/190328/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/190328/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
