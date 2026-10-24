@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 135,
-  "live_count": 49,
-  "last_update": "06:59 PM 24-10-2026",
+  "live_count": 51,
+  "last_update": "07:04 PM 24-10-2026",
   "events": [
     {
       "match_id": "B0HMG5YWFC",
@@ -492,6 +492,38 @@
       }
     },
     {
+      "match_id": "sc-paderborn-07-vs-hamburger-sv",
+      "title": "SC Paderborn 07 vs Hamburger SV",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 24, 2026, 07:30:00 PM",
+      "time": "Oct 24, 2026, 07:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2561/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2561/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://live.vivo155.com/live/hd-en-1-4566351.m3u8?txSecret=02b4225dccd5639920a0ba83380b4d97&txTime=6ADCC62B|Referer=https://player.online878.com/",
+        "LOW SERVER": "http://193.47.62.55/hls/QOOOQQA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "rb-leipzig-vs-sv-07-elversberg",
+      "title": "RB Leipzig vs SV 07 Elversberg",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 24, 2026, 07:30:00 PM",
+      "time": "Oct 24, 2026, 07:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/36360/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/36360/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://live.vivo155.com/live/hd-en-1-4566334.m3u8?txSecret=68a674e040bea5efc436e1860cf677d4&txTime=6ADCC61B|Referer=https://player.online878.com/",
+        "LOW SERVER": "http://193.47.62.55/hls/QOOOQQAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "aston-villa-vs-manchester-city",
       "title": "Aston Villa vs Manchester City",
       "sport": "Football",
@@ -906,32 +938,6 @@
       "time": "Oct 26, 2026, 02:00:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/2817/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/2817/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "sc-paderborn-07-vs-hamburger-sv",
-      "title": "SC Paderborn 07 vs Hamburger SV",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 24, 2026, 07:30:00 PM",
-      "time": "Oct 24, 2026, 07:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2561/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2561/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "rb-leipzig-vs-sv-07-elversberg",
-      "title": "RB Leipzig vs SV 07 Elversberg",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 24, 2026, 07:30:00 PM",
-      "time": "Oct 24, 2026, 07:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/36360/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/36360/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
