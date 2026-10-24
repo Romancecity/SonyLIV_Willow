@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 124,
-  "live_count": 62,
-  "last_update": "09:25 PM 24-10-2026",
+  "live_count": 63,
+  "last_update": "09:32 PM 24-10-2026",
   "events": [
     {
       "match_id": "B0HMG5YWFC",
@@ -569,7 +569,9 @@
         "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d",
         "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
         "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4",
-        "PARAMOUNT+ HD": "https://chatgpt.hereisman.net/playlist/58499/load-playlist-multi?|Referer=https://gooz.aapmains.net"
+        "PARAMOUNT+ HD": "https://chatgpt.hereisman.net/playlist/58499/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "CRICFy LIVE": "https://live.vivo155.com/live/hd-en-1-4549055.m3u8?txSecret=1ed04debc35b237d6c978de13ec2d72c&txTime=6ADCE920|Referer=https://player.online878.com/",
+        "LOW SERVER": "http://193.47.62.55/hls/ajjjaaaqqqaaaaq.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -792,6 +794,22 @@
       "stream_url_alpha": {
         "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4567331.m3u8?txSecret=7f35a2d9244f2fbf7516aacf05dcc991&txTime=6ADCD464|Referer=https://player.online878.com/",
         "LOW SERVER": "http://193.47.62.55/hls/A888AAAQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "samsunspor-vs-amed-sportif-faaliyetler",
+      "title": "Samsunspor vs Amed Sportif Faaliyetler",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 24, 2026, 10:00:00 PM",
+      "time": "Oct 24, 2026, 10:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/3053/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3053/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4581349.m3u8?txSecret=9da7d30af89fecea530d47bd1dc03c9f&txTime=6ADCE8AE|Referer=https://player.online878.com/",
+        "LOW SERVER": "http://193.47.62.55/hls/H4444QQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -1550,19 +1568,6 @@
       "time": "Oct 25, 2026, 01:00:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/2858/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/2858/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "samsunspor-vs-amed-sportif-faaliyetler",
-      "title": "Samsunspor vs Amed Sportif Faaliyetler",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 24, 2026, 10:00:00 PM",
-      "time": "Oct 24, 2026, 10:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/3053/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3053/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
