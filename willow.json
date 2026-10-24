@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 132,
   "live_count": 64,
-  "last_update": "06:46 AM 24-10-2026",
+  "last_update": "06:54 AM 24-10-2026",
   "events": [
     {
       "match_id": "B0HL646MJT",
@@ -558,21 +558,6 @@
       }
     },
     {
-      "match_id": "cruzeiro-vs-remo",
-      "title": "Cruzeiro vs Remo",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 24, 2026, 05:00:00 AM",
-      "time": "Oct 24, 2026, 05:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/1954/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/1954/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "SporTV BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
-      }
-    },
-    {
       "match_id": "boston-celtics-vs-new-york-knicks",
       "title": "Boston Celtics vs New York Knicks",
       "sport": "Basketball",
@@ -645,6 +630,36 @@
       "is_free": false,
       "stream_url_alpha": {
         "HD QUALITY": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
+      }
+    },
+    {
+      "match_id": "san-antonio-spurs-vs-houston-rockets",
+      "title": "San Antonio Spurs vs Houston Rockets",
+      "sport": "Basketball",
+      "sub_category": "Basketball",
+      "status": "LIVE",
+      "start_time_bst": "Oct 24, 2026, 07:30:00 AM",
+      "time": "Oct 24, 2026, 07:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3429/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3429/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream6.pro/hls/pllmazjkdzajh72.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
+      }
+    },
+    {
+      "match_id": "utah-jazz-vs-new-orleans-pelicans",
+      "title": "Utah Jazz vs New Orleans Pelicans",
+      "sport": "Basketball",
+      "sub_category": "Basketball",
+      "status": "LIVE",
+      "start_time_bst": "Oct 24, 2026, 07:30:00 AM",
+      "time": "Oct 24, 2026, 07:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3434/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3434/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream4.pro/hls/fdgsqdfawa73.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
       }
     },
     {
@@ -1307,36 +1322,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "san-antonio-spurs-vs-houston-rockets",
-      "title": "San Antonio Spurs vs Houston Rockets",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 24, 2026, 07:30:00 AM",
-      "time": "Oct 24, 2026, 07:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3429/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3429/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "HD QUALITY": "https://edgestream6.pro/hls/pllmazjkdzajh72.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
-      }
-    },
-    {
-      "match_id": "utah-jazz-vs-new-orleans-pelicans",
-      "title": "Utah Jazz vs New Orleans Pelicans",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 24, 2026, 07:30:00 AM",
-      "time": "Oct 24, 2026, 07:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3434/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3434/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "HD QUALITY": "https://edgestream4.pro/hls/fdgsqdfawa73.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
-      }
-    },
-    {
       "match_id": "los-angeles-lakers-vs-los-angeles-clippers",
       "title": "Los Angeles Lakers vs Los Angeles Clippers",
       "sport": "Basketball",
@@ -1443,6 +1428,21 @@
         "HD SERVER": "https://edgestream6.pro/hls/24SDAZFcsqnj24.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
         "CRICFy HD": "https://www.rtmpcdn.com/live/c5c30f14-6e47-4f25-9d64-fe1084faeace.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
         "LOW SERVER": "http://193.47.62.41/hls/R444AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "cruzeiro-vs-remo",
+      "title": "Cruzeiro vs Remo",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "FINISH",
+      "start_time_bst": "Oct 24, 2026, 05:00:00 AM",
+      "time": "Oct 24, 2026, 05:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/1954/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/1954/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "SporTV BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
       }
     },
     {
