@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 91,
-  "live_count": 6,
-  "last_update": "01:36 AM 26-10-2026",
+  "live_count": 28,
+  "last_update": "01:59 AM 26-10-2026",
   "events": [
     {
       "match_id": "B0HH6XPD6K",
@@ -485,11 +485,246 @@
       "title": "Formula 1",
       "sport": "Motorsport",
       "sub_category": "Motorsports",
-      "status": "UPCOMING",
+      "status": "LIVE",
       "start_time_bst": "Oct 26, 2026, 02:00:45 AM",
       "time": "Oct 26, 2026, 02:00:45 AM",
       "logo": "nulln",
       "cover_image": "nulln",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "ufc-live",
+      "title": "UFC LIVE",
+      "sport": "Boxing",
+      "sub_category": "Boxing",
+      "status": "LIVE",
+      "start_time_bst": "Oct 24, 2026, 08:00:53 PM",
+      "time": "Oct 24, 2026, 08:00:53 PM",
+      "logo": "null",
+      "cover_image": "null",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "fc-barcelona-vs-real-madrid",
+      "title": "FC Barcelona vs Real Madrid",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 26, 2026, 02:00:00 AM",
+      "time": "Oct 26, 2026, 02:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2817/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2817/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "udinese-vs-ac-milan",
+      "title": "Udinese vs AC Milan",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 26, 2026, 01:45:00 AM",
+      "time": "Oct 26, 2026, 01:45:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2695/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2695/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "atlanta-falcons-vs-san-francisco-49ers",
+      "title": "Atlanta Falcons vs San Francisco 49ers",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+      "time": "Oct 25, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4393/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4393/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "baltimore-ravens-vs-cincinnati-bengals",
+      "title": "Baltimore Ravens vs Cincinnati Bengals",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+      "time": "Oct 25, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4413/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4413/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "houston-texans-vs-new-york-giants",
+      "title": "Houston Texans vs New York Giants",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+      "time": "Oct 25, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4324/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4324/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "NFL GAMEPASS - AQ": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/a3awvyfndh/out/v1/eedbd030752548e1b2150d23d724a3c5/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=e1bd19b3a80ca9ace9062e29f5df133e:2baa0e9f83a0b2bde153fd6505435922",
+        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/58648/load-playlist?|Referer=https://gooz.aapmains.net",
+        "CRICFy NFL ": "https://chatgpt.hereisman.net/playlist/58638/load-playlist?|Referer=https://gooz.aapmains.net",
+        "HD QUALITY": "https://edgestream6.pro/hls/jnknjfzbk35.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
+    },
+    {
+      "match_id": "new-york-jets-vs-miami-dolphins",
+      "title": "New York Jets vs Miami Dolphins",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+      "time": "Oct 25, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4427/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4427/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "minnesota-vikings-vs-indianapolis-colts",
+      "title": "Minnesota Vikings vs Indianapolis Colts",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+      "time": "Oct 25, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4423/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4423/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "tennessee-titans-vs-cleveland-browns",
+      "title": "Tennessee Titans vs Cleveland Browns",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+      "time": "Oct 25, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4431/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4431/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "carolina-panthers-vs-tampa-bay-buccaneers",
+      "title": "Carolina Panthers vs Tampa Bay Buccaneers",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+      "time": "Oct 25, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4415/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4415/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "NFL GAMEPASS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/qfofirrprj/out/v1/87c898d8544d4fca9ba16a50e8eb2b18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=9ded91984655eb80458c6262852ee7c9:72349dcc96388ed2125031de6c57daab",
+        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/58647/load-playlist?|Referer=https://gooz.aapmains.net",
+        "CRICFy NFL ": "https://chatgpt.hereisman.net/playlist/58633/load-playlist?|Referer=https://gooz.aapmains.net",
+        "HD QUALITY": "https://edgestream1.pro/hls/yetehznecs37.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
+    },
+    {
+      "match_id": "arizona-cardinals-vs-denver-broncos",
+      "title": "Arizona Cardinals vs Denver Broncos",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 26, 2026, 02:05:00 AM",
+      "time": "Oct 26, 2026, 02:05:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/4412/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4412/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "detroit-lions-vs-green-bay-packers",
+      "title": "Detroit Lions vs Green Bay Packers",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 26, 2026, 02:25:00 AM",
+      "time": "Oct 26, 2026, 02:25:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/4419/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4419/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "las-vegas-raiders-vs-los-angeles-rams",
+      "title": "Las Vegas Raiders vs Los Angeles Rams",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 26, 2026, 02:25:00 AM",
+      "time": "Oct 26, 2026, 02:25:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/4390/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4390/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "az-alkmaar-vs-fc-twente",
+      "title": "AZ Alkmaar vs FC Twente",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 26, 2026, 01:00:00 AM",
+      "time": "Oct 26, 2026, 01:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2950/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2950/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "cd-nacional-vs-sporting-braga",
+      "title": "CD Nacional vs Sporting Braga",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 26, 2026, 12:00:00 AM",
+      "time": "Oct 26, 2026, 12:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3013/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3013/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+        "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel21.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "LOW SERVER": "http://193.47.62.55/hls/33YYY.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "rio-ave-vs-famalicao",
+      "title": "Rio Ave vs Famalicao",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 26, 2026, 12:00:00 AM",
+      "time": "Oct 26, 2026, 12:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3036/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3036/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "sporting-cp-vs-academico-viseu-fc",
+      "title": "Sporting CP vs Academico Viseu FC",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 26, 2026, 02:30:00 AM",
+      "time": "Oct 26, 2026, 02:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3001/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3001/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
@@ -527,19 +762,6 @@
       "status": "UPCOMING",
       "start_time_bst": "Oct 27, 2026, 06:00:24 AM",
       "time": "Oct 27, 2026, 06:00:24 AM",
-      "logo": "null",
-      "cover_image": "null",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "ufc-live",
-      "title": "UFC LIVE",
-      "sport": "Boxing",
-      "sub_category": "Boxing",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 24, 2026, 08:00:53 PM",
-      "time": "Oct 24, 2026, 08:00:53 PM",
       "logo": "null",
       "cover_image": "null",
       "is_free": false,
@@ -637,32 +859,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "fc-barcelona-vs-real-madrid",
-      "title": "FC Barcelona vs Real Madrid",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 02:00:00 AM",
-      "time": "Oct 26, 2026, 02:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2817/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2817/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "udinese-vs-ac-milan",
-      "title": "Udinese vs AC Milan",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 01:45:00 AM",
-      "time": "Oct 26, 2026, 01:45:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2695/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2695/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
       "match_id": "milwaukee-brewers-vs-tampa-bay-rays",
       "title": "Milwaukee Brewers vs Tampa Bay Rays",
       "sport": "Baseball",
@@ -685,136 +881,6 @@
       "time": "Oct 27, 2026, 01:30:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/1644/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/1644/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "atlanta-falcons-vs-san-francisco-49ers",
-      "title": "Atlanta Falcons vs San Francisco 49ers",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-      "time": "Oct 25, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4393/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4393/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "baltimore-ravens-vs-cincinnati-bengals",
-      "title": "Baltimore Ravens vs Cincinnati Bengals",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-      "time": "Oct 25, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4413/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4413/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "houston-texans-vs-new-york-giants",
-      "title": "Houston Texans vs New York Giants",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-      "time": "Oct 25, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4324/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4324/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "new-york-jets-vs-miami-dolphins",
-      "title": "New York Jets vs Miami Dolphins",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-      "time": "Oct 25, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4427/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4427/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "minnesota-vikings-vs-indianapolis-colts",
-      "title": "Minnesota Vikings vs Indianapolis Colts",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-      "time": "Oct 25, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4423/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4423/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "tennessee-titans-vs-cleveland-browns",
-      "title": "Tennessee Titans vs Cleveland Browns",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-      "time": "Oct 25, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4431/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4431/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "carolina-panthers-vs-tampa-bay-buccaneers",
-      "title": "Carolina Panthers vs Tampa Bay Buccaneers",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-      "time": "Oct 25, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4415/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4415/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "arizona-cardinals-vs-denver-broncos",
-      "title": "Arizona Cardinals vs Denver Broncos",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 02:05:00 AM",
-      "time": "Oct 26, 2026, 02:05:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/4412/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4412/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "detroit-lions-vs-green-bay-packers",
-      "title": "Detroit Lions vs Green Bay Packers",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 02:25:00 AM",
-      "time": "Oct 26, 2026, 02:25:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/4419/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4419/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "las-vegas-raiders-vs-los-angeles-rams",
-      "title": "Las Vegas Raiders vs Los Angeles Rams",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 02:25:00 AM",
-      "time": "Oct 26, 2026, 02:25:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/4390/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4390/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
@@ -871,58 +937,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "az-alkmaar-vs-fc-twente",
-      "title": "AZ Alkmaar vs FC Twente",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 01:00:00 AM",
-      "time": "Oct 26, 2026, 01:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2950/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2950/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "cd-nacional-vs-sporting-braga",
-      "title": "CD Nacional vs Sporting Braga",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 12:00:00 AM",
-      "time": "Oct 26, 2026, 12:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3013/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3013/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "rio-ave-vs-famalicao",
-      "title": "Rio Ave vs Famalicao",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 12:00:00 AM",
-      "time": "Oct 26, 2026, 12:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3036/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3036/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "sporting-cp-vs-academico-viseu-fc",
-      "title": "Sporting CP vs Academico Viseu FC",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 02:30:00 AM",
-      "time": "Oct 26, 2026, 02:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3001/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3001/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
       "match_id": "utah-jazz-vs-los-angeles-lakers",
       "title": "Utah Jazz vs Los Angeles Lakers",
       "sport": "Basketball",
@@ -933,7 +947,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/3434/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3434/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream5.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
     },
     {
       "match_id": "brooklyn-nets-vs-indiana-pacers",
@@ -959,7 +975,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/3418/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3418/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream5.pro/hls/zeafwqvhfe69.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
     },
     {
       "match_id": "new-york-knicks-vs-orlando-magic",
@@ -972,7 +990,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/3421/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3421/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream3.pro/hls/hfsdqtaxvb67.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
     },
     {
       "match_id": "minnesota-timberwolves-vs-toronto-raptors",
@@ -985,7 +1005,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/3426/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3426/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream6.pro/hls/zayrtezafgvdv68.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
     },
     {
       "match_id": "philadelphia-76ers-vs-detroit-pistons",
