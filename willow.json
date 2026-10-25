@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 141,
   "live_count": 77,
-  "last_update": "06:16 AM 25-10-2026",
+  "last_update": "06:25 AM 25-10-2026",
   "events": [
     {
       "match_id": "B0HMG5YWFC",
@@ -553,21 +553,6 @@
       }
     },
     {
-      "match_id": "charlotte-hornets-vs-miami-heat",
-      "title": "Charlotte Hornets vs Miami Heat",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "LIVE",
-      "start_time_bst": "Oct 25, 2026, 04:00:00 AM",
-      "time": "Oct 25, 2026, 04:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3430/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3430/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "HD QUALITY": "https://edgestream4.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
-      }
-    },
-    {
       "match_id": "philadelphia-76ers-vs-milwaukee-bucks",
       "title": "Philadelphia 76ers vs Milwaukee Bucks",
       "sport": "Basketball",
@@ -640,6 +625,21 @@
       "is_free": false,
       "stream_url_alpha": {
         "HD QUALITY": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
+      }
+    },
+    {
+      "match_id": "denver-nuggets-vs-new-orleans-pelicans",
+      "title": "Denver Nuggets vs New Orleans Pelicans",
+      "sport": "Basketball",
+      "sub_category": "Basketball",
+      "status": "LIVE",
+      "start_time_bst": "Oct 25, 2026, 07:00:00 AM",
+      "time": "Oct 25, 2026, 07:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3417/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3417/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream3.pro/hls/ztyarueaghj71.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
       }
     },
     {
@@ -1146,21 +1146,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "denver-nuggets-vs-new-orleans-pelicans",
-      "title": "Denver Nuggets vs New Orleans Pelicans",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 25, 2026, 07:00:00 AM",
-      "time": "Oct 25, 2026, 07:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3417/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3417/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "HD QUALITY": "https://edgestream3.pro/hls/ztyarueaghj71.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
-      }
-    },
-    {
       "match_id": "phoenix-suns-vs-golden-state-warriors",
       "title": "Phoenix Suns vs Golden State Warriors",
       "sport": "Basketball",
@@ -1500,6 +1485,21 @@
       "stream_url_alpha": {
         "D SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3",
         "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+      }
+    },
+    {
+      "match_id": "charlotte-hornets-vs-miami-heat",
+      "title": "Charlotte Hornets vs Miami Heat",
+      "sport": "Basketball",
+      "sub_category": "Basketball",
+      "status": "FINISH",
+      "start_time_bst": "Oct 25, 2026, 04:00:00 AM",
+      "time": "Oct 25, 2026, 04:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3430/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3430/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream4.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
       }
     },
     {
