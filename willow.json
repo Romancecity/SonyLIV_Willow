@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 160,
-  "live_count": 83,
-  "last_update": "01:55 PM 25-10-2026",
+  "channels_amount": 162,
+  "live_count": 86,
+  "last_update": "02:07 PM 25-10-2026",
   "events": [
     {
       "match_id": "B0HMG5YWFC",
@@ -38,13 +38,19 @@
       "match_id": "B0HMLP8D75",
       "title": "India Women vs. Zimbabwe Women",
       "synopsis": "Watch India Women take on Zimbabwe Women in the India Women v Zimbabwe Women ODI Series 2026",
-      "status": "UPCOMING",
-      "time": "Live at 2:30 PM BDT",
-      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.9ce2fde4-1fb3-475d-8568-fc7d05c9b0e7/3/BOXART-16X9/en-US._UR1920,1080_.jpeg",
+      "status": "LIVE",
+      "time": "2 PM BDT",
+      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.9ce2fde4-1fb3-475d-8568-fc7d05c9b0e7/4/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HMLP8D75?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_2",
       "is_free": false,
-      "stream_url_alpha": "",
-      "drm_key": ""
+      "stream_url_alpha": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7ibewarcma/out/v1/2a1ed994d4894d6a951452721876a4c4/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7ibewarcma/out/v1/2a1ed994d4894d6a951452721876a4c4/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/7ibewarcma/out/v1/2a1ed994d4894d6a951452721876a4c4/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/7ibewarcma/out/v1/2a1ed994d4894d6a951452721876a4c4/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/7ibewarcma/out/v1/2a1ed994d4894d6a951452721876a4c4/cenc.mpd"
+      },
+      "drm_key": "7aa827ea7809299f1459d4934d4d9953:f899257f571bd6a083d8a113edfc3a39"
     },
     {
       "match_id": "B0HH6XPD6K",
@@ -295,6 +301,40 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/t0zydsmzll/out/v1/62025d771c7b4fe7a727ede5f3d6b8ec/cenc.mpd"
       },
       "drm_key": "53ac5670511d1300366b35b85eb6eadc:e255086091e4638f16985ca3ddd56e2b"
+    },
+    {
+      "match_id": "B0HMLP8D75",
+      "title": "India Women vs. Zimbabwe Women",
+      "synopsis": "India Women vs. Zimbabwe Women",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.9ce2fde4-1fb3-475d-8568-fc7d05c9b0e7/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/s-z/willowtv/logos/channels-logo-white-stacked.png%7C0,0,1920,1080+0,0,1920,1080+1724,885,117,117_kvebed36e78eaa0330f200bb6045a52aca_SX624_FMjpg_.jpeg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HMLP8D75",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7ibewarcma/out/v1/2a1ed994d4894d6a951452721876a4c4/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7ibewarcma/out/v1/2a1ed994d4894d6a951452721876a4c4/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/7ibewarcma/out/v1/2a1ed994d4894d6a951452721876a4c4/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/7ibewarcma/out/v1/2a1ed994d4894d6a951452721876a4c4/cenc.mpd"
+      },
+      "drm_key": "7aa827ea7809299f1459d4934d4d9953:f899257f571bd6a083d8a113edfc3a39"
+    },
+    {
+      "match_id": "B0HM61FVPM",
+      "title": "India vs. Zimbabwe",
+      "synopsis": "India vs. Zimbabwe",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.d3d5b55c-eb17-4583-81c2-27de4f1f06b6/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HM61FVPM",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd"
+      },
+      "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
     },
     {
       "match_id": "B0HN5G6VWK",
