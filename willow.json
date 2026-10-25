@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 166,
+  "channels_amount": 165,
   "live_count": 97,
-  "last_update": "06:52 PM 25-10-2026",
+  "last_update": "06:56 PM 25-10-2026",
   "events": [
     {
       "match_id": "B0HMG5YWFC",
@@ -619,6 +619,7 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/2825/image",
       "is_free": false,
       "stream_url_alpha": {
+        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wk55a8ebu3/out/v1/b57548ef5b3a4e33a007bf7ec96e1c2d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=4170ba466cc111db989e0436c02729ed:5909a42c74d661a5146331100e3ecb53",
         "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
         "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
         "D SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3",
@@ -692,6 +693,21 @@
       }
     },
     {
+      "match_id": "nec-nijmegen-vs-fc-groningen",
+      "title": "NEC Nijmegen vs FC Groningen",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 25, 2026, 07:30:00 PM",
+      "time": "Oct 25, 2026, 07:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2962/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2962/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER": "http://193.47.62.50/hls/FUUUAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "psv-eindhoven-vs-feyenoord",
       "title": "PSV Eindhoven vs Feyenoord",
       "sport": "Football",
@@ -703,22 +719,8 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/2952/image",
       "is_free": false,
       "stream_url_alpha": {
-        "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-      }
-    },
-    {
-      "match_id": "fortuna-sittard-vs-excelsior",
-      "title": "Fortuna Sittard vs Excelsior",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 25, 2026, 05:15:00 PM",
-      "time": "Oct 25, 2026, 05:15:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2957/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2957/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "LOW SERVER": "http://193.47.62.50/hls/D222AAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+        "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+        "LOW SERVER": "http://193.47.62.50/hls/FUUUAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -1447,19 +1449,6 @@
       "time": "Oct 27, 2026, 05:00:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/5981/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/5981/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "nec-nijmegen-vs-fc-groningen",
-      "title": "NEC Nijmegen vs FC Groningen",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 25, 2026, 07:30:00 PM",
-      "time": "Oct 25, 2026, 07:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2962/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2962/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
