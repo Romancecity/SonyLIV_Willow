@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 137,
-  "live_count": 80,
-  "last_update": "10:12 PM 25-10-2026",
+  "live_count": 87,
+  "last_update": "10:17 PM 25-10-2026",
   "events": [
     {
       "match_id": "B0HMG5YWFC",
@@ -586,6 +586,25 @@
       }
     },
     {
+      "match_id": "lecce-vs-juventus",
+      "title": "Lecce vs Juventus",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+      "time": "Oct 25, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2689/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2689/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd|drm_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
+        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
+        "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d",
+        "PARAMOUNT+ HD": "https://chatgpt.hereisman.net/playlist/58642/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "HD SERVER": "https://edgestream1.pro/hls/syaLqucEne4k.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
+    },
+    {
       "match_id": "celta-vigo-vs-real-betis",
       "title": "Celta Vigo vs Real Betis",
       "sport": "Football",
@@ -706,6 +725,105 @@
         "CRICFy NFL": "https://chatgpt.hereisman.net/playlist/58614/load-playlist?|Referer=https://gooz.aapmains.net",
         "HD SERVER": "https://edgestream7.pro/hls/JHDAJBDnjdna30.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
+    },
+    {
+      "match_id": "atlanta-falcons-vs-san-francisco-49ers",
+      "title": "Atlanta Falcons vs San Francisco 49ers",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+      "time": "Oct 25, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4393/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4393/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/58649/load-playlist?|Referer=https://gooz.aapmains.net",
+        "CRICFy NFL ": "https://chatgpt.hereisman.net/playlist/58616/load-playlist?|Referer=https://gooz.aapmains.net",
+        "HD QUALITY": "https://edgestream4.pro/hls/jkhazabcka36.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
+    },
+    {
+      "match_id": "baltimore-ravens-vs-cincinnati-bengals",
+      "title": "Baltimore Ravens vs Cincinnati Bengals",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+      "time": "Oct 25, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4413/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4413/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/58651/load-playlist?|Referer=https://gooz.aapmains.net",
+        "CRICFy NFL ": "https://chatgpt.hereisman.net/playlist/58632/load-playlist?|Referer=https://gooz.aapmains.net",
+        "HD QUALITY": "https://edgestream6.pro/hls/sfjnzabacah31.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
+    },
+    {
+      "match_id": "houston-texans-vs-new-york-giants",
+      "title": "Houston Texans vs New York Giants",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+      "time": "Oct 25, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4324/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4324/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "new-york-jets-vs-miami-dolphins",
+      "title": "New York Jets vs Miami Dolphins",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+      "time": "Oct 25, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4427/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4427/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "minnesota-vikings-vs-indianapolis-colts",
+      "title": "Minnesota Vikings vs Indianapolis Colts",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+      "time": "Oct 25, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4423/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4423/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "tennessee-titans-vs-cleveland-browns",
+      "title": "Tennessee Titans vs Cleveland Browns",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+      "time": "Oct 25, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4431/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4431/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "carolina-panthers-vs-tampa-bay-buccaneers",
+      "title": "Carolina Panthers vs Tampa Bay Buccaneers",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
+      "time": "Oct 25, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4415/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4415/image",
+      "is_free": false,
+      "stream_url_alpha": {}
     },
     {
       "match_id": "sparta-rotterdam-vs-afc-ajax",
@@ -1005,24 +1123,6 @@
       }
     },
     {
-      "match_id": "lecce-vs-juventus",
-      "title": "Lecce vs Juventus",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-      "time": "Oct 25, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2689/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2689/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd|drm_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
-        "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d",
-        "HD SERVER": "https://edgestream1.pro/hls/syaLqucEne4k.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
       "match_id": "udinese-vs-ac-milan",
       "title": "Udinese vs AC Milan",
       "sport": "Football",
@@ -1086,97 +1186,6 @@
       "time": "Oct 27, 2026, 01:30:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/1644/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/1644/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "atlanta-falcons-vs-san-francisco-49ers",
-      "title": "Atlanta Falcons vs San Francisco 49ers",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-      "time": "Oct 25, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4393/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4393/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "baltimore-ravens-vs-cincinnati-bengals",
-      "title": "Baltimore Ravens vs Cincinnati Bengals",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-      "time": "Oct 25, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4413/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4413/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "houston-texans-vs-new-york-giants",
-      "title": "Houston Texans vs New York Giants",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-      "time": "Oct 25, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4324/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4324/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "new-york-jets-vs-miami-dolphins",
-      "title": "New York Jets vs Miami Dolphins",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-      "time": "Oct 25, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4427/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4427/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "minnesota-vikings-vs-indianapolis-colts",
-      "title": "Minnesota Vikings vs Indianapolis Colts",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-      "time": "Oct 25, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4423/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4423/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "tennessee-titans-vs-cleveland-browns",
-      "title": "Tennessee Titans vs Cleveland Browns",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-      "time": "Oct 25, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4431/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4431/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "carolina-panthers-vs-tampa-bay-buccaneers",
-      "title": "Carolina Panthers vs Tampa Bay Buccaneers",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 25, 2026, 11:00:00 PM",
-      "time": "Oct 25, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4415/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4415/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
@@ -1473,7 +1482,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/404d95b9-08fb-4f2a-80b6-11f85d1daa7a.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream7.pro/hls/zauygazhjd.m3u8?st=WedYdI47Z1Lrl5hwCX-nBC_GFlT4SPh36wcThf87yXM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream5.pro/hls/zauygazhjd.m3u8?st=DFVG-AVjrAZk01rA0ZaIYFSmXK6L18XnqU2I3GtAZys|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -1488,7 +1497,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/401bb7dd-310b-4d47-9227-dbff4c61961e.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream6.pro/hls/xscqqza8740.m3u8?st=wMbRKucGK6QrsvgmPqINbopvxJkds2cNA1EreKdUZko|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream5.pro/hls/xscqqza8740.m3u8?st=ATsK4epXlEHNkaTMT-XkH85YWeFZbhY1ZVizK2cK4dc|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -1503,7 +1512,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/f49b67ae-bb69-4e68-a904-bc6636cd5e74.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream2.pro/hls/dza5z8f69.m3u8?st=fxHopKTePXON9gE5ChMH-hrocwz0_r4yjPue_uV8rUM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream5.pro/hls/dza5z8f69.m3u8?st=yMsXyardzE3jNMgUSu2MbE5JsH6xbG-F6kNZFEc0vhI|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -1518,7 +1527,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/27c99d7a-1216-4659-8f34-c39e0dfb72c6.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream2.pro/hls/okhrtofm78.m3u8?st=V3h1C9uihMb0Dtwx4uS6KTWo4mZ7OXEse_oN43536To|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream1.pro/hls/okhrtofm78.m3u8?st=16kmsqIOZVA5uCzeEIAvJ2_7NWYTCFvtuZRKv7DIarg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -1533,7 +1542,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/432e4acb-e313-4c47-90c4-90208b95ed75.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream7.pro/hls/16yuitzaerghbhc16.m3u8?st=Xa4XbRfs8qhF5BRvoXuick4jgQ4if46kgKhI5TEydnQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream2.pro/hls/16yuitzaerghbhc16.m3u8?st=0w1AY53kt_AHoU3eHBDaDD2kUKEk_QNsv9PHtmXvySc|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -1563,7 +1572,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/cf6e27e3-ea1a-4b67-b66e-ea2250427fd0.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream5.pro/hls/ueyeztrazb4.m3u8?st=-4XinhxgynAP5hAYDZGIPY6UicMB4ZJaP-L1JDIKFGA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream5.pro/hls/ueyeztrazb4.m3u8?st=j7yNSvoMavshgHs8VdKDFrHL0V3ZK5yVO8qoQG0G1ak|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -1571,7 +1580,7 @@
       "title": "NFL Network",
       "sport": "American Football",
       "sub_category": "American Football",
-      "status": "UPCOMING",
+      "status": "LIVE",
       "start_time_bst": "Oct 25, 2026, 10:59 PM",
       "time": "Oct 25, 2026, 10:59 PM",
       "logo": "",
@@ -1586,7 +1595,7 @@
       "title": "NFL Red Zone",
       "sport": "American Football",
       "sub_category": "American Football",
-      "status": "UPCOMING",
+      "status": "LIVE",
       "start_time_bst": "Oct 25, 2026, 10:59 PM",
       "time": "Oct 25, 2026, 10:59 PM",
       "logo": "",
@@ -1713,7 +1722,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/a4375480-d4f8-4e75-8fb8-9610b88f66fc.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream5.pro/hls/syaLqucEne4k.m3u8?st=CGDGT-H9HVBwAGMy08twK95CKmVkfUETxXMMGBQQYMs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream5.pro/hls/syaLqucEne4k.m3u8?st=VslRSnzF1iIJ4vVnQHm55HrnbD8cUwfRdXJSfyHsYEI|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -1743,7 +1752,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/a0eb86ca-70d8-45b3-a484-43668ec8d94d.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream1.pro/hls/uyopzarf50.m3u8?st=1qm0StBWNcd48iCIA7xS985GbYi9vx684EtPVeirEVU|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream5.pro/hls/uyopzarf50.m3u8?st=aLLUep4SprCjSmQcLIXdoZdNB-aVOT6uM1zQX9--M5c|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -1758,7 +1767,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/b12661da-97c6-4568-983f-6d458e487e45.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream5.pro/hls/syaLqucEne4k.m3u8?st=abyfbZg2900zEHGobKMcuUvNYmtCc2ip79pdeT3cv4w|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream7.pro/hls/syaLqucEne4k.m3u8?st=3-4OX9McXQzhWZOS89RGU10TaTWLaaF5_3MdfTMFRTM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -1775,7 +1784,7 @@
       "stream_url_alpha": {
         "Stream #1": "https://edgestream3.pro/sh/cdn/hls/377qj1h2727.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
         "Stream #2": "https://edgestream3.pro/sh/cdn/hls/hflfkrtib42.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
-        "Stream #3": "https://edgestream6.pro/hls/2rB5nTKlP8mE.m3u8?st=63eBptgYuirVjU5Afsxb4Z6OJQOXBWXo1e17r-gebQg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #3": "https://edgestream5.pro/hls/2rB5nTKlP8mE.m3u8?st=NDCQ9yx7TPox4YfffUcQOYNC8o6n5VDCUmSJodSb3eg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -1805,7 +1814,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/6113e4a0-eea9-473d-bdff-b91e8234ee29.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream2.pro/hls/hjksgdfauzy51.m3u8?st=rWbB5OkFdogudfp7PGbN3gKrgRPtvoedjlqBnmGQ-NQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream1.pro/hls/hjksgdfauzy51.m3u8?st=PzXcJ2NR8o4_XrPvJZkVpUFOjPl_Kv5KUhoE9JmEQ7g|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -1865,7 +1874,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/53d24139-b636-452b-ae08-a417e4db49fa.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream1.pro/hls/mlkijfezag65.m3u8?st=R9jV0CchmofiDpeZPHbCPJrQe7f-BUOa_CMcjkg2ToE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream7.pro/hls/mlkijfezag65.m3u8?st=0SB2VgNzyiPqsdUq_pNfGC5w3RC7WSFFGqiiRv_jy6M|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -1880,7 +1889,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/b1c74876-0e79-46fc-be96-7661fe865c04.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream6.pro/hls/wfazgsqtrezu66.m3u8?st=ttT7MWX94oAM59puYA4Ar1pj7PQkREEzr3k9LOuPWGg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream7.pro/hls/wfazgsqtrezu66.m3u8?st=mOY9HYq_s6MLWMiYokLSYC-K1IalC4XVqJTEZRXBeY8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -1895,7 +1904,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/5f60e307-90c1-47f8-af8c-1d7cf4946540.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream2.pro/hls/lmdsjkfgv52.m3u8?st=K81F--_urSAHH6K2b5tIIWdoXCmLqCyZuVUHbDhU5jQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream1.pro/hls/lmdsjkfgv52.m3u8?st=E2QgEc9e9R4Hrp82x6Cx_xqA-xtAvn4xgZXJO-vMFMU|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -1910,7 +1919,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/43949694-e050-403f-8b0d-241cfe3dcf6e.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream6.pro/hls/hfsdqtaxvb67.m3u8?st=ShUyxcbpuyyZ6OXYBj7obhc_DO6nhY4s5bU5iJyTkdM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream5.pro/hls/hfsdqtaxvb67.m3u8?st=mmgIhtTMyNWPym5rNBLnlWIm7_v0Gk502HE-WQG1SgI|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -1925,7 +1934,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/7a826d96-3fb0-4155-8f60-208e8e94e207.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream6.pro/hls/zayrtezafgvdv68.m3u8?st=2yYA64ILbAkoSHkjwaGuSJolmj8Mfgc5RUG2ZfMBE84|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream4.pro/hls/zayrtezafgvdv68.m3u8?st=aJ6hFHowKn9L4kPOVlXcGUPoYj6ooGNtpV3iuGYKv2I|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -1940,7 +1949,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/cb466bde-fc22-4665-9465-10ef862ab4de.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream6.pro/hls/zeafwqvhfe69.m3u8?st=Ek2PUghu34PV7XVkPleiI6MzM6RisAHBDDN04mZ5BLQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream5.pro/hls/zeafwqvhfe69.m3u8?st=3HcUEcLQa-MZebDVOfrFb2-8cyoDxjYiqqwaZIx5Va4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -1955,7 +1964,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/567b123a-3a88-42a9-a809-020841c0c05f.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream5.pro/hls/rtzaeyvhb53.m3u8?st=2maxboVYWvXoFaU2ergXGVW_hkcaBM6anckSAyn9Lek|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream5.pro/hls/rtzaeyvhb53.m3u8?st=aDmaCvR998ke2iFfdZ5HGGGaKL6C5BkLJ9ZbXVR0w_k|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -1970,7 +1979,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/ae652cc7-9bf8-4fa1-8ded-2290a991c592.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream6.pro/hls/bvnsqdfvgha70.m3u8?st=1oEEJ7z0jRvJNUrLgp3ARcyVb3U3HGwVRND3kHUTQGE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream4.pro/hls/bvnsqdfvgha70.m3u8?st=3LR0qjfV0077NRUHy6NxLhetMGcnFxaFsKL1tPKLip8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -1985,7 +1994,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/bfa441dc-3461-42bb-a326-adb5f6057b9d.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream6.pro/hls/bnvcxwhfg54.m3u8?st=oWQ2W69R4k2ZrZzrpxg8STbR9jul5uYy-NHEokLYERI|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream7.pro/hls/bnvcxwhfg54.m3u8?st=wf5H0wuq7wMoA8Vdm-4TmDH4MMRGOivv5qSOml0-6hg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -2015,7 +2024,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/0c0e8af3-39c3-4f52-8133-211109a34e41.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream1.pro/hls/ztyarueaghj71.m3u8?st=RbxNRt48wVIonVXGLR7xF7nqHdn13_q80zWRDzhtR2A|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream4.pro/hls/ztyarueaghj71.m3u8?st=9Ft2rjgJzXfew38iHoB3sVYPlLhPS0p01iGdeKRvGyQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -2030,7 +2039,7 @@
       "cover_image": "https://streamcenter.st/api/images/badge/7280c674-1cd2-4120-ac33-602759ffa569.webp",
       "is_free": false,
       "stream_url_alpha": {
-        "Stream #1": "https://edgestream7.pro/hls/sdezqfza55.m3u8?st=JLjaRpjlfm63tLGFc1Hv6ShkhRz0h_S9hSBzh14Viao|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "Stream #1": "https://edgestream4.pro/hls/sdezqfza55.m3u8?st=qMm0QksXvjcPPYADhgXtEtobnEQZ5mr1j9bA5ucX8Oo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     }
   ]
