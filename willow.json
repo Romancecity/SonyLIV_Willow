@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 163,
-  "live_count": 87,
-  "last_update": "04:34 PM 25-10-2026",
+  "live_count": 88,
+  "last_update": "04:38 PM 25-10-2026",
   "events": [
     {
       "match_id": "B0HMG5YWFC",
@@ -516,7 +516,7 @@
       "is_free": false,
       "stream_url_alpha": {
         "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/8vuwsrlox8/out/v1/4f4d1839e07a4c79b0dc7b5a30cea419/cenc.mpd|drm_key=7aa827ea7809299f1459d4934d4d9953:f899257f571bd6a083d8a113edfc3a39",
-        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b",
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408",
         "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/8vuwsrlox8/out/v1/4f4d1839e07a4c79b0dc7b5a30cea419/cenc.mpd|drm_key=7aa827ea7809299f1459d4934d4d9953:f899257f571bd6a083d8a113edfc3a39",
         "WILLOW HD": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd|drm_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
       }
@@ -541,6 +541,21 @@
         "FOX CRICKET HD": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
         "WILLOW HD": "https://baila-lentoo.pages.dev/all-sp/809386.m3u8",
         "T SPORTS HD": "http://103.151.60.162:2122/play/a030/index.m3u8?hls"
+      }
+    },
+    {
+      "match_id": "fortuna-sittard-vs-excelsior",
+      "title": "Fortuna Sittard vs Excelsior",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 25, 2026, 05:15:00 PM",
+      "time": "Oct 25, 2026, 05:15:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2957/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2957/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER": "http://193.47.62.50/hls/D222AAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -1377,19 +1392,6 @@
       "time": "Oct 26, 2026, 01:00:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/2950/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/2950/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "fortuna-sittard-vs-excelsior",
-      "title": "Fortuna Sittard vs Excelsior",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 25, 2026, 05:15:00 PM",
-      "time": "Oct 25, 2026, 05:15:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2957/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2957/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
