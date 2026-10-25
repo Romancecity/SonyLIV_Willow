@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 122,
-  "live_count": 72,
-  "last_update": "01:08 AM 26-10-2026",
+  "channels_amount": 93,
+  "live_count": 42,
+  "last_update": "01:17 AM 26-10-2026",
   "events": [
     {
       "match_id": "B0HH6XPD6K",
@@ -512,6 +512,29 @@
       "stream_url": {}
     },
     {
+      "match_id": "formula-1",
+      "title": "Formula 1",
+      "sport": "Motorsport",
+      "sub_category": "Motorsports",
+      "status": "LIVE",
+      "start_time_bst": "Oct 26, 2026, 02:00:45 AM",
+      "time": "Oct 26, 2026, 02:00:45 AM",
+      "logo": "nulln",
+      "cover_image": "nulln",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8",
+        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
+        "SporTV BR - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd|drm_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3",
+        "CRICFy LIVE ": "https://chatgpt.hereisman.net/playlist/58439/load-playlist?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/58439?ad=111&Origin=https://gooz.aapmains.net",
+        "SPORTSCAST - AQ": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/15f7135f-1812-4b9e-849e-ad20b90081b7/master.m3u8",
+        "SKY SPORTS F1": "https://temp.formaturamaxi.com.br/f1.m3u8",
+        "RUSSIA FEED": "https://bl.rutube.ru/livestream/38c36d6eac1343ec696f07ed45daee78/index.m3u8?s=6sS4IjzpSEi8VU5ba1iZlw&e=1792948800&scheme=https|user-agent=Mozilla",
+        "HD SERVER ": "https://edgestream3.pro/hls/hbfkazbkaznc49.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+        "LOW SERVER": "http://193.47.62.44/hls/Z555.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "ufc-live",
       "title": "UFC LIVE",
       "sport": "Boxing",
@@ -535,6 +558,33 @@
         "LOW SERVER": "http://193.47.62.44/hls/h555.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
         "SportsNet - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ccupb3gevq/out/v1/d9d54c61efab463981d1a7d04ceeb44c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=60de674d9db66df9ba090e06871d3554:18071eac168232fc3d45549049c1de6b",
         "UFC TV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9v8cttmhcw/out/v1/df4c5196e3d74e7d8f484fc25d9034f1/cenc.mpd|drm_key=a49085f8da5e65af1efff0edac830b1f:4659bc58a85c062e3fe0c039a446fe47"
+      }
+    },
+    {
+      "match_id": "fc-barcelona-vs-real-madrid",
+      "title": "FC Barcelona vs Real Madrid",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 26, 2026, 02:00:00 AM",
+      "time": "Oct 26, 2026, 02:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2817/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2817/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
+        "D SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3",
+        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=ac7abaa9c9481aacfbdac64fc3ec3312:c0c504a2ed2e70b879a650b8770a38c6",
+        "ESPN DEPORTES HD": "https://chatgpt.hereisman.net/playlist/58667/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "PREMIER SPORTS HD": "https://chatgpt.hereisman.net/playlist/58668/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "ESPN ENGLISH HD": "https://chatgpt.hereisman.net/playlist/58669/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "ESPN SPORTS HD": "https://chatgpt.hereisman.net/playlist/58670/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "CRICFy LIVE": "https://edgestream2.pro/hls/377qj1h2727.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+        "HD SERVER": "https://edgestream1.pro/hls/2rB5nTKlP8mE.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+        "CRICFy FAST": "https://edgestream6.pro/hls/hflfkrtib42.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
+        "LOW SERVER": "http://193.47.62.59/hls/Z000.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -642,12 +692,7 @@
       "logo": "https://img.sofascore.com/api/v1/team/4423/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/4423/image",
       "is_free": false,
-      "stream_url_alpha": {
-        "NFL GAMEPASS - AQ": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/maert9vvni/out/v1/7194876e21de45978bdb8c6273e2b16a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=e9dd335aff6bc73cbffb629f1f549c86:32b4ecfd51db879a8f4bc39ab762331f",
-        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/58650/load-playlist?|Referer=https://gooz.aapmains.net",
-        "CRICFy NFL ": "https://chatgpt.hereisman.net/playlist/58618/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-        "HD QUALITY": "https://edgestream4.pro/hls/oipozuezeji33.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
+      "stream_url_alpha": {}
     },
     {
       "match_id": "tennessee-titans-vs-cleveland-browns",
@@ -728,33 +773,7 @@
       "logo": "https://img.sofascore.com/api/v1/team/3036/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3036/image",
       "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://live2.jorvakstreamcache.com/live/channel13.m3u8?|Referer=https://xlz.domainkqt.cc/",
-        "LOW SERVER": "http://193.47.62.55/hls/33YYYA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
-      "match_id": "formula-1",
-      "title": "Formula 1",
-      "sport": "Motorsport",
-      "sub_category": "Motorsports",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 02:00:45 AM",
-      "time": "Oct 26, 2026, 02:00:45 AM",
-      "logo": "nulln",
-      "cover_image": "nulln",
-      "is_free": false,
-      "stream_url_alpha": {
-        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8",
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
-        "SporTV BR - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd|drm_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3",
-        "CRICFy LIVE ": "https://chatgpt.hereisman.net/playlist/58439/load-playlist?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://gooz.aapmains.net/new-stream-embed/58439?ad=111&Origin=https://gooz.aapmains.net",
-        "SPORTSCAST - AQ": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/15f7135f-1812-4b9e-849e-ad20b90081b7/master.m3u8",
-        "SKY SPORTS F1": "https://temp.formaturamaxi.com.br/f1.m3u8",
-        "RUSSIA FEED": "https://bl.rutube.ru/livestream/38c36d6eac1343ec696f07ed45daee78/index.m3u8?s=6sS4IjzpSEi8VU5ba1iZlw&e=1792948800&scheme=https|user-agent=Mozilla",
-        "HD SERVER ": "https://edgestream3.pro/hls/hbfkazbkaznc49.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-        "LOW SERVER": "http://193.47.62.44/hls/Z555.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
+      "stream_url_alpha": {}
     },
     {
       "match_id": "motogp",
@@ -942,33 +961,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "fc-barcelona-vs-real-madrid",
-      "title": "FC Barcelona vs Real Madrid",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 02:00:00 AM",
-      "time": "Oct 26, 2026, 02:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2817/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2817/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
-        "D SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3",
-        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=ac7abaa9c9481aacfbdac64fc3ec3312:c0c504a2ed2e70b879a650b8770a38c6",
-        "ESPN DEPORTES HD": "https://chatgpt.hereisman.net/playlist/58667/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-        "PREMIER SPORTS HD": "https://chatgpt.hereisman.net/playlist/58668/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-        "ESPN ENGLISH HD": "https://chatgpt.hereisman.net/playlist/58669/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-        "ESPN SPORTS HD": "https://chatgpt.hereisman.net/playlist/58670/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-        "CRICFy LIVE": "https://edgestream2.pro/hls/377qj1h2727.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
-        "HD SERVER": "https://edgestream1.pro/hls/2rB5nTKlP8mE.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
-        "CRICFy FAST": "https://edgestream6.pro/hls/hflfkrtib42.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
-        "LOW SERVER": "http://193.47.62.59/hls/Z000.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
       "match_id": "milwaukee-brewers-vs-tampa-bay-rays",
       "title": "Milwaukee Brewers vs Tampa Bay Rays",
       "sport": "Baseball",
@@ -1040,10 +1032,7 @@
       "logo": "https://img.sofascore.com/api/v1/team/4390/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/4390/image",
       "is_free": false,
-      "stream_url_alpha": {
-        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
-        "HD QUALITY": "https://edgestream4.pro/hls/poertjnvnev40.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
+      "stream_url_alpha": {}
     },
     {
       "match_id": "seattle-seahawks-vs-kansas-city-chiefs",
@@ -1389,443 +1378,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/3011/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "nfl-network",
-      "title": "NFL Network",
-      "sport": "American Football",
-      "sub_category": "American Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 25, 2026, 10:59 PM",
-      "time": "Oct 25, 2026, 10:59 PM",
-      "logo": "",
-      "cover_image": "",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream3.pro/sh/cdn/hls/jnfezkbfz43.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "nfl-red-zone",
-      "title": "NFL Red Zone",
-      "sport": "American Football",
-      "sub_category": "American Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 25, 2026, 10:59 PM",
-      "time": "Oct 25, 2026, 10:59 PM",
-      "logo": "",
-      "cover_image": "",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream3.pro/sh/cdn/hls/wnbcnxbcs42.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "cincinnati-bengals-vs-baltimore-ravens",
-      "title": "Cincinnati Bengals vs. Baltimore Ravens",
-      "sport": "American Football",
-      "sub_category": "American Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 25, 2026, 11:00 PM",
-      "time": "Oct 25, 2026, 11:00 PM",
-      "logo": "https://streamcenter.st/api/images/badge/a7f7fee8-d022-48e6-9827-27485bee6a8c.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/a7f7fee8-d022-48e6-9827-27485bee6a8c.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream3.pro/sh/cdn/hls/sfjnzabacah31.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "cleveland-browns-vs-tennessee-titans",
-      "title": "Cleveland Browns vs. Tennessee Titans",
-      "sport": "American Football",
-      "sub_category": "American Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 25, 2026, 11:00 PM",
-      "time": "Oct 25, 2026, 11:00 PM",
-      "logo": "https://streamcenter.st/api/images/badge/7c6139e5-ebb2-44d6-ba9a-49dc2e787645.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/7c6139e5-ebb2-44d6-ba9a-49dc2e787645.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream3.pro/sh/cdn/hls/qsdnajbq32.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "indianapolis-colts-vs-minnesota-vikings",
-      "title": "Indianapolis Colts vs. Minnesota Vikings",
-      "sport": "American Football",
-      "sub_category": "American Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 25, 2026, 11:00 PM",
-      "time": "Oct 25, 2026, 11:00 PM",
-      "logo": "https://streamcenter.st/api/images/badge/3c22de50-16ea-4a23-a5d9-1511e02553ec.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/3c22de50-16ea-4a23-a5d9-1511e02553ec.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream3.pro/sh/cdn/hls/oipozuezeji33.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "miami-dolphins-vs-new-york-jets",
-      "title": "Miami Dolphins vs. New York Jets",
-      "sport": "American Football",
-      "sub_category": "American Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 25, 2026, 11:00 PM",
-      "time": "Oct 25, 2026, 11:00 PM",
-      "logo": "https://streamcenter.st/api/images/badge/551f9538-eef6-4fe5-84de-bef5d223f5f5.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/551f9538-eef6-4fe5-84de-bef5d223f5f5.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream3.pro/sh/cdn/hls/uheyztezgj34.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "new-york-giants-vs-houston-texans",
-      "title": "New York Giants vs. Houston Texans",
-      "sport": "American Football",
-      "sub_category": "American Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 25, 2026, 11:00 PM",
-      "time": "Oct 25, 2026, 11:00 PM",
-      "logo": "https://streamcenter.st/api/images/badge/3a4ee06e-0dce-46f1-9c87-0529c7746a58.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/3a4ee06e-0dce-46f1-9c87-0529c7746a58.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream3.pro/sh/cdn/hls/jnknjfzbk35.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "san-francisco-49ers-vs-atlanta-falcons",
-      "title": "San Francisco 49ers vs. Atlanta Falcons",
-      "sport": "American Football",
-      "sub_category": "American Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 25, 2026, 11:00 PM",
-      "time": "Oct 25, 2026, 11:00 PM",
-      "logo": "https://streamcenter.st/api/images/badge/94f3b96a-66a0-45e9-b222-0c6fd9a3c092.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/94f3b96a-66a0-45e9-b222-0c6fd9a3c092.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream3.pro/sh/cdn/hls/jkhazabcka36.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "tampa-bay-buccaneers-vs-carolina-panthers",
-      "title": "Tampa Bay Buccaneers vs. Carolina Panthers",
-      "sport": "American Football",
-      "sub_category": "American Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 25, 2026, 11:00 PM",
-      "time": "Oct 25, 2026, 11:00 PM",
-      "logo": "https://streamcenter.st/api/images/badge/2f65e5d2-f0fe-4b46-8ecd-a25f9c53966f.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/2f65e5d2-f0fe-4b46-8ecd-a25f9c53966f.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream3.pro/sh/cdn/hls/yetehznecs37.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "real-sociedad-vs-levante",
-      "title": "Real Sociedad vs. Levante",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 25, 2026, 11:30 PM",
-      "time": "Oct 25, 2026, 11:30 PM",
-      "logo": "https://streamcenter.st/api/images/badge/1eb1cacd-44ba-421f-b4a0-a131c0e1411d.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/1eb1cacd-44ba-421f-b4a0-a131c0e1411d.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream3.pro/sh/cdn/hls/377qj1h2727.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "florida-panthers-vs-chicago-blackhawks",
-      "title": "Florida Panthers vs. Chicago Blackhawks",
-      "sport": "Hockey",
-      "sub_category": "Hockey",
-      "status": "LIVE",
-      "start_time_bst": "Oct 26, 2026, 01:00 AM",
-      "time": "Oct 26, 2026, 01:00 AM",
-      "logo": "https://streamcenter.st/api/images/badge/a0eb86ca-70d8-45b3-a484-43668ec8d94d.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/a0eb86ca-70d8-45b3-a484-43668ec8d94d.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream1.pro/hls/uyopzarf50.m3u8?st=-2ntl5eAGM_zose4fDvfB655tpfh9P2cGvbI1UgMbfk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "udinese-vs-ac-milan",
-      "title": "Udinese vs. AC Milan",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 26, 2026, 01:45 AM",
-      "time": "Oct 26, 2026, 01:45 AM",
-      "logo": "https://streamcenter.st/api/images/badge/b12661da-97c6-4568-983f-6d458e487e45.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/b12661da-97c6-4568-983f-6d458e487e45.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream4.pro/hls/syaLqucEne4k.m3u8?st=l893Iv1gG31bQbGGmC2mQBX0LDNe5uev-ek7Zcpyld4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "barcelona-vs-real-madrid",
-      "title": "Barcelona vs. Real Madrid",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 02:00 AM",
-      "time": "Oct 26, 2026, 02:00 AM",
-      "logo": "https://streamcenter.st/api/images/badge/fe6bce31-04ae-4c55-9815-bddc630c0f64.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/fe6bce31-04ae-4c55-9815-bddc630c0f64.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream3.pro/sh/cdn/hls/377qj1h2727.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
-        "Stream #2": "https://edgestream3.pro/sh/cdn/hls/hflfkrtib42.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st",
-        "Stream #3": "https://edgestream4.pro/hls/2rB5nTKlP8mE.m3u8?st=t-ILb42jpeEw7_2ZqKoBdoihC8I9uqK34zmjQCOBhow|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "msc-cruises-united-states-grand-prix-race",
-      "title": "MSC Cruises United States Grand Prix — Race",
-      "sport": "Racing",
-      "sub_category": "Racing",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 02:00 AM",
-      "time": "Oct 26, 2026, 02:00 AM",
-      "logo": "",
-      "cover_image": "",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream3.pro/sh/cdn/hls/hbfkazbkaznc49.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "denver-broncos-vs-arizona-cardinals",
-      "title": "Denver Broncos vs. Arizona Cardinals",
-      "sport": "American Football",
-      "sub_category": "American Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 02:05 AM",
-      "time": "Oct 26, 2026, 02:05 AM",
-      "logo": "https://streamcenter.st/api/images/badge/df9d2b1d-89ee-4862-93fd-2d73bd8eec59.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/df9d2b1d-89ee-4862-93fd-2d73bd8eec59.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream3.pro/sh/cdn/hls/ysvbxwnbc38.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "green-bay-packers-vs-detroit-lions",
-      "title": "Green Bay Packers vs. Detroit Lions",
-      "sport": "American Football",
-      "sub_category": "American Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 02:25 AM",
-      "time": "Oct 26, 2026, 02:25 AM",
-      "logo": "https://streamcenter.st/api/images/badge/e2aed45b-45ac-405f-a000-7a337f454c3e.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/e2aed45b-45ac-405f-a000-7a337f454c3e.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream3.pro/sh/cdn/hls/cwxcnbscbsq39.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "los-angeles-rams-vs-las-vegas-raiders",
-      "title": "Los Angeles Rams vs. Las Vegas Raiders",
-      "sport": "American Football",
-      "sub_category": "American Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 02:25 AM",
-      "time": "Oct 26, 2026, 02:25 AM",
-      "logo": "https://streamcenter.st/api/images/badge/3692c780-eb29-4901-9a0d-35b9e6ae2417.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/3692c780-eb29-4901-9a0d-35b9e6ae2417.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream3.pro/sh/cdn/hls/poertjnvnev40.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "los-angeles-lakers-vs-utah-jazz",
-      "title": "Los Angeles Lakers vs. Utah Jazz",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 03:00 AM",
-      "time": "Oct 26, 2026, 03:00 AM",
-      "logo": "https://streamcenter.st/api/images/badge/53d24139-b636-452b-ae08-a417e4db49fa.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/53d24139-b636-452b-ae08-a417e4db49fa.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream4.pro/hls/mlkijfezag65.m3u8?st=-8_-ne3jZb18OuhVDdSHiYH0m38r2lJKvGAk_9Y38XA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "indiana-pacers-vs-brooklyn-nets",
-      "title": "Indiana Pacers vs. Brooklyn Nets",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 04:00 AM",
-      "time": "Oct 26, 2026, 04:00 AM",
-      "logo": "https://streamcenter.st/api/images/badge/b1c74876-0e79-46fc-be96-7661fe865c04.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/b1c74876-0e79-46fc-be96-7661fe865c04.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream4.pro/hls/wfazgsqtrezu66.m3u8?st=ESUEcThXycjtKmkOhYKXVi-KOnZ_lZo7UGfWd5c9kqo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "new-york-islanders-vs-dallas-stars",
-      "title": "New York Islanders vs. Dallas Stars",
-      "sport": "Hockey",
-      "sub_category": "Hockey",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 04:00 AM",
-      "time": "Oct 26, 2026, 04:00 AM",
-      "logo": "https://streamcenter.st/api/images/badge/5f60e307-90c1-47f8-af8c-1d7cf4946540.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/5f60e307-90c1-47f8-af8c-1d7cf4946540.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream1.pro/hls/lmdsjkfgv52.m3u8?st=tEOGAgRvMAdLcggpDyswMr-hcHPku-f0dx9h7_Ogq8o|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "orlando-magic-vs-new-york-knicks",
-      "title": "Orlando Magic vs. New York Knicks",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 05:00 AM",
-      "time": "Oct 26, 2026, 05:00 AM",
-      "logo": "https://streamcenter.st/api/images/badge/43949694-e050-403f-8b0d-241cfe3dcf6e.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/43949694-e050-403f-8b0d-241cfe3dcf6e.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream4.pro/hls/hfsdqtaxvb67.m3u8?st=DS8YyggGKM4Tqvaqp5L5yXBYGZtP_mY03cNowv3BBCM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "toronto-raptors-vs-minnesota-timberwolves",
-      "title": "Toronto Raptors vs. Minnesota Timberwolves",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 05:00 AM",
-      "time": "Oct 26, 2026, 05:00 AM",
-      "logo": "https://streamcenter.st/api/images/badge/7a826d96-3fb0-4155-8f60-208e8e94e207.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/7a826d96-3fb0-4155-8f60-208e8e94e207.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream5.pro/hls/zayrtezafgvdv68.m3u8?st=s0PFY0HswJpRh2pXONEmMvChdaD5lD2db5j2zEJ_M2A|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "la-clippers-vs-oklahoma-city-thunder",
-      "title": "LA Clippers vs. Oklahoma City Thunder",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 05:00 AM",
-      "time": "Oct 26, 2026, 05:00 AM",
-      "logo": "https://streamcenter.st/api/images/badge/cb466bde-fc22-4665-9465-10ef862ab4de.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/cb466bde-fc22-4665-9465-10ef862ab4de.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream5.pro/hls/zeafwqvhfe69.m3u8?st=99DK15xkv6YYOQoOnOV9LE7NOA2CM2QkZWChXRuSPuY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "montreal-canadiens-vs-winnipeg-jets",
-      "title": "Montreal Canadiens vs. Winnipeg Jets",
-      "sport": "Hockey",
-      "sub_category": "Hockey",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 05:00 AM",
-      "time": "Oct 26, 2026, 05:00 AM",
-      "logo": "https://streamcenter.st/api/images/badge/567b123a-3a88-42a9-a809-020841c0c05f.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/567b123a-3a88-42a9-a809-020841c0c05f.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream1.pro/hls/rtzaeyvhb53.m3u8?st=aRifjQMORpcFOWirALHT9CpV6TVebA2rB9c747aLBpg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "detroit-pistons-vs-philadelphia-76ers",
-      "title": "Detroit Pistons vs. Philadelphia 76ers",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 05:30 AM",
-      "time": "Oct 26, 2026, 05:30 AM",
-      "logo": "https://streamcenter.st/api/images/badge/ae652cc7-9bf8-4fa1-8ded-2290a991c592.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/ae652cc7-9bf8-4fa1-8ded-2290a991c592.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8?st=uYPUzT3hAwJPsIon9V5rmmWIPbCuLzd6y4kqfyQd45c|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "colorado-avalanche-vs-nashville-predators",
-      "title": "Colorado Avalanche vs. Nashville Predators",
-      "sport": "Hockey",
-      "sub_category": "Hockey",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 06:00 AM",
-      "time": "Oct 26, 2026, 06:00 AM",
-      "logo": "https://streamcenter.st/api/images/badge/bfa441dc-3461-42bb-a326-adb5f6057b9d.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/bfa441dc-3461-42bb-a326-adb5f6057b9d.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream1.pro/hls/bnvcxwhfg54.m3u8?st=d8Ec3PSx6Hfnivjq2eMKTr1mmvqgo9Qitt6vMxI-cSs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "kansas-city-chiefs-vs-seattle-seahawks",
-      "title": "Kansas City Chiefs vs. Seattle Seahawks",
-      "sport": "American Football",
-      "sub_category": "American Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 06:20 AM",
-      "time": "Oct 26, 2026, 06:20 AM",
-      "logo": "https://streamcenter.st/api/images/badge/84ce7d37-8f1d-45a0-b45a-d474b8c3bac4.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/84ce7d37-8f1d-45a0-b45a-d474b8c3bac4.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream3.pro/sh/cdn/hls/ijzriafaq41.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "memphis-grizzlies-vs-sacramento-kings",
-      "title": "Memphis Grizzlies vs. Sacramento Kings",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 07:00 AM",
-      "time": "Oct 26, 2026, 07:00 AM",
-      "logo": "https://streamcenter.st/api/images/badge/0c0e8af3-39c3-4f52-8133-211109a34e41.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/0c0e8af3-39c3-4f52-8133-211109a34e41.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream2.pro/hls/ztyarueaghj71.m3u8?st=BPRnUNXMyhT3kyTXqwSrP4wIH2aOEpXJh797A58UeCs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "minnesota-wild-vs-vancouver-canucks",
-      "title": "Minnesota Wild vs. Vancouver Canucks",
-      "sport": "Hockey",
-      "sub_category": "Hockey",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 08:00 AM",
-      "time": "Oct 26, 2026, 08:00 AM",
-      "logo": "https://streamcenter.st/api/images/badge/7280c674-1cd2-4120-ac33-602759ffa569.webp",
-      "cover_image": "https://streamcenter.st/api/images/badge/7280c674-1cd2-4120-ac33-602759ffa569.webp",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Stream #1": "https://edgestream1.pro/hls/sdezqfza55.m3u8?st=1TuHgsnetLcU2IT04x16U5bKtEMRXIKPuKPM8_e4nxM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
     }
   ]
 }
