@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 163,
   "live_count": 88,
-  "last_update": "04:51 PM 25-10-2026",
+  "last_update": "04:54 PM 25-10-2026",
   "events": [
     {
       "match_id": "B0HMG5YWFC",
@@ -544,6 +544,24 @@
       }
     },
     {
+      "match_id": "inter-vs-fiorentina",
+      "title": "Inter vs Fiorentina",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 25, 2026, 05:30:00 PM",
+      "time": "Oct 25, 2026, 05:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2697/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2697/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd|drm_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
+        "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d",
+        "PARAMOUNT+ HD": "https://chatgpt.hereisman.net/playlist/58611/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "LOW SERVER": "http://193.47.62.50/hls/Q444QQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "fortuna-sittard-vs-excelsior",
       "title": "Fortuna Sittard vs Excelsior",
       "sport": "Football",
@@ -864,24 +882,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/41/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "inter-vs-fiorentina",
-      "title": "Inter vs Fiorentina",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 25, 2026, 05:30:00 PM",
-      "time": "Oct 25, 2026, 05:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2697/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2697/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd|drm_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-        "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d",
-        "PARAMOUNT+ HD": "https://chatgpt.hereisman.net/playlist/58611/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-        "LOW SERVER": "http://193.47.62.50/hls/Q444QQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
     },
     {
       "match_id": "atalanta-vs-frosinone",
