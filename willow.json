@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 71,
   "live_count": 35,
-  "last_update": "04:06 AM 27-10-2026",
+  "last_update": "04:19 AM 27-10-2026",
   "events": [
     {
       "match_id": "B0HH6XPD6K",
@@ -477,6 +477,22 @@
       }
     },
     {
+      "match_id": "flamengo-vs-atletico-mineiro",
+      "title": "Flamengo vs Atletico Mineiro",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 27, 2026, 05:00:00 AM",
+      "time": "Oct 27, 2026, 05:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/5981/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/5981/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
+        "SporTV BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
+      }
+    },
+    {
       "match_id": "sevilla-vs-osasuna",
       "title": "Sevilla vs Osasuna",
       "sport": "Football",
@@ -601,6 +617,36 @@
         "Ballon d'Or - ES": "https://admin2.formaturamaxi.com.br/dazn.m3u8?|sec-fetch-site=cross-site&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
         "Ballon d'Or - FR": "https://admin2.formaturamaxi.com.br/equipe.m3u8?|sec-fetch-site=cross-site&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
         "LOW SERVER": "http://193.47.62.50/hls/AFFF.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "cleveland-cavaliers-vs-minnesota-timberwolves",
+      "title": "Cleveland Cavaliers vs Minnesota Timberwolves",
+      "sport": "Basketball",
+      "sub_category": "Basketball",
+      "status": "LIVE",
+      "start_time_bst": "Oct 27, 2026, 05:00:00 AM",
+      "time": "Oct 27, 2026, 05:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3432/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3432/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream5.pro/hls/wfazgsqtrezu66.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
+    },
+    {
+      "match_id": "charlotte-hornets-vs-washington-wizards",
+      "title": "Charlotte Hornets vs Washington Wizards",
+      "sport": "Basketball",
+      "sub_category": "Basketball",
+      "status": "LIVE",
+      "start_time_bst": "Oct 27, 2026, 05:00:00 AM",
+      "time": "Oct 27, 2026, 05:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3430/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3430/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream4.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -872,22 +918,6 @@
       }
     },
     {
-      "match_id": "flamengo-vs-atletico-mineiro",
-      "title": "Flamengo vs Atletico Mineiro",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 27, 2026, 05:00:00 AM",
-      "time": "Oct 27, 2026, 05:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/5981/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/5981/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
-        "SporTV BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
-      }
-    },
-    {
       "match_id": "sassuolo-vs-lazio",
       "title": "Sassuolo vs Lazio",
       "sport": "Football",
@@ -912,36 +942,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/71044/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "cleveland-cavaliers-vs-minnesota-timberwolves",
-      "title": "Cleveland Cavaliers vs Minnesota Timberwolves",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 27, 2026, 05:00:00 AM",
-      "time": "Oct 27, 2026, 05:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3432/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3432/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "HD QUALITY": "https://edgestream5.pro/hls/wfazgsqtrezu66.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "charlotte-hornets-vs-washington-wizards",
-      "title": "Charlotte Hornets vs Washington Wizards",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 27, 2026, 05:00:00 AM",
-      "time": "Oct 27, 2026, 05:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3430/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3430/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "HD QUALITY": "https://edgestream4.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
     },
     {
       "match_id": "boston-celtics-vs-chicago-bulls",
