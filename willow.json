@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 73,
-  "live_count": 37,
-  "last_update": "03:35 AM 27-10-2026",
+  "channels_amount": 72,
+  "live_count": 36,
+  "last_update": "03:53 AM 27-10-2026",
   "events": [
     {
       "match_id": "B0HH6XPD6K",
@@ -284,23 +284,6 @@
       "drm_key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
     },
     {
-      "match_id": "B0FQQXFCMF",
-      "title": "Second Serve - Live-Basel-ATP & Vienna-ATP Early Rounds",
-      "synopsis": "Second Serve - Live-Basel-ATP & Vienna-ATP Early Rounds",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.68ccc8db-4407-492d-8b37-369596935fcd/18/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0FQQXFCMF",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd"
-      },
-      "drm_key": "59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a"
-    },
-    {
       "match_id": "B0HNT41NT6",
       "title": "Oct 26 - UTR PTT Columbia Women",
       "synopsis": "Oct 26 - UTR PTT Columbia Women",
@@ -493,6 +476,21 @@
       }
     },
     {
+      "match_id": "coritiba-vs-gremio",
+      "title": "Coritiba vs Gremio",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 27, 2026, 04:30:00 AM",
+      "time": "Oct 27, 2026, 04:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/1982/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/1982/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7"
+      }
+    },
+    {
       "match_id": "sevilla-vs-osasuna",
       "title": "Sevilla vs Osasuna",
       "sport": "Football",
@@ -610,11 +608,12 @@
       "stream_url_alpha": {
         "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
         "DAZN SPORTS HD": "https://chatgpt.hereisman.net/playlist/58697/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "LIVE BALL - AQ": "https://c4lycho7.skibid.im:8443/t/v2.1.98439517-cc33-480e-9ba6-665e706fa733.1793040862.1793055202.18XFYZC139VliHxn3c4ANbJ1FmcmquOdGlZJgoP3e_E/f064a4f0/s/042b2f81acc47e84c1165772efcd6d20/0/index.m3u8",
         "CRICFy LIVE": "https://pl.playlist4.space/playlist/58697/a.newvegan6.space/caxi-low",
         "HD SERVER": "https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001793032316-0-0-6f6e8f89200f676142e911869978c1b0",
-        "Ballon d'Or - ENG": "https://tedesco.formaturamaxi.com.br/balon.m3u8",
-        "Ballon d'Or - ES": "https://admin2.formaturamaxi.com.br/dazn.m3u8",
-        "Ballon d'Or - FR": "https://admin2.formaturamaxi.com.br/equipe.m3u8",
+        "Ballon d'Or - ENG": "https://tedesco.formaturamaxi.com.br/balon.m3u8?|sec-fetch-site=cross-site&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "Ballon d'Or - ES": "https://admin2.formaturamaxi.com.br/dazn.m3u8?|sec-fetch-site=cross-site&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "Ballon d'Or - FR": "https://admin2.formaturamaxi.com.br/equipe.m3u8?|sec-fetch-site=cross-site&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
         "LOW SERVER": "http://193.47.62.50/hls/AFFF.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
@@ -884,21 +883,6 @@
         "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
         "TSN SPORTS 5 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8",
         "HD QUALITY": "https://edgestream3.pro/hls/JHDAJBDnjdna30.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "coritiba-vs-gremio",
-      "title": "Coritiba vs Gremio",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 27, 2026, 04:30:00 AM",
-      "time": "Oct 27, 2026, 04:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/1982/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/1982/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7"
       }
     },
     {
