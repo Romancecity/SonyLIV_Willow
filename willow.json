@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 96,
-  "live_count": 47,
-  "last_update": "11:06 PM 26-10-2026",
+  "live_count": 56,
+  "last_update": "11:21 PM 26-10-2026",
   "events": [
     {
       "match_id": "B0HH6XPD6K",
@@ -528,6 +528,21 @@
       }
     },
     {
+      "match_id": "ballon-dor-show",
+      "title": "Ballon dor Show",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 27, 2026, 12:00:33 AM",
+      "time": "Oct 27, 2026, 12:00:33 AM",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7BaZpa-Q-92ZI54-K0RZSyQAUcdgO-kcRiEjjq7-J7w&s=10",
+      "cover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7BaZpa-Q-92ZI54-K0RZSyQAUcdgO-kcRiEjjq7-J7w&s=10",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+      }
+    },
+    {
       "match_id": "formula-1",
       "title": "Formula 1",
       "sport": "Motorsport",
@@ -775,7 +790,7 @@
       "stream_url_alpha": {
         "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749",
         "FOX DEPORTES - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd|drm_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
-        "HD QUALITY": "https://edgestream7.pro/hls/dazhfiach15.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "HD QUALITY": "https://edgestream2.pro/hls/dazhfiach15.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
       }
     },
     {
@@ -804,7 +819,11 @@
       "logo": "https://img.sofascore.com/api/v1/team/4428/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/4428/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
+        "TSN SPORTS 5 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8",
+        "HD QUALITY": "https://edgestream3.pro/hls/JHDAJBDnjdna30.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
     },
     {
       "match_id": "coritiba-vs-gremio",
@@ -965,21 +984,6 @@
       }
     },
     {
-      "match_id": "ballon-dor-show",
-      "title": "Ballon dor Show",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 27, 2026, 12:00:33 AM",
-      "time": "Oct 27, 2026, 12:00:33 AM",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7BaZpa-Q-92ZI54-K0RZSyQAUcdgO-kcRiEjjq7-J7w&s=10",
-      "cover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7BaZpa-Q-92ZI54-K0RZSyQAUcdgO-kcRiEjjq7-J7w&s=10",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      }
-    },
-    {
       "match_id": "cleveland-cavaliers-vs-minnesota-timberwolves",
       "title": "Cleveland Cavaliers vs Minnesota Timberwolves",
       "sport": "Basketball",
@@ -1005,7 +1009,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/3430/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3430/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream4.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
     },
     {
       "match_id": "boston-celtics-vs-chicago-bulls",
@@ -1018,7 +1024,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/3422/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3422/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream2.pro/hls/hfsdqtaxvb67.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
     },
     {
       "match_id": "miami-heat-vs-dallas-mavericks",
@@ -1031,7 +1039,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/3435/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3435/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream1.pro/hls/zayrtezafgvdv68.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
     },
     {
       "match_id": "oklahoma-city-thunder-vs-phoenix-suns",
@@ -1044,7 +1054,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/3418/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3418/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream3.pro/hls/bvnsqdfvgha70.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
     },
     {
       "match_id": "milwaukee-bucks-vs-indiana-pacers",
@@ -1057,7 +1069,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/3410/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3410/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream4.pro/hls/zeafwqvhfe69.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
     },
     {
       "match_id": "houston-rockets-vs-atlanta-hawks",
@@ -1070,7 +1084,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/3412/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3412/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream4.pro/hls/ztyarueaghj71.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
     },
     {
       "match_id": "denver-nuggets-vs-golden-state-warriors",
@@ -1083,7 +1099,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/3417/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3417/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream1.pro/hls/fdgsqdfawa73.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
     },
     {
       "match_id": "utah-jazz-vs-memphis-grizzlies",
@@ -1096,7 +1114,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/3434/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3434/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream2.pro/hls/pllmazjkdzajh72.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
     },
     {
       "match_id": "npl-nepal-premier-league",
