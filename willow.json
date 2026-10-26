@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 99,
-  "live_count": 45,
-  "last_update": "09:18 PM 26-10-2026",
+  "channels_amount": 98,
+  "live_count": 47,
+  "last_update": "09:23 PM 26-10-2026",
   "events": [
     {
       "match_id": "B0HH6XPD6K",
@@ -515,19 +515,48 @@
       "stream_url": {}
     },
     {
-      "match_id": "neftchi-fergana-vs-al-ittihad",
-      "title": "Neftchi Fergana vs Al-Ittihad",
+      "match_id": "caykur-rizespor-vs-trabzonspor",
+      "title": "Caykur Rizespor vs Trabzonspor",
       "sport": "Football",
       "sub_category": "Football",
       "status": "LIVE",
-      "start_time_bst": "Oct 26, 2026, 07:45:00 PM",
-      "time": "Oct 26, 2026, 07:45:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/36256/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/36256/image",
+      "start_time_bst": "Oct 26, 2026, 10:00:00 PM",
+      "time": "Oct 26, 2026, 10:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/3064/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3064/image",
       "is_free": false,
       "stream_url_alpha": {
-        "CRICFy LIVE": "https://live.vivo155.com/live/hd-en-1-4621454.m3u8?txSecret=591f2e78929b074bce9c37efac5d7c3d&txTime=6ADF6A4C|Referer=https://player.on8on8.com/",
-        "HD SERVER": "http://193.47.62.44/hls/EJJJAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+        "LOW SERVER": "http://193.47.62.59/hls/FAFAFAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "al-ahli-vs-al-gharafa",
+      "title": "Al-Ahli vs Al-Gharafa",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 26, 2026, 10:00:00 PM",
+      "time": "Oct 26, 2026, 10:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/34469/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/34469/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER": "http://193.47.62.44/hls/DADADAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "al-ain-vs-tractor-fc",
+      "title": "Al-Ain vs Tractor FC",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 26, 2026, 10:00:00 PM",
+      "time": "Oct 26, 2026, 10:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/37082/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/37082/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER": "http://193.47.62.44/hls/DADADAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -859,19 +888,6 @@
       }
     },
     {
-      "match_id": "caykur-rizespor-vs-trabzonspor",
-      "title": "Caykur Rizespor vs Trabzonspor",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 10:00:00 PM",
-      "time": "Oct 26, 2026, 10:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/3064/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3064/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
       "match_id": "galatasaray-vs-fenerbahce",
       "title": "Galatasaray vs Fenerbahce",
       "sport": "Football",
@@ -885,32 +901,6 @@
       "stream_url_alpha": {
         "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
       }
-    },
-    {
-      "match_id": "al-ahli-vs-al-gharafa",
-      "title": "Al-Ahli vs Al-Gharafa",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 10:00:00 PM",
-      "time": "Oct 26, 2026, 10:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/34469/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/34469/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "al-ain-vs-tractor-fc",
-      "title": "Al-Ain vs Tractor FC",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 10:00:00 PM",
-      "time": "Oct 26, 2026, 10:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/37082/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/37082/image",
-      "is_free": false,
-      "stream_url_alpha": {}
     },
     {
       "match_id": "al-nassr-vs-al-wasl",
@@ -1012,8 +1002,8 @@
       "sport": "Football",
       "sub_category": "Football",
       "status": "UPCOMING",
-      "start_time_bst": "Oct 26, 2026, 11:00:06 PM",
-      "time": "Oct 26, 2026, 11:00:06 PM",
+      "start_time_bst": "Oct 27, 2026, 12:00:33 AM",
+      "time": "Oct 27, 2026, 12:00:33 AM",
       "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7BaZpa-Q-92ZI54-K0RZSyQAUcdgO-kcRiEjjq7-J7w&s=10",
       "cover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7BaZpa-Q-92ZI54-K0RZSyQAUcdgO-kcRiEjjq7-J7w&s=10",
       "is_free": false,
