@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 87,
-  "live_count": 37,
-  "last_update": "09:38 AM 26-10-2026",
+  "channels_amount": 86,
+  "live_count": 35,
+  "last_update": "09:58 AM 26-10-2026",
   "events": [
     {
       "match_id": "B0HH6XPD6K",
@@ -481,38 +481,6 @@
       }
     },
     {
-      "match_id": "seattle-seahawks-vs-kansas-city-chiefs",
-      "title": "Seattle Seahawks vs Kansas City Chiefs",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 26, 2026, 06:20:00 AM",
-      "time": "Oct 26, 2026, 06:20:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/4430/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4430/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "TSN SPORTS 1 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
-        "TSN SPORTS 5 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8",
-        "HD QUALITY": "https://edgestream3.pro/hls/ijzriafaq41.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "sacramento-kings-vs-memphis-grizzlies",
-      "title": "Sacramento Kings vs Memphis Grizzlies",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "LIVE",
-      "start_time_bst": "Oct 26, 2026, 07:00:00 AM",
-      "time": "Oct 26, 2026, 07:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3413/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3413/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "HD QUALITY": "https://edgestream4.pro/hls/ztyarueaghj71.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
-    },
-    {
       "match_id": "formula-1",
       "title": "Formula 1",
       "sport": "Motorsport",
@@ -955,6 +923,19 @@
       "time": "Oct 27, 2026, 12:45:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/3011/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3011/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "Ballon dor Show",
+      "title": "Ballon dor Show",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 26, 2026, 11:00:06 PM",
+      "time": "Oct 26, 2026, 11:00:06 PM",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHAQYWnKV5cpdbIthNUFpzHYo-E_Q8BtNthhBEXERjlA&s=10",
+      "cover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHAQYWnKV5cpdbIthNUFpzHYo-E_Q8BtNthhBEXERjlA&s=10",
       "is_free": false,
       "stream_url_alpha": {}
     },
