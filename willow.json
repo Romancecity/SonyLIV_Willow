@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 94,
-  "live_count": 38,
-  "last_update": "05:37 PM 26-10-2026",
+  "live_count": 39,
+  "last_update": "05:42 PM 26-10-2026",
   "events": [
     {
       "match_id": "B0HH6XPD6K",
@@ -440,6 +440,24 @@
       "match_url": "https://www.sonyliv.com/custom-live/1090550846",
       "is_free": false,
       "stream_url": {}
+    },
+    {
+      "match_id": "npl-nepal-premier-league",
+      "title": "NPL Nepal Premier League",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Oct 26, 2026, 05:15:26 PM",
+      "time": "Oct 26, 2026, 05:15:26 PM",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
+      "cover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
+      "is_free": false,
+      "stream_url_alpha": {
+        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
+        "FANCODE HD": "https://abjqoehaaaaaaaamlzr65eai5t3fs.ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash-sd/enc/iwpchve3wl/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd|drm_key=286eb7dc538143790fa9913639531920:e3f5cb08d14d9e9c08438c673819540f",
+        "STAR SPORTS HD": "https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8",
+        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250355_english_hls_7b5a55758122143_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+      }
     },
     {
       "match_id": "formula-1",
@@ -1057,19 +1075,6 @@
       "time": "Oct 27, 2026, 07:00:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/3434/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3434/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "dhaka-division-vs-rajshahi-division",
-      "title": "Dhaka Division vs Rajshahi Division",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 24, 2026, 09:30:00 AM",
-      "time": "Oct 24, 2026, 09:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/453021/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/453021/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
