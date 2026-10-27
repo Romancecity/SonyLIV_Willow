@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 85,
-  "live_count": 37,
-  "last_update": "12:06 AM 28-10-2026",
+  "live_count": 38,
+  "last_update": "12:21 AM 28-10-2026",
   "events": [
     {
       "match_id": "B0HKDPRJRS",
@@ -584,6 +584,21 @@
       }
     },
     {
+      "match_id": "ud-castellonense-vs-almeria",
+      "title": "UD Castellonense vs Almeria",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 28, 2026, 12:45:00 AM",
+      "time": "Oct 28, 2026, 12:45:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/353599/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/353599/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?|Referer=https://xlz.domainkqt.cc/"
+      }
+    },
+    {
       "match_id": "al-shamal-sc-vs-al-hilal",
       "title": "Al Shamal SC vs Al-Hilal",
       "sport": "Football",
@@ -943,19 +958,6 @@
         "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
         "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250357_english_hls_0360aac3556241_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
       }
-    },
-    {
-      "match_id": "ud-castellonense-vs-almeria",
-      "title": "UD Castellonense vs Almeria",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 28, 2026, 12:45:00 AM",
-      "time": "Oct 28, 2026, 12:45:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/353599/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/353599/image",
-      "is_free": false,
-      "stream_url_alpha": {}
     },
     {
       "match_id": "rsd-alcala-vs-ud-las-palmas",
