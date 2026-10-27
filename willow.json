@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 70,
   "live_count": 34,
-  "last_update": "05:37 AM 27-10-2026",
+  "last_update": "05:53 AM 27-10-2026",
   "events": [
     {
       "match_id": "B0HH6XPD6K",
@@ -745,6 +745,21 @@
       }
     },
     {
+      "match_id": "houston-rockets-vs-atlanta-hawks",
+      "title": "Houston Rockets vs Atlanta Hawks",
+      "sport": "Basketball",
+      "sub_category": "Basketball",
+      "status": "LIVE",
+      "start_time_bst": "Oct 27, 2026, 06:30:00 AM",
+      "time": "Oct 27, 2026, 06:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3412/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3412/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "HD QUALITY": "https://edgestream4.pro/hls/ztyarueaghj71.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+      }
+    },
+    {
       "match_id": "formula-1",
       "title": "Formula 1",
       "sport": "Motorsport",
@@ -985,21 +1000,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/71044/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "houston-rockets-vs-atlanta-hawks",
-      "title": "Houston Rockets vs Atlanta Hawks",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 27, 2026, 06:30:00 AM",
-      "time": "Oct 27, 2026, 06:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3412/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3412/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "HD QUALITY": "https://edgestream4.pro/hls/ztyarueaghj71.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
-      }
     },
     {
       "match_id": "denver-nuggets-vs-golden-state-warriors",
