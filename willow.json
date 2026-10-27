@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 84,
-  "live_count": 21,
-  "last_update": "05:44 PM 27-10-2026",
+  "live_count": 22,
+  "last_update": "06:00 PM 27-10-2026",
   "events": [
     {
       "match_id": "B0HN2PT7BB",
@@ -515,6 +515,22 @@
       }
     },
     {
+      "match_id": "beijing-guoan-vs-jeonbuk-hyundai-motors",
+      "title": "Beijing Guoan vs Jeonbuk Hyundai Motors",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 27, 2026, 06:15:00 PM",
+      "time": "Oct 27, 2026, 06:15:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/3376/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3376/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "HD SERVER ": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "LOW SERVER": "http://193.47.62.50/hls/JYYY.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "ratchaburi-vs-kashiwa-reysol",
       "title": "Ratchaburi vs Kashiwa Reysol",
       "sport": "Football",
@@ -526,6 +542,7 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/85743/image",
       "is_free": false,
       "stream_url_alpha": {
+        "HD SERVER ": "https://live2.jorvakstreamcache.com/live/channel24.m3u8?|Referer=https://xlz.domainkqt.cc/",
         "LOW SERVER": "http://193.47.62.50/hls/JYYYA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
@@ -923,19 +940,6 @@
       "time": "Oct 27, 2026, 06:40:00 PM",
       "logo": "https://img.sofascore.com/api/v1/team/168090/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/168090/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "beijing-guoan-vs-jeonbuk-hyundai-motors",
-      "title": "Beijing Guoan vs Jeonbuk Hyundai Motors",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 27, 2026, 06:15:00 PM",
-      "time": "Oct 27, 2026, 06:15:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/3376/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3376/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
