@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 129,
   "live_count": 44,
-  "last_update": "01:14 AM 28-10-2026",
+  "last_update": "01:19 AM 28-10-2026",
   "events": [
     {
       "match_id": "B0HKDPRJRS",
@@ -563,6 +563,51 @@
       }
     },
     {
+      "match_id": "cd-manacor-vs-villarreal",
+      "title": "CD Manacor vs Villarreal",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 28, 2026, 02:00:00 AM",
+      "time": "Oct 28, 2026, 02:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/54119/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/54119/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER ": "http://193.47.62.59/hls/JBBBBAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "recreativo-de-huelva-vs-rayo-vallecano",
+      "title": "Recreativo de Huelva vs Rayo Vallecano",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 28, 2026, 02:00:00 AM",
+      "time": "Oct 28, 2026, 02:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/202076/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/202076/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER": "http://193.47.62.59/hls/JBBBBAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "sporting-de-alcazar-cf-vs-malaga-cf",
+      "title": "Sporting de Alcazar CF vs Malaga CF",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 28, 2026, 02:00:00 AM",
+      "time": "Oct 28, 2026, 02:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/1284426/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/1284426/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER": "http://193.47.62.59/hls/JBBBBAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "as-roma-vs-cagliari",
       "title": "AS Roma vs Cagliari",
       "sport": "Football",
@@ -672,6 +717,22 @@
       "is_free": false,
       "stream_url_alpha": {
         "LOW SERVER": "http://193.47.62.59/hls/J777AAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "fleetwood-town-vs-arsenal",
+      "title": "Fleetwood Town vs Arsenal",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 28, 2026, 02:00:00 AM",
+      "time": "Oct 28, 2026, 02:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/23959/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/23959/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+        "LOW SERVER": "http://193.47.62.55/hls/VTVTVTA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -1034,67 +1095,6 @@
         "STAR SPORTS - AQ": "https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8",
         "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
         "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250357_english_hls_0360aac3556241_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
-      }
-    },
-    {
-      "match_id": "cd-manacor-vs-villarreal",
-      "title": "CD Manacor vs Villarreal",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 28, 2026, 02:00:00 AM",
-      "time": "Oct 28, 2026, 02:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/54119/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/54119/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "LOW SERVER ": "http://193.47.62.59/hls/JBBBBAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
-      "match_id": "recreativo-de-huelva-vs-rayo-vallecano",
-      "title": "Recreativo de Huelva vs Rayo Vallecano",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 28, 2026, 02:00:00 AM",
-      "time": "Oct 28, 2026, 02:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/202076/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/202076/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "LOW SERVER": "http://193.47.62.59/hls/JBBBBAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
-      "match_id": "sporting-de-alcazar-cf-vs-malaga-cf",
-      "title": "Sporting de Alcazar CF vs Malaga CF",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 28, 2026, 02:00:00 AM",
-      "time": "Oct 28, 2026, 02:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/1284426/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/1284426/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "LOW SERVER": "http://193.47.62.59/hls/JBBBBAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
-      "match_id": "fleetwood-town-vs-arsenal",
-      "title": "Fleetwood Town vs Arsenal",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 28, 2026, 02:00:00 AM",
-      "time": "Oct 28, 2026, 02:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/23959/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/23959/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-        "LOW SERVER": "http://193.47.62.55/hls/VTVTVTA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
