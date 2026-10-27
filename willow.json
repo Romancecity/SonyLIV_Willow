@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 89,
-  "live_count": 35,
-  "last_update": "11:19 PM 27-10-2026",
+  "live_count": 40,
+  "last_update": "11:34 PM 27-10-2026",
   "events": [
     {
       "match_id": "B0HNSCNTXG",
@@ -609,6 +609,21 @@
       }
     },
     {
+      "match_id": "ud-pinatar-vs-elche",
+      "title": "UD Pinatar vs Elche",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 28, 2026, 12:00:00 AM",
+      "time": "Oct 28, 2026, 12:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/1260147/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/1260147/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER": "http://193.47.62.44/hls/DADADAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "sestao-river-vs-espanyol",
       "title": "Sestao River vs Espanyol",
       "sport": "Football",
@@ -946,7 +961,7 @@
       "stream_url_alpha": {
         "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749",
         "FOX DEPORTES - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd|drm_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
-        "HD QUALITY": "https://edgestream2.pro/hls/dazhfiach15.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://embedcenter.st&Origin=https://embedcenter.st"
+        "HD QUALITY": "https://edgestream1.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
       }
     },
     {
@@ -976,19 +991,6 @@
       "time": "Oct 28, 2026, 12:15:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/61532/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/61532/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "ud-pinatar-vs-elche",
-      "title": "UD Pinatar vs Elche",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 28, 2026, 12:00:00 AM",
-      "time": "Oct 28, 2026, 12:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/1260147/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/1260147/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
@@ -1259,7 +1261,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/3422/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3422/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://edgestream3.pro/sh/cdn/hls/mlkijfezag65.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st"
+      }
     },
     {
       "match_id": "san-antonio-spurs-vs-sacramento-kings",
@@ -1272,7 +1276,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/3429/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3429/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://edgestream2.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st"
+      }
     },
     {
       "match_id": "new-york-knicks-vs-detroit-pistons",
@@ -1285,7 +1291,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/3421/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3421/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://edgestream6.pro/hls/wfazgsqtrezu66.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st"
+      }
     },
     {
       "match_id": "los-angeles-lakers-vs-portland-trail-blazers",
@@ -1298,7 +1306,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/3427/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3427/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://edgestream1.pro/hls/zayrtezafgvdv68.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st"
+      }
     }
   ]
 }
