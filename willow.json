@@ -5,35 +5,10 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 91,
+  "channels_amount": 89,
   "live_count": 35,
-  "last_update": "11:04 PM 27-10-2026",
+  "last_update": "11:19 PM 27-10-2026",
   "events": [
-    {
-      "match_id": "B0HKDPRJRS",
-      "title": "Australia tour of South Africa 2026 - 3rd Test - South Africa vs Australia",
-      "synopsis": "Australia tour of South Africa 2026 - 3rd Test - South Africa vs Australia",
-      "status": "LIVE",
-      "time": "1:30 PM BDT",
-      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.20a790a3-51e9-4ec1-9a8b-cb632845af2d/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HKDPRJRS?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_1",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mdzi0aespt/out/v1/ebc753f4d4af40e481e5506bad35eb42/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mdzi0aespt/out/v1/ebc753f4d4af40e481e5506bad35eb42/cenc.mpd",
-        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/mdzi0aespt/out/v1/ebc753f4d4af40e481e5506bad35eb42/cenc.mpd",
-        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/mdzi0aespt/out/v1/ebc753f4d4af40e481e5506bad35eb42/cenc.mpd",
-        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/mdzi0aespt/out/v1/ebc753f4d4af40e481e5506bad35eb42/cenc.mpd"
-      },
-      "stream_url_bravo": {
-        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yi1ah9sgsj/out/v1/ffe37797429b4ed28810e8d7735124fc/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yi1ah9sgsj/out/v1/ffe37797429b4ed28810e8d7735124fc/cenc.mpd",
-        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/yi1ah9sgsj/out/v1/ffe37797429b4ed28810e8d7735124fc/cenc.mpd",
-        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/yi1ah9sgsj/out/v1/ffe37797429b4ed28810e8d7735124fc/cenc.mpd",
-        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/yi1ah9sgsj/out/v1/ffe37797429b4ed28810e8d7735124fc/cenc.mpd"
-      },
-      "drm_key": "bdc52b31dcf25b0515a61fb9d0f444a2:468ae45daef1021713e7ea869a340f96"
-    },
     {
       "match_id": "B0HNSCNTXG",
       "title": "Afghanistan vs. Zimbabwe",
@@ -41,7 +16,7 @@
       "status": "LIVE",
       "time": "8 PM BDT",
       "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.68779caa-dd6b-46dc-b1de-3a19c8c208db/3/BOXART-16X9/en-US._UR1920,1080_.jpeg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HNSCNTXG?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_2",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HNSCNTXG?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_1",
       "is_free": false,
       "stream_url_alpha": {
         "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/eieh0ekrzy/out/v1/2587259ec56e439086e501951f31ccf7/cenc.mpd",
@@ -51,6 +26,18 @@
         "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/eieh0ekrzy/out/v1/2587259ec56e439086e501951f31ccf7/cenc.mpd"
       },
       "drm_key": "85e95a4fae22e02459252a03faaf3166:29334fa5e1d5708ed994f8bf74687933"
+    },
+    {
+      "match_id": "B0HKDPRJRS",
+      "title": "Australia tour of South Africa 2026 - 3rd Test - South Africa vs Australia",
+      "synopsis": "Australia tour of South Africa 2026 - 3rd Test - South Africa vs Australia",
+      "status": "UPCOMING",
+      "time": "Tomorrow 1:30 PM BDT",
+      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.20a790a3-51e9-4ec1-9a8b-cb632845af2d/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HKDPRJRS?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_2",
+      "is_free": false,
+      "stream_url_alpha": "",
+      "drm_key": ""
     },
     {
       "match_id": "B0HMGDLS21",
@@ -269,23 +256,6 @@
       "drm_key": ""
     },
     {
-      "match_id": "B0H37FB27F",
-      "title": "Predator European Championships: Spain",
-      "synopsis": "Predator European Championships: Spain",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.447494d8-1dc7-4b08-89c7-f04ce02111ea/10/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0H37FB27F",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd"
-      },
-      "drm_key": "18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67"
-    },
-    {
       "match_id": "B0HN38XCNG",
       "title": "ECHL Hockey: Allen Americans vs Tulsa Oilers",
       "synopsis": "ECHL Hockey: Allen Americans vs Tulsa Oilers",
@@ -325,7 +295,7 @@
       "synopsis": "Tennis Today Live-Basel-ATP & Vienna-ATP Early Rounds",
       "status": "LIVE",
       "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.5a06d9b7-9e9b-4f4e-b4b7-7b8c3205a4c6/15/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.5a06d9b7-9e9b-4f4e-b4b7-7b8c3205a4c6/16/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HJZRQ6JB",
       "is_free": false,
       "stream_url": {
@@ -337,27 +307,30 @@
       "drm_key": "59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a"
     },
     {
-      "match_id": "B0HMXW8B3D",
-      "title": "Oct 27 - UTR PTT Columbia Women",
-      "synopsis": "Oct 27 - UTR PTT Columbia Women",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.1a431439-30f5-4db5-a95b-2ca71682021b/5/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HMXW8B3D",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://live-pv-ta-enf.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWIimAWpwcmltZXZpZGVvBBpq9J-mBhpq4NkmA2ZmYXN0bHkCeChmaWQ6MDFhMTdlNTAtM2U1Ny03MjZiLTg0ZWQtZGU4M2EzNjQ0MzY4GQE4oQWhAngzL3l5MGR5enFwdzIvb3V0L3YxLzA2NDA1MGUzNDQyNTQ1MTU5ZDNjZjBkY2JhNjBkNzJhWCBxl48k0zI1YY_8IER7D8bXECWmHIVrO-RlGaz8vu8d-w/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/yy0dyzqpw2/out/v1/064050e3442545159d3cf0dcba60d72a/9126224c-9202-4737-bd62-81c1082426f9-cenc.mpd"
-      },
-      "drm_key": "faee08dc27a6288174a3300cb3262278:abf8d2db53d46e7c3c7099784a2d9b1b"
-    },
-    {
       "match_id": "B0FQQXFCMF",
       "title": "Second Serve - Live-Basel-ATP & Vienna-ATP Early Rounds",
       "synopsis": "Second Serve - Live-Basel-ATP & Vienna-ATP Early Rounds",
       "status": "LIVE",
       "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.68ccc8db-4407-492d-8b37-369596935fcd/18/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.68ccc8db-4407-492d-8b37-369596935fcd/19/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0FQQXFCMF",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd"
+      },
+      "drm_key": "59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a"
+    },
+    {
+      "match_id": "B0HMP6PGCL",
+      "title": "Tennis Today Live-Basel-ATP & Vienna-ATP Early Rounds",
+      "synopsis": "Tennis Today Live-Basel-ATP & Vienna-ATP Early Rounds",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.65b7ccd7-c5a2-4c95-b2fc-248251407e8f/7/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HMP6PGCL",
       "is_free": false,
       "stream_url": {
         "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd",
@@ -382,40 +355,6 @@
       "drm_key": "8e99837a21ea6e3549fc773e7cf4640d:77e0f3e67bc06cc829fa6274e6fbe396"
     },
     {
-      "match_id": "B0HKDPRJRS",
-      "title": "Australia tour of South Africa 2026 - 3rd Test - South Africa vs Australia",
-      "synopsis": "Australia tour of South Africa 2026 - 3rd Test - South Africa vs Australia",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.20a790a3-51e9-4ec1-9a8b-cb632845af2d/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/s-z/willowtv/logos/channels-logo-white-stacked.png%7C0,0,1920,1080+0,0,1920,1080+1724,885,117,117_kvebed36e78eaa0330f200bb6045a52aca_SX624_FMjpg_.jpeg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HKDPRJRS",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yi1ah9sgsj/out/v1/ffe37797429b4ed28810e8d7735124fc/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yi1ah9sgsj/out/v1/ffe37797429b4ed28810e8d7735124fc/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/yi1ah9sgsj/out/v1/ffe37797429b4ed28810e8d7735124fc/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/yi1ah9sgsj/out/v1/ffe37797429b4ed28810e8d7735124fc/cenc.mpd"
-      },
-      "drm_key": "bdc52b31dcf25b0515a61fb9d0f444a2:468ae45daef1021713e7ea869a340f96"
-    },
-    {
-      "match_id": "B0HMP6PGCL",
-      "title": "Tennis Today Live-Basel-ATP & Vienna-ATP Early Rounds",
-      "synopsis": "Tennis Today Live-Basel-ATP & Vienna-ATP Early Rounds",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.65b7ccd7-c5a2-4c95-b2fc-248251407e8f/7/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HMP6PGCL",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd"
-      },
-      "drm_key": "59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a"
-    },
-    {
       "match_id": "B0HK3VH43P",
       "title": "Oct 27 - UTR PTT Philadelphia Men",
       "synopsis": "Oct 27 - UTR PTT Philadelphia Men",
@@ -428,6 +367,20 @@
         "Original Server": "https://a136live-pv-ta-enf-amazon.akamaized.net/$T$2D3RhEOhAQWhBFgkYWY3NDZlZjAtYzM0OC00MGM1LWFjN2UtYTVhZWIzNjhiNjA0WIimAWpwcmltZXZpZGVvBBpq9IqMBhpq4MQMA2Zha2FtYWkCeChmaWQ6MDFhMTdkZmQtY2VlOS03NjQ3LThmYmEtNDcwNGI3NmY4NTBiGQE4oQWhAngzL2s5MzZkd3R0ejQvb3V0L3YxL2RkOGU1Y2ZlNjg4ZDQ0ZmJhZGZiZDRkODkyMTZkMTlhWCD_-dCOz883UM_fNunHPe_wR0kz5uRl7obq2Sdb5tWT8w/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/k936dwttz4/out/v1/dd8e5cfe688d44fbadfbd4d89216d19a/998ab3a5-eb60-4d42-8f5b-722cd506a585-cenc.mpd"
       },
       "drm_key": "7f6a32e1b25f88ad970d2689ec0b35f0:1e8f7886633ec876bf1d42f14e4f7a57"
+    },
+    {
+      "match_id": "B0HMXW8B3D",
+      "title": "Oct 27 - UTR PTT Columbia Women",
+      "synopsis": "Oct 27 - UTR PTT Columbia Women",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.1a431439-30f5-4db5-a95b-2ca71682021b/5/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HMXW8B3D",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://live-pv-ta-enf.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWIimAWpwcmltZXZpZGVvBBpq9J-mBhpq4NkmA2ZmYXN0bHkCeChmaWQ6MDFhMTdlNTAtM2U1Ny03MjZiLTg0ZWQtZGU4M2EzNjQ0MzY4GQE4oQWhAngzL3l5MGR5enFwdzIvb3V0L3YxLzA2NDA1MGUzNDQyNTQ1MTU5ZDNjZjBkY2JhNjBkNzJhWCBxl48k0zI1YY_8IER7D8bXECWmHIVrO-RlGaz8vu8d-w/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/yy0dyzqpw2/out/v1/064050e3442545159d3cf0dcba60d72a/9126224c-9202-4737-bd62-81c1082426f9-cenc.mpd"
+      },
+      "drm_key": "faee08dc27a6288174a3300cb3262278:abf8d2db53d46e7c3c7099784a2d9b1b"
     },
     {
       "match_id": "1090550904",
@@ -604,6 +557,23 @@
       }
     },
     {
+      "match_id": "sassuolo-vs-lazio",
+      "title": "Sassuolo vs Lazio",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 27, 2026, 11:30:00 PM",
+      "time": "Oct 27, 2026, 11:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2793/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2793/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PARAMOUNT+ HD": "https://chatgpt.hereisman.net/playlist/58737/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "HD SERVER ": "https://www.rtmpcdn.com/live/1f98e519-b6fd-4d8c-a58b-39b9b7b9f835.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+        "LOW SERVER": "http://193.47.62.44/hls/4FFFAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "al-seeb-sc-vs-east-bengal-fc",
       "title": "Al Seeb SC vs East Bengal FC",
       "sport": "Football",
@@ -619,6 +589,39 @@
         "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?|Referer=https://xoilac.domainkqt.cc/",
         "LOW SERVER": "http://193.47.62.44/hls/rararaAAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
         "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4248991_english_hls_3a5344c32478816_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+      }
+    },
+    {
+      "match_id": "cd-cuarte-vs-girona-fc",
+      "title": "CD Cuarte vs Girona FC",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 27, 2026, 11:30:00 PM",
+      "time": "Oct 27, 2026, 11:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/327186/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/327186/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://live2.jorvakstreamcache.com/live/channel14.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "SD SERVER": "https://www.rtmpcdn.com/live/1c6f58b0-8cf8-46a9-825b-f7177d2263ce.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+        "LOW SERVER": "http://193.47.62.44/hls/vrvrvr.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "sestao-river-vs-espanyol",
+      "title": "Sestao River vs Espanyol",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 28, 2026, 12:00:00 AM",
+      "time": "Oct 28, 2026, 12:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/24364/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/24364/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://live2.jorvakstreamcache.com/live/channel17.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "LOW SERVER": "http://193.47.62.44/hls/DADADAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -652,6 +655,7 @@
       "stream_url_alpha": {
         "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4641672.m3u8?txSecret=5df0b6bcde7535973de0228d6a9368a9&txTime=6AE0E7D2|Referer=https://player.on8on8.com/",
         "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?|Referer=https://xoilac.domainkqt.cc/",
+        "CRICFy FAST ": "https://www.rtmpcdn.com/live/df6c202d-0613-42f9-a81b-f71615bdef67.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
         "LOW SERVER": "http://193.47.62.44/hls/K444AAQQA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
@@ -669,6 +673,7 @@
       "stream_url_alpha": {
         "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4641673.m3u8?txSecret=6f74b1bb30fb86c36ddd53ecf1a780a2&txTime=6AE0E79E|Referer=https://player.on8on8.com/",
         "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?|Referer=https://xoilac.domainkqt.cc/",
+        "CRICFy FAST ": "https://www.rtmpcdn.com/live/f6716f76-a33f-4816-8b6d-95f994648b63.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
         "LOW SERVER": "http://193.47.62.44/hls/K444AAQQAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
@@ -686,6 +691,7 @@
       "stream_url_alpha": {
         "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4641668.m3u8?txSecret=130920bfa3ba1ca9a6952cafcb42bfdb&txTime=6AE0E7C0|Referer=https://player.on8on8.com/",
         "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel24.m3u8?|Referer=https://xoilac.domainkqt.cc/",
+        "CRICFy FAST": "https://www.rtmpcdn.com/live/5d0bff51-7151-4cdb-89b1-4633cad493fc.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
         "LOW SERVER": "http://193.47.62.44/hls/K444AAQQAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
@@ -703,6 +709,7 @@
       "stream_url_alpha": {
         "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4641666.m3u8?txSecret=afbedbf1f80bd78aeec7e81b9d853574&txTime=6AE0E77A|Referer=https://player.on8on8.com/",
         "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xoilac.domainkqt.cc/",
+        "CRICFy FAST ": "https://www.rtmpcdn.com/live/47af901c-1668-4c0f-b389-48a1bbf34b80.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
         "LOW SERVER": "http://193.47.62.44/hls/K444AAQQAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
@@ -943,19 +950,6 @@
       }
     },
     {
-      "match_id": "sassuolo-vs-lazio",
-      "title": "Sassuolo vs Lazio",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 27, 2026, 11:30:00 PM",
-      "time": "Oct 27, 2026, 11:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2793/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2793/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
       "match_id": "npl-nepal-premier-league",
       "title": "NPL Nepal Premier League",
       "sport": "Cricket",
@@ -986,19 +980,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "cd-cuarte-vs-girona-fc",
-      "title": "CD Cuarte vs Girona FC",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 27, 2026, 11:30:00 PM",
-      "time": "Oct 27, 2026, 11:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/327186/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/327186/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
       "match_id": "ud-pinatar-vs-elche",
       "title": "UD Pinatar vs Elche",
       "sport": "Football",
@@ -1008,19 +989,6 @@
       "time": "Oct 28, 2026, 12:00:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/1260147/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/1260147/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "sestao-river-vs-espanyol",
-      "title": "Sestao River vs Espanyol",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 28, 2026, 12:00:00 AM",
-      "time": "Oct 28, 2026, 12:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/24364/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/24364/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
