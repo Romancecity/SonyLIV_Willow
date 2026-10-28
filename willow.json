@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 112,
-  "live_count": 30,
-  "last_update": "10:38 PM 28-10-2026",
+  "live_count": 32,
+  "last_update": "10:50 PM 28-10-2026",
   "events": [
     {
       "match_id": "B0HKDPRJRS",
@@ -537,6 +537,54 @@
       }
     },
     {
+      "match_id": "ac-milan-vs-bologna",
+      "title": "AC Milan vs Bologna",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 28, 2026, 11:30:00 PM",
+      "time": "Oct 28, 2026, 11:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2692/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2692/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+      }
+    },
+    {
+      "match_id": "venezia-vs-inter",
+      "title": "Venezia vs Inter",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 28, 2026, 11:30:00 PM",
+      "time": "Oct 28, 2026, 11:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2688/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2688/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1",
+        "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      }
+    },
+    {
+      "match_id": "sg-dynamo-dresden-vs-fc-schalke-04",
+      "title": "SG Dynamo Dresden vs FC Schalke 04",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 28, 2026, 11:00:00 PM",
+      "time": "Oct 28, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2595/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2595/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE ": "https://live.vivo155.com/live/sd-1-4641670.m3u8?txSecret=c8ee258fb637d7d33ea9a4d878455792&txTime=6AE23FFB|Referer=https://player.on8on8.com/",
+        "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel12.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "LOW SERVER ": "http://193.47.62.55/hls/K666AAAAQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "sc-freiburg-vs-vfl-wolfsburg",
       "title": "SC Freiburg vs VfL Wolfsburg",
       "sport": "Football",
@@ -548,7 +596,9 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/2538/image",
       "is_free": false,
       "stream_url_alpha": {
-        "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xlz.domainkqt.cc/"
+        "CRICFy LIVE ": "https://live.vivo155.com/live/sd-1-4641679.m3u8?txSecret=6db318853e174a8d25cbc2260990d5ba&txTime=6AE2402C|Referer=https://player.on8on8.com/",
+        "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "LOW SERVER ": "http://193.47.62.55/hls/K666AAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -563,7 +613,26 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/2561/image",
       "is_free": false,
       "stream_url_alpha": {
-        "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?|Referer=https://xlz.domainkqt.cc/"
+        "CRICFy LIVE ": "https://live.vivo155.com/live/sd-1-4641681.m3u8?txSecret=0825a25ab7e863fbc261d8db56c04f8d&txTime=6AE2404B|Referer=https://player.on8on8.com/",
+        "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "LOW SERVER": "http://193.47.62.55/hls/K666AAAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "ssv-jeddeloh-ii-vs-hertha-bsc",
+      "title": "SSV Jeddeloh II vs Hertha BSC",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 28, 2026, 11:00:00 PM",
+      "time": "Oct 28, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/75853/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/75853/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE ": "https://live.vivo155.com/live/sd-1-4641667.m3u8?txSecret=6eeafde4d94bfd1ed5cba732ebdc68f0&txTime=6AE24060|Referer=https://player.on8on8.com/",
+        "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel13.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "LOW SERVER ": "http://193.47.62.55/hls/K666AAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -1025,21 +1094,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "ac-milan-vs-bologna",
-      "title": "AC Milan vs Bologna",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 28, 2026, 11:30:00 PM",
-      "time": "Oct 28, 2026, 11:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2692/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2692/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      }
-    },
-    {
       "match_id": "parma-vs-udinese",
       "title": "Parma vs Udinese",
       "sport": "Football",
@@ -1051,22 +1105,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/2690/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "venezia-vs-inter",
-      "title": "Venezia vs Inter",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 28, 2026, 11:30:00 PM",
-      "time": "Oct 28, 2026, 11:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2688/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2688/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1",
-        "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      }
     },
     {
       "match_id": "genoa-vs-juventus",
@@ -1164,32 +1202,6 @@
       "time": "Oct 29, 2026, 01:45:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/41/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/41/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "sg-dynamo-dresden-vs-fc-schalke-04",
-      "title": "SG Dynamo Dresden vs FC Schalke 04",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 28, 2026, 11:00:00 PM",
-      "time": "Oct 28, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2595/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2595/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "ssv-jeddeloh-ii-vs-hertha-bsc",
-      "title": "SSV Jeddeloh II vs Hertha BSC",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 28, 2026, 11:00:00 PM",
-      "time": "Oct 28, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/75853/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/75853/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
