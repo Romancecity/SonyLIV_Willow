@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 84,
   "live_count": 46,
-  "last_update": "04:37 AM 29-10-2026",
+  "last_update": "04:50 AM 29-10-2026",
   "events": [
     {
       "match_id": "B0HJ7RN3LB",
@@ -810,6 +810,21 @@
       }
     },
     {
+      "match_id": "toronto-raptors-vs-orlando-magic",
+      "title": "Toronto Raptors vs Orlando Magic",
+      "sport": "Basketball",
+      "sub_category": "Basketball",
+      "status": "LIVE",
+      "start_time_bst": "Oct 29, 2026, 05:30:00 AM",
+      "time": "Oct 29, 2026, 05:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3433/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3433/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://edgestream7.pro/hls/bvnsqdfvgha70.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st"
+      }
+    },
+    {
       "match_id": "formula-1",
       "title": "Formula 1",
       "sport": "Motorsport",
@@ -1113,21 +1128,6 @@
       "is_free": false,
       "stream_url_alpha": {
         "CRICFy LIVE": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd|drm_key=d23f7433798a652a7d4f6791d9e1036c:4942eebd598b5727c5cc484cc62b52e8"
-      }
-    },
-    {
-      "match_id": "toronto-raptors-vs-orlando-magic",
-      "title": "Toronto Raptors vs Orlando Magic",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 29, 2026, 05:30:00 AM",
-      "time": "Oct 29, 2026, 05:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3433/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3433/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://edgestream7.pro/hls/bvnsqdfvgha70.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st"
       }
     },
     {
