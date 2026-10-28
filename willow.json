@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 92,
-  "live_count": 43,
-  "last_update": "12:50 AM 29-10-2026",
+  "live_count": 44,
+  "last_update": "01:01 AM 29-10-2026",
   "events": [
     {
       "match_id": "B0HJ7RN3LB",
@@ -553,6 +553,21 @@
       }
     },
     {
+      "match_id": "monza-vs-ssc-napoli",
+      "title": "Monza vs SSC Napoli",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 29, 2026, 01:45:00 AM",
+      "time": "Oct 29, 2026, 01:45:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2729/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2729/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+      }
+    },
+    {
       "match_id": "manchester-city-vs-brighton-hove-albion",
       "title": "Manchester City vs Brighton Hove Albion",
       "sport": "Football",
@@ -565,7 +580,41 @@
       "is_free": false,
       "stream_url_alpha": {
         "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
+        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
+        "MONO MAX HD": "https://chatgpt.hereisman.net/playlist/58775/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "CRICFy LIVE ": "https://live.vivo155.com/live/sd-1-4647350.m3u8?txSecret=ef177e46015c1ce25fd15aed0a305f23&txTime=6AE26073|Referer=https://player.on8on8.com/",
+        "HD SERVER ": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?|Referer=https://xlz.domainkqt.cc/",
         "LOW SERVER": "http://193.47.62.44/hls/JMMMA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "bournemouth-vs-aston-villa",
+      "title": "Bournemouth vs Aston Villa",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 29, 2026, 01:45:00 AM",
+      "time": "Oct 29, 2026, 01:45:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/60/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/60/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+      }
+    },
+    {
+      "match_id": "sunderland-vs-brentford",
+      "title": "Sunderland vs Brentford",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 29, 2026, 01:45:00 AM",
+      "time": "Oct 29, 2026, 01:45:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/41/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/41/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER": "http://193.47.62.50/hls/OLLLAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -905,36 +954,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "monza-vs-ssc-napoli",
-      "title": "Monza vs SSC Napoli",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 29, 2026, 01:45:00 AM",
-      "time": "Oct 29, 2026, 01:45:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2729/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2729/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      }
-    },
-    {
-      "match_id": "bournemouth-vs-aston-villa",
-      "title": "Bournemouth vs Aston Villa",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 29, 2026, 01:45:00 AM",
-      "time": "Oct 29, 2026, 01:45:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/60/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/60/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      }
-    },
-    {
       "match_id": "fulham-vs-crystal-palace",
       "title": "Fulham vs Crystal Palace",
       "sport": "Football",
@@ -959,21 +978,9 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/44/image",
       "is_free": false,
       "stream_url_alpha": {
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+        "LOW SERVER": "http://193.47.62.50/hls/JMMM.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
-    },
-    {
-      "match_id": "sunderland-vs-brentford",
-      "title": "Sunderland vs Brentford",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 29, 2026, 01:45:00 AM",
-      "time": "Oct 29, 2026, 01:45:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/41/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/41/image",
-      "is_free": false,
-      "stream_url_alpha": {}
     },
     {
       "match_id": "bayer-04-leverkusen-vs-1-fc-nurnberg",
