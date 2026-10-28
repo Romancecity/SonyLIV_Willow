@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 83,
   "live_count": 45,
-  "last_update": "04:06 AM 29-10-2026",
+  "last_update": "04:19 AM 29-10-2026",
   "events": [
     {
       "match_id": "B0HJ7RN3LB",
@@ -763,6 +763,36 @@
       }
     },
     {
+      "match_id": "atlanta-hawks-vs-miami-heat",
+      "title": "Atlanta Hawks vs Miami Heat",
+      "sport": "Basketball",
+      "sub_category": "Basketball",
+      "status": "LIVE",
+      "start_time_bst": "Oct 29, 2026, 05:00:00 AM",
+      "time": "Oct 29, 2026, 05:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3423/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3423/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://edgestream7.pro/hls/mlkijfezag65.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st"
+      }
+    },
+    {
+      "match_id": "detroit-pistons-vs-charlotte-hornets",
+      "title": "Detroit Pistons vs Charlotte Hornets",
+      "sport": "Basketball",
+      "sub_category": "Basketball",
+      "status": "LIVE",
+      "start_time_bst": "Oct 29, 2026, 05:00:00 AM",
+      "time": "Oct 29, 2026, 05:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3424/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3424/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://edgestream7.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st"
+      }
+    },
+    {
       "match_id": "formula-1",
       "title": "Formula 1",
       "sport": "Motorsport",
@@ -1066,36 +1096,6 @@
       "is_free": false,
       "stream_url_alpha": {
         "CRICFy LIVE": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd|drm_key=d23f7433798a652a7d4f6791d9e1036c:4942eebd598b5727c5cc484cc62b52e8"
-      }
-    },
-    {
-      "match_id": "atlanta-hawks-vs-miami-heat",
-      "title": "Atlanta Hawks vs Miami Heat",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 29, 2026, 05:00:00 AM",
-      "time": "Oct 29, 2026, 05:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3423/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3423/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://edgestream7.pro/hls/mlkijfezag65.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st"
-      }
-    },
-    {
-      "match_id": "detroit-pistons-vs-charlotte-hornets",
-      "title": "Detroit Pistons vs Charlotte Hornets",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 29, 2026, 05:00:00 AM",
-      "time": "Oct 29, 2026, 05:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3424/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3424/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://edgestream7.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st"
       }
     },
     {
