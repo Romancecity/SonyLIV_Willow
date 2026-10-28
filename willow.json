@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 83,
-  "live_count": 45,
-  "last_update": "03:05 AM 29-10-2026",
+  "channels_amount": 84,
+  "live_count": 46,
+  "last_update": "03:48 AM 29-10-2026",
   "events": [
     {
       "match_id": "B0HJ7RN3LB",
@@ -267,6 +267,23 @@
       "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
     },
     {
+      "match_id": "B0HNN3J85W",
+      "title": "Canadian Open, Day 4",
+      "synopsis": "Canadian Open, Day 4",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.364e5cab-c12f-4794-aa90-e453c6c2eab4/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HNN3J85W",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd"
+      },
+      "drm_key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
+    },
+    {
       "match_id": "B0GTZ7LJPW",
       "title": "Tennis Today Live-Basel-ATP & Vienna-ATP Early Rounds",
       "synopsis": "Tennis Today Live-Basel-ATP & Vienna-ATP Early Rounds",
@@ -496,6 +513,7 @@
         "FUBO SPORTS HD": "https://chatgpt.hereisman.net/playlist/58777/load-playlist-multi?|Referer=https://gooz.aapmains.net",
         "CRICFy LIVE ": "https://live.vivo155.com/live/hd-en-1-4549128.m3u8?txSecret=64054d369aefbc3dec67bed500df15c7&txTime=6AE2630E|Referer=https://player.on8on8.com/",
         "HD SERVER ": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "CRICFy HD": "https://www.rtmpcdn.com/live/90395230-9fa9-4930-b159-e067b1fd7daf.m3u8",
         "LOW SERVER": "http://193.47.62.59/hls/77IIIAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
@@ -514,6 +532,7 @@
         "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749",
         "CRICFy LIVE": "https://live.vivo155.com/live/hd-en-1-4549113.m3u8?txSecret=471719387da9c0387a9d800955211ab2&txTime=6AE262C4|Referer=https://player.on8on8.com/",
         "HD SERVER ": "https://live2.jorvakstreamcache.com/live/channel22.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "CRICFy HD": "https://www.rtmpcdn.com/live/2694a52d-472d-46a1-a6db-b80f7af1e36f.m3u8",
         "LOW SERVER": "http://193.47.62.59/hls/77IIIAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
@@ -554,6 +573,7 @@
         "DAZN SPORTS HD": "https://chatgpt.hereisman.net/playlist/58780/load-playlist-multi?|Referer=https://gooz.aapmains.net",
         "CRICFy LIVE ": "https://live.vivo155.com/live/sd-1-4646872.m3u8?txSecret=7c8c3c0f75f3b5f525110b58eb456092&txTime=6AE26161|Referer=https://player.on8on8.com/",
         "HD SERVER ": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "CRICFy HD": "https://www.rtmpcdn.com/live/f68ef32b-ab13-4506-9a5c-76923a575a0f.m3u8",
         "LOW SERVER": "http://193.47.62.41/hls/JMMMAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
@@ -629,6 +649,7 @@
       "stream_url_alpha": {
         "CRICFy LIVE ": "https://live.vivo155.com/live/sd-1-4641676.m3u8?txSecret=e8d6b5eb5aef41b324feb4ae0a08d8b9&txTime=6AE2638C|Referer=https://player.on8on8.com/",
         "HD SERVER ": "https://live2.jorvakstreamcache.com/live/channel19.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "CRICFy FAST ": "https://www.rtmpcdn.com/live/fac95417-38cd-4196-8dbb-ade9d660fe79.m3u8",
         "LOW SERVER ": "http://193.47.62.59/hls/77III.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
@@ -646,6 +667,7 @@
       "stream_url_alpha": {
         "CRICFy LIVE ": "https://live.vivo155.com/live/sd-1-4641680.m3u8?txSecret=06cbd8bb70fd37393d77fd1b47edd81e&txTime=6AE26373|Referer=https://player.on8on8.com/",
         "HD SERVER ": "https://live2.jorvakstreamcache.com/live/channel14.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "CRICFy FAST ": "https://www.rtmpcdn.com/live/dec93ea9-7c72-424b-bc9f-ea1f3ee27030.m3u8",
         "LOW SERVER": "http://193.47.62.59/hls/77IIIA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
@@ -711,6 +733,53 @@
       "is_free": false,
       "stream_url_alpha": {
         "LOW SERVER ": "http://193.47.62.59/hls/77IIIAAAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "fluminense-vs-internacional",
+      "title": "Fluminense vs Internacional",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 29, 2026, 04:30:00 AM",
+      "time": "Oct 29, 2026, 04:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/1961/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/1961/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7"
+      }
+    },
+    {
+      "match_id": "red-bull-bragantino-vs-chapecoense",
+      "title": "Red Bull Bragantino vs Chapecoense",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 29, 2026, 04:30:00 AM",
+      "time": "Oct 29, 2026, 04:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/1999/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/1999/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd|drm_key=e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94"
+      }
+    },
+    {
+      "match_id": "santos-vs-palmeiras",
+      "title": "Santos vs Palmeiras",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 29, 2026, 04:30:00 AM",
+      "time": "Oct 29, 2026, 04:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/1968/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/1968/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
+        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|drm_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
+        "SportDigital FussBall": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd|drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
       }
     },
     {
@@ -988,53 +1057,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/2946/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "fluminense-vs-internacional",
-      "title": "Fluminense vs Internacional",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 29, 2026, 04:30:00 AM",
-      "time": "Oct 29, 2026, 04:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/1961/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/1961/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7"
-      }
-    },
-    {
-      "match_id": "red-bull-bragantino-vs-chapecoense",
-      "title": "Red Bull Bragantino vs Chapecoense",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 29, 2026, 04:30:00 AM",
-      "time": "Oct 29, 2026, 04:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/1999/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/1999/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd|drm_key=e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94"
-      }
-    },
-    {
-      "match_id": "santos-vs-palmeiras",
-      "title": "Santos vs Palmeiras",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 29, 2026, 04:30:00 AM",
-      "time": "Oct 29, 2026, 04:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/1968/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/1968/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
-        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|drm_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
-        "SportDigital FussBall": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd|drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-      }
     },
     {
       "match_id": "bahia-vs-sao-paulo",
