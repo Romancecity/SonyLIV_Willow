@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 72,
   "live_count": 36,
-  "last_update": "10:38 PM 29-10-2026",
+  "last_update": "10:46 PM 29-10-2026",
   "events": [
     {
       "match_id": "B0HKDPRJRS",
@@ -612,6 +612,22 @@
       }
     },
     {
+      "match_id": "frosinone-vs-lecce",
+      "title": "Frosinone vs Lecce",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 29, 2026, 11:30:00 PM",
+      "time": "Oct 29, 2026, 11:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2801/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2801/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1",
+        "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      }
+    },
+    {
       "match_id": "formula-1",
       "title": "Formula 1",
       "sport": "Motorsport",
@@ -902,22 +918,6 @@
       "is_free": false,
       "stream_url_alpha": {
         "CRICFy LIVE": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d23f7433798a652a7d4f6791d9e1036c:4942eebd598b5727c5cc484cc62b52e8"
-      }
-    },
-    {
-      "match_id": "frosinone-vs-lecce",
-      "title": "Frosinone vs Lecce",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 29, 2026, 11:30:00 PM",
-      "time": "Oct 29, 2026, 11:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2801/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2801/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1",
-        "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
       }
     },
     {
