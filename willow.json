@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 83,
   "live_count": 45,
-  "last_update": "06:37 AM 29-10-2026",
+  "last_update": "06:51 AM 29-10-2026",
   "events": [
     {
       "match_id": "B0HJ7RN3LB",
@@ -939,6 +939,21 @@
       }
     },
     {
+      "match_id": "dallas-mavericks-vs-oklahoma-city-thunder",
+      "title": "Dallas Mavericks vs Oklahoma City Thunder",
+      "sport": "Basketball",
+      "sub_category": "Basketball",
+      "status": "LIVE",
+      "start_time_bst": "Oct 29, 2026, 07:30:00 AM",
+      "time": "Oct 29, 2026, 07:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3411/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3411/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://edgestream5.pro/hls/sqhdghzavbxu75.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st"
+      }
+    },
+    {
       "match_id": "formula-1",
       "title": "Formula 1",
       "sport": "Motorsport",
@@ -1196,21 +1211,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/2946/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "dallas-mavericks-vs-oklahoma-city-thunder",
-      "title": "Dallas Mavericks vs Oklahoma City Thunder",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 29, 2026, 07:30:00 AM",
-      "time": "Oct 29, 2026, 07:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3411/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3411/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://edgestream5.pro/hls/sqhdghzavbxu75.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st"
-      }
     },
     {
       "match_id": "los-angeles-clippers-vs-los-angeles-lakers",
