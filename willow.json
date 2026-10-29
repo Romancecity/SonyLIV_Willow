@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 67,
   "live_count": 34,
-  "last_update": "03:36 AM 30-10-2026",
+  "last_update": "03:50 AM 30-10-2026",
   "events": [
     {
       "match_id": "B0HM4SBRL6",
@@ -499,6 +499,23 @@
       "stream_url": {}
     },
     {
+      "match_id": "atletico-mineiro-vs-cruzeiro",
+      "title": "Atletico Mineiro vs Cruzeiro",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 30, 2026, 04:30:00 AM",
+      "time": "Oct 30, 2026, 04:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/1977/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/1977/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
+        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
+        "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+      }
+    },
+    {
       "match_id": "frosinone-vs-lecce",
       "title": "Frosinone vs Lecce",
       "sport": "Football",
@@ -877,23 +894,6 @@
         "FOX CRICKET HD": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
         "CRICBUZZ HD": "https://baila-lentoo.pages.dev/all-sp/809382.m3u8",
         "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250387_english_hls_b7a3c2c35c92425_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
-      }
-    },
-    {
-      "match_id": "atletico-mineiro-vs-cruzeiro",
-      "title": "Atletico Mineiro vs Cruzeiro",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 30, 2026, 04:30:00 AM",
-      "time": "Oct 30, 2026, 04:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/1977/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/1977/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
-        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
-        "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
       }
     },
     {
