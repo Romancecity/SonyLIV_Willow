@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 66,
   "live_count": 33,
-  "last_update": "04:07 AM 30-10-2026",
+  "last_update": "04:21 AM 30-10-2026",
   "events": [
     {
       "match_id": "B0HM4SBRL6",
@@ -499,6 +499,21 @@
       }
     },
     {
+      "match_id": "vasco-da-gama-vs-flamengo",
+      "title": "Vasco da Gama vs Flamengo",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 30, 2026, 05:00:00 AM",
+      "time": "Oct 30, 2026, 05:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/1974/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/1974/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1obktrybht/out/v1/08265453c8f64d9fbeb3cf43764403a8/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=332f62eb3cae824e98a4124da29a7d31:d1698cda3d040f9051125a61745b596b"
+      }
+    },
+    {
       "match_id": "frosinone-vs-lecce",
       "title": "Frosinone vs Lecce",
       "sport": "Football",
@@ -877,21 +892,6 @@
         "FOX CRICKET HD": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
         "CRICBUZZ HD": "https://baila-lentoo.pages.dev/all-sp/809382.m3u8",
         "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250387_english_hls_b7a3c2c35c92425_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
-      }
-    },
-    {
-      "match_id": "vasco-da-gama-vs-flamengo",
-      "title": "Vasco da Gama vs Flamengo",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 30, 2026, 05:00:00 AM",
-      "time": "Oct 30, 2026, 05:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/1974/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/1974/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1obktrybht/out/v1/08265453c8f64d9fbeb3cf43764403a8/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=332f62eb3cae824e98a4124da29a7d31:d1698cda3d040f9051125a61745b596b"
       }
     },
     {
