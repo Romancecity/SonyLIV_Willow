@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 70,
-  "live_count": 32,
-  "last_update": "11:04 PM 29-10-2026",
+  "channels_amount": 71,
+  "live_count": 35,
+  "last_update": "11:18 PM 29-10-2026",
   "events": [
     {
       "match_id": "B0HKRD61F3",
@@ -579,7 +579,54 @@
       "stream_url_alpha": {
         "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1",
         "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d",
+        "CRICFy LIVE ": "https://chatgpt.hereisman.net/playlist/58838/load-playlist?|Referer=https://gooz.aapmains.net",
         "LOW SERVER": "http://193.47.62.41/hls/jmmm.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "al-nassr-vs-al-kholood",
+      "title": "Al-Nassr vs Al-Kholood",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 30, 2026, 12:00:00 AM",
+      "time": "Oct 30, 2026, 12:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/23400/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/23400/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "FOX DEPORTES - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
+        "SportDigital FussBall": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd|drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+      }
+    },
+    {
+      "match_id": "fk-austria-wien-vs-juventus",
+      "title": "FK Austria Wien vs Juventus",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 29, 2026, 11:45:00 PM",
+      "time": "Oct 29, 2026, 11:45:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/229911/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/229911/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "http://193.47.62.41/hls/jmmmA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "paris-fc-vs-bk-hacken-ff",
+      "title": "Paris FC vs BK Hacken FF",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 29, 2026, 11:45:00 PM",
+      "time": "Oct 29, 2026, 11:45:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/264964/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/264964/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "http://193.47.62.41/hls/jmmmAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -892,22 +939,6 @@
       }
     },
     {
-      "match_id": "al-nassr-vs-al-kholood",
-      "title": "Al-Nassr vs Al-Kholood",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 30, 2026, 12:00:00 AM",
-      "time": "Oct 30, 2026, 12:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/23400/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/23400/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "FOX DEPORTES - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
-        "SportDigital FussBall": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd|drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-      }
-    },
-    {
       "match_id": "al-riyadh-vs-al-qadsiah",
       "title": "Al-Riyadh vs Al-Qadsiah",
       "sport": "Football",
@@ -935,32 +966,6 @@
         "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
         "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
       }
-    },
-    {
-      "match_id": "fk-austria-wien-vs-juventus",
-      "title": "FK Austria Wien vs Juventus",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 29, 2026, 11:45:00 PM",
-      "time": "Oct 29, 2026, 11:45:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/229911/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/229911/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "paris-fc-vs-bk-hacken-ff",
-      "title": "Paris FC vs BK Hacken FF",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 29, 2026, 11:45:00 PM",
-      "time": "Oct 29, 2026, 11:45:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/264964/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/264964/image",
-      "is_free": false,
-      "stream_url_alpha": {}
     },
     {
       "match_id": "manchester-city-vs-paris-saint-germain",
@@ -1046,6 +1051,22 @@
       "is_free": false,
       "stream_url_alpha": {
         "CRICFy LIVE": "https://edgestream7.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://embedcenter.st/&Origin=https://embedcenter.st"
+      }
+    },
+    {
+      "match_id": "green-bay-packers-vs-carolina-panthers",
+      "title": "Green Bay Packers vs Carolina Panthers",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 30, 2026, 06:15:00 AM",
+      "time": "Oct 30, 2026, 06:15:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/4420/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4420/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
+        "TSN SPORTS 5 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
       }
     }
   ]
