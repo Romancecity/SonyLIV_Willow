@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 150,
   "live_count": 37,
-  "last_update": "12:40 AM 31-10-2026",
+  "last_update": "12:50 AM 31-10-2026",
   "events": [
     {
       "match_id": "B0HPB4WCJX",
@@ -692,6 +692,22 @@
       }
     },
     {
+      "match_id": "sv-07-elversberg-vs-1-fsv-mainz-05",
+      "title": "SV 07 Elversberg vs 1. FSV Mainz 05",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 31, 2026, 01:30:00 AM",
+      "time": "Oct 31, 2026, 01:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2598/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2598/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "SporTV BR - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3",
+        "LOW SERVER": "http://193.47.62.50/hls/CIII.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "le-havre-vs-paris-saint-germain",
       "title": "Le Havre vs Paris Saint-Germain",
       "sport": "Football",
@@ -981,22 +997,6 @@
       "stream_url_alpha": {
         "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|drm_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
         "SporTV BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
-      }
-    },
-    {
-      "match_id": "sv-07-elversberg-vs-1-fsv-mainz-05",
-      "title": "SV 07 Elversberg vs 1. FSV Mainz 05",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 31, 2026, 01:30:00 AM",
-      "time": "Oct 31, 2026, 01:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2598/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2598/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "SporTV BR - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3",
-        "LOW SERVER": "http://193.47.62.50/hls/CIII.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
