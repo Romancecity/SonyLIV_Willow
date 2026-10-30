@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 146,
   "live_count": 33,
-  "last_update": "04:36 AM 31-10-2026",
+  "last_update": "04:51 AM 31-10-2026",
   "events": [
     {
       "match_id": "B0HPB4WCJX",
@@ -754,6 +754,21 @@
       "stream_url_alpha": {
         "D SPORTS - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504",
         "LOW SERVER": "http://193.47.62.41/hls/3333AAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "boston-celtics-vs-chicago-bulls",
+      "title": "Boston Celtics vs Chicago Bulls",
+      "sport": "Basketball",
+      "sub_category": "Basketball",
+      "status": "LIVE",
+      "start_time_bst": "Oct 31, 2026, 05:30:00 AM",
+      "time": "Oct 31, 2026, 05:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3422/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3422/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
       }
     },
     {
@@ -1553,21 +1568,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/39/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "boston-celtics-vs-chicago-bulls",
-      "title": "Boston Celtics vs Chicago Bulls",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 31, 2026, 05:30:00 AM",
-      "time": "Oct 31, 2026, 05:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3422/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3422/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
-      }
     },
     {
       "match_id": "golden-state-warriors-vs-los-angeles-lakers",
