@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 148,
   "live_count": 35,
-  "last_update": "01:17 AM 31-10-2026",
+  "last_update": "01:22 AM 31-10-2026",
   "events": [
     {
       "match_id": "B0HPB4WCJX",
@@ -729,6 +729,22 @@
       }
     },
     {
+      "match_id": "lille-vs-rc-lens",
+      "title": "Lille vs RC Lens",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 31, 2026, 02:05:00 AM",
+      "time": "Oct 31, 2026, 02:05:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/1643/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/1643/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4",
+        "LOW SERVER": "http://193.47.62.41/hls/3333AAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "sheffield-united-vs-wrexham",
       "title": "Sheffield United vs Wrexham",
       "sport": "Football",
@@ -998,22 +1014,6 @@
       "stream_url_alpha": {
         "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|drm_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
         "SporTV BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
-      }
-    },
-    {
-      "match_id": "lille-vs-rc-lens",
-      "title": "Lille vs RC Lens",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 31, 2026, 02:05:00 AM",
-      "time": "Oct 31, 2026, 02:05:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/1643/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/1643/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4",
-        "LOW SERVER": "http://193.47.62.41/hls/3333AAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
