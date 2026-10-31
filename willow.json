@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 127,
-  "live_count": 46,
-  "last_update": "08:12 PM 31-10-2026",
+  "live_count": 49,
+  "last_update": "08:17 PM 31-10-2026",
   "events": [
     {
       "match_id": "B0HKDPRJRS",
@@ -768,6 +768,22 @@
       }
     },
     {
+      "match_id": "al-fayha-vs-al-faisaly",
+      "title": "Al-Fayha vs Al Faisaly",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 31, 2026, 08:55:00 PM",
+      "time": "Oct 31, 2026, 08:55:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/168094/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/168094/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4599641.m3u8?txSecret=94d6da6a054b7e9b2adc5e62ae2bacd8&txTime=6AE61060|Referer=https://player.on8on8.com/",
+        "LOW SERVER": "http://193.47.62.44/hls/kkkkAAAAAQQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "kocaelispor-vs-caykur-rizespor",
       "title": "Kocaelispor vs Caykur Rizespor",
       "sport": "Football",
@@ -1015,7 +1031,10 @@
       "logo": "https://img.sofascore.com/api/v1/team/60/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/60/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/58915/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "LOW SERVER": "http://193.47.62.50/hls/A888.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
     },
     {
       "match_id": "brentford-vs-nottingham-forest",
@@ -1028,7 +1047,10 @@
       "logo": "https://img.sofascore.com/api/v1/team/50/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/50/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "USA NETWORK HD": "https://chatgpt.hereisman.net/playlist/58919/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "LOW SERVER": "http://193.47.62.50/hls/A888a.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
     },
     {
       "match_id": "coventry-city-vs-sunderland",
@@ -1068,7 +1090,9 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/17/image",
       "is_free": false,
       "stream_url_alpha": {
-        "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
+        "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1",
+        "PEACOCK TV HD": "https://chatgpt.hereisman.net/playlist/58917/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "LOW SERVER": "http://193.47.62.55/hls/A888aaaa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -1494,19 +1518,6 @@
       "time": "Oct 31, 2026, 07:30:00 PM",
       "logo": "https://img.sofascore.com/api/v1/team/56021/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/56021/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "al-fayha-vs-al-faisaly",
-      "title": "Al-Fayha vs Al Faisaly",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 31, 2026, 08:55:00 PM",
-      "time": "Oct 31, 2026, 08:55:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/168094/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/168094/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
