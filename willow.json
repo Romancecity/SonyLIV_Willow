@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 75,
   "live_count": 31,
-  "last_update": "01:47 AM 01-11-2026",
+  "last_update": "01:52 AM 01-11-2026",
   "events": [
     {
       "match_id": "B0HPBMQSPR",
@@ -445,30 +445,6 @@
       "drm_key": "299ad36a8f20e497ba5666b65e370ff0:6d54418c6df053c297881e6b88784638"
     },
     {
-      "match_id": "formula-1",
-      "title": "Formula 1",
-      "sport": "Motorsport",
-      "sub_category": "Motorsports",
-      "status": "LIVE",
-      "start_time_bst": "Oct 31, 2026, 11:30:45 PM",
-      "time": "Oct 31, 2026, 11:30:45 PM",
-      "logo": "nulln",
-      "cover_image": "nulln",
-      "is_free": false,
-      "stream_url_alpha": {
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
-        "SporTV BR - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3",
-        "CANAL5 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d695093ea3e66d75a4d213a3e2cbf360:01be3f645e89a067d2786c295f68dde4",
-        "CRICFy LIVE ": "https://chatgpt.hereisman.net/playlist/58842/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-        "SPORTSCAST - AQ": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/f38259fb-2171-4893-9cfa-c78d2d277ff6/master.m3u8",
-        "FORMULA 1 - AQ": "https://admin2.formaturamaxi.com.br/f1.m3u8",
-        "SKY SPORTS F1": "https://auto-gpt.ahadroychy.workers.dev/&.m3u8?id=formula|Referer=https://gooz.aapmains.net",
-        "RUSSIA FEED": "https://bl.rutube.ru/livestream/03f4a36bbbfe2a72345db6fd9190c36c/index.m3u8?s=F5DOuQUwB7eJ57TPdhvqfw&e=1793471365&scheme=https|user-agent=Mozilla",
-        "LOW SERVER": "http://193.47.62.44/hls/KYYYAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-        "SKY F1 - ITALY": "https://g006-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1791804090_s~35174801-9c9a-4ac6-8180-bcceaba6c98a_u~fe3b84cbbdf5bc565dd1012e5306ba8dc943c4ee57b1c5b2555a972552c5c85df5468f3aaf797d103da27a492f48c64a_l~70_x~743ee2be13010752947f25f2eda5b1b044b9c8690dcbb5f1493a82650dd39ca2/nowitlin2/Content/CMAF_CTR_H1/Live/channel(GmNkZkEhHwZyLEqoafQKOFLW)/master_2hr-all.mpd|drm_key=1118d83348830358060d408a72f56f29:648378946f2f70f43af47ff9bf3e329b"
-      }
-    },
-    {
       "match_id": "aston-villa-vs-fulham",
       "title": "Aston Villa vs Fulham",
       "sport": "Football",
@@ -611,6 +587,45 @@
       "stream_url_alpha": {
         "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4552241.m3u8?txSecret=e154442a11b25229b21e29b367dd956e&txTime=6AE65DEA|Referer=https://player.on8on8.com/",
         "LOW SERVER ": "http://193.47.62.59/hls/JOOO.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "fc-porto-vs-estoril-praia",
+      "title": "FC Porto vs Estoril Praia",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 01, 2026, 02:30:00 AM",
+      "time": "Nov 01, 2026, 02:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3002/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3002/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "D SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
+      }
+    },
+    {
+      "match_id": "formula-1",
+      "title": "Formula 1",
+      "sport": "Motorsport",
+      "sub_category": "Motorsports",
+      "status": "UPCOMING",
+      "start_time_bst": "Nov 01, 2026, 03:00:06 AM",
+      "time": "Nov 01, 2026, 03:00:06 AM",
+      "logo": "nulln",
+      "cover_image": "nulln",
+      "is_free": false,
+      "stream_url_alpha": {
+        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
+        "SporTV BR - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3",
+        "CANAL5 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d695093ea3e66d75a4d213a3e2cbf360:01be3f645e89a067d2786c295f68dde4",
+        "CRICFy LIVE ": "https://chatgpt.hereisman.net/playlist/58842/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "SPORTSCAST - AQ": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/f38259fb-2171-4893-9cfa-c78d2d277ff6/master.m3u8",
+        "FORMULA 1 - AQ": "https://admin2.formaturamaxi.com.br/f1.m3u8",
+        "SKY SPORTS F1": "https://auto-gpt.ahadroychy.workers.dev/&.m3u8?id=formula|Referer=https://gooz.aapmains.net",
+        "RUSSIA FEED": "https://bl.rutube.ru/livestream/03f4a36bbbfe2a72345db6fd9190c36c/index.m3u8?s=F5DOuQUwB7eJ57TPdhvqfw&e=1793471365&scheme=https|user-agent=Mozilla",
+        "LOW SERVER": "http://193.47.62.44/hls/KYYYAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+        "SKY F1 - ITALY": "https://g006-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1791804090_s~35174801-9c9a-4ac6-8180-bcceaba6c98a_u~fe3b84cbbdf5bc565dd1012e5306ba8dc943c4ee57b1c5b2555a972552c5c85df5468f3aaf797d103da27a492f48c64a_l~70_x~743ee2be13010752947f25f2eda5b1b044b9c8690dcbb5f1493a82650dd39ca2/nowitlin2/Content/CMAF_CTR_H1/Live/channel(GmNkZkEhHwZyLEqoafQKOFLW)/master_2hr-all.mpd|drm_key=1118d83348830358060d408a72f56f29:648378946f2f70f43af47ff9bf3e329b"
       }
     },
     {
@@ -1067,21 +1082,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/39/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "fc-porto-vs-estoril-praia",
-      "title": "FC Porto vs Estoril Praia",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 01, 2026, 02:30:00 AM",
-      "time": "Nov 01, 2026, 02:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3002/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3002/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "D SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
-      }
     },
     {
       "match_id": "albacete-balompie-vs-ce-sabadell",
