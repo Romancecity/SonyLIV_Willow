@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 73,
   "live_count": 29,
-  "last_update": "02:06 AM 01-11-2026",
+  "last_update": "02:23 AM 01-11-2026",
   "events": [
     {
       "match_id": "B0HPBMQSPR",
@@ -411,6 +411,55 @@
       "drm_key": "299ad36a8f20e497ba5666b65e370ff0:6d54418c6df053c297881e6b88784638"
     },
     {
+      "match_id": "formula-1",
+      "title": "Formula 1",
+      "sport": "Motorsport",
+      "sub_category": "Motorsports",
+      "status": "LIVE",
+      "start_time_bst": "Nov 01, 2026, 03:00:06 AM",
+      "time": "Nov 01, 2026, 03:00:06 AM",
+      "logo": "nulln",
+      "cover_image": "nulln",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0",
+        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
+        "SporTV BR - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3",
+        "CANAL5 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d695093ea3e66d75a4d213a3e2cbf360:01be3f645e89a067d2786c295f68dde4",
+        "CRICFy LIVE ": "https://chatgpt.hereisman.net/playlist/58842/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "SPORTSCAST - AQ": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/50868ddd-04ed-45ec-ab4e-4fb5fcb2302e/master.m3u8",
+        "FORMULA 1 - AQ": "https://admin2.formaturamaxi.com.br/f1.m3u8",
+        "SKY SPORTS F1": "https://auto-gpt.ahadroychy.workers.dev/&.m3u8?id=formula|Referer=https://gooz.aapmains.net",
+        "RUSSIA FEED": "https://bl.rutube.ru/livestream/03f4a36bbbfe2a72345db6fd9190c36c/index.m3u8?s=F5DOuQUwB7eJ57TPdhvqfw&e=1793471365&scheme=https|user-agent=Mozilla",
+        "LOW SERVER": "http://193.47.62.44/hls/KYYYAAAAS.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+        "SKY F1 - ITALY": "https://g006-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1791804090_s~35174801-9c9a-4ac6-8180-bcceaba6c98a_u~fe3b84cbbdf5bc565dd1012e5306ba8dc943c4ee57b1c5b2555a972552c5c85df5468f3aaf797d103da27a492f48c64a_l~70_x~743ee2be13010752947f25f2eda5b1b044b9c8690dcbb5f1493a82650dd39ca2/nowitlin2/Content/CMAF_CTR_H1/Live/channel(GmNkZkEhHwZyLEqoafQKOFLW)/master_2hr-all.mpd|drm_key=1118d83348830358060d408a72f56f29:648378946f2f70f43af47ff9bf3e329b"
+      }
+    },
+    {
+      "match_id": "ufc-live",
+      "title": "UFC LIVE",
+      "sport": "Boxing",
+      "sub_category": "Boxing",
+      "status": "LIVE",
+      "start_time_bst": "Nov 01, 2026, 03:00:07 AM",
+      "time": "Nov 01, 2026, 03:00:07 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/461712/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/461712/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PARAMOUNT+ - AQ": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/cd5hufwg7w/out/v1/52491b8acfa14499b0a88ee8832a0787/cenc.mpd?aws_sessionId=979310de-3bf1-4499-aeea-8d2f9ad21db4|drm_key=de1b507bc71689e4b0d2e41332084daf:0d24dbce556b49baf5348090a59f8e5e",
+        "PARAMOUNT+ ES": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/iciyxuqbci/out/v1/03a3f0fde12a4fb99557eae7774c9989/cenc.mpd?aws_sessionId=cf2a8132-1fb1-486a-ae9d-24660bef6b88|drm_key=80f3ef6e7b3f81a120750f8eb45a5363:2874a2addc99f260ef6ccf1d37699e79",
+        "PARAMOUNT+ POR": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/zxnjfzuj7s/out/v1/823821d93c1a4250860fd079bf2f7998/cenc.mpd?aws_sessionId=0b932add-7c2b-4b29-ade7-7b81a674b5d6|drm_key=325424c12306beff75ef379b6d778974:78d8e8f415823e9ddf0d209567102c7f",
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca",
+        "PARAMOUNT+ HD": "https://chatgpt.hereisman.net/playlist/58494/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "UFC LIVE - AQ": "https://peregrinecloud.s3-accelerate.amazonaws.com/warriors.m3u8",
+        "CRICFy LIVE": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/24.m3u8",
+        "LOW SERVER": "http://193.47.62.44/hls/h555.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+        "SportsNet - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ccupb3gevq/out/v1/d9d54c61efab463981d1a7d04ceeb44c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=60de674d9db66df9ba090e06871d3554:18071eac168232fc3d45549049c1de6b",
+        "UFC TV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9v8cttmhcw/out/v1/df4c5196e3d74e7d8f484fc25d9034f1/cenc.mpd|drm_key=a49085f8da5e65af1efff0edac830b1f:4659bc58a85c062e3fe0c039a446fe47"
+      }
+    },
+    {
       "match_id": "aston-villa-vs-fulham",
       "title": "Aston Villa vs Fulham",
       "sport": "Football",
@@ -571,30 +620,6 @@
       }
     },
     {
-      "match_id": "formula-1",
-      "title": "Formula 1",
-      "sport": "Motorsport",
-      "sub_category": "Motorsports",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 01, 2026, 03:00:06 AM",
-      "time": "Nov 01, 2026, 03:00:06 AM",
-      "logo": "nulln",
-      "cover_image": "nulln",
-      "is_free": false,
-      "stream_url_alpha": {
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
-        "SporTV BR - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3",
-        "CANAL5 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d695093ea3e66d75a4d213a3e2cbf360:01be3f645e89a067d2786c295f68dde4",
-        "CRICFy LIVE ": "https://chatgpt.hereisman.net/playlist/58842/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-        "SPORTSCAST - AQ": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/f38259fb-2171-4893-9cfa-c78d2d277ff6/master.m3u8",
-        "FORMULA 1 - AQ": "https://admin2.formaturamaxi.com.br/f1.m3u8",
-        "SKY SPORTS F1": "https://auto-gpt.ahadroychy.workers.dev/&.m3u8?id=formula|Referer=https://gooz.aapmains.net",
-        "RUSSIA FEED": "https://bl.rutube.ru/livestream/03f4a36bbbfe2a72345db6fd9190c36c/index.m3u8?s=F5DOuQUwB7eJ57TPdhvqfw&e=1793471365&scheme=https|user-agent=Mozilla",
-        "LOW SERVER": "http://193.47.62.44/hls/KYYYAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-        "SKY F1 - ITALY": "https://g006-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1791804090_s~35174801-9c9a-4ac6-8180-bcceaba6c98a_u~fe3b84cbbdf5bc565dd1012e5306ba8dc943c4ee57b1c5b2555a972552c5c85df5468f3aaf797d103da27a492f48c64a_l~70_x~743ee2be13010752947f25f2eda5b1b044b9c8690dcbb5f1493a82650dd39ca2/nowitlin2/Content/CMAF_CTR_H1/Live/channel(GmNkZkEhHwZyLEqoafQKOFLW)/master_2hr-all.mpd|drm_key=1118d83348830358060d408a72f56f29:648378946f2f70f43af47ff9bf3e329b"
-      }
-    },
-    {
       "match_id": "motogp",
       "title": "Motogp",
       "sport": "Motorsport",
@@ -650,32 +675,6 @@
         "HD SERVER": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/1.m3u8",
         "CRICFy HD": "https://edgestream2.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
         "SD SERVER ": "http://193.47.62.59/hls/K999QQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    },
-    {
-      "match_id": "ufc-live",
-      "title": "UFC LIVE",
-      "sport": "Boxing",
-      "sub_category": "Boxing",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 01, 2026, 03:00:07 AM",
-      "time": "Nov 01, 2026, 03:00:07 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/461712/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/461712/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "PARAMOUNT+ - AQ": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/kvqcmbokg5/out/v1/5865ca941ea54f8fb0b7788ece2d900e/779e27f5-e6ef-4be3-93de-36b27e09150a-cenc.mpd?aws_sessionId=1032a615-ba58-47ed-ba01-6386b5f745ed|drm_key=aa2700fe56b101d95ef4288da8b19d20:29458d3d82629babb08de5f713d99f75",
-        "PARAMOUNT+ ES": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/tmfbljkrvo/out/v1/97ea6cd5f85242caadd34261558d639f/5a670ddd-cd2e-4e08-88a3-f07773ed6a5a-cenc.mpd?aws_sessionId=14bf9f84-2ab0-4f93-9c42-a0a28cdde7fc|drm_key=d9ea85885bc96d53961b9b07f1d86efb:d38968ef18f914602bffb6c74d7bbd3d",
-        "PARAMOUNT+ POR": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/ssir8jews6/out/v1/61c2bac238b7422782a5e038863c1966/a121bf0f-3b8d-40e2-a72f-b1b4df13891c-cenc.mpd?aws_sessionId=74d64c22-5ad3-4cff-b1c0-95f042ee92b3|drm_key=294eb6d02ad018f4aaddd9e35b5dda37:3c557570e9b1e9e6e39dad3b78bcb012",
-        "PARAMOUNT+ HD": "https://chatgpt.hereisman.net/playlist/58494/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b",
-        "UFC LIVE - AQ": "https://peregrinecloud.s3-accelerate.amazonaws.com/warriors.m3u8",
-        "CRICFy LIVE": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/24.m3u8",
-        "CRICFy FAST ": "https://chatgpt.hereisman.net/playlist/58495/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-        "HD SERVER": "https://edgestream4.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-        "LOW SERVER": "http://193.47.62.44/hls/h555.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-        "SportsNet - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ccupb3gevq/out/v1/d9d54c61efab463981d1a7d04ceeb44c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=60de674d9db66df9ba090e06871d3554:18071eac168232fc3d45549049c1de6b",
-        "UFC TV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9v8cttmhcw/out/v1/df4c5196e3d74e7d8f484fc25d9034f1/cenc.mpd|drm_key=a49085f8da5e65af1efff0edac830b1f:4659bc58a85c062e3fe0c039a446fe47"
       }
     },
     {
