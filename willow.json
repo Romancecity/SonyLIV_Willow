@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 132,
-  "live_count": 43,
-  "last_update": "05:05 PM 31-10-2026",
+  "live_count": 46,
+  "last_update": "05:19 PM 31-10-2026",
   "events": [
     {
       "match_id": "B0HKDPRJRS",
@@ -629,6 +629,51 @@
         "CRICFy LIVE": "https://ottnlive-fstream.nettvstreamz.com/live_hls/npl_match_3/index.m3u8",
         "STAR SPORTS HD": "https://baila-lentoo.pages.dev/all-sp/373201.m3u8",
         "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250361_english_hls_e960221e3d18899_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+      }
+    },
+    {
+      "match_id": "1-fc-kaiserslautern-vs-hertha-bsc",
+      "title": "1. FC Kaiserslautern vs Hertha BSC",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 31, 2026, 06:00:00 PM",
+      "time": "Oct 31, 2026, 06:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2675/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2675/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER": "http://193.47.62.44/hls/juuu.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "darmstadt-98-vs-1-fc-magdeburg",
+      "title": "Darmstadt 98 vs 1. FC Magdeburg",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 31, 2026, 06:00:00 PM",
+      "time": "Oct 31, 2026, 06:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2576/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2576/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER": "http://193.47.62.44/hls/crrraaaqqqq.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "vfl-wolfsburg-vs-vfl-osnabruck",
+      "title": "VfL Wolfsburg vs VfL Osnabruck",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 31, 2026, 06:00:00 PM",
+      "time": "Oct 31, 2026, 06:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2524/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2524/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER": "http://193.47.62.44/hls/juuua.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -1639,32 +1684,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "1-fc-kaiserslautern-vs-hertha-bsc",
-      "title": "1. FC Kaiserslautern vs Hertha BSC",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 31, 2026, 06:00:00 PM",
-      "time": "Oct 31, 2026, 06:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2675/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2675/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "darmstadt-98-vs-1-fc-magdeburg",
-      "title": "Darmstadt 98 vs 1. FC Magdeburg",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 31, 2026, 06:00:00 PM",
-      "time": "Oct 31, 2026, 06:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2576/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2576/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
       "match_id": "karlsruher-sc-vs-1-fc-heidenheim",
       "title": "Karlsruher SC vs 1. FC Heidenheim",
       "sport": "Football",
@@ -1674,19 +1693,6 @@
       "time": "Nov 01, 2026, 01:30:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/2553/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/2553/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "vfl-wolfsburg-vs-vfl-osnabruck",
-      "title": "VfL Wolfsburg vs VfL Osnabruck",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 31, 2026, 06:00:00 PM",
-      "time": "Oct 31, 2026, 06:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2524/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2524/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
