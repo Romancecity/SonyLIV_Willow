@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 133,
   "live_count": 24,
-  "last_update": "12:03 PM 31-10-2026",
+  "last_update": "12:04 PM 31-10-2026",
   "events": [
     {
       "match_id": "B0HLZ4VQPQ",
@@ -49,8 +49,8 @@
       "match_id": "B0HNNMHMKL",
       "title": "Hong Kong Sixes 2026 - Plate Semi Final 2- Hong Kong, China vs Pakistan",
       "synopsis": "Hong Kong Sixes 2026 - Plate Semi Final 2- Hong Kong, China vs Pakistan",
-      "status": "LIVE",
-      "time": "12:05 PM BDT",
+      "status": "UPCOMING",
+      "time": "Live at 12:05 PM BDT",
       "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.a35734b2-96cf-404b-ada4-c2105b79b166/4/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HNNMHMKL?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_3",
       "is_free": false,
@@ -591,6 +591,23 @@
       }
     },
     {
+      "match_id": "npl-nepal-premier-league",
+      "title": "NPL Nepal Premier League",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Oct 31, 2026, 12:45:53 PM",
+      "time": "Oct 31, 2026, 12:45:53 PM",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
+      "cover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://ottnlive-fstream.nettvstreamz.com/live_hls/npl_match_3/index.m3u8",
+        "STAR SPORTS HD": "https://baila-lentoo.pages.dev/all-sp/373201.m3u8",
+        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250360_english_hls_c17496c5a897481_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+      }
+    },
+    {
       "match_id": "hong-kong-sixes-2026",
       "title": "Hong Kong Sixes 2026",
       "sport": "Cricket",
@@ -657,11 +674,9 @@
         "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7v0gimhxxh/out/v1/efd1998387594d9ebd6051606f2a07a1/cenc.mpd|drm_key=3444af0dd264a1e280e7ac12410982e5:afa20d118776231ba80fc5c2b4370909",
         "SKY CRICKET - AQ": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
         "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/7v0gimhxxh/out/v1/efd1998387594d9ebd6051606f2a07a1/cenc.mpd|drm_key=3444af0dd264a1e280e7ac12410982e5:afa20d118776231ba80fc5c2b4370909",
-        "TAPMAD - AQ": "https://tencent-cdn.tapmad.com/v1/01a145b15ce115fc600b1e3e9683db/01a145b24db11ea557841e1612cf4c/main.m3u8",
         "EUROSPORTS - AQ": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd|drm_key=12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814",
         "FOX CRICKET HD": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
-        "CRICBUZZ HD": "https://baila-lentoo.pages.dev/all-sp/809382.m3u8",
-        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250387_english_hls_b7a3c2c35c92425_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250390_english_hls_032d3a160a8611_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
       }
     },
     {
@@ -833,23 +848,6 @@
         "PTV SPORTS HD": "https://live.msnetworks.net/ptv-sports/master.m3u8",
         "TAPMAD HD": "https://tencent-cdn.tapmad.com/v1/01a145b15ce115fc600b1e3e9683db/01a145b24db11ea557841e1612cf4c/main.m3u8|referer=https://tapmad.com/",
         "T SPORTS HD": "http://103.151.60.162:2122/play/a030/index.m3u8?hls"
-      }
-    },
-    {
-      "match_id": "npl-nepal-premier-league",
-      "title": "NPL Nepal Premier League",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 31, 2026, 12:45:53 PM",
-      "time": "Oct 31, 2026, 12:45:53 PM",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
-      "cover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://ottnlive-fstream.nettvstreamz.com/live_hls/npl_match_3/index.m3u8",
-        "STAR SPORTS HD": "https://baila-lentoo.pages.dev/all-sp/373201.m3u8",
-        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250360_english_hls_c17496c5a897481_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
       }
     },
     {
