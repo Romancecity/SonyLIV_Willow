@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 123,
-  "live_count": 39,
-  "last_update": "09:15 PM 31-10-2026",
+  "live_count": 42,
+  "last_update": "09:20 PM 31-10-2026",
   "events": [
     {
       "match_id": "B0HKDPRJRS",
@@ -676,6 +676,42 @@
       "stream_url": {}
     },
     {
+      "match_id": "pakistan-vs-sri-lanka",
+      "title": "Pakistan vs Sri Lanka",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Oct 31, 2026, 02:00:26 PM",
+      "time": "Oct 31, 2026, 02:00:26 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/187754/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/187754/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/kauhtkxesb/out/v1/b7ddf44fd9d847f892422ff925f1c04c/cenc.mpd|drm_key=a323fd2c6886dfea4831314fd63c4eb7:462c6dd2b56c26e958f5981fea25aef4",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/kauhtkxesb/out/v1/b7ddf44fd9d847f892422ff925f1c04c/cenc.mpd|drm_key=a323fd2c6886dfea4831314fd63c4eb7:462c6dd2b56c26e958f5981fea25aef4",
+        "TAPMAD - AQ ": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8|referer=https://tapmad.com/",
+        "PTV SPORTS HD": "https://live.msnetworks.net/ptv-sports/master.m3u8",
+        "CRICBUZZ HD": "https://baila-lentoo.pages.dev/all-sp/809382.m3u8"
+      }
+    },
+    {
+      "match_id": "fc-augsburg-vs-sc-freiburg",
+      "title": "FC Augsburg vs SC Freiburg",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 31, 2026, 08:30:00 PM",
+      "time": "Oct 31, 2026, 08:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2600/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2600/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "DAZN SPORTS HD": "https://chatgpt.hereisman.net/playlist/58913/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "CRICFy LIVE": "https://live.vivo155.com/live/hd-en-1-4566363.m3u8?txSecret=e091b1c3f3b5b4c3d9d21a18f4055e0e&txTime=6AE60E7C|Referer=https://player.on8on8.com/",
+        "LOW SERVER": "http://193.47.62.44/hls/kkkkAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "borussia-mgladbach-vs-sc-paderborn-07",
       "title": "Borussia Mgladbach vs SC Paderborn 07",
       "sport": "Football",
@@ -689,6 +725,57 @@
       "stream_url_alpha": {
         "CRICFy LIVE": "https://live.vivo155.com/live/hd-en-1-4566370.m3u8?txSecret=6a2261e635d03ca547abafbc517d917c&txTime=6AE60E64|Referer=https://player.on8on8.com/",
         "LOW SERVER": "http://193.47.62.44/hls/kkkkAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "fc-schalke-04-vs-rb-leipzig",
+      "title": "FC Schalke 04 vs RB Leipzig",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 31, 2026, 08:30:00 PM",
+      "time": "Oct 31, 2026, 08:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2530/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2530/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4",
+        "CRICFy LIVE ": "https://live.vivo155.com/live/hd-en-1-4566375.m3u8?txSecret=1404bb278a0c6d66e4cedf795d6bd35b&txTime=6AE60E05|Referer=https://player.on8on8.com/",
+        "LOW SERVER": "http://193.47.62.44/hls/kkkkAAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "sv-werder-bremen-vs-tsg-hoffenheim",
+      "title": "SV Werder Bremen vs TSG Hoffenheim",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 31, 2026, 08:30:00 PM",
+      "time": "Oct 31, 2026, 08:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2534/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2534/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "DAZN SPORTS HD": "https://chatgpt.hereisman.net/playlist/58914/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "CRICFy LIVE": "https://live.vivo155.com/live/hd-en-1-4566372.m3u8?txSecret=7ab408aded4ef4d9ebcc6135fec5c99f&txTime=6AE60E49|Referer=https://player.on8on8.com/",
+        "LOW SERVER": "http://193.47.62.44/hls/kkkkAAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "bournemouth-vs-leeds-united",
+      "title": "Bournemouth vs Leeds United",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 31, 2026, 09:00:00 PM",
+      "time": "Oct 31, 2026, 09:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/60/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/60/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PEACOCK TV HD": "https://chatgpt.hereisman.net/playlist/58915/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "CRICFy LIVE ": "https://live.vivo155.com/live/hd-en-1-4558652.m3u8?txSecret=8822e82ae63e539c587b0576961ad9a0&txTime=6AE614DB|Referer=https://player.on8on8.com/",
+        "LOW SERVER": "http://193.47.62.50/hls/A888.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -709,6 +796,58 @@
       }
     },
     {
+      "match_id": "coventry-city-vs-sunderland",
+      "title": "Coventry City vs Sunderland",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 31, 2026, 09:00:00 PM",
+      "time": "Oct 31, 2026, 09:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/11/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/11/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PEACOCK TV HD": "https://chatgpt.hereisman.net/playlist/58918/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "CRICFy LIVE ": "https://live.vivo155.com/live/hd-en-1-4558661.m3u8?txSecret=25958a1204d78fbc3d713cfe9dab029c&txTime=6AE6150D|Referer=https://player.on8on8.com/",
+        "LOW SERVER": "http://193.47.62.41/hls/A888aa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "hull-city-vs-ipswich-town",
+      "title": "Hull City vs Ipswich Town",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 31, 2026, 09:00:00 PM",
+      "time": "Oct 31, 2026, 09:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/96/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/96/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PEACOCK TV HD": "https://chatgpt.hereisman.net/playlist/58916/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "CRICFy LIVE ": "https://live.vivo155.com/live/hd-en-1-4558675.m3u8?txSecret=c5c71daeb86cace4cdb1bb931c5432db&txTime=6AE61522|Referer=https://player.on8on8.com/",
+        "LOW SERVER": "http://193.47.62.41/hls/A888aaa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "manchester-city-vs-brighton-hove-albion",
+      "title": "Manchester City vs Brighton Hove Albion",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 31, 2026, 09:00:00 PM",
+      "time": "Oct 31, 2026, 09:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/17/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/17/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1",
+        "PEACOCK TV HD": "https://chatgpt.hereisman.net/playlist/58917/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "CRICFy LIVE ": "https://live.vivo155.com/live/hd-en-1-4558684.m3u8?txSecret=0a4f679486ca6f2cf8782f6504a0e3c3&txTime=6AE61536|Referer=https://player.on8on8.com/",
+        "LOW SERVER": "http://193.47.62.55/hls/A888aaaa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "bologna-vs-monza",
       "title": "Bologna vs Monza",
       "sport": "Football",
@@ -721,22 +860,6 @@
       "is_free": false,
       "stream_url_alpha": {
         "LOW SERVER": "http://193.47.62.44/hls/QHHHQQQQAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
-      "match_id": "rayo-vallecano-vs-celta-vigo",
-      "title": "Rayo Vallecano vs Celta Vigo",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 31, 2026, 09:15:00 PM",
-      "time": "Oct 31, 2026, 09:15:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2818/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2818/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
-        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
       }
     },
     {
@@ -769,23 +892,6 @@
       "stream_url_alpha": {
         "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4563651.m3u8?txSecret=2115dfe1dfd28bce915d04fd61591d40&txTime=6AE61346|Referer=https://player.on8on8.com/",
         "LOW SERVER ": "http://193.47.62.41/hls/G888AAAAqq.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
-      "match_id": "millwall-vs-derby-county",
-      "title": "Millwall vs Derby County",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Oct 31, 2026, 09:00:00 PM",
-      "time": "Oct 31, 2026, 09:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/25/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/25/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-        "CRICFy LIVE ": "https://live.vivo155.com/live/sd-1-4563652.m3u8?txSecret=129bf9b7d7d648ebefaff9f3a1ba71f4&txTime=6AE6135D|Referer=https://player.on8on8.com/",
-        "LOW SERVER": "http://193.47.62.59/hls/GLLLAAQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -836,6 +942,23 @@
       }
     },
     {
+      "match_id": "feyenoord-vs-fortuna-sittard",
+      "title": "Feyenoord vs Fortuna Sittard",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 31, 2026, 09:30:00 PM",
+      "time": "Oct 31, 2026, 09:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2959/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2959/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+        "CRICFy LIVE ": "https://live.vivo155.com/live/sd-1-4552237.m3u8?txSecret=2dae1237a3a9f5280057cd922d6aec13&txTime=6AE61B8C|Referer=https://player.on8on8.com/",
+        "LOW SERVER ": "http://193.47.62.44/hls/EUUUAAAAAAAQQQAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "moreirense-vs-cf-estrela-amadora",
       "title": "Moreirense vs CF Estrela Amadora",
       "sport": "Football",
@@ -864,6 +987,21 @@
       "stream_url_alpha": {
         "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4567339.m3u8?txSecret=b1b9bc095439714f2f1dfbb250407c47&txTime=6AE61AB3|Referer=https://player.on8on8.com/",
         "LOW SERVER": "http://193.47.62.44/hls/EUUUAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "fenerbahce-vs-goztepe",
+      "title": "Fenerbahce vs Goztepe",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Oct 31, 2026, 10:00:00 PM",
+      "time": "Oct 31, 2026, 10:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/3052/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3052/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4581353.m3u8?txSecret=b10b2009824e88c2c57dba23281d4422&txTime=6AE61BCC|Referer=https://player.on8on8.com/"
       }
     },
     {
@@ -958,19 +1096,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "pakistan-vs-sri-lanka",
-      "title": "Pakistan vs Sri Lanka",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 31, 2026, 02:00:26 PM",
-      "time": "Oct 31, 2026, 02:00:26 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/187754/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/187754/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
       "match_id": "bangladesh-vs-west-indies",
       "title": "Bangladesh vs West Indies",
       "sport": "Cricket",
@@ -994,11 +1119,7 @@
       "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
       "cover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
       "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://ottnlive-fstream.nettvstreamz.com/live_hls/npl_match_3/index.m3u8",
-        "STAR SPORTS HD": "https://baila-lentoo.pages.dev/all-sp/373201.m3u8",
-        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250361_english_hls_e960221e3d18899_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
-      }
+      "stream_url_alpha": {}
     },
     {
       "match_id": "hong-kong-sixes-2026",
@@ -1010,19 +1131,6 @@
       "time": "Nov 01, 2026, 07:40:45 AM",
       "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s",
       "cover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "fc-augsburg-vs-sc-freiburg",
-      "title": "FC Augsburg vs SC Freiburg",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 31, 2026, 08:30:00 PM",
-      "time": "Oct 31, 2026, 08:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2600/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2600/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
@@ -1040,32 +1148,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "fc-schalke-04-vs-rb-leipzig",
-      "title": "FC Schalke 04 vs RB Leipzig",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 31, 2026, 08:30:00 PM",
-      "time": "Oct 31, 2026, 08:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2530/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2530/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "sv-werder-bremen-vs-tsg-hoffenheim",
-      "title": "SV Werder Bremen vs TSG Hoffenheim",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 31, 2026, 08:30:00 PM",
-      "time": "Oct 31, 2026, 08:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2534/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2534/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
       "match_id": "fc-bayern-munchen-vs-borussia-dortmund",
       "title": "FC Bayern Munchen vs Borussia Dortmund",
       "sport": "Football",
@@ -1075,62 +1157,6 @@
       "time": "Oct 31, 2026, 11:30:00 PM",
       "logo": "https://img.sofascore.com/api/v1/team/2672/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/2672/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-        "SporTV BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b",
-        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-      }
-    },
-    {
-      "match_id": "bournemouth-vs-leeds-united",
-      "title": "Bournemouth vs Leeds United",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 31, 2026, 09:00:00 PM",
-      "time": "Oct 31, 2026, 09:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/60/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/60/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "coventry-city-vs-sunderland",
-      "title": "Coventry City vs Sunderland",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 31, 2026, 09:00:00 PM",
-      "time": "Oct 31, 2026, 09:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/11/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/11/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "hull-city-vs-ipswich-town",
-      "title": "Hull City vs Ipswich Town",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 31, 2026, 09:00:00 PM",
-      "time": "Oct 31, 2026, 09:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/96/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/96/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "manchester-city-vs-brighton-hove-albion",
-      "title": "Manchester City vs Brighton Hove Albion",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 31, 2026, 09:00:00 PM",
-      "time": "Oct 31, 2026, 09:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/17/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/17/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
@@ -1199,6 +1225,19 @@
       }
     },
     {
+      "match_id": "rayo-vallecano-vs-celta-vigo",
+      "title": "Rayo Vallecano vs Celta Vigo",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 31, 2026, 09:15:00 PM",
+      "time": "Oct 31, 2026, 09:15:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2818/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2818/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
       "match_id": "real-betis-vs-malaga-cf",
       "title": "Real Betis vs Malaga CF",
       "sport": "Football",
@@ -1226,11 +1265,7 @@
       "logo": "https://img.sofascore.com/api/v1/team/2817/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/2817/image",
       "is_free": false,
-      "stream_url_alpha": {
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
-        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-      }
+      "stream_url_alpha": {}
     },
     {
       "match_id": "troyes-vs-le-mans",
@@ -1545,6 +1580,19 @@
       "stream_url_alpha": {}
     },
     {
+      "match_id": "millwall-vs-derby-county",
+      "title": "Millwall vs Derby County",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "UPCOMING",
+      "start_time_bst": "Oct 31, 2026, 09:00:00 PM",
+      "time": "Oct 31, 2026, 09:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/25/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/25/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
       "match_id": "karlsruher-sc-vs-1-fc-heidenheim",
       "title": "Karlsruher SC vs 1. FC Heidenheim",
       "sport": "Football",
@@ -1554,19 +1602,6 @@
       "time": "Nov 01, 2026, 01:30:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/2553/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/2553/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "feyenoord-vs-fortuna-sittard",
-      "title": "Feyenoord vs Fortuna Sittard",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 31, 2026, 09:30:00 PM",
-      "time": "Oct 31, 2026, 09:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2959/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2959/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
@@ -1607,9 +1642,7 @@
       "logo": "https://img.sofascore.com/api/v1/team/2953/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/2953/image",
       "is_free": false,
-      "stream_url_alpha": {
-        "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-      }
+      "stream_url_alpha": {}
     },
     {
       "match_id": "sc-cambuur-vs-go-ahead-eagles",
@@ -1664,21 +1697,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/2848/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "fenerbahce-vs-goztepe",
-      "title": "Fenerbahce vs Goztepe",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Oct 31, 2026, 10:00:00 PM",
-      "time": "Oct 31, 2026, 10:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/3052/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3052/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4581353.m3u8?txSecret=b10b2009824e88c2c57dba23281d4422&txTime=6AE61BCC|Referer=https://player.on8on8.com/"
-      }
     },
     {
       "match_id": "sydney-thunder-women-vs-brisbane-heat-women",
