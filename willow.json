@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 108,
-  "live_count": 21,
-  "last_update": "03:38 PM 01-11-2026",
+  "live_count": 23,
+  "last_update": "03:50 PM 01-11-2026",
   "events": [
     {
       "match_id": "B0HNWRBDCQ",
@@ -622,6 +622,21 @@
       }
     },
     {
+      "match_id": "amed-sportif-faaliyetler-vs-eyupspor",
+      "title": "Amed Sportif Faaliyetler vs Eyupspor",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 01, 2026, 04:30:00 PM",
+      "time": "Nov 01, 2026, 04:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/207011/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/207011/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://live2.jorvakstreamcache.com/live/channel17.m3u8?|Referer=https://xlz.domainkqt.cc/"
+      }
+    },
+    {
       "match_id": "formula-1",
       "title": "Formula 1",
       "sport": "Motorsport",
@@ -1096,7 +1111,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/2971/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/2971/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?|Referer=https://xlz.domainkqt.cc/"
+      }
     },
     {
       "match_id": "excelsior-vs-fc-twente",
@@ -1240,19 +1257,6 @@
       "time": "Nov 02, 2026, 02:00:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/2822/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/2822/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "amed-sportif-faaliyetler-vs-eyupspor",
-      "title": "Amed Sportif Faaliyetler vs Eyupspor",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 01, 2026, 04:30:00 PM",
-      "time": "Nov 01, 2026, 04:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/207011/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/207011/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
