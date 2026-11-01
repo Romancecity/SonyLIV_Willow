@@ -7,14 +7,14 @@
   "version": "1.0",
   "channels_amount": 88,
   "live_count": 29,
-  "last_update": "06:35 AM 01-11-2026",
+  "last_update": "07:00 AM 01-11-2026",
   "events": [
     {
       "match_id": "B0HPBMQSPR",
       "title": "Hong Kong Sixes 2026 - Bowl Play-off - Bangladesh vs India",
       "synopsis": "Hong Kong Sixes 2026 - Bowl Play-off - Bangladesh vs India",
       "status": "UPCOMING",
-      "time": "Live at 7:45 AM BDT",
+      "time": "Live at 7:15 AM BDT",
       "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.8d3092af-d45c-4071-ba1e-6d686fe74ff5/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HPBMQSPR?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_1",
       "is_free": false,
@@ -643,6 +643,24 @@
       }
     },
     {
+      "match_id": "hong-kong-sixes-2026",
+      "title": "Hong Kong Sixes 2026",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Nov 01, 2026, 07:40:45 AM",
+      "time": "Nov 01, 2026, 07:40:45 AM",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s",
+      "cover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s",
+      "is_free": false,
+      "stream_url_alpha": {
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd|drm_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
+        "TAPMAD - AQ": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8|referer=https://tapmad.com/",
+        "A SPORTS HD": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
+        "TAPMAD HD": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8|referer=https://tapmad.com/"
+      }
+    },
+    {
       "match_id": "aston-villa-vs-fulham",
       "title": "Aston Villa vs Fulham",
       "sport": "Football",
@@ -938,24 +956,6 @@
         "CRICFy LIVE": "https://ottnlive-fstream.nettvstreamz.com/live_hls/npl_match_3/index.m3u8",
         "STAR SPORTS HD": "https://baila-lentoo.pages.dev/all-sp/373201.m3u8",
         "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250361_english_hls_e960221e3d18899_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
-      }
-    },
-    {
-      "match_id": "hong-kong-sixes-2026",
-      "title": "Hong Kong Sixes 2026",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 01, 2026, 07:40:45 AM",
-      "time": "Nov 01, 2026, 07:40:45 AM",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s",
-      "cover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s",
-      "is_free": false,
-      "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd|drm_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
-        "TAPMAD - AQ": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8|referer=https://tapmad.com/",
-        "A SPORTS HD": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
-        "TAPMAD HD": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8|referer=https://tapmad.com/"
       }
     },
     {
