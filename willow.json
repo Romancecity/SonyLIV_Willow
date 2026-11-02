@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 84,
-  "live_count": 26,
-  "last_update": "10:38 PM 02-11-2026",
+  "live_count": 27,
+  "last_update": "10:53 PM 02-11-2026",
   "events": [
     {
       "match_id": "B0HLMSF6ZN",
@@ -478,6 +478,23 @@
       "stream_url": {}
     },
     {
+      "match_id": "sassuolo-vs-fiorentina",
+      "title": "Sassuolo vs Fiorentina",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 02, 2026, 11:30:00 PM",
+      "time": "Nov 02, 2026, 11:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2793/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2793/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd|drm_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
+        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
+        "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      }
+    },
+    {
       "match_id": "real-oviedo-vs-ud-las-palmas",
       "title": "Real Oviedo vs UD Las Palmas",
       "sport": "Football",
@@ -491,6 +508,37 @@
       "stream_url_alpha": {
         "LaLiga Hypermotion": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a",
         "LOW SERVER": "http://193.47.62.44/hls/YFFFAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "real-valladolid-vs-leganes",
+      "title": "Real Valladolid vs Leganes",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 02, 2026, 11:30:00 PM",
+      "time": "Nov 02, 2026, 11:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2831/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2831/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LaLiga Hypermotion": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+      }
+    },
+    {
+      "match_id": "genclerbirligi-vs-alanyaspor",
+      "title": "Genclerbirligi vs Alanyaspor",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 02, 2026, 11:00:00 PM",
+      "time": "Nov 02, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/7802/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/7802/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4581354.m3u8?txSecret=d6a24d858aa1c7f9a0990d22f5345b68&txTime=6AE8D4B2|Referer=https://player.on8on8.com/",
+        "LOW SERVER ": "http://193.47.62.44/hls/2JJJAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -766,23 +814,6 @@
       }
     },
     {
-      "match_id": "sassuolo-vs-fiorentina",
-      "title": "Sassuolo vs Fiorentina",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 02, 2026, 11:30:00 PM",
-      "time": "Nov 02, 2026, 11:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2793/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2793/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd|drm_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
-        "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      }
-    },
-    {
       "match_id": "atalanta-vs-parma",
       "title": "Atalanta vs Parma",
       "sport": "Football",
@@ -833,21 +864,6 @@
       }
     },
     {
-      "match_id": "real-valladolid-vs-leganes",
-      "title": "Real Valladolid vs Leganes",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 02, 2026, 11:30:00 PM",
-      "time": "Nov 02, 2026, 11:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2831/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2831/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "LaLiga Hypermotion": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      }
-    },
-    {
       "match_id": "mallorca-vs-cadiz",
       "title": "Mallorca vs Cadiz",
       "sport": "Football",
@@ -861,19 +877,6 @@
       "stream_url_alpha": {
         "LaLiga Hypermotion": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
       }
-    },
-    {
-      "match_id": "genclerbirligi-vs-alanyaspor",
-      "title": "Genclerbirligi vs Alanyaspor",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 02, 2026, 11:00:00 PM",
-      "time": "Nov 02, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/7802/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/7802/image",
-      "is_free": false,
-      "stream_url_alpha": {}
     },
     {
       "match_id": "red-bull-bragantino-vs-santos",
