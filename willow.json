@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 81,
   "live_count": 26,
-  "last_update": "04:08 AM 03-11-2026",
+  "last_update": "04:22 AM 03-11-2026",
   "events": [
     {
       "match_id": "B0HLMSF6ZN",
@@ -568,7 +568,9 @@
       "is_free": false,
       "stream_url_alpha": {
         "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1",
-        "SKY SPORTS - AQ": "https://live-cdn.ryazanslah3.space/hls/bein1.m3u8?|Referer=https://www.arena-koora.online/"
+        "SKY SPORTS - AQ": "https://live-cdn.ryazanslah3.space/hls/bein1.m3u8?|Referer=https://www.arena-koora.online/",
+        "USA NETWORK HD": "https://chatgpt.hereisman.net/playlist/59121/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "HD SERVER": "https://live.vivo155.com/live/hd-en-1-4558688.m3u8?txSecret=9a2698f76986dd544e4273b4d8b53938&txTime=6AE8FD60|Referer=https://player.on8on8.com/"
       }
     },
     {
@@ -616,6 +618,22 @@
       "stream_url_alpha": {
         "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4581354.m3u8?txSecret=d6a24d858aa1c7f9a0990d22f5345b68&txTime=6AE8D4B2|Referer=https://player.on8on8.com/",
         "LOW SERVER ": "http://193.47.62.44/hls/2JJJAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "red-bull-bragantino-vs-santos",
+      "title": "Red Bull Bragantino vs Santos",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 03, 2026, 05:00:00 AM",
+      "time": "Nov 03, 2026, 05:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/1999/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/1999/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
+        "SporTV BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
       }
     },
     {
@@ -868,22 +886,6 @@
       "stream_url_alpha": {
         "TSN SPORTS 1 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
         "TSN SPORTS 3 - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
-      }
-    },
-    {
-      "match_id": "red-bull-bragantino-vs-santos",
-      "title": "Red Bull Bragantino vs Santos",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 03, 2026, 05:00:00 AM",
-      "time": "Nov 03, 2026, 05:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/1999/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/1999/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
-        "SporTV BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
       }
     },
     {
