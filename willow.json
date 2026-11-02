@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 76,
   "live_count": 32,
-  "last_update": "06:38 AM 02-11-2026",
+  "last_update": "06:41 AM 02-11-2026",
   "events": [
     {
       "match_id": "B0HJ6P7GP3",
@@ -850,6 +850,22 @@
       }
     },
     {
+      "match_id": "washington-commanders-vs-philadelphia-eagles",
+      "title": "Washington Commanders vs Philadelphia Eagles",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 02, 2026, 07:20:00 AM",
+      "time": "Nov 02, 2026, 07:20:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/4432/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4432/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7",
+        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+      }
+    },
+    {
       "match_id": "orlando-magic-vs-boston-celtics",
       "title": "Orlando Magic vs Boston Celtics",
       "sport": "Basketball",
@@ -1068,22 +1084,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/39/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "washington-commanders-vs-philadelphia-eagles",
-      "title": "Washington Commanders vs Philadelphia Eagles",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 02, 2026, 07:20:00 AM",
-      "time": "Nov 02, 2026, 07:20:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/4432/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4432/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7",
-        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
-      }
     },
     {
       "match_id": "seattle-seahawks-vs-chicago-bears",
