@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 85,
-  "live_count": 23,
-  "last_update": "08:07 PM 02-11-2026",
+  "live_count": 24,
+  "last_update": "08:33 PM 02-11-2026",
   "events": [
     {
       "match_id": "B0HLMSF6ZN",
@@ -251,11 +251,11 @@
     },
     {
       "match_id": "B0HP8GGRWK",
-      "title": "Unknown Match",
-      "synopsis": "Unknown Match",
+      "title": "The Morning Drive",
+      "synopsis": "The Morning Drive",
       "status": "LIVE",
       "time": "LIVE NOW",
-      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.0acecee8-14a1-45bb-b78e-c83dd4167822/2/CAROUSEL-BACKGROUND-8X3/en-US/3840x1440._UR3840,1440_SX2160_FMjpg_.jpeg",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.0acecee8-14a1-45bb-b78e-c83dd4167822/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HP8GGRWK",
       "is_free": false,
       "stream_url": {
@@ -272,7 +272,7 @@
       "synopsis": "Tennis Today Live-Paris-ATP & Chennai-WTA Early Rounds",
       "status": "LIVE",
       "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.80d5455b-886e-4f95-9aa1-50a8784ccdc3/7/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.80d5455b-886e-4f95-9aa1-50a8784ccdc3/8/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HN4P31ZX",
       "is_free": false,
       "stream_url": {
@@ -497,6 +497,21 @@
       }
     },
     {
+      "match_id": "real-oviedo-vs-ud-las-palmas",
+      "title": "Real Oviedo vs UD Las Palmas",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 02, 2026, 09:15:00 PM",
+      "time": "Nov 02, 2026, 09:15:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2851/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2851/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LaLiga Hypermotion": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+      }
+    },
+    {
       "match_id": "pakhtakor-tashkent-vs-al-nassr",
       "title": "Pakhtakor Tashkent vs Al-Nassr",
       "sport": "Football",
@@ -508,6 +523,10 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/34310/image",
       "is_free": false,
       "stream_url_alpha": {
+        "beIN SPORTS - AQ": "https://live-cdn.ryazanslah3.space/hls/bein2.m3u8?|Referer=https://www.arena-koora.online/",
+        "CRICFy LIVE ": "https://live.uu1pp.com/sport/202_5704399_1.m3u8?txSecret=68657b00004c63725be5bf5c9156221c&txTime=6AE8DAC1",
+        "TAPMAD - AQ": "https://multiregion-asia-cdn.tapmad.com/v1/01a1548c4faf15fc600b1e3e968408/01a1548c7fde1ea557841e1612cf76/main.m3u8",
+        "CRICFy FAST": "https://live.vivo155.com/live/hd-en-1-4621440.m3u8?txSecret=ad78bb536e23461cba3cffb7faa5cc15&txTime=6AE8A562|Referer=https://player.on8on8.com/",
         "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?|Referer=https://xlz.domainkqt.cc/",
         "LOW SERVER": "http://193.47.62.44/hls/YFFFAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
@@ -777,21 +796,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/4430/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/4430/image",
       "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "real-oviedo-vs-ud-las-palmas",
-      "title": "Real Oviedo vs UD Las Palmas",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 02, 2026, 09:15:00 PM",
-      "time": "Nov 02, 2026, 09:15:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2851/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2851/image",
-      "is_free": false,
       "stream_url_alpha": {
-        "LaLiga Hypermotion": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+        "TSN SPORTS 1 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
+        "TSN SPORTS 3 - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
       }
     },
     {
