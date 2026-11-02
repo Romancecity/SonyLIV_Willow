@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 83,
   "live_count": 28,
-  "last_update": "01:09 AM 03-11-2026",
+  "last_update": "01:19 AM 03-11-2026",
   "events": [
     {
       "match_id": "B0HLMSF6ZN",
@@ -536,6 +536,24 @@
       }
     },
     {
+      "match_id": "deportivo-de-a-coruna-vs-osasuna",
+      "title": "Deportivo de A Coruna vs Osasuna",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 03, 2026, 02:00:00 AM",
+      "time": "Nov 03, 2026, 02:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2832/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2832/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
+        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=ac7abaa9c9481aacfbdac64fc3ec3312:c0c504a2ed2e70b879a650b8770a38c6"
+      }
+    },
+    {
       "match_id": "sassuolo-vs-fiorentina",
       "title": "Sassuolo vs Fiorentina",
       "sport": "Football",
@@ -572,6 +590,22 @@
       }
     },
     {
+      "match_id": "newcastle-united-vs-everton",
+      "title": "Newcastle United vs Everton",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 03, 2026, 02:00:00 AM",
+      "time": "Nov 03, 2026, 02:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/39/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/39/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1",
+        "SKY SPORTS - AQ": "https://live-cdn.ryazanslah3.space/hls/bein1.m3u8?|Referer=https://www.arena-koora.online/"
+      }
+    },
+    {
       "match_id": "real-valladolid-vs-leganes",
       "title": "Real Valladolid vs Leganes",
       "sport": "Football",
@@ -585,6 +619,21 @@
       "stream_url_alpha": {
         "LaLiga Hypermotion": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a",
         "LOW SERVER": "http://193.47.62.44/hls/YFFFAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "mallorca-vs-cadiz",
+      "title": "Mallorca vs Cadiz",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 03, 2026, 02:00:00 AM",
+      "time": "Nov 03, 2026, 02:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2826/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2826/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LaLiga Hypermotion": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
       }
     },
     {
@@ -824,40 +873,6 @@
       }
     },
     {
-      "match_id": "deportivo-de-a-coruna-vs-osasuna",
-      "title": "Deportivo de A Coruna vs Osasuna",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 03, 2026, 02:00:00 AM",
-      "time": "Nov 03, 2026, 02:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2832/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2832/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
-        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=ac7abaa9c9481aacfbdac64fc3ec3312:c0c504a2ed2e70b879a650b8770a38c6"
-      }
-    },
-    {
-      "match_id": "newcastle-united-vs-everton",
-      "title": "Newcastle United vs Everton",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 03, 2026, 02:00:00 AM",
-      "time": "Nov 03, 2026, 02:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/39/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/39/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1",
-        "SKY SPORTS - AQ": "https://live-cdn.ryazanslah3.space/hls/bein1.m3u8?|Referer=https://www.arena-koora.online/"
-      }
-    },
-    {
       "match_id": "seattle-seahawks-vs-chicago-bears",
       "title": "Seattle Seahawks vs Chicago Bears",
       "sport": "American football",
@@ -871,21 +886,6 @@
       "stream_url_alpha": {
         "TSN SPORTS 1 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
         "TSN SPORTS 3 - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
-      }
-    },
-    {
-      "match_id": "mallorca-vs-cadiz",
-      "title": "Mallorca vs Cadiz",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 03, 2026, 02:00:00 AM",
-      "time": "Nov 03, 2026, 02:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2826/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2826/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "LaLiga Hypermotion": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
       }
     },
     {
