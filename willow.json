@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 81,
   "live_count": 26,
-  "last_update": "06:07 AM 03-11-2026",
+  "last_update": "06:33 AM 03-11-2026",
   "events": [
     {
       "match_id": "B0HLMSF6ZN",
@@ -592,6 +592,22 @@
       }
     },
     {
+      "match_id": "seattle-seahawks-vs-chicago-bears",
+      "title": "Seattle Seahawks vs Chicago Bears",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 03, 2026, 07:15:00 AM",
+      "time": "Nov 03, 2026, 07:15:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/4430/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4430/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TSN SPORTS 1 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
+        "TSN SPORTS 3 - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
+      }
+    },
+    {
       "match_id": "real-valladolid-vs-leganes",
       "title": "Real Valladolid vs Leganes",
       "sport": "Football",
@@ -870,22 +886,6 @@
         "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
         "FANCODE - LQ": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/iwpchve3wl/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=286eb7dc538143790fa9913639531920:e3f5cb08d14d9e9c08438c673819540f",
         "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250365_english_hls_bb6466746876937_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
-      }
-    },
-    {
-      "match_id": "seattle-seahawks-vs-chicago-bears",
-      "title": "Seattle Seahawks vs Chicago Bears",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 03, 2026, 07:15:00 AM",
-      "time": "Nov 03, 2026, 07:15:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/4430/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4430/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "TSN SPORTS 1 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
-        "TSN SPORTS 3 - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
       }
     },
     {
