@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 91,
   "live_count": 12,
-  "last_update": "12:38 PM 03-11-2026",
+  "last_update": "01:04 PM 03-11-2026",
   "events": [
     {
       "match_id": "B0HLMSF6ZN",
@@ -474,7 +474,22 @@
       "stream_url_alpha": {
         "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
         "FANCODE - LQ": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/iwpchve3wl/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=286eb7dc538143790fa9913639531920:e3f5cb08d14d9e9c08438c673819540f",
-        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250365_english_hls_bb6466746876937_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250366_english_hls_88259a4e5e85082_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+      }
+    },
+    {
+      "match_id": "newcastle-jets-vs-shanghai-port",
+      "title": "Newcastle Jets vs Shanghai Port",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 03, 2026, 01:45:00 PM",
+      "time": "Nov 03, 2026, 01:45:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2934/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2934/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?|Referer=https://xlz.domainkqt.cc/"
       }
     },
     {
@@ -1022,21 +1037,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/6908/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "newcastle-jets-vs-shanghai-port",
-      "title": "Newcastle Jets vs Shanghai Port",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 03, 2026, 01:45:00 PM",
-      "time": "Nov 03, 2026, 01:45:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2934/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2934/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?|Referer=https://xlz.domainkqt.cc/"
-      }
     },
     {
       "match_id": "cd-anaitasuna-ft-vs-deportivo-alaves",
