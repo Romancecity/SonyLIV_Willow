@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 81,
-  "live_count": 23,
-  "last_update": "03:42 AM 04-11-2026",
+  "live_count": 31,
+  "last_update": "03:48 AM 04-11-2026",
   "events": [
     {
       "match_id": "B0HLMSF6ZN",
@@ -468,6 +468,44 @@
       "stream_url": {}
     },
     {
+      "match_id": "atletico-madrid-vs-fc-bayern-munchen",
+      "title": "Atletico Madrid vs FC Bayern Munchen",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 04, 2026, 02:00:00 AM",
+      "time": "Nov 04, 2026, 02:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2836/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2836/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PARAMOUNT+ - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vh0otvgsty/out/v1/bd515f9d353d436c8d9f7fad1a036eae/cenc.mpd|drm_key=81e0ae17a7166c881b38468bee4d210d:be2dd777d1aa42adc54d090fcf886b29",
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b",
+        "VIX SPANISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ttfe3fwpqd/out/v1/c8dfa6294cb34255a3a6ba81fbf286f7/cenc.mpd|drm_key=e267cd32e665cacc817fa5d316d195aa:0a193efcd601e233f8a46bae9240f2b7",
+        "SonyLiv ": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120302/footlive0311/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=e691109abceda12fc5bd2d4c5fd381eb-1793734204418",
+        "LOW SERVER ": "http://193.47.62.55/hls/HCCC.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "fc-barcelona-vs-aston-villa",
+      "title": "FC Barcelona vs Aston Villa",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 04, 2026, 02:00:00 AM",
+      "time": "Nov 04, 2026, 02:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2817/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2817/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PARAMOUNT+ - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/hfrpveg4ut/out/v1/898ffe1fc933458b940e736c42708232/cenc.mpd|drm_key=9257aba4a8155ec0566886d9d2173cbb:c1663d6dd5e13c6105f55986e1b82bb0",
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749",
+        "DAZN DE - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vfvwmn8lpn/out/v1/fa48945789f044c89d69a67a81acd513/cenc.mpd|drm_key=d5e2fec3b6ccef137970196c83892fcf:5db83e1690553fda8b857360ba7e4171",
+        "SonyLiv ": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120300/footlive0311/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=e691109abceda12fc5bd2d4c5fd381eb-1793734204418",
+        "LOW SERVER": "http://193.47.62.44/hls/HCCCa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "bodglimt-vs-lille",
       "title": "BodGlimt vs Lille",
       "sport": "Football",
@@ -484,6 +522,27 @@
         "DAZN DE - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/b722xitfbt/out/v1/64cda6be047340fc8eab0cfbd350848f/cenc.mpd|drm_key=4ab1edbb78f4867a4e68821974ddc07f:c581c41a8e61fd0bc9ec0d4c23cfea86",
         "SonyLiv": "https://sonymtmnew-akamaized.pages.dev/hls/live/2018457/footlive0311/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=e691109abceda12fc5bd2d4c5fd381eb-1793734204418",
         "LOW SERVER ": "http://193.47.62.55/hls/HCCCaa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "feyenoord-vs-inter",
+      "title": "Feyenoord vs Inter",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 04, 2026, 02:00:00 AM",
+      "time": "Nov 04, 2026, 02:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2959/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2959/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PARAMOUNT+ - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/odyam8seie/out/v1/a5f86f8dc35746c9a5d1b0128bb8196c/cenc.mpd|drm_key=fc651bf819bdc1df6aa7c249f1acfe66:06229427fb5ea8c1fcf8c8f878b2fc23",
+        "SonyLiv PRIME - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/zfm6q50wyx/out/v1/e80bb4a13dc24a8f985079c2cfa1e692/cenc.mpd|drm_key=768f15cdba33cfdf9aebb4f8225535e8:e17aad86724a7d43c8484da55ab0d90b",
+        "VIX SPANISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/yzurcf456k/out/v1/4df741b740c1401a93dd7f933bdde012/cenc.mpd|drm_key=c3c680a53aab9eec4b43db218a3713a6:1adcde85460fd0b23f1510ca56e1e58b",
+        "DAZN DE - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/td2vcx9ney/out/v1/7ce09a13e61a4e008492bb0545ba65fa/cenc.mpd|drm_key=8b199d76b52fbb59394d3e1f21f19b49:e5bde1d899ea6c48116aa39f3e50829d",
+        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
+        "SonyLiv ": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/footlive0311/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=e691109abceda12fc5bd2d4c5fd381eb-1793734204418",
+        "LOW SERVER": "http://193.47.62.55/hls/HCCCaaa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -553,6 +612,21 @@
       }
     },
     {
+      "match_id": "chapecoense-vs-mirassol",
+      "title": "Chapecoense vs Mirassol",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 04, 2026, 04:30:00 AM",
+      "time": "Nov 04, 2026, 04:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/21845/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/21845/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7"
+      }
+    },
+    {
       "match_id": "west-bromwich-albion-vs-southampton",
       "title": "West Bromwich Albion vs Southampton",
       "sport": "Football",
@@ -584,6 +658,21 @@
         "PARAMOUNT+ - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/b9caoephnn/out/v1/b53b2cf820b94e7fae6169ca06bb6fd6/cenc.mpd|drm_key=735ec2c484e8404f9bb1d162186f16a4:eb90599b0afc0766a9138c287e86c3a8",
         "CRICFy LIVE ": "https://live.vivo155.com/live/sd-1-4563660.m3u8?txSecret=b26ad7395654b81feb68089c4032a1a2&txTime=6AEA5764|Referer=https://player.on8on8.com/",
         "LOW SERVER": "http://193.47.62.41/hls/7UUUAAAAQQAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "watford-vs-lincoln-city",
+      "title": "Watford vs Lincoln City",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 04, 2026, 01:45:00 AM",
+      "time": "Nov 04, 2026, 01:45:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/24/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/24/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER": "http://193.47.62.41/hls/7UUUAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -712,7 +801,15 @@
       "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHudrhyphenhyphenOGNuEpCmd8k8vfTaJ7hTqEb6GemloDedieYFrvM5MJz639vioDvQnlHGBhvxsNBHSLg2ICSGot7LWGA2PDZqoc3W_A3Yu002I5JGUeQgTCG_UFhDRPSJr2E1blnBokZvTYkB6B2nJVeeUy6s28sW-XHRZzCW_J6SOGpaoXx0LB-CH-9iTf1ebc/s1600/1000009837.jpg",
       "cover_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHudrhyphenhyphenOGNuEpCmd8k8vfTaJ7hTqEb6GemloDedieYFrvM5MJz639vioDvQnlHGBhvxsNBHSLg2ICSGot7LWGA2PDZqoc3W_A3Yu002I5JGUeQgTCG_UFhDRPSJr2E1blnBokZvTYkB6B2nJVeeUy6s28sW-XHRZzCW_J6SOGpaoXx0LB-CH-9iTf1ebc/s1600/1000009837.jpg",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b",
+        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|drm_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
+        "SPOTV - AQ": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd|drm_key=7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed",
+        "MotoGP - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de",
+        "FANCODE - LQ": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/iwpchve3wl/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd|drm_key=286eb7dc538143790fa9913639531920:e3f5cb08d14d9e9c08438c673819540f",
+        "HD SERVER ": "https://edgestream2.pro/hls/oeenzgezcz47.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+        "LOW SERVER": "http://193.47.62.41/hls/duuuAAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      }
     },
     {
       "match_id": "smackdown",
@@ -786,7 +883,19 @@
       "logo": "https://img.sofascore.com/api/v1/team/187755/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/187755/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/pog3pkfhga/out/v1/20164001c7d9489f898d05761ad05077/cenc.mpd|drm_key=2765adbf6880195515fed136e5a989fa:f1356a68a923c31d7184dfa1b91c161f",
+        "PRIME ENG - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dr9bwy1yvt/out/v1/3cda3dc6a2c54efaa7b0a12598c7f332/cenc.mpd|drm_key=de23ce5421c57988c1ba1cd8a0d16551:fb50935ff66bcea5899f989c5bbfd270",
+        "PRIME HINDI - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mohqiz9gyv/out/v1/95de092d1d574891ba87cd37df9c3f2b/cenc.mpd|drm_key=4d4e8cc811e844075fa97ed19abb1abe:9bcb83c52597af936e9b3ff8a4dd27e4",
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/pog3pkfhga/out/v1/20164001c7d9489f898d05761ad05077/cenc.mpd|drm_key=2765adbf6880195515fed136e5a989fa:f1356a68a923c31d7184dfa1b91c161f",
+        "TAPMAD - AQ": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8",
+        "SonyLiv - English": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_0111/ENG/master.m3u8?hdnea=exp=1793557562~acl=/*~id=e33ead837184844847309b94deab02b2-1793514361774~hmac=d45844a2b7565db3dae802c87b7e920b2f95b54ef9a860aa3121ea8b3c03ac8b",
+        "SonyLiv - Hindi": "https://liveakmt-p-md.slivcdn.com/hls/live/2119921/cricodi_0111/HIN/master.m3u8?hdnea=exp=1793557562~acl=/*~id=e33ead837184844847309b94deab02b2-1793514361774~hmac=d45844a2b7565db3dae802c87b7e920b2f95b54ef9a860aa3121ea8b3c03ac8b",
+        "SonyLiv - TEL": "https://liveakmt-p-md.slivcdn.com/hls/live/2119941/cricodi_0111/TEL/master.m3u8?hdnea=exp=1793557562~acl=/*~id=e33ead837184844847309b94deab02b2-1793514361774~hmac=d45844a2b7565db3dae802c87b7e920b2f95b54ef9a860aa3121ea8b3c03ac8b",
+        "SonyLiv - TAM": "https://liveakmt-p-md.slivcdn.com/hls/live/2119951/cricodi_0111/TAM/master.m3u8?hdnea=exp=1793557562~acl=/*~id=e33ead837184844847309b94deab02b2-1793514361774~hmac=d45844a2b7565db3dae802c87b7e920b2f95b54ef9a860aa3121ea8b3c03ac8b",
+        "SonyLiv - KAN": "https://liveakmt-p-md.slivcdn.com/hls/live/2119782/cricodi_0111/KAN/master.m3u8?hdnea=exp=1793557562~acl=/*~id=e33ead837184844847309b94deab02b2-1793514361774~hmac=d45844a2b7565db3dae802c87b7e920b2f95b54ef9a860aa3121ea8b3c03ac8b"
+      }
     },
     {
       "match_id": "afghanistan-vs-zimbabwe",
@@ -837,46 +946,12 @@
       "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
       "cover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
       "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "atletico-madrid-vs-fc-bayern-munchen",
-      "title": "Atletico Madrid vs FC Bayern Munchen",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 04, 2026, 02:00:00 AM",
-      "time": "Nov 04, 2026, 02:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2836/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2836/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "fc-barcelona-vs-aston-villa",
-      "title": "FC Barcelona vs Aston Villa",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 04, 2026, 02:00:00 AM",
-      "time": "Nov 04, 2026, 02:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2817/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2817/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "feyenoord-vs-inter",
-      "title": "Feyenoord vs Inter",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 04, 2026, 02:00:00 AM",
-      "time": "Nov 04, 2026, 02:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2959/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2959/image",
-      "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
+        "FANCODE - LQ": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/iwpchve3wl/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=286eb7dc538143790fa9913639531920:e3f5cb08d14d9e9c08438c673819540f",
+        "LOW SERVER": "https://sp-original.pages.dev/liveop2.m3u8",
+        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250367_english_hls_7df9a62f5588246_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+      }
     },
     {
       "match_id": "aek-athens-vs-real-madrid",
@@ -1022,19 +1097,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "chapecoense-vs-mirassol",
-      "title": "Chapecoense vs Mirassol",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 04, 2026, 04:30:00 AM",
-      "time": "Nov 04, 2026, 04:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/21845/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/21845/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
       "match_id": "internacional-vs-coritiba",
       "title": "Internacional vs Coritiba",
       "sport": "Football",
@@ -1048,19 +1110,6 @@
       "stream_url_alpha": {
         "CRICFy LIVE": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|drm_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
       }
-    },
-    {
-      "match_id": "watford-vs-lincoln-city",
-      "title": "Watford vs Lincoln City",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 04, 2026, 01:45:00 AM",
-      "time": "Nov 04, 2026, 01:45:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/24/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/24/image",
-      "is_free": false,
-      "stream_url_alpha": {}
     },
     {
       "match_id": "pakistan-vs-india",
