@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 94,
-  "live_count": 24,
-  "last_update": "05:10 PM 04-11-2026",
+  "channels_amount": 96,
+  "live_count": 23,
+  "last_update": "05:15 PM 04-11-2026",
   "events": [
     {
       "match_id": "B0HMQLGGJ8",
@@ -456,27 +456,6 @@
       "match_url": "https://www.sonyliv.com/custom-live/1090552481",
       "is_free": false,
       "stream_url": {}
-    },
-    {
-      "match_id": "hobart-hurricanes-women-vs-melbourne-renegades-women",
-      "title": "Hobart Hurricanes Women vs Melbourne Renegades Women",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "LIVE",
-      "start_time_bst": "Nov 04, 2026, 02:10:00 PM",
-      "time": "Nov 04, 2026, 02:10:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/274885/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/274885/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/w6mcmg5vcu/out/v1/45db9febe2b64d59a5ecd2181616a9db/cenc.mpd|drm_key=c3bbeb16c18d825f04b51b17b67baf5a:f744722c08e3d13fecfa59de5436cce7",
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
-        "SKY CRICKET - AQ": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/w6mcmg5vcu/out/v1/45db9febe2b64d59a5ecd2181616a9db/cenc.mpd|drm_key=c3bbeb16c18d825f04b51b17b67baf5a:f744722c08e3d13fecfa59de5436cce7",
-        "EUROSPORTS - AQ": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd|drm_key=12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814",
-        "TAPMAD - AQ": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
-        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250395_english_hls_e4b3957daa9486_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
-      }
     },
     {
       "match_id": "fc-seoul-vs-the-cong-viettel",
@@ -1325,6 +1304,45 @@
       "stream_url_alpha": {
         "Live Channel": "ok"
       }
+    },
+    {
+      "match_id": "adelaide-strikers-women-vs-brisbane-heat-women",
+      "title": "Adelaide Strikers Women vs Brisbane Heat Women",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "UPCOMING",
+      "start_time_bst": "Nov 05, 2026, 10:40:00 AM",
+      "time": "Nov 05, 2026, 10:40:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/274888/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/274888/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "sydney-thunder-women-vs-perth-scorchers-women",
+      "title": "Sydney Thunder Women vs Perth Scorchers Women",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "UPCOMING",
+      "start_time_bst": "Nov 05, 2026, 02:10:00 PM",
+      "time": "Nov 05, 2026, 02:10:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/274889/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/274889/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "melbourne-stars-women-vs-sydney-sixers-women",
+      "title": "Melbourne Stars Women vs Sydney Sixers Women",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "UPCOMING",
+      "start_time_bst": "Nov 06, 2026, 02:10:00 PM",
+      "time": "Nov 06, 2026, 02:10:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/274886/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/274886/image",
+      "is_free": false,
+      "stream_url_alpha": {}
     }
   ]
 }
