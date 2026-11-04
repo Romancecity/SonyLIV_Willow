@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 98,
-  "live_count": 26,
-  "last_update": "10:43 PM 04-11-2026",
+  "channels_amount": 97,
+  "live_count": 30,
+  "last_update": "11:03 PM 04-11-2026",
   "events": [
     {
       "match_id": "B0HK3RP3SL",
@@ -307,6 +307,20 @@
       "drm_key": "b7bebaee3bacc37f18cbc0224b595c02:32e48253d959a5202a384f50198367a9"
     },
     {
+      "match_id": "B0H74V6GYL",
+      "title": "Nov 4 - PTT Chapel Hill Women",
+      "synopsis": "Nov 4 - PTT Chapel Hill Women",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.84430494-ce0f-4b91-96c6-526bf3425fef/7/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0H74V6GYL",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://live-pv-ta-enf.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWIimAWpwcmltZXZpZGVvBBpq_zKtBhpq62wtA2ZmYXN0bHkCeChmaWQ6MDFhMWE3OWUtOTAwMi03NWE5LTkyZWMtMWMzZmUzOWQxNzIwGQE4oQWhAngzL2s1czZ2MmdkZXovb3V0L3YxL2I0MzEwNTgyNTZmZTRiMjA4Yzg0MjQ2MWM0MzlkZTQ1WCAKCO9TmRpluVBnreFIgEsoTsFdT-KFRbWSyBBKseNfQQ/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/k5s6v2gdez/out/v1/b431058256fe4b208c842461c439de45/b628ebd4-7611-4682-92ec-7d6fc4514dc0-cenc.mpd"
+      },
+      "drm_key": "c7175307ee408b1035a7a8f896967dff:47c4f89341517ba9e2deadbcd611f429"
+    },
+    {
       "match_id": "B0HPL6YQSY",
       "title": "Houston Saints vs. Seattle Moose",
       "synopsis": "Houston Saints vs. Seattle Moose",
@@ -350,32 +364,6 @@
       "stream_url": {
         "Original Server": "https://dai.google.com/ssai/event/-6WecvqUSYCsXD1mmzm5hA/master.m3u8"
       }
-    },
-    {
-      "match_id": "1090551922",
-      "title": "Stade Rennais FC vs Olympiacos FC - 4 Nov 2026",
-      "synopsis": "Watch Stade Rennais FC vs Olympiacos FC as Rennes look to make home advantage count against a seasoned Olympiacos side in a crucial UEFA Europa League clash, LIVE only on Sony LIV.",
-      "status": "LIVE",
-      "time": "04 Nov 2026, 08:55 PM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027332/1792958081045483_UEL26_MD4_Stade_RennaisFC_vs_OlympiacosFC_landscape_thumb.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027332/1792958081045483_UEL26_MD4_Stade_RennaisFC_vs_OlympiacosFC_landscape_thumb.jpg",
-      "match_url": "https://dai.google.com/ssai/event/2gc_trPRQpSxZgf5I2noFQ/master.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://dai.google.com/ssai/event/2gc_trPRQpSxZgf5I2noFQ/master.m3u8"
-      }
-    },
-    {
-      "match_id": "1090552187",
-      "title": "Upcoming - Matchday 4 - UEFA Champions League 2026-27",
-      "synopsis": "Watch all the action from UEFA Champions League 2026-27, exclusively on Sony LIV.",
-      "status": "UPCOMING",
-      "time": "",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027592/1793176438292484_UCL_26_MD4_AEK_vs_Real-Madrid_Promo_Tonight_landscape_thumb.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027592/1793176438292484_UCL_26_MD4_AEK_vs_Real-Madrid_Promo_Tonight_landscape_thumb.jpg",
-      "match_url": "https://www.sonyliv.com/custom-live/1090552187",
-      "is_free": false,
-      "stream_url": {}
     },
     {
       "match_id": "1090552149",
@@ -522,6 +510,44 @@
       "stream_url": {}
     },
     {
+      "match_id": "aek-athens-vs-real-madrid",
+      "title": "AEK Athens vs Real Madrid",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 04, 2026, 11:45:00 PM",
+      "time": "Nov 04, 2026, 11:45:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/3250/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3250/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca",
+        "SonyLiv - ENG": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120305/Footlive0411/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=bc9979e108e3dced000de5864f70ecef-1793812202066",
+        "SonyLiv - HIN": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120306/Footlive0411/HIN/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=bc9979e108e3dced000de5864f70ecef-1793812202066",
+        "SonyLiv - TAM": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120302/Footlive0411/TAM/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=bc9979e108e3dced000de5864f70ecef-1793812202066",
+        "SonyLiv - TEL": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120300/Footlive0411/TEL/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=bc9979e108e3dced000de5864f70ecef-1793812202066",
+        "SonyLiv - KAN": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120307/Footlive0411/KAN/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=bc9979e108e3dced000de5864f70ecef-1793812202066",
+        "LOW SERVER": "http://193.47.62.55/hls/FAFAFA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "fenerbahce-vs-liverpool-fc",
+      "title": "Fenerbahce vs Liverpool FC",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 04, 2026, 11:45:00 PM",
+      "time": "Nov 04, 2026, 11:45:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/3052/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3052/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749",
+        "SonyLiv ": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/Footlive0411/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=bc9979e108e3dced000de5864f70ecef-1793812202066",
+        "LOW SERVER": "http://193.47.62.44/hls/FAFAFAa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "arkadag-fk-vs-gol-gohar-sirjan",
       "title": "Arkadag FK vs Gol Gohar Sirjan",
       "sport": "Football",
@@ -535,6 +561,54 @@
       "stream_url_alpha": {
         "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel18.m3u8?|Referer=https://xlz.domainkqt.cc/",
         "LOW SERVER ": "http://193.47.62.44/hls/HHHHAAQAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "al-rayyan-vs-al-nahda-sc",
+      "title": "Al-Rayyan vs Al Nahda SC",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 04, 2026, 10:00:00 PM",
+      "time": "Nov 04, 2026, 10:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/40660/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/40660/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "LOW SERVER ": "http://193.47.62.50/hls/zzzzAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "al-wahda-fc-vs-al-khaldiya",
+      "title": "Al-Wahda FC vs Al Khaldiya",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 04, 2026, 10:00:00 PM",
+      "time": "Nov 04, 2026, 10:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/264115/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/264115/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://live2.jorvakstreamcache.com/live/channel24.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "LOW SERVER": "http://193.47.62.50/hls/zzzzAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "al-kuwait-sc-vs-nasaf-qarshi",
+      "title": "Al Kuwait SC vs Nasaf Qarshi",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 04, 2026, 10:00:00 PM",
+      "time": "Nov 04, 2026, 10:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/32525/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/32525/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://live2.jorvakstreamcache.com/live/channel19.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "LOW SERVER ": "http://193.47.62.50/hls/zzzzAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -552,7 +626,7 @@
         "PARAMOUNT+ - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1uqnvcbphd/out/v1/410903aa7e1845c3b6e8f50b615d6861/cenc.mpd|drm_key=f04e6956155f0e9924d1380d022cb19d:d502ff24af315dc45a277934a3f0565e",
         "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b",
         "VIX SPANISH - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lky9xgjk0f/out/v1/b55e36403f7042409bb6f5fcfcc160c4/cenc.mpd|drm_key=ad0238e45df5a88bc7e6de413340a1e7:8c0206f9a768bd3ac6c6073c78947577",
-        "DAZN DE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ttguqv2dus/out/v1/10e708fa029549e8807c7a35f4740adf/cenc.mpd|drm_key=fa23a7c0d9c82f0c7b113506e202af8c:a883237ef30932b731f71aa59a0805c0",
+        "SKY MIX - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ttguqv2dus/out/v1/10e708fa029549e8807c7a35f4740adf/cenc.mpd|drm_key=fa23a7c0d9c82f0c7b113506e202af8c:a883237ef30932b731f71aa59a0805c0",
         "CRICFy LIVE ": "https://live.vivo155.com/live/hd-en-1-4630649.m3u8?txSecret=8bdfeb69ea7b46177f5652a32c3974f2&txTime=6AEB5EC0|Referer=https://player.on8on8.com/",
         "SonyLiv ": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120299/footlive0411/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=56d964f02e50629ed461028c23c6b9d7-1793806201103",
         "HD SERVER ": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?|Referer=https://xlz.domainkqt.cc/",
@@ -746,34 +820,6 @@
       }
     },
     {
-      "match_id": "aek-athens-vs-real-madrid",
-      "title": "AEK Athens vs Real Madrid",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 04, 2026, 11:45:00 PM",
-      "time": "Nov 04, 2026, 11:45:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/3250/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3250/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
-      }
-    },
-    {
-      "match_id": "fenerbahce-vs-liverpool-fc",
-      "title": "Fenerbahce vs Liverpool FC",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 04, 2026, 11:45:00 PM",
-      "time": "Nov 04, 2026, 11:45:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/3052/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3052/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
       "match_id": "borussia-dortmund-vs-real-betis",
       "title": "Borussia Dortmund vs Real Betis",
       "sport": "Football",
@@ -956,45 +1002,6 @@
       "time": "Nov 06, 2026, 11:00:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/213112/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/213112/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "al-rayyan-vs-al-nahda-sc",
-      "title": "Al-Rayyan vs Al Nahda SC",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 04, 2026, 10:00:00 PM",
-      "time": "Nov 04, 2026, 10:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/40660/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/40660/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "al-wahda-fc-vs-al-khaldiya",
-      "title": "Al-Wahda FC vs Al Khaldiya",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 04, 2026, 10:00:00 PM",
-      "time": "Nov 04, 2026, 10:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/264115/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/264115/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "al-kuwait-sc-vs-nasaf-qarshi",
-      "title": "Al Kuwait SC vs Nasaf Qarshi",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 04, 2026, 10:00:00 PM",
-      "time": "Nov 04, 2026, 10:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/32525/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/32525/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
