@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 81,
+  "channels_amount": 82,
   "live_count": 31,
-  "last_update": "05:48 AM 04-11-2026",
+  "last_update": "06:03 AM 04-11-2026",
   "events": [
     {
       "match_id": "B0HLMSF6ZN",
@@ -250,23 +250,6 @@
       "drm_key": ""
     },
     {
-      "match_id": "B0HKZ9RM9L",
-      "title": "PPA Tour: World Championships-World Championships, Round of 64",
-      "synopsis": "PPA Tour: World Championships-World Championships, Round of 64",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.5ce77a33-d5d0-4634-ad1e-1ea4efce0396/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HKZ9RM9L",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd"
-      },
-      "drm_key": "2be100252a42be3a17d29c93e28eaacc:07c5e72df3602e9652dd06d839776e72"
-    },
-    {
       "match_id": "B0HPNR8GCH",
       "title": "Louisiana at Loyola New Orleans",
       "synopsis": "Louisiana at Loyola New Orleans",
@@ -301,6 +284,23 @@
       "drm_key": "7b87c59bba50e62ca4fef8ba2f79b99a:417b7577df2477d1842a4bb9eee852bc"
     },
     {
+      "match_id": "B0HKZ9RM9L",
+      "title": "PPA Tour: World Championships-World Championships, Round of 64",
+      "synopsis": "PPA Tour: World Championships-World Championships, Round of 64",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.5ce77a33-d5d0-4634-ad1e-1ea4efce0396/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HKZ9RM9L",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd"
+      },
+      "drm_key": "2be100252a42be3a17d29c93e28eaacc:07c5e72df3602e9652dd06d839776e72"
+    },
+    {
       "match_id": "B0HPDSQZZH",
       "title": "Nov 3 - PTT Newport Beach",
       "synopsis": "Nov 3 - PTT Newport Beach",
@@ -313,6 +313,18 @@
         "Original Server": "https://a156live-pv-ta-enf-amazon.akamaized.net/$T$2D3RhEOhAQWhBFgkYWY3NDZlZjAtYzM0OC00MGM1LWFjN2UtYTVhZWIzNjhiNjA0WIimAWpwcmltZXZpZGVvBBpq_fZmBhpq6i_mA2Zha2FtYWkCeChmaWQ6MDFhMWEyY2ItMWFhZS03NDU3LWI3NzUtMWNmMDZlYzdjNDJlGQE4oQWhAngzL3NvZXRicjNldXUvb3V0L3YxL2JkMDAxNjVlZjhmNTQyZTBiYWNmMmNiNjM5MTQ5YmEzWCAxju0CXtVsjZ8DsULiCimRAG8AmUXQUS7s_16qPeMq3g/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/soetbr3euu/out/v1/bd00165ef8f542e0bacf2cb639149ba3/6a912181-1227-4ee0-8f8c-1984c72525d2-cenc.mpd"
       },
       "drm_key": "adb13288e9a9e53c26861546ce0300ed:2d28a97657e8ad9a37fd78df795d3e39"
+    },
+    {
+      "match_id": "1090552110",
+      "title": "1st ODI - 4 Nov 2026",
+      "synopsis": "After clinching the T20I series 3-2, India will look to carry their winning momentum into the ODI leg of the tour. Can the Black Caps make a strong comeback on home soil, or will the Men in Blue take an early lead in the series? Catch all the action from the 1st ODI of the India Tour of New Zealand 2026, LIVE, only on Sony LIV.",
+      "status": "UPCOMING",
+      "time": "04 Nov 2026, 06:30 AM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028131/1793689445603200_NZvsIND_1st_odi_landscape_thumb.jpg",
+      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028131/1793689445603200_NZvsIND_1st_odi_landscape_thumb.jpg",
+      "match_url": "https://www.sonyliv.com/custom-live/1090552110",
+      "is_free": false,
+      "stream_url": {}
     },
     {
       "match_id": "1090551225",
