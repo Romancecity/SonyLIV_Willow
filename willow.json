@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 121,
   "live_count": 32,
-  "last_update": "05:07 AM 05-11-2026",
+  "last_update": "05:16 AM 05-11-2026",
   "events": [
     {
       "match_id": "B0HN5CJD7P",
@@ -731,6 +731,36 @@
       }
     },
     {
+      "match_id": "washington-wizards-vs-atlanta-hawks",
+      "title": "Washington Wizards vs Atlanta Hawks",
+      "sport": "Basketball",
+      "sub_category": "Basketball",
+      "status": "LIVE",
+      "start_time_bst": "Nov 05, 2026, 06:00:00 AM",
+      "time": "Nov 05, 2026, 06:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3431/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3431/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
+      }
+    },
+    {
+      "match_id": "detroit-pistons-vs-philadelphia-76ers",
+      "title": "Detroit Pistons vs Philadelphia 76ers",
+      "sport": "Basketball",
+      "sub_category": "Basketball",
+      "status": "LIVE",
+      "start_time_bst": "Nov 05, 2026, 06:00:00 AM",
+      "time": "Nov 05, 2026, 06:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3424/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3424/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
+      }
+    },
+    {
       "match_id": "formula-1",
       "title": "Formula 1",
       "sport": "Motorsport",
@@ -1049,36 +1079,6 @@
       "stream_url_alpha": {
         "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
         "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94"
-      }
-    },
-    {
-      "match_id": "washington-wizards-vs-atlanta-hawks",
-      "title": "Washington Wizards vs Atlanta Hawks",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 05, 2026, 06:00:00 AM",
-      "time": "Nov 05, 2026, 06:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3431/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3431/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
-      }
-    },
-    {
-      "match_id": "detroit-pistons-vs-philadelphia-76ers",
-      "title": "Detroit Pistons vs Philadelphia 76ers",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 05, 2026, 06:00:00 AM",
-      "time": "Nov 05, 2026, 06:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3424/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3424/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
       }
     },
     {
