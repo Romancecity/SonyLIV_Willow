@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 120,
-  "live_count": 39,
-  "last_update": "07:06 AM 05-11-2026",
+  "live_count": 40,
+  "last_update": "07:21 AM 05-11-2026",
   "events": [
     {
       "match_id": "B0HLT5L53C",
@@ -894,6 +894,38 @@
       }
     },
     {
+      "match_id": "denver-nuggets-vs-toronto-raptors",
+      "title": "Denver Nuggets vs Toronto Raptors",
+      "sport": "Basketball",
+      "sub_category": "Basketball",
+      "status": "LIVE",
+      "start_time_bst": "Nov 05, 2026, 08:00:00 AM",
+      "time": "Nov 05, 2026, 08:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3417/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3417/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TSN SPORTS 4 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7",
+        "TSN SPORTS 5 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8",
+        "CRICFy LIVE ": "https://chatgpt.hereisman.net/playlist/59284/load-playlist-multi?|Referer=https://gooz.aapmains.net"
+      }
+    },
+    {
+      "match_id": "phoenix-suns-vs-portland-trail-blazers",
+      "title": "Phoenix Suns vs Portland Trail Blazers",
+      "sport": "Basketball",
+      "sub_category": "Basketball",
+      "status": "LIVE",
+      "start_time_bst": "Nov 05, 2026, 08:00:00 AM",
+      "time": "Nov 05, 2026, 08:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3416/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3416/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/59285/load-playlist-multi?|Referer=https://gooz.aapmains.net"
+      }
+    },
+    {
       "match_id": "formula-1",
       "title": "Formula 1",
       "sport": "Motorsport",
@@ -1184,22 +1216,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "denver-nuggets-vs-toronto-raptors",
-      "title": "Denver Nuggets vs Toronto Raptors",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 05, 2026, 08:00:00 AM",
-      "time": "Nov 05, 2026, 08:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3417/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3417/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "TSN SPORTS 4 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7",
-        "TSN SPORTS 5 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
-      }
-    },
-    {
       "match_id": "san-antonio-spurs-vs-dallas-mavericks",
       "title": "San Antonio Spurs vs Dallas Mavericks",
       "sport": "Basketball",
@@ -1209,19 +1225,6 @@
       "time": "Nov 05, 2026, 08:30:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/3429/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/3429/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "phoenix-suns-vs-portland-trail-blazers",
-      "title": "Phoenix Suns vs Portland Trail Blazers",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 05, 2026, 08:00:00 AM",
-      "time": "Nov 05, 2026, 08:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3416/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3416/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
