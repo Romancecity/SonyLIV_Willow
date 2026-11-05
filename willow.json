@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 122,
-  "live_count": 42,
-  "last_update": "07:37 AM 05-11-2026",
+  "live_count": 43,
+  "last_update": "07:48 AM 05-11-2026",
   "events": [
     {
       "match_id": "B0HLT5L53C",
@@ -945,6 +945,22 @@
       }
     },
     {
+      "match_id": "san-antonio-spurs-vs-dallas-mavericks",
+      "title": "San Antonio Spurs vs Dallas Mavericks",
+      "sport": "Basketball",
+      "sub_category": "Basketball",
+      "status": "LIVE",
+      "start_time_bst": "Nov 05, 2026, 08:30:00 AM",
+      "time": "Nov 05, 2026, 08:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3429/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3429/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/59287/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "HD SERVER ": "https://chatgpt.hereisman.net/playlist/59292/load-playlist-multi?|Referer=https://gooz.aapmains.net"
+      }
+    },
+    {
       "match_id": "phoenix-suns-vs-portland-trail-blazers",
       "title": "Phoenix Suns vs Portland Trail Blazers",
       "sport": "Basketball",
@@ -956,7 +972,8 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/3416/image",
       "is_free": false,
       "stream_url_alpha": {
-        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/59285/load-playlist-multi?|Referer=https://gooz.aapmains.net"
+        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/59285/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "HD SERVER ": "https://chatgpt.hereisman.net/playlist/59289/load-playlist-multi?|Referer=https://gooz.aapmains.net"
       }
     },
     {
@@ -1246,19 +1263,6 @@
       "time": "Nov 05, 2026, 04:30:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/5981/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/5981/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "san-antonio-spurs-vs-dallas-mavericks",
-      "title": "San Antonio Spurs vs Dallas Mavericks",
-      "sport": "Basketball",
-      "sub_category": "Basketball",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 05, 2026, 08:30:00 AM",
-      "time": "Nov 05, 2026, 08:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3429/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3429/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
