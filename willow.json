@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 112,
-  "live_count": 28,
-  "last_update": "09:58 AM 05-11-2026",
+  "channels_amount": 113,
+  "live_count": 32,
+  "last_update": "10:06 AM 05-11-2026",
   "events": [
     {
       "match_id": "B0HLT5L53C",
@@ -38,13 +38,37 @@
       "match_id": "B0HMVMSCJM",
       "title": "Womens Big Bash League 2026 - 10th Match - Adelaide Strikers Women vs Brisbane Heat Women",
       "synopsis": "Womens Big Bash League 2026 - 10th Match - Adelaide Strikers Women vs Brisbane Heat Women",
-      "status": "UPCOMING",
-      "time": "Live at 10:10 AM BDT",
+      "status": "LIVE",
+      "time": "10:10 AM BDT",
       "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.268ba0ac-7730-4981-a5de-e0f1aa9aeef3/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HMVMSCJM?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_2",
       "is_free": false,
-      "stream_url_alpha": "",
-      "drm_key": ""
+      "stream_url_alpha": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vs0vobhvhe/out/v1/0704db5bfdf34b50bd44a02bda1984e7/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vs0vobhvhe/out/v1/0704db5bfdf34b50bd44a02bda1984e7/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/vs0vobhvhe/out/v1/0704db5bfdf34b50bd44a02bda1984e7/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vs0vobhvhe/out/v1/0704db5bfdf34b50bd44a02bda1984e7/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vs0vobhvhe/out/v1/0704db5bfdf34b50bd44a02bda1984e7/cenc.mpd"
+      },
+      "drm_key": "755296074254464e7c3aaee0f9189f0a:ed96b2f0b70c789daa69b64c1195ff3a"
+    },
+    {
+      "match_id": "B0HPY7NLSV",
+      "title": "ACC Mens U19 Asia Cup 2026 - 2nd Match - Bangladesh U19 vs Afghanistan U19",
+      "synopsis": "ACC Mens U19 Asia Cup 2026 - 2nd Match - Bangladesh U19 vs Afghanistan U19",
+      "status": "LIVE",
+      "time": "10:30 AM BDT",
+      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.f27ac6f0-36de-4625-b95b-8d7a73a1a7bf/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HPY7NLSV?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_3",
+      "is_free": false,
+      "stream_url_alpha": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0hfpjswn2b/out/v1/893e32416c4e4032af5750d252ece667/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0hfpjswn2b/out/v1/893e32416c4e4032af5750d252ece667/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/0hfpjswn2b/out/v1/893e32416c4e4032af5750d252ece667/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0hfpjswn2b/out/v1/893e32416c4e4032af5750d252ece667/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0hfpjswn2b/out/v1/893e32416c4e4032af5750d252ece667/cenc.mpd"
+      },
+      "drm_key": "a16f4890e1a9a95d009f657f9d6837bb:e6e66c827c8a8c7d212db25ee49652e2"
     },
     {
       "match_id": "B0HMNN211T",
@@ -53,19 +77,7 @@
       "status": "UPCOMING",
       "time": "Live at 11 AM BDT",
       "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.7cdc79e9-37f7-4576-abb3-baad628b810c/3/BOXART-16X9/en-US._UR1920,1080_.jpeg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HMNN211T?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_3",
-      "is_free": false,
-      "stream_url_alpha": "",
-      "drm_key": ""
-    },
-    {
-      "match_id": "B0HPY7NLSV",
-      "title": "ACC Mens U19 Asia Cup 2026 - 2nd Match - Bangladesh U19 vs Afghanistan U19",
-      "synopsis": "ACC Mens U19 Asia Cup 2026 - 2nd Match - Bangladesh U19 vs Afghanistan U19",
-      "status": "UPCOMING",
-      "time": "Live at 11 AM BDT",
-      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.f27ac6f0-36de-4625-b95b-8d7a73a1a7bf/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HPY7NLSV?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_4",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HMNN211T?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_4",
       "is_free": false,
       "stream_url_alpha": "",
       "drm_key": ""
@@ -342,6 +354,34 @@
       "drm_key": "c7175307ee408b1035a7a8f896967dff:47c4f89341517ba9e2deadbcd611f429"
     },
     {
+      "match_id": "1090552565",
+      "title": "Bangladesh vs Afghanistan - 5 Nov 2026",
+      "synopsis": "Bangladesh take on Afghanistan in the ACC Men's U19 Asia Cup 2026 as both sides look to strengthen their position in the tournament and battle for crucial points. Catch all the action LIVE, only on Sony LIV.",
+      "status": "LIVE",
+      "time": "05 Nov 2026, 10:30 AM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028246/179378391827167_ACC_MensU19_Bangladesh_vs_Afghanistan_live_landscape_thumb.jpg",
+      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028246/179378391827167_ACC_MensU19_Bangladesh_vs_Afghanistan_live_landscape_thumb.jpg",
+      "match_url": "https://dai.google.com/ssai/event/hjQCi_olTlOECIhRdlIpvA/master.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://dai.google.com/ssai/event/hjQCi_olTlOECIhRdlIpvA/master.m3u8"
+      }
+    },
+    {
+      "match_id": "1090552560",
+      "title": "Sri Lanka vs Malaysia - 5 Nov 2026",
+      "synopsis": "Sri Lanka take on Malaysia in the ACC Men's U19 Asia Cup 2026 as both sides look to make their mark in the tournament. Watch all the action LIVE, only on Sony LIV.",
+      "status": "LIVE",
+      "time": "05 Nov 2026, 10:30 AM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028170/1793739045231457_ACC_MensU19_SL_vs_Malaysia_live_landscape_thumb.jpg",
+      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028170/1793739045231457_ACC_MensU19_SL_vs_Malaysia_live_landscape_thumb.jpg",
+      "match_url": "https://dai.google.com/ssai/event/289XpT05TqS1xkA1I_kwvg/master.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://dai.google.com/ssai/event/289XpT05TqS1xkA1I_kwvg/master.m3u8"
+      }
+    },
+    {
       "match_id": "1090552650",
       "title": "Upcoming - ACC Men's Asia Cup Rising Stars 2026",
       "synopsis": "Watch all the action from the ACC Men's Asia Cup Rising Stars 2026, exclusively on Sony LIV.",
@@ -378,18 +418,6 @@
       "stream_url": {}
     },
     {
-      "match_id": "1090550846",
-      "title": "Upcoming - ACC Men's U19 Asia Cup 2026",
-      "synopsis": "Tune in to catch all the action from ACC Men's U19 Asia Cup 2026, only on Sony LIV.",
-      "status": "UPCOMING",
-      "time": "",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028228/1793772272611876_Asia_Cup_U19_Bangladesh-vs-Afghanistan_Promo_Today_landscape_thumb.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028228/1793772272611876_Asia_Cup_U19_Bangladesh-vs-Afghanistan_Promo_Today_landscape_thumb.jpg",
-      "match_url": "https://www.sonyliv.com/custom-live/1090550846",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
       "match_id": "1090551225",
       "title": "Upcoming - India Tour Of New Zealand 2026",
       "synopsis": "Tune in to catch all the action from India Tour of New Zealand 2026, only on Sony LIV.",
@@ -419,8 +447,8 @@
       "synopsis": "Watch all the action from MG Indian Super League 2026-27, exclusively on Sony LIV.",
       "status": "UPCOMING",
       "time": "",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027573/1793126835273973_ISL_Mohun_Bagan_SG_vs_Odisha_FC_promo_landscape_thumb_dated.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027573/1793126835273973_ISL_Mohun_Bagan_SG_vs_Odisha_FC_promo_landscape_thumb_dated.jpg",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027573/1793126841250973_ISL_Mohun_Bagan_SG_vs_Odisha_FC_promo_landscape_thumb_tonight.jpg",
+      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027573/1793126841250973_ISL_Mohun_Bagan_SG_vs_Odisha_FC_promo_landscape_thumb_tonight.jpg",
       "match_url": "https://www.sonyliv.com/custom-live/1090547508",
       "is_free": false,
       "stream_url": {}
