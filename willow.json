@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 90,
   "live_count": 28,
-  "last_update": "09:07 PM 05-11-2026",
+  "last_update": "09:52 PM 05-11-2026",
   "events": [
     {
       "match_id": "B0HP3SQFKP",
@@ -494,25 +494,6 @@
       "match_url": "https://www.sonyliv.com/custom-live/1090552481",
       "is_free": false,
       "stream_url": {}
-    },
-    {
-      "match_id": "bhutan-vs-bangladesh",
-      "title": "Bhutan vs Bangladesh",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Nov 05, 2026, 08:00:00 PM",
-      "time": "Nov 05, 2026, 08:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/191564/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/191564/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "MyCO TV - AQ": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8|referer=https://myco.io/",
-        "T SPORTS HD": "https://playztv-apps.pages.dev/ptv-sports/index.m3u8",
-        "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?|Referer=https://xlz.domainkqt.cc/",
-        "BACKUP HD": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1793890435-0-0-cfa8e67b7f53e252d7d0f5887fccec2a",
-        "LOW SERVER": "http://193.47.62.55/hls/RHHHAAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
     },
     {
       "match_id": "arkadag-fk-vs-gol-gohar-sirjan",
@@ -1284,6 +1265,22 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/1954/image",
       "is_free": false,
       "stream_url_alpha": {}
+    },
+    {
+      "match_id": "baltimore-ravens-vs-jacksonville-jaguars",
+      "title": "Baltimore Ravens vs Jacksonville Jaguars",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "UPCOMING",
+      "start_time_bst": "Nov 06, 2026, 07:15:00 AM",
+      "time": "Nov 06, 2026, 07:15:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/4413/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4413/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TSN SPORTS 1 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
+        "TSN SPORTS 3 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
+      }
     }
   ]
 }
