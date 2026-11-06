@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 78,
-  "live_count": 31,
-  "last_update": "12:49 AM 07-11-2026",
+  "channels_amount": 79,
+  "live_count": 34,
+  "last_update": "01:05 AM 07-11-2026",
   "events": [
     {
       "match_id": "B0HJNHCVTZ",
@@ -263,23 +263,6 @@
       "drm_key": ""
     },
     {
-      "match_id": "B0HM7N447W",
-      "title": "Bassmaster Redfish Cup at Port Aransas",
-      "synopsis": "Bassmaster Redfish Cup at Port Aransas",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.e7dfd46d-5b94-4fa8-91f0-0bf32de6a7da/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HM7N447W",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qy6usrjqzw/out/v1/48d0ffdc0c354fc8bf9b565c245d0f07/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qy6usrjqzw/out/v1/48d0ffdc0c354fc8bf9b565c245d0f07/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qy6usrjqzw/out/v1/48d0ffdc0c354fc8bf9b565c245d0f07/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qy6usrjqzw/out/v1/48d0ffdc0c354fc8bf9b565c245d0f07/cenc.mpd"
-      },
-      "drm_key": "ad6e7091d1d36a16d5475bdb2d900888:8c67e6b1e4bcf1ee1f12167526ef2503"
-    },
-    {
       "match_id": "B0HLWVLCWK",
       "title": "São Paulo: Practice 2",
       "synopsis": "São Paulo: Practice 2",
@@ -309,6 +292,23 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/znpxp4vhyl/out/v1/2a14edb0fa434870a70679d37f5f013c/cenc.mpd"
       },
       "drm_key": "0bd0136d2728be3d6506cfe054a3fd59:27ae4995704be63440c0dcb001b2abbd"
+    },
+    {
+      "match_id": "B0HM7N447W",
+      "title": "Bassmaster Redfish Cup at Port Aransas",
+      "synopsis": "Bassmaster Redfish Cup at Port Aransas",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.e7dfd46d-5b94-4fa8-91f0-0bf32de6a7da/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HM7N447W",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qy6usrjqzw/out/v1/48d0ffdc0c354fc8bf9b565c245d0f07/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qy6usrjqzw/out/v1/48d0ffdc0c354fc8bf9b565c245d0f07/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qy6usrjqzw/out/v1/48d0ffdc0c354fc8bf9b565c245d0f07/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qy6usrjqzw/out/v1/48d0ffdc0c354fc8bf9b565c245d0f07/cenc.mpd"
+      },
+      "drm_key": "ad6e7091d1d36a16d5475bdb2d900888:8c67e6b1e4bcf1ee1f12167526ef2503"
     },
     {
       "match_id": "B0HPZTVMX5",
@@ -342,18 +342,35 @@
       "drm_key": "04228a047c40211cbb8eaa448fdd2235:514c64182ba780fe160b2b05c8939eb5"
     },
     {
-      "match_id": "B0HLT48ZQZ",
-      "title": "Nov 6 - PTT Newport Beach",
-      "synopsis": "Nov 6 - PTT Newport Beach",
+      "match_id": "B0HPBC6PC2",
+      "title": "Qatar Airways Grand Prix of Qatar, Practice",
+      "synopsis": "Qatar Airways Grand Prix of Qatar, Practice",
       "status": "LIVE",
       "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.81986ec2-9ba8-42b6-83f6-1745cf380557/5/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HLT48ZQZ",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.8306268e-5a1b-4752-b5a3-c9e1324b2a52/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HPBC6PC2",
       "is_free": false,
       "stream_url": {
-        "Original Server": "https://ABIAVJXAAAAAAAAMPYIZMXUIQBMVF.ta-enf.bia-cf.live.pv-cdn.net/$T$2D3RhEOhAQWhBFgkYzQ1OWU1YmItZDgxMS00NGM2LTgwYzQtNTNkZDc3NTIwODk5WIymAWpwcmltZXZpZGVvBBprAerJBhpq7iRJA2pjbG91ZGZyb250AngoZmlkOjAxYTFiMjNkLWJlOWYtNzc2My1iY2EzLWY3MDVkOWIxMzkyMBkBOKEFoQJ4My9sYmR1b3VpN3c5L291dC92MS9kMzI4Y2FhY2U2NWE0NWIzYTBmNzM5MTBhMGU2OTQyZVggc4ZrfCi8xfHZHDTp5VyhzDZmg22njEQKxnWQuokXQP0/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/lbduoui7w9/out/v1/d328caace65a45b3a0f73910a0e6942e/869027b5-2f68-4825-9562-0ba1be283873-cenc.mpd"
+        "Original Server": "https://live-emt-pv-ta-enf.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWIimAWpwcmltZXZpZGVvBBprAat9Bhpq7eT9A2ZmYXN0bHkCeChmaWQ6MDFhMWIxNDYtN2U2Ny03MjUyLThiYWMtOTY3ZWU3M2U2Y2I1GQE4oQWhAngzLzFoYzVmd2I3bTAvb3V0L3YxLzgxOTdjOGUwNTVjOTRhODY4NjIzNjUzYWM1NWMxMGJmWCC-VzOdoth90YkgIYFjMqiQLp4_a9XiXNH5kiVRNlzMnA/CMH/c1018b7fd2574de2b5dbed71665bc922/v1/dash/590183725645/imdb_amagi_amzn1_dv_live_csid_5357cf2a-51c8-4fa5-b996-cd307e0b7edc_us-east-1_cmh_dash_h264/startover/clients/dash/manipulated-manifest-iad-prod/enc/1hc5fwb7m0/out/v1/8197c8e055c94a868623653ac55c10bf/e9123379-6f1a-4449-9df4-67639f535460-cenc.mpd?aws.sessionId=362f921c-fee0-4960-9353-976871f2ec9d"
       },
-      "drm_key": "4fe8a1f2cc169106d9c478773fe6e0ea:d3f19b6fe15dfd44e8aaa7fc2f0b83c4"
+      "drm_key": "e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de"
+    },
+    {
+      "match_id": "B0HPK37GXZ",
+      "title": "Washington Eagles vs. N.Y. X-Factor",
+      "synopsis": "Washington Eagles vs. N.Y. X-Factor",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.9ce5028f-682b-4abd-9950-c263465f1e16/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HPK37GXZ",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd"
+      },
+      "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
     },
     {
       "match_id": "B0HJNHCVTZ",
@@ -373,20 +390,6 @@
       "drm_key": "ecd93646972644952e232bd0b5f9a0e7:4cf7783909baf9e3925052fd060187ee"
     },
     {
-      "match_id": "B0HPBC6PC2",
-      "title": "Qatar Airways Grand Prix of Qatar, Practice",
-      "synopsis": "Qatar Airways Grand Prix of Qatar, Practice",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.8306268e-5a1b-4752-b5a3-c9e1324b2a52/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HPBC6PC2",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://live-emt-pv-ta-enf.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWIimAWpwcmltZXZpZGVvBBprAat9Bhpq7eT9A2ZmYXN0bHkCeChmaWQ6MDFhMWIxNDYtN2U2Ny03MjUyLThiYWMtOTY3ZWU3M2U2Y2I1GQE4oQWhAngzLzFoYzVmd2I3bTAvb3V0L3YxLzgxOTdjOGUwNTVjOTRhODY4NjIzNjUzYWM1NWMxMGJmWCC-VzOdoth90YkgIYFjMqiQLp4_a9XiXNH5kiVRNlzMnA/CMH/c1018b7fd2574de2b5dbed71665bc922/v1/dash/590183725645/imdb_amagi_amzn1_dv_live_csid_5357cf2a-51c8-4fa5-b996-cd307e0b7edc_us-east-1_cmh_dash_h264/startover/clients/dash/manipulated-manifest-iad-prod/enc/1hc5fwb7m0/out/v1/8197c8e055c94a868623653ac55c10bf/e9123379-6f1a-4449-9df4-67639f535460-cenc.mpd?aws.sessionId=362f921c-fee0-4960-9353-976871f2ec9d"
-      },
-      "drm_key": "e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de"
-    },
-    {
       "match_id": "B0HL88KF9W",
       "title": "Nov 6 - PTT Fayetteville",
       "synopsis": "Nov 6 - PTT Fayetteville",
@@ -399,6 +402,20 @@
         "Original Server": "https://ABKZOG4AAAAAAAAMPX5AVRYA6SYYN.ta-enf.bia-cf.live.pv-cdn.net/$T$2D3RhEOhAQWhBFgkYzQ1OWU1YmItZDgxMS00NGM2LTgwYzQtNTNkZDc3NTIwODk5WIymAWpwcmltZXZpZGVvBBprAcCZBhpq7foZA2pjbG91ZGZyb250AngoZmlkOjAxYTFiMTk4LWYyMjEtNzdmMC04NTU1LTJjYTlhY2JjNDk1NBkBOKEFoQJ4My8xaXVkbmZsbHZ2L291dC92MS8wM2ViNzFhMDU4YzU0YmU5YTgwYWEyZTYwNjRmNWRhOVggM1z-jca2eT1LnuKUfKh-ca4nYa4vJPNZ271IYfXlIcg/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/1iudnfllvv/out/v1/03eb71a058c54be9a80aa2e6064f5da9/3916460f-0cbb-4cbe-b196-cb75e0173e56-cenc.mpd"
       },
       "drm_key": "e339c2572b5d93bb2658b47892499424:5f1ecbb03dadbc606e83869a4a8724c3"
+    },
+    {
+      "match_id": "B0HLT48ZQZ",
+      "title": "Nov 6 - PTT Newport Beach",
+      "synopsis": "Nov 6 - PTT Newport Beach",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.81986ec2-9ba8-42b6-83f6-1745cf380557/5/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HLT48ZQZ",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://ABIAVJXAAAAAAAAMPYIZMXUIQBMVF.ta-enf.bia-cf.live.pv-cdn.net/$T$2D3RhEOhAQWhBFgkYzQ1OWU1YmItZDgxMS00NGM2LTgwYzQtNTNkZDc3NTIwODk5WIymAWpwcmltZXZpZGVvBBprAerJBhpq7iRJA2pjbG91ZGZyb250AngoZmlkOjAxYTFiMjNkLWJlOWYtNzc2My1iY2EzLWY3MDVkOWIxMzkyMBkBOKEFoQJ4My9sYmR1b3VpN3c5L291dC92MS9kMzI4Y2FhY2U2NWE0NWIzYTBmNzM5MTBhMGU2OTQyZVggc4ZrfCi8xfHZHDTp5VyhzDZmg22njEQKxnWQuokXQP0/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/lbduoui7w9/out/v1/d328caace65a45b3a0f73910a0e6942e/869027b5-2f68-4825-9562-0ba1be283873-cenc.mpd"
+      },
+      "drm_key": "4fe8a1f2cc169106d9c478773fe6e0ea:d3f19b6fe15dfd44e8aaa7fc2f0b83c4"
     },
     {
       "match_id": "B0HN71KQM8",
@@ -621,6 +638,69 @@
       }
     },
     {
+      "match_id": "hamburger-sv-vs-borussia-mgladbach",
+      "title": "Hamburger SV vs Borussia Mgladbach",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 07, 2026, 01:30:00 AM",
+      "time": "Nov 07, 2026, 01:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2676/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2676/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "SKY TOP EVENT - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901",
+        "CRICFy LIVE ": "https://live.vivo155.com/live/hd-en-1-4566395.m3u8?txSecret=1127228d9fa6ff3fd378e6caea98d960&txTime=6AEE3F78|Referer=https://player.on8on8.com/"
+      }
+    },
+    {
+      "match_id": "oxford-city-vs-leicester-city",
+      "title": "Oxford City vs Leicester City",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 07, 2026, 01:45:00 AM",
+      "time": "Nov 07, 2026, 01:45:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/25939/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/25939/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+      }
+    },
+    {
+      "match_id": "venezia-vs-udinese",
+      "title": "Venezia vs Udinese",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 07, 2026, 01:45:00 AM",
+      "time": "Nov 07, 2026, 01:45:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2688/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2688/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
+        "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      }
+    },
+    {
+      "match_id": "toulouse-vs-rc-strasbourg",
+      "title": "Toulouse vs RC Strasbourg",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 07, 2026, 01:45:00 AM",
+      "time": "Nov 07, 2026, 01:45:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/1681/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/1681/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "beIN ENGLISH - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c",
+        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+      }
+    },
+    {
       "match_id": "willem-ii-tilburg-vs-pec-zwolle",
       "title": "Willem II Tilburg vs PEC Zwolle",
       "sport": "Football",
@@ -633,6 +713,21 @@
       "is_free": false,
       "stream_url_alpha": {
         "LOW SERVER ": "http://193.47.62.50/hls/LSSSAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "cd-castellon-vs-eibar",
+      "title": "CD Castellon vs Eibar",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 07, 2026, 01:30:00 AM",
+      "time": "Nov 07, 2026, 01:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/5067/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/5067/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LaLiga Hypermotion ": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
       }
     },
     {
@@ -817,34 +912,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "hamburger-sv-vs-borussia-mgladbach",
-      "title": "Hamburger SV vs Borussia Mgladbach",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 07, 2026, 01:30:00 AM",
-      "time": "Nov 07, 2026, 01:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2676/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2676/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "oxford-city-vs-leicester-city",
-      "title": "Oxford City vs Leicester City",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 07, 2026, 01:45:00 AM",
-      "time": "Nov 07, 2026, 01:45:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/25939/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/25939/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      }
-    },
-    {
       "match_id": "bristol-rovers-vs-cambridge-united",
       "title": "Bristol Rovers vs Cambridge United",
       "sport": "Football",
@@ -874,22 +941,6 @@
       }
     },
     {
-      "match_id": "venezia-vs-udinese",
-      "title": "Venezia vs Udinese",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 07, 2026, 01:45:00 AM",
-      "time": "Nov 07, 2026, 01:45:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2688/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2688/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-        "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      }
-    },
-    {
       "match_id": "sevilla-vs-deportivo-alaves",
       "title": "Sevilla vs Deportivo Alaves",
       "sport": "Football",
@@ -903,22 +954,6 @@
       "stream_url_alpha": {
         "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
         "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
-        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-      }
-    },
-    {
-      "match_id": "toulouse-vs-rc-strasbourg",
-      "title": "Toulouse vs RC Strasbourg",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 07, 2026, 01:45:00 AM",
-      "time": "Nov 07, 2026, 01:45:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/1681/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/1681/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "beIN ENGLISH - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c",
         "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
       }
     },
@@ -947,19 +982,6 @@
       "time": "Nov 07, 2026, 02:45:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/49531/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/49531/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "cd-castellon-vs-eibar",
-      "title": "CD Castellon vs Eibar",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 07, 2026, 01:30:00 AM",
-      "time": "Nov 07, 2026, 01:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/5067/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/5067/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
