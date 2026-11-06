@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 66,
-  "live_count": 20,
-  "last_update": "10:36 AM 06-11-2026",
+  "channels_amount": 65,
+  "live_count": 21,
+  "last_update": "11:03 AM 06-11-2026",
   "events": [
     {
       "match_id": "B0HQ7LCC1V",
@@ -56,13 +56,26 @@
       "match_id": "B0HMNN211T",
       "title": "Afghanistan vs Zimbabwe in UAE 2026 - 1st Test - Afghanistan vs Zimbabwe",
       "synopsis": "Afghanistan vs Zimbabwe in UAE 2026 - 1st Test - Afghanistan vs Zimbabwe",
-      "status": "UPCOMING",
-      "time": "Live at 11:30 AM BDT",
+      "status": "LIVE",
+      "time": "11:30 AM BDT",
       "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.7cdc79e9-37f7-4576-abb3-baad628b810c/6/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HMNN211T?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_3",
       "is_free": false,
-      "stream_url_alpha": "",
-      "drm_key": ""
+      "stream_url_alpha": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1vinczlx3q/out/v1/a69e7ace1a7649418dbd689bf6eba8d7/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1vinczlx3q/out/v1/a69e7ace1a7649418dbd689bf6eba8d7/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/1vinczlx3q/out/v1/a69e7ace1a7649418dbd689bf6eba8d7/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/1vinczlx3q/out/v1/a69e7ace1a7649418dbd689bf6eba8d7/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/1vinczlx3q/out/v1/a69e7ace1a7649418dbd689bf6eba8d7/cenc.mpd"
+      },
+      "stream_url_bravo": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/luldqqjdgc/out/v1/819f4b259e5248c089feb5934af92890/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/luldqqjdgc/out/v1/819f4b259e5248c089feb5934af92890/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/luldqqjdgc/out/v1/819f4b259e5248c089feb5934af92890/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/luldqqjdgc/out/v1/819f4b259e5248c089feb5934af92890/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/luldqqjdgc/out/v1/819f4b259e5248c089feb5934af92890/cenc.mpd"
+      },
+      "drm_key": "cf6092dc6444b182d9ef6fde4152ff7d:2a868d1944e597930dde32f183a0c6bf"
     },
     {
       "match_id": "B0HNFKC2SX",
@@ -269,6 +282,23 @@
       "drm_key": ""
     },
     {
+      "match_id": "B0HPH18ZL4",
+      "title": "Pakistan U19 vs. United Arab Emirates U19",
+      "synopsis": "Pakistan U19 vs. United Arab Emirates U19",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.6f5cd8a4-60e7-4380-b5e9-6bc3214b8f2d/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HPH18ZL4",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd"
+      },
+      "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+    },
+    {
       "match_id": "B0HQ6L4784",
       "title": "ACC Mens U19 Asia Cup 2026 - 4th Match - India U19 vs Nepal U19",
       "synopsis": "ACC Mens U19 Asia Cup 2026 - 4th Match - India U19 vs Nepal U19",
@@ -303,6 +333,23 @@
       "drm_key": "1dcfabc6b441908d78cc7106e30e906f:8e086929f79491b9a2076d0d04eb7317"
     },
     {
+      "match_id": "B0HMNN211T",
+      "title": "Afghanistan vs Zimbabwe in UAE 2026 - 1st Test - Afghanistan vs Zimbabwe",
+      "synopsis": "Afghanistan vs Zimbabwe in UAE 2026 - 1st Test - Afghanistan vs Zimbabwe",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.7cdc79e9-37f7-4576-abb3-baad628b810c/6/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/s-z/willowtv/logos/channels-logo-white-stacked.png%7C0,0,1920,1080+0,0,1920,1080+1724,885,117,117_kvebed36e78eaa0330f200bb6045a52aca_SX624_FMjpg_.jpeg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HMNN211T",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1vinczlx3q/out/v1/a69e7ace1a7649418dbd689bf6eba8d7/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1vinczlx3q/out/v1/a69e7ace1a7649418dbd689bf6eba8d7/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/1vinczlx3q/out/v1/a69e7ace1a7649418dbd689bf6eba8d7/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/1vinczlx3q/out/v1/a69e7ace1a7649418dbd689bf6eba8d7/cenc.mpd"
+      },
+      "drm_key": "cf6092dc6444b182d9ef6fde4152ff7d:2a868d1944e597930dde32f183a0c6bf"
+    },
+    {
       "match_id": "B0HN7SJD9H",
       "title": "Nov 5 - PTT Newport Beach",
       "synopsis": "Nov 5 - PTT Newport Beach",
@@ -317,48 +364,29 @@
       "drm_key": "71bc0af664b56064ba64da99048fd7b2:b24b1fc9f34ea20b24f6457696fb4124"
     },
     {
-      "match_id": "B0HPH18ZL4",
-      "title": "Pakistan U19 vs. United Arab Emirates U19",
-      "synopsis": "Pakistan U19 vs. United Arab Emirates U19",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.6f5cd8a4-60e7-4380-b5e9-6bc3214b8f2d/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HPH18ZL4",
+      "match_id": "1090552761",
+      "title": "India vs Nepal - 6 Nov 2026",
+      "synopsis": "India take on Nepal in the ACC Men's U19 Asia Cup 2026 as they look to continue their strong run and begin their campaign on a winning note. Nepal will aim to put up a strong challenge and make their mark in the tournament. Watch all the action LIVE, only on Sony LIV.",
+      "status": "UPCOMING",
+      "time": "06 Nov 2026, 10:30 AM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028334/179382987686754_ACC_MensU19_India_vs_Nepal_live_landscape_thumb.jpg",
+      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028334/179382987686754_ACC_MensU19_India_vs_Nepal_live_landscape_thumb.jpg",
+      "match_url": "https://www.sonyliv.com/custom-live/1090552761",
       "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd"
-      },
-      "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+      "stream_url": {}
     },
     {
-      "match_id": "1090552565",
-      "title": "Bangladesh vs Afghanistan - 5 Nov 2026",
-      "synopsis": "Bangladesh take on Afghanistan in the ACC Men's U19 Asia Cup 2026 as both sides look to strengthen their position in the tournament and battle for crucial points. Catch all the action LIVE, only on Sony LIV.",
+      "match_id": "1090552759",
+      "title": "Pakistan vs UAE - 6 Nov 2026",
+      "synopsis": "Pakistan face UAE in the ACC Men's U19 Asia Cup 2026, with both teams eager to gain an advantage and strengthen their position in the tournament. Catch all the action LIVE, only on Sony LIV.",
       "status": "LIVE",
-      "time": "05 Nov 2026, 10:30 AM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028246/179378391827167_ACC_MensU19_Bangladesh_vs_Afghanistan_live_landscape_thumb.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028246/179378391827167_ACC_MensU19_Bangladesh_vs_Afghanistan_live_landscape_thumb.jpg",
-      "match_url": "https://dai.google.com/ssai/event/hjQCi_olTlOECIhRdlIpvA/master.m3u8",
+      "time": "06 Nov 2026, 10:30 AM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028380/179387004341970_ACC_MensU19_Pakistan_vs_UAE_live_landscape_thumb.jpg",
+      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028380/179387004341970_ACC_MensU19_Pakistan_vs_UAE_live_landscape_thumb.jpg",
+      "match_url": "https://dai.google.com/ssai/event/noB3YwyRQVm5K-y_47MrBA/master.m3u8",
       "is_free": false,
       "stream_url": {
-        "Original Server": "https://dai.google.com/ssai/event/hjQCi_olTlOECIhRdlIpvA/master.m3u8"
-      }
-    },
-    {
-      "match_id": "1090552580",
-      "title": "Abu Dhabi HSBC Championship - Day 1 - 5 Nov 2026",
-      "synopsis": "Watch all the action from DP World Abu Dhabi HSBC Championship, LIVE on Sony LIV.",
-      "status": "LIVE",
-      "time": "05 Nov 2026, 12:30 PM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027303/1792888667543682_DP_World_Tour_Abu_Dhabi_HSBC_Championship_day1_landscape_thumb.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027303/1792888667543682_DP_World_Tour_Abu_Dhabi_HSBC_Championship_day1_landscape_thumb.jpg",
-      "match_url": "https://dai.google.com/ssai/event/r9AuvWOlQiutSds4aHM1uA/master.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://dai.google.com/ssai/event/r9AuvWOlQiutSds4aHM1uA/master.m3u8"
+        "Original Server": "https://dai.google.com/ssai/event/noB3YwyRQVm5K-y_47MrBA/master.m3u8"
       }
     },
     {
@@ -370,18 +398,6 @@
       "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028318/1793812415099811_ACC_U19_promo_landscape_thumb.jpg",
       "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028318/1793812415099811_ACC_U19_promo_landscape_thumb.jpg",
       "match_url": "https://www.sonyliv.com/custom-live/1090552650",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
-      "match_id": "1090552149",
-      "title": "Upcoming - Matchday 4 - UEFA Europa League 2026-27",
-      "synopsis": "Watch all the action from the UEFA Europa League 2026/27 live, only on Sony LIV.",
-      "status": "UPCOMING",
-      "time": "",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028297/1793796343913833_UEL25_26_AC-Milan-vs-Ferencvarosi-TC_promo_Tonight_landscape_thumb.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028297/1793796343913833_UEL25_26_AC-Milan-vs-Ferencvarosi-TC_promo_Tonight_landscape_thumb.jpg",
-      "match_url": "https://www.sonyliv.com/custom-live/1090552149",
       "is_free": false,
       "stream_url": {}
     },
@@ -410,25 +426,13 @@
       "stream_url": {}
     },
     {
-      "match_id": "1090552324",
-      "title": "Upcoming - India vs Nepal - ACC Men's U19 Asia Cup 2026",
-      "synopsis": "Watch all the action from the ACC Men's U19 Asia Cup 2026, exclusively on Sony LIV.",
-      "status": "UPCOMING",
-      "time": "",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028228/1793773960156876_Asia_Cup_U19_IND-vs-NEP_Promo_DDT_landscape_thumb.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028228/1793773960156876_Asia_Cup_U19_IND-vs-NEP_Promo_DDT_landscape_thumb.jpg",
-      "match_url": "https://www.sonyliv.com/custom-live/1090552324",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
       "match_id": "1090547508",
       "title": "Upcoming - MG Indian Super League 2026-27",
       "synopsis": "Watch all the action from MG Indian Super League 2026-27, exclusively on Sony LIV.",
       "status": "UPCOMING",
       "time": "",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027573/1793126841250973_ISL_Mohun_Bagan_SG_vs_Odisha_FC_promo_landscape_thumb_tonight.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027573/1793126841250973_ISL_Mohun_Bagan_SG_vs_Odisha_FC_promo_landscape_thumb_tonight.jpg",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028378/1793866215012860_ISL26_FC-GOA-vs-Bengaluru-FC_promo_Tonight_landscape_thumb.jpg",
+      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028378/1793866215012860_ISL26_FC-GOA-vs-Bengaluru-FC_promo_Tonight_landscape_thumb.jpg",
       "match_url": "https://www.sonyliv.com/custom-live/1090547508",
       "is_free": false,
       "stream_url": {}
