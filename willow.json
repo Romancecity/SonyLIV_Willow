@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 108,
   "live_count": 56,
-  "last_update": "06:06 PM 07-11-2026",
+  "last_update": "06:20 PM 07-11-2026",
   "events": [
     {
       "match_id": "B0HMJFFMFG",
@@ -713,11 +713,28 @@
       "is_free": false,
       "stream_url_alpha": {
         "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749",
-        "SKY SPORT PL - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f",
         "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1",
-        "NBC SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=36a385124dcdfb2f0969935065e03afa:ccecd65514dff22eae493b975ccf9a9e",
+        "SKY SPORT DE - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f",
         "SKY SPORTS EPL": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=Dxx13S3dlOjavbRFqRtQ6g&e=2075285630&scheme=|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0",
         "LOW SERVER ": "http://193.47.62.59/hls/R999.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "malaga-cf-vs-real-racing-club",
+      "title": "Malaga CF vs Real Racing Club",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 07, 2026, 07:00:00 PM",
+      "time": "Nov 07, 2026, 07:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2830/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2830/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|drm_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd|drm_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
+        "D SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3",
+        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
       }
     },
     {
@@ -732,6 +749,7 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/2573/image",
       "is_free": false,
       "stream_url_alpha": {
+        "SKY SPORT DE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/uvs2xhdiej/out/v1/433bf6d117f7498bbec46459d95e4856/cenc.mpd|drm_key=eb5d2d0b9a495fd6d6e3564017b4114c:e6c14d3d9c6b4f3933991cb90324f1da",
         "CRICFy LIVE ": "https://live.vivo155.com/live/sd-1-4566636.m3u8?txSecret=ba400a0475606e3b22886d85198e515b&txTime=6AEF2728|Referer=https://player.on8on8.com/",
         "HD SERVER ": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?|Referer=https://xlz.domainkqt.cc/",
         "LOW SERVER ": "http://193.47.62.44/hls/E333.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
@@ -767,9 +785,25 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/2581/image",
       "is_free": false,
       "stream_url_alpha": {
+        "SKY SPORT DE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ubiowncrej/out/v1/def874d66d3b4dfa99c354ee7d0855c0/cenc.mpd|drm_key=f38ce843871b3e5aa97b8461a093a424:b51d62eeec9c136513c12ea7ec291f6f",
         "CRICFy LIVE ": "https://live.vivo155.com/live/sd-1-4566610.m3u8?txSecret=9aff3c0f4976de22c7b4f894f9b120eb&txTime=6AEF2739|Referer=https://player.on8on8.com/",
         "HD SERVER ": "https://live2.jorvakstreamcache.com/live/channel12.m3u8?|Referer=https://xlz.domainkqt.cc/",
         "LOW SERVER ": "http://193.47.62.44/hls/E333AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "burgos-club-de-futbol-vs-celta-fortuna",
+      "title": "Burgos Club de Futbol vs Celta Fortuna",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 07, 2026, 07:00:00 PM",
+      "time": "Nov 07, 2026, 07:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2854/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2854/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LaLiga Hypermotion ": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
       }
     },
     {
@@ -800,6 +834,7 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/58/image",
       "is_free": false,
       "stream_url_alpha": {
+        "PARAMOUNT+ - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fg4qk0uxik/out/v1/317961806c5a4618b4dd609903d95c7f/cenc.mpd|drm_key=5db90f05de9d72e6fff79fba94f76c7c:c0b4106d03a9f1182ccffb96b4427805",
         "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4563673.m3u8?txSecret=36ccf1fb88c98d6dc13bef7dc72443c6&txTime=6AEF2811|Referer=https://player.on8on8.com/",
         "LOW SERVER ": "http://193.47.62.44/hls/YOOO.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
@@ -816,6 +851,7 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/2/image",
       "is_free": false,
       "stream_url_alpha": {
+        "PARAMOUNT+ - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mti4pjwnix/out/v1/993cad2eeed7415f913cdc08c5d1e1ee/cenc.mpd|drm_key=3ab0bd140d441b03a5ecb8a62bf5117f:d55a031a7ad0deeb0460ef6874602c7f",
         "CRICFy LIVE": "https://live.vivo155.com/live/sd-1-4563676.m3u8?txSecret=2de6c750e649f8dabc89f7985ea924ad&txTime=6AEF2855|Referer=https://player.on8on8.com/",
         "LOW SERVER ": "http://193.47.62.44/hls/YOOOA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
@@ -832,6 +868,7 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/64/image",
       "is_free": false,
       "stream_url_alpha": {
+        "PARAMOUNT+ - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gwy1zsrxmm/out/v1/5298cdb40c7d4201b527a35d8139a09a/cenc.mpd|drm_key=edbd40fc65cbd3cab4bc9181599a38d0:e527aa01a172073a5c40680dec5a48b3",
         "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
         "CRICFy LIVE ": "https://live.vivo155.com/live/sd-1-4563683.m3u8?txSecret=5a7830bd191bbccafca70f4c5206a82a&txTime=6AEF2830|Referer=https://player.on8on8.com/",
         "LOW SERVER ": "http://193.47.62.44/hls/YOOOAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
@@ -1126,24 +1163,6 @@
       }
     },
     {
-      "match_id": "malaga-cf-vs-real-racing-club",
-      "title": "Malaga CF vs Real Racing Club",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 07, 2026, 07:00:00 PM",
-      "time": "Nov 07, 2026, 07:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2830/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2830/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|drm_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd|drm_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-        "D SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3",
-        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-      }
-    },
-    {
       "match_id": "espanyol-vs-deportivo-de-a-coruna",
       "title": "Espanyol vs Deportivo de A Coruna",
       "sport": "Football",
@@ -1320,21 +1339,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/190328/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "burgos-club-de-futbol-vs-celta-fortuna",
-      "title": "Burgos Club de Futbol vs Celta Fortuna",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 07, 2026, 07:00:00 PM",
-      "time": "Nov 07, 2026, 07:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2854/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2854/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "LaLiga Hypermotion ": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      }
     },
     {
       "match_id": "cadiz-vs-real-oviedo",
