@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 80,
-  "live_count": 44,
-  "last_update": "11:07 PM 07-11-2026",
+  "channels_amount": 78,
+  "live_count": 42,
+  "last_update": "11:11 PM 07-11-2026",
   "events": [
     {
       "match_id": "B0HLZW9JHH",
@@ -659,13 +659,14 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/14/image",
       "is_free": false,
       "stream_url_alpha": {
+        "PEACOCK ENG - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oqqqgttdec/out/v1/d120aa86304f4f28a77896fcb03c658b/cenc.mpd|drm_key=7958dfdd2dc78d547fa387ca43e9fccf:a147d16dccfe009c7ad64c11c5db23ee",
         "NBC SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=36a385124dcdfb2f0969935065e03afa:ccecd65514dff22eae493b975ccf9a9e",
         "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1",
         "SKY SPORT PL - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd|drm_key=1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f",
         "SKY SPORTS EPL": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=Dxx13S3dlOjavbRFqRtQ6g&e=2075285630&scheme=|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0",
         "NBC SPORTS HD": "https://chatgpt.hereisman.net/playlist/59462/load-playlist-multi?|Referer=https://gooz.aapmains.net",
         "HD SERVER ": "https://www.rtmpcdn.com/live/cebea922-44a5-4cd8-89bb-8faeff015724.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-        "LOW SERVER ": "http://193.47.62.59/hls/GBBB.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+        "LOW SERVER": "http://193.47.62.59/hls/GBBB.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -707,36 +708,6 @@
         "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=ba6aca5a550163c38d06646bb50f04e7:516c3b471fce48a5b7a2e5ee7dd505f2",
         "ESPN DEPORTES HD": "https://chatgpt.hereisman.net/playlist/59463/load-playlist-multi?|Referer=https://gooz.aapmains.net",
         "LOW SERVER ": "http://193.47.62.50/hls/Z3333AAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
-      "match_id": "fortuna-sittard-vs-sc-telstar",
-      "title": "Fortuna Sittard vs SC Telstar",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Nov 07, 2026, 09:30:00 PM",
-      "time": "Nov 07, 2026, 09:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2957/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2957/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "LOW QUALITY ": "http://193.47.62.44/hls/HYYYAAAAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
-      "match_id": "cd-nacional-vs-academico-viseu-fc",
-      "title": "CD Nacional vs Academico Viseu FC",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Nov 07, 2026, 09:30:00 PM",
-      "time": "Nov 07, 2026, 09:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/3013/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3013/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "LOW SERVER ": "http://193.47.62.44/hls/HYYYAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
