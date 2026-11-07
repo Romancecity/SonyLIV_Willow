@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 92,
   "live_count": 55,
-  "last_update": "10:19 PM 07-11-2026",
+  "last_update": "10:24 PM 07-11-2026",
   "events": [
     {
       "match_id": "B0HLZW9JHH",
@@ -682,6 +682,22 @@
       }
     },
     {
+      "match_id": "parma-vs-bologna",
+      "title": "Parma vs Bologna",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 07, 2026, 11:00:00 PM",
+      "time": "Nov 07, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2690/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2690/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
+        "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      }
+    },
+    {
       "match_id": "espanyol-vs-deportivo-de-a-coruna",
       "title": "Espanyol vs Deportivo de A Coruna",
       "sport": "Football",
@@ -1121,22 +1137,6 @@
         "SKY SPORT PL - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f",
         "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1",
         "SKY SPORTS EPL": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=Dxx13S3dlOjavbRFqRtQ6g&e=2075285630&scheme=|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0"
-      }
-    },
-    {
-      "match_id": "parma-vs-bologna",
-      "title": "Parma vs Bologna",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 07, 2026, 11:00:00 PM",
-      "time": "Nov 07, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2690/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2690/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
-        "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
       }
     },
     {
