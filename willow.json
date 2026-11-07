@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 103,
-  "live_count": 23,
-  "last_update": "09:38 AM 07-11-2026",
+  "channels_amount": 105,
+  "live_count": 24,
+  "last_update": "09:39 AM 07-11-2026",
   "events": [
     {
       "match_id": "B0HP6WQNNF",
@@ -564,7 +564,8 @@
         "T SPORTS HD": "http://103.16.24.4:8083/14.m3u8",
         "TAPMAD HD": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
         "FANCODE - LQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd|drm_key=5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e",
-        "T SPORTS - LQ": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8"
+        "T SPORTS - LQ": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
+        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250527_english_hls_370c69458425280_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
       }
     },
     {
@@ -773,7 +774,13 @@
       "logo": "https://img.sofascore.com/api/v1/team/274887/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/274887/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd|drm_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
+        "SKY CRICKET - AQ": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd|drm_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
+        "EUROSPORTS - AQ": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd|drm_key=12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814",
+        "TAPMAD - AQ": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8"
+      }
     },
     {
       "match_id": "brisbane-heat-women-vs-hobart-hurricanes-women",
@@ -1296,19 +1303,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "derby-county-vs-bolton-wanderers",
-      "title": "Derby County vs Bolton Wanderers",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 07, 2026, 02:00:00 AM",
-      "time": "Nov 07, 2026, 02:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/27/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/27/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
       "match_id": "bristol-city-vs-norwich-city",
       "title": "Bristol City vs Norwich City",
       "sport": "Football",
@@ -1448,6 +1442,45 @@
       "time": "Nov 07, 2026, 09:00:00 PM",
       "logo": "https://img.sofascore.com/api/v1/team/8/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/8/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "inter-miami-cf-vs-charlotte-fc",
+      "title": "Inter Miami CF vs Charlotte FC",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "UPCOMING",
+      "start_time_bst": "Nov 08, 2026, 03:00:00 AM",
+      "time": "Nov 08, 2026, 03:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/337602/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/337602/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "peterborough-united-vs-reading",
+      "title": "Peterborough United vs Reading",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "UPCOMING",
+      "start_time_bst": "Nov 08, 2026, 02:00:00 AM",
+      "time": "Nov 08, 2026, 02:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/54/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/54/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "altrincham-fc-vs-notts-county",
+      "title": "Altrincham FC vs Notts County",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "UPCOMING",
+      "start_time_bst": "Nov 07, 2026, 11:30:00 PM",
+      "time": "Nov 07, 2026, 11:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/110/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/110/image",
       "is_free": false,
       "stream_url_alpha": {}
     }
