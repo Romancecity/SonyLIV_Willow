@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 98,
-  "live_count": 58,
-  "last_update": "09:08 PM 07-11-2026",
+  "channels_amount": 99,
+  "live_count": 61,
+  "last_update": "09:22 PM 07-11-2026",
   "events": [
     {
       "match_id": "B0HPFJ3JMZ",
@@ -465,6 +465,20 @@
       "drm_key": "6a53c9b3ea8a19a08945668e33b4b73d:25cf88d6c132f0f14cdc39f2636ae95d"
     },
     {
+      "match_id": "1090542016",
+      "title": "Family Full House With Rohit Sharma",
+      "synopsis": "Family Full House with Rohit Sharma features Indian cricketer Rohit Sharma making his television hosting debut on Sony TV. The family-focused game show brings competing families together for fun, survey-based trivia infused with Rohit's signature laid-back wit and humor.",
+      "status": "LIVE",
+      "time": "07 Nov 2026, 08:55 PM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024210/178982077723193_FFH_Red_Creative_Promo_landscape_thumb_simulcast.jpg",
+      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024210/178982077723193_FFH_Red_Creative_Promo_landscape_thumb_simulcast.jpg",
+      "match_url": "https://dai.google.com/ssai/event/4T5TtiUdQXOqPQMP4xXBgg/master.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://dai.google.com/ssai/event/4T5TtiUdQXOqPQMP4xXBgg/master.m3u8"
+      }
+    },
+    {
       "match_id": "1090547482",
       "title": "Kon Honaar Crorepati",
       "synopsis": "Hosted by Madhuri Dixit, Kon Honar Crorepati is a thrilling Marathi quiz show where knowledge, courage and smart decisions can change lives. Contestants take on challenging questions for a chance to win a life-changing prize, while the new season raises the stakes with a fresh energy and one promise: Aata Khel Badalnar!",
@@ -831,6 +845,36 @@
       }
     },
     {
+      "match_id": "fortuna-sittard-vs-sc-telstar",
+      "title": "Fortuna Sittard vs SC Telstar",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 07, 2026, 09:30:00 PM",
+      "time": "Nov 07, 2026, 09:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2957/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2957/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW QUALITY ": "http://193.47.62.44/hls/HYYYAAAAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "cd-nacional-vs-academico-viseu-fc",
+      "title": "CD Nacional vs Academico Viseu FC",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 07, 2026, 09:30:00 PM",
+      "time": "Nov 07, 2026, 09:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/3013/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3013/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER ": "http://193.47.62.44/hls/HYYYAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "cadiz-vs-real-oviedo",
       "title": "Cadiz vs Real Oviedo",
       "sport": "Football",
@@ -844,6 +888,21 @@
       "stream_url_alpha": {
         "LaLiga Hypermotion ": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a",
         "LOW SERVER ": "http://193.47.62.44/hls/Z444AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "galatasaray-vs-amedspor",
+      "title": "Galatasaray vs Amedspor",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 07, 2026, 10:00:00 PM",
+      "time": "Nov 07, 2026, 10:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/3061/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3061/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "beIN ENGLISH - AQ": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
       }
     },
     {
@@ -1280,19 +1339,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "fortuna-sittard-vs-sc-telstar",
-      "title": "Fortuna Sittard vs SC Telstar",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 07, 2026, 09:30:00 PM",
-      "time": "Nov 07, 2026, 09:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2957/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2957/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
       "match_id": "ado-den-haag-vs-sparta-rotterdam",
       "title": "ADO Den Haag vs Sparta Rotterdam",
       "sport": "Football",
@@ -1315,19 +1361,6 @@
       "time": "Nov 08, 2026, 02:00:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/2967/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/2967/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "cd-nacional-vs-academico-viseu-fc",
-      "title": "CD Nacional vs Academico Viseu FC",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 07, 2026, 09:30:00 PM",
-      "time": "Nov 07, 2026, 09:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/3013/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3013/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
@@ -1388,21 +1421,6 @@
       "is_free": false,
       "stream_url_alpha": {
         "LaLiga Hypermotion ": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      }
-    },
-    {
-      "match_id": "galatasaray-vs-amedspor",
-      "title": "Galatasaray vs Amedspor",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 07, 2026, 10:00:00 PM",
-      "time": "Nov 07, 2026, 10:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/3061/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3061/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "beIN ENGLISH - AQ": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
       }
     },
     {
