@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 103,
-  "live_count": 26,
-  "last_update": "11:36 AM 07-11-2026",
+  "channels_amount": 105,
+  "live_count": 27,
+  "last_update": "11:45 AM 07-11-2026",
   "events": [
     {
       "match_id": "B0HNKB52ZX",
@@ -92,13 +92,26 @@
       "match_id": "B0HMNN211T",
       "title": "Afghanistan vs Zimbabwe in UAE 2026 - 1st Test - Afghanistan vs Zimbabwe",
       "synopsis": "Afghanistan vs Zimbabwe in UAE 2026 - 1st Test - Afghanistan vs Zimbabwe",
-      "status": "UPCOMING",
-      "time": "Live at 11:30 AM BDT",
+      "status": "LIVE",
+      "time": "11:30 AM BDT",
       "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.7cdc79e9-37f7-4576-abb3-baad628b810c/9/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HMNN211T?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_5",
       "is_free": false,
-      "stream_url_alpha": "",
-      "drm_key": ""
+      "stream_url_alpha": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uhx9dzy4rs/out/v1/5db830b25a6e428cbb15793518046968/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uhx9dzy4rs/out/v1/5db830b25a6e428cbb15793518046968/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/uhx9dzy4rs/out/v1/5db830b25a6e428cbb15793518046968/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/uhx9dzy4rs/out/v1/5db830b25a6e428cbb15793518046968/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/uhx9dzy4rs/out/v1/5db830b25a6e428cbb15793518046968/cenc.mpd"
+      },
+      "stream_url_bravo": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fvqg9o06co/out/v1/a2f3114fab8f4cd3a8605b176d23b0c9/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fvqg9o06co/out/v1/a2f3114fab8f4cd3a8605b176d23b0c9/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/fvqg9o06co/out/v1/a2f3114fab8f4cd3a8605b176d23b0c9/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fvqg9o06co/out/v1/a2f3114fab8f4cd3a8605b176d23b0c9/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fvqg9o06co/out/v1/a2f3114fab8f4cd3a8605b176d23b0c9/cenc.mpd"
+      },
+      "drm_key": "8e9af61f4a7f6d5a8f27cd3b85cc9a1d:bafb7bbc65820a0d0a5f77a990db7b76"
     },
     {
       "match_id": "B0HLRWXZY4",
@@ -452,6 +465,18 @@
       "stream_url": {}
     },
     {
+      "match_id": "1090553040",
+      "title": "Upcoming - India vs UAE - ACC Men's U19 Asia Cup 2026",
+      "synopsis": "Watch all the action from the ACC Men's U19 Asia Cup 2026, exclusively on Sony LIV.",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028526/1794029709600674_ind_vs_uae_landscape_thumbnail.jpg",
+      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028526/1794029709600674_ind_vs_uae_landscape_thumbnail.jpg",
+      "match_url": "https://www.sonyliv.com/custom-live/1090553040",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
       "match_id": "1090552650",
       "title": "Upcoming - DP World Asia Cup Rising Stars Men's 2026",
       "synopsis": "Watch all the action from the DP World Asia Cup Rising Stars Men's 2026, exclusively on Sony LIV.",
@@ -508,6 +533,18 @@
       "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028373/1793864472359710_india_cricket_promo_landscape_thumb.jpg",
       "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028373/1793864472359710_india_cricket_promo_landscape_thumb.jpg",
       "match_url": "https://www.sonyliv.com/custom-live/1090552481",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "1090553041",
+      "title": "Upcoming - 3rd ODI - India Tour Of New Zealand 2026",
+      "synopsis": "Tune in to catch all the action from India Tour of New Zealand 2026, only on Sony LIV.",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028527/1794029676138327_NZ_vs_Ind_3rd_odi_landscape_thumbnail.jpg",
+      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028527/1794029676138327_NZ_vs_Ind_3rd_odi_landscape_thumbnail.jpg",
+      "match_url": "https://www.sonyliv.com/custom-live/1090553041",
       "is_free": false,
       "stream_url": {}
     },
