@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 132,
   "live_count": 33,
-  "last_update": "01:11 AM 08-11-2026",
+  "last_update": "01:16 AM 08-11-2026",
   "events": [
     {
       "match_id": "B0HLZW9JHH",
@@ -643,10 +643,30 @@
       "is_free": false,
       "stream_url_alpha": {
         "PARAMOUNT+ - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/goikeune5k/out/v1/a0c12026e2684d55b4d6f2222f433973/cenc.mpd|drm_key=c382483f8a379efb35b6277b17c6c347:f1942ce8cee7e5818800955ccb94aaca",
+        "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vahohrwe3w/out/v1/9a01afb3983444c9b0ebd5d4df2e47e2/cenc.mpd|drm_key=a6a9c2de87b36eeb9d16ecc1eb953faa:110c81b088f7b40cf67b4bb17de7b89a",
         "DAZN DE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/8vgigtbr2m/out/v1/5bcac64e2a9341a790a0299366963139/cenc.mpd|drm_key=cd6ac6ee6298e4bb0da75673d2171bca:0c5e1f01ffb1a4134a1f2050d3e5be4f",
         "PEACOCK - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/goikeune5k/out/v1/a0c12026e2684d55b4d6f2222f433973/cenc.mpd|drm_key=c382483f8a379efb35b6277b17c6c347:f1942ce8cee7e5818800955ccb94aaca",
         "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
-        "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+        "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d",
+        "LOW SERVER ": "http://193.47.62.55/hls/BWWWAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "valencia-vs-real-madrid",
+      "title": "Valencia vs Real Madrid",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 08, 2026, 02:00:00 AM",
+      "time": "Nov 08, 2026, 02:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2828/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2828/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "DAZN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zpn1sed45s/out/v1/edd9b843e4a34cc7b7ca75d46d80d660/cenc.mpd|drm_key=ebf29c45364a6e0a96100d2cd468ef88:79973ca1a11804467602e38543ac6b1c",
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
+        "D SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3",
+        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
       }
     },
     {
@@ -679,6 +699,7 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/2528/image",
       "is_free": false,
       "stream_url_alpha": {
+        "DAZN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rzmxhpj49b/out/v1/a3916ee9ca1a4e78bfb05f678afa6b0d/cenc.mpd|drm_key=2d4b27eb4f9c1897509e00d0d4642b1b:acde30f8827c2fe94077f0609125aed4",
         "SKY BUNDESLIGA - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hrejffyflm/out/v1/ad9a8d717bfc45d095f23a92925d7b1f/cenc.mpd|drm_key=5e0ee93e86d783f011561f18ff8f34e6:b570eceee332c7e50f87fca1f51e0966",
         "LOW SERVER ": "http://193.47.62.55/hls/BWWWA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
@@ -697,6 +718,21 @@
       "stream_url_alpha": {
         "HD SERVER ": "https://www.rtmpcdn.com/live/8cecddae-9047-4381-acd4-1206e884623b.m3u8",
         "LOW SERVER ": "http://193.47.62.55/hls/LOOOAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "peterborough-united-vs-reading",
+      "title": "Peterborough United vs Reading",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 08, 2026, 02:00:00 AM",
+      "time": "Nov 08, 2026, 02:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/54/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/54/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
       }
     },
     {
@@ -876,23 +912,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "valencia-vs-real-madrid",
-      "title": "Valencia vs Real Madrid",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 08, 2026, 02:00:00 AM",
-      "time": "Nov 08, 2026, 02:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2828/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2828/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-        "D SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3",
-        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-      }
-    },
-    {
       "match_id": "paris-saint-germain-vs-troyes",
       "title": "Paris Saint-Germain vs Troyes",
       "sport": "Football",
@@ -950,21 +969,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/337602/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "peterborough-united-vs-reading",
-      "title": "Peterborough United vs Reading",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 08, 2026, 02:00:00 AM",
-      "time": "Nov 08, 2026, 02:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/54/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/54/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      }
     },
     {
       "match_id": "sydney-sixers-women-vs-sydney-thunder-women",
