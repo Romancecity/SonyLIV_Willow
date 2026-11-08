@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 87,
   "live_count": 43,
-  "last_update": "11:08 PM 08-11-2026",
+  "last_update": "11:24 PM 08-11-2026",
   "events": [
     {
       "match_id": "B0HQ6J5DTV",
@@ -699,6 +699,7 @@
       "is_free": false,
       "stream_url_alpha": {
         "DAZN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pd1qqlhy9d/out/v1/e0481c1c73754d7999e2cbd58ef27028/cenc.mpd|drm_key=127a995c1831eb46c0f3a7189fbf6983:c13e706ffa60998e55d8a5b95b21dca0",
+        "HD SERVER ": "https://www.rtmpcdn.com/live/c505f0f3-15c2-4a52-bc96-24e0dd5f1b90.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
         "LOW SERVER ": "http://193.47.62.44/hls/J999AAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
@@ -717,7 +718,9 @@
         "DAZN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rspbiopioa/out/v1/f6ceb9c1a7154c7fac408d05fbc27225/cenc.mpd|drm_key=8ed66891f115e691ab38143afdf198c7:b8c520a95b74dbbc9b915d89f2372fd5",
         "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|drm_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
         "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd|drm_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-        "D SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
+        "D SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3",
+        "HD SERVER ": "https://www.rtmpcdn.com/live/ed1c16c7-4860-44ea-b3fa-9f876b52d032.m3u8",
+        "LOW SERVER ": "http://193.47.62.44/hls/J999AAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -822,6 +825,21 @@
       }
     },
     {
+      "match_id": "vitoria-sc-vs-fc-porto",
+      "title": "Vitoria SC vs FC Porto",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
+      "time": "Nov 09, 2026, 12:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3009/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3009/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "D SPORTS - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
+      }
+    },
+    {
       "match_id": "sporting-gijon-vs-real-valladolid",
       "title": "Sporting Gijon vs Real Valladolid",
       "sport": "Football",
@@ -835,6 +853,21 @@
       "stream_url_alpha": {
         "LaLiga Hypermotion ": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a",
         "LOW SERVER ": "http://193.47.62.44/hls/S666.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "besiktas-jk-vs-genclerbirligi",
+      "title": "Besiktas JK vs Genclerbirligi",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
+      "time": "Nov 09, 2026, 12:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/3050/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/3050/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "beIN SPORTS - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
       }
     },
     {
@@ -1069,21 +1102,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "vitoria-sc-vs-fc-porto",
-      "title": "Vitoria SC vs FC Porto",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
-      "time": "Nov 09, 2026, 12:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3009/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3009/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "D SPORTS - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
-      }
-    },
-    {
       "match_id": "rio-ave-vs-sporting-braga",
       "title": "Rio Ave vs Sporting Braga",
       "sport": "Football",
@@ -1110,21 +1128,6 @@
       "stream_url_alpha": {
         "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
         "D SPORTS - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
-      }
-    },
-    {
-      "match_id": "besiktas-jk-vs-genclerbirligi",
-      "title": "Besiktas JK vs Genclerbirligi",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
-      "time": "Nov 09, 2026, 12:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/3050/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/3050/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "beIN SPORTS - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
       }
     },
     {
