@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 110,
-  "live_count": 49,
-  "last_update": "06:52 PM 08-11-2026",
+  "channels_amount": 109,
+  "live_count": 48,
+  "last_update": "06:58 PM 08-11-2026",
   "events": [
     {
       "match_id": "B0HQ7MQV7F",
@@ -604,23 +604,6 @@
       }
     },
     {
-      "match_id": "abu-dhabi-t10-league",
-      "title": "Abu Dhabi T10 League",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "LIVE",
-      "start_time_bst": "Nov 08, 2026, 05:30:34 PM",
-      "time": "Nov 08, 2026, 05:30:34 PM",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-      "cover_image": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9ztbf2k2id/out/v1/4ea8d6be295640c590d74f8f6fb9e722/cenc.mpd|drm_key=bf29a35e375da99d9ee225515621294e:41c2975121d22fd57ef0d436fa6d5971",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/9ztbf2k2id/out/v1/4ea8d6be295640c590d74f8f6fb9e722/cenc.mpd|drm_key=bf29a35e375da99d9ee225515621294e:41c2975121d22fd57ef0d436fa6d5971",
-        "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8"
-      }
-    },
-    {
       "match_id": "ssc-napoli-vs-lazio",
       "title": "SSC Napoli vs Lazio",
       "sport": "Football",
@@ -714,22 +697,6 @@
       }
     },
     {
-      "match_id": "sc-heerenveen-vs-feyenoord",
-      "title": "SC Heerenveen vs Feyenoord",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Nov 08, 2026, 05:15:00 PM",
-      "time": "Nov 08, 2026, 05:15:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2964/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2964/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
-        "LOW SERVER ": "http://193.47.62.44/hls/BKKKAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
       "match_id": "fc-twente-vs-afc-ajax",
       "title": "FC Twente vs AFC Ajax",
       "sport": "Football",
@@ -741,7 +708,8 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/2955/image",
       "is_free": false,
       "stream_url_alpha": {
-        "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+        "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+        "LOW SERVER ": "http://193.47.62.44/hls/Q222AAAAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -895,6 +863,23 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/187754/image",
       "is_free": false,
       "stream_url_alpha": {}
+    },
+    {
+      "match_id": "abu-dhabi-t10-league",
+      "title": "Abu Dhabi T10 League",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "UPCOMING",
+      "start_time_bst": "Nov 08, 2026, 07:45:34 PM",
+      "time": "Nov 08, 2026, 07:45:34 PM",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "cover_image": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9ztbf2k2id/out/v1/4ea8d6be295640c590d74f8f6fb9e722/cenc.mpd|drm_key=bf29a35e375da99d9ee225515621294e:41c2975121d22fd57ef0d436fa6d5971",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/9ztbf2k2id/out/v1/4ea8d6be295640c590d74f8f6fb9e722/cenc.mpd|drm_key=bf29a35e375da99d9ee225515621294e:41c2975121d22fd57ef0d436fa6d5971",
+        "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8"
+      }
     },
     {
       "match_id": "1-fc-koln-vs-bayer-04-leverkusen",
