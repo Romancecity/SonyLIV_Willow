@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 121,
   "live_count": 32,
-  "last_update": "07:56 AM 08-11-2026",
+  "last_update": "08:02 AM 08-11-2026",
   "events": [
     {
       "match_id": "B0HN95FFRR",
@@ -737,6 +737,26 @@
       }
     },
     {
+      "match_id": "sydney-sixers-women-vs-sydney-thunder-women",
+      "title": "Sydney Sixers Women vs Sydney Thunder Women",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Nov 08, 2026, 08:40:00 AM",
+      "time": "Nov 08, 2026, 08:40:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/274883/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/274883/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd|drm_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
+        "SKY CRICKET - AQ": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd|drm_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
+        "EUROSPORTS - AQ": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd|drm_key=12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814",
+        "TAPMAD - AQ": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
+        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250387_english_hls_b7a3c2c35c92425_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+      }
+    },
+    {
       "match_id": "indiana-pacers-vs-denver-nuggets",
       "title": "Indiana Pacers vs Denver Nuggets",
       "sport": "Basketball",
@@ -902,26 +922,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/187754/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "sydney-sixers-women-vs-sydney-thunder-women",
-      "title": "Sydney Sixers Women vs Sydney Thunder Women",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 08, 2026, 08:40:00 AM",
-      "time": "Nov 08, 2026, 08:40:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/274883/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/274883/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd|drm_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
-        "SKY CRICKET - AQ": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd|drm_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
-        "EUROSPORTS - AQ": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd|drm_key=12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814",
-        "TAPMAD - AQ": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
-        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250387_english_hls_b7a3c2c35c92425_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
-      }
     },
     {
       "match_id": "perth-scorchers-women-vs-melbourne-stars-women",
