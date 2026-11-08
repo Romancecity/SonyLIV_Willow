@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 86,
-  "live_count": 47,
-  "last_update": "11:37 PM 08-11-2026",
+  "live_count": 50,
+  "last_update": "11:50 PM 08-11-2026",
   "events": [
     {
       "match_id": "B0HQ6J5DTV",
@@ -655,6 +655,21 @@
       }
     },
     {
+      "match_id": "tsg-hoffenheim-vs-fc-schalke-04",
+      "title": "TSG Hoffenheim vs FC Schalke 04",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 09, 2026, 12:30:00 AM",
+      "time": "Nov 09, 2026, 12:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2569/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2569/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "DAZN ENG - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vuzaaxxem1/out/v1/e94aa80abc75481084c80546b0f77980/cenc.mpd|drm_key=e25d10551883acc40dcb71e47eebd489:892509ea654a668fd71a04f54c30efec"
+      }
+    },
+    {
       "match_id": "manchester-united-vs-aston-villa",
       "title": "Manchester United vs Aston Villa",
       "sport": "Football",
@@ -886,9 +901,28 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/4422/image",
       "is_free": false,
       "stream_url_alpha": {
+        "NFL GAMEPASS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ehx0igo3ga/out/v1/b6c4c4f810984a5097d7c4ef7de42e18/cenc.mpd|drm_key=5b50a29e61a88975a5c86be7c51c0bc0:8eb66fdb6761304d125b95b03a840ae1",
         "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/59603/load-playlist-multi?|Referer=https://gooz.aapmains.net",
         "CRICFy NFL ": "https://chatgpt.hereisman.net/playlist/59625/load-playlist-multi?|Referer=https://gooz.aapmains.net",
         "HD SERVER ": "https://chatgpt.hereisman.net/playlist/59602/load-playlist-multi?|Referer=https://gooz.aapmains.net"
+      }
+    },
+    {
+      "match_id": "philadelphia-eagles-vs-new-york-giants",
+      "title": "Philadelphia Eagles vs New York Giants",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
+      "time": "Nov 09, 2026, 12:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/4428/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4428/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "NFL GAMEPASS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jl0i1x3xdx/out/v1/86e550a55a7a4a5cbe7b863b3b435726/cenc.mpd|drm_key=bd326e8451403c9e54ce60006d737b61:8355ac29f297ed469052cccfdeaa726e",
+        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/59604/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "CRICFy NFL ": "https://chatgpt.hereisman.net/playlist/59638/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "HD SERVER ": "https://chatgpt.hereisman.net/playlist/59605/load-playlist-multi?|Referer=https://gooz.aapmains.net"
       }
     },
     {
@@ -903,6 +937,7 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/4421/image",
       "is_free": false,
       "stream_url_alpha": {
+        "NFL GAMEPASS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3fnzbb5b5f/out/v1/1d8ea6fed91d44789d94a59f1d75e10b/cenc.mpd|drm_key=e8b9f85a440a23d6f8bdec8ee7c3a476:74a802cc5a153ee6651e8d54edb75e8d",
         "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/59610/load-playlist-multi?|Referer=https://gooz.aapmains.net",
         "CRICFy NFL ": "https://chatgpt.hereisman.net/playlist/59624/load-playlist-multi?|Referer=https://gooz.aapmains.net",
         "HD SERVER ": "https://chatgpt.hereisman.net/playlist/59611/load-playlist-multi?|Referer=https://gooz.aapmains.net"
@@ -920,10 +955,30 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/4287/image",
       "is_free": false,
       "stream_url_alpha": {
+        "NFL GAMEPASS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/irtroleutj/out/v1/f46efddca1284beb9cbaa65b98829403/cenc.mpd|drm_key=443318d9e0eae73cdc0ebd18365c7dcf:987a693511d2d60a2fda7a7777f85d0f",
         "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
         "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/59626/load-playlist-multi?|Referer=https://gooz.aapmains.net",
         "CRICFy NFL ": "https://chatgpt.hereisman.net/playlist/59618/load-playlist-multi?|Referer=https://gooz.aapmains.net",
         "HD SERVER ": "https://chatgpt.hereisman.net/playlist/59617/load-playlist-multi?|Referer=https://gooz.aapmains.net"
+      }
+    },
+    {
+      "match_id": "washington-commanders-vs-los-angeles-rams",
+      "title": "Washington Commanders vs Los Angeles Rams",
+      "sport": "American football",
+      "sub_category": "American football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
+      "time": "Nov 09, 2026, 12:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/4432/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4432/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "NFL GAMEPASS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/thtfvk4jpv/out/v1/b6ede061cd8b4751b8d9b1ba75d3926c/cenc.mpd|drm_key=c8d6f2e45853bf63c8ab5a8847e65848:24337c3810c69c3f4dddf40313dd724c",
+        "SKY SPORT DE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ecaigwgyua/out/v1/2ee814e65dda404693ce51fb41bd53a8/cenc.mpd|drm_key=6143636ed31683e00c86c4e1db64fcbf:bf6b251177b6b056366150d2ee8e40ad",
+        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/59605/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "CRICFy NFL ": "https://chatgpt.hereisman.net/playlist/59604/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+        "HD SERVER ": "https://chatgpt.hereisman.net/playlist/59605/load-playlist-multi?|Referer=https://gooz.aapmains.net"
       }
     },
     {
@@ -938,6 +993,7 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/4415/image",
       "is_free": false,
       "stream_url_alpha": {
+        "NFL GAMEPASS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/t7vnogp2bl/out/v1/ba95b6795bbc4f8fa3959b1fb79e1902/cenc.mpd|drm_key=28fa6eb7d698c9e16d54b130459e9f29:3e3614f2d0d7fbe8da1f8381f55c7c13",
         "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/59613/load-playlist-multi?|Referer=https://gooz.aapmains.net",
         "CRICFy NFL ": "https://chatgpt.hereisman.net/playlist/59628/load-playlist-multi?|Referer=https://gooz.aapmains.net",
         "HD SERVER ": "https://chatgpt.hereisman.net/playlist/59612/load-playlist-multi?|Referer=https://gooz.aapmains.net"
@@ -955,6 +1011,7 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/4425/image",
       "is_free": false,
       "stream_url_alpha": {
+        "NFL GAMEPASS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cdy1wbszpf/out/v1/191e81cbc1114092b5425375049500b1/cenc.mpd|drm_key=0d5116ab55295ab050fc243d6d8ec0b6:8e4d33b3330d78d87abad9af742905cb",
         "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/59609/load-playlist-multi?|Referer=https://gooz.aapmains.net",
         "CRICFy NFL ": "https://chatgpt.hereisman.net/playlist/59627/load-playlist-multi?|Referer=https://gooz.aapmains.net",
         "HD SERVER ": "https://chatgpt.hereisman.net/playlist/59608/load-playlist-multi?|Referer=https://gooz.aapmains.net"
@@ -1090,19 +1147,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "tsg-hoffenheim-vs-fc-schalke-04",
-      "title": "TSG Hoffenheim vs FC Schalke 04",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 09, 2026, 12:30:00 AM",
-      "time": "Nov 09, 2026, 12:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2569/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2569/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
       "match_id": "fiorentina-vs-juventus",
       "title": "Fiorentina vs Juventus",
       "sport": "Football",
@@ -1198,32 +1242,6 @@
         "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
         "D SPORTS - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
       }
-    },
-    {
-      "match_id": "philadelphia-eagles-vs-new-york-giants",
-      "title": "Philadelphia Eagles vs New York Giants",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
-      "time": "Nov 09, 2026, 12:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/4428/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4428/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "washington-commanders-vs-los-angeles-rams",
-      "title": "Washington Commanders vs Los Angeles Rams",
-      "sport": "American football",
-      "sub_category": "American football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 09, 2026, 12:00:00 AM",
-      "time": "Nov 09, 2026, 12:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/4432/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4432/image",
-      "is_free": false,
-      "stream_url_alpha": {}
     },
     {
       "match_id": "los-angeles-chargers-vs-houston-texans",
