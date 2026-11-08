@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 109,
-  "live_count": 44,
-  "last_update": "04:21 PM 08-11-2026",
+  "channels_amount": 108,
+  "live_count": 43,
+  "last_update": "04:32 PM 08-11-2026",
   "events": [
     {
       "match_id": "B0HQ7MQV7F",
@@ -499,24 +499,6 @@
       }
     },
     {
-      "match_id": "united-arab-emirates-under-19-vs-nepal-under-19",
-      "title": "United Arab Emirates Under-19 vs Nepal Under-19",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "LIVE",
-      "start_time_bst": "Nov 08, 2026, 11:00:00 AM",
-      "time": "Nov 08, 2026, 11:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/300266/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/300266/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/8wxsmuwvra/out/v1/06f2368f16e8470b8593cb77dcad31fe/cenc.mpd|drm_key=f638f10e9bee65a698926a527722e332:a9f519367caf419607f6705e3d767935",
-        "SonyLiv PRIME - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pklmckneea/out/v1/0f99435eda984497aa21d65b9f5410e1/cenc.mpd|drm_key=08bb45494843dfb2a89da2899fe3999f:4571346ca311bca08a61fe9e76779029",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/8wxsmuwvra/out/v1/06f2368f16e8470b8593cb77dcad31fe/cenc.mpd|drm_key=f638f10e9bee65a698926a527722e332:a9f519367caf419607f6705e3d767935",
-        "SonyLiv": "https://sonymtmnew-akamaized.pages.dev/hls/live/2018458/Criclive0811/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=85ef8820deb1a8ca78a9ba5573f23156-1794113401685"
-      }
-    },
-    {
       "match_id": "india-under-19-vs-pakistan-under-19",
       "title": "India Under-19 vs Pakistan Under-19",
       "sport": "Cricket",
@@ -538,6 +520,22 @@
         "SonyLiv - Tamil": "https://liveakmt-p-md.slivcdn.com/hls/live/2119951/cricodi_0811/TAM/master.m3u8?hdnea=exp=1794151400~acl=/*~id=83485597329850560748911921963862~hmac=dedd1d27f507fe870504fa2a72119ae09adb01c2a48aad4dffd47968defeab18",
         "SonyLiv - Telugu": "https://liveakmt-p-md.slivcdn.com/hls/live/2119941/cricodi_0811/TEL/master.m3u8?hdnea=exp=1794151400~acl=/*~id=83485597329850560748911921963862~hmac=dedd1d27f507fe870504fa2a72119ae09adb01c2a48aad4dffd47968defeab18",
         "SonyLiv - Kannada": "https://liveakmt-p-md.slivcdn.com/hls/live/2119782/cricodi_0811/KAN/master.m3u8?hdnea=exp=1794151400~acl=/*~id=83485597329850560748911921963862~hmac=dedd1d27f507fe870504fa2a72119ae09adb01c2a48aad4dffd47968defeab18"
+      }
+    },
+    {
+      "match_id": "sc-heerenveen-vs-feyenoord",
+      "title": "SC Heerenveen vs Feyenoord",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 08, 2026, 05:15:00 PM",
+      "time": "Nov 08, 2026, 05:15:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2964/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2964/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+        "LOW SERVER ": "http://193.47.62.44/hls/BKKKAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -1136,21 +1134,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/2591/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "sc-heerenveen-vs-feyenoord",
-      "title": "SC Heerenveen vs Feyenoord",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 08, 2026, 05:15:00 PM",
-      "time": "Nov 08, 2026, 05:15:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2964/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2964/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-      }
     },
     {
       "match_id": "fc-twente-vs-afc-ajax",
