@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 79,
-  "live_count": 48,
-  "last_update": "12:21 AM 09-11-2026",
+  "channels_amount": 81,
+  "live_count": 49,
+  "last_update": "12:26 AM 09-11-2026",
   "events": [
     {
       "match_id": "B0HQ6J5DTV",
@@ -684,6 +684,21 @@
       }
     },
     {
+      "match_id": "fc-utrecht-vs-nec-nijmegen",
+      "title": "FC Utrecht vs NEC Nijmegen",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 09, 2026, 01:00:00 AM",
+      "time": "Nov 09, 2026, 01:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2948/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2948/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER ": "http://193.47.62.44/hls/C555AAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "vitoria-sc-vs-fc-porto",
       "title": "Vitoria SC vs FC Porto",
       "sport": "Football",
@@ -1080,19 +1095,6 @@
       }
     },
     {
-      "match_id": "fc-utrecht-vs-nec-nijmegen",
-      "title": "FC Utrecht vs NEC Nijmegen",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 09, 2026, 01:00:00 AM",
-      "time": "Nov 09, 2026, 01:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2948/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2948/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
       "match_id": "rio-ave-vs-sporting-braga",
       "title": "Rio Ave vs Sporting Braga",
       "sport": "Football",
@@ -1232,6 +1234,32 @@
       "time": "Nov 13, 2026, 09:30:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/187746/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/187746/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "ce-sabadell-vs-real-sociedad-b",
+      "title": "CE Sabadell vs Real Sociedad B",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "UPCOMING",
+      "start_time_bst": "Nov 10, 2026, 01:30:00 AM",
+      "time": "Nov 10, 2026, 01:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/24335/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/24335/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "plymouth-parkway-vs-berkhamsted-town",
+      "title": "Plymouth Parkway vs Berkhamsted Town",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "UPCOMING",
+      "start_time_bst": "Nov 10, 2026, 01:30:00 AM",
+      "time": "Nov 10, 2026, 01:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/80011/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/80011/image",
       "is_free": false,
       "stream_url_alpha": {}
     }
