@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 93,
   "live_count": 49,
-  "last_update": "10:16 PM 08-11-2026",
+  "last_update": "10:21 PM 08-11-2026",
   "events": [
     {
       "match_id": "B0HQ6J5DTV",
@@ -586,9 +586,8 @@
       "cover_image": "nulln",
       "is_free": false,
       "stream_url_alpha": {
-        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8",
         "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
-        "SKY SPORT F1 - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/l1pw9fzori/out/v1/68469cf8a4ba49608a0e0fab18d45aee/cenc.mpd|drm_key=0d7d09d646a2a4edd51b87563abe77a3:a1e63461298a129daa947f42cbad4aa2",
+        "SKY SPORT F1 - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9fm80mkzat/out/v1/c46b85c35e7b4a0086723fe79de09b6b/cenc.mpd|drm_key=0d7d09d646a2a4edd51b87563abe77a3:a1e63461298a129daa947f42cbad4aa2",
         "SporTV BR - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3",
         "CRICFy LIVE ": "https://chatgpt.hereisman.net/playlist/59362/load-playlist-multi?|Referer=https://gooz.aapmains.net",
         "SPORTSCAST - AQ": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/7c9c6731-ebff-4136-8d8d-6237eeab3691/master.m3u8",
@@ -676,6 +675,26 @@
         "CRICFy LIVE ": "https://live.vivo155.com/live/hd-en-1-4558721.m3u8?txSecret=b3a9b851fc77cd7b99cc463c389a9741&txTime=6AF0B4F2|Referer=https://player.on8on8.com/",
         "HD SERVER ": "https://www.rtmpcdn.com/live/512a16c5-bbb9-4932-a173-f068a4aa668e.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
         "LOW SERVER ": "http://193.47.62.41/hls/RRRR.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "inter-vs-como",
+      "title": "Inter vs Como",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 08, 2026, 11:00:00 PM",
+      "time": "Nov 08, 2026, 11:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2697/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2697/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "PARAMOUNT+ - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7vxha8ilkr/out/v1/1a5a110bbe1246eeb1af95456bc7e77e/cenc.mpd|drm_key=38df13df2c20d1fdac35938a37d0b40e:0e6856b2387be00dc6cda8bbfb6db614",
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408",
+        "PEACOCK - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7vxha8ilkr/out/v1/1a5a110bbe1246eeb1af95456bc7e77e/cenc.mpd|drm_key=38df13df2c20d1fdac35938a37d0b40e:0e6856b2387be00dc6cda8bbfb6db614",
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
+        "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
       }
     },
     {
@@ -1011,26 +1030,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/2569/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "inter-vs-como",
-      "title": "Inter vs Como",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 08, 2026, 11:00:00 PM",
-      "time": "Nov 08, 2026, 11:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2697/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2697/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "PARAMOUNT+ - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7vxha8ilkr/out/v1/1a5a110bbe1246eeb1af95456bc7e77e/cenc.mpd|drm_key=38df13df2c20d1fdac35938a37d0b40e:0e6856b2387be00dc6cda8bbfb6db614",
-        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408",
-        "PEACOCK - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7vxha8ilkr/out/v1/1a5a110bbe1246eeb1af95456bc7e77e/cenc.mpd|drm_key=38df13df2c20d1fdac35938a37d0b40e:0e6856b2387be00dc6cda8bbfb6db614",
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
-        "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      }
     },
     {
       "match_id": "fiorentina-vs-juventus",
