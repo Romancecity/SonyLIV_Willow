@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 50,
   "live_count": 24,
-  "last_update": "11:07 AM 09-11-2026",
+  "last_update": "11:17 AM 09-11-2026",
   "events": [
     {
       "match_id": "B0HPL6FJBL",
@@ -477,6 +477,24 @@
       "stream_url": {}
     },
     {
+      "match_id": "afghanistan-vs-zimbabwe",
+      "title": "Afghanistan vs Zimbabwe",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Nov 09, 2026, 12:00:27 PM",
+      "time": "Nov 09, 2026, 12:00:27 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/187575/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/187575/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tfcrrqefcx/out/v1/67d930d3a40e495f969711b734f22660/cenc.mpd|drm_key=d006e8b41e37c259818c8d491904d3e7:2f7eceaab743d906957b9958152c8972",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/tfcrrqefcx/out/v1/67d930d3a40e495f969711b734f22660/cenc.mpd|drm_key=d006e8b41e37c259818c8d491904d3e7:2f7eceaab743d906957b9958152c8972",
+        "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8",
+        "FANCODE - IN ": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf8341075_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+      }
+    },
+    {
       "match_id": "bangladesh-vs-west-indies",
       "title": "Bangladesh vs West Indies",
       "sport": "Cricket",
@@ -489,11 +507,12 @@
       "is_free": false,
       "stream_url_alpha": {
         "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
-        "TAPMAD - AQ": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8|referer=https://tapmad.com/",
-        "T SPORTS HD": "http://103.16.24.4:8083/14.m3u8",
+        "TAPMAD - AQ": "https://multiregion-asia-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8?|Referer=https://tapmad.com/",
+        "T SPORTS HD": "https://playztv-apps.pages.dev/ptv-sports/index.m3u8",
         "FANCODE - LQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd|drm_key=5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e",
+        "TAPMAD HD": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8?|Referer=https://tapmad.com/",
         "T SPORTS - LQ": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
-        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250527_english_hls_370c69458425280_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250527_english_hls_370c69458446842_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
       }
     },
     {
@@ -509,7 +528,12 @@
       "is_free": false,
       "stream_url_alpha": {
         "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6gtll9ffbu/out/v1/7519ba45d0cf43b09f4cfd42e76fc50c/cenc.mpd|drm_key=71de63b5c5236b41d3289458a0d3612e:91e5a59da86b054fef6a06ab6da82935",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6gtll9ffbu/out/v1/7519ba45d0cf43b09f4cfd42e76fc50c/cenc.mpd|drm_key=71de63b5c5236b41d3289458a0d3612e:91e5a59da86b054fef6a06ab6da82935"
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6gtll9ffbu/out/v1/7519ba45d0cf43b09f4cfd42e76fc50c/cenc.mpd|drm_key=71de63b5c5236b41d3289458a0d3612e:91e5a59da86b054fef6a06ab6da82935",
+        "TAPMAD - AQ": "https://multiregion-asia-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8|referer=https://tapmad.com/",
+        "WILLOW HD": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd|drm_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
+        "TAPMAD HD": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
+        "PTV SPORTS HD": "https://live.msnetworks.net/ptv-sports/master.m3u8",
+        "LOW SERVER ": "http://193.47.62.41/hls/D222.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -525,8 +549,9 @@
       "is_free": false,
       "stream_url_alpha": {
         "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oeuezuu9ni/out/v1/691776d1daca435596877bab1ae167e3/cenc.mpd|drm_key=94c450ba03f839dd6175a412dfefde4c:4a374f703bfce7300320f01e4791f432",
-        "SonyLiv PRIME - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ybvks9dssu/out/v1/bfadec4c32a1431ba4155ad869de2b2a/cenc.mpd|drm_key=5cd681d10936d933856b49b576c4b625:7bda25b95f83caf6ee993441b484ace5",
+        "SonyLiv PRIME - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lmd0oo0ics/out/v1/a58b8300d49c4d28b80c38c6a1de142d/cenc.mpd|drm_key=ef8ec3d7781779ed00ee749237c093c4:f6dd88b99050c805e2e84e5005169300",
         "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/oeuezuu9ni/out/v1/691776d1daca435596877bab1ae167e3/cenc.mpd|drm_key=94c450ba03f839dd6175a412dfefde4c:4a374f703bfce7300320f01e4791f432",
+        "TEN SPORTS HD": "https://live.msnetworks.net/ten-sports/master.m3u8",
         "SonyLiv": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120302/Criclive0911/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=ffb60155174015ded1320c80619f6bb3-1794198603263"
       }
     },
@@ -543,7 +568,7 @@
       "is_free": false,
       "stream_url_alpha": {
         "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/o4trsdzewu/out/v1/7aea1afda5854baaba3ddeb967f79fb6/cenc.mpd|drm_key=73de12852269196bb475042be070e659:2d30fe5b6f743afc0e6b0babb86ac70d",
-        "SonyLiv PRIME - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ybvks9dssu/out/v1/bfadec4c32a1431ba4155ad869de2b2a/cenc.mpd|drm_key=5cd681d10936d933856b49b576c4b625:7bda25b95f83caf6ee993441b484ace5",
+        "SonyLiv PRIME - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mipdvyxmgk/out/v1/5b1fe1ff59024887a998945d1fcef329/cenc.mpd|drm_key=95903984c253e3fd47b112b72166caea:1283b49097f2481707da62f95b1d02ca",
         "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/o4trsdzewu/out/v1/7aea1afda5854baaba3ddeb967f79fb6/cenc.mpd|drm_key=73de12852269196bb475042be070e659:2d30fe5b6f743afc0e6b0babb86ac70d",
         "SonyLiv": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120301/Criclive0911/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=ffb60155174015ded1320c80619f6bb3-1794198603263"
       }
@@ -675,24 +700,6 @@
         "SonyLiv - TEL": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/Cricodi_0611/TEL/std_lrh-800300010.m3u8?hdnea=exp=1794059013~acl=/*~id=83811792052594563525528527295500~hmac=a6aca4506c1cb9a93f7b7b9e7333350ea129bee5f06cb50552b49b219a94c839|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
         "SonyLiv - TAM": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/Cricodi_0611/TAM/std_lrh-800300010.m3u8?hdnea=exp=1794059013~acl=/*~id=83811792052594563525528527295500~hmac=a6aca4506c1cb9a93f7b7b9e7333350ea129bee5f06cb50552b49b219a94c839|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
         "SonyLiv - KAN": "https://liveakmt-p-md.slivcdn.com/hls/live/2119782/Cricodi_0611/KAN/std_lrh-800300010.m3u8?hdnea=exp=1794059013~acl=/*~id=83811792052594563525528527295500~hmac=a6aca4506c1cb9a93f7b7b9e7333350ea129bee5f06cb50552b49b219a94c839|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com"
-      }
-    },
-    {
-      "match_id": "afghanistan-vs-zimbabwe",
-      "title": "Afghanistan vs Zimbabwe",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 09, 2026, 12:00:27 PM",
-      "time": "Nov 09, 2026, 12:00:27 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/187575/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/187575/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0anti1gqwp/out/v1/318c6b0fc3184ab3aced919fccc017f9/cenc.mpd|drm_key=7f6cef23a9b2d9b21e04cd96753f7d01:3f260e0025a8b3273ece982cff0562e0",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0anti1gqwp/out/v1/318c6b0fc3184ab3aced919fccc017f9/cenc.mpd|drm_key=7f6cef23a9b2d9b21e04cd96753f7d01:3f260e0025a8b3273ece982cff0562e0",
-        "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8",
-        "FANCODE - IN ": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf8341075_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
       }
     },
     {
