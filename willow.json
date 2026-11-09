@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 68,
   "live_count": 36,
-  "last_update": "08:35 AM 09-11-2026",
+  "last_update": "08:46 AM 09-11-2026",
   "events": [
     {
       "match_id": "B0HQRL8916",
@@ -456,6 +456,26 @@
         "SPOTV - AQ": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd|drm_key=7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed",
         "FANCODE - LQ": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/iwpchve3wl/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd|drm_key=286eb7dc538143790fa9913639531920:e3f5cb08d14d9e9c08438c673819540f",
         "LOW SERVER": "http://193.47.62.44/hls/ziii.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "bangladesh-vs-west-indies",
+      "title": "Bangladesh vs West Indies",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Nov 09, 2026, 09:30:02 AM",
+      "time": "Nov 09, 2026, 09:30:02 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/187744/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/187744/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
+        "TAPMAD - AQ": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8|referer=https://tapmad.com/",
+        "T SPORTS HD": "http://103.16.24.4:8083/14.m3u8",
+        "FANCODE - LQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd|drm_key=5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e",
+        "T SPORTS - LQ": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
+        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250527_english_hls_370c69458425280_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
       }
     },
     {
@@ -916,26 +936,6 @@
         "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0anti1gqwp/out/v1/318c6b0fc3184ab3aced919fccc017f9/cenc.mpd|drm_key=7f6cef23a9b2d9b21e04cd96753f7d01:3f260e0025a8b3273ece982cff0562e0",
         "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8",
         "FANCODE - IN ": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf8341075_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
-      }
-    },
-    {
-      "match_id": "bangladesh-vs-west-indies",
-      "title": "Bangladesh vs West Indies",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 09, 2026, 09:30:02 AM",
-      "time": "Nov 09, 2026, 09:30:02 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/187744/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/187744/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
-        "TAPMAD - AQ": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8|referer=https://tapmad.com/",
-        "T SPORTS HD": "http://103.16.24.4:8083/14.m3u8",
-        "FANCODE - LQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd|drm_key=5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e",
-        "T SPORTS - LQ": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
-        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4250527_english_hls_370c69458425280_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
       }
     },
     {
