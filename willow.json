@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 50,
-  "live_count": 20,
-  "last_update": "10:19 AM 09-11-2026",
+  "channels_amount": 49,
+  "live_count": 22,
+  "last_update": "10:24 AM 09-11-2026",
   "events": [
     {
       "match_id": "B0HPL6FJBL",
@@ -468,20 +468,55 @@
       }
     },
     {
-      "match_id": "chicago-bears-vs-tampa-bay-buccaneers",
-      "title": "Chicago Bears vs Tampa Bay Buccaneers",
-      "sport": "American football",
-      "sub_category": "American football",
+      "match_id": "pakistan-vs-sri-lanka",
+      "title": "Pakistan vs Sri Lanka",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
       "status": "LIVE",
-      "start_time_bst": "Nov 09, 2026, 07:20:00 AM",
-      "time": "Nov 09, 2026, 07:20:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/4391/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4391/image",
+      "start_time_bst": "Nov 09, 2026, 11:00:00 AM",
+      "time": "Nov 09, 2026, 11:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/187754/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/187754/image",
       "is_free": false,
       "stream_url_alpha": {
-        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
-        "TSN SPORTS 3 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37",
-        "SporTV BR - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3"
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6gtll9ffbu/out/v1/7519ba45d0cf43b09f4cfd42e76fc50c/cenc.mpd|drm_key=71de63b5c5236b41d3289458a0d3612e:91e5a59da86b054fef6a06ab6da82935",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6gtll9ffbu/out/v1/7519ba45d0cf43b09f4cfd42e76fc50c/cenc.mpd|drm_key=71de63b5c5236b41d3289458a0d3612e:91e5a59da86b054fef6a06ab6da82935"
+      }
+    },
+    {
+      "match_id": "sri-lanka-under-19-vs-afghanistan-under-19",
+      "title": "Sri Lanka Under-19 vs Afghanistan Under-19",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Nov 09, 2026, 11:00:00 AM",
+      "time": "Nov 09, 2026, 11:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/213106/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/213106/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oeuezuu9ni/out/v1/691776d1daca435596877bab1ae167e3/cenc.mpd|drm_key=94c450ba03f839dd6175a412dfefde4c:4a374f703bfce7300320f01e4791f432",
+        "SonyLiv PRIME - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ybvks9dssu/out/v1/bfadec4c32a1431ba4155ad869de2b2a/cenc.mpd|drm_key=5cd681d10936d933856b49b576c4b625:7bda25b95f83caf6ee993441b484ace5",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/oeuezuu9ni/out/v1/691776d1daca435596877bab1ae167e3/cenc.mpd|drm_key=94c450ba03f839dd6175a412dfefde4c:4a374f703bfce7300320f01e4791f432",
+        "SonyLiv": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120302/Criclive0911/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=ffb60155174015ded1320c80619f6bb3-1794198603263"
+      }
+    },
+    {
+      "match_id": "bangladesh-under-19-vs-malaysia-under-19",
+      "title": "Bangladesh Under-19 vs Malaysia Under-19",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Nov 09, 2026, 11:00:00 AM",
+      "time": "Nov 09, 2026, 11:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/213099/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/213099/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/o4trsdzewu/out/v1/7aea1afda5854baaba3ddeb967f79fb6/cenc.mpd|drm_key=73de12852269196bb475042be070e659:2d30fe5b6f743afc0e6b0babb86ac70d",
+        "SonyLiv PRIME - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ybvks9dssu/out/v1/bfadec4c32a1431ba4155ad869de2b2a/cenc.mpd|drm_key=5cd681d10936d933856b49b576c4b625:7bda25b95f83caf6ee993441b484ace5",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/o4trsdzewu/out/v1/7aea1afda5854baaba3ddeb967f79fb6/cenc.mpd|drm_key=73de12852269196bb475042be070e659:2d30fe5b6f743afc0e6b0babb86ac70d",
+        "SonyLiv": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120301/Criclive0911/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=ffb60155174015ded1320c80619f6bb3-1794198603263"
       }
     },
     {
@@ -649,19 +684,6 @@
       }
     },
     {
-      "match_id": "pakistan-vs-sri-lanka",
-      "title": "Pakistan vs Sri Lanka",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 09, 2026, 11:00:00 AM",
-      "time": "Nov 09, 2026, 11:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/187754/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/187754/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
       "match_id": "abu-dhabi-t10-league",
       "title": "Abu Dhabi T10 League",
       "sport": "Cricket",
@@ -677,32 +699,6 @@
         "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/siyxr4echv/out/v1/6a15797378764495a7c28e017733f64f/cenc.mpd|drm_key=195416cacf5f56985edb79d6e04589c3:cedc20717599a61a9142b393bfe146a7",
         "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8"
       }
-    },
-    {
-      "match_id": "sri-lanka-under-19-vs-afghanistan-under-19",
-      "title": "Sri Lanka Under-19 vs Afghanistan Under-19",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 09, 2026, 11:00:00 AM",
-      "time": "Nov 09, 2026, 11:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/213106/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/213106/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "bangladesh-under-19-vs-malaysia-under-19",
-      "title": "Bangladesh Under-19 vs Malaysia Under-19",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 09, 2026, 11:00:00 AM",
-      "time": "Nov 09, 2026, 11:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/213099/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/213099/image",
-      "is_free": false,
-      "stream_url_alpha": {}
     },
     {
       "match_id": "australia-vs-england",
