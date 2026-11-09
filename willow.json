@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 71,
-  "live_count": 24,
-  "last_update": "01:06 PM 09-11-2026",
+  "channels_amount": 76,
+  "live_count": 26,
+  "last_update": "01:27 PM 09-11-2026",
   "events": [
     {
       "match_id": "B0HPL6FJBL",
@@ -761,7 +761,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/24335/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/24335/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "LaLiga Hypermotion ": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+      }
     },
     {
       "match_id": "plymouth-parkway-vs-berkhamsted-town",
@@ -774,7 +776,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/80011/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/80011/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+      }
     },
     {
       "match_id": "bangladesh-vs-sri-lanka",
@@ -1046,6 +1050,71 @@
       "time": "Nov 10, 2026, 07:15:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/4423/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/4423/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "hobart-hurricanes-women-vs-adelaide-strikers-women",
+      "title": "Hobart Hurricanes Women vs Adelaide Strikers Women",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "UPCOMING",
+      "start_time_bst": "Nov 10, 2026, 02:10:00 PM",
+      "time": "Nov 10, 2026, 02:10:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/274885/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/274885/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "perth-scorchers-women-vs-sydney-thunder-women",
+      "title": "Perth Scorchers Women vs Sydney Thunder Women",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "UPCOMING",
+      "start_time_bst": "Nov 11, 2026, 02:10:00 PM",
+      "time": "Nov 11, 2026, 02:10:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/274890/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/274890/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "india-under-19-vs-united-arab-emirates-under-19",
+      "title": "India Under-19 vs United Arab Emirates Under-19",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "UPCOMING",
+      "start_time_bst": "Nov 10, 2026, 11:00:00 AM",
+      "time": "Nov 10, 2026, 11:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/213112/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/213112/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "pakistan-under-19-vs-nepal-under-19",
+      "title": "Pakistan Under-19 vs Nepal Under-19",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "UPCOMING",
+      "start_time_bst": "Nov 10, 2026, 11:00:00 AM",
+      "time": "Nov 10, 2026, 11:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/213104/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/213104/image",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "south-africa-vs-bangladesh",
+      "title": "South Africa vs Bangladesh",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "UPCOMING",
+      "start_time_bst": "Nov 15, 2026, 02:00:00 PM",
+      "time": "Nov 15, 2026, 02:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/187747/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/187747/image",
       "is_free": false,
       "stream_url_alpha": {}
     }
