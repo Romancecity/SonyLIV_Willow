@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 75,
-  "live_count": 16,
-  "last_update": "07:18 PM 10-11-2026",
+  "channels_amount": 78,
+  "live_count": 19,
+  "last_update": "07:24 PM 10-11-2026",
   "events": [
     {
       "match_id": "B0HHQKGLKL",
@@ -439,6 +439,38 @@
         "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/u4schwb5fb/out/v1/1ab73661445f40a79e25895de38190cd/cenc.mpd|drm_key=0e36b3be8845c0685c6e1a7ce8b3a3e0:d0a6469a598e7159d22717e229e8c18d",
         "MYCO LIVE HD": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8|referer=https://myco.io/",
         "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8"
+      }
+    },
+    {
+      "match_id": "finland-vs-japan",
+      "title": "Finland vs Japan",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 10, 2026, 08:00:53 PM",
+      "time": "Nov 10, 2026, 08:00:53 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/5728/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/5728/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7",
+        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/59752/load-playlist-multi?|Referer=https://gooz.aapmains.net"
+      }
+    },
+    {
+      "match_id": "czechia-vs-germany",
+      "title": "Czechia vs Germany",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 10, 2026, 08:00:53 PM",
+      "time": "Nov 10, 2026, 08:00:53 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/72454/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/72454/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8",
+        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/59751/load-playlist-multi?|Referer=https://gooz.aapmains.net"
       }
     },
     {
@@ -1038,19 +1070,33 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "finland-vs-japan",
-      "title": "Finland vs Japan",
+      "match_id": "switzerland-vs-austria",
+      "title": "Switzerland vs Austria",
       "sport": "Football",
       "sub_category": "Football",
       "status": "UPCOMING",
-      "start_time_bst": "Nov 10, 2026, 08:00:53 PM",
-      "time": "Nov 10, 2026, 08:00:53 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/5728/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/5728/image",
+      "start_time_bst": "Nov 11, 2026, 12:00:40 AM",
+      "time": "Nov 11, 2026, 12:00:40 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/5725/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/5725/image",
       "is_free": false,
       "stream_url_alpha": {
-        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7",
-        "CRICFy LIVE": "https://chatgpt.hereisman.net/playlist/59752/load-playlist-multi?|Referer=https://gooz.aapmains.net"
+        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
+      }
+    },
+    {
+      "match_id": "sweden-vs-denmark",
+      "title": "Sweden vs Denmark",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "UPCOMING",
+      "start_time_bst": "Nov 11, 2026, 12:00:40 AM",
+      "time": "Nov 11, 2026, 12:00:40 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/5724/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/5724/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
       }
     }
   ]
