@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 63,
+  "channels_amount": 62,
   "live_count": 14,
-  "last_update": "07:16 PM 11-11-2026",
+  "last_update": "07:31 PM 11-11-2026",
   "events": [
     {
       "match_id": "B0HMKZKJRB",
@@ -396,24 +396,25 @@
         "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/q6p7ehxwmc/out/v1/64ff7b94fefb4ec4b838bc86e9b32bda/cenc.mpd|drm_key=1e9def1e0c216818e8edc06ce10d25c9:4743d779da68303948a6e7e18fc77056",
         "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
         "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/q6p7ehxwmc/out/v1/64ff7b94fefb4ec4b838bc86e9b32bda/cenc.mpd|drm_key=1e9def1e0c216818e8edc06ce10d25c9:4743d779da68303948a6e7e18fc77056",
-        "MYCO LIVE HD": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8|referer=https://myco.io/",
-        "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8"
+        "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8",
+        "MYCO HD": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8|referer=https://myco.io/"
       }
     },
     {
-      "match_id": "vietnam-vs-chinese-taipei",
-      "title": "Vietnam vs Chinese Taipei",
+      "match_id": "bangladesh-vs-sri-lanka",
+      "title": "Bangladesh vs Sri Lanka",
       "sport": "Football",
       "sub_category": "Football",
       "status": "LIVE",
-      "start_time_bst": "Nov 11, 2026, 06:00:00 PM",
-      "time": "Nov 11, 2026, 06:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/7050/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/7050/image",
+      "start_time_bst": "Nov 11, 2026, 08:00:00 PM",
+      "time": "Nov 11, 2026, 08:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/6080/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/6080/image",
       "is_free": false,
       "stream_url_alpha": {
-        "HD SERVER ": "https://live1.quickscoreboardz.com/live/channel5/playlist.m3u8?wsSecret=6bbc35c49997ac0c4c9486b6f5c2a614&wsABSTime=1794441219?|Referer=https://xlz.domainkqt.cc/",
-        "LOW SERVER ": "http://193.47.62.50/hls/pyyy.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+        "MYCO - AQ": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8|referer=https://myco.io/",
+        "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel14.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "T SPORTS HD": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8"
       }
     },
     {
@@ -611,19 +612,6 @@
       "time": "Nov 13, 2026, 09:30:00 AM",
       "logo": "https://img.sofascore.com/api/v1/team/187746/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/187746/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "bangladesh-vs-sri-lanka",
-      "title": "Bangladesh vs Sri Lanka",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 11, 2026, 08:00:00 PM",
-      "time": "Nov 11, 2026, 08:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/6080/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/6080/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
