@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 66,
-  "live_count": 17,
-  "last_update": "02:35 PM 11-11-2026",
+  "live_count": 18,
+  "last_update": "02:50 PM 11-11-2026",
   "events": [
     {
       "match_id": "B0HLVY22CY",
@@ -438,6 +438,22 @@
       }
     },
     {
+      "match_id": "india-vs-maldives",
+      "title": "India vs Maldives",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 11, 2026, 03:30:00 PM",
+      "time": "Nov 11, 2026, 03:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4828/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4828/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "MYCO - AQ": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8|referer=https://myco.io/",
+        "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xlz.domainkqt.cc/"
+      }
+    },
+    {
       "match_id": "perth-scorchers-women-vs-sydney-thunder-women",
       "title": "Perth Scorchers Women vs Sydney Thunder Women",
       "sport": "Cricket",
@@ -449,9 +465,11 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/274890/image",
       "is_free": false,
       "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lhdal9buc7/out/v1/8bc185a9052e4f0b911f5a26bf2e907d/cenc.mpd|drm_key=41b0e855ff51711a08ab8e4ccf1d0ba1:e849d0113e5fe023ff48664f3dc76b02",
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zsuvftyusq/out/v1/edc42cc5fdff4e56b1139a1b4a9ea02a/cenc.mpd|drm_key=21ef535c5597589225d278308c2a5c93:a4a38ac31294c388aaec39cab4aae93a",
         "SKY CRICKET - AQ": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
-        "WILLOW - ALT": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd|drm_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/zsuvftyusq/out/v1/edc42cc5fdff4e56b1139a1b4a9ea02a/cenc.mpd|drm_key=21ef535c5597589225d278308c2a5c93:a4a38ac31294c388aaec39cab4aae93a",
+        "TAPMAD - AQ": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8?|Referer=https://tapmad.com/",
+        "WILLOW HD": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
       }
     },
     {
@@ -661,19 +679,6 @@
       "time": "Nov 11, 2026, 08:00:00 PM",
       "logo": "https://img.sofascore.com/api/v1/team/6080/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/6080/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "india-vs-maldives",
-      "title": "India vs Maldives",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 11, 2026, 03:30:00 PM",
-      "time": "Nov 11, 2026, 03:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4828/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4828/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
