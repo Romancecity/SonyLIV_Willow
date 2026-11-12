@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 96,
-  "live_count": 30,
-  "last_update": "10:41 PM 12-11-2026",
+  "live_count": 31,
+  "last_update": "10:52 PM 12-11-2026",
   "events": [
     {
       "match_id": "B0HNH5B25Z",
@@ -686,6 +686,21 @@
       }
     },
     {
+      "match_id": "malta-vs-eswatini",
+      "title": "Malta vs Eswatini",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 12, 2026, 11:30:00 PM",
+      "time": "Nov 12, 2026, 11:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4483/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4483/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER ": "http://193.47.62.55/hls/V333A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "dr-congo-vs-sierra-leone",
       "title": "DR Congo vs Sierra Leone",
       "sport": "Football",
@@ -777,6 +792,21 @@
         "SonyLiv": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120302/Footlive1211/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=3fb152fd6fe1cd7dd4b80a115e43e0cf-1794502203829",
         "HD SERVER ": "https://www.rtmpcdn.com/live/805fb1e1-c171-469e-9cd0-659b98ca4547.m3u8",
         "LOW SERVER ": "http://193.47.62.50/hls/EEEEAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "calvo-sotelo-puertollano-vs-albacete-balompie",
+      "title": "Calvo Sotelo Puertollano vs Albacete Balompie",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 12, 2026, 11:30:00 PM",
+      "time": "Nov 12, 2026, 11:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/295639/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/295639/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER ": "http://193.47.62.55/hls/V333.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -989,21 +1019,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "malta-vs-eswatini",
-      "title": "Malta vs Eswatini",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 12, 2026, 11:30:00 PM",
-      "time": "Nov 12, 2026, 11:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4483/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4483/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "LOW SERVER ": "http://193.47.62.55/hls/V333A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
       "match_id": "czechia-vs-spain",
       "title": "Czechia vs Spain",
       "sport": "Football",
@@ -1121,19 +1136,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "calvo-sotelo-puertollano-vs-albacete-balompie",
-      "title": "Calvo Sotelo Puertollano vs Albacete Balompie",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 12, 2026, 11:30:00 PM",
-      "time": "Nov 12, 2026, 11:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/295639/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/295639/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
       "match_id": "cd-tarancon-vs-levante-ud",
       "title": "CD Tarancon vs Levante UD",
       "sport": "Football",
@@ -1223,7 +1225,8 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/77889/image",
       "is_free": false,
       "stream_url_alpha": {
-        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
+        "LOW SERVER ": "http://193.47.62.55/hls/V333AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
