@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 94,
-  "live_count": 18,
-  "last_update": "09:07 PM 12-11-2026",
+  "live_count": 23,
+  "last_update": "09:23 PM 12-11-2026",
   "events": [
     {
       "match_id": "B0HNH5B25Z",
@@ -625,6 +625,7 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/4723/image",
       "is_free": false,
       "stream_url_alpha": {
+        "CRICFy LIVE ": "https://live.vivo155.com/live/sd-1-4663034.m3u8?txSecret=a476905ff9106c96ebfbeb9e6d9bf977&txTime=6AF5ED78|Referer=https://player.on8on8.com/",
         "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel17.m3u8?|Referer=https://xlz.domainkqt.cc/",
         "LOW SERVER ": "http://193.47.62.41/hls/FF444A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
@@ -644,7 +645,23 @@
         "beIN SPORTS - AQ": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe",
         "beIN SPANISH - AQ": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c",
         "CRICFy LIVE ": "https://live.vivo155.com/live/sd-1-4642738.m3u8?txSecret=2c99896f3129522ec25a93e6fb26417a&txTime=6AF5E8C5|Referer=https://player.on8on8.com/",
+        "HD SERVER ": "https://www.rtmpcdn.com/live/17e1ac47-caa9-4698-a236-70ce92411dea.m3u8",
         "LOW SERVER ": "http://193.47.62.44/hls/GGGG.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "dr-congo-vs-sierra-leone",
+      "title": "DR Congo vs Sierra Leone",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 12, 2026, 10:00:00 PM",
+      "time": "Nov 12, 2026, 10:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4823/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4823/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "beIN SPORTS - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
       }
     },
     {
@@ -866,19 +883,6 @@
       "stream_url_alpha": {}
     },
     {
-      "match_id": "dr-congo-vs-sierra-leone",
-      "title": "DR Congo vs Sierra Leone",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 12, 2026, 10:00:00 PM",
-      "time": "Nov 12, 2026, 10:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4823/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4823/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
       "match_id": "madagascar-vs-guinea-bissau",
       "title": "Madagascar vs Guinea-Bissau",
       "sport": "Football",
@@ -915,7 +919,10 @@
       "logo": "https://img.sofascore.com/api/v1/team/4700/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/4700/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "FOX SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16",
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      }
     },
     {
       "match_id": "czechia-vs-spain",
@@ -967,7 +974,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/4740/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/4740/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+      }
     },
     {
       "match_id": "albania-vs-finland",
@@ -1162,7 +1171,9 @@
       "logo": "https://img.sofascore.com/api/v1/team/77889/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/77889/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+      }
     },
     {
       "match_id": "benfica-vs-fk-austria-wien",
@@ -1283,7 +1294,11 @@
       "logo": "https://img.sofascore.com/api/v1/team/4426/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/4426/image",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
+        "SKY TOP EVENT - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901",
+        "TSN SPORTS 3 - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
+      }
     }
   ]
 }
