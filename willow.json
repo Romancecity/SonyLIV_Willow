@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 96,
-  "live_count": 31,
-  "last_update": "11:07 PM 12-11-2026",
+  "live_count": 33,
+  "last_update": "11:23 PM 12-11-2026",
   "events": [
     {
       "match_id": "B0HNH5B25Z",
@@ -820,6 +820,36 @@
       }
     },
     {
+      "match_id": "cd-tarancon-vs-levante-ud",
+      "title": "CD Tarancon vs Levante UD",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 13, 2026, 12:00:00 AM",
+      "time": "Nov 13, 2026, 12:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/293881/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/293881/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER ": "http://193.47.62.55/hls/V333AAAAQQQQAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "cda-navalcarnero-vs-real-betis",
+      "title": "CDA Navalcarnero vs Real Betis",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 13, 2026, 12:00:00 AM",
+      "time": "Nov 13, 2026, 12:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/24352/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/24352/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER ": "http://193.47.62.55/hls/V333AAAAQQQQAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "equatorial-guinea-vs-zimbabwe",
       "title": "Equatorial Guinea vs Zimbabwe",
       "sport": "Football",
@@ -1159,32 +1189,6 @@
       "time": "Nov 15, 2026, 02:00:00 PM",
       "logo": "https://img.sofascore.com/api/v1/team/187747/image",
       "cover_image": "https://img.sofascore.com/api/v1/team/187747/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "cd-tarancon-vs-levante-ud",
-      "title": "CD Tarancon vs Levante UD",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 13, 2026, 12:00:00 AM",
-      "time": "Nov 13, 2026, 12:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/293881/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/293881/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "cda-navalcarnero-vs-real-betis",
-      "title": "CDA Navalcarnero vs Real Betis",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 13, 2026, 12:00:00 AM",
-      "time": "Nov 13, 2026, 12:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/24352/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/24352/image",
       "is_free": false,
       "stream_url_alpha": {}
     },
