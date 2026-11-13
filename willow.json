@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 103,
   "live_count": 36,
-  "last_update": "05:08 PM 13-11-2026",
+  "last_update": "05:22 PM 13-11-2026",
   "events": [
     {
       "match_id": "B0HLVY22CY",
@@ -743,6 +743,22 @@
       }
     },
     {
+      "match_id": "singapore-vs-paraguay",
+      "title": "Singapore vs Paraguay",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 13, 2026, 06:00:00 PM",
+      "time": "Nov 13, 2026, 06:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4738/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4738/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "LOW SERVER ": "http://193.47.62.41/hls/BBBB.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "thailand-women-vs-pakistan-women",
       "title": "Thailand Women vs Pakistan Women",
       "sport": "Cricket",
@@ -1128,22 +1144,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/4697/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "singapore-vs-paraguay",
-      "title": "Singapore vs Paraguay",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 13, 2026, 06:00:00 PM",
-      "time": "Nov 13, 2026, 06:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4738/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4738/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xlz.domainkqt.cc/",
-        "LOW SERVER ": "http://193.47.62.41/hls/BBBB.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
     },
     {
       "match_id": "saudi-arabia-vs-south-korea",
