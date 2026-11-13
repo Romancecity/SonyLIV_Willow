@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 96,
   "live_count": 34,
-  "last_update": "06:35 PM 13-11-2026",
+  "last_update": "06:45 PM 13-11-2026",
   "events": [
     {
       "match_id": "B0HP83ZWBB",
@@ -459,6 +459,23 @@
       "drm_key": "0bd0136d2728be3d6506cfe054a3fd59:27ae4995704be63440c0dcb001b2abbd"
     },
     {
+      "match_id": "B0HRJGRXJV",
+      "title": "Live Weigh-In: Viddal Riley v Syedi Coupe",
+      "synopsis": "Live Weigh-In: Viddal Riley v Syedi Coupe",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.fcc4cd34-f618-41a4-823f-413064be5995/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HRJGRXJV",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qkvxe8ubng/out/v1/dcedefedc735415a9f9d36d3d3016629/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qkvxe8ubng/out/v1/dcedefedc735415a9f9d36d3d3016629/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qkvxe8ubng/out/v1/dcedefedc735415a9f9d36d3d3016629/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qkvxe8ubng/out/v1/dcedefedc735415a9f9d36d3d3016629/cenc.mpd"
+      },
+      "drm_key": "99f2d8b38451875101393cfda6cc5e77:3d32bdfa5fe52cf74567eb20716b5a65"
+    },
+    {
       "match_id": "B0HPLCT75N",
       "title": "The Morning Drive",
       "synopsis": "The Morning Drive",
@@ -522,20 +539,6 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/dnip3gefsa/out/v1/d07a14d5030a4c119f2adb15588cb7e2/cenc.mpd"
       },
       "drm_key": "b21487d48dba161df1dbcb2709e78ac5:495d4dfd655791c39933461c3751bde3"
-    },
-    {
-      "match_id": "1090553604",
-      "title": "DP World Tour Championship, Dubai - Day 2 - 13 Nov 2026",
-      "synopsis": "Watch all the action from DP World Tour Championship, Dubai - Day 2, LIVE on Sony LIV.",
-      "status": "LIVE",
-      "time": "13 Nov 2026, 12:30 PM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028796/1794398866789427_DP_World_Tour_Championship_Dubai_day2_landscape_thumb.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028796/1794398866789427_DP_World_Tour_Championship_Dubai_day2_landscape_thumb.jpg",
-      "match_url": "https://dai.google.com/ssai/event/hQjoPq5iQkKZf8yDXUMOeg/master.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://dai.google.com/ssai/event/hQjoPq5iQkKZf8yDXUMOeg/master.m3u8"
-      }
     },
     {
       "match_id": "afghanistan-vs-zimbabwe",
