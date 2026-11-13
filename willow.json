@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 92,
   "live_count": 33,
-  "last_update": "09:04 PM 13-11-2026",
+  "last_update": "09:22 PM 13-11-2026",
   "events": [
     {
       "match_id": "B0HPKLKWF7",
@@ -614,6 +614,55 @@
       }
     },
     {
+      "match_id": "nigeria-vs-tanzania",
+      "title": "Nigeria vs Tanzania",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 13, 2026, 10:00:00 PM",
+      "time": "Nov 13, 2026, 10:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4785/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4785/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "beIN SPORTS - AQ": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe",
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
+        "LOW SERVER ": "http://193.47.62.50/hls/ZAZAZAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "south-africa-vs-kenya",
+      "title": "South Africa vs Kenya",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 13, 2026, 10:00:00 PM",
+      "time": "Nov 13, 2026, 10:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4736/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4736/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "beIN SPORTS - AQ": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c",
+        "LOW SERVER ": "http://193.47.62.59/hls/ZAZAZAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "tunisia-vs-libya",
+      "title": "Tunisia vs Libya",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 13, 2026, 10:00:00 PM",
+      "time": "Nov 13, 2026, 10:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/4729/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/4729/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "beIN SPORTS - AQ": "https://bl.rutube.ru/livestream/05550e441b09aeec53e60de66b6c47bf/index.m3u8?s=lLi8AB39t1Leqsc4dCjaew&e=2094539414&scheme=https|user-agent=Mozilla",
+        "LOW SERVER ": "http://193.47.62.55/hls/ZAZAZAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "formula-1",
       "title": "Formula 1",
       "sport": "Motorsport",
@@ -1128,52 +1177,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/4761/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "nigeria-vs-tanzania",
-      "title": "Nigeria vs Tanzania",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 13, 2026, 10:00:00 PM",
-      "time": "Nov 13, 2026, 10:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4785/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4785/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "beIN SPORTS - AQ": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe",
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      }
-    },
-    {
-      "match_id": "south-africa-vs-kenya",
-      "title": "South Africa vs Kenya",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 13, 2026, 10:00:00 PM",
-      "time": "Nov 13, 2026, 10:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4736/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4736/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "beIN SPORTS - AQ": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
-      }
-    },
-    {
-      "match_id": "tunisia-vs-libya",
-      "title": "Tunisia vs Libya",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 13, 2026, 10:00:00 PM",
-      "time": "Nov 13, 2026, 10:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4729/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4729/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "beIN SPORTS - AQ": "https://bl.rutube.ru/livestream/05550e441b09aeec53e60de66b6c47bf/index.m3u8?s=lLi8AB39t1Leqsc4dCjaew&e=2094539414&scheme=https|user-agent=Mozilla"
-      }
     },
     {
       "match_id": "egypt-vs-malawi",
