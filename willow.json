@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 104,
   "live_count": 22,
-  "last_update": "10:04 AM 13-11-2026",
+  "last_update": "10:19 AM 13-11-2026",
   "events": [
     {
       "match_id": "B0HNH5B25Z",
@@ -56,9 +56,9 @@
       "match_id": "B0HLVY22CY",
       "title": "Sri Lanka tour of Pakistan 2026 - 1st Test - Pakistan vs Sri Lanka",
       "synopsis": "Sri Lanka tour of Pakistan 2026 - 1st Test - Pakistan vs Sri Lanka",
-      "status": "UPCOMING",
-      "time": "Live at 10:30 AM BDT",
-      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.c65dfbd7-e120-4b1a-ac5c-60c3981498b0/7/BOXART-16X9/en-US._UR1920,1080_.jpeg",
+      "status": "LIVE",
+      "time": "10 AM BDT",
+      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.c65dfbd7-e120-4b1a-ac5c-60c3981498b0/8/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HLVY22CY?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_3",
       "is_free": false,
       "stream_url_alpha": {
@@ -638,6 +638,24 @@
       "stream_url": {}
     },
     {
+      "match_id": "afghanistan-vs-zimbabwe",
+      "title": "Afghanistan vs Zimbabwe",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Nov 13, 2026, 11:00:36 AM",
+      "time": "Nov 13, 2026, 11:00:36 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/187575/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/187575/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tfcrrqefcx/out/v1/67d930d3a40e495f969711b734f22660/cenc.mpd|drm_key=d006e8b41e37c259818c8d491904d3e7:2f7eceaab743d906957b9958152c8972",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/tfcrrqefcx/out/v1/67d930d3a40e495f969711b734f22660/cenc.mpd|drm_key=d006e8b41e37c259818c8d491904d3e7:2f7eceaab743d906957b9958152c8972",
+        "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8",
+        "FANCODE - IN ": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83461346_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+      }
+    },
+    {
       "match_id": "pakistan-vs-sri-lanka",
       "title": "Pakistan vs Sri Lanka",
       "sport": "Cricket",
@@ -649,8 +667,8 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/187754/image",
       "is_free": false,
       "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7fuqfzj1fx/out/v1/2ac35d6ec3424f39b61a131dccfb75b4/cenc.mpd|drm_key=e148b70d1a84524c6ef092f6d7e2c10a:c1f3cc38fbff104bfdacd0dcd07d0900",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/7fuqfzj1fx/out/v1/2ac35d6ec3424f39b61a131dccfb75b4/cenc.mpd|drm_key=e148b70d1a84524c6ef092f6d7e2c10a:c1f3cc38fbff104bfdacd0dcd07d0900",
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mg8j8enrjm/out/v1/709854ce369042edb21bbc912f26c2e3/cenc.mpd|drm_key=5e8ebd9181946fbaa6e3dbf57be1e08c:7ac65a50bd9833f40eb8d383a5bf2beb",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/mg8j8enrjm/out/v1/709854ce369042edb21bbc912f26c2e3/cenc.mpd|drm_key=5e8ebd9181946fbaa6e3dbf57be1e08c:7ac65a50bd9833f40eb8d383a5bf2beb",
         "TAPMAD - AQ": "https://multiregion-asia-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8|referer=https://tapmad.com/",
         "PTV SPORTS HD": "https://live.msnetworks.net/ptv-sports/master.m3u8",
         "TAPMAD HD": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
@@ -828,24 +846,6 @@
         "LOW SERVER": "http://193.47.62.192/hls/FEEEEQ.m3u8?|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
         "SportsNet - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ccupb3gevq/out/v1/d9d54c61efab463981d1a7d04ceeb44c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=60de674d9db66df9ba090e06871d3554:18071eac168232fc3d45549049c1de6b",
         "UFC TV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9v8cttmhcw/out/v1/df4c5196e3d74e7d8f484fc25d9034f1/cenc.mpd|drm_key=a49085f8da5e65af1efff0edac830b1f:4659bc58a85c062e3fe0c039a446fe47"
-      }
-    },
-    {
-      "match_id": "afghanistan-vs-zimbabwe",
-      "title": "Afghanistan vs Zimbabwe",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 13, 2026, 11:00:36 AM",
-      "time": "Nov 13, 2026, 11:00:36 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/187575/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/187575/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tfcrrqefcx/out/v1/67d930d3a40e495f969711b734f22660/cenc.mpd|drm_key=d006e8b41e37c259818c8d491904d3e7:2f7eceaab743d906957b9958152c8972",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/tfcrrqefcx/out/v1/67d930d3a40e495f969711b734f22660/cenc.mpd|drm_key=d006e8b41e37c259818c8d491904d3e7:2f7eceaab743d906957b9958152c8972",
-        "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8",
-        "FANCODE - IN ": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83461346_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
       }
     },
     {
