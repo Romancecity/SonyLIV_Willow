@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 103,
-  "live_count": 18,
-  "last_update": "08:34 AM 13-11-2026",
+  "live_count": 19,
+  "last_update": "08:50 AM 13-11-2026",
   "events": [
     {
       "match_id": "B0HNH5B25Z",
@@ -609,6 +609,21 @@
       "stream_url": {}
     },
     {
+      "match_id": "australia-vs-england",
+      "title": "Australia vs England",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Nov 13, 2026, 09:30:00 AM",
+      "time": "Nov 13, 2026, 09:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/187746/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/187746/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "EUROSPORT - AQ": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd|drm_key=12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814"
+      }
+    },
+    {
       "match_id": "new-zealand-vs-india",
       "title": "New Zealand vs India",
       "sport": "Cricket",
@@ -622,7 +637,7 @@
       "stream_url_alpha": {
         "PRIME ENG - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dcu7rpwyvi/out/v1/05f98d7430fd4ceeb3317fe61cc536b0/cenc.mpd|drm_key=2a074c6c1178670701cbfeca48c0abe5:d7d84ab8144591ba0a49e443c571bf10",
         "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6learkrmkk/out/v1/ea7695de219f46d1bf645bd975854712/cenc.mpd|drm_key=9daab9f2057ca46ae108997a0886b434:220b4c0284b9a045c49c8cf1ddbb49a8",
-        "PRIME HINDI - AQ": "https://liveakmt-p-md.slivcdn.com/hls/live/2119921/cricodi_1211/HIN/master.m3u8?hdnea=exp=1794573596~acl=/*~id=44345d3f28b0710f8ac67b5f7a254851-1794530395621~hmac=d0589a612cc90b2e61388a2000dac6f50a4872e6917e1a76167d31d3c4fc95b5",
+        "PRIME HINDI - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x9rbps3nff/out/v1/737eb86856de4824b26f7af699a34b56/cenc.mpd|drm_key=4ccabc091fc06e2c983228d547530c5d:0dad1a9082f3e94f66b3b38864ff0f08",
         "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b",
         "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6learkrmkk/out/v1/ea7695de219f46d1bf645bd975854712/cenc.mpd|drm_key=9daab9f2057ca46ae108997a0886b434:220b4c0284b9a045c49c8cf1ddbb49a8",
         "SonyLiv - ENG": "https://sonyeventsglobal.akamaized.net/hls/live/2022321/DAI17-INDNZ/master.m3u8?hdnea=exp=1794577851~acl=/*~id=96293672809354845535538746530706~hmac=8bbbc88d5f85682228d9b734d907fd897180f44db2af882b15a81b06ec12c5fa|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
@@ -831,19 +846,6 @@
         "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8",
         "MYCO HD": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8|referer=https://myco.io/"
       }
-    },
-    {
-      "match_id": "australia-vs-england",
-      "title": "Australia vs England",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 13, 2026, 09:30:00 AM",
-      "time": "Nov 13, 2026, 09:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/187746/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/187746/image",
-      "is_free": false,
-      "stream_url_alpha": {}
     },
     {
       "match_id": "japan-vs-brazil",
