@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 92,
   "live_count": 39,
-  "last_update": "10:47 PM 14-11-2026",
+  "last_update": "10:53 PM 14-11-2026",
   "events": [
     {
       "match_id": "B0HPTP8XSC",
@@ -865,6 +865,37 @@
       }
     },
     {
+      "match_id": "almeria-vs-fc-andorra",
+      "title": "Almeria vs FC Andorra",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 14, 2026, 11:30:00 PM",
+      "time": "Nov 14, 2026, 11:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2858/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2858/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LOW SERVER ": "http://193.47.62.59/hls/VVVVAAAAAQAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
+      "match_id": "mallorca-vs-cordoba",
+      "title": "Mallorca vs Cordoba",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 14, 2026, 11:30:00 PM",
+      "time": "Nov 14, 2026, 11:30:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2826/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2826/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LaLiga Hypermotion ": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a",
+        "LOW SERVER ": "http://193.47.62.59/hls/VVVVAAAAAQAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      }
+    },
+    {
       "match_id": "uganda-vs-botswana",
       "title": "Uganda vs Botswana",
       "sport": "Football",
@@ -1264,37 +1295,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/53/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "almeria-vs-fc-andorra",
-      "title": "Almeria vs FC Andorra",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 14, 2026, 11:30:00 PM",
-      "time": "Nov 14, 2026, 11:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2858/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2858/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "LOW SERVER ": "http://193.47.62.59/hls/VVVVAAAAAQAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
-      "match_id": "mallorca-vs-cordoba",
-      "title": "Mallorca vs Cordoba",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 14, 2026, 11:30:00 PM",
-      "time": "Nov 14, 2026, 11:30:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2826/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2826/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "LaLiga Hypermotion ": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a",
-        "LOW SERVER ": "http://193.47.62.59/hls/VVVVAAAAAQAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
     },
     {
       "match_id": "real-oviedo-vs-girona-fc",
