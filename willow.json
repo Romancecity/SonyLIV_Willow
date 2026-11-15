@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 89,
   "live_count": 34,
-  "last_update": "05:52 PM 15-11-2026",
+  "last_update": "06:18 PM 15-11-2026",
   "events": [
     {
       "match_id": "B0HP83ZWBB",
@@ -778,6 +778,21 @@
       }
     },
     {
+      "match_id": "cd-tenerife-vs-ad-ceuta",
+      "title": "CD Tenerife vs AD Ceuta",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 15, 2026, 07:00:00 PM",
+      "time": "Nov 15, 2026, 07:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/2822/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2822/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LaLiga Hypermotion ": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+      }
+    },
+    {
       "match_id": "formula-1",
       "title": "Formula 1",
       "sport": "Motorsport",
@@ -1070,21 +1085,6 @@
         "TVE La 1 - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=745cd6ec34a58f2f7ac2af35dc3da6d2:ae008f1e47e6567fe4201a6ff8f1ae54",
         "SporTV BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b",
         "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      }
-    },
-    {
-      "match_id": "cd-tenerife-vs-ad-ceuta",
-      "title": "CD Tenerife vs AD Ceuta",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 15, 2026, 07:00:00 PM",
-      "time": "Nov 15, 2026, 07:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/2822/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2822/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "LaLiga Hypermotion ": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
       }
     },
     {
