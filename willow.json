@@ -6,8 +6,8 @@
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
   "channels_amount": 93,
-  "live_count": 36,
-  "last_update": "04:06 PM 15-11-2026",
+  "live_count": 38,
+  "last_update": "04:13 PM 15-11-2026",
   "events": [
     {
       "match_id": "B0HMLW19GT",
@@ -488,20 +488,6 @@
       "drm_key": "3d872367d3ff927c4abf0198dfeb01d2:47945393588cf479b728df327f3bef53"
     },
     {
-      "match_id": "B0HRKKR6LS",
-      "title": "Nov 15 - PTT Carvoeiro",
-      "synopsis": "Nov 15 - PTT Carvoeiro",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.49a9dfcf-7257-4269-b715-b6b3870cdd33/5/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HRKKR6LS",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://live-pv-ta-enf.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWIimAWpwcmltZXZpZGVvBBprDUKzBhpq-XwzA2ZmYXN0bHkCeChmaWQ6MDFhMWRlOGQtMjc3YS03NTZhLTk0N2MtODA0ZTkxNzNlMDZlGQE4oQWhAngzL3I1a3FwYXRvdnQvb3V0L3YxLzE0ODdmYjBlNzZlZjQ2MjQ4ZGZmZTE4ZGE0MjllZjg2WCD5HYTfck1a8VVPHkTrgYH1m2M3E3H1nwNS7u7wPp-Kqw/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/r5kqpatovt/out/v1/1487fb0e76ef46248dffe18da429ef86/d9f1fbba-bf24-417c-88be-8bbf246951f7-cenc.mpd"
-      },
-      "drm_key": "53c018c3509c8668a8b101e779f9493d:27a0e7aeaf83e726cc17586c904f7034"
-    },
-    {
       "match_id": "B0HQ6TRM38",
       "title": "Australia vs. England",
       "synopsis": "Australia vs. England",
@@ -517,6 +503,20 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/dyjtuwdyxi/out/v1/283922b4b56f4887976f2b53ac7aacdc/cenc.mpd"
       },
       "drm_key": "ec7e146b29b33caca854620c0fb05bea:e895d427078bb109a0f6b8fd690dd105"
+    },
+    {
+      "match_id": "B0HRKKR6LS",
+      "title": "Nov 15 - PTT Carvoeiro",
+      "synopsis": "Nov 15 - PTT Carvoeiro",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.49a9dfcf-7257-4269-b715-b6b3870cdd33/5/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HRKKR6LS",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://live-pv-ta-enf.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWIimAWpwcmltZXZpZGVvBBprDUKzBhpq-XwzA2ZmYXN0bHkCeChmaWQ6MDFhMWRlOGQtMjc3YS03NTZhLTk0N2MtODA0ZTkxNzNlMDZlGQE4oQWhAngzL3I1a3FwYXRvdnQvb3V0L3YxLzE0ODdmYjBlNzZlZjQ2MjQ4ZGZmZTE4ZGE0MjllZjg2WCD5HYTfck1a8VVPHkTrgYH1m2M3E3H1nwNS7u7wPp-Kqw/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/r5kqpatovt/out/v1/1487fb0e76ef46248dffe18da429ef86/d9f1fbba-bf24-417c-88be-8bbf246951f7-cenc.mpd"
+      },
+      "drm_key": "53c018c3509c8668a8b101e779f9493d:27a0e7aeaf83e726cc17586c904f7034"
     },
     {
       "match_id": "B0HPZXJ4T7",
@@ -805,30 +805,35 @@
       }
     },
     {
-      "match_id": "new-zealand-vs-india",
-      "title": "New Zealand vs India",
+      "match_id": "scotland-women-vs-united-arab-emirates-women",
+      "title": "Scotland Women vs United Arab Emirates Women",
       "sport": "Cricket",
       "sub_category": "Cricket",
       "status": "LIVE",
-      "start_time_bst": "Nov 15, 2026, 08:00:07 AM",
-      "time": "Nov 15, 2026, 08:00:07 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/187755/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/187755/image",
+      "start_time_bst": "Nov 15, 2026, 03:15:00 PM",
+      "time": "Nov 15, 2026, 03:15:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/453162/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/453162/image",
       "is_free": false,
       "stream_url_alpha": {
-        "PRIME ENG - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yqqst5pqux/out/v1/073a062a7b0847ce932d5eadcebc0ac4/cenc.mpd|drm_key=d2cc5711d3688fa4b639af9c7d0f11f1:dfd6faef548d25c8e4e8bd0c81e10cae",
-        "WILLOW - AQ": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/kun3tuq8ds/out/v1/2888a4861ca042d1a01fc66e65c44981/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1f64db3174349a969b3f9686b28fa2ec:9a24a60537b3628ce17fc07404520d16",
-        "PRIME HINDI - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/urcccugwau/out/v1/a9db6d34fd7c475892f37f566feb5d14/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=be1f10aeaca62da127a95ce24f9ca1c8:19afcfb83c9fbac9b3b6717776474356",
-        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/azerlw3rnq/out/v1/d8655060ec4447548120f9322101963b/cenc.mpd|drm_key=3a4e1c0452e8620aa47a64c82b81f90d:f11223850b04db47d8815871e6b77d05",
-        "SonyLiv - ENG": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_1411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
-        "SonyLiv - HIN": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_1411/HIN/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
-        "SonyLiv - TAM": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_1411/TAM/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
-        "SonyLiv - TEL": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_1411/TEL/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
-        "SonyLiv - KAN": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_1411/KAN/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
-        "TAPMAD BD - AQ": "https://serieAleague.akamaized.net/hls/live/2107107/tap-BK-PSL-D1-E/master.m3u8",
-        "SONYLIV BD - AQ": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_1411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
-        "SONY GLOBAL": "https://sonyeventsglobal.akamaized.net/hls/live/2022321/DAI17-INDNZ/master.m3u8?hdnea=exp=1794750655~acl=/*~id=45577059795063177253236564546996~hmac=b42a889d2ecc0257653da73fdff76e700727ea5be1aa165a20877b8e09094342|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com"
+        "ICC TV - AQ": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1794762426~acl=*%2fchannel(vcg-01-ch-hd-06)%2f*~id=a826bf36-d614-40db-9aa8-6387bdd2ef3b~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=e6dae44ad68e5e59ec90929d9310a562a624cc16ee48602fd0841d3ab0bce07b/manifest.mpd?vcfilter=2053e084-8f75-4dbc-a753-8e79f44d8154|user-agent=Mozilla/5.0 (Linux; Android 8.1.0; SM-T837A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36&drm_key=39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c",
+        "ICC TV - ALT": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1794762426~acl=*%2fchannel(vcg-01-ch-hd-06)%2f*~id=a826bf36-d614-40db-9aa8-6387bdd2ef3b~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=e6dae44ad68e5e59ec90929d9310a562a624cc16ee48602fd0841d3ab0bce07b/manifest.mpd?vcfilter=2053e084-8f75-4dbc-a753-8e79f44d8154|user-agent=Mozilla/5.0 (Linux; Android 8.1.0; SM-T837A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36&drm_key=39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
+      }
+    },
+    {
+      "match_id": "sri-lanka-women-vs-papua-new-guinea-women",
+      "title": "Sri Lanka Women vs Papua New Guinea Women",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Nov 15, 2026, 03:15:00 PM",
+      "time": "Nov 15, 2026, 03:15:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/187806/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/187806/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "ICC TV - AQ": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1794762502~acl=*%2fchannel(vcg-01-ch-hd-07)%2f*~id=a826bf36-d614-40db-9aa8-6387bdd2ef3b~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=b0d8391af41b82b756162253678581ad1ec24a95beee697b5a235b5e36e37b59/manifest.mpd?vcfilter=3c4ef1e7-3ffc-4340-8817-6e3e965075dc|user-agent=Mozilla/5.0 (Linux; Android 8.1.0; SM-T837A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36&drm_key=39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c",
+        "ICC TV - ALT": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1794762502~acl=*%2fchannel(vcg-01-ch-hd-07)%2f*~id=a826bf36-d614-40db-9aa8-6387bdd2ef3b~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=b0d8391af41b82b756162253678581ad1ec24a95beee697b5a235b5e36e37b59/manifest.mpd?vcfilter=3c4ef1e7-3ffc-4340-8817-6e3e965075dc|user-agent=Mozilla/5.0 (Linux; Android 8.1.0; SM-T837A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36&drm_key=39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
       }
     },
     {
@@ -975,30 +980,31 @@
       }
     },
     {
-      "match_id": "scotland-women-vs-united-arab-emirates-women",
-      "title": "Scotland Women vs United Arab Emirates Women",
+      "match_id": "new-zealand-vs-india",
+      "title": "New Zealand vs India",
       "sport": "Cricket",
       "sub_category": "Cricket",
       "status": "UPCOMING",
-      "start_time_bst": "Nov 15, 2026, 03:15:00 PM",
-      "time": "Nov 15, 2026, 03:15:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/453162/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/453162/image",
+      "start_time_bst": "Nov 19, 2026, 04:00:35 AM",
+      "time": "Nov 19, 2026, 04:00:35 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/187755/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/187755/image",
       "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "sri-lanka-women-vs-papua-new-guinea-women",
-      "title": "Sri Lanka Women vs Papua New Guinea Women",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 15, 2026, 03:15:00 PM",
-      "time": "Nov 15, 2026, 03:15:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/187806/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/187806/image",
-      "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "PRIME ENG - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yqqst5pqux/out/v1/073a062a7b0847ce932d5eadcebc0ac4/cenc.mpd|drm_key=d2cc5711d3688fa4b639af9c7d0f11f1:dfd6faef548d25c8e4e8bd0c81e10cae",
+        "WILLOW - AQ": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/kun3tuq8ds/out/v1/2888a4861ca042d1a01fc66e65c44981/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1f64db3174349a969b3f9686b28fa2ec:9a24a60537b3628ce17fc07404520d16",
+        "PRIME HINDI - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/urcccugwau/out/v1/a9db6d34fd7c475892f37f566feb5d14/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=be1f10aeaca62da127a95ce24f9ca1c8:19afcfb83c9fbac9b3b6717776474356",
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/azerlw3rnq/out/v1/d8655060ec4447548120f9322101963b/cenc.mpd|drm_key=3a4e1c0452e8620aa47a64c82b81f90d:f11223850b04db47d8815871e6b77d05",
+        "SonyLiv - ENG": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_1411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
+        "SonyLiv - HIN": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_1411/HIN/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
+        "SonyLiv - TAM": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_1411/TAM/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
+        "SonyLiv - TEL": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_1411/TEL/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
+        "SonyLiv - KAN": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_1411/KAN/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
+        "TAPMAD BD - AQ": "https://serieAleague.akamaized.net/hls/live/2107107/tap-BK-PSL-D1-E/master.m3u8",
+        "SONYLIV BD - AQ": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_1411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
+        "SONY GLOBAL": "https://sonyeventsglobal.akamaized.net/hls/live/2022321/DAI17-INDNZ/master.m3u8?hdnea=exp=1794750655~acl=/*~id=45577059795063177253236564546996~hmac=b42a889d2ecc0257653da73fdff76e700727ea5be1aa165a20877b8e09094342|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com"
+      }
     },
     {
       "match_id": "cyprus-vs-montenegro",
