@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 95,
-  "live_count": 24,
-  "last_update": "11:04 AM 15-11-2026",
+  "channels_amount": 94,
+  "live_count": 25,
+  "last_update": "11:17 AM 15-11-2026",
   "events": [
     {
       "match_id": "B0HMLW19GT",
@@ -465,23 +465,6 @@
       "drm_key": "b74568d74a6d7f5d2a07d903f820cdb1:ea92e2f4ec746aa5e64fd9c4fc6ed3e9"
     },
     {
-      "match_id": "B0HLRLW84Z",
-      "title": "Dallas Baptist at Colorado Mesa",
-      "synopsis": "Dallas Baptist at Colorado Mesa",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.17d3ba79-437f-4cd7-a4cf-60fef220a783/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HLRLW84Z",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ed2ez0prtb/out/v1/811d58e2ba00485eb2a4d5724a2ba196/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ed2ez0prtb/out/v1/811d58e2ba00485eb2a4d5724a2ba196/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ed2ez0prtb/out/v1/811d58e2ba00485eb2a4d5724a2ba196/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ed2ez0prtb/out/v1/811d58e2ba00485eb2a4d5724a2ba196/cenc.mpd"
-      },
-      "drm_key": "6670dbc6eb97a1c7fc6395d952fb00b7:72a3574c534811db5a4804695a184221"
-    },
-    {
       "match_id": "B0HQ6TRM38",
       "title": "Australia vs. England",
       "synopsis": "Australia vs. England",
@@ -705,6 +688,24 @@
       }
     },
     {
+      "match_id": "afghanistan-vs-zimbabwe",
+      "title": "Afghanistan vs Zimbabwe",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Nov 15, 2026, 12:00:52 PM",
+      "time": "Nov 15, 2026, 12:00:52 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/187575/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/187575/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x8iyqzo7wh/out/v1/8c628f2f334e46a683092f62d2659733/cenc.mpd|drm_key=9373c3f08c6578544e0ea1999e95418b:10a7f6e8177486dfca9bb5696779dd02",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/x8iyqzo7wh/out/v1/8c628f2f334e46a683092f62d2659733/cenc.mpd|drm_key=9373c3f08c6578544e0ea1999e95418b:10a7f6e8177486dfca9bb5696779dd02",
+        "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8",
+        "FANCODE - IN ": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83461346_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+      }
+    },
+    {
       "match_id": "australia-vs-england",
       "title": "Australia vs England",
       "sport": "Cricket",
@@ -750,6 +751,37 @@
         "TAPMAD BD - AQ": "https://serieAleague.akamaized.net/hls/live/2107107/tap-BK-PSL-D1-E/master.m3u8",
         "SONYLIV BD - AQ": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_1411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
         "SONY GLOBAL": "https://sonyeventsglobal.akamaized.net/hls/live/2022321/DAI17-INDNZ/master.m3u8?hdnea=exp=1794750655~acl=/*~id=45577059795063177253236564546996~hmac=b42a889d2ecc0257653da73fdff76e700727ea5be1aa165a20877b8e09094342|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com"
+      }
+    },
+    {
+      "match_id": "pakistan-women-vs-netherlands-women",
+      "title": "Pakistan Women vs Netherlands Women",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Nov 15, 2026, 11:00:00 AM",
+      "time": "Nov 15, 2026, 11:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/187808/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/187808/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "ICC TV - AQ": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1794746954~acl=*%2fchannel(vcg-01-ch-hd-07)%2f*~id=df636eee-0529-4299-91da-e8ce8c8790f0~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=1bbefebe7c8bfa5924713a1f017cea6a4aca1d11982804278024ba67d7f7327f/manifest.mpd?vcfilter=4db2fe0f-df2f-4bd1-a899-32148564ef76|user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36&drm_key=39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c",
+        "TAMASHA HD": "https://cdn08khi-n.tamashaweb.com:8087/jazzauth/ICC-women-NT2026-abr/live/Wome-emerging-promo/chunks.m3u8?nimblesessionid=6161332&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTUvMjAyNiA0OjQ2OjUzIEFNJmhhc2hfdmFsdWU9N1poQklFN0FacjVLTzIrVW9HeUNxQT09JnZhbGlkbWludXRlcz02MA=="
+      }
+    },
+    {
+      "match_id": "thailand-women-vs-zimbabwe-women",
+      "title": "Thailand Women vs Zimbabwe Women",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Nov 15, 2026, 11:00:00 AM",
+      "time": "Nov 15, 2026, 11:00:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/446070/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/446070/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "CRICFy LIVE": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1794747162~acl=*%2fchannel(vcg-01-ch-hd-06)%2f*~id=df636eee-0529-4299-91da-e8ce8c8790f0~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=703533e15aacdfe118bb0670a65b1bd8cb4a1fc5b474e004a57b98c852359c01/manifest.mpd?vcfilter=faf519ce-04cb-42eb-a76d-37a2444c8315|user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36&drm_key=39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
       }
     },
     {
@@ -853,24 +885,6 @@
       }
     },
     {
-      "match_id": "afghanistan-vs-zimbabwe",
-      "title": "Afghanistan vs Zimbabwe",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 15, 2026, 12:00:52 PM",
-      "time": "Nov 15, 2026, 12:00:52 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/187575/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/187575/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x8iyqzo7wh/out/v1/8c628f2f334e46a683092f62d2659733/cenc.mpd|drm_key=9373c3f08c6578544e0ea1999e95418b:10a7f6e8177486dfca9bb5696779dd02",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/x8iyqzo7wh/out/v1/8c628f2f334e46a683092f62d2659733/cenc.mpd|drm_key=9373c3f08c6578544e0ea1999e95418b:10a7f6e8177486dfca9bb5696779dd02",
-        "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8",
-        "FANCODE - IN ": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83461346_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
-      }
-    },
-    {
       "match_id": "npl-nepal-premier-league",
       "title": "NPL Nepal Premier League",
       "sport": "Cricket",
@@ -958,32 +972,6 @@
         "WILLOW HD": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
         "LOW SERVER ": "http://193.47.62.55/hls/VFFF.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
-    },
-    {
-      "match_id": "pakistan-women-vs-netherlands-women",
-      "title": "Pakistan Women vs Netherlands Women",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 15, 2026, 11:00:00 AM",
-      "time": "Nov 15, 2026, 11:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/187808/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/187808/image",
-      "is_free": false,
-      "stream_url_alpha": {}
-    },
-    {
-      "match_id": "thailand-women-vs-zimbabwe-women",
-      "title": "Thailand Women vs Zimbabwe Women",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 15, 2026, 11:00:00 AM",
-      "time": "Nov 15, 2026, 11:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/446070/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/446070/image",
-      "is_free": false,
-      "stream_url_alpha": {}
     },
     {
       "match_id": "scotland-women-vs-united-arab-emirates-women",
