@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 77,
   "live_count": 38,
-  "last_update": "04:42 PM 15-11-2026",
+  "last_update": "04:50 PM 15-11-2026",
   "events": [
     {
       "match_id": "B0HQ6TRM38",
@@ -581,6 +581,25 @@
       }
     },
     {
+      "match_id": "abu-dhabi-t10-league",
+      "title": "Abu Dhabi T10 League",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Nov 15, 2026, 05:30:45 PM",
+      "time": "Nov 15, 2026, 05:30:45 PM",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "cover_image": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "is_free": false,
+      "stream_url_alpha": {
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yooa0wvxcv/out/v1/53f82e2b94514842bf43719b50613549/cenc.mpd|drm_key=ab5b5cecc72d2468a6bb0cb095549adf:498bea5d3276c0fdbb38e8b10703c44c",
+        "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/yooa0wvxcv/out/v1/53f82e2b94514842bf43719b50613549/cenc.mpd|drm_key=ab5b5cecc72d2468a6bb0cb095549adf:498bea5d3276c0fdbb38e8b10703c44c",
+        "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8",
+        "MYCO HD": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8|referer=https://myco.io/"
+      }
+    },
+    {
       "match_id": "australia-vs-england",
       "title": "Australia vs England",
       "sport": "Cricket",
@@ -756,25 +775,6 @@
         "PTV SPORTS HD": "https://live.msnetworks.net/ptv-sports/master.m3u8",
         "TAPMAD HD": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
         "LOW SERVER ": "http://193.47.62.50/hls/VFFFA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
-      "match_id": "abu-dhabi-t10-league",
-      "title": "Abu Dhabi T10 League",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 15, 2026, 05:30:45 PM",
-      "time": "Nov 15, 2026, 05:30:45 PM",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-      "cover_image": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-      "is_free": false,
-      "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yooa0wvxcv/out/v1/53f82e2b94514842bf43719b50613549/cenc.mpd|drm_key=ab5b5cecc72d2468a6bb0cb095549adf:498bea5d3276c0fdbb38e8b10703c44c",
-        "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/yooa0wvxcv/out/v1/53f82e2b94514842bf43719b50613549/cenc.mpd|drm_key=ab5b5cecc72d2468a6bb0cb095549adf:498bea5d3276c0fdbb38e8b10703c44c",
-        "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8",
-        "MYCO HD": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8|referer=https://myco.io/"
       }
     },
     {
