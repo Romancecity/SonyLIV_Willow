@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 97,
-  "live_count": 42,
-  "last_update": "09:37 PM 15-11-2026",
+  "channels_amount": 92,
+  "live_count": 38,
+  "last_update": "09:41 PM 15-11-2026",
   "events": [
     {
       "match_id": "B0HRNBGJB1",
@@ -56,13 +56,19 @@
       "match_id": "B0HPKZ4KBF",
       "title": "Abu Dhabi T10 League 2026 - 21st Match - United Tigers vs Yas Lions",
       "synopsis": "Abu Dhabi T10 League 2026 - 21st Match - United Tigers vs Yas Lions",
-      "status": "UPCOMING",
-      "time": "Live at 10 PM BDT",
-      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.6ada6f7f-9923-405e-974d-23a253e82ab9/1/BOXART-16X9/en-US._UR1920,1080_.jpeg",
+      "status": "LIVE",
+      "time": "9:45 PM BDT",
+      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.6ada6f7f-9923-405e-974d-23a253e82ab9/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HPKZ4KBF?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_3",
       "is_free": false,
-      "stream_url_alpha": "",
-      "drm_key": ""
+      "stream_url_alpha": {
+        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/r1ic5dmtdq/out/v1/0f83fcd8375647beb2cb53661e99f35f/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/r1ic5dmtdq/out/v1/0f83fcd8375647beb2cb53661e99f35f/cenc.mpd",
+        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/r1ic5dmtdq/out/v1/0f83fcd8375647beb2cb53661e99f35f/cenc.mpd",
+        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/r1ic5dmtdq/out/v1/0f83fcd8375647beb2cb53661e99f35f/cenc.mpd",
+        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/r1ic5dmtdq/out/v1/0f83fcd8375647beb2cb53661e99f35f/cenc.mpd"
+      },
+      "drm_key": "160ab6fd511b22c2d9cae43f7e2d44d6:e68f37a955c76b640f9f158cb35fcce6"
     },
     {
       "match_id": "B0HP83ZWBB",
@@ -669,48 +675,6 @@
       }
     },
     {
-      "match_id": "1090553637",
-      "title": "Indian Idol - Legends Return",
-      "synopsis": "Indian Idol - Legends Return features a unique two-phase journey. Phase 1 features Himesh Reshammiya and 24 former contestants competing in duets evaluated by peer scores and a secret judge score, forming a winning jodi. This pair becomes mentors in Phase 2, guiding fresh aspirants through auditions alongside the returning judges.",
-      "status": "LIVE",
-      "time": "15 Nov 2026, 07:30 PM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029000/1794636446368905_idol_legends_1st_elimination_14nov_simulcast_landscape_thumb.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029000/1794636446368905_idol_legends_1st_elimination_14nov_simulcast_landscape_thumb.jpg",
-      "match_url": "https://dai.google.com/ssai/event/ahLdkaRoSWavrsFLPU8THA/master.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://dai.google.com/ssai/event/ahLdkaRoSWavrsFLPU8THA/master.m3u8"
-      }
-    },
-    {
-      "match_id": "1090554015",
-      "title": "Latvia vs Armenia - 15 Nov 2026",
-      "synopsis": "Watch Latvia take on Armenia in the UEFA Nations League 2026-27 as the two nations meet for another important test, each looking to make their mark and close out the group stage with a positive result, LIVE only on Sony LIV.",
-      "status": "LIVE",
-      "time": "15 Nov 2026, 07:20 PM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027715/1793198605065884_UNL26_MD6_Latvia_vs_Armenia_landscape_thumb.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027715/1793198605065884_UNL26_MD6_Latvia_vs_Armenia_landscape_thumb.jpg",
-      "match_url": "https://dai.google.com/ssai/event/OYu66B-PRtG9VX-BLWUj7w/master.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://dai.google.com/ssai/event/OYu66B-PRtG9VX-BLWUj7w/master.m3u8"
-      }
-    },
-    {
-      "match_id": "1090554016",
-      "title": "Cyprus vs Montenegro - 15 Nov 2026",
-      "synopsis": "Watch Cyprus face Montenegro in the UEFA Nations League 2026-27 as two sides with plenty to prove meet on the pitch, aiming to turn their final group-stage outing into a statement performance, LIVE only on Sony LIV.",
-      "status": "LIVE",
-      "time": "15 Nov 2026, 07:20 PM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027754/1793248801127967_UNL26_MD6_Cyprus_vs_Montenegro_landscape_thumb.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027754/1793248801127967_UNL26_MD6_Cyprus_vs_Montenegro_landscape_thumb.jpg",
-      "match_url": "https://dai.google.com/ssai/event/Dgl3FMfCS6mHdHu8tjUB-w/master.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://dai.google.com/ssai/event/Dgl3FMfCS6mHdHu8tjUB-w/master.m3u8"
-      }
-    },
-    {
       "match_id": "1090554106",
       "title": "Upcoming - 1st Test - India Tour Of New Zealand 2026",
       "synopsis": "Tune in to catch all the action from India Tour of New Zealand 2026, only on Sony LIV.",
@@ -834,58 +798,17 @@
       "sport": "Cricket",
       "sub_category": "Cricket",
       "status": "LIVE",
-      "start_time_bst": "Nov 15, 2026, 07:45:30 PM",
-      "time": "Nov 15, 2026, 07:45:30 PM",
+      "start_time_bst": "Nov 15, 2026, 10:00:29 PM",
+      "time": "Nov 15, 2026, 10:00:29 PM",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
       "cover_image": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
       "is_free": false,
       "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gbxtruggg2/out/v1/b8172045e5c9414c8cb5e70a909585ac/cenc.mpd|drm_key=61b5aed045f5f30c90cbbdd368b2abaf:7f9159dd162612a77f4c770199b27671",
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pcfnauj90i/out/v1/ce20f95d46394bbdb2d7361cc89efe65/cenc.mpd|drm_key=160ab6fd511b22c2d9cae43f7e2d44d6:e68f37a955c76b640f9f158cb35fcce6",
         "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/gbxtruggg2/out/v1/b8172045e5c9414c8cb5e70a909585ac/cenc.mpd|drm_key=61b5aed045f5f30c90cbbdd368b2abaf:7f9159dd162612a77f4c770199b27671",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/pcfnauj90i/out/v1/ce20f95d46394bbdb2d7361cc89efe65/cenc.mpd|drm_key=160ab6fd511b22c2d9cae43f7e2d44d6:e68f37a955c76b640f9f158cb35fcce6",
         "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8",
         "MYCO HD": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8|referer=https://myco.io/"
-      }
-    },
-    {
-      "match_id": "cyprus-vs-montenegro",
-      "title": "Cyprus vs Montenegro",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Nov 15, 2026, 08:00:00 PM",
-      "time": "Nov 15, 2026, 08:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4482/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4482/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "DAZN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wefdfonlnc/out/v1/4bd2d041433b4b58861d63df0b1677c6/cenc.mpd|drm_key=a431dd45ed2508b47290213500617f23:b6363b41b5807dcb1f568f4f64718691",
-        "PRIME VIDEO - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/aghlyfvogt/out/v1/4d5a657a11624b12856887453a15b612/cenc.mpd|drm_key=9bf7c61f3ce6a153280dab88b23f3057:5fd57e93bb680d530ac999f7c217a87a",
-        "FOX SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-        "VIX SPANISH - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/khw3chre2o/out/v1/d2f281563daa4c8da8e2fd168552b757/cenc.mpd|drm_key=7bc4236304752eaeab92f844412eebe8:2610dfd2072192991a8b66283d5840aa",
-        "CRICFy LIVE ": "https://chatgpt.hereisman.net/playlist/60149/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-        "LOW SERVER ": "http://193.47.62.59/hls/K555.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      }
-    },
-    {
-      "match_id": "latvia-vs-armenia",
-      "title": "Latvia vs Armenia",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Nov 15, 2026, 08:00:00 PM",
-      "time": "Nov 15, 2026, 08:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/4706/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4706/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "DAZN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zfvwrztx8j/out/v1/f1c6c8f0ca414b70b148bedd0f394213/cenc.mpd|drm_key=d8d8c5f233f0bdd4439dfb26a58c355f:6899e04bd16a60638c9e5fd0a5b5d4d9",
-        "PRIME VIDEO - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/te0xlcvi8o/out/v1/d5cd6d7f35c9452bbf7f2b88cf1f50fa/cenc.mpd|drm_key=e0c256a38e47c7c19ee0d8503bfdfe17:bed1c37c30e103e66e64e562b9b32833",
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-        "VIX SPANISH - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hwjlmyb59s/out/v1/c8dfa6294cb34255a3a6ba81fbf286f7/cenc.mpd|drm_key=e3f9cc220f9e73b355ae62bb40ba90fb:6e5f24e4e845e5d552a28787ff470d9d",
-        "FOX SOCCER+ HD": "https://chatgpt.hereisman.net/playlist/60148/load-playlist-multi?|Referer=https://gooz.aapmains.net",
-        "LOW SERVER": "http://193.47.62.59/hls/K555A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -900,7 +823,8 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/33779/image",
       "is_free": false,
       "stream_url_alpha": {
-        "LaLiga Hypermotion ": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+        "LaLiga Hypermotion ": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a",
+        "LOW SERVER": "http://193.47.62.44/hls/HMMMAAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
