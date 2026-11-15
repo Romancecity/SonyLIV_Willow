@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 101,
-  "live_count": 41,
-  "last_update": "07:04 AM 15-11-2026",
+  "channels_amount": 100,
+  "live_count": 38,
+  "last_update": "07:05 AM 15-11-2026",
   "events": [
     {
       "match_id": "B0HKFYV7MD",
@@ -38,19 +38,13 @@
       "match_id": "B0HMLW19GT",
       "title": "India tour of New Zealand 2026 - 5th ODI - New Zealand vs India",
       "synopsis": "India tour of New Zealand 2026 - 5th ODI - New Zealand vs India",
-      "status": "LIVE",
-      "time": "7:30 AM BDT",
-      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.2d150b96-e992-43cb-96a8-e4e4b5c08847/4/BOXART-16X9/en-US._UR1920,1080_.jpeg",
+      "status": "UPCOMING",
+      "time": "Live at 8 AM BDT",
+      "cover_image": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.2d150b96-e992-43cb-96a8-e4e4b5c08847/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
       "match_url": "https://www.amazon.com/gp/video/detail/B0HMLW19GT?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_2",
       "is_free": false,
-      "stream_url_alpha": {
-        "Fistly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/azerlw3rnq/out/v1/d8655060ec4447548120f9322101963b/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/azerlw3rnq/out/v1/d8655060ec4447548120f9322101963b/cenc.mpd",
-        "Akamai Server": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/azerlw3rnq/out/v1/d8655060ec4447548120f9322101963b/cenc.mpd",
-        "Cloudfront Server 1": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/azerlw3rnq/out/v1/d8655060ec4447548120f9322101963b/cenc.mpd",
-        "Cloudfront Server 2": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/azerlw3rnq/out/v1/d8655060ec4447548120f9322101963b/cenc.mpd"
-      },
-      "drm_key": "3a4e1c0452e8620aa47a64c82b81f90d:f11223850b04db47d8815871e6b77d05"
+      "stream_url_alpha": "",
+      "drm_key": ""
     },
     {
       "match_id": "B0HQ6TRM38",
@@ -449,6 +443,23 @@
       "drm_key": ""
     },
     {
+      "match_id": "B0HNT819CY",
+      "title": "AEW Full Gear: Buy-In",
+      "synopsis": "AEW Full Gear: Buy-In",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.e9b15864-36ce-428c-affa-19b3d4c41a04/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HNT819CY",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/y3mtc7phj2/out/v1/a48ab8dfd51c4d1f9a08774b3cd4c49e/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/y3mtc7phj2/out/v1/a48ab8dfd51c4d1f9a08774b3cd4c49e/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/y3mtc7phj2/out/v1/a48ab8dfd51c4d1f9a08774b3cd4c49e/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/y3mtc7phj2/out/v1/a48ab8dfd51c4d1f9a08774b3cd4c49e/cenc.mpd"
+      },
+      "drm_key": "fa5e8db5359fc7d1f15207d5de2a3ac4:78a6c0a41972dfdba2145ae0ad4bd681"
+    },
+    {
       "match_id": "B0HHMG5RL4",
       "title": "Athletic Club Boise at Charlotte Independence",
       "synopsis": "Athletic Club Boise at Charlotte Independence",
@@ -483,6 +494,23 @@
       "drm_key": "6670dbc6eb97a1c7fc6395d952fb00b7:72a3574c534811db5a4804695a184221"
     },
     {
+      "match_id": "B0HPPW3NV7",
+      "title": "American Poolplayers Association Billiards-2026 American Poolplayers Association: U.S. Amateur Championships",
+      "synopsis": "American Poolplayers Association Billiards-2026 American Poolplayers Association: U.S. Amateur Championships",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.278f3432-6f97-4e04-9146-4f132f7929e8/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HPPW3NV7",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd"
+      },
+      "drm_key": "18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67"
+    },
+    {
       "match_id": "B0HQMS7SRW",
       "title": "Governor's Cup at New Smyrna Speedway",
       "synopsis": "Governor's Cup at New Smyrna Speedway",
@@ -498,23 +526,6 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/d4bm3wili0/out/v1/0139d2336b32481b956ff21357e97f0d/cenc.mpd"
       },
       "drm_key": "2bead1627019ccc863e138410a8893ad:9fcd23f01aaef2bcf9c5cb2907f86aca"
-    },
-    {
-      "match_id": "B0HMLW19GT",
-      "title": "India tour of New Zealand 2026 - 5th ODI - New Zealand vs India",
-      "synopsis": "India tour of New Zealand 2026 - 5th ODI - New Zealand vs India",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.2d150b96-e992-43cb-96a8-e4e4b5c08847/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/s-z/willowtv/logos/channels-logo-white-stacked.png%7C0,0,1920,1080+0,0,1920,1080+1724,885,117,117_kvebed36e78eaa0330f200bb6045a52aca_SX624_FMjpg_.jpeg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HMLW19GT",
-      "is_free": false,
-      "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/azerlw3rnq/out/v1/d8655060ec4447548120f9322101963b/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/azerlw3rnq/out/v1/d8655060ec4447548120f9322101963b/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/azerlw3rnq/out/v1/d8655060ec4447548120f9322101963b/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/azerlw3rnq/out/v1/d8655060ec4447548120f9322101963b/cenc.mpd"
-      },
-      "drm_key": "3a4e1c0452e8620aa47a64c82b81f90d:f11223850b04db47d8815871e6b77d05"
     },
     {
       "match_id": "B0HDZGGVHJ",
@@ -534,21 +545,38 @@
       "drm_key": "b74568d74a6d7f5d2a07d903f820cdb1:ea92e2f4ec746aa5e64fd9c4fc6ed3e9"
     },
     {
-      "match_id": "B0HPPW3NV7",
-      "title": "American Poolplayers Association Billiards-2026 American Poolplayers Association: U.S. Amateur Championships",
-      "synopsis": "American Poolplayers Association Billiards-2026 American Poolplayers Association: U.S. Amateur Championships",
+      "match_id": "B0HRJML79K",
+      "title": "HSR Daytona Classic 24 Hour",
+      "synopsis": "HSR Daytona Classic 24 Hour",
       "status": "LIVE",
       "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.278f3432-6f97-4e04-9146-4f132f7929e8/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HPPW3NV7",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.8c579352-5e8a-4d8d-a603-6d522de22fa0/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HRJML79K",
       "is_free": false,
       "stream_url": {
-        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd",
-        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd",
-        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd",
-        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd"
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd"
       },
-      "drm_key": "18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67"
+      "drm_key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
+    },
+    {
+      "match_id": "B0HPT5X2MH",
+      "title": "Megabox Volley Vallefoglia vs. Il Bisonte Firenze",
+      "synopsis": "Megabox Volley Vallefoglia vs. Il Bisonte Firenze",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.2eda2270-158e-4093-b255-ed4b2a734291/11/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HPT5X2MH",
+      "is_free": false,
+      "stream_url": {
+        "Fastly Server": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xuduw3ueoe/out/v1/1f4214b57faf489fa608906bec814ec3/cenc.mpd",
+        "Amazon Server": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xuduw3ueoe/out/v1/1f4214b57faf489fa608906bec814ec3/cenc.mpd",
+        "Cloudfront Server 1": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/xuduw3ueoe/out/v1/1f4214b57faf489fa608906bec814ec3/cenc.mpd",
+        "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/xuduw3ueoe/out/v1/1f4214b57faf489fa608906bec814ec3/cenc.mpd"
+      },
+      "drm_key": "dfa8e3854cb8ae706b7b28f22b16cbe2:c8dad1be3999d0aee9bf702316a03f6b"
     },
     {
       "match_id": "B0HPDVV6BS",
@@ -630,86 +658,30 @@
       "drm_key": "3e9764e2bc99a02c73e697c3ebddb982:707300263ad9cf5f38f01ff564ffdb96"
     },
     {
-      "match_id": "B0HQJ8QR7B",
-      "title": "Nov 14 - PTT Oxford",
-      "synopsis": "Nov 14 - PTT Oxford",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.3f416978-0318-45fb-8b6d-ce0b11ff67c7/5/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HQJ8QR7B",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://ABBIN37AAAAAAAAMFQDIUPX5JXJHO.ta-enf.bia-cf.live.pv-cdn.net/$T$2D3RhEOhAQWhBFgkYzQ1OWU1YmItZDgxMS00NGM2LTgwYzQtNTNkZDc3NTIwODk5WIymAWpwcmltZXZpZGVvBBprDNI1Bhpq-Qu1A2pjbG91ZGZyb250AngoZmlkOjAxYTFkY2Q1LWJjZTUtNzc2OC1hZTE0LTM5OTgyOWNjMDg3YRkBOKEFoQJ4My9kYWxtbnd2Z2c4L291dC92MS9lMDkyZjIyMWRjMWQ0MTgwYTI0NzY5MjhjNDUxMzg4ZFgg5A7gZowiOK9fCa-cCEhdbbcj0Zgk8YRi_HSyfRcK-Z4/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/dalmnwvgg8/out/v1/e092f221dc1d4180a2476928c451388d/5cf5463b-8f44-42fb-9ee9-78bdcb16a6e5-cenc.mpd"
-      },
-      "drm_key": "847da013d39a6968059553721cfb9f41:fb993c4123fcfb2f7db40a70c0b6e85e"
-    },
-    {
-      "match_id": "1090542016",
-      "title": "Family Full House With Rohit Sharma",
-      "synopsis": "Family Full House with Rohit Sharma features Indian cricketer Rohit Sharma making his television hosting debut on Sony TV. The family-focused game show brings competing families together for fun, survey-based trivia infused with Rohit's signature laid-back wit and humor.",
-      "status": "LIVE",
-      "time": "14 Nov 2026, 08:55 PM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028728/179428964961395_FFH26_simulcast_10nov_landscape_thumb.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028728/179428964961395_FFH26_simulcast_10nov_landscape_thumb.jpg",
-      "match_url": "https://dai.google.com/ssai/event/275o2m1SSRGJAqHCQfrzbQ/master.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://dai.google.com/ssai/event/275o2m1SSRGJAqHCQfrzbQ/master.m3u8"
-      }
-    },
-    {
-      "match_id": "1090547482",
-      "title": "Kon Honaar Crorepati",
-      "synopsis": "Hosted by Madhuri Dixit, Kon Honar Crorepati is a thrilling Marathi quiz show where knowledge, courage and smart decisions can change lives. Contestants take on challenging questions for a chance to win a life-changing prize, while the new season raises the stakes with a fresh energy and one promise: Aata Khel Badalnar!",
-      "status": "LIVE",
-      "time": "14 Nov 2026, 08:30 PM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028865/1794493302237513_KHC26_rev_12nov_simulcast_landscape.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028865/1794493302237513_KHC26_rev_12nov_simulcast_landscape.jpg",
-      "match_url": "https://dai.google.com/ssai/event/6XQmX_6eS2CU62zY9X1Q3w/master.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://dai.google.com/ssai/event/6XQmX_6eS2CU62zY9X1Q3w/master.m3u8"
-      }
-    },
-    {
-      "match_id": "1090553637",
-      "title": "Indian Idol - Legends Return",
-      "synopsis": "Indian Idol - Legends Return features a unique two-phase journey. Phase 1 features Himesh Reshammiya and 24 former contestants competing in duets evaluated by peer scores and a secret judge score, forming a winning jodi. This pair becomes mentors in Phase 2, guiding fresh aspirants through auditions alongside the returning judges.",
-      "status": "LIVE",
-      "time": "14 Nov 2026, 07:30 PM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029000/1794636446368905_idol_legends_1st_elimination_14nov_simulcast_landscape_thumb.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029000/1794636446368905_idol_legends_1st_elimination_14nov_simulcast_landscape_thumb.jpg",
-      "match_url": "https://dai.google.com/ssai/event/Myr-ILIeTBy_ZpY8gtoaRQ/master.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://dai.google.com/ssai/event/Myr-ILIeTBy_ZpY8gtoaRQ/master.m3u8"
-      }
-    },
-    {
-      "match_id": "1090553933",
-      "title": "Kosovo vs Israel - 14 Nov 2026",
-      "synopsis": "Watch Kosovo take on Israel in the UEFA Nations League 2026-27. Both teams will be eager to showcase their quality, deliver a strong performance and secure an important victory in this international contest. Watch the action LIVE, only on Sony LIV.",
-      "status": "LIVE",
-      "time": "14 Nov 2026, 07:20 PM",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027677/1793268731743871_UNL26_MD5_Kosovo-vs-Israel_live_landscape_thumb.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027677/1793268731743871_UNL26_MD5_Kosovo-vs-Israel_live_landscape_thumb.jpg",
-      "match_url": "https://dai.google.com/ssai/event/AmQPWgDqQUWpYQBuiuFZhw/master.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://dai.google.com/ssai/event/AmQPWgDqQUWpYQBuiuFZhw/master.m3u8"
-      }
-    },
-    {
-      "match_id": "1090554104",
-      "title": "Upcoming - 5th ODI - India Tour Of New Zealand 2026",
-      "synopsis": "Tune in to catch all the action from India Tour of New Zealand 2026, only on Sony LIV.",
+      "match_id": "1090554160",
+      "title": "5th ODI - 15 Nov 2026",
+      "synopsis": "As the series reaches its decisive stage, India face New Zealand in the crucial 5th ODI of the India Tour of New Zealand 2026. With every run, wicket and partnership carrying immense importance, both teams will look to finish the series on a high. Who will rise to the occasion in this final showdown? Watch all the action LIVE, only on Sony LIV.",
       "status": "UPCOMING",
-      "time": "",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028889/1794518402348975_NZvsIND_5th_ODI_Promo_landscape_thumb_dated.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028889/1794518402348975_NZvsIND_5th_ODI_Promo_landscape_thumb_dated.jpg",
-      "match_url": "https://www.sonyliv.com/custom-live/1090554104",
+      "time": "15 Nov 2026, 06:30 AM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029027/1794655981421358_NZvsIND_5th_ODI_landscape_thumb.jpg",
+      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029027/1794655981421358_NZvsIND_5th_ODI_landscape_thumb.jpg",
+      "match_url": "https://www.sonyliv.com/custom-live/1090554160",
       "is_free": false,
       "stream_url": {}
+    },
+    {
+      "match_id": "1090554243",
+      "title": "UFC 334 - Gane vs Hokit - 15 Nov 2026",
+      "synopsis": "Ciryl Gane defends his undisputed Men's Heavyweight Championship against the undefeated challenger Josh Hokit in the main event of UFC 334. Watch all the action LIVE, only on Sony LIV.",
+      "status": "LIVE",
+      "time": "15 Nov 2026, 05:30 AM",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028975/1794577928244764_UFC-334_live_landscape_thumb.jpg",
+      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028975/1794577928244764_UFC-334_live_landscape_thumb.jpg",
+      "match_url": "https://dai.google.com/ssai/event/y0MKvdhXTFu4Wch-TT5taQ/master.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://dai.google.com/ssai/event/y0MKvdhXTFu4Wch-TT5taQ/master.m3u8"
+      }
     },
     {
       "match_id": "1090554106",
@@ -724,26 +696,38 @@
       "stream_url": {}
     },
     {
-      "match_id": "1090553650",
-      "title": "Upcoming - Matchday 5 - UEFA Nations League 2026-27",
+      "match_id": "1090554422",
+      "title": "Upcoming - Belgium vs Italy - UEFA Nations League 2026-27",
       "synopsis": "Watch all the action from the UEFA Nations League 2026-27, exclusively on Sony LIV.",
       "status": "UPCOMING",
       "time": "",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028983/1794593108406911_UNL_Portugal_vs_Denmark_Promo_landscape_thumb_tonight.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028983/1794593108406911_UNL_Portugal_vs_Denmark_Promo_landscape_thumb_tonight.jpg",
-      "match_url": "https://www.sonyliv.com/custom-live/1090553650",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029070/1794684064588792_UNL_Belgium_vs_Italy_Promo_landscape_thumb_dated.jpg",
+      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029070/1794684064588792_UNL_Belgium_vs_Italy_Promo_landscape_thumb_dated.jpg",
+      "match_url": "https://www.sonyliv.com/custom-live/1090554422",
       "is_free": false,
       "stream_url": {}
     },
     {
-      "match_id": "1090553633",
-      "title": "Upcoming - UFC 334 - Gane vs Hokit",
-      "synopsis": "Tune in to catch all the action from UFC 334 - Gane vs Hokit, only on Sony LIV. ",
+      "match_id": "1090554423",
+      "title": "Upcoming - Spain vs England - UEFA Nations League 2026-27",
+      "synopsis": "Watch all the action from the UEFA Nations League 2026-27, exclusively on Sony LIV.",
       "status": "UPCOMING",
       "time": "",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028973/1794577038912434_UFC-334_DDT_landscape_thumb.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028973/1794577038912434_UFC-334_DDT_landscape_thumb.jpg",
-      "match_url": "https://www.sonyliv.com/custom-live/1090553633",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028753/1794310707562247_UNL26_Spain_vs_england_dated_landscape_thumb.jpg",
+      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028753/1794310707562247_UNL26_Spain_vs_england_dated_landscape_thumb.jpg",
+      "match_url": "https://www.sonyliv.com/custom-live/1090554423",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "1090554424",
+      "title": "Upcoming - Matchday 6 - UEFA Nations League 2026-27",
+      "synopsis": "Watch all the action from the UEFA Nations League 2026-27, exclusively on Sony LIV.",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029069/1794681748721257_UNL_France_vs_Turkiye_Promo_landscape_thumb_dated.jpg",
+      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029069/1794681748721257_UNL_France_vs_Turkiye_Promo_landscape_thumb_dated.jpg",
+      "match_url": "https://www.sonyliv.com/custom-live/1090554424",
       "is_free": false,
       "stream_url": {}
     },
