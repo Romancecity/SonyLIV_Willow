@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 99,
   "live_count": 28,
-  "last_update": "08:40 AM 15-11-2026",
+  "last_update": "08:51 AM 15-11-2026",
   "events": [
     {
       "match_id": "B0HKFYV7MD",
@@ -777,6 +777,29 @@
       }
     },
     {
+      "match_id": "australia-vs-england",
+      "title": "Australia vs England",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Nov 15, 2026, 09:30:50 AM",
+      "time": "Nov 15, 2026, 09:30:50 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/187746/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/187746/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cs4bb976aa/out/v1/18bfdac2326c4055b5be76a41172ff9c/cenc.mpd|drm_key=ec7e146b29b33caca854620c0fb05bea:e895d427078bb109a0f6b8fd690dd105",
+        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/cs4bb976aa/out/v1/18bfdac2326c4055b5be76a41172ff9c/cenc.mpd|drm_key=ec7e146b29b33caca854620c0fb05bea:e895d427078bb109a0f6b8fd690dd105",
+        "EUROSPORT - AQ": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd|drm_key=12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814",
+        "TAPMAD - AQ": "https://tencent-cdn.tapmad.com/v1/01a14a9fb90c15fc60e91e1786b061/01a14a9feb881ea540a81c2b41b75e/main.m3u8?|Referer=https://tapmad.com/",
+        "TEN SPORTS HD": "https://live.msnetworks.net/ten-sports/master.m3u8",
+        "WILLOW HD": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd|drm_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
+        "LOW SERVER": "http://193.47.62.41/hls/vvvve.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+        "FANCODE - IN": "https://in-mc-flive.fancode.com/mumbai/4250640_english_hls_531bf4661e7063_1ta-di_h264/1080p.m3u8?hdntl=Expires=1794628546~_GO=Generated~acl=/mumbai/4250640_english_hls_531bf4661e7063_1ta-di_h264/*~SessionID=330387595_fc-web_e17f533d-0cb8-4f~Signature=AbO9BjhOYLd1GmMfhOhHHklnPOfhTKBOpq8RY94K5cvEs32zsfobefwN_2FtsFC-VmxLp67-63kmnIeMKq08MmKZpgcO"
+      }
+    },
+    {
       "match_id": "new-zealand-vs-india",
       "title": "New Zealand vs India",
       "sport": "Cricket",
@@ -972,29 +995,6 @@
         "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/yooa0wvxcv/out/v1/53f82e2b94514842bf43719b50613549/cenc.mpd|drm_key=ab5b5cecc72d2468a6bb0cb095549adf:498bea5d3276c0fdbb38e8b10703c44c",
         "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8",
         "MYCO HD": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8|referer=https://myco.io/"
-      }
-    },
-    {
-      "match_id": "australia-vs-england",
-      "title": "Australia vs England",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 15, 2026, 09:30:50 AM",
-      "time": "Nov 15, 2026, 09:30:50 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/187746/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/187746/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cs4bb976aa/out/v1/18bfdac2326c4055b5be76a41172ff9c/cenc.mpd|drm_key=ec7e146b29b33caca854620c0fb05bea:e895d427078bb109a0f6b8fd690dd105",
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drm_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/cs4bb976aa/out/v1/18bfdac2326c4055b5be76a41172ff9c/cenc.mpd|drm_key=ec7e146b29b33caca854620c0fb05bea:e895d427078bb109a0f6b8fd690dd105",
-        "EUROSPORT - AQ": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd|drm_key=12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814",
-        "TAPMAD - AQ": "https://tencent-cdn.tapmad.com/v1/01a14a9fb90c15fc60e91e1786b061/01a14a9feb881ea540a81c2b41b75e/main.m3u8?|Referer=https://tapmad.com/",
-        "TEN SPORTS HD": "https://live.msnetworks.net/ten-sports/master.m3u8",
-        "WILLOW HD": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd|drm_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
-        "LOW SERVER": "http://193.47.62.41/hls/vvvve.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-        "FANCODE - IN": "https://in-mc-flive.fancode.com/mumbai/4250640_english_hls_531bf4661e7063_1ta-di_h264/1080p.m3u8?hdntl=Expires=1794628546~_GO=Generated~acl=/mumbai/4250640_english_hls_531bf4661e7063_1ta-di_h264/*~SessionID=330387595_fc-web_e17f533d-0cb8-4f~Signature=AbO9BjhOYLd1GmMfhOhHHklnPOfhTKBOpq8RY94K5cvEs32zsfobefwN_2FtsFC-VmxLp67-63kmnIeMKq08MmKZpgcO"
       }
     },
     {
