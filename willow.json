@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 92,
+  "channels_amount": 91,
   "live_count": 24,
-  "last_update": "01:07 PM 15-11-2026",
+  "last_update": "01:16 PM 15-11-2026",
   "events": [
     {
       "match_id": "B0HMLW19GT",
@@ -722,6 +722,22 @@
       }
     },
     {
+      "match_id": "south-africa-vs-bangladesh",
+      "title": "South Africa vs Bangladesh",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Nov 15, 2026, 02:00:00 PM",
+      "time": "Nov 15, 2026, 02:00:00 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/187747/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/187747/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vmsojksiyc/out/v1/5d915e7f388946c09ed9d07fd40f9f96/cenc.mpd|drm_key=3d872367d3ff927c4abf0198dfeb01d2:47945393588cf479b728df327f3bef53",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vmsojksiyc/out/v1/5d915e7f388946c09ed9d07fd40f9f96/cenc.mpd|drm_key=3d872367d3ff927c4abf0198dfeb01d2:47945393588cf479b728df327f3bef53"
+      }
+    },
+    {
       "match_id": "new-zealand-vs-india",
       "title": "New Zealand vs India",
       "sport": "Cricket",
@@ -777,22 +793,6 @@
       "is_free": false,
       "stream_url_alpha": {
         "CRICFy LIVE": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1794747162~acl=*%2fchannel(vcg-01-ch-hd-06)%2f*~id=df636eee-0529-4299-91da-e8ce8c8790f0~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=703533e15aacdfe118bb0670a65b1bd8cb4a1fc5b474e004a57b98c852359c01/manifest.mpd?vcfilter=faf519ce-04cb-42eb-a76d-37a2444c8315|user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36&drm_key=39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
-      }
-    },
-    {
-      "match_id": "new-zealand-vs-india-football",
-      "title": "New Zealand vs India Football",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "LIVE",
-      "start_time_bst": "Nov 15, 2026, 09:00:00 AM",
-      "time": "Nov 15, 2026, 09:00:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/4784/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/4784/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?|Referer=https://xlz.domainkqt.cc/",
-        "LOW SERVER": "http://193.47.62.55/hls/SSSSAAAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       }
     },
     {
@@ -917,19 +917,6 @@
         "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8",
         "MYCO HD": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8|referer=https://myco.io/"
       }
-    },
-    {
-      "match_id": "south-africa-vs-bangladesh",
-      "title": "South Africa vs Bangladesh",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 15, 2026, 02:00:00 PM",
-      "time": "Nov 15, 2026, 02:00:00 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/187747/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/187747/image",
-      "is_free": false,
-      "stream_url_alpha": {}
     },
     {
       "match_id": "bbl-women-big-bash-league",
