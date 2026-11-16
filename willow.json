@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 78,
   "live_count": 17,
-  "last_update": "11:08 AM 16-11-2026",
+  "last_update": "11:19 AM 16-11-2026",
   "events": [
     {
       "match_id": "B0HP83ZWBB",
@@ -547,6 +547,24 @@
       }
     },
     {
+      "match_id": "afghanistan-vs-zimbabwe",
+      "title": "Afghanistan vs Zimbabwe",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Nov 16, 2026, 12:00:57 PM",
+      "time": "Nov 16, 2026, 12:00:57 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/187575/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/187575/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/obarp6nvg5/out/v1/99d085ed0a6e40c58b53a53d7b823278/cenc.mpd|drm_key=b6745cf86849992016a18fa701bbe4c7:1868048f6a964c749f14fb2fc26788f4",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/obarp6nvg5/out/v1/99d085ed0a6e40c58b53a53d7b823278/cenc.mpd|drm_key=b6745cf86849992016a18fa701bbe4c7:1868048f6a964c749f14fb2fc26788f4",
+        "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8",
+        "FANCODE - IN ": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83461346_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+      }
+    },
+    {
       "match_id": "bangladesh-women-vs-netherlands-women",
       "title": "Bangladesh Women vs Netherlands Women",
       "sport": "Cricket",
@@ -559,7 +577,8 @@
       "is_free": false,
       "stream_url_alpha": {
         "ICC TV - AQ": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1793826930~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~data=hdntl~hmac=86bb4dab4965edbb17cf9c68e7ec9c4968aa12755d013277de1be6a272599bff/manifest.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36&drm_key=39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c",
-        "ICC TV - ALT": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1793826930~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~data=hdntl~hmac=86bb4dab4965edbb17cf9c68e7ec9c4968aa12755d013277de1be6a272599bff/manifest.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36&drm_key=39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
+        "MYCO - AQ": "https://ml-pull-rtmp-pk1.myco.io/Feed1/hls/index.m3u8|referer=https://myco.io/",
+        "TAMASHA - AQ": "https://cdn01lhr-n.tamashaweb.com:8087/appcast/ICC-women-NT2026-svod-B-abr/playlist.m3u8"
       }
     },
     {
@@ -575,7 +594,8 @@
       "is_free": false,
       "stream_url_alpha": {
         "ICC TV - AQ": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1793826930~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~data=hdntl~hmac=86bb4dab4965edbb17cf9c68e7ec9c4968aa12755d013277de1be6a272599bff/manifest.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36&drm_key=39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c",
-        "ICC TV - ALT": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1793826930~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~data=hdntl~hmac=86bb4dab4965edbb17cf9c68e7ec9c4968aa12755d013277de1be6a272599bff/manifest.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36&drm_key=39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
+        "TAMASHA - AQ": "https://cdn01lhr-n.tamashaweb.com:8087/appcast/ICC-women-NT2026-svod-abr/playlist.m3u8",
+        "MYCO - AQ": "https://ml-pull-rtmp-pk1.myco.io/Feed2/hls/index.m3u8|referer=https://myco.io/"
       }
     },
     {
@@ -660,24 +680,6 @@
         "HD SERVER": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/1.m3u8",
         "CRICFy HD": "https://edgestream2.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
         "SD SERVER ": "http://193.47.62.59/hls/K999QQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    },
-    {
-      "match_id": "afghanistan-vs-zimbabwe",
-      "title": "Afghanistan vs Zimbabwe",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 16, 2026, 12:00:57 PM",
-      "time": "Nov 16, 2026, 12:00:57 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/187575/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/187575/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6yweffzpen/out/v1/197dbda9339c436c95282a80d109cbd6/cenc.mpd|drm_key=5c58e89e55b6ca6b7155cc78c8e2300d:949c2c45b7bbfab1d09f7c9bb96e2e4c",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6yweffzpen/out/v1/197dbda9339c436c95282a80d109cbd6/cenc.mpd|drm_key=5c58e89e55b6ca6b7155cc78c8e2300d:949c2c45b7bbfab1d09f7c9bb96e2e4c",
-        "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8",
-        "FANCODE - IN ": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83461346_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
       }
     },
     {
