@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 84,
   "live_count": 38,
-  "last_update": "12:43 AM 17-11-2026",
+  "last_update": "12:54 AM 17-11-2026",
   "events": [
     {
       "match_id": "B0HKZY847Z",
@@ -857,6 +857,21 @@
       }
     },
     {
+      "match_id": "albacete-balompie-vs-celta-fortuna",
+      "title": "Albacete Balompie vs Celta Fortuna",
+      "sport": "Football",
+      "sub_category": "Football",
+      "status": "LIVE",
+      "start_time_bst": "Nov 17, 2026, 01:30:00 AM",
+      "time": "Nov 17, 2026, 01:30:00 AM",
+      "logo": "https://img.sofascore.com/api/v1/team/2848/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/2848/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "LaLiga Hypermotion": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+      }
+    },
+    {
       "match_id": "formula-1",
       "title": "Formula 1",
       "sport": "Motorsport",
@@ -1174,21 +1189,6 @@
       "cover_image": "https://img.sofascore.com/api/v1/team/4818/image",
       "is_free": false,
       "stream_url_alpha": {}
-    },
-    {
-      "match_id": "albacete-balompie-vs-celta-fortuna",
-      "title": "Albacete Balompie vs Celta Fortuna",
-      "sport": "Football",
-      "sub_category": "Football",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 17, 2026, 01:30:00 AM",
-      "time": "Nov 17, 2026, 01:30:00 AM",
-      "logo": "https://img.sofascore.com/api/v1/team/2848/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/2848/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "LaLiga Hypermotion": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|drm_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      }
     },
     {
       "match_id": "singapore-vs-brazil",
