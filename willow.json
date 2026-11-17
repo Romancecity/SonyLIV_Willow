@@ -7,7 +7,7 @@
   "version": "1.0",
   "channels_amount": 74,
   "live_count": 30,
-  "last_update": "11:08 AM 17-11-2026",
+  "last_update": "11:20 AM 17-11-2026",
   "events": [
     {
       "match_id": "B0HKZY847Z",
@@ -612,6 +612,24 @@
       }
     },
     {
+      "match_id": "afghanistan-vs-zimbabwe",
+      "title": "Afghanistan vs Zimbabwe",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "LIVE",
+      "start_time_bst": "Nov 17, 2026, 12:00:48 PM",
+      "time": "Nov 17, 2026, 12:00:48 PM",
+      "logo": "https://img.sofascore.com/api/v1/team/187575/image",
+      "cover_image": "https://img.sofascore.com/api/v1/team/187575/image",
+      "is_free": false,
+      "stream_url_alpha": {
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/obarp6nvg5/out/v1/99d085ed0a6e40c58b53a53d7b823278/cenc.mpd|drm_key=b6745cf86849992016a18fa701bbe4c7:1868048f6a964c749f14fb2fc26788f4",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/obarp6nvg5/out/v1/99d085ed0a6e40c58b53a53d7b823278/cenc.mpd|drm_key=b6745cf86849992016a18fa701bbe4c7:1868048f6a964c749f14fb2fc26788f4",
+        "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8",
+        "FANCODE - IN ": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83461346_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+      }
+    },
+    {
       "match_id": "pakistan-vs-sri-lanka",
       "title": "Pakistan vs Sri Lanka",
       "sport": "Cricket",
@@ -918,24 +936,6 @@
         "CRICFy WWE": "https://jellyfin.fromthyheart.site/dailymotion/live/playlist/1.m3u8",
         "SD SERVER": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?|Referer=https://26hrwgorfcmh.windows-devs.top/",
         "HD SERVER": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_HD/apache.m3u8?|referer=https://26hrwgorfcmh.windows-devs.top/"
-      }
-    },
-    {
-      "match_id": "afghanistan-vs-zimbabwe",
-      "title": "Afghanistan vs Zimbabwe",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 17, 2026, 12:00:48 PM",
-      "time": "Nov 17, 2026, 12:00:48 PM",
-      "logo": "https://img.sofascore.com/api/v1/team/187575/image",
-      "cover_image": "https://img.sofascore.com/api/v1/team/187575/image",
-      "is_free": false,
-      "stream_url_alpha": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/obarp6nvg5/out/v1/99d085ed0a6e40c58b53a53d7b823278/cenc.mpd|drm_key=b6745cf86849992016a18fa701bbe4c7:1868048f6a964c749f14fb2fc26788f4",
-        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/obarp6nvg5/out/v1/99d085ed0a6e40c58b53a53d7b823278/cenc.mpd|drm_key=b6745cf86849992016a18fa701bbe4c7:1868048f6a964c749f14fb2fc26788f4",
-        "A SPORTS HD": "https://live.msnetworks.net/a-sports/master.m3u8",
-        "FANCODE - IN ": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83461346_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
       }
     },
     {
