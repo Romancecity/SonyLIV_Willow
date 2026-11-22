@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 227,
-  "live_count": 23,
-  "last_update": "03:44 AM 23-11-2026",
+  "channels_amount": 225,
+  "live_count": 22,
+  "last_update": "03:46 AM 23-11-2026",
   "events": [
     {
       "match_id": "B0HM4ZHT1F",
@@ -643,18 +643,6 @@
       "stream_url": {}
     },
     {
-      "match_id": "1090554106",
-      "title": "Upcoming - 1st Test - India Tour Of New Zealand 2026",
-      "synopsis": "Tune in to catch all the action from India Tour of New Zealand 2026, only on Sony LIV.",
-      "status": "UPCOMING",
-      "time": "",
-      "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029344/1795027876381725_NZvsIND_1st_test_day1_today_landscape_thumb.jpg",
-      "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029344/1795027876381725_NZvsIND_1st_test_day1_today_landscape_thumb.jpg",
-      "match_url": "https://www.sonyliv.com/custom-live/1090554106",
-      "is_free": false,
-      "stream_url": {}
-    },
-    {
       "match_id": "1090555981",
       "title": "Upcoming - India A vs UAE - DP World Asia Cup Rising Stars Men's 2026",
       "synopsis": "Watch India A take on UAE in a thrilling DP World Asia Cup Rising Stars Men's 2026 clash, only on Sony LIV.",
@@ -811,47 +799,20 @@
       "stream_url": {}
     },
     {
-      "match_id": "marseille-vs-le mans-ligue-one-live-match",
-      "title": "Marseille vs Le Mans",
-      "sport": "Football",
-      "sub_category": "French Ligue 1 2026/27",
-      "status": "LIVE",
-      "start_time_bst": "Nov 23, 2026, 01:45:00 AM",
-      "time": "Nov 23, 2026, 01:45:00 AM",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1794902947540x302.jpg",
-      "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1794902947540x302.jpg",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Server 1": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8"
-      }
-    },
-    {
-      "match_id": "laliga--getafe-vs-atletico-madrid-live",
-      "title": "Getafe vs Atletico Madrid",
-      "sport": "Football",
-      "sub_category": "LaLiga 2026/27",
-      "status": "LIVE",
-      "start_time_bst": "Nov 23, 2026, 02:00:00 AM",
-      "time": "Nov 23, 2026, 02:00:00 AM",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1795172829540x302.jpg",
-      "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1795172829540x302.jpg",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Server 1": "https://tencent-cdn.tapmad.com/v1/01a145b15ce115fc600b1e3e9683db/01a145b24db11ea557841e1612cf4c/main.m3u8"
-      }
-    },
-    {
       "match_id": "nz-vs-ind-1st-test-live",
       "title": "New Zealand vs India",
       "sport": "Cricket",
       "sub_category": "India Tour of New Zealand 2026",
-      "status": "UPCOMING",
-      "start_time_bst": "Nov 23, 2026, 04:00:00 AM",
-      "time": "Nov 23, 2026, 04:00:00 AM",
+      "status": "LIVE",
+      "start_time_bst": "Nov 19, 2026, 04:00:00 AM",
+      "time": "Nov 19, 2026, 04:00:00 AM",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1794553818540x302.jpg",
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1794553818540x302.jpg",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "Server 1": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
+        "Server 2": "https://serieAleague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8"
+      }
     },
     {
       "match_id": "afc-champions-league-elite-PFC Neftchi vs Al Hilal SFC",
@@ -1032,6 +993,19 @@
       "time": "Nov 24, 2026, 06:15:00 PM",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1795166319540x302.jpg",
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1795166319540x302.jpg",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "afc-champions-league-two",
+      "title": "East Bengal FC (IND) vs Al Hussein (JOR)",
+      "sport": "Cricket",
+      "sub_category": "AFC Champions League Two 2026/27",
+      "status": "UPCOMING",
+      "start_time_bst": "Nov 24, 2026, 07:45:00 PM",
+      "time": "Nov 24, 2026, 07:45:00 PM",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1795159818540x302.jpg",
+      "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1795159818540x302.jpg",
       "is_free": false,
       "stream_url_alpha": {}
     },
