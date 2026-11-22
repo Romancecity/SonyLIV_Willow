@@ -66,6 +66,95 @@ jobs:
               clean_text = res.content.decode('utf-8-sig', errors='ignore').strip()
               return json.loads(clean_text)
 
+          # ================= TAPMAD =================
+          def is_tapmad_item(item):
+              if not isinstance(item, dict):
+                  return False
+              tapmad_keys = ["EntityId", "VideoName", "EventStartDate", "ThumbnailStandard", "UrlSlug", "IsFreeToWatch"]
+              return any(k in item for k in tapmad_keys)
+
+          def detect_sport_name(category, title="", description=""):
+              text = f"{category} {title} {description}".lower()
+              if any(w in text for w in ["cricket", "t20", "odi", "test", "big bash", "wbbl", "bbl", "ipl", "psl", "bpl", "cpl", "icc", "asia cup"]):
+                  return "Cricket"
+              if any(w in text for w in ["football", "soccer", "la liga", "premier league", "champions league", "uefa", "fifa", "bundesliga", "serie a", "ligue 1"]):
+                  return "Football"
+              if any(w in text for w in ["tennis", "atp", "wta", "wimbledon", "open"]):
+                  return "Tennis"
+              if any(w in text for w in ["basketball", "nba"]):
+                  return "Basketball"
+              if any(w in text for w in ["hockey", "fih"]):
+                  return "Hockey"
+              if any(w in text for w in ["ufc", "mma", "boxing", "wwe", "wrestling"]):
+                  return "Combat Sports"
+              if any(w in text for w in ["formula 1", "f1", "motogp", "motorsport"]):
+                  return "Motorsport"
+              return "Sports"
+
+          def format_event_time(raw_time):
+              if not raw_time:
+                  return ""
+              raw_str = str(raw_time).strip()
+              for fmt in ["%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%d %H:%M"]:
+                  try:
+                      dt = datetime.strptime(raw_str, fmt)
+                      return dt.strftime("%b %d, %Y, %I:%M:%S %p")
+                  except ValueError:
+                      continue
+              return raw_str
+
+          def transform_tapmad_item(item):
+              title = item.get("VideoName") or item.get("title") or "Sports Match"
+              sub_category = item.get("CategoryName") or item.get("StageName") or ""
+              description = item.get("Description") or ""
+              sport = item.get("sport") or detect_sport_name(sub_category, title, description)
+
+              match_id = str(item.get("UrlSlug") or item.get("EntityId") or item.get("id") or "")
+              logo = item.get("ThumbnailStandard") or item.get("ThumbnailTV") or item.get("logo") or item.get("cover_image") or ""
+              is_free = bool(item.get("IsFreeToWatch", False))
+
+              formatted_time = format_event_time(item.get("EventStartDate") or item.get("time") or "")
+
+              status_raw = str(item.get("Status") or item.get("status") or "").strip().upper()
+              if status_raw in ["LIVE", "PLAYING", "IN_PLAY"]:
+                  status = "LIVE"
+              elif status_raw:
+                  status = status_raw
+              else:
+                  status = "UPCOMING"
+
+              stream_url_alpha = {}
+              raw_streams = item.get("stream_url")
+              if isinstance(raw_streams, list):
+                  for idx, u in enumerate(raw_streams, 1):
+                      if isinstance(u, str) and u.strip().startswith("http"):
+                          stream_url_alpha[f"Server {idx}"] = u.strip()
+                      elif isinstance(u, dict):
+                          s_name = u.get("channel_name") or u.get("name") or f"Server {idx}"
+                          s_url = u.get("raw_link") or u.get("url") or u.get("link") or ""
+                          if s_url and str(s_url).strip().startswith("http"):
+                              stream_url_alpha[s_name] = str(s_url).strip()
+              elif isinstance(raw_streams, dict):
+                  for k, v in raw_streams.items():
+                      if v and str(v).strip().startswith("http"):
+                          stream_url_alpha[str(k)] = str(v).strip()
+              elif isinstance(raw_streams, str) and raw_streams.strip().startswith("http"):
+                  stream_url_alpha["Server 1"] = raw_streams.strip()
+
+              return {
+                  "match_id": match_id,
+                  "title": title,
+                  "sport": sport,
+                  "sub_category": sub_category,
+                  "status": status,
+                  "start_time_bst": formatted_time,
+                  "time": formatted_time,
+                  "logo": logo,
+                  "cover_image": logo,
+                  "is_free": is_free,
+                  "stream_url_alpha": stream_url_alpha
+              }
+
           # ================= LIVE SPORTS HD =================
           def is_livesports_item(item):
               if not isinstance(item, dict):
@@ -326,6 +415,12 @@ jobs:
               if item.get("has_ended") is True:
                   return False
 
+              explicit_status = str(item.get("status") or item.get("Status") or "").strip().upper()
+              if explicit_status in ["LIVE", "PLAYING", "IN_PLAY"]:
+                  return True
+              if explicit_status in ["UPCOMING", "SCHEDULED", "ENDED", "COMPLETED", "FINISHED", "NOT_STARTED"]:
+                  return False
+
               stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
               dai = stream_info.get("dai_asset_key") or stream_info.get("dai_url") or item.get("dai_asset_key") or item.get("dai_url")
               if dai and str(dai).startswith("http"):
@@ -349,7 +444,7 @@ jobs:
                       if val in [True, 1, "true", "1", "live", "yes", "True", "LIVE"]:
                           return True
 
-              for k in ["status", "event_status", "match_status", "badge", "state"]:
+              for k in ["status", "Status", "event_status", "match_status", "badge", "state"]:
                   if k in item and isinstance(item[k], str) and "live" in item[k].lower():
                       return True
                   if k in v_info and isinstance(v_info[k], str) and "live" in v_info[k].lower():
@@ -366,13 +461,13 @@ jobs:
                           walk(elem)
                   elif isinstance(obj, dict):
                       is_match_item = False
-                      has_id = any(k in obj for k in ["contentId", "match_id", "eventId", "event_id", "id", "fixture_id", "slug"])
-                      has_media = any(k in obj for k in ["channels", "link_live", "video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "multiple_audio_links", "video_url", "video URL", "videoUrl", "videoURL"])
-                      has_sports = any(k in obj for k in ["localteam_name", "visitorteam_name", "league_name", "timelive", "is_playing", "sub_category", "sport", "teams"])
+                      has_id = any(k in obj for k in ["EntityId", "UrlSlug", "contentId", "match_id", "eventId", "event_id", "id", "fixture_id", "slug"])
+                      has_media = any(k in obj for k in ["channels", "link_live", "video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "multiple_audio_links", "video_url", "video URL", "videoUrl", "videoURL", "ThumbnailStandard", "ThumbnailTV"])
+                      has_sports = any(k in obj for k in ["VideoName", "CategoryName", "EventStartDate", "localteam_name", "visitorteam_name", "league_name", "timelive", "is_playing", "sub_category", "sport", "teams"])
 
                       if (has_id and (has_media or has_sports)) or has_media:
                           is_match_item = True
-                      elif any(k in obj for k in ["title", "name"]) and any(k in obj for k in ["channels", "match_url", "status", "stream_url", "cover_image", "time", "start_time", "bd_time", "link_live"]):
+                      elif any(k in obj for k in ["title", "name", "VideoName"]) and any(k in obj for k in ["channels", "match_url", "status", "Status", "stream_url", "cover_image", "ThumbnailStandard", "time", "start_time", "EventStartDate", "bd_time", "link_live"]):
                           is_match_item = True
 
                       if is_match_item:
@@ -388,7 +483,18 @@ jobs:
               seen = set()
               unique_items = []
               for it in items:
-                  uid = it.get("slug") or it.get("contentId") or it.get("match_id") or it.get("eventId") or it.get("id") or it.get("title") or it.get("name")
+                  uid = (
+                      it.get("EntityId") or
+                      it.get("slug") or
+                      it.get("UrlSlug") or
+                      it.get("contentId") or
+                      it.get("match_id") or
+                      it.get("eventId") or
+                      it.get("id") or
+                      it.get("title") or
+                      it.get("VideoName") or
+                      it.get("name")
+                  )
                   if uid and uid not in seen:
                       seen.add(uid)
                       unique_items.append(it)
@@ -406,7 +512,9 @@ jobs:
               
               url = url_line.strip()
               url_lower = url.lower()
-              if "willow" in url_lower:
+              if "tapmad" in url_lower:
+                  return "Tapmad", "tapmad.txt", url
+              elif "willow" in url_lower:
                   return "Willow", "willow.txt", url
               elif "prime" in url_lower:
                   return "PrimeVideo", "primevideo.txt", url
@@ -431,6 +539,7 @@ jobs:
               name, txt_filename, url = get_playlist_info(line)
               current_source_items = []
               is_bing_source = ("bing" in name.lower() or "bing" in url.lower() or "bingstream" in url.lower())
+              is_tapmad_source = ("tapmad" in name.lower() or "tapmad" in url.lower())
               
               try:
                   print(f"[{idx}/{len(lines)}] Fetching: {name} from {url[:45]}...")
@@ -440,7 +549,9 @@ jobs:
                   for it in raw_items:
                       if not isinstance(it, dict):
                           continue
-                      if is_livesports_item(it):
+                      if is_tapmad_source or is_tapmad_item(it):
+                          current_source_items.append(transform_tapmad_item(it))
+                      elif is_livesports_item(it):
                           current_source_items.append(transform_livesports_item(it))
                       elif is_sonyliv_item(it):
                           current_source_items.append(transform_sonyliv_item(it))
