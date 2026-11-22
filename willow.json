@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 271,
-  "live_count": 44,
-  "last_update": "11:05 PM 22-11-2026",
+  "channels_amount": 267,
+  "live_count": 40,
+  "last_update": "11:07 PM 22-11-2026",
   "events": [
     {
       "match_id": "B0HQV79TCV",
@@ -531,6 +531,20 @@
       "drm_key": "bc80c0b7f64185f59b3eb9129ea16f4d:625c429192608e209508a10c86780a7c"
     },
     {
+      "match_id": "B0HQDPHVQW",
+      "title": "Nov 22 - PTT Miami",
+      "synopsis": "Nov 22 - PTT Miami",
+      "status": "LIVE",
+      "time": "LIVE NOW",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.dd240d3b-21ce-4cf1-b764-7b41ab983fc9/3/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0HQDPHVQW",
+      "is_free": false,
+      "stream_url": {
+        "Original Server": "https://a197live-pv-ta-enf-amazon.akamaized.net/$T$2D3RhEOhAQWhBFgkYWY3NDZlZjAtYzM0OC00MGM1LWFjN2UtYTVhZWIzNjhiNjA0WIimAWpwcmltZXZpZGVvBBprFrx_BhprAvX_A2Zha2FtYWkCeChmaWQ6MDFhMjAzOTAtZWM4OC03NzljLTlmYWMtNjQ5M2RhMzE3ZTUzGQE4oQWhAngzL2ZwMHZqcG1jZ2ovb3V0L3YxL2IwZDdlZTM0OTU5NzQ0Y2M4MDc4MWRlODY3ZTFhYmIxWCAqvSz2ajBNaumJAcbHBItZYTYH2_kPWkBJKXYvZ887JA/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/fp0vjpmcgj/out/v1/b0d7ee34959744cc80781de867e1abb1/624ada4c-44d2-4e60-9abb-4b60214f362e-cenc.mpd"
+      },
+      "drm_key": "2818291a94115ea94510233fd0d4f7f7:5eba58d36f54acdc00b89dfc7aa7b63d"
+    },
+    {
       "match_id": "B0HHJKDWF6",
       "title": "Dubai Capitals vs. Abu Dhabi Knight Riders",
       "synopsis": "Dubai Capitals vs. Abu Dhabi Knight Riders",
@@ -546,20 +560,6 @@
         "Cloudfront Server 2": "https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd"
       },
       "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-    },
-    {
-      "match_id": "B0HQDPHVQW",
-      "title": "Nov 22 - PTT Miami",
-      "synopsis": "Nov 22 - PTT Miami",
-      "status": "LIVE",
-      "time": "LIVE NOW",
-      "cover_image": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.dd240d3b-21ce-4cf1-b764-7b41ab983fc9/3/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png",
-      "match_url": "https://www.amazon.com/gp/video/detail/B0HQDPHVQW",
-      "is_free": false,
-      "stream_url": {
-        "Original Server": "https://a197live-pv-ta-enf-amazon.akamaized.net/$T$2D3RhEOhAQWhBFgkYWY3NDZlZjAtYzM0OC00MGM1LWFjN2UtYTVhZWIzNjhiNjA0WIimAWpwcmltZXZpZGVvBBprFrx_BhprAvX_A2Zha2FtYWkCeChmaWQ6MDFhMjAzOTAtZWM4OC03NzljLTlmYWMtNjQ5M2RhMzE3ZTUzGQE4oQWhAngzL2ZwMHZqcG1jZ2ovb3V0L3YxL2IwZDdlZTM0OTU5NzQ0Y2M4MDc4MWRlODY3ZTFhYmIxWCAqvSz2ajBNaumJAcbHBItZYTYH2_kPWkBJKXYvZ887JA/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/fp0vjpmcgj/out/v1/b0d7ee34959744cc80781de867e1abb1/624ada4c-44d2-4e60-9abb-4b60214f362e-cenc.mpd"
-      },
-      "drm_key": "2818291a94115ea94510233fd0d4f7f7:5eba58d36f54acdc00b89dfc7aa7b63d"
     },
     {
       "match_id": "B0HPPCMV76",
@@ -767,7 +767,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Oneplay Sport (CZ)": "https://hls.lshls.st/secure_hls.php?path=94a7b5b18c19cbc29688540ab79335b5%2Findex.m3u8&e=1795370239&sig=x-i8E79Nvce-BBeSvSTmm3C4hA83Xu_afIXKvnZ5hKg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Oneplay Sport (CZ)": "https://hls.lshls.st/secure_hls.php?path=94a7b5b18c19cbc29688540ab79335b5%2Findex.m3u8&e=1795370541&sig=L2tI6ajH1KKLgkVl0yE598y29YDbScg6MniIKJi81Hs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -782,52 +782,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Oneplay Sport (CZ)": "https://hls.lshls.st/secure_hls.php?path=76a5e19e42340a9ff599bf9453b1e07f%2Findex.m3u8&e=1795370240&sig=MQR3FVrIh1_8N7tDGekPjJY-t5n7aog51VPy6CQd57A|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
-      }
-    },
-    {
-      "match_id": "germany-3-liga-football-saarbrucken-wehen-wiesbaden-2026-11-22-17-30",
-      "title": "Saarbrücken vs Wehen Wiesbaden",
-      "sport": "Football",
-      "sub_category": "Germany 3. Liga",
-      "status": "LIVE",
-      "start_time_bst": "Nov 22, 2026, 09:30:00 PM",
-      "time": "Nov 22, 2026, 09:30:00 PM",
-      "logo": "https://i.ibb.co.com/JwDc9ckh/Football.png",
-      "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=3bc7b152b1a24a36514887f5cfeef106%2Findex.m3u8&e=1795370240&sig=76xYLePlqTMNREKviQ24IBRfgDf6D25_MSIFPxs6joE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
-      }
-    },
-    {
-      "match_id": "switzerland-super-league-football-basel-luzern-2026-11-22-17-30",
-      "title": "Basel vs Luzern",
-      "sport": "Football",
-      "sub_category": "Switzerland Super League",
-      "status": "LIVE",
-      "start_time_bst": "Nov 22, 2026, 09:30:00 PM",
-      "time": "Nov 22, 2026, 09:30:00 PM",
-      "logo": "https://i.ibb.co.com/JwDc9ckh/Football.png",
-      "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Blue Sport D 1 (CH)": "https://hls.lshls.st/secure_hls.php?path=63adbc7962c412ee814438d257acede7%2Findex.m3u8&e=1795370241&sig=ylaLlHFHrUQKeNWN64Iwg4lMoyBPV03Q-yDr7DYxDqg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
-      }
-    },
-    {
-      "match_id": "greece-super-league-football-panathinaikos-ofi-2026-11-22-17-30",
-      "title": "Panathinaikos vs OFI",
-      "sport": "Football",
-      "sub_category": "Greece Super League",
-      "status": "LIVE",
-      "start_time_bst": "Nov 22, 2026, 09:30:00 PM",
-      "time": "Nov 22, 2026, 09:30:00 PM",
-      "logo": "https://i.ibb.co.com/JwDc9ckh/Football.png",
-      "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
-      "is_free": false,
-      "stream_url_alpha": {
-        "Skai TV (GR)": "https://hls.lshls.st/secure_hls.php?path=64a1542a3502580b17414b317feff30a%2Findex.m3u8&e=1795370239&sig=JXZUPiyY43sO1rLYaLGGJ9v6L97wpBNQTk8JN-lBLxo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Oneplay Sport (CZ)": "https://hls.lshls.st/secure_hls.php?path=76a5e19e42340a9ff599bf9453b1e07f%2Findex.m3u8&e=1795370540&sig=Y8qNClFbcqJlqTs5NC-a18KthFkrB8phMuX09K5Q4Ag|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -842,22 +797,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Oneplay Sport (CZ)": "https://hls.lshls.st/secure_hls.php?path=84bd78d7e823893f580fbd31ee787aaa%2Findex.m3u8&e=1795370244&sig=pxDNqcO2TuhL6G7CUVM68uTx6GCeni0uWC-13S9PvTY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
-      }
-    },
-    {
-      "match_id": "sweden-allsvenskan-football-brommapojkarna-halmstad-2026-11-22-17-30",
-      "title": "Brommapojkarna vs Halmstad",
-      "sport": "Football",
-      "sub_category": "Sweden Allsvenskan",
-      "status": "LIVE",
-      "start_time_bst": "Nov 22, 2026, 09:30:00 PM",
-      "time": "Nov 22, 2026, 09:30:00 PM",
-      "logo": "https://i.ibb.co.com/JwDc9ckh/Football.png",
-      "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
-      "is_free": false,
-      "stream_url_alpha": {
-        "TV4 Play (SE)": "https://hls.lshls.st/secure_hls.php?path=f653d03c61441af6c609634af849e9ea%2Findex.m3u8&e=1795370239&sig=tQknnSv2mp7YukhnOQvo8fZjHCbJP4Vsg6KB5FLyz9Q|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Oneplay Sport (CZ)": "https://hls.lshls.st/secure_hls.php?path=84bd78d7e823893f580fbd31ee787aaa%2Findex.m3u8&e=1795370539&sig=LTuB2INft5WOHz9ZmZ86KTHk6-ugpdjI7mkoCTLLALY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -872,7 +812,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=82c5b0de40d0f66ec16c13d319dbd109%2Findex.m3u8&e=1795370242&sig=baN1hk4xK7J4MaAL25ssX1_XCGjxXY_QMUTo8q-6od0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=82c5b0de40d0f66ec16c13d319dbd109%2Findex.m3u8&e=1795370540&sig=aKlMZPHpymt4pKOCF4-DBcVlOA_w_DMHQ20hBzXTj0Y|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -887,7 +827,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=b8bf17e4e6ca1b4d1ba51d757263f07a%2Findex.m3u8&e=1795370243&sig=cS7i99CA7SRB-_3nStVtkGwPtFa4njuT8gPQprD94Ec|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=b8bf17e4e6ca1b4d1ba51d757263f07a%2Findex.m3u8&e=1795370537&sig=IejbYnEusF4kokwPaCX3-1iJ_0LkoR5EJV8v3TICn9w|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -902,7 +842,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "ESPN2 (NL)": "https://hls.lshls.st/secure_hls.php?path=a08663a4fc28ff247dda5e18cd4c7d89%2Findex.m3u8&e=1795370239&sig=uIq1QR2p8VoLVrXqVSWvP4SEDB44jNzPhp57sv-P3JQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "ESPN2 (NL)": "https://hls.lshls.st/secure_hls.php?path=a08663a4fc28ff247dda5e18cd4c7d89%2Findex.m3u8&e=1795370541&sig=1chGm7p1zne8oMJYvuNwLoiL8Q7e0obzW5n5zWoJLNQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -917,7 +857,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Oneplay Sport (CZ)": "https://hls.lshls.st/secure_hls.php?path=489eac40c009279a37f4adf6e28d8efb%2Findex.m3u8&e=1795370241&sig=KF-dmbERp6P2PRkPEbAfyGgywKaZIOmOj73azjW1Iv0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Oneplay Sport (CZ)": "https://hls.lshls.st/secure_hls.php?path=489eac40c009279a37f4adf6e28d8efb%2Findex.m3u8&e=1795370541&sig=wyrfB3rmHjdLV8Seno_aA8cZrwvM6WbYbhQK73lrWpY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -932,7 +872,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Oneplay Sport (CZ)": "https://hls.lshls.st/secure_hls.php?path=c564bc7e3c0914e67ee7ea0b4fd4f51f%2Findex.m3u8&e=1795370243&sig=JmmN_kpX_9zc830LUrzZ4m_x7mWbMtCS20nIVxeBRmI|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Oneplay Sport (CZ)": "https://hls.lshls.st/secure_hls.php?path=c564bc7e3c0914e67ee7ea0b4fd4f51f%2Findex.m3u8&e=1795370538&sig=ji543aDFEwwH8ucV-WGjnO8PtcRg2NrxpCttfG-3hMk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -947,7 +887,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Diema Sport (BG)": "https://hls.lshls.st/secure_hls.php?path=dad368e7f07d489edc4ab114e3571a3c%2Findex.m3u8&e=1795370240&sig=yp8jJb5I8F1fx5kmkKwMNvIYyiY_uX34NTybNXrqQ9U|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Diema Sport (BG)": "https://hls.lshls.st/secure_hls.php?path=dad368e7f07d489edc4ab114e3571a3c%2Findex.m3u8&e=1795370541&sig=XgCV0mNkXR04c-X0BPxlp0jbyrMFFSp0cOU_T8RyHg4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -962,7 +902,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "beIN Sports 1 (TR)": "https://hls.lshls.st/secure_hls.php?path=c39a7e658e9c50b484d2e841aebb3181%2Findex.m3u8&e=1795370243&sig=4So1VrEl4bi5JUpmi1f69AcCk53hlSSD1Hr8sURc788|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "beIN Sports 1 (TR)": "https://hls.lshls.st/secure_hls.php?path=c39a7e658e9c50b484d2e841aebb3181%2Findex.m3u8&e=1795370540&sig=102LHiCfExg6meExQWXCj0iUtumW84J7Sz7GW3gxTLY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -977,7 +917,7 @@
       "cover_image": "https://images.fotmob.com/image_resources/logo/teamlogo/8169.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sky Sport Austria 1 (AT)": "https://hls.lshls.st/secure_hls.php?path=6488e829b2d71f9284ba6335d25ef31b%2Findex.m3u8&e=1795370243&sig=cHfFGkE6ftCwxurrqflNA5E0FbBGg5vAs05zoxoflOA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sky Sport Austria 1 (AT)": "https://hls.lshls.st/secure_hls.php?path=6488e829b2d71f9284ba6335d25ef31b%2Findex.m3u8&e=1795370542&sig=ZXUuEaxPuVJ0xR0sh8lZWVJgonK60PZYrDymap_yweM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -992,8 +932,8 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "beIN SPORTS (US)": "https://hls.lshls.st/secure_hls.php?path=5f58ccc896c81d5fefdf94d70070c622%2Findex.m3u8&e=1795370244&sig=E_oS2DdigGcscYK2zofzH8OZOOLY9NfFZJ_MG4tqKLs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "Ligue1+ (FR)": "https://hls.lshls.st/secure_hls.php?path=c31eab77556044c97292125cfbfa2364%2Findex.m3u8&e=1795370240&sig=guF5hluYAPkQJT1MKCLycix4HvUcjhBpmREtg8vpcmM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "beIN SPORTS (US)": "https://hls.lshls.st/secure_hls.php?path=5f58ccc896c81d5fefdf94d70070c622%2Findex.m3u8&e=1795370545&sig=9iOi_yfhQBXi159VWy-SDbWzAJgok1TLGJt9aq9NB98|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "Ligue1+ (FR)": "https://hls.lshls.st/secure_hls.php?path=c31eab77556044c97292125cfbfa2364%2Findex.m3u8&e=1795370538&sig=U_dG_aYJJIE7ZGkSd4xovTJ4TxypxJjfMb0b8eh_zEY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1008,8 +948,8 @@
       "cover_image": "https://images.fotmob.com/image_resources/logo/teamlogo/8650.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sky Sports Premier League (GB)": "https://hls.lshls.st/secure_hls.php?path=01dcaf29f853f0ca15226bbdb28b5e82%2Findex.m3u8&e=1795370241&sig=KtTF8zyx5FHFn9BePLxI4jzqICALpfqmrd0KIITWt70|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "USA Network (US)": "https://hls.lshls.st/secure_hls.php?path=550c2debe1b5d60f7c00801422ff9c2e%2Findex.m3u8&e=1795370240&sig=mZqlMAg05u0OjhXAGUFtMs7ay2GeKxFHP7OFqCp3hnA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sky Sports Premier League (GB)": "https://hls.lshls.st/secure_hls.php?path=01dcaf29f853f0ca15226bbdb28b5e82%2Findex.m3u8&e=1795370539&sig=T7yBhEhFXJol7RaoB7tDa4sv3z4dZ9-qzfII4YqMmyQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "USA Network (US)": "https://hls.lshls.st/secure_hls.php?path=550c2debe1b5d60f7c00801422ff9c2e%2Findex.m3u8&e=1795370537&sig=kT8wT3iNs2-HkJ-ZS48V5o0bo9XhuGxywMW3jgNUWro|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1024,7 +964,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "DAZN2 (DE)": "https://hls.lshls.st/secure_hls.php?path=673f06fa8727e2c89ea3ee4020890eed%2Findex.m3u8&e=1795370244&sig=vEBSnT4-Rqgz8xQ7DXXo9bqxTUHCnC3zj6AfhP3_Or4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "DAZN2 (DE)": "https://hls.lshls.st/secure_hls.php?path=673f06fa8727e2c89ea3ee4020890eed%2Findex.m3u8&e=1795370539&sig=UxYsYGLJLl5poebnnN_SEXzepyiC9k3vEk8toejkrQA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1039,7 +979,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Canal+ Sport 3 (PL)": "https://hls.lshls.st/secure_hls.php?path=236891f4057e4b7b95512d0ecfac29e1%2Findex.m3u8&e=1795370243&sig=mdM66qba_56GNESTC7FQPKBX7Ykn7bYydqmKAqcroQY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Canal+ Sport 3 (PL)": "https://hls.lshls.st/secure_hls.php?path=236891f4057e4b7b95512d0ecfac29e1%2Findex.m3u8&e=1795370540&sig=bmlSf6Jgsw_cgwJoYd8dhz3P4Jxhf3mim5Ep2ncniXk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1054,7 +994,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "MagentaSport 1 League (GR)": "https://hls.lshls.st/secure_hls.php?path=fc963018a78bfccd5d66958ff06fe9e0%2Findex.m3u8&e=1795370240&sig=R85MJ132XV21IejF9ClHfGlBJgreM4iaaAx_cBKBIyw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "MagentaSport 1 League (GR)": "https://hls.lshls.st/secure_hls.php?path=fc963018a78bfccd5d66958ff06fe9e0%2Findex.m3u8&e=1795370540&sig=cXB1p93HSnoiMrsnrmrWnr7R8Rmtt-Pv-hXjjFCDILs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1069,7 +1009,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Oneplay Sport (CZ)": "https://hls.lshls.st/secure_hls.php?path=47ed0734107c4894ef1fbaf6de5554d8%2Findex.m3u8&e=1795370242&sig=0SG3Q0IfpY_VDFm2BMO2Qceh3Bj792VT4nNbVb0_r_E|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Oneplay Sport (CZ)": "https://hls.lshls.st/secure_hls.php?path=47ed0734107c4894ef1fbaf6de5554d8%2Findex.m3u8&e=1795370543&sig=r5hnj76m4SUxEfblpT8GHaKuP6vrzQx8igMdOruU3Pk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1084,7 +1024,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sky Sport Calcio (IT)": "https://hls.lshls.st/secure_hls.php?path=d7bb70bbe1dafb9cbec7469b899bee63%2Findex.m3u8&e=1795370245&sig=9pbQCKU8CWGgI2tfUhZt6VAbYPQY2oUyoIGIHqKU4Iw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sky Sport Calcio (IT)": "https://hls.lshls.st/secure_hls.php?path=d7bb70bbe1dafb9cbec7469b899bee63%2Findex.m3u8&e=1795370538&sig=-W1UEU2qtJTlW0uQqmEOjxhh0ms7HtcDqz89xRkc7rM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1099,7 +1039,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Oneplay Sport (CZ)": "https://hls.lshls.st/secure_hls.php?path=7f5277c24aa1519ba0a9da6e9480a93e%2Findex.m3u8&e=1795370242&sig=Q5vUGcX-tYfPnUAOMrlTdaTixVbwimTv1Y6WJj0CvIo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Oneplay Sport (CZ)": "https://hls.lshls.st/secure_hls.php?path=7f5277c24aa1519ba0a9da6e9480a93e%2Findex.m3u8&e=1795370537&sig=KYXv3YaUXx9hWhsb0dT2RF8CuwjssTGOQnlBOnHn3FY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1114,7 +1054,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "MAX Sport 1 (HR)": "https://hls.lshls.st/secure_hls.php?path=1740f3a6a4bce3eb58cac3fcda4fdb1e%2Findex.m3u8&e=1795370241&sig=Ryy69bITP36VDms8WdoWTE7BsP6-Mo_LqJBDE5IW990|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "MAX Sport 1 (HR)": "https://hls.lshls.st/secure_hls.php?path=1740f3a6a4bce3eb58cac3fcda4fdb1e%2Findex.m3u8&e=1795370540&sig=UDqODX0bNHzTs067lIY6lTRdCq1PZTDt1_aaamrC4mA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1129,7 +1069,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=118c7e53588f712a763b9631557cfdbb%2Findex.m3u8&e=1795370242&sig=GcbFqB29p07ihO1P7TdxUmvMWDolu8WfJ86dZ-ibNwA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=118c7e53588f712a763b9631557cfdbb%2Findex.m3u8&e=1795370540&sig=ocO4gJZKzoxDtE-KYo0zcyb2KUqI1nGFyRY_Ronw71E|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1144,7 +1084,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=efcf0daf38c7d00d886c3002cea356e1%2Findex.m3u8&e=1795370239&sig=-0HjG0YEzsVKTuDXFWNXqrIFfbQeoRMpmQxUV-kuSTg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=efcf0daf38c7d00d886c3002cea356e1%2Findex.m3u8&e=1795370543&sig=CUPZteDChLEYUklp4qCInZksiKUEt8lEUk34VT9jU0c|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1159,7 +1099,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Nova Sports 1 League (GR)": "https://hls.lshls.st/secure_hls.php?path=cd4962547983ab23301e69d3f049cb52%2Findex.m3u8&e=1795370239&sig=hg-s4aAdJVUxxe8Qg08_DZeS4MulP_CZqOIcm5hyq8Y|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Nova Sports 1 League (GR)": "https://hls.lshls.st/secure_hls.php?path=cd4962547983ab23301e69d3f049cb52%2Findex.m3u8&e=1795370541&sig=0XpoYKINuNeqF_XDljRqwvIDl2CcjAlBUaPbGZ0R7eM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1174,7 +1114,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "LALIGA TV Hypermotion (ES)": "https://hls.lshls.st/secure_hls.php?path=6f80381755208b4a64b4a9a1e78e3421%2Findex.m3u8&e=1795370243&sig=GhCAFzR34iw0ZT7gSz3vK6tiawKcHrFodFbCwzVYrcs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "LALIGA TV Hypermotion (ES)": "https://hls.lshls.st/secure_hls.php?path=6f80381755208b4a64b4a9a1e78e3421%2Findex.m3u8&e=1795370537&sig=ORDMsdo2rPPxxM6ASfx3s_XDIZThMDK5YEZuzWWbr44|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1189,7 +1129,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "LALIGA TV Hypermotion 2 (ES)": "https://hls.lshls.st/secure_hls.php?path=a8b1123ea68e2c4553a808b5bd351764%2Findex.m3u8&e=1795370240&sig=3MmUhPi1Mwy5QvNZkf6DNiK6FiVELPrmG9ZjThySnQI|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "LALIGA TV Hypermotion 2 (ES)": "https://hls.lshls.st/secure_hls.php?path=a8b1123ea68e2c4553a808b5bd351764%2Findex.m3u8&e=1795370541&sig=CnnxxMSyLTbvxhZOKr70BS67cGvaCLbQS1YndqkMhqc|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1204,7 +1144,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "DAZN Pro League 1 (BE)": "https://hls.lshls.st/secure_hls.php?path=c43f93e25cb602599a2ba9a5ed372394%2Findex.m3u8&e=1795370243&sig=96AKATS24pXYwpRS9-WYWlMPsGfIBKfMF5AAyhEm8fA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "DAZN Pro League 1 (BE)": "https://hls.lshls.st/secure_hls.php?path=c43f93e25cb602599a2ba9a5ed372394%2Findex.m3u8&e=1795370542&sig=cPTxVzXgXXN8a9_AH0yC7ktwx7n0xkmBI2lalD1imUE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1219,7 +1159,7 @@
       "cover_image": "https://images.fotmob.com/image_resources/logo/teamlogo/8371.png",
       "is_free": false,
       "stream_url_alpha": {
-        "ESPN Deportes (ES)": "https://hls.lshls.st/secure_hls.php?path=9aba7a810e47b32163183d4d9e92840f%2Findex.m3u8&e=1795370243&sig=e4PkAxmPsym88dqNUl_5eJ4pBt4gV7JTjBw-ibNLWB4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "ESPN Deportes (ES)": "https://hls.lshls.st/secure_hls.php?path=9aba7a810e47b32163183d4d9e92840f%2Findex.m3u8&e=1795370537&sig=l-hpQjn5NXrp-SNWPMko91S9g_Iyn5hxOmN2cVN8WR8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1234,7 +1174,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sport TV1 (PT)": "https://hls.lshls.st/secure_hls.php?path=452e62197617eee2172de9c2a1c7e936%2Findex.m3u8&e=1795370239&sig=azWj4Fd_x2mK-lqc4Bp62Wr1NpVlEogLD6XARAzt6Nw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sport TV1 (PT)": "https://hls.lshls.st/secure_hls.php?path=452e62197617eee2172de9c2a1c7e936%2Findex.m3u8&e=1795370543&sig=CxEyvwVEKSevE-P8dMIg0uB3tvrCfXzTAX2ZyqoHwh4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1249,7 +1189,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=75711b4c58321ffe37e598d58e779e2b%2Findex.m3u8&e=1795370244&sig=5e1ZedJmeBpSWeW9v09sQ5WRJt1MNVw-trY9ZJqwGRU|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=75711b4c58321ffe37e598d58e779e2b%2Findex.m3u8&e=1795370538&sig=gskeAR4o8rvyfIGFV5YfdqqMt9G0_aTuJ9qO7Q9c-N4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1264,7 +1204,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=5825d9248e99dddf41b59f26c2e66424%2Findex.m3u8&e=1795370240&sig=RovxDkRLOgq5jxXRCnVWBJNC0L6GV_FKz_5sG-oP-Zo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=5825d9248e99dddf41b59f26c2e66424%2Findex.m3u8&e=1795370543&sig=wF82gBxnC_-BZiR6BoKmaQa8C2ahiRw4CxhTShjh5-o|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1279,7 +1219,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=f6a214cf886d35a5591087d6a8ca8d58%2Findex.m3u8&e=1795370241&sig=3gq8VPVamrTIquV3JGp1yU9Kpao3NAckS-ysld3GIiM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=f6a214cf886d35a5591087d6a8ca8d58%2Findex.m3u8&e=1795370538&sig=QyOg--ST-A0kt_ahOt7zR55t5wMwOPAAconT0tJOwwY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1294,7 +1234,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=7b145bbd4bf206f377e4cb4a72e4ab03%2Findex.m3u8&e=1795370242&sig=GjtWsBrUNBop4X_m6uPAPOgxknAFe8Qb2W-GavEPn94|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=7b145bbd4bf206f377e4cb4a72e4ab03%2Findex.m3u8&e=1795370542&sig=bQcCXg164l7h-F6M6TjevxVMzmHUEyowaxarPdWkK9o|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1309,7 +1249,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=ab65a2596ab462ff14bdfd6ee1055085%2Findex.m3u8&e=1795370241&sig=2qS7rffYDqR2V5Fx6OQCN-2o-XWZYlYdV9mZDFn4PXY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=ab65a2596ab462ff14bdfd6ee1055085%2Findex.m3u8&e=1795370540&sig=SiaVQJqavjtDDNtQ5k5AvePwxkS3cjnQ6fHAwfo57NE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1324,7 +1264,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=3ce16cae309ca17fb913e24603663305%2Findex.m3u8&e=1795370244&sig=KeoSNXfdyb1bVfJD562d5EC5b5KEtkEghYTkxgX_8gA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=3ce16cae309ca17fb913e24603663305%2Findex.m3u8&e=1795370537&sig=cJIVZMZCKQxvCucXiNdXWmqrTp8gfJlLfipJYVlBmI8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1339,7 +1279,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=eed330e6c07b8be08b20dbccdba8d599%2Findex.m3u8&e=1795370243&sig=jJOpTj1RoRfedinLYrIXs4plmxqFPS0IFQYUlLMXuPc|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=eed330e6c07b8be08b20dbccdba8d599%2Findex.m3u8&e=1795370542&sig=jErInHiz7rJZmx5HJOcsDxBv8aNQnt756ehNMFwlALs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1354,7 +1294,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=d2cf4a545b7a79d529e7139a668540f7%2Findex.m3u8&e=1795370239&sig=qoO7uRIsyc4sKK8DRKySTR2Y1ixXS5d2cCw-kI44luM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=d2cf4a545b7a79d529e7139a668540f7%2Findex.m3u8&e=1795370538&sig=M2pnwyCIZJWDZS8ghgUbf4u-K5cm-jHeODnOVVbsLYs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1369,7 +1309,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=b8bf17e4e6ca1b4d1ba51d757263f07a%2Findex.m3u8&e=1795370243&sig=cS7i99CA7SRB-_3nStVtkGwPtFa4njuT8gPQprD94Ec|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=b8bf17e4e6ca1b4d1ba51d757263f07a%2Findex.m3u8&e=1795370537&sig=IejbYnEusF4kokwPaCX3-1iJ_0LkoR5EJV8v3TICn9w|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1384,7 +1324,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "DAZN Pro League 2 (BE)": "https://hls.lshls.st/secure_hls.php?path=131aad542969f2e906086706986d6698%2Findex.m3u8&e=1795370240&sig=gH-YdOcf7MYQky4etPyLmBJB7499czRB8NS7yc15Qs8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "DAZN Pro League 2 (BE)": "https://hls.lshls.st/secure_hls.php?path=131aad542969f2e906086706986d6698%2Findex.m3u8&e=1795370543&sig=q7aT8AEXzuxfGEpRrn5PldemNCVNpsb_AWlLLoNpUhg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1399,7 +1339,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=3bc7b152b1a24a36514887f5cfeef106%2Findex.m3u8&e=1795370240&sig=76xYLePlqTMNREKviQ24IBRfgDf6D25_MSIFPxs6joE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=3bc7b152b1a24a36514887f5cfeef106%2Findex.m3u8&e=1795370543&sig=TUPPb-6L9R2kdwKmHRANdascVJuDs8igrM69dT3HFh4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1414,8 +1354,8 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "beIN SPORTS (US)": "https://hls.lshls.st/secure_hls.php?path=5f58ccc896c81d5fefdf94d70070c622%2Findex.m3u8&e=1795370244&sig=E_oS2DdigGcscYK2zofzH8OZOOLY9NfFZJ_MG4tqKLs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "Ligue1+ (FR)": "https://hls.lshls.st/secure_hls.php?path=c31eab77556044c97292125cfbfa2364%2Findex.m3u8&e=1795370240&sig=guF5hluYAPkQJT1MKCLycix4HvUcjhBpmREtg8vpcmM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "beIN SPORTS (US)": "https://hls.lshls.st/secure_hls.php?path=5f58ccc896c81d5fefdf94d70070c622%2Findex.m3u8&e=1795370545&sig=9iOi_yfhQBXi159VWy-SDbWzAJgok1TLGJt9aq9NB98|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "Ligue1+ (FR)": "https://hls.lshls.st/secure_hls.php?path=c31eab77556044c97292125cfbfa2364%2Findex.m3u8&e=1795370538&sig=U_dG_aYJJIE7ZGkSd4xovTJ4TxypxJjfMb0b8eh_zEY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1430,7 +1370,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "DAZN1 (IT)": "https://hls.lshls.st/secure_hls.php?path=d7bb70bbe1dafb9cbec7469b899bee63%2Findex.m3u8&e=1795370245&sig=9pbQCKU8CWGgI2tfUhZt6VAbYPQY2oUyoIGIHqKU4Iw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "DAZN1 (IT)": "https://hls.lshls.st/secure_hls.php?path=d7bb70bbe1dafb9cbec7469b899bee63%2Findex.m3u8&e=1795370538&sig=-W1UEU2qtJTlW0uQqmEOjxhh0ms7HtcDqz89xRkc7rM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1445,7 +1385,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "LALIGA TV Hypermotion (ES)": "https://hls.lshls.st/secure_hls.php?path=6f80381755208b4a64b4a9a1e78e3421%2Findex.m3u8&e=1795370243&sig=GhCAFzR34iw0ZT7gSz3vK6tiawKcHrFodFbCwzVYrcs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "LALIGA TV Hypermotion (ES)": "https://hls.lshls.st/secure_hls.php?path=6f80381755208b4a64b4a9a1e78e3421%2Findex.m3u8&e=1795370537&sig=ORDMsdo2rPPxxM6ASfx3s_XDIZThMDK5YEZuzWWbr44|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1460,7 +1400,7 @@
       "cover_image": "https://images.fotmob.com/image_resources/logo/teamlogo/8305.png",
       "is_free": false,
       "stream_url_alpha": {
-        "ESPN Deportes (ES)": "https://hls.lshls.st/secure_hls.php?path=9aba7a810e47b32163183d4d9e92840f%2Findex.m3u8&e=1795370243&sig=e4PkAxmPsym88dqNUl_5eJ4pBt4gV7JTjBw-ibNLWB4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "ESPN Deportes (ES)": "https://hls.lshls.st/secure_hls.php?path=9aba7a810e47b32163183d4d9e92840f%2Findex.m3u8&e=1795370537&sig=l-hpQjn5NXrp-SNWPMko91S9g_Iyn5hxOmN2cVN8WR8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1475,7 +1415,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=f0e34dbfd8cd7a28da4a9cf3ad4b0fd3%2Findex.m3u8&e=1795370243&sig=ze9I-kg8jfvotymkN-XoV3IixnQARaAbXql0PSUuXXM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=f0e34dbfd8cd7a28da4a9cf3ad4b0fd3%2Findex.m3u8&e=1795370543&sig=hwTlBHDvPfQgzfG1DQfhM9BddPhG2jZj53A8U6_Gpuo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1490,7 +1430,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sport TV1 (PT)": "https://hls.lshls.st/secure_hls.php?path=452e62197617eee2172de9c2a1c7e936%2Findex.m3u8&e=1795370239&sig=azWj4Fd_x2mK-lqc4Bp62Wr1NpVlEogLD6XARAzt6Nw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sport TV1 (PT)": "https://hls.lshls.st/secure_hls.php?path=452e62197617eee2172de9c2a1c7e936%2Findex.m3u8&e=1795370543&sig=CxEyvwVEKSevE-P8dMIg0uB3tvrCfXzTAX2ZyqoHwh4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1505,7 +1445,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "FOX Deportes (ES)": "https://hls.lshls.st/secure_hls.php?path=e3a100f30ce36b0ac1bd02ad7bbb4677%2Findex.m3u8&e=1795370240&sig=IThAl4j52Ss7lS-SGYwHrIZ-6oLnqBdOHFwIMetNIv4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "FOX Deportes (ES)": "https://hls.lshls.st/secure_hls.php?path=e3a100f30ce36b0ac1bd02ad7bbb4677%2Findex.m3u8&e=1795370539&sig=taGjttI8WLY6PjC8lyT3l2f3EzvFoZ2bWMjkWFZuvDU|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1520,7 +1460,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=75711b4c58321ffe37e598d58e779e2b%2Findex.m3u8&e=1795370244&sig=5e1ZedJmeBpSWeW9v09sQ5WRJt1MNVw-trY9ZJqwGRU|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=75711b4c58321ffe37e598d58e779e2b%2Findex.m3u8&e=1795370538&sig=gskeAR4o8rvyfIGFV5YfdqqMt9G0_aTuJ9qO7Q9c-N4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1535,7 +1475,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=5825d9248e99dddf41b59f26c2e66424%2Findex.m3u8&e=1795370240&sig=RovxDkRLOgq5jxXRCnVWBJNC0L6GV_FKz_5sG-oP-Zo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=5825d9248e99dddf41b59f26c2e66424%2Findex.m3u8&e=1795370543&sig=wF82gBxnC_-BZiR6BoKmaQa8C2ahiRw4CxhTShjh5-o|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1550,7 +1490,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=f6a214cf886d35a5591087d6a8ca8d58%2Findex.m3u8&e=1795370241&sig=3gq8VPVamrTIquV3JGp1yU9Kpao3NAckS-ysld3GIiM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NFL Sunday Ticket (US)": "https://hls.lshls.st/secure_hls.php?path=f6a214cf886d35a5591087d6a8ca8d58%2Findex.m3u8&e=1795370538&sig=QyOg--ST-A0kt_ahOt7zR55t5wMwOPAAconT0tJOwwY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1565,7 +1505,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=01dcaf29f853f0ca15226bbdb28b5e82%2Findex.m3u8&e=1795370241&sig=KtTF8zyx5FHFn9BePLxI4jzqICALpfqmrd0KIITWt70|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=01dcaf29f853f0ca15226bbdb28b5e82%2Findex.m3u8&e=1795370539&sig=T7yBhEhFXJol7RaoB7tDa4sv3z4dZ9-qzfII4YqMmyQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1580,7 +1520,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "TNT Sports (ES)": "https://hls.lshls.st/secure_hls.php?path=92c2fffbaf6e3dffc3a5f96b2da55b53%2Findex.m3u8&e=1795370243&sig=IxP8Oh6UQRTeYWB_EqXIwEzuhzG5IF2c4Zr6c1YoZVA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TNT Sports (ES)": "https://hls.lshls.st/secure_hls.php?path=92c2fffbaf6e3dffc3a5f96b2da55b53%2Findex.m3u8&e=1795370544&sig=D1wXj1YuDEJeiHvqJDPOVPymf_mP--THkpw0tEOyCVU|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1595,7 +1535,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=efcf0daf38c7d00d886c3002cea356e1%2Findex.m3u8&e=1795370239&sig=-0HjG0YEzsVKTuDXFWNXqrIFfbQeoRMpmQxUV-kuSTg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=efcf0daf38c7d00d886c3002cea356e1%2Findex.m3u8&e=1795370543&sig=CUPZteDChLEYUklp4qCInZksiKUEt8lEUk34VT9jU0c|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1610,7 +1550,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Fox Sports 1 (US)": "https://hls.lshls.st/secure_hls.php?path=ae48836381ea1dc4e923da3a418649bb%2Findex.m3u8&e=1795370239&sig=fZKYKWMM12tBiC4cTh62NZNdQOK5pHHsGIP0ZAYj6oU|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Fox Sports 1 (US)": "https://hls.lshls.st/secure_hls.php?path=ae48836381ea1dc4e923da3a418649bb%2Findex.m3u8&e=1795370543&sig=Aq3y9eouqt-VJlSnM4PqT4z4MFfAB1LBPzfLCdtbh9I|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1625,7 +1565,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=58c61f4546642149cd5f3f5b0c508dff%2Findex.m3u8&e=1795370239&sig=QXwFaSD7B6rt4dpxh1be_HaKEtF3h-O8m8mWO11iptQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=58c61f4546642149cd5f3f5b0c508dff%2Findex.m3u8&e=1795370539&sig=zPmFW0_oI1ES-46WdcI9uMmNCJLx-l_vNvMxJQlUIv0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1640,7 +1580,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=a2eb767a63c0646e710447c54083b3e4%2Findex.m3u8&e=1795370244&sig=pYlS3i30N3J0wQK7VZt85cn2M7z8Zw_v3itwqZx9guw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=a2eb767a63c0646e710447c54083b3e4%2Findex.m3u8&e=1795370537&sig=dPJWUGSC8IAaU6NrUkDsk6f55uyLMxcd-zG5JYh-u_0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1655,7 +1595,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=1a4e64d8dc4457909cdb26dabbadae3a%2Findex.m3u8&e=1795370240&sig=lI5boSKRKkv4-rwinn1Z8_dwTTSAbduVXPccjQan7Nw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=1a4e64d8dc4457909cdb26dabbadae3a%2Findex.m3u8&e=1795370541&sig=zbzGWWxrvm1DZsMzj3zYrmqyhbOIHbCzR66tlnYaTtA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1670,7 +1610,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=550c2debe1b5d60f7c00801422ff9c2e%2Findex.m3u8&e=1795370240&sig=mZqlMAg05u0OjhXAGUFtMs7ay2GeKxFHP7OFqCp3hnA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=550c2debe1b5d60f7c00801422ff9c2e%2Findex.m3u8&e=1795370537&sig=kT8wT3iNs2-HkJ-ZS48V5o0bo9XhuGxywMW3jgNUWro|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1685,7 +1625,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=7b145bbd4bf206f377e4cb4a72e4ab03%2Findex.m3u8&e=1795370242&sig=GjtWsBrUNBop4X_m6uPAPOgxknAFe8Qb2W-GavEPn94|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=7b145bbd4bf206f377e4cb4a72e4ab03%2Findex.m3u8&e=1795370542&sig=bQcCXg164l7h-F6M6TjevxVMzmHUEyowaxarPdWkK9o|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1700,7 +1640,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=1ff92290efd0ffd2e6948d5d39522456%2Findex.m3u8&e=1795370241&sig=IPA6jN7HvPiizBqZrj2x0CY7EpoMgqrtG1YL4aW9KSk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=1ff92290efd0ffd2e6948d5d39522456%2Findex.m3u8&e=1795370539&sig=qx53nR16lyUj3yEuSmYaAQYMWufIdmGiGgcwcVRcp7Y|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1715,7 +1655,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=ab65a2596ab462ff14bdfd6ee1055085%2Findex.m3u8&e=1795370241&sig=2qS7rffYDqR2V5Fx6OQCN-2o-XWZYlYdV9mZDFn4PXY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=ab65a2596ab462ff14bdfd6ee1055085%2Findex.m3u8&e=1795370540&sig=SiaVQJqavjtDDNtQ5k5AvePwxkS3cjnQ6fHAwfo57NE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1730,7 +1670,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "ESPN Premium (ES)": "https://hls.lshls.st/secure_hls.php?path=92c2fffbaf6e3dffc3a5f96b2da55b53%2Findex.m3u8&e=1795370243&sig=IxP8Oh6UQRTeYWB_EqXIwEzuhzG5IF2c4Zr6c1YoZVA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "ESPN Premium (ES)": "https://hls.lshls.st/secure_hls.php?path=92c2fffbaf6e3dffc3a5f96b2da55b53%2Findex.m3u8&e=1795370544&sig=D1wXj1YuDEJeiHvqJDPOVPymf_mP--THkpw0tEOyCVU|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1745,7 +1685,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "TUDN (ES)": "https://hls.lshls.st/secure_hls.php?path=f7f64d8fee34a109d4926c9fedc01dec%2Findex.m3u8&e=1795370242&sig=EA2anbjs3UIU_whXcHeFi3GcHzKZn1e48t6lRTvIFzk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TUDN (ES)": "https://hls.lshls.st/secure_hls.php?path=f7f64d8fee34a109d4926c9fedc01dec%2Findex.m3u8&e=1795370540&sig=8XXUp85YoR9OcjvmDVmDVIUc5KeZQqJXzeTE3LmnZ38|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1760,7 +1700,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "NFL + (US)": "https://hls.lshls.st/secure_hls.php?path=f0e34dbfd8cd7a28da4a9cf3ad4b0fd3%2Findex.m3u8&e=1795370243&sig=ze9I-kg8jfvotymkN-XoV3IixnQARaAbXql0PSUuXXM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NFL + (US)": "https://hls.lshls.st/secure_hls.php?path=f0e34dbfd8cd7a28da4a9cf3ad4b0fd3%2Findex.m3u8&e=1795370543&sig=hwTlBHDvPfQgzfG1DQfhM9BddPhG2jZj53A8U6_Gpuo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1775,7 +1715,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Apple TV (US)": "https://hls.lshls.st/secure_hls.php?path=9ae3de4b40a6ecfdd03fc90be82c4535%2Findex.m3u8&e=1795370244&sig=XkLTk8aQpKz8QwhUuFzZGWNJYtEYnaR1djwA9ZbFDbM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Apple TV (US)": "https://hls.lshls.st/secure_hls.php?path=9ae3de4b40a6ecfdd03fc90be82c4535%2Findex.m3u8&e=1795370544&sig=5mlsKNrQt68UY0x2V8BokLxN3AIz3blOkW3zwf36Ceg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1790,7 +1730,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=634a1c2817f51944e01c462d32db815f%2Findex.m3u8&e=1795370239&sig=YR1ZE8TAdWd-h0iBa6M5RMKbiup5FhXRyw4CMLt_qRg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=634a1c2817f51944e01c462d32db815f%2Findex.m3u8&e=1795370538&sig=j2oM0E5vto9A6gO63J_KYtQ7V-0oELtSsK2dpYbwS5A|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1805,7 +1745,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "HRT 2 (HR)": "https://hls.lshls.st/secure_hls.php?path=1740f3a6a4bce3eb58cac3fcda4fdb1e%2Findex.m3u8&e=1795370241&sig=Ryy69bITP36VDms8WdoWTE7BsP6-Mo_LqJBDE5IW990|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "HRT 2 (HR)": "https://hls.lshls.st/secure_hls.php?path=1740f3a6a4bce3eb58cac3fcda4fdb1e%2Findex.m3u8&e=1795370540&sig=UDqODX0bNHzTs067lIY6lTRdCq1PZTDt1_aaamrC4mA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1820,7 +1760,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Fox Sports 2 (US)": "https://hls.lshls.st/secure_hls.php?path=c0848baa0fff7dcc32acb6e770f6cfc4%2Findex.m3u8&e=1795370243&sig=DvRjY9uK_gGStFKoedrvHb3-56QN_l-f2nYMK_cVkw8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Fox Sports 2 (US)": "https://hls.lshls.st/secure_hls.php?path=c0848baa0fff7dcc32acb6e770f6cfc4%2Findex.m3u8&e=1795370539&sig=anREitrkx19Fmm4hULZ0DX8JZJXK6SgH5kWOzDRVcfY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1835,7 +1775,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Fox Soccer Plus (US)": "https://hls.lshls.st/secure_hls.php?path=07ae5785d9f5ce3acbd1e831e4c023ec%2Findex.m3u8&e=1795370243&sig=c1uWXX5jku5EKMYsivB0RU-6vtrAmEFUsjHy6cx1zaQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Fox Soccer Plus (US)": "https://hls.lshls.st/secure_hls.php?path=07ae5785d9f5ce3acbd1e831e4c023ec%2Findex.m3u8&e=1795370539&sig=boeJxeK_vE23j5T95OjNIT_SKS4sGAt8ugn7KoGF9l4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1850,7 +1790,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Fox Sports 2 (US)": "https://hls.lshls.st/secure_hls.php?path=c0848baa0fff7dcc32acb6e770f6cfc4%2Findex.m3u8&e=1795370243&sig=DvRjY9uK_gGStFKoedrvHb3-56QN_l-f2nYMK_cVkw8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Fox Sports 2 (US)": "https://hls.lshls.st/secure_hls.php?path=c0848baa0fff7dcc32acb6e770f6cfc4%2Findex.m3u8&e=1795370539&sig=anREitrkx19Fmm4hULZ0DX8JZJXK6SgH5kWOzDRVcfY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1865,7 +1805,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "MagentaSport 1 League (GR)": "https://hls.lshls.st/secure_hls.php?path=cd4962547983ab23301e69d3f049cb52%2Findex.m3u8&e=1795370239&sig=hg-s4aAdJVUxxe8Qg08_DZeS4MulP_CZqOIcm5hyq8Y|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "MagentaSport 1 League (GR)": "https://hls.lshls.st/secure_hls.php?path=cd4962547983ab23301e69d3f049cb52%2Findex.m3u8&e=1795370541&sig=0XpoYKINuNeqF_XDljRqwvIDl2CcjAlBUaPbGZ0R7eM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1880,7 +1820,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Fox Soccer Plus (US)": "https://hls.lshls.st/secure_hls.php?path=07ae5785d9f5ce3acbd1e831e4c023ec%2Findex.m3u8&e=1795370243&sig=c1uWXX5jku5EKMYsivB0RU-6vtrAmEFUsjHy6cx1zaQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Fox Soccer Plus (US)": "https://hls.lshls.st/secure_hls.php?path=07ae5785d9f5ce3acbd1e831e4c023ec%2Findex.m3u8&e=1795370539&sig=boeJxeK_vE23j5T95OjNIT_SKS4sGAt8ugn7KoGF9l4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1895,7 +1835,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Diema Sport (BG)": "https://hls.lshls.st/secure_hls.php?path=dad368e7f07d489edc4ab114e3571a3c%2Findex.m3u8&e=1795370240&sig=yp8jJb5I8F1fx5kmkKwMNvIYyiY_uX34NTybNXrqQ9U|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Diema Sport (BG)": "https://hls.lshls.st/secure_hls.php?path=dad368e7f07d489edc4ab114e3571a3c%2Findex.m3u8&e=1795370541&sig=XgCV0mNkXR04c-X0BPxlp0jbyrMFFSp0cOU_T8RyHg4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1910,7 +1850,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "MAX Sport 1 (HR)": "https://hls.lshls.st/secure_hls.php?path=1740f3a6a4bce3eb58cac3fcda4fdb1e%2Findex.m3u8&e=1795370241&sig=Ryy69bITP36VDms8WdoWTE7BsP6-Mo_LqJBDE5IW990|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "MAX Sport 1 (HR)": "https://hls.lshls.st/secure_hls.php?path=1740f3a6a4bce3eb58cac3fcda4fdb1e%2Findex.m3u8&e=1795370540&sig=UDqODX0bNHzTs067lIY6lTRdCq1PZTDt1_aaamrC4mA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1925,7 +1865,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "beIN Sports 1 (TR)": "https://hls.lshls.st/secure_hls.php?path=c39a7e658e9c50b484d2e841aebb3181%2Findex.m3u8&e=1795370243&sig=4So1VrEl4bi5JUpmi1f69AcCk53hlSSD1Hr8sURc788|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "beIN Sports 1 (TR)": "https://hls.lshls.st/secure_hls.php?path=c39a7e658e9c50b484d2e841aebb3181%2Findex.m3u8&e=1795370540&sig=102LHiCfExg6meExQWXCj0iUtumW84J7Sz7GW3gxTLY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1940,7 +1880,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Canal+ Sport 3 (PL)": "https://hls.lshls.st/secure_hls.php?path=236891f4057e4b7b95512d0ecfac29e1%2Findex.m3u8&e=1795370243&sig=mdM66qba_56GNESTC7FQPKBX7Ykn7bYydqmKAqcroQY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Canal+ Sport 3 (PL)": "https://hls.lshls.st/secure_hls.php?path=236891f4057e4b7b95512d0ecfac29e1%2Findex.m3u8&e=1795370540&sig=bmlSf6Jgsw_cgwJoYd8dhz3P4Jxhf3mim5Ep2ncniXk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1955,7 +1895,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "V4 Sport Live 1 (SE)": "https://hls.lshls.st/secure_hls.php?path=48822202a4a7e1ed0aeee4076609daa3%2Findex.m3u8&e=1795370244&sig=OG8q5YmYishR7JHFzSThSZCIVOSyQIBQN4dBfIbrTfg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "V4 Sport Live 1 (SE)": "https://hls.lshls.st/secure_hls.php?path=48822202a4a7e1ed0aeee4076609daa3%2Findex.m3u8&e=1795370538&sig=_vGQsQfyNhDYpd7kan6PaivzbEsjabW7TzfcLsE8Ydk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1970,7 +1910,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "TV4 Fotball (SE)": "https://hls.lshls.st/secure_hls.php?path=98a19680cec78145d8ac25178dd87ff7%2Findex.m3u8&e=1795370239&sig=EGMqchYk-u6eoN5cGCPexQVd7jz3_kkcpj2YabDlCRM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TV4 Fotball (SE)": "https://hls.lshls.st/secure_hls.php?path=98a19680cec78145d8ac25178dd87ff7%2Findex.m3u8&e=1795370538&sig=QJL_t0JRRryLBS9TcbZtRTH_UcWQlNYHI-E3rFvt61Y|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -1985,7 +1925,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "TV2 Sport X (DK)": "https://hls.lshls.st/secure_hls.php?path=f653d03c61441af6c609634af849e9ea%2Findex.m3u8&e=1795370239&sig=tQknnSv2mp7YukhnOQvo8fZjHCbJP4Vsg6KB5FLyz9Q|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TV2 Sport X (DK)": "https://hls.lshls.st/secure_hls.php?path=f653d03c61441af6c609634af849e9ea%2Findex.m3u8&e=1795370541&sig=kyp3KDxuwmsWTIPEs28bwHTAgq6sLAyoHx0hH7GcANY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2000,7 +1940,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "LALIGA TV Hypermotion (ES)": "https://hls.lshls.st/secure_hls.php?path=6f80381755208b4a64b4a9a1e78e3421%2Findex.m3u8&e=1795370243&sig=GhCAFzR34iw0ZT7gSz3vK6tiawKcHrFodFbCwzVYrcs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "LALIGA TV Hypermotion (ES)": "https://hls.lshls.st/secure_hls.php?path=6f80381755208b4a64b4a9a1e78e3421%2Findex.m3u8&e=1795370537&sig=ORDMsdo2rPPxxM6ASfx3s_XDIZThMDK5YEZuzWWbr44|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2015,7 +1955,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sky Sport Calcio (IT)": "https://hls.lshls.st/secure_hls.php?path=d7bb70bbe1dafb9cbec7469b899bee63%2Findex.m3u8&e=1795370245&sig=9pbQCKU8CWGgI2tfUhZt6VAbYPQY2oUyoIGIHqKU4Iw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sky Sport Calcio (IT)": "https://hls.lshls.st/secure_hls.php?path=d7bb70bbe1dafb9cbec7469b899bee63%2Findex.m3u8&e=1795370538&sig=-W1UEU2qtJTlW0uQqmEOjxhh0ms7HtcDqz89xRkc7rM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2030,7 +1970,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "USA Network (US)": "https://hls.lshls.st/secure_hls.php?path=550c2debe1b5d60f7c00801422ff9c2e%2Findex.m3u8&e=1795370240&sig=mZqlMAg05u0OjhXAGUFtMs7ay2GeKxFHP7OFqCp3hnA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "USA Network (US)": "https://hls.lshls.st/secure_hls.php?path=550c2debe1b5d60f7c00801422ff9c2e%2Findex.m3u8&e=1795370537&sig=kT8wT3iNs2-HkJ-ZS48V5o0bo9XhuGxywMW3jgNUWro|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2045,7 +1985,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "TNT Sports (ES)": "https://hls.lshls.st/secure_hls.php?path=92c2fffbaf6e3dffc3a5f96b2da55b53%2Findex.m3u8&e=1795370243&sig=IxP8Oh6UQRTeYWB_EqXIwEzuhzG5IF2c4Zr6c1YoZVA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TNT Sports (ES)": "https://hls.lshls.st/secure_hls.php?path=92c2fffbaf6e3dffc3a5f96b2da55b53%2Findex.m3u8&e=1795370544&sig=D1wXj1YuDEJeiHvqJDPOVPymf_mP--THkpw0tEOyCVU|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2060,7 +2000,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "ESPN Deportes (ES)": "https://hls.lshls.st/secure_hls.php?path=9aba7a810e47b32163183d4d9e92840f%2Findex.m3u8&e=1795370243&sig=e4PkAxmPsym88dqNUl_5eJ4pBt4gV7JTjBw-ibNLWB4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "ESPN Deportes (ES)": "https://hls.lshls.st/secure_hls.php?path=9aba7a810e47b32163183d4d9e92840f%2Findex.m3u8&e=1795370537&sig=l-hpQjn5NXrp-SNWPMko91S9g_Iyn5hxOmN2cVN8WR8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2075,7 +2015,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=f0e34dbfd8cd7a28da4a9cf3ad4b0fd3%2Findex.m3u8&e=1795370243&sig=ze9I-kg8jfvotymkN-XoV3IixnQARaAbXql0PSUuXXM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=f0e34dbfd8cd7a28da4a9cf3ad4b0fd3%2Findex.m3u8&e=1795370543&sig=hwTlBHDvPfQgzfG1DQfhM9BddPhG2jZj53A8U6_Gpuo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2090,7 +2030,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=75711b4c58321ffe37e598d58e779e2b%2Findex.m3u8&e=1795370244&sig=5e1ZedJmeBpSWeW9v09sQ5WRJt1MNVw-trY9ZJqwGRU|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=75711b4c58321ffe37e598d58e779e2b%2Findex.m3u8&e=1795370538&sig=gskeAR4o8rvyfIGFV5YfdqqMt9G0_aTuJ9qO7Q9c-N4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2105,7 +2045,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=5825d9248e99dddf41b59f26c2e66424%2Findex.m3u8&e=1795370240&sig=RovxDkRLOgq5jxXRCnVWBJNC0L6GV_FKz_5sG-oP-Zo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=5825d9248e99dddf41b59f26c2e66424%2Findex.m3u8&e=1795370543&sig=wF82gBxnC_-BZiR6BoKmaQa8C2ahiRw4CxhTShjh5-o|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2120,7 +2060,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=f6a214cf886d35a5591087d6a8ca8d58%2Findex.m3u8&e=1795370241&sig=3gq8VPVamrTIquV3JGp1yU9Kpao3NAckS-ysld3GIiM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=f6a214cf886d35a5591087d6a8ca8d58%2Findex.m3u8&e=1795370538&sig=QyOg--ST-A0kt_ahOt7zR55t5wMwOPAAconT0tJOwwY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2135,7 +2075,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=efcf0daf38c7d00d886c3002cea356e1%2Findex.m3u8&e=1795370239&sig=-0HjG0YEzsVKTuDXFWNXqrIFfbQeoRMpmQxUV-kuSTg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=efcf0daf38c7d00d886c3002cea356e1%2Findex.m3u8&e=1795370543&sig=CUPZteDChLEYUklp4qCInZksiKUEt8lEUk34VT9jU0c|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2150,7 +2090,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=58c61f4546642149cd5f3f5b0c508dff%2Findex.m3u8&e=1795370239&sig=QXwFaSD7B6rt4dpxh1be_HaKEtF3h-O8m8mWO11iptQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=58c61f4546642149cd5f3f5b0c508dff%2Findex.m3u8&e=1795370539&sig=zPmFW0_oI1ES-46WdcI9uMmNCJLx-l_vNvMxJQlUIv0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2165,7 +2105,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=a2eb767a63c0646e710447c54083b3e4%2Findex.m3u8&e=1795370244&sig=pYlS3i30N3J0wQK7VZt85cn2M7z8Zw_v3itwqZx9guw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=a2eb767a63c0646e710447c54083b3e4%2Findex.m3u8&e=1795370537&sig=dPJWUGSC8IAaU6NrUkDsk6f55uyLMxcd-zG5JYh-u_0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2180,7 +2120,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=1a4e64d8dc4457909cdb26dabbadae3a%2Findex.m3u8&e=1795370240&sig=lI5boSKRKkv4-rwinn1Z8_dwTTSAbduVXPccjQan7Nw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=1a4e64d8dc4457909cdb26dabbadae3a%2Findex.m3u8&e=1795370541&sig=zbzGWWxrvm1DZsMzj3zYrmqyhbOIHbCzR66tlnYaTtA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2195,7 +2135,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=7b145bbd4bf206f377e4cb4a72e4ab03%2Findex.m3u8&e=1795370242&sig=GjtWsBrUNBop4X_m6uPAPOgxknAFe8Qb2W-GavEPn94|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=7b145bbd4bf206f377e4cb4a72e4ab03%2Findex.m3u8&e=1795370542&sig=bQcCXg164l7h-F6M6TjevxVMzmHUEyowaxarPdWkK9o|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2210,7 +2150,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=ab65a2596ab462ff14bdfd6ee1055085%2Findex.m3u8&e=1795370241&sig=2qS7rffYDqR2V5Fx6OQCN-2o-XWZYlYdV9mZDFn4PXY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=ab65a2596ab462ff14bdfd6ee1055085%2Findex.m3u8&e=1795370540&sig=SiaVQJqavjtDDNtQ5k5AvePwxkS3cjnQ6fHAwfo57NE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2225,7 +2165,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=3ce16cae309ca17fb913e24603663305%2Findex.m3u8&e=1795370244&sig=KeoSNXfdyb1bVfJD562d5EC5b5KEtkEghYTkxgX_8gA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=3ce16cae309ca17fb913e24603663305%2Findex.m3u8&e=1795370537&sig=cJIVZMZCKQxvCucXiNdXWmqrTp8gfJlLfipJYVlBmI8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2240,7 +2180,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=eed330e6c07b8be08b20dbccdba8d599%2Findex.m3u8&e=1795370243&sig=jJOpTj1RoRfedinLYrIXs4plmxqFPS0IFQYUlLMXuPc|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=eed330e6c07b8be08b20dbccdba8d599%2Findex.m3u8&e=1795370542&sig=jErInHiz7rJZmx5HJOcsDxBv8aNQnt756ehNMFwlALs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2255,7 +2195,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Fox Sports 1 (US)": "https://hls.lshls.st/secure_hls.php?path=ae48836381ea1dc4e923da3a418649bb%2Findex.m3u8&e=1795370239&sig=fZKYKWMM12tBiC4cTh62NZNdQOK5pHHsGIP0ZAYj6oU|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Fox Sports 1 (US)": "https://hls.lshls.st/secure_hls.php?path=ae48836381ea1dc4e923da3a418649bb%2Findex.m3u8&e=1795370543&sig=Aq3y9eouqt-VJlSnM4PqT4z4MFfAB1LBPzfLCdtbh9I|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2270,7 +2210,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "ESPN (US)": "https://hls.lshls.st/secure_hls.php?path=9ae3de4b40a6ecfdd03fc90be82c4535%2Findex.m3u8&e=1795370244&sig=XkLTk8aQpKz8QwhUuFzZGWNJYtEYnaR1djwA9ZbFDbM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "ESPN (US)": "https://hls.lshls.st/secure_hls.php?path=9ae3de4b40a6ecfdd03fc90be82c4535%2Findex.m3u8&e=1795370544&sig=5mlsKNrQt68UY0x2V8BokLxN3AIz3blOkW3zwf36Ceg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2285,7 +2225,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=d2cf4a545b7a79d529e7139a668540f7%2Findex.m3u8&e=1795370239&sig=qoO7uRIsyc4sKK8DRKySTR2Y1ixXS5d2cCw-kI44luM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=d2cf4a545b7a79d529e7139a668540f7%2Findex.m3u8&e=1795370538&sig=M2pnwyCIZJWDZS8ghgUbf4u-K5cm-jHeODnOVVbsLYs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2300,7 +2240,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=1ff92290efd0ffd2e6948d5d39522456%2Findex.m3u8&e=1795370241&sig=IPA6jN7HvPiizBqZrj2x0CY7EpoMgqrtG1YL4aW9KSk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=1ff92290efd0ffd2e6948d5d39522456%2Findex.m3u8&e=1795370539&sig=qx53nR16lyUj3yEuSmYaAQYMWufIdmGiGgcwcVRcp7Y|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2315,7 +2255,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=634a1c2817f51944e01c462d32db815f%2Findex.m3u8&e=1795370239&sig=YR1ZE8TAdWd-h0iBa6M5RMKbiup5FhXRyw4CMLt_qRg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sportsnet+ (CA)": "https://hls.lshls.st/secure_hls.php?path=634a1c2817f51944e01c462d32db815f%2Findex.m3u8&e=1795370538&sig=j2oM0E5vto9A6gO63J_KYtQ7V-0oELtSsK2dpYbwS5A|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2330,7 +2270,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=75711b4c58321ffe37e598d58e779e2b%2Findex.m3u8&e=1795370244&sig=5e1ZedJmeBpSWeW9v09sQ5WRJt1MNVw-trY9ZJqwGRU|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=75711b4c58321ffe37e598d58e779e2b%2Findex.m3u8&e=1795370538&sig=gskeAR4o8rvyfIGFV5YfdqqMt9G0_aTuJ9qO7Q9c-N4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2345,7 +2285,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=5825d9248e99dddf41b59f26c2e66424%2Findex.m3u8&e=1795370240&sig=RovxDkRLOgq5jxXRCnVWBJNC0L6GV_FKz_5sG-oP-Zo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=5825d9248e99dddf41b59f26c2e66424%2Findex.m3u8&e=1795370543&sig=wF82gBxnC_-BZiR6BoKmaQa8C2ahiRw4CxhTShjh5-o|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2360,7 +2300,7 @@
       "cover_image": "https://images.fotmob.com/image_resources/logo/teamlogo/10261.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Nova Sport (BG)": "https://hls.lshls.st/secure_hls.php?path=c43f93e25cb602599a2ba9a5ed372394%2Findex.m3u8&e=1795370243&sig=96AKATS24pXYwpRS9-WYWlMPsGfIBKfMF5AAyhEm8fA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Nova Sport (BG)": "https://hls.lshls.st/secure_hls.php?path=c43f93e25cb602599a2ba9a5ed372394%2Findex.m3u8&e=1795370542&sig=cPTxVzXgXXN8a9_AH0yC7ktwx7n0xkmBI2lalD1imUE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2375,7 +2315,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Diema Sport 3 (BG)": "https://hls.lshls.st/secure_hls.php?path=dad368e7f07d489edc4ab114e3571a3c%2Findex.m3u8&e=1795370240&sig=yp8jJb5I8F1fx5kmkKwMNvIYyiY_uX34NTybNXrqQ9U|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Diema Sport 3 (BG)": "https://hls.lshls.st/secure_hls.php?path=dad368e7f07d489edc4ab114e3571a3c%2Findex.m3u8&e=1795370541&sig=XgCV0mNkXR04c-X0BPxlp0jbyrMFFSp0cOU_T8RyHg4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2390,7 +2330,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Nova Sport (BG)": "https://hls.lshls.st/secure_hls.php?path=c43f93e25cb602599a2ba9a5ed372394%2Findex.m3u8&e=1795370243&sig=96AKATS24pXYwpRS9-WYWlMPsGfIBKfMF5AAyhEm8fA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Nova Sport (BG)": "https://hls.lshls.st/secure_hls.php?path=c43f93e25cb602599a2ba9a5ed372394%2Findex.m3u8&e=1795370542&sig=cPTxVzXgXXN8a9_AH0yC7ktwx7n0xkmBI2lalD1imUE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2405,7 +2345,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Nova Sport (BG)": "https://hls.lshls.st/secure_hls.php?path=c43f93e25cb602599a2ba9a5ed372394%2Findex.m3u8&e=1795370243&sig=96AKATS24pXYwpRS9-WYWlMPsGfIBKfMF5AAyhEm8fA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Nova Sport (BG)": "https://hls.lshls.st/secure_hls.php?path=c43f93e25cb602599a2ba9a5ed372394%2Findex.m3u8&e=1795370542&sig=cPTxVzXgXXN8a9_AH0yC7ktwx7n0xkmBI2lalD1imUE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2420,7 +2360,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Fox Soccer Plus (US)": "https://hls.lshls.st/secure_hls.php?path=07ae5785d9f5ce3acbd1e831e4c023ec%2Findex.m3u8&e=1795370243&sig=c1uWXX5jku5EKMYsivB0RU-6vtrAmEFUsjHy6cx1zaQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Fox Soccer Plus (US)": "https://hls.lshls.st/secure_hls.php?path=07ae5785d9f5ce3acbd1e831e4c023ec%2Findex.m3u8&e=1795370539&sig=boeJxeK_vE23j5T95OjNIT_SKS4sGAt8ugn7KoGF9l4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2435,7 +2375,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Fox Sports 2 (US)": "https://hls.lshls.st/secure_hls.php?path=c0848baa0fff7dcc32acb6e770f6cfc4%2Findex.m3u8&e=1795370243&sig=DvRjY9uK_gGStFKoedrvHb3-56QN_l-f2nYMK_cVkw8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Fox Sports 2 (US)": "https://hls.lshls.st/secure_hls.php?path=c0848baa0fff7dcc32acb6e770f6cfc4%2Findex.m3u8&e=1795370539&sig=anREitrkx19Fmm4hULZ0DX8JZJXK6SgH5kWOzDRVcfY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2450,7 +2390,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Diema Sport 3 (BG)": "https://hls.lshls.st/secure_hls.php?path=dad368e7f07d489edc4ab114e3571a3c%2Findex.m3u8&e=1795370240&sig=yp8jJb5I8F1fx5kmkKwMNvIYyiY_uX34NTybNXrqQ9U|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Diema Sport 3 (BG)": "https://hls.lshls.st/secure_hls.php?path=dad368e7f07d489edc4ab114e3571a3c%2Findex.m3u8&e=1795370541&sig=XgCV0mNkXR04c-X0BPxlp0jbyrMFFSp0cOU_T8RyHg4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2465,7 +2405,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Fox Soccer Plus (US)": "https://hls.lshls.st/secure_hls.php?path=07ae5785d9f5ce3acbd1e831e4c023ec%2Findex.m3u8&e=1795370243&sig=c1uWXX5jku5EKMYsivB0RU-6vtrAmEFUsjHy6cx1zaQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Fox Soccer Plus (US)": "https://hls.lshls.st/secure_hls.php?path=07ae5785d9f5ce3acbd1e831e4c023ec%2Findex.m3u8&e=1795370539&sig=boeJxeK_vE23j5T95OjNIT_SKS4sGAt8ugn7KoGF9l4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2480,7 +2420,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Fox Sports 2 (US)": "https://hls.lshls.st/secure_hls.php?path=c0848baa0fff7dcc32acb6e770f6cfc4%2Findex.m3u8&e=1795370243&sig=DvRjY9uK_gGStFKoedrvHb3-56QN_l-f2nYMK_cVkw8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Fox Sports 2 (US)": "https://hls.lshls.st/secure_hls.php?path=c0848baa0fff7dcc32acb6e770f6cfc4%2Findex.m3u8&e=1795370539&sig=anREitrkx19Fmm4hULZ0DX8JZJXK6SgH5kWOzDRVcfY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2495,7 +2435,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Liiga TV (FI)": "https://hls.lshls.st/secure_hls.php?path=f95837b960746ac94cf68110411e25c4%2Findex.m3u8&e=1795370243&sig=RlU6TXTP1GbY7e4MnOXqcwkJLzF8YeHF2ppN1qzQVqs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Liiga TV (FI)": "https://hls.lshls.st/secure_hls.php?path=f95837b960746ac94cf68110411e25c4%2Findex.m3u8&e=1795370539&sig=m8WgL04k75qvgVfM7UEE9RrWBXafFiw_MXxES4D0wcg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2510,7 +2450,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Liiga TV (FI)": "https://hls.lshls.st/secure_hls.php?path=3cd25b0b3db256d838549b42bc24f198%2Findex.m3u8&e=1795370243&sig=RvTN1K-nBl1tqh0TKbgvzmp0hc_P3jHyoZmyrlKTw_g|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Liiga TV (FI)": "https://hls.lshls.st/secure_hls.php?path=3cd25b0b3db256d838549b42bc24f198%2Findex.m3u8&e=1795370542&sig=T3aTWQmsskLfQ43Lx5YYfShwmPyAn_Rw2cuH2JS1M1s|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2525,7 +2465,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "MTV Urheilu 3 (FI)": "https://hls.lshls.st/secure_hls.php?path=1a4a7f37a94c2ef783e343d07e6aae27%2Findex.m3u8&e=1795370242&sig=filp55fVGtqYEfx-fkxnxYE5dY3_PbxvX-NyM9s2L2g|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "MTV Urheilu 3 (FI)": "https://hls.lshls.st/secure_hls.php?path=1a4a7f37a94c2ef783e343d07e6aae27%2Findex.m3u8&e=1795370538&sig=MOgAr6HvCUJ61PGN1JnFSQwlCxrSC-k-ZaBUKc1RrIE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2540,7 +2480,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=e0fb624f5ff1cdd17251c43b5487e6f4%2Findex.m3u8&e=1795370240&sig=kDLHhEOki6jhfvVfUVedNgnua1o02SoSMnXBdzaIbiQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=e0fb624f5ff1cdd17251c43b5487e6f4%2Findex.m3u8&e=1795370540&sig=O6Or0_nKhThQ5QDJV4QuC8Q6_9FQ_WmqjixTIU7nvkw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2555,8 +2495,8 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "TNT Sports 2 (GB)": "https://hls.lshls.st/secure_hls.php?path=f0e34dbfd8cd7a28da4a9cf3ad4b0fd3%2Findex.m3u8&e=1795370243&sig=ze9I-kg8jfvotymkN-XoV3IixnQARaAbXql0PSUuXXM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "TUDN (ES)": "https://hls.lshls.st/secure_hls.php?path=f7f64d8fee34a109d4926c9fedc01dec%2Findex.m3u8&e=1795370242&sig=EA2anbjs3UIU_whXcHeFi3GcHzKZn1e48t6lRTvIFzk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TNT Sports 2 (GB)": "https://hls.lshls.st/secure_hls.php?path=f0e34dbfd8cd7a28da4a9cf3ad4b0fd3%2Findex.m3u8&e=1795370543&sig=hwTlBHDvPfQgzfG1DQfhM9BddPhG2jZj53A8U6_Gpuo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "TUDN (ES)": "https://hls.lshls.st/secure_hls.php?path=f7f64d8fee34a109d4926c9fedc01dec%2Findex.m3u8&e=1795370540&sig=8XXUp85YoR9OcjvmDVmDVIUc5KeZQqJXzeTE3LmnZ38|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2571,7 +2511,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "TNT Sports 4 (GB)": "https://hls.lshls.st/secure_hls.php?path=58c61f4546642149cd5f3f5b0c508dff%2Findex.m3u8&e=1795370239&sig=QXwFaSD7B6rt4dpxh1be_HaKEtF3h-O8m8mWO11iptQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TNT Sports 4 (GB)": "https://hls.lshls.st/secure_hls.php?path=58c61f4546642149cd5f3f5b0c508dff%2Findex.m3u8&e=1795370539&sig=zPmFW0_oI1ES-46WdcI9uMmNCJLx-l_vNvMxJQlUIv0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2586,7 +2526,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=7437dc59183bb16ebc475580c4cee076%2Findex.m3u8&e=1795370242&sig=rjbb4L6E7hFksoTKpzSFPdIKWx_dqJPg60PK0KZEwtM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=7437dc59183bb16ebc475580c4cee076%2Findex.m3u8&e=1795370543&sig=Dy8gzjJ2nDYF3sddIwLhA-_xlgAJv9g38_UW8VJg0e4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2601,7 +2541,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "TV4 Hockey (SE)": "https://hls.lshls.st/secure_hls.php?path=98a19680cec78145d8ac25178dd87ff7%2Findex.m3u8&e=1795370239&sig=EGMqchYk-u6eoN5cGCPexQVd7jz3_kkcpj2YabDlCRM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TV4 Hockey (SE)": "https://hls.lshls.st/secure_hls.php?path=98a19680cec78145d8ac25178dd87ff7%2Findex.m3u8&e=1795370538&sig=QJL_t0JRRryLBS9TcbZtRTH_UcWQlNYHI-E3rFvt61Y|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2616,7 +2556,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "TV4 Sportkanalen (SE)": "https://hls.lshls.st/secure_hls.php?path=967ad451871741a480fac9595c942e5c%2Findex.m3u8&e=1795370240&sig=i26RJDiGP3C2nbpzlfnTICfRH0ssnr9jsQLD7Lz7tTE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TV4 Sportkanalen (SE)": "https://hls.lshls.st/secure_hls.php?path=967ad451871741a480fac9595c942e5c%2Findex.m3u8&e=1795370538&sig=Cfmr-7_kP-Fgj1vJqwsqSJrvfT0bKoI3k_aWxqoFWlo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2631,7 +2571,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Diema Sport 3 (BG)": "https://hls.lshls.st/secure_hls.php?path=dad368e7f07d489edc4ab114e3571a3c%2Findex.m3u8&e=1795370240&sig=yp8jJb5I8F1fx5kmkKwMNvIYyiY_uX34NTybNXrqQ9U|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Diema Sport 3 (BG)": "https://hls.lshls.st/secure_hls.php?path=dad368e7f07d489edc4ab114e3571a3c%2Findex.m3u8&e=1795370541&sig=XgCV0mNkXR04c-X0BPxlp0jbyrMFFSp0cOU_T8RyHg4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2646,7 +2586,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=08f8c9e711822e17468f26f2a6d46fb2%2Findex.m3u8&e=1795370242&sig=zWsbIAfbDy9LO0BcZg6ZrjxKkyvSW5gUnyTnBm8ISt0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=08f8c9e711822e17468f26f2a6d46fb2%2Findex.m3u8&e=1795370542&sig=9wqRPwU84CsUjwSx9pIgfzOVFUpzxl3CNKxKHa4MbGw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2661,7 +2601,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=82c5b0de40d0f66ec16c13d319dbd109%2Findex.m3u8&e=1795370242&sig=baN1hk4xK7J4MaAL25ssX1_XCGjxXY_QMUTo8q-6od0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=82c5b0de40d0f66ec16c13d319dbd109%2Findex.m3u8&e=1795370540&sig=aKlMZPHpymt4pKOCF4-DBcVlOA_w_DMHQ20hBzXTj0Y|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2676,7 +2616,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=b8bf17e4e6ca1b4d1ba51d757263f07a%2Findex.m3u8&e=1795370243&sig=cS7i99CA7SRB-_3nStVtkGwPtFa4njuT8gPQprD94Ec|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=b8bf17e4e6ca1b4d1ba51d757263f07a%2Findex.m3u8&e=1795370537&sig=IejbYnEusF4kokwPaCX3-1iJ_0LkoR5EJV8v3TICn9w|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2691,7 +2631,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=a6f0db1671277d037eda0ea8d39fd850%2Findex.m3u8&e=1795370239&sig=CY6OTLKpMwj-DZKyo7lYn2wQx3gWtrsVoq-bnJWMYZI|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=a6f0db1671277d037eda0ea8d39fd850%2Findex.m3u8&e=1795370537&sig=vLWrcfdjhjyD64cKpDz-MSCSQAsgdE4_AoTll26EmCk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2706,7 +2646,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=6488e829b2d71f9284ba6335d25ef31b%2Findex.m3u8&e=1795370243&sig=cHfFGkE6ftCwxurrqflNA5E0FbBGg5vAs05zoxoflOA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=6488e829b2d71f9284ba6335d25ef31b%2Findex.m3u8&e=1795370542&sig=ZXUuEaxPuVJ0xR0sh8lZWVJgonK60PZYrDymap_yweM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2721,7 +2661,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "MTV Max (FI)": "https://hls.lshls.st/secure_hls.php?path=c3dd1269c019240017cdedf5304b4bc9%2Findex.m3u8&e=1795370239&sig=n_YYbxsjhblp6y8quAn9A7q9DAZxJck3Pxi5oO8HWh4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "MTV Max (FI)": "https://hls.lshls.st/secure_hls.php?path=c3dd1269c019240017cdedf5304b4bc9%2Findex.m3u8&e=1795370538&sig=0xK3Wyd_08eIVASup3bHDHODptqGuSq_t3xsWDc1TVM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2736,7 +2676,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=ff2596f8f855e3e2f224518feb937c8c%2Findex.m3u8&e=1795370245&sig=6XAWQ819F9MYLZiZMfz2SfBdxVqLzl8tafMwKIo6qwA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=ff2596f8f855e3e2f224518feb937c8c%2Findex.m3u8&e=1795370537&sig=1migcNUFWgWHSED8QK-qnGHJoeHD5NfFE2pUL7xihtw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2751,8 +2691,8 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=3bc7b152b1a24a36514887f5cfeef106%2Findex.m3u8&e=1795370240&sig=76xYLePlqTMNREKviQ24IBRfgDf6D25_MSIFPxs6joE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "Nova Sports Prime (GR)": "https://hls.lshls.st/secure_hls.php?path=64a1542a3502580b17414b317feff30a%2Findex.m3u8&e=1795370239&sig=JXZUPiyY43sO1rLYaLGGJ9v6L97wpBNQTk8JN-lBLxo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=3bc7b152b1a24a36514887f5cfeef106%2Findex.m3u8&e=1795370543&sig=TUPPb-6L9R2kdwKmHRANdascVJuDs8igrM69dT3HFh4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "Nova Sports Prime (GR)": "https://hls.lshls.st/secure_hls.php?path=64a1542a3502580b17414b317feff30a%2Findex.m3u8&e=1795370543&sig=viedgEemT1RK2FNEMuWruVMBAUDDt2n93PzPohXrKoQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2767,7 +2707,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=7b609c48f4d1c2c615d43c5f7e25194f%2Findex.m3u8&e=1795370243&sig=RA06gnQ9Vn6mPxCO8lwVoQtoR724a5PwC396gUNKvpo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=7b609c48f4d1c2c615d43c5f7e25194f%2Findex.m3u8&e=1795370538&sig=WZ6QYKsZ9koJFAXWls-iqtOHXLrLwdDM8ywuBtPNp7Q|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2782,7 +2722,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=75711b4c58321ffe37e598d58e779e2b%2Findex.m3u8&e=1795370244&sig=5e1ZedJmeBpSWeW9v09sQ5WRJt1MNVw-trY9ZJqwGRU|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=75711b4c58321ffe37e598d58e779e2b%2Findex.m3u8&e=1795370538&sig=gskeAR4o8rvyfIGFV5YfdqqMt9G0_aTuJ9qO7Q9c-N4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2797,7 +2737,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=5825d9248e99dddf41b59f26c2e66424%2Findex.m3u8&e=1795370240&sig=RovxDkRLOgq5jxXRCnVWBJNC0L6GV_FKz_5sG-oP-Zo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=5825d9248e99dddf41b59f26c2e66424%2Findex.m3u8&e=1795370543&sig=wF82gBxnC_-BZiR6BoKmaQa8C2ahiRw4CxhTShjh5-o|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2812,7 +2752,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=f6a214cf886d35a5591087d6a8ca8d58%2Findex.m3u8&e=1795370241&sig=3gq8VPVamrTIquV3JGp1yU9Kpao3NAckS-ysld3GIiM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=f6a214cf886d35a5591087d6a8ca8d58%2Findex.m3u8&e=1795370538&sig=QyOg--ST-A0kt_ahOt7zR55t5wMwOPAAconT0tJOwwY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2827,7 +2767,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=7b145bbd4bf206f377e4cb4a72e4ab03%2Findex.m3u8&e=1795370242&sig=GjtWsBrUNBop4X_m6uPAPOgxknAFe8Qb2W-GavEPn94|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=7b145bbd4bf206f377e4cb4a72e4ab03%2Findex.m3u8&e=1795370542&sig=bQcCXg164l7h-F6M6TjevxVMzmHUEyowaxarPdWkK9o|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2842,7 +2782,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=ab65a2596ab462ff14bdfd6ee1055085%2Findex.m3u8&e=1795370241&sig=2qS7rffYDqR2V5Fx6OQCN-2o-XWZYlYdV9mZDFn4PXY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=ab65a2596ab462ff14bdfd6ee1055085%2Findex.m3u8&e=1795370540&sig=SiaVQJqavjtDDNtQ5k5AvePwxkS3cjnQ6fHAwfo57NE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2857,7 +2797,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=3ce16cae309ca17fb913e24603663305%2Findex.m3u8&e=1795370244&sig=KeoSNXfdyb1bVfJD562d5EC5b5KEtkEghYTkxgX_8gA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=3ce16cae309ca17fb913e24603663305%2Findex.m3u8&e=1795370537&sig=cJIVZMZCKQxvCucXiNdXWmqrTp8gfJlLfipJYVlBmI8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2872,7 +2812,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=eed330e6c07b8be08b20dbccdba8d599%2Findex.m3u8&e=1795370243&sig=jJOpTj1RoRfedinLYrIXs4plmxqFPS0IFQYUlLMXuPc|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=eed330e6c07b8be08b20dbccdba8d599%2Findex.m3u8&e=1795370542&sig=jErInHiz7rJZmx5HJOcsDxBv8aNQnt756ehNMFwlALs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2887,8 +2827,8 @@
       "cover_image": "https://images.fotmob.com/image_resources/logo/teamlogo/8456.png",
       "is_free": false,
       "stream_url_alpha": {
-        "TNT Sports 1 (GB)": "https://hls.lshls.st/secure_hls.php?path=9ae3de4b40a6ecfdd03fc90be82c4535%2Findex.m3u8&e=1795370244&sig=XkLTk8aQpKz8QwhUuFzZGWNJYtEYnaR1djwA9ZbFDbM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "Sky Sport Uno (IT)": "https://hls.lshls.st/secure_hls.php?path=d7bb70bbe1dafb9cbec7469b899bee63%2Findex.m3u8&e=1795370245&sig=9pbQCKU8CWGgI2tfUhZt6VAbYPQY2oUyoIGIHqKU4Iw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TNT Sports 1 (GB)": "https://hls.lshls.st/secure_hls.php?path=9ae3de4b40a6ecfdd03fc90be82c4535%2Findex.m3u8&e=1795370544&sig=5mlsKNrQt68UY0x2V8BokLxN3AIz3blOkW3zwf36Ceg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "Sky Sport Uno (IT)": "https://hls.lshls.st/secure_hls.php?path=d7bb70bbe1dafb9cbec7469b899bee63%2Findex.m3u8&e=1795370538&sig=-W1UEU2qtJTlW0uQqmEOjxhh0ms7HtcDqz89xRkc7rM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2903,9 +2843,9 @@
       "cover_image": "https://images.fotmob.com/image_resources/logo/teamlogo/8633.png",
       "is_free": false,
       "stream_url_alpha": {
-        "TNT Sports 2 (GB)": "https://hls.lshls.st/secure_hls.php?path=f0e34dbfd8cd7a28da4a9cf3ad4b0fd3%2Findex.m3u8&e=1795370243&sig=ze9I-kg8jfvotymkN-XoV3IixnQARaAbXql0PSUuXXM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "TUDN (ES)": "https://hls.lshls.st/secure_hls.php?path=f7f64d8fee34a109d4926c9fedc01dec%2Findex.m3u8&e=1795370242&sig=EA2anbjs3UIU_whXcHeFi3GcHzKZn1e48t6lRTvIFzk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "Ziggo Sport 2 (NL)": "https://hls.lshls.st/secure_hls.php?path=4e77585a1a85d3f671fc2827c372b77d%2Findex.m3u8&e=1795370241&sig=mE85oilO5zayXouLxC-v5QvUekDu7UKXaIe5xo04Wu0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TNT Sports 2 (GB)": "https://hls.lshls.st/secure_hls.php?path=f0e34dbfd8cd7a28da4a9cf3ad4b0fd3%2Findex.m3u8&e=1795370543&sig=hwTlBHDvPfQgzfG1DQfhM9BddPhG2jZj53A8U6_Gpuo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "TUDN (ES)": "https://hls.lshls.st/secure_hls.php?path=f7f64d8fee34a109d4926c9fedc01dec%2Findex.m3u8&e=1795370540&sig=8XXUp85YoR9OcjvmDVmDVIUc5KeZQqJXzeTE3LmnZ38|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "Ziggo Sport 2 (NL)": "https://hls.lshls.st/secure_hls.php?path=4e77585a1a85d3f671fc2827c372b77d%2Findex.m3u8&e=1795370537&sig=I-L_s0RR7Uj3_YuC8GWSWV-HcLU_xmcvrLw1wVG13Go|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2920,9 +2860,9 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "TNT Sports 4 (GB)": "https://hls.lshls.st/secure_hls.php?path=58c61f4546642149cd5f3f5b0c508dff%2Findex.m3u8&e=1795370239&sig=QXwFaSD7B6rt4dpxh1be_HaKEtF3h-O8m8mWO11iptQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "MagentaSport 2 (GR)": "https://hls.lshls.st/secure_hls.php?path=fc963018a78bfccd5d66958ff06fe9e0%2Findex.m3u8&e=1795370240&sig=R85MJ132XV21IejF9ClHfGlBJgreM4iaaAx_cBKBIyw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "Sky Sport Arena (IT)": "https://hls.lshls.st/secure_hls.php?path=d6eae01bed513495f81eb45cc68216af%2Findex.m3u8&e=1795370244&sig=hg-XZPo57DokAl7lIsTwnWjYYfCR8XPZpvqyPD24ZiM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TNT Sports 4 (GB)": "https://hls.lshls.st/secure_hls.php?path=58c61f4546642149cd5f3f5b0c508dff%2Findex.m3u8&e=1795370539&sig=zPmFW0_oI1ES-46WdcI9uMmNCJLx-l_vNvMxJQlUIv0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "MagentaSport 2 (GR)": "https://hls.lshls.st/secure_hls.php?path=fc963018a78bfccd5d66958ff06fe9e0%2Findex.m3u8&e=1795370540&sig=cXB1p93HSnoiMrsnrmrWnr7R8Rmtt-Pv-hXjjFCDILs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "Sky Sport Arena (IT)": "https://hls.lshls.st/secure_hls.php?path=d6eae01bed513495f81eb45cc68216af%2Findex.m3u8&e=1795370541&sig=sAzeIDaEBAIPZv9AFHgNMecIpGTfsR4apEBLuUOAQuc|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2937,8 +2877,8 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "TNT Sports 5 (GB)": "https://hls.lshls.st/secure_hls.php?path=a2eb767a63c0646e710447c54083b3e4%2Findex.m3u8&e=1795370244&sig=pYlS3i30N3J0wQK7VZt85cn2M7z8Zw_v3itwqZx9guw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "M+ Liga de Campeones 2 (ES)": "https://hls.lshls.st/secure_hls.php?path=9b49004040ccf64adf108ab4e17a68a6%2Findex.m3u8&e=1795370241&sig=4B8_wzDqAtJ0EbVVTQlzFvTF25Oz89UtUKVxrafRbkk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TNT Sports 5 (GB)": "https://hls.lshls.st/secure_hls.php?path=a2eb767a63c0646e710447c54083b3e4%2Findex.m3u8&e=1795370537&sig=dPJWUGSC8IAaU6NrUkDsk6f55uyLMxcd-zG5JYh-u_0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "M+ Liga de Campeones 2 (ES)": "https://hls.lshls.st/secure_hls.php?path=9b49004040ccf64adf108ab4e17a68a6%2Findex.m3u8&e=1795370540&sig=VKpA77gdULDjCzaYZ5Xk7YqLFRWw6eMSOz2RJ_PQVXg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2953,8 +2893,8 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "TNT Sports 6 (GB)": "https://hls.lshls.st/secure_hls.php?path=1a4e64d8dc4457909cdb26dabbadae3a%2Findex.m3u8&e=1795370240&sig=lI5boSKRKkv4-rwinn1Z8_dwTTSAbduVXPccjQan7Nw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "Canal+ Foot (FR)": "https://hls.lshls.st/secure_hls.php?path=131aad542969f2e906086706986d6698%2Findex.m3u8&e=1795370240&sig=gH-YdOcf7MYQky4etPyLmBJB7499czRB8NS7yc15Qs8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TNT Sports 6 (GB)": "https://hls.lshls.st/secure_hls.php?path=1a4e64d8dc4457909cdb26dabbadae3a%2Findex.m3u8&e=1795370541&sig=zbzGWWxrvm1DZsMzj3zYrmqyhbOIHbCzR66tlnYaTtA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "Canal+ Foot (FR)": "https://hls.lshls.st/secure_hls.php?path=131aad542969f2e906086706986d6698%2Findex.m3u8&e=1795370543&sig=q7aT8AEXzuxfGEpRrn5PldemNCVNpsb_AWlLLoNpUhg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2969,9 +2909,9 @@
       "cover_image": "https://images.fotmob.com/image_resources/logo/teamlogo/9825.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Amazon Prime Video (GB)": "https://hls.lshls.st/secure_hls.php?path=550c2debe1b5d60f7c00801422ff9c2e%2Findex.m3u8&e=1795370240&sig=mZqlMAg05u0OjhXAGUFtMs7ay2GeKxFHP7OFqCp3hnA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "Amazon Prime Video (DE)": "https://hls.lshls.st/secure_hls.php?path=7bb9c8db145ddbf8b75a8f98223221b4%2Findex.m3u8&e=1795370239&sig=VTl7zK1cFSOEMICrungeHYdGSRiDGKH6qXATdAl1SCc|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "Sky Sport Calcio (IT)": "https://hls.lshls.st/secure_hls.php?path=c564bc7e3c0914e67ee7ea0b4fd4f51f%2Findex.m3u8&e=1795370243&sig=JmmN_kpX_9zc830LUrzZ4m_x7mWbMtCS20nIVxeBRmI|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Amazon Prime Video (GB)": "https://hls.lshls.st/secure_hls.php?path=550c2debe1b5d60f7c00801422ff9c2e%2Findex.m3u8&e=1795370537&sig=kT8wT3iNs2-HkJ-ZS48V5o0bo9XhuGxywMW3jgNUWro|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "Amazon Prime Video (DE)": "https://hls.lshls.st/secure_hls.php?path=7bb9c8db145ddbf8b75a8f98223221b4%2Findex.m3u8&e=1795370539&sig=04Cozst4vXLehmvdRo2OiwBdDWp3aTGxM0-Y-hzxhxw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "Sky Sport Calcio (IT)": "https://hls.lshls.st/secure_hls.php?path=c564bc7e3c0914e67ee7ea0b4fd4f51f%2Findex.m3u8&e=1795370538&sig=ji543aDFEwwH8ucV-WGjnO8PtcRg2NrxpCttfG-3hMk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -2986,7 +2926,7 @@
       "cover_image": "https://images.fotmob.com/image_resources/logo/teamlogo/8634.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=673f06fa8727e2c89ea3ee4020890eed%2Findex.m3u8&e=1795370244&sig=vEBSnT4-Rqgz8xQ7DXXo9bqxTUHCnC3zj6AfhP3_Or4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=673f06fa8727e2c89ea3ee4020890eed%2Findex.m3u8&e=1795370539&sig=UxYsYGLJLl5poebnnN_SEXzepyiC9k3vEk8toejkrQA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3001,8 +2941,8 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sport TV5 (PT)": "https://hls.lshls.st/secure_hls.php?path=b4f3dde1a0936bfc95d172077b3bdd23%2Findex.m3u8&e=1795370239&sig=b6VGo7zN6klC_Ep27By4b79BBe8RjDBfYAhojlBvFUI|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "Ziggo Sport (NL)": "https://hls.lshls.st/secure_hls.php?path=a08663a4fc28ff247dda5e18cd4c7d89%2Findex.m3u8&e=1795370239&sig=uIq1QR2p8VoLVrXqVSWvP4SEDB44jNzPhp57sv-P3JQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sport TV5 (PT)": "https://hls.lshls.st/secure_hls.php?path=b4f3dde1a0936bfc95d172077b3bdd23%2Findex.m3u8&e=1795370539&sig=txFesDoI9hKBbIpbOe4pK1q-co0rddCaMAVs4FF29dI|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "Ziggo Sport (NL)": "https://hls.lshls.st/secure_hls.php?path=a08663a4fc28ff247dda5e18cd4c7d89%2Findex.m3u8&e=1795370541&sig=1chGm7p1zne8oMJYvuNwLoiL8Q7e0obzW5n5zWoJLNQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3017,7 +2957,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sky Sports Main Event (GB)": "https://hls.lshls.st/secure_hls.php?path=d2cf4a545b7a79d529e7139a668540f7%2Findex.m3u8&e=1795370239&sig=qoO7uRIsyc4sKK8DRKySTR2Y1ixXS5d2cCw-kI44luM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sky Sports Main Event (GB)": "https://hls.lshls.st/secure_hls.php?path=d2cf4a545b7a79d529e7139a668540f7%2Findex.m3u8&e=1795370538&sig=M2pnwyCIZJWDZS8ghgUbf4u-K5cm-jHeODnOVVbsLYs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3032,7 +2972,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sky Sports Football (GB)": "https://hls.lshls.st/secure_hls.php?path=5f58ccc896c81d5fefdf94d70070c622%2Findex.m3u8&e=1795370244&sig=E_oS2DdigGcscYK2zofzH8OZOOLY9NfFZJ_MG4tqKLs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sky Sports Football (GB)": "https://hls.lshls.st/secure_hls.php?path=5f58ccc896c81d5fefdf94d70070c622%2Findex.m3u8&e=1795370545&sig=9iOi_yfhQBXi159VWy-SDbWzAJgok1TLGJt9aq9NB98|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3047,7 +2987,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=9ae3de4b40a6ecfdd03fc90be82c4535%2Findex.m3u8&e=1795370244&sig=XkLTk8aQpKz8QwhUuFzZGWNJYtEYnaR1djwA9ZbFDbM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=9ae3de4b40a6ecfdd03fc90be82c4535%2Findex.m3u8&e=1795370544&sig=5mlsKNrQt68UY0x2V8BokLxN3AIz3blOkW3zwf36Ceg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3062,7 +3002,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=f0e34dbfd8cd7a28da4a9cf3ad4b0fd3%2Findex.m3u8&e=1795370243&sig=ze9I-kg8jfvotymkN-XoV3IixnQARaAbXql0PSUuXXM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=f0e34dbfd8cd7a28da4a9cf3ad4b0fd3%2Findex.m3u8&e=1795370543&sig=hwTlBHDvPfQgzfG1DQfhM9BddPhG2jZj53A8U6_Gpuo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3077,7 +3017,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "TNT (US)": "https://hls.lshls.st/secure_hls.php?path=efcf0daf38c7d00d886c3002cea356e1%2Findex.m3u8&e=1795370239&sig=-0HjG0YEzsVKTuDXFWNXqrIFfbQeoRMpmQxUV-kuSTg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TNT (US)": "https://hls.lshls.st/secure_hls.php?path=efcf0daf38c7d00d886c3002cea356e1%2Findex.m3u8&e=1795370543&sig=CUPZteDChLEYUklp4qCInZksiKUEt8lEUk34VT9jU0c|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3092,7 +3032,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=9ae3de4b40a6ecfdd03fc90be82c4535%2Findex.m3u8&e=1795370244&sig=XkLTk8aQpKz8QwhUuFzZGWNJYtEYnaR1djwA9ZbFDbM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "NBA League Pass (US)": "https://hls.lshls.st/secure_hls.php?path=9ae3de4b40a6ecfdd03fc90be82c4535%2Findex.m3u8&e=1795370544&sig=5mlsKNrQt68UY0x2V8BokLxN3AIz3blOkW3zwf36Ceg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3107,7 +3047,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Fox Sports 1 (US)": "https://hls.lshls.st/secure_hls.php?path=ae48836381ea1dc4e923da3a418649bb%2Findex.m3u8&e=1795370239&sig=fZKYKWMM12tBiC4cTh62NZNdQOK5pHHsGIP0ZAYj6oU|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Fox Sports 1 (US)": "https://hls.lshls.st/secure_hls.php?path=ae48836381ea1dc4e923da3a418649bb%2Findex.m3u8&e=1795370543&sig=Aq3y9eouqt-VJlSnM4PqT4z4MFfAB1LBPzfLCdtbh9I|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3122,7 +3062,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Nova Sport (BG)": "https://hls.lshls.st/secure_hls.php?path=c43f93e25cb602599a2ba9a5ed372394%2Findex.m3u8&e=1795370243&sig=96AKATS24pXYwpRS9-WYWlMPsGfIBKfMF5AAyhEm8fA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Nova Sport (BG)": "https://hls.lshls.st/secure_hls.php?path=c43f93e25cb602599a2ba9a5ed372394%2Findex.m3u8&e=1795370542&sig=cPTxVzXgXXN8a9_AH0yC7ktwx7n0xkmBI2lalD1imUE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3137,7 +3077,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Diema Sport 3 (BG)": "https://hls.lshls.st/secure_hls.php?path=dad368e7f07d489edc4ab114e3571a3c%2Findex.m3u8&e=1795370240&sig=yp8jJb5I8F1fx5kmkKwMNvIYyiY_uX34NTybNXrqQ9U|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Diema Sport 3 (BG)": "https://hls.lshls.st/secure_hls.php?path=dad368e7f07d489edc4ab114e3571a3c%2Findex.m3u8&e=1795370541&sig=XgCV0mNkXR04c-X0BPxlp0jbyrMFFSp0cOU_T8RyHg4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3152,7 +3092,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Fox Sports 2 (US)": "https://hls.lshls.st/secure_hls.php?path=c0848baa0fff7dcc32acb6e770f6cfc4%2Findex.m3u8&e=1795370243&sig=DvRjY9uK_gGStFKoedrvHb3-56QN_l-f2nYMK_cVkw8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Fox Sports 2 (US)": "https://hls.lshls.st/secure_hls.php?path=c0848baa0fff7dcc32acb6e770f6cfc4%2Findex.m3u8&e=1795370539&sig=anREitrkx19Fmm4hULZ0DX8JZJXK6SgH5kWOzDRVcfY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3167,7 +3107,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Fox Soccer Plus (US)": "https://hls.lshls.st/secure_hls.php?path=07ae5785d9f5ce3acbd1e831e4c023ec%2Findex.m3u8&e=1795370243&sig=c1uWXX5jku5EKMYsivB0RU-6vtrAmEFUsjHy6cx1zaQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Fox Soccer Plus (US)": "https://hls.lshls.st/secure_hls.php?path=07ae5785d9f5ce3acbd1e831e4c023ec%2Findex.m3u8&e=1795370539&sig=boeJxeK_vE23j5T95OjNIT_SKS4sGAt8ugn7KoGF9l4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3182,7 +3122,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Diema Sport 3 (BG)": "https://hls.lshls.st/secure_hls.php?path=dad368e7f07d489edc4ab114e3571a3c%2Findex.m3u8&e=1795370240&sig=yp8jJb5I8F1fx5kmkKwMNvIYyiY_uX34NTybNXrqQ9U|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Diema Sport 3 (BG)": "https://hls.lshls.st/secure_hls.php?path=dad368e7f07d489edc4ab114e3571a3c%2Findex.m3u8&e=1795370541&sig=XgCV0mNkXR04c-X0BPxlp0jbyrMFFSp0cOU_T8RyHg4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3197,7 +3137,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Fox Sports 2 (US)": "https://hls.lshls.st/secure_hls.php?path=c0848baa0fff7dcc32acb6e770f6cfc4%2Findex.m3u8&e=1795370243&sig=DvRjY9uK_gGStFKoedrvHb3-56QN_l-f2nYMK_cVkw8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Fox Sports 2 (US)": "https://hls.lshls.st/secure_hls.php?path=c0848baa0fff7dcc32acb6e770f6cfc4%2Findex.m3u8&e=1795370539&sig=anREitrkx19Fmm4hULZ0DX8JZJXK6SgH5kWOzDRVcfY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3212,7 +3152,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Fox Soccer Plus (US)": "https://hls.lshls.st/secure_hls.php?path=07ae5785d9f5ce3acbd1e831e4c023ec%2Findex.m3u8&e=1795370243&sig=c1uWXX5jku5EKMYsivB0RU-6vtrAmEFUsjHy6cx1zaQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Fox Soccer Plus (US)": "https://hls.lshls.st/secure_hls.php?path=07ae5785d9f5ce3acbd1e831e4c023ec%2Findex.m3u8&e=1795370539&sig=boeJxeK_vE23j5T95OjNIT_SKS4sGAt8ugn7KoGF9l4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3227,7 +3167,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=e0fb624f5ff1cdd17251c43b5487e6f4%2Findex.m3u8&e=1795370240&sig=kDLHhEOki6jhfvVfUVedNgnua1o02SoSMnXBdzaIbiQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=e0fb624f5ff1cdd17251c43b5487e6f4%2Findex.m3u8&e=1795370540&sig=O6Or0_nKhThQ5QDJV4QuC8Q6_9FQ_WmqjixTIU7nvkw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3242,7 +3182,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Nova Sport (BG)": "https://hls.lshls.st/secure_hls.php?path=c43f93e25cb602599a2ba9a5ed372394%2Findex.m3u8&e=1795370243&sig=96AKATS24pXYwpRS9-WYWlMPsGfIBKfMF5AAyhEm8fA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Nova Sport (BG)": "https://hls.lshls.st/secure_hls.php?path=c43f93e25cb602599a2ba9a5ed372394%2Findex.m3u8&e=1795370542&sig=cPTxVzXgXXN8a9_AH0yC7ktwx7n0xkmBI2lalD1imUE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3257,7 +3197,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Liiga TV (FI)": "https://hls.lshls.st/secure_hls.php?path=f95837b960746ac94cf68110411e25c4%2Findex.m3u8&e=1795370243&sig=RlU6TXTP1GbY7e4MnOXqcwkJLzF8YeHF2ppN1qzQVqs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Liiga TV (FI)": "https://hls.lshls.st/secure_hls.php?path=f95837b960746ac94cf68110411e25c4%2Findex.m3u8&e=1795370539&sig=m8WgL04k75qvgVfM7UEE9RrWBXafFiw_MXxES4D0wcg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3272,7 +3212,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Liiga TV (FI)": "https://hls.lshls.st/secure_hls.php?path=3cd25b0b3db256d838549b42bc24f198%2Findex.m3u8&e=1795370243&sig=RvTN1K-nBl1tqh0TKbgvzmp0hc_P3jHyoZmyrlKTw_g|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Liiga TV (FI)": "https://hls.lshls.st/secure_hls.php?path=3cd25b0b3db256d838549b42bc24f198%2Findex.m3u8&e=1795370542&sig=T3aTWQmsskLfQ43Lx5YYfShwmPyAn_Rw2cuH2JS1M1s|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3287,7 +3227,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "MTV Urheilu 3 (FI)": "https://hls.lshls.st/secure_hls.php?path=1a4a7f37a94c2ef783e343d07e6aae27%2Findex.m3u8&e=1795370242&sig=filp55fVGtqYEfx-fkxnxYE5dY3_PbxvX-NyM9s2L2g|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "MTV Urheilu 3 (FI)": "https://hls.lshls.st/secure_hls.php?path=1a4a7f37a94c2ef783e343d07e6aae27%2Findex.m3u8&e=1795370538&sig=MOgAr6HvCUJ61PGN1JnFSQwlCxrSC-k-ZaBUKc1RrIE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3302,7 +3242,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "MTV Max (FI)": "https://hls.lshls.st/secure_hls.php?path=c3dd1269c019240017cdedf5304b4bc9%2Findex.m3u8&e=1795370239&sig=n_YYbxsjhblp6y8quAn9A7q9DAZxJck3Pxi5oO8HWh4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "MTV Max (FI)": "https://hls.lshls.st/secure_hls.php?path=c3dd1269c019240017cdedf5304b4bc9%2Findex.m3u8&e=1795370538&sig=0xK3Wyd_08eIVASup3bHDHODptqGuSq_t3xsWDc1TVM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3317,7 +3257,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Liiga TV (FI)": "https://hls.lshls.st/secure_hls.php?path=7faf6ed9907322b14e1083802ecf7740%2Findex.m3u8&e=1795370242&sig=EF4GWnNwZhAw1-kZwcn27e7DzyfLudiLaQ91haCGq3w|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Liiga TV (FI)": "https://hls.lshls.st/secure_hls.php?path=7faf6ed9907322b14e1083802ecf7740%2Findex.m3u8&e=1795370541&sig=Rokj3w62yA4ABY2U8tPVss9bbtfIrvVE_XsmwcZQnyk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3332,8 +3272,8 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "TNT Sports 4 (GB)": "https://hls.lshls.st/secure_hls.php?path=58c61f4546642149cd5f3f5b0c508dff%2Findex.m3u8&e=1795370239&sig=QXwFaSD7B6rt4dpxh1be_HaKEtF3h-O8m8mWO11iptQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "TUDN (ES)": "https://hls.lshls.st/secure_hls.php?path=f7f64d8fee34a109d4926c9fedc01dec%2Findex.m3u8&e=1795370242&sig=EA2anbjs3UIU_whXcHeFi3GcHzKZn1e48t6lRTvIFzk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TNT Sports 4 (GB)": "https://hls.lshls.st/secure_hls.php?path=58c61f4546642149cd5f3f5b0c508dff%2Findex.m3u8&e=1795370539&sig=zPmFW0_oI1ES-46WdcI9uMmNCJLx-l_vNvMxJQlUIv0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "TUDN (ES)": "https://hls.lshls.st/secure_hls.php?path=f7f64d8fee34a109d4926c9fedc01dec%2Findex.m3u8&e=1795370540&sig=8XXUp85YoR9OcjvmDVmDVIUc5KeZQqJXzeTE3LmnZ38|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3348,8 +3288,8 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "TNT Sports 5 (GB)": "https://hls.lshls.st/secure_hls.php?path=a2eb767a63c0646e710447c54083b3e4%2Findex.m3u8&e=1795370244&sig=pYlS3i30N3J0wQK7VZt85cn2M7z8Zw_v3itwqZx9guw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "M+ Liga de Campeones 3 (ES)": "https://hls.lshls.st/secure_hls.php?path=2d29dfe2b8e9f42ca732080a6981e684%2Findex.m3u8&e=1795370241&sig=fZNgCKRSeKpMAtFAhiAEz_YAo_k3h7n0kl40ezSzHqI|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TNT Sports 5 (GB)": "https://hls.lshls.st/secure_hls.php?path=a2eb767a63c0646e710447c54083b3e4%2Findex.m3u8&e=1795370537&sig=dPJWUGSC8IAaU6NrUkDsk6f55uyLMxcd-zG5JYh-u_0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "M+ Liga de Campeones 3 (ES)": "https://hls.lshls.st/secure_hls.php?path=2d29dfe2b8e9f42ca732080a6981e684%2Findex.m3u8&e=1795370539&sig=ARN4xBGVt3pN5X1-6z98OpYed-6onLqyXvSHGP_w7oY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3364,7 +3304,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "TV4 Sport Live 1 (SE)": "https://hls.lshls.st/secure_hls.php?path=48822202a4a7e1ed0aeee4076609daa3%2Findex.m3u8&e=1795370244&sig=OG8q5YmYishR7JHFzSThSZCIVOSyQIBQN4dBfIbrTfg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TV4 Sport Live 1 (SE)": "https://hls.lshls.st/secure_hls.php?path=48822202a4a7e1ed0aeee4076609daa3%2Findex.m3u8&e=1795370538&sig=_vGQsQfyNhDYpd7kan6PaivzbEsjabW7TzfcLsE8Ydk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3379,7 +3319,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "TV4 Sport Live 2 (SE)": "https://hls.lshls.st/secure_hls.php?path=2ae8e5cf5abbaf50c533cdc6dbc7bba1%2Findex.m3u8&e=1795370240&sig=K4svDeBdZx2IMp7ozY9OQfwWp3cszPxnTrW53uoWnIg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TV4 Sport Live 2 (SE)": "https://hls.lshls.st/secure_hls.php?path=2ae8e5cf5abbaf50c533cdc6dbc7bba1%2Findex.m3u8&e=1795370537&sig=HTmhjKrD6g0CzNZbps--uk8Adpkj165kSmLSx9eDNBY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3394,7 +3334,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "TV4 Sport Live 3 (SE)": "https://hls.lshls.st/secure_hls.php?path=8d65b265d6acbfb47733821ee20bf170%2Findex.m3u8&e=1795370240&sig=zdhyGtRsZijIwtugLKSC3L3buE5zCGNWpTchUqmKC3w|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TV4 Sport Live 3 (SE)": "https://hls.lshls.st/secure_hls.php?path=8d65b265d6acbfb47733821ee20bf170%2Findex.m3u8&e=1795370542&sig=juEwQynI2L9rGEIlhmbCdIpwCeOB3ZH5yfb5K2I_TYk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3409,7 +3349,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "TV4 Sport Live 4 (SE)": "https://hls.lshls.st/secure_hls.php?path=98a19680cec78145d8ac25178dd87ff7%2Findex.m3u8&e=1795370239&sig=EGMqchYk-u6eoN5cGCPexQVd7jz3_kkcpj2YabDlCRM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TV4 Sport Live 4 (SE)": "https://hls.lshls.st/secure_hls.php?path=98a19680cec78145d8ac25178dd87ff7%2Findex.m3u8&e=1795370538&sig=QJL_t0JRRryLBS9TcbZtRTH_UcWQlNYHI-E3rFvt61Y|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3424,7 +3364,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "TV4 Hockey (SE)": "https://hls.lshls.st/secure_hls.php?path=967ad451871741a480fac9595c942e5c%2Findex.m3u8&e=1795370240&sig=i26RJDiGP3C2nbpzlfnTICfRH0ssnr9jsQLD7Lz7tTE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TV4 Hockey (SE)": "https://hls.lshls.st/secure_hls.php?path=967ad451871741a480fac9595c942e5c%2Findex.m3u8&e=1795370538&sig=Cfmr-7_kP-Fgj1vJqwsqSJrvfT0bKoI3k_aWxqoFWlo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3439,7 +3379,7 @@
       "cover_image": "https://i.ibb.co.com/d0TKNFrY/Hockey.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "TV4 Sportkanalen (SE)": "https://hls.lshls.st/secure_hls.php?path=a75f0eef2e8b0b9094514379b1a8ca3a%2Findex.m3u8&e=1795370240&sig=pqrCW5VotVDgu20RFMTwxWWdgOz3iUnjQ9EuKZggt0w|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TV4 Sportkanalen (SE)": "https://hls.lshls.st/secure_hls.php?path=a75f0eef2e8b0b9094514379b1a8ca3a%2Findex.m3u8&e=1795370537&sig=J4GrtuWMn-4nKfwUuE801928egGQAOWRqI7ZZ0mrowU|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3454,7 +3394,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Nova Sport (BG)": "https://hls.lshls.st/secure_hls.php?path=c43f93e25cb602599a2ba9a5ed372394%2Findex.m3u8&e=1795370243&sig=96AKATS24pXYwpRS9-WYWlMPsGfIBKfMF5AAyhEm8fA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Nova Sport (BG)": "https://hls.lshls.st/secure_hls.php?path=c43f93e25cb602599a2ba9a5ed372394%2Findex.m3u8&e=1795370542&sig=cPTxVzXgXXN8a9_AH0yC7ktwx7n0xkmBI2lalD1imUE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3469,7 +3409,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=a6f0db1671277d037eda0ea8d39fd850%2Findex.m3u8&e=1795370239&sig=CY6OTLKpMwj-DZKyo7lYn2wQx3gWtrsVoq-bnJWMYZI|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=a6f0db1671277d037eda0ea8d39fd850%2Findex.m3u8&e=1795370537&sig=vLWrcfdjhjyD64cKpDz-MSCSQAsgdE4_AoTll26EmCk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3484,7 +3424,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=6488e829b2d71f9284ba6335d25ef31b%2Findex.m3u8&e=1795370243&sig=cHfFGkE6ftCwxurrqflNA5E0FbBGg5vAs05zoxoflOA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=6488e829b2d71f9284ba6335d25ef31b%2Findex.m3u8&e=1795370542&sig=ZXUuEaxPuVJ0xR0sh8lZWVJgonK60PZYrDymap_yweM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3499,8 +3439,8 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=7437dc59183bb16ebc475580c4cee076%2Findex.m3u8&e=1795370242&sig=rjbb4L6E7hFksoTKpzSFPdIKWx_dqJPg60PK0KZEwtM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "Nova Sports Prime (GR)": "https://hls.lshls.st/secure_hls.php?path=fc963018a78bfccd5d66958ff06fe9e0%2Findex.m3u8&e=1795370240&sig=R85MJ132XV21IejF9ClHfGlBJgreM4iaaAx_cBKBIyw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=7437dc59183bb16ebc475580c4cee076%2Findex.m3u8&e=1795370543&sig=Dy8gzjJ2nDYF3sddIwLhA-_xlgAJv9g38_UW8VJg0e4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "Nova Sports Prime (GR)": "https://hls.lshls.st/secure_hls.php?path=fc963018a78bfccd5d66958ff06fe9e0%2Findex.m3u8&e=1795370540&sig=cXB1p93HSnoiMrsnrmrWnr7R8Rmtt-Pv-hXjjFCDILs|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3515,7 +3455,7 @@
       "cover_image": "https://i.ibb.co.com/rGQtdmkG/Basketball.jpg",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=e0fb624f5ff1cdd17251c43b5487e6f4%2Findex.m3u8&e=1795370240&sig=kDLHhEOki6jhfvVfUVedNgnua1o02SoSMnXBdzaIbiQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=e0fb624f5ff1cdd17251c43b5487e6f4%2Findex.m3u8&e=1795370540&sig=O6Or0_nKhThQ5QDJV4QuC8Q6_9FQ_WmqjixTIU7nvkw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3530,7 +3470,7 @@
       "cover_image": "https://images.fotmob.com/image_resources/logo/teamlogo/8633.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=ff2596f8f855e3e2f224518feb937c8c%2Findex.m3u8&e=1795370245&sig=6XAWQ819F9MYLZiZMfz2SfBdxVqLzl8tafMwKIo6qwA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Magenta Sport (DE)": "https://hls.lshls.st/secure_hls.php?path=ff2596f8f855e3e2f224518feb937c8c%2Findex.m3u8&e=1795370537&sig=1migcNUFWgWHSED8QK-qnGHJoeHD5NfFE2pUL7xihtw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3545,7 +3485,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=75711b4c58321ffe37e598d58e779e2b%2Findex.m3u8&e=1795370244&sig=5e1ZedJmeBpSWeW9v09sQ5WRJt1MNVw-trY9ZJqwGRU|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=75711b4c58321ffe37e598d58e779e2b%2Findex.m3u8&e=1795370538&sig=gskeAR4o8rvyfIGFV5YfdqqMt9G0_aTuJ9qO7Q9c-N4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3560,7 +3500,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=5825d9248e99dddf41b59f26c2e66424%2Findex.m3u8&e=1795370240&sig=RovxDkRLOgq5jxXRCnVWBJNC0L6GV_FKz_5sG-oP-Zo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=5825d9248e99dddf41b59f26c2e66424%2Findex.m3u8&e=1795370543&sig=wF82gBxnC_-BZiR6BoKmaQa8C2ahiRw4CxhTShjh5-o|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3575,7 +3515,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=f6a214cf886d35a5591087d6a8ca8d58%2Findex.m3u8&e=1795370241&sig=3gq8VPVamrTIquV3JGp1yU9Kpao3NAckS-ysld3GIiM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sky Sports+ (GB)": "https://hls.lshls.st/secure_hls.php?path=f6a214cf886d35a5591087d6a8ca8d58%2Findex.m3u8&e=1795370538&sig=QyOg--ST-A0kt_ahOt7zR55t5wMwOPAAconT0tJOwwY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3590,8 +3530,8 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "TNT Sports 1 (GB)": "https://hls.lshls.st/secure_hls.php?path=9ae3de4b40a6ecfdd03fc90be82c4535%2Findex.m3u8&e=1795370244&sig=XkLTk8aQpKz8QwhUuFzZGWNJYtEYnaR1djwA9ZbFDbM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "Sport TV5 (PT)": "https://hls.lshls.st/secure_hls.php?path=b4f3dde1a0936bfc95d172077b3bdd23%2Findex.m3u8&e=1795370239&sig=b6VGo7zN6klC_Ep27By4b79BBe8RjDBfYAhojlBvFUI|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TNT Sports 1 (GB)": "https://hls.lshls.st/secure_hls.php?path=9ae3de4b40a6ecfdd03fc90be82c4535%2Findex.m3u8&e=1795370544&sig=5mlsKNrQt68UY0x2V8BokLxN3AIz3blOkW3zwf36Ceg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "Sport TV5 (PT)": "https://hls.lshls.st/secure_hls.php?path=b4f3dde1a0936bfc95d172077b3bdd23%2Findex.m3u8&e=1795370539&sig=txFesDoI9hKBbIpbOe4pK1q-co0rddCaMAVs4FF29dI|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3606,8 +3546,8 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "TNT Sports 2 (GB)": "https://hls.lshls.st/secure_hls.php?path=f0e34dbfd8cd7a28da4a9cf3ad4b0fd3%2Findex.m3u8&e=1795370243&sig=ze9I-kg8jfvotymkN-XoV3IixnQARaAbXql0PSUuXXM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "Canal+ Sport (FR)": "https://hls.lshls.st/secure_hls.php?path=018dc4baf7d903a8b159f6e54f1dac55%2Findex.m3u8&e=1795370243&sig=J37NokDLQMa-mpiF-2sVakFsKzHWghUVTKeU9daAjnM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TNT Sports 2 (GB)": "https://hls.lshls.st/secure_hls.php?path=f0e34dbfd8cd7a28da4a9cf3ad4b0fd3%2Findex.m3u8&e=1795370543&sig=hwTlBHDvPfQgzfG1DQfhM9BddPhG2jZj53A8U6_Gpuo|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "Canal+ Sport (FR)": "https://hls.lshls.st/secure_hls.php?path=018dc4baf7d903a8b159f6e54f1dac55%2Findex.m3u8&e=1795370540&sig=F1auxZJEc8AF5_RfOzq0KRGixohuOk-p1Mcf3HEXuMc|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3622,9 +3562,9 @@
       "cover_image": "https://images.fotmob.com/image_resources/logo/teamlogo/9847.png",
       "is_free": false,
       "stream_url_alpha": {
-        "TNT Sports 4 (GB)": "https://hls.lshls.st/secure_hls.php?path=58c61f4546642149cd5f3f5b0c508dff%2Findex.m3u8&e=1795370239&sig=QXwFaSD7B6rt4dpxh1be_HaKEtF3h-O8m8mWO11iptQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "Amazon Prime Video (IT)": "https://hls.lshls.st/secure_hls.php?path=d6eae01bed513495f81eb45cc68216af%2Findex.m3u8&e=1795370244&sig=hg-XZPo57DokAl7lIsTwnWjYYfCR8XPZpvqyPD24ZiM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "Canal+ (FR)": "https://hls.lshls.st/secure_hls.php?path=c31eab77556044c97292125cfbfa2364%2Findex.m3u8&e=1795370240&sig=guF5hluYAPkQJT1MKCLycix4HvUcjhBpmREtg8vpcmM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "TNT Sports 4 (GB)": "https://hls.lshls.st/secure_hls.php?path=58c61f4546642149cd5f3f5b0c508dff%2Findex.m3u8&e=1795370539&sig=zPmFW0_oI1ES-46WdcI9uMmNCJLx-l_vNvMxJQlUIv0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "Amazon Prime Video (IT)": "https://hls.lshls.st/secure_hls.php?path=d6eae01bed513495f81eb45cc68216af%2Findex.m3u8&e=1795370541&sig=sAzeIDaEBAIPZv9AFHgNMecIpGTfsR4apEBLuUOAQuc|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "Canal+ (FR)": "https://hls.lshls.st/secure_hls.php?path=c31eab77556044c97292125cfbfa2364%2Findex.m3u8&e=1795370538&sig=U_dG_aYJJIE7ZGkSd4xovTJ4TxypxJjfMb0b8eh_zEY|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3639,9 +3579,9 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Paramount+ (US)": "https://hls.lshls.st/secure_hls.php?path=634a1c2817f51944e01c462d32db815f%2Findex.m3u8&e=1795370239&sig=YR1ZE8TAdWd-h0iBa6M5RMKbiup5FhXRyw4CMLt_qRg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "SRF zwei (DE)": "https://hls.lshls.st/secure_hls.php?path=7bb9c8db145ddbf8b75a8f98223221b4%2Findex.m3u8&e=1795370239&sig=VTl7zK1cFSOEMICrungeHYdGSRiDGKH6qXATdAl1SCc|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "Sky Sport Uno (IT)": "https://hls.lshls.st/secure_hls.php?path=d7bb70bbe1dafb9cbec7469b899bee63%2Findex.m3u8&e=1795370245&sig=9pbQCKU8CWGgI2tfUhZt6VAbYPQY2oUyoIGIHqKU4Iw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Paramount+ (US)": "https://hls.lshls.st/secure_hls.php?path=634a1c2817f51944e01c462d32db815f%2Findex.m3u8&e=1795370538&sig=j2oM0E5vto9A6gO63J_KYtQ7V-0oELtSsK2dpYbwS5A|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "SRF zwei (DE)": "https://hls.lshls.st/secure_hls.php?path=7bb9c8db145ddbf8b75a8f98223221b4%2Findex.m3u8&e=1795370539&sig=04Cozst4vXLehmvdRo2OiwBdDWp3aTGxM0-Y-hzxhxw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "Sky Sport Uno (IT)": "https://hls.lshls.st/secure_hls.php?path=d7bb70bbe1dafb9cbec7469b899bee63%2Findex.m3u8&e=1795370538&sig=-W1UEU2qtJTlW0uQqmEOjxhh0ms7HtcDqz89xRkc7rM|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3656,7 +3596,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Paramount+ (US)": "https://hls.lshls.st/secure_hls.php?path=01dcaf29f853f0ca15226bbdb28b5e82%2Findex.m3u8&e=1795370241&sig=KtTF8zyx5FHFn9BePLxI4jzqICALpfqmrd0KIITWt70|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Paramount+ (US)": "https://hls.lshls.st/secure_hls.php?path=01dcaf29f853f0ca15226bbdb28b5e82%2Findex.m3u8&e=1795370539&sig=T7yBhEhFXJol7RaoB7tDa4sv3z4dZ9-qzfII4YqMmyQ|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3671,8 +3611,8 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Paramount+ (US)": "https://hls.lshls.st/secure_hls.php?path=550c2debe1b5d60f7c00801422ff9c2e%2Findex.m3u8&e=1795370240&sig=mZqlMAg05u0OjhXAGUFtMs7ay2GeKxFHP7OFqCp3hnA|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
-        "Canal+ Foot (FR)": "https://hls.lshls.st/secure_hls.php?path=131aad542969f2e906086706986d6698%2Findex.m3u8&e=1795370240&sig=gH-YdOcf7MYQky4etPyLmBJB7499czRB8NS7yc15Qs8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Paramount+ (US)": "https://hls.lshls.st/secure_hls.php?path=550c2debe1b5d60f7c00801422ff9c2e%2Findex.m3u8&e=1795370537&sig=kT8wT3iNs2-HkJ-ZS48V5o0bo9XhuGxywMW3jgNUWro|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st",
+        "Canal+ Foot (FR)": "https://hls.lshls.st/secure_hls.php?path=131aad542969f2e906086706986d6698%2Findex.m3u8&e=1795370543&sig=q7aT8AEXzuxfGEpRrn5PldemNCVNpsb_AWlLLoNpUhg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3687,7 +3627,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "M+ Liga de Campeones 2 (ES)": "https://hls.lshls.st/secure_hls.php?path=9b49004040ccf64adf108ab4e17a68a6%2Findex.m3u8&e=1795370241&sig=4B8_wzDqAtJ0EbVVTQlzFvTF25Oz89UtUKVxrafRbkk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "M+ Liga de Campeones 2 (ES)": "https://hls.lshls.st/secure_hls.php?path=9b49004040ccf64adf108ab4e17a68a6%2Findex.m3u8&e=1795370540&sig=VKpA77gdULDjCzaYZ5Xk7YqLFRWw6eMSOz2RJ_PQVXg|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
@@ -3702,7 +3642,7 @@
       "cover_image": "https://i.ibb.co.com/JwDc9ckh/Football.png",
       "is_free": false,
       "stream_url_alpha": {
-        "Sky Sports Football (GB)": "https://hls.lshls.st/secure_hls.php?path=7b145bbd4bf206f377e4cb4a72e4ab03%2Findex.m3u8&e=1795370242&sig=GjtWsBrUNBop4X_m6uPAPOgxknAFe8Qb2W-GavEPn94|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
+        "Sky Sports Football (GB)": "https://hls.lshls.st/secure_hls.php?path=7b145bbd4bf206f377e4cb4a72e4ab03%2Findex.m3u8&e=1795370542&sig=bQcCXg164l7h-F6M6TjevxVMzmHUEyowaxarPdWkK9o|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://matchli.st/&Origin=https://matchli.st"
       }
     },
     {
