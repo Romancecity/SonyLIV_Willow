@@ -5,9 +5,9 @@
   "website": "https://anamul.pages.dev",
   "work_place": "https://ireentechnology.netlify.app",
   "version": "1.0",
-  "channels_amount": 228,
-  "live_count": 21,
-  "last_update": "06:29 PM 28-11-2026",
+  "channels_amount": 229,
+  "live_count": 22,
+  "last_update": "06:31 PM 28-11-2026",
   "events": [
     {
       "match_id": "B0HNTGNHPD",
@@ -428,13 +428,15 @@
       "title": "Betis vs Rayo Vallecano",
       "sport": "Football",
       "sub_category": "LaLiga 2026/27",
-      "status": "UPCOMING",
+      "status": "LIVE",
       "start_time_bst": "Nov 28, 2026, 07:00:00 PM",
       "time": "Nov 28, 2026, 07:00:00 PM",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1795680456540x302.jpg",
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1795680456540x302.jpg",
       "is_free": false,
-      "stream_url_alpha": {}
+      "stream_url_alpha": {
+        "Server 1": "https://t-prod-bd.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8"
+      }
     },
     {
       "match_id": "saudi-pro-league--al-ettifaq-vs-al-hilal-live",
@@ -615,6 +617,19 @@
       "time": "Nov 29, 2026, 02:15:00 PM",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1794813359540x302.jpg",
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1794813359540x302.jpg",
+      "is_free": false,
+      "stream_url_alpha": {}
+    },
+    {
+      "match_id": "laliga--valencia-vs-osasuna-live",
+      "title": "Valencia vs Osasuna",
+      "sport": "Football",
+      "sub_category": "LaLiga 2026/27",
+      "status": "UPCOMING",
+      "start_time_bst": "Nov 29, 2026, 07:00:00 PM",
+      "time": "Nov 29, 2026, 07:00:00 PM",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1795682269540x302.jpg",
+      "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1795682269540x302.jpg",
       "is_free": false,
       "stream_url_alpha": {}
     },
